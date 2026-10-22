@@ -17,3 +17,7 @@ user-data*/
 # Sensitive filenames; the desktop subfolder allowlists reviewed status-only artifacts.
 *credential*
 *secret*
+
+# Explicitly reviewed redacted request and value-free safety report.
+!browser-benchmarks/evidence/original-github/agents/sai/request-without-credentials.json
+!verification/exact-secret-scan.json
