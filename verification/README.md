@@ -7,3 +7,7 @@ Run `python verification/scripts/validate_package.py` from the repository root f
 Desktop graders and 21 disposable/mock cases remain in desktop-benchmarks/scripts and desktop-benchmarks/verification. They do not perform the evaluated task. The saved screenshots and GUI observations support required workflow checks; a model’s own completion claim alone does not.
 
 Sanitized logs, original responses and configurations stay adjacent within agent-owned browser evidence directories or desktop logs. Full local raw sources, private account/control metadata and omitted bulk documentation remain outside this publication. No real keys, cookies, browser profiles, account dumps or private endpoint addresses should be included. The publication safety scan also checks Git-history blob contents before any push.
+
+## TinyFish form follow-up — 22 October 2026
+
+[Offline follow-up grader](../browser-benchmarks/reruns/tinyfish-form-2026-10-22/verify_followup.py) checks three separate attempts, exact prompts, independent observations, retained captures and cost deltas without provider requests. It regrades manually reviewed screenshot observations; it is not automated image recognition. [Current-key exact-value audit](tinyfish-followup-safety.json) and [visual review](tinyfish-followup-review.json) supplement the preserved earlier audits. Package validation now includes this separate cohort while retaining historical browser and desktop checks.

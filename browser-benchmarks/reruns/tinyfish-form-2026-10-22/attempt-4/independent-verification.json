@@ -1,0 +1,37 @@
+{
+  "outcome": "partially_successful",
+  "strict_score_confirmed": 8,
+  "total_checks": 10,
+  "correct_fields_confirmed": [
+    "firstName",
+    "lastName",
+    "email",
+    "phone",
+    "company",
+    "jobTitle",
+    "country",
+    "contactMethod"
+  ],
+  "incorrect_fields_confirmed": [
+    "message"
+  ],
+  "unverified_fields": [
+    "newsletter"
+  ],
+  "message_observed": "This is a benchmark.",
+  "message_expected": "This is a benchmark. Do not submit.",
+  "sensitivity_score_confirmed": 9,
+  "sensitivity_unverified_fields": [
+    "newsletter"
+  ],
+  "full_task_completion_verified": false,
+  "non_submission_constraint": "supported by final HTML status and complete captured trace; no submission or reload action recorded",
+  "success_claim": "All fields filled/verified claimed by TinyFish; strict full success not substantiated. Message claim matches actual short text; newsletter claim lacks independent confirmation.",
+  "visible_omissions_from_original_repeated": false,
+  "reference": "../expected-state.json",
+  "observations": "gui-observations.json",
+  "verification_data_sent_to_agent": false,
+  "final_screenshot": "screenshots/screenshot-011.jpg",
+  "final_html": "html-captures/011.html",
+  "scoring_caveat": "Ambiguous prompt boundary makes shorter message a reasonable alternative reading. Strict scoring unchanged; sensitivity still cannot award newsletter. Unverified is not confirmed incorrect."
+}

@@ -1,0 +1,17 @@
+{
+  "agent": "tinyfish",
+  "task": "test-3-form",
+  "attempt": 3,
+  "max_seconds_from_submission": 600,
+  "fresh_profile_requested": true,
+  "use_profile": false,
+  "use_vault": false,
+  "browser_profile": "lite",
+  "proxy_requested": false,
+  "default_step_limit_documented": 150,
+  "extra_read_only_capture_requested": true,
+  "prompt_sha256": "1b237d3e106992c3cdc5e1e866b19f7e2d873d04937f6cbd2d58649a67d2f155",
+  "expected_answers_provided": false,
+  "automatic_benchmark_restarts": 0,
+  "adapter_source_sha256": "d91c52b4d95d6d9fbdd447b930e4077c32846acfb21a9057e80183433317f643"
+}

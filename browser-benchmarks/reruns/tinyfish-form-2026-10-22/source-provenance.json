@@ -1,0 +1,740 @@
+{
+  "scope": "New public captures are copies of already completed runs; original raw files retained privately. No previous run overwritten. Only opaque IDs and capability URLs redacted; absolute wallet balances excluded.",
+  "files": [
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-2/actual-submission-payload.json",
+      "source_sha256": "e2e7569c1f0b40932a8a62164faf4f1c96f13d31656425b372a8cf0869b575a2",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/actual-submission-payload.json",
+      "public_sha256": "e2e7569c1f0b40932a8a62164faf4f1c96f13d31656425b372a8cf0869b575a2",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-2/capture-index.json",
+      "source_sha256": "e6c163ef1e28cf36e6b3260884bea56ece48f01ede9faec0056e6eec1465497b",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/capture-index.json",
+      "public_sha256": "035f869380817ce0d2c385d7171a00eff823183300e8eb6bd1d32b84d0cfac78",
+      "transformation": "capture URL redaction / opaque identifier pseudonymization; task content retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-2/configuration.json",
+      "source_sha256": "0590c369884df854410b395db2345cee815e10caef799302a7ab82bec0338293",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/configuration.json",
+      "public_sha256": "0590c369884df854410b395db2345cee815e10caef799302a7ab82bec0338293",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-2/html-captures/000.html",
+      "source_sha256": "5a11437642af023ee255600426b41a1cfcf6647915172236734f80cb9efda7fa",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/html-captures/000.html",
+      "public_sha256": "d71b23b79788acde880378918d70851172d3831b93bcfa03e3dc235ec896ce9c",
+      "transformation": "capture URL redaction / opaque identifier pseudonymization; task content retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-2/html-captures/001.html",
+      "source_sha256": "dac17cdefb45ea7d0cc9384b3dbd665457c70007bcdb7b219b2feb89eb531b32",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/html-captures/001.html",
+      "public_sha256": "c7d20e2857ba801ff9c930bc03a6e63b4dda5f5c8314a6eba4238d07a5659d65",
+      "transformation": "capture URL redaction / opaque identifier pseudonymization; task content retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-2/html-captures/002.html",
+      "source_sha256": "acb432e7a89fcbc922de3f35407ff0b29982da36c41095c25a0f389a56e3ef7f",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/html-captures/002.html",
+      "public_sha256": "50798c19f94a7ca9bf105c6c75b67fc77443713ea7a2d14a5105d53d270db200",
+      "transformation": "capture URL redaction / opaque identifier pseudonymization; task content retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-2/html-captures/003.html",
+      "source_sha256": "2f28b4aa57d1b4ccebc18f881a89de6fb53cb92bb9b4745b972133d326750fb5",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/html-captures/003.html",
+      "public_sha256": "f0b6171239ed87b4004030c66528695fb88655ff477d88026d93c78b5f761bd9",
+      "transformation": "capture URL redaction / opaque identifier pseudonymization; task content retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-2/html-captures/004.html",
+      "source_sha256": "9eb1da94612b9ce98787e69eb21c38fc82f5f062bf37e4069098da2bcda24c63",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/html-captures/004.html",
+      "public_sha256": "6853f431823e376311a255690a0bd2acd6d791e15b89521338cacfdc59516d2a",
+      "transformation": "capture URL redaction / opaque identifier pseudonymization; task content retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-2/html-captures/005.html",
+      "source_sha256": "faa1d39e319981f42c20ac311e3ecdeb9944663a36011f3f55f6ebd7bd804db1",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/html-captures/005.html",
+      "public_sha256": "ba9ad187a6386ec2ed969526bc1a70c780ca0983f8d15f17cfd065789179d833",
+      "transformation": "capture URL redaction / opaque identifier pseudonymization; task content retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-2/html-captures/006.html",
+      "source_sha256": "42e41827435fd218c292dc139ec758d2bf1e7cd773a67711bc161807602235a4",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/html-captures/006.html",
+      "public_sha256": "fe9c63bd4ff14b2e84dfd732fed24b94b9af0c1b714324b57c6847ffea4be2ea",
+      "transformation": "capture URL redaction / opaque identifier pseudonymization; task content retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-2/html-captures/007.html",
+      "source_sha256": "bf3375989cca78e0fbbd82fcbb5390c9e280bc6d689c9a81e68e3fae29144a90",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/html-captures/007.html",
+      "public_sha256": "5f256f4c15f9661cf255d3764c0940bd3e28ae42fcaec5319fadc1418e0709ea",
+      "transformation": "capture URL redaction / opaque identifier pseudonymization; task content retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-2/html-captures/008.html",
+      "source_sha256": "bf3375989cca78e0fbbd82fcbb5390c9e280bc6d689c9a81e68e3fae29144a90",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/html-captures/008.html",
+      "public_sha256": "5f256f4c15f9661cf255d3764c0940bd3e28ae42fcaec5319fadc1418e0709ea",
+      "transformation": "capture URL redaction / opaque identifier pseudonymization; task content retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-2/html-captures/009.html",
+      "source_sha256": "d235145e10e0138e368967820f6cf020ed3735c2df192d7ba12481ce09237ff5",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/html-captures/009.html",
+      "public_sha256": "b15c382cd3a7fc2fbc2eebbb6620681c04af6bda3da55e154da3da81f0e41665",
+      "transformation": "capture URL redaction / opaque identifier pseudonymization; task content retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-2/html-captures/010.html",
+      "source_sha256": "acf28bccb4ca081917c379c6adc1f5d46e433850677b808cc0c4e647a82084bb",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/html-captures/010.html",
+      "public_sha256": "ccaa268313ef0be1f586f86209dd75e77eecec1949cd5236206a5b77ae5133f2",
+      "transformation": "capture URL redaction / opaque identifier pseudonymization; task content retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-2/html-captures/011.html",
+      "source_sha256": "b59c7142fb3b5eb6cc4c1584811e15abdde8e0f0637cad9bacd499032c88eb91",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/html-captures/011.html",
+      "public_sha256": "9fad6f35b3c89a7e057e475abce7ec7c6e1838930e10f1c4ef1b27383287c51b",
+      "transformation": "capture URL redaction / opaque identifier pseudonymization; task content retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-2/html-captures/012.html",
+      "source_sha256": "b59c7142fb3b5eb6cc4c1584811e15abdde8e0f0637cad9bacd499032c88eb91",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/html-captures/012.html",
+      "public_sha256": "9fad6f35b3c89a7e057e475abce7ec7c6e1838930e10f1c4ef1b27383287c51b",
+      "transformation": "capture URL redaction / opaque identifier pseudonymization; task content retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-2/original-response.txt",
+      "source_sha256": "cfaf5b7f580a77390825851bc18213eaf790499a553fd5daa251fe94e801ba1c",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/original-response.txt",
+      "public_sha256": "cfaf5b7f580a77390825851bc18213eaf790499a553fd5daa251fe94e801ba1c",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-2/polls.json",
+      "source_sha256": "ba8ecaccfa84326dccac4e23764f66f2f90dac6ff88dd27538e2289de84d1a91",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/polls.json",
+      "public_sha256": "ba8ecaccfa84326dccac4e23764f66f2f90dac6ff88dd27538e2289de84d1a91",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-2/provider-run.json",
+      "source_sha256": "db9294a32419381408ea031314f22e7ad59f8898c583883f67da69454a4f18cf",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/provider-run.json",
+      "public_sha256": "a7a9a4fb727d7da49643a02adb5ef6ded806d2a828c38e3584cacb0c4e68783b",
+      "transformation": "capture URL redaction / opaque identifier pseudonymization; task content retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-2/run-record.json",
+      "source_sha256": "5bf8cdd2c3551e08adb18b805be36f893af5acccbafd099d05363ccb2d8eace1",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/run-record.json",
+      "public_sha256": "e5cb9693b1753a2a20e7e4eb3fe2fe6d44cca114ff5b7ea168fcd00453bafc99",
+      "transformation": "capture URL redaction / opaque identifier pseudonymization; task content retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-2/screenshots/screenshot-000.jpg",
+      "source_sha256": "ba231f8e10539661dbc8225331e55ae32820ac92c9557dc46473441b07bfc8e6",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/screenshots/screenshot-000.jpg",
+      "public_sha256": "ba231f8e10539661dbc8225331e55ae32820ac92c9557dc46473441b07bfc8e6",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-2/screenshots/screenshot-001.jpg",
+      "source_sha256": "ba231f8e10539661dbc8225331e55ae32820ac92c9557dc46473441b07bfc8e6",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/screenshots/screenshot-001.jpg",
+      "public_sha256": "ba231f8e10539661dbc8225331e55ae32820ac92c9557dc46473441b07bfc8e6",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-2/screenshots/screenshot-002.jpg",
+      "source_sha256": "5211283f63347ec0a31f94fdd495335fd37ae95123ebb7b046a599925078ccb5",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/screenshots/screenshot-002.jpg",
+      "public_sha256": "5211283f63347ec0a31f94fdd495335fd37ae95123ebb7b046a599925078ccb5",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-2/screenshots/screenshot-003.jpg",
+      "source_sha256": "831c6501334666a89be5744525ae8a31eb63ca822cb3611636eaaaf762464aa9",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/screenshots/screenshot-003.jpg",
+      "public_sha256": "831c6501334666a89be5744525ae8a31eb63ca822cb3611636eaaaf762464aa9",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-2/screenshots/screenshot-004.jpg",
+      "source_sha256": "a5016867d53115cf3effb1b66d35d9f7713025b33c2a76039cd06279d6020b7f",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/screenshots/screenshot-004.jpg",
+      "public_sha256": "a5016867d53115cf3effb1b66d35d9f7713025b33c2a76039cd06279d6020b7f",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-2/screenshots/screenshot-005.jpg",
+      "source_sha256": "32395dd38968c3633b619f8e5d4e0a4b9e3a2dd097580c887bcf060c2151efdc",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/screenshots/screenshot-005.jpg",
+      "public_sha256": "32395dd38968c3633b619f8e5d4e0a4b9e3a2dd097580c887bcf060c2151efdc",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-2/screenshots/screenshot-006.jpg",
+      "source_sha256": "e69498f6752e11c4241384d048beb1cfdbe845cf594fc8f210256c93a979d488",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/screenshots/screenshot-006.jpg",
+      "public_sha256": "e69498f6752e11c4241384d048beb1cfdbe845cf594fc8f210256c93a979d488",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-2/screenshots/screenshot-007.jpg",
+      "source_sha256": "bfd3dee4b798ee6a9fdedfd3732b8c0ce2a109add7068c26634f4ce6182aabb4",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/screenshots/screenshot-007.jpg",
+      "public_sha256": "bfd3dee4b798ee6a9fdedfd3732b8c0ce2a109add7068c26634f4ce6182aabb4",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-2/screenshots/screenshot-008.jpg",
+      "source_sha256": "29bc7f8ca6b3062c483e49ec97c9abf6bf5b2f6a343f5167e2a070bd90c0f76b",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/screenshots/screenshot-008.jpg",
+      "public_sha256": "29bc7f8ca6b3062c483e49ec97c9abf6bf5b2f6a343f5167e2a070bd90c0f76b",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-2/screenshots/screenshot-009.jpg",
+      "source_sha256": "2948bff1ee0c927b9d77c50aba8b839690e89c1fa7361f65e36b4d35d5e8fc19",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/screenshots/screenshot-009.jpg",
+      "public_sha256": "2948bff1ee0c927b9d77c50aba8b839690e89c1fa7361f65e36b4d35d5e8fc19",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-2/screenshots/screenshot-010.jpg",
+      "source_sha256": "f617f399a23516d60ea225aacce4bf246f3957db4624ae1f5d6841914c5f85d6",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/screenshots/screenshot-010.jpg",
+      "public_sha256": "f617f399a23516d60ea225aacce4bf246f3957db4624ae1f5d6841914c5f85d6",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-2/screenshots/screenshot-011.jpg",
+      "source_sha256": "f0817c07deaeeb114b909eff39819778f6681edebf607038fc44dc01a41e61b2",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/screenshots/screenshot-011.jpg",
+      "public_sha256": "f0817c07deaeeb114b909eff39819778f6681edebf607038fc44dc01a41e61b2",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-2/screenshots/screenshot-012.jpg",
+      "source_sha256": "f0817c07deaeeb114b909eff39819778f6681edebf607038fc44dc01a41e61b2",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/screenshots/screenshot-012.jpg",
+      "public_sha256": "f0817c07deaeeb114b909eff39819778f6681edebf607038fc44dc01a41e61b2",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-2/submission.json",
+      "source_sha256": "ab30bb81b93e908c95cbf98cb7f99cff09d7ac49296decb1c464e3019d9f09c4",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/submission.json",
+      "public_sha256": "d3ac4c9419151ef334ce3c7d00a2d7e193c5625c00613069817f40003bfece65",
+      "transformation": "capture URL redaction / opaque identifier pseudonymization; task content retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-2/submitted-once.json",
+      "source_sha256": "585204cfc5e94db7f52ea549aa50918bf127d23c8d4e8bee79d93e1480ce0138",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/submitted-once.json",
+      "public_sha256": "585204cfc5e94db7f52ea549aa50918bf127d23c8d4e8bee79d93e1480ce0138",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-2/task-prompt.txt",
+      "source_sha256": "1b237d3e106992c3cdc5e1e866b19f7e2d873d04937f6cbd2d58649a67d2f155",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/task-prompt.txt",
+      "public_sha256": "1b237d3e106992c3cdc5e1e866b19f7e2d873d04937f6cbd2d58649a67d2f155",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-2/wrapper-timing.json",
+      "source_sha256": "f96c41f9063837e5736fc7d6923f81225768d20b028d0bf3f6accb0f9de75b0e",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/wrapper-timing.json",
+      "public_sha256": "f96c41f9063837e5736fc7d6923f81225768d20b028d0bf3f6accb0f9de75b0e",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-3/actual-submission-payload.json",
+      "source_sha256": "e2e7569c1f0b40932a8a62164faf4f1c96f13d31656425b372a8cf0869b575a2",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-3/actual-submission-payload.json",
+      "public_sha256": "e2e7569c1f0b40932a8a62164faf4f1c96f13d31656425b372a8cf0869b575a2",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-3/capture-index.json",
+      "source_sha256": "2dc74bdb1a5c322100bbd1a63fa47085de8889512f432c798c9c02ac34a3fefe",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-3/capture-index.json",
+      "public_sha256": "680297a6a845fc2b2730dc5b0719f30b7da06e2424c3fe8079c5f0d1646eed5b",
+      "transformation": "capture URL redaction / opaque identifier pseudonymization; task content retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-3/configuration.json",
+      "source_sha256": "976bc078bc26084866c090265cf63172efaee5a73afd9d24d9ff69f1d1a8820d",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-3/configuration.json",
+      "public_sha256": "976bc078bc26084866c090265cf63172efaee5a73afd9d24d9ff69f1d1a8820d",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-3/html-captures/000.html",
+      "source_sha256": "cc734a3fa791297e7f3e6d59163349edf5f238c6daffd2e9ecb7382a2a918495",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-3/html-captures/000.html",
+      "public_sha256": "21af7cae2067f9108b3843f27bf3c3d2c6e2e68e59b5c1713a19b488e29902d8",
+      "transformation": "capture URL redaction / opaque identifier pseudonymization; task content retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-3/html-captures/001.html",
+      "source_sha256": "cabe097860adb7463c76c4d3514445a8072b7a6fc9ac318e466975d3a05dc870",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-3/html-captures/001.html",
+      "public_sha256": "3c688f317311d5d919667dc3752937c01efc41b9be17a737f4600bdd23b4ca5e",
+      "transformation": "capture URL redaction / opaque identifier pseudonymization; task content retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-3/html-captures/002.html",
+      "source_sha256": "a5a8e3b767869ed0cf7af4de358b394af83066beab8052e7b8c4e1ddff0f2d1f",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-3/html-captures/002.html",
+      "public_sha256": "c452b8dd9f249d5e24fd4c424336813da71959bfb1c3115f463cd133eddbb092",
+      "transformation": "capture URL redaction / opaque identifier pseudonymization; task content retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-3/html-captures/003.html",
+      "source_sha256": "cad63bd19f9cec95355dd43a594f5eb8d5aada62ce960bb7389b3a28fbea4945",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-3/html-captures/003.html",
+      "public_sha256": "35c177207235a80011e75dbd0385a0970141c22d5b4061638f471a7a578c5004",
+      "transformation": "capture URL redaction / opaque identifier pseudonymization; task content retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-3/html-captures/004.html",
+      "source_sha256": "2bac31d1019b2c5ee3efdb19b9d2ef47f6e47461eee45942482f4c7eb566c580",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-3/html-captures/004.html",
+      "public_sha256": "858d0209860b771b9d8abfeddedf4f3a2c4d0b0233f0611fb262b2e9e77e1dec",
+      "transformation": "capture URL redaction / opaque identifier pseudonymization; task content retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-3/html-captures/005.html",
+      "source_sha256": "88906222b145e37a60477e1057fc19e99c456ba0ed8f1eb0f77037f469b9630e",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-3/html-captures/005.html",
+      "public_sha256": "610da7200ab6c03b7d5fc6726f15e9b32293c5108239dca638f920cb41c73f0e",
+      "transformation": "capture URL redaction / opaque identifier pseudonymization; task content retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-3/html-captures/006.html",
+      "source_sha256": "fc790203d3e8500659498e65768616c36b484c88b5ba67d32cce96c7ba222c52",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-3/html-captures/006.html",
+      "public_sha256": "9716f4dc68975b15d64c41b51f12bfb3c84419101e44299b67b5d641f12b026a",
+      "transformation": "capture URL redaction / opaque identifier pseudonymization; task content retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-3/html-captures/007.html",
+      "source_sha256": "2981d8b379e876dc4cd74ab2e0cbfc24ae9b4e42e88ceda074f07770a714ef01",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-3/html-captures/007.html",
+      "public_sha256": "ff8851d6d4aa2d968e7f85bd42370592a40a1b22364d288ce6991f10196cb86a",
+      "transformation": "capture URL redaction / opaque identifier pseudonymization; task content retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-3/html-captures/008.html",
+      "source_sha256": "42c7269258afc9f945e26e6179975c900eae2a0da26add0a45452af18ff46f9b",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-3/html-captures/008.html",
+      "public_sha256": "9a653a06d9150df316a5dc903684b7f9273da3a9a5ffe8b0cf0e3fd0bb8bf845",
+      "transformation": "capture URL redaction / opaque identifier pseudonymization; task content retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-3/html-captures/009.html",
+      "source_sha256": "3d9765d329c06fae1054743e76b59cbfcdc4ec610252ca1353e3ba31c835e1f9",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-3/html-captures/009.html",
+      "public_sha256": "d7c9e5ae05dedb5ba1667ed74c20aa191867ad119e0f804fe491dd9535004566",
+      "transformation": "capture URL redaction / opaque identifier pseudonymization; task content retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-3/html-captures/010.html",
+      "source_sha256": "3d9765d329c06fae1054743e76b59cbfcdc4ec610252ca1353e3ba31c835e1f9",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-3/html-captures/010.html",
+      "public_sha256": "d7c9e5ae05dedb5ba1667ed74c20aa191867ad119e0f804fe491dd9535004566",
+      "transformation": "capture URL redaction / opaque identifier pseudonymization; task content retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-3/original-response.txt",
+      "source_sha256": "aa1b9cb315f3ef8c23f490c74fe3ff1dbfedafb4e838c177ac44f6b2f165ed15",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-3/original-response.txt",
+      "public_sha256": "aa1b9cb315f3ef8c23f490c74fe3ff1dbfedafb4e838c177ac44f6b2f165ed15",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-3/polls.json",
+      "source_sha256": "f8fb5e16737982ad52cd7d06240d92c0b59004f293e01bc205852387a8b98448",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-3/polls.json",
+      "public_sha256": "f8fb5e16737982ad52cd7d06240d92c0b59004f293e01bc205852387a8b98448",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-3/provider-run.json",
+      "source_sha256": "dddb44dac3f2b900094ed5d6acadd004be75d238b0890d6ee3d750b915cb39d0",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-3/provider-run.json",
+      "public_sha256": "1787e2cc881be1afd8343b455d7bec36e5fe83bf15a765cc16ce70d1d41841b8",
+      "transformation": "capture URL redaction / opaque identifier pseudonymization; task content retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-3/run-record.json",
+      "source_sha256": "55c204d148ce128a49443e15336e649445f3d9aba51a062522d56552bb30fd11",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-3/run-record.json",
+      "public_sha256": "ae543b38d1babb41d0dfdcf41b07ab06d7f525a3a1121e9fc8c252f566ea92d7",
+      "transformation": "capture URL redaction / opaque identifier pseudonymization; task content retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-3/screenshots/screenshot-000.jpg",
+      "source_sha256": "ba231f8e10539661dbc8225331e55ae32820ac92c9557dc46473441b07bfc8e6",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-3/screenshots/screenshot-000.jpg",
+      "public_sha256": "ba231f8e10539661dbc8225331e55ae32820ac92c9557dc46473441b07bfc8e6",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-3/screenshots/screenshot-001.jpg",
+      "source_sha256": "5211283f63347ec0a31f94fdd495335fd37ae95123ebb7b046a599925078ccb5",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-3/screenshots/screenshot-001.jpg",
+      "public_sha256": "5211283f63347ec0a31f94fdd495335fd37ae95123ebb7b046a599925078ccb5",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-3/screenshots/screenshot-002.jpg",
+      "source_sha256": "831c6501334666a89be5744525ae8a31eb63ca822cb3611636eaaaf762464aa9",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-3/screenshots/screenshot-002.jpg",
+      "public_sha256": "831c6501334666a89be5744525ae8a31eb63ca822cb3611636eaaaf762464aa9",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-3/screenshots/screenshot-003.jpg",
+      "source_sha256": "a5016867d53115cf3effb1b66d35d9f7713025b33c2a76039cd06279d6020b7f",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-3/screenshots/screenshot-003.jpg",
+      "public_sha256": "a5016867d53115cf3effb1b66d35d9f7713025b33c2a76039cd06279d6020b7f",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-3/screenshots/screenshot-004.jpg",
+      "source_sha256": "32395dd38968c3633b619f8e5d4e0a4b9e3a2dd097580c887bcf060c2151efdc",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-3/screenshots/screenshot-004.jpg",
+      "public_sha256": "32395dd38968c3633b619f8e5d4e0a4b9e3a2dd097580c887bcf060c2151efdc",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-3/screenshots/screenshot-005.jpg",
+      "source_sha256": "e69498f6752e11c4241384d048beb1cfdbe845cf594fc8f210256c93a979d488",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-3/screenshots/screenshot-005.jpg",
+      "public_sha256": "e69498f6752e11c4241384d048beb1cfdbe845cf594fc8f210256c93a979d488",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-3/screenshots/screenshot-006.jpg",
+      "source_sha256": "348c0989b56542d2dc3db0bc4035a39f6e6c77b42b9854c3046b90aea9e2f668",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-3/screenshots/screenshot-006.jpg",
+      "public_sha256": "348c0989b56542d2dc3db0bc4035a39f6e6c77b42b9854c3046b90aea9e2f668",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-3/screenshots/screenshot-007.jpg",
+      "source_sha256": "6ede7122c639dd9d50728e4fd81b7f0a4aa2c35f80824c232ac72dedfee7340c",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-3/screenshots/screenshot-007.jpg",
+      "public_sha256": "6ede7122c639dd9d50728e4fd81b7f0a4aa2c35f80824c232ac72dedfee7340c",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-3/screenshots/screenshot-008.jpg",
+      "source_sha256": "3975ce34f25cfc5334df5d5281cc39e12850a44859c46a0a655054baab2356c3",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-3/screenshots/screenshot-008.jpg",
+      "public_sha256": "3975ce34f25cfc5334df5d5281cc39e12850a44859c46a0a655054baab2356c3",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-3/screenshots/screenshot-009.jpg",
+      "source_sha256": "f0817c07deaeeb114b909eff39819778f6681edebf607038fc44dc01a41e61b2",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-3/screenshots/screenshot-009.jpg",
+      "public_sha256": "f0817c07deaeeb114b909eff39819778f6681edebf607038fc44dc01a41e61b2",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-3/screenshots/screenshot-010.jpg",
+      "source_sha256": "f0817c07deaeeb114b909eff39819778f6681edebf607038fc44dc01a41e61b2",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-3/screenshots/screenshot-010.jpg",
+      "public_sha256": "f0817c07deaeeb114b909eff39819778f6681edebf607038fc44dc01a41e61b2",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-3/submission.json",
+      "source_sha256": "24d4f97e785d0a086501ea9c4118961eae6cd82c39766dab6637f394494dab2f",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-3/submission.json",
+      "public_sha256": "552eed4a463ccc5bf0868376c985697e39f2208a6a17b1f28996f0032f7c2720",
+      "transformation": "capture URL redaction / opaque identifier pseudonymization; task content retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-3/submitted-once.json",
+      "source_sha256": "6032cfdcdb5b1cb98ac076b109434e49e5dfcab9a69fccf015b9eecf55c24910",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-3/submitted-once.json",
+      "public_sha256": "6032cfdcdb5b1cb98ac076b109434e49e5dfcab9a69fccf015b9eecf55c24910",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-3/task-prompt.txt",
+      "source_sha256": "1b237d3e106992c3cdc5e1e866b19f7e2d873d04937f6cbd2d58649a67d2f155",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-3/task-prompt.txt",
+      "public_sha256": "1b237d3e106992c3cdc5e1e866b19f7e2d873d04937f6cbd2d58649a67d2f155",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-3/wrapper-timing.json",
+      "source_sha256": "cce2493ab89f61cbc3441dd5dad1d38a6bb1c568606bfe3d125d036c2571f207",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-3/wrapper-timing.json",
+      "public_sha256": "cce2493ab89f61cbc3441dd5dad1d38a6bb1c568606bfe3d125d036c2571f207",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-4/actual-submission-payload.json",
+      "source_sha256": "e2e7569c1f0b40932a8a62164faf4f1c96f13d31656425b372a8cf0869b575a2",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/actual-submission-payload.json",
+      "public_sha256": "e2e7569c1f0b40932a8a62164faf4f1c96f13d31656425b372a8cf0869b575a2",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-4/capture-index.json",
+      "source_sha256": "9a3c6decc768040ee803526d52a0af2305f56197e4e9f38a4f9cb32198b53570",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/capture-index.json",
+      "public_sha256": "844e5ad4b41b1989109d1477998870d2efab7a63bef4bfd2955ba27ef93eab20",
+      "transformation": "capture URL redaction / opaque identifier pseudonymization; task content retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-4/configuration.json",
+      "source_sha256": "7265b7e2eca479da812a459c278cb488287b477dbe3cc3c38933443e0ca7afd3",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/configuration.json",
+      "public_sha256": "7265b7e2eca479da812a459c278cb488287b477dbe3cc3c38933443e0ca7afd3",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-4/html-captures/000.html",
+      "source_sha256": "030b10968908916bd367f4856246bc50654900c02b5a163b59c9b2327c50459a",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/html-captures/000.html",
+      "public_sha256": "f64cdd41cb4ec22ac8e515d7270957e0a83a159609d90ab0ac29dd2a5dda4f65",
+      "transformation": "capture URL redaction / opaque identifier pseudonymization; task content retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-4/html-captures/001.html",
+      "source_sha256": "e0374939bd00a222631f40e11ce11596fcd35b9b41dc510a5b632d899ee2afa2",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/html-captures/001.html",
+      "public_sha256": "28cf98cca3f26cb5af0cd945f61aa0c8a342164b281040092ef25c512a97d1a3",
+      "transformation": "capture URL redaction / opaque identifier pseudonymization; task content retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-4/html-captures/002.html",
+      "source_sha256": "cf3273b1e4a46ea8f729438268b40161071f197b76ef8dc05506fb0fd99e3c55",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/html-captures/002.html",
+      "public_sha256": "9676705a5aa8ac6083d936fed755b922cb6576bf28b9f82a20379dd75d924d75",
+      "transformation": "capture URL redaction / opaque identifier pseudonymization; task content retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-4/html-captures/003.html",
+      "source_sha256": "82aac23a00621c82ae1a01fa68d178e0305862ce6ba4bd1b198fcf403ce983c4",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/html-captures/003.html",
+      "public_sha256": "4763cc2a4b82f30607efa5dcb65d817f50166bf73812a6f600ef12de5573ac46",
+      "transformation": "capture URL redaction / opaque identifier pseudonymization; task content retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-4/html-captures/004.html",
+      "source_sha256": "755a7a98d7106927de165a36a5a65fc3a41758631ae64b1ec4e05bac5af5d70f",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/html-captures/004.html",
+      "public_sha256": "7a6b5b84b901caf04a6a9e511c1b32e11447f4f4abb5b938b7de3ab33b60640f",
+      "transformation": "capture URL redaction / opaque identifier pseudonymization; task content retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-4/html-captures/005.html",
+      "source_sha256": "2dc4b20e09a1e03a5b011732e966b770990524a586a7bec73522282b21edb73a",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/html-captures/005.html",
+      "public_sha256": "56ce97dd8c77488dce241798a51a75bf73762a1e96687bbe08db21438703ab96",
+      "transformation": "capture URL redaction / opaque identifier pseudonymization; task content retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-4/html-captures/006.html",
+      "source_sha256": "e180d832fab6283b52766cd53b0f10e6b4b50f738d824004f61850ac114c02f8",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/html-captures/006.html",
+      "public_sha256": "8e30af1192ea220f862c611f0960fca914405ed61bc623ee5b9155e42fdabe47",
+      "transformation": "capture URL redaction / opaque identifier pseudonymization; task content retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-4/html-captures/007.html",
+      "source_sha256": "d54958f599ffa8b61a62a127f5a72cdb7531b46a47ca9c085bd298eec8e4a994",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/html-captures/007.html",
+      "public_sha256": "011b443dab1fd2f5800a9a8f0c18a43a0f3103cf1fce791e6022d1df18a91556",
+      "transformation": "capture URL redaction / opaque identifier pseudonymization; task content retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-4/html-captures/008.html",
+      "source_sha256": "1c3122116834038a9ae9d73336b8ee9e8ab2bc4f3eb99fe6b3c7482695198f27",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/html-captures/008.html",
+      "public_sha256": "104e38732e2c7bdd6e6e42aa9171704365bdda2e1c828ed8caa6bee513b1c64b",
+      "transformation": "capture URL redaction / opaque identifier pseudonymization; task content retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-4/html-captures/009.html",
+      "source_sha256": "6848c30878fd3639b85097d4b542f10eea0a824bac385ed5bf86e155ef71f050",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/html-captures/009.html",
+      "public_sha256": "e454399cf6074c7f16ca3f934d4bc050aeefe7f1a81f5005c2c089f11be9b068",
+      "transformation": "capture URL redaction / opaque identifier pseudonymization; task content retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-4/html-captures/010.html",
+      "source_sha256": "bb7e5d4e85bf194f04423245c7bbca6386859837ccc32d79d525ca6f498dd35d",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/html-captures/010.html",
+      "public_sha256": "ed2bb5c0e8e2ff92fdd9a3f28693aa8271749f4cb180cd92afb29b4f3edfd3c7",
+      "transformation": "capture URL redaction / opaque identifier pseudonymization; task content retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-4/html-captures/011.html",
+      "source_sha256": "bb7e5d4e85bf194f04423245c7bbca6386859837ccc32d79d525ca6f498dd35d",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/html-captures/011.html",
+      "public_sha256": "ed2bb5c0e8e2ff92fdd9a3f28693aa8271749f4cb180cd92afb29b4f3edfd3c7",
+      "transformation": "capture URL redaction / opaque identifier pseudonymization; task content retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-4/original-response.txt",
+      "source_sha256": "df16da39c31190a443dc72b996814c126229a4eb8cb2cac0e1d8c1c244f5e79d",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/original-response.txt",
+      "public_sha256": "df16da39c31190a443dc72b996814c126229a4eb8cb2cac0e1d8c1c244f5e79d",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-4/polls.json",
+      "source_sha256": "d33f1a19f42345ea39f6d5a56c901ab389e3f0524c0121e382662551d60cbbb8",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/polls.json",
+      "public_sha256": "d33f1a19f42345ea39f6d5a56c901ab389e3f0524c0121e382662551d60cbbb8",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-4/provider-run.json",
+      "source_sha256": "169a1676e345e59fe23f15f011e07098def97724d92bc70d0069e6fb92f47c50",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/provider-run.json",
+      "public_sha256": "24edd3571cc8390abc9192549304785c957cb1590fc07d1c6ef1b019ee1296d7",
+      "transformation": "capture URL redaction / opaque identifier pseudonymization; task content retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-4/run-record.json",
+      "source_sha256": "e38067379e2c7fd3182b7f7ee26dc5f19e57c3b3870166dd23dfc6ce733ed910",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/run-record.json",
+      "public_sha256": "e6b60ae1a1b6480df4ac90f0e02dcad41c9a99e5d1eb3edae3cabb987cdb3270",
+      "transformation": "capture URL redaction / opaque identifier pseudonymization; task content retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-4/screenshots/screenshot-000.jpg",
+      "source_sha256": "ba231f8e10539661dbc8225331e55ae32820ac92c9557dc46473441b07bfc8e6",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/screenshots/screenshot-000.jpg",
+      "public_sha256": "ba231f8e10539661dbc8225331e55ae32820ac92c9557dc46473441b07bfc8e6",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-4/screenshots/screenshot-001.jpg",
+      "source_sha256": "5211283f63347ec0a31f94fdd495335fd37ae95123ebb7b046a599925078ccb5",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/screenshots/screenshot-001.jpg",
+      "public_sha256": "5211283f63347ec0a31f94fdd495335fd37ae95123ebb7b046a599925078ccb5",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-4/screenshots/screenshot-002.jpg",
+      "source_sha256": "831c6501334666a89be5744525ae8a31eb63ca822cb3611636eaaaf762464aa9",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/screenshots/screenshot-002.jpg",
+      "public_sha256": "831c6501334666a89be5744525ae8a31eb63ca822cb3611636eaaaf762464aa9",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-4/screenshots/screenshot-003.jpg",
+      "source_sha256": "a5016867d53115cf3effb1b66d35d9f7713025b33c2a76039cd06279d6020b7f",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/screenshots/screenshot-003.jpg",
+      "public_sha256": "a5016867d53115cf3effb1b66d35d9f7713025b33c2a76039cd06279d6020b7f",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-4/screenshots/screenshot-004.jpg",
+      "source_sha256": "32395dd38968c3633b619f8e5d4e0a4b9e3a2dd097580c887bcf060c2151efdc",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/screenshots/screenshot-004.jpg",
+      "public_sha256": "32395dd38968c3633b619f8e5d4e0a4b9e3a2dd097580c887bcf060c2151efdc",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-4/screenshots/screenshot-005.jpg",
+      "source_sha256": "e69498f6752e11c4241384d048beb1cfdbe845cf594fc8f210256c93a979d488",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/screenshots/screenshot-005.jpg",
+      "public_sha256": "e69498f6752e11c4241384d048beb1cfdbe845cf594fc8f210256c93a979d488",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-4/screenshots/screenshot-006.jpg",
+      "source_sha256": "348c0989b56542d2dc3db0bc4035a39f6e6c77b42b9854c3046b90aea9e2f668",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/screenshots/screenshot-006.jpg",
+      "public_sha256": "348c0989b56542d2dc3db0bc4035a39f6e6c77b42b9854c3046b90aea9e2f668",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-4/screenshots/screenshot-007.jpg",
+      "source_sha256": "6ede7122c639dd9d50728e4fd81b7f0a4aa2c35f80824c232ac72dedfee7340c",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/screenshots/screenshot-007.jpg",
+      "public_sha256": "6ede7122c639dd9d50728e4fd81b7f0a4aa2c35f80824c232ac72dedfee7340c",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-4/screenshots/screenshot-008.jpg",
+      "source_sha256": "3975ce34f25cfc5334df5d5281cc39e12850a44859c46a0a655054baab2356c3",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/screenshots/screenshot-008.jpg",
+      "public_sha256": "3975ce34f25cfc5334df5d5281cc39e12850a44859c46a0a655054baab2356c3",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-4/screenshots/screenshot-009.jpg",
+      "source_sha256": "f0817c07deaeeb114b909eff39819778f6681edebf607038fc44dc01a41e61b2",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/screenshots/screenshot-009.jpg",
+      "public_sha256": "f0817c07deaeeb114b909eff39819778f6681edebf607038fc44dc01a41e61b2",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-4/screenshots/screenshot-010.jpg",
+      "source_sha256": "f0817c07deaeeb114b909eff39819778f6681edebf607038fc44dc01a41e61b2",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/screenshots/screenshot-010.jpg",
+      "public_sha256": "f0817c07deaeeb114b909eff39819778f6681edebf607038fc44dc01a41e61b2",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-4/screenshots/screenshot-011.jpg",
+      "source_sha256": "f0817c07deaeeb114b909eff39819778f6681edebf607038fc44dc01a41e61b2",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/screenshots/screenshot-011.jpg",
+      "public_sha256": "f0817c07deaeeb114b909eff39819778f6681edebf607038fc44dc01a41e61b2",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-4/submission.json",
+      "source_sha256": "9fe0465aedf1d75badd0958ee3fe33298cd8cbd977d6d32f6073a850142e4fb8",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/submission.json",
+      "public_sha256": "3b80c231dbaf9ac88bc38b8f42c1e5d36006a4133d91b3c01085f7dcd9abcfc4",
+      "transformation": "capture URL redaction / opaque identifier pseudonymization; task content retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-4/submitted-once.json",
+      "source_sha256": "779363067ce488352cec38153647a37f199d64eead097aae030939abbfd9da33",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/submitted-once.json",
+      "public_sha256": "779363067ce488352cec38153647a37f199d64eead097aae030939abbfd9da33",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-4/task-prompt.txt",
+      "source_sha256": "1b237d3e106992c3cdc5e1e866b19f7e2d873d04937f6cbd2d58649a67d2f155",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/task-prompt.txt",
+      "public_sha256": "1b237d3e106992c3cdc5e1e866b19f7e2d873d04937f6cbd2d58649a67d2f155",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/tinyfish-form-reruns-2026-10-22-private/attempt-4/wrapper-timing.json",
+      "source_sha256": "f3037bf3e7e8b9619c3476412b1ac5357259aa3c20644267e3f5396a55540cf7",
+      "public_file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/wrapper-timing.json",
+      "public_sha256": "f3037bf3e7e8b9619c3476412b1ac5357259aa3c20644267e3f5396a55540cf7",
+      "transformation": "byte-identical"
+    }
+  ]
+}

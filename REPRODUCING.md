@@ -56,3 +56,13 @@ The recovered synthetic HTML is [here](browser-benchmarks/fixtures/index.html). 
 UI-TARS is archived evidence, not an instruction to restart the original endpoint. Source patch validation is retained, but no guaranteed launch/control recipe or counterfactual successful run is claimed. Sai’s tested direct-control route returned HTTP 403; do not bypass provider authorization, assume frontend access solves API restrictions, or treat unavailable access as a task failure.
 
 After any separately approved new experiment, stop the agent, independently inspect artifacts and screenshots, preserve original text/usage/errors, stop billable infrastructure and verify shutdown. Keep new results outside this historical publication.
+
+## TinyFish form follow-up evidence
+
+The [22 October follow-up](browser-benchmarks/reruns/tinyfish-form-2026-10-22/README.md) contains three completed runs, actual submission payloads, unchanged prompts, original responses, all returned images/HTML, independent observations and value-free cost deltas. The [executed source archive](browser-benchmarks/reruns/tinyfish-form-2026-10-22/execution-source/source-hashes.json) records exact source provenance; it is not standalone without the private original helper. Use the offline grader below, which reads already saved observations and HTML and makes no requests:
+
+```sh
+python3 browser-benchmarks/reruns/tinyfish-form-2026-10-22/verify_followup.py
+```
+
+No rerun is needed to inspect these results. Provider access and new spending authorization would be needed for further paid execution.

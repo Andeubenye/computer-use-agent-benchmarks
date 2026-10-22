@@ -1,0 +1,10 @@
+{
+  "delta_usd": 0.208,
+  "currency": "USD",
+  "before_http_status": 200,
+  "after_http_status": 200,
+  "auto_reload_state": "unconfigured",
+  "pending_top_up_present": false,
+  "absolute_account_balances_omitted": true,
+  "attribution": "Observed account balance delta, not an invoice; concurrent activity cannot be ruled out"
+}

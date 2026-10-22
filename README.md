@@ -42,4 +42,8 @@ I began with website tasks, then tested native desktop file and application work
 
 OpenAI completed all five desktop checklists. Claude completed document editing, reporting and recovery on a labeled retry; CSV and organization remain partial. These observations include harness interruptions and do not establish general model superiority. Sai’s desktop API route was authorization-blocked; its separate frontend evidence could not be independently recovered. UI-TARS has browser interactions and failures, not a completed desktop workflow.
 
-**No experiments were rerun to assemble this repository.** Earlier private repositories, raw logs and backups remain unchanged. Public copies retain failed attempts and explicitly describe redactions and missing material. No keys, browser profiles or private endpoint URLs are needed to inspect the results.
+**The initial repository package was assembled without rerunning experiments.** The authorized TinyFish follow-up below is a later, separate execution. Earlier private repositories, raw logs and backups remain unchanged. Public copies retain failed attempts and explicitly describe redactions and missing material. No keys, browser profiles or private endpoint URLs are needed to inspect the results.
+
+## Form follow-up — 22 October 2026
+
+[Three TinyFish reruns against the original Claude form result](browser-benchmarks/reruns/tinyfish-form-2026-10-22/README.md): eight confirmed correct fields per rerun, one strict message mismatch, one unverified checkbox. The original packaging statement above refers to repository assembly; these are explicitly authorized later executions, not replacement results.

@@ -13,8 +13,8 @@
     },
     {
       "path": "COSTS.md",
-      "bytes": 3777,
-      "sha256": "eed21d48e945c3a812a9e672520d46a49a379fd93d8f8b19d9bcf64540e998df"
+      "bytes": 4710,
+      "sha256": "7ce470db8141b4f597ca311243058eabfa628469e5e877b0b99d5169bcf53623"
     },
     {
       "path": "LICENSE",
@@ -23,28 +23,28 @@
     },
     {
       "path": "LIMITATIONS.md",
-      "bytes": 3885,
-      "sha256": "3183c8a45736b8fd1b2cc93012450211f1d1d2cf291a0e3ae8f67eef32aa10bb"
+      "bytes": 4462,
+      "sha256": "0084fccc8da738714748147ae991c4ce438e950c68045b05b38ad8215f4ca0ee"
     },
     {
       "path": "METHODOLOGY.md",
-      "bytes": 8869,
-      "sha256": "38f977882eed15ef1558b24cfce9d330d82e6b484f1972fee67174f5f55f1e4e"
+      "bytes": 9473,
+      "sha256": "11042a0cc36e37064c79b1a36b22aa677cf349fe7372cd5e0413fb648ab1025c"
     },
     {
       "path": "README.md",
-      "bytes": 3626,
-      "sha256": "77672917646bbc3c9cfc28316ee2152ec5ee6f333d942ef73f09e237cb13dde9"
+      "bytes": 4127,
+      "sha256": "69375256a9e03996d3d792390e1d353dcdbe34e9577488aa71033f8142469ab5"
     },
     {
       "path": "REPRODUCING.md",
-      "bytes": 6527,
-      "sha256": "7e18d046ab1213786d0560574d571c644e70ae19c7e9093f545dd1265a20d0c4"
+      "bytes": 7367,
+      "sha256": "249d21fbf7a7bf61813963148b48fe8251a594385b09f35ef8a86030fd2c8459"
     },
     {
       "path": "RESULTS.md",
-      "bytes": 3588,
-      "sha256": "3946bdb74359b33e90403bc42080a9487f2834211759ab0060eb0d416be0293a"
+      "bytes": 4246,
+      "sha256": "e9c6f7852f95951a59866258ef6bc49a820f0228b41f1b8771f1c033a9c691f6"
     },
     {
       "path": "agents/claude.md",
@@ -63,8 +63,8 @@
     },
     {
       "path": "agents/tinyfish.md",
-      "bytes": 834,
-      "sha256": "8aaffc30885ee6c646bfada87c15f681181e13ab6ac8fba49a610265535f458d"
+      "bytes": 1494,
+      "sha256": "05729e94e833505ba2d68af28c84da06abb18f67317746afb6061dff1e561c37"
     },
     {
       "path": "agents/ui-tars.md",
@@ -73,8 +73,8 @@
     },
     {
       "path": "browser-benchmarks/README.md",
-      "bytes": 970,
-      "sha256": "af3a76248d1e5b1358b652c093e30a77f3ede259e7cce05fc3c3a1326f9d3990"
+      "bytes": 1263,
+      "sha256": "de1b069771d25029281fd93b62037ce7807fc71a06e47df525f75ebf945f194d"
     },
     {
       "path": "browser-benchmarks/evidence/additional-tasks/audit/orchestration/README.md",
@@ -6647,6 +6647,671 @@
       "sha256": "9ba091e33abdd8d8c00c59f9f73e8eee5a72cfc530c0c1218e07eb9c27efec65"
     },
     {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/ARTICLE-READY.md",
+      "bytes": 1448,
+      "sha256": "d17a4119be4afd7e553c8d0626e3532dfd50e9a16d665d522560caf86c7bc8f1"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/COMPARISON.md",
+      "bytes": 2192,
+      "sha256": "ac20f45d5f5087077b9ffe63dff92af3467de5ebea304e98b6595572609616a1"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/METHODOLOGY.md",
+      "bytes": 6761,
+      "sha256": "1c764284e72831b00e148e0104f53d7f749d5a9c0fe2d2d4d64a06174c99547a"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/README.md",
+      "bytes": 3956,
+      "sha256": "8c64a65a5152cc9f70bc985aa557c31369daf00b22e3161316e248734e3e1aeb"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/RESULTS.md",
+      "bytes": 4054,
+      "sha256": "2e0cd30ccbee46460f2ec0a4f648154b8eeb40c50d58e357d16bcbc3987ea302"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/actual-submission-payload.json",
+      "bytes": 1498,
+      "sha256": "e2e7569c1f0b40932a8a62164faf4f1c96f13d31656425b372a8cf0869b575a2"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/capture-index.json",
+      "bytes": 1771,
+      "sha256": "035f869380817ce0d2c385d7171a00eff823183300e8eb6bd1d32b84d0cfac78"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/configuration.json",
+      "bytes": 585,
+      "sha256": "0590c369884df854410b395db2345cee815e10caef799302a7ab82bec0338293"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/gui-observations.json",
+      "bytes": 1785,
+      "sha256": "85d6f828f14683a1be7f6bd5198e3c8443fb21ee3eee0a0433092add642b5f82"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/html-captures/000.html",
+      "bytes": 40473,
+      "sha256": "d71b23b79788acde880378918d70851172d3831b93bcfa03e3dc235ec896ce9c"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/html-captures/001.html",
+      "bytes": 42138,
+      "sha256": "c7d20e2857ba801ff9c930bc03a6e63b4dda5f5c8314a6eba4238d07a5659d65"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/html-captures/002.html",
+      "bytes": 42233,
+      "sha256": "50798c19f94a7ca9bf105c6c75b67fc77443713ea7a2d14a5105d53d270db200"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/html-captures/003.html",
+      "bytes": 42233,
+      "sha256": "f0b6171239ed87b4004030c66528695fb88655ff477d88026d93c78b5f761bd9"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/html-captures/004.html",
+      "bytes": 42233,
+      "sha256": "6853f431823e376311a255690a0bd2acd6d791e15b89521338cacfdc59516d2a"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/html-captures/005.html",
+      "bytes": 42233,
+      "sha256": "ba9ad187a6386ec2ed969526bc1a70c780ca0983f8d15f17cfd065789179d833"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/html-captures/006.html",
+      "bytes": 42233,
+      "sha256": "fe9c63bd4ff14b2e84dfd732fed24b94b9af0c1b714324b57c6847ffea4be2ea"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/html-captures/007.html",
+      "bytes": 42233,
+      "sha256": "5f256f4c15f9661cf255d3764c0940bd3e28ae42fcaec5319fadc1418e0709ea"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/html-captures/008.html",
+      "bytes": 42233,
+      "sha256": "5f256f4c15f9661cf255d3764c0940bd3e28ae42fcaec5319fadc1418e0709ea"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/html-captures/009.html",
+      "bytes": 42233,
+      "sha256": "b15c382cd3a7fc2fbc2eebbb6620681c04af6bda3da55e154da3da81f0e41665"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/html-captures/010.html",
+      "bytes": 42233,
+      "sha256": "ccaa268313ef0be1f586f86209dd75e77eecec1949cd5236206a5b77ae5133f2"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/html-captures/011.html",
+      "bytes": 42233,
+      "sha256": "9fad6f35b3c89a7e057e475abce7ec7c6e1838930e10f1c4ef1b27383287c51b"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/html-captures/012.html",
+      "bytes": 42233,
+      "sha256": "9fad6f35b3c89a7e057e475abce7ec7c6e1838930e10f1c4ef1b27383287c51b"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/independent-verification.json",
+      "bytes": 1424,
+      "sha256": "bc914fc27dfe9ff15316fbf21a4912b9ad04a70613b684a1d1e241ffe78ddd4d"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/original-response.txt",
+      "bytes": 810,
+      "sha256": "cfaf5b7f580a77390825851bc18213eaf790499a553fd5daa251fe94e801ba1c"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/polls.json",
+      "bytes": 3090,
+      "sha256": "ba8ecaccfa84326dccac4e23764f66f2f90dac6ff88dd27538e2289de84d1a91"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/provider-run.json",
+      "bytes": 9496,
+      "sha256": "a7a9a4fb727d7da49643a02adb5ef6ded806d2a828c38e3584cacb0c4e68783b"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/run-record.json",
+      "bytes": 625,
+      "sha256": "e5cb9693b1753a2a20e7e4eb3fe2fe6d44cca114ff5b7ea168fcd00453bafc99"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/screenshots/screenshot-000.jpg",
+      "bytes": 62990,
+      "sha256": "ba231f8e10539661dbc8225331e55ae32820ac92c9557dc46473441b07bfc8e6"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/screenshots/screenshot-001.jpg",
+      "bytes": 62990,
+      "sha256": "ba231f8e10539661dbc8225331e55ae32820ac92c9557dc46473441b07bfc8e6"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/screenshots/screenshot-002.jpg",
+      "bytes": 63669,
+      "sha256": "5211283f63347ec0a31f94fdd495335fd37ae95123ebb7b046a599925078ccb5"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/screenshots/screenshot-003.jpg",
+      "bytes": 64389,
+      "sha256": "831c6501334666a89be5744525ae8a31eb63ca822cb3611636eaaaf762464aa9"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/screenshots/screenshot-004.jpg",
+      "bytes": 67157,
+      "sha256": "a5016867d53115cf3effb1b66d35d9f7713025b33c2a76039cd06279d6020b7f"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/screenshots/screenshot-005.jpg",
+      "bytes": 69526,
+      "sha256": "32395dd38968c3633b619f8e5d4e0a4b9e3a2dd097580c887bcf060c2151efdc"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/screenshots/screenshot-006.jpg",
+      "bytes": 70870,
+      "sha256": "e69498f6752e11c4241384d048beb1cfdbe845cf594fc8f210256c93a979d488"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/screenshots/screenshot-007.jpg",
+      "bytes": 73544,
+      "sha256": "bfd3dee4b798ee6a9fdedfd3732b8c0ce2a109add7068c26634f4ce6182aabb4"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/screenshots/screenshot-008.jpg",
+      "bytes": 73305,
+      "sha256": "29bc7f8ca6b3062c483e49ec97c9abf6bf5b2f6a343f5167e2a070bd90c0f76b"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/screenshots/screenshot-009.jpg",
+      "bytes": 70619,
+      "sha256": "2948bff1ee0c927b9d77c50aba8b839690e89c1fa7361f65e36b4d35d5e8fc19"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/screenshots/screenshot-010.jpg",
+      "bytes": 72365,
+      "sha256": "f617f399a23516d60ea225aacce4bf246f3957db4624ae1f5d6841914c5f85d6"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/screenshots/screenshot-011.jpg",
+      "bytes": 73579,
+      "sha256": "f0817c07deaeeb114b909eff39819778f6681edebf607038fc44dc01a41e61b2"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/screenshots/screenshot-012.jpg",
+      "bytes": 73579,
+      "sha256": "f0817c07deaeeb114b909eff39819778f6681edebf607038fc44dc01a41e61b2"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/submission.json",
+      "bytes": 91,
+      "sha256": "d3ac4c9419151ef334ce3c7d00a2d7e193c5625c00613069817f40003bfece65"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/submitted-once.json",
+      "bytes": 1380,
+      "sha256": "585204cfc5e94db7f52ea549aa50918bf127d23c8d4e8bee79d93e1480ce0138"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/task-prompt.txt",
+      "bytes": 1099,
+      "sha256": "1b237d3e106992c3cdc5e1e866b19f7e2d873d04937f6cbd2d58649a67d2f155"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/wallet-observation.json",
+      "bytes": 330,
+      "sha256": "4b16ee0c4380d6d799c539ce50eb20f425d9e841bd0f0630d559abb5e3aa4f6c"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/wrapper-timing.json",
+      "bytes": 263,
+      "sha256": "f96c41f9063837e5736fc7d6923f81225768d20b028d0bf3f6accb0f9de75b0e"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-3/actual-submission-payload.json",
+      "bytes": 1498,
+      "sha256": "e2e7569c1f0b40932a8a62164faf4f1c96f13d31656425b372a8cf0869b575a2"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-3/capture-index.json",
+      "bytes": 1517,
+      "sha256": "680297a6a845fc2b2730dc5b0719f30b7da06e2424c3fe8079c5f0d1646eed5b"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-3/configuration.json",
+      "bytes": 585,
+      "sha256": "976bc078bc26084866c090265cf63172efaee5a73afd9d24d9ff69f1d1a8820d"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-3/gui-observations.json",
+      "bytes": 1709,
+      "sha256": "921b2b9aa1e35b94cc88b0e759ad0de7ad87ac788c3a3e488d3eaf387f13a8ed"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-3/html-captures/000.html",
+      "bytes": 40473,
+      "sha256": "21af7cae2067f9108b3843f27bf3c3d2c6e2e68e59b5c1713a19b488e29902d8"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-3/html-captures/001.html",
+      "bytes": 40568,
+      "sha256": "3c688f317311d5d919667dc3752937c01efc41b9be17a737f4600bdd23b4ca5e"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-3/html-captures/002.html",
+      "bytes": 40568,
+      "sha256": "c452b8dd9f249d5e24fd4c424336813da71959bfb1c3115f463cd133eddbb092"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-3/html-captures/003.html",
+      "bytes": 40568,
+      "sha256": "35c177207235a80011e75dbd0385a0970141c22d5b4061638f471a7a578c5004"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-3/html-captures/004.html",
+      "bytes": 40568,
+      "sha256": "858d0209860b771b9d8abfeddedf4f3a2c4d0b0233f0611fb262b2e9e77e1dec"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-3/html-captures/005.html",
+      "bytes": 40568,
+      "sha256": "610da7200ab6c03b7d5fc6726f15e9b32293c5108239dca638f920cb41c73f0e"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-3/html-captures/006.html",
+      "bytes": 40568,
+      "sha256": "9716f4dc68975b15d64c41b51f12bfb3c84419101e44299b67b5d641f12b026a"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-3/html-captures/007.html",
+      "bytes": 40568,
+      "sha256": "ff8851d6d4aa2d968e7f85bd42370592a40a1b22364d288ce6991f10196cb86a"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-3/html-captures/008.html",
+      "bytes": 40568,
+      "sha256": "9a653a06d9150df316a5dc903684b7f9273da3a9a5ffe8b0cf0e3fd0bb8bf845"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-3/html-captures/009.html",
+      "bytes": 40568,
+      "sha256": "d7c9e5ae05dedb5ba1667ed74c20aa191867ad119e0f804fe491dd9535004566"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-3/html-captures/010.html",
+      "bytes": 40568,
+      "sha256": "d7c9e5ae05dedb5ba1667ed74c20aa191867ad119e0f804fe491dd9535004566"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-3/independent-verification.json",
+      "bytes": 1424,
+      "sha256": "a65e27fc9ab5b5e8a498c691ee7b2a149e184b5b74084206c9735a8368699323"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-3/original-response.txt",
+      "bytes": 817,
+      "sha256": "aa1b9cb315f3ef8c23f490c74fe3ff1dbfedafb4e838c177ac44f6b2f165ed15"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-3/polls.json",
+      "bytes": 2215,
+      "sha256": "f8fb5e16737982ad52cd7d06240d92c0b59004f293e01bc205852387a8b98448"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-3/provider-run.json",
+      "bytes": 8679,
+      "sha256": "1787e2cc881be1afd8343b455d7bec36e5fe83bf15a765cc16ce70d1d41841b8"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-3/run-record.json",
+      "bytes": 623,
+      "sha256": "ae543b38d1babb41d0dfdcf41b07ab06d7f525a3a1121e9fc8c252f566ea92d7"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-3/screenshots/screenshot-000.jpg",
+      "bytes": 62990,
+      "sha256": "ba231f8e10539661dbc8225331e55ae32820ac92c9557dc46473441b07bfc8e6"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-3/screenshots/screenshot-001.jpg",
+      "bytes": 63669,
+      "sha256": "5211283f63347ec0a31f94fdd495335fd37ae95123ebb7b046a599925078ccb5"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-3/screenshots/screenshot-002.jpg",
+      "bytes": 64389,
+      "sha256": "831c6501334666a89be5744525ae8a31eb63ca822cb3611636eaaaf762464aa9"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-3/screenshots/screenshot-003.jpg",
+      "bytes": 67157,
+      "sha256": "a5016867d53115cf3effb1b66d35d9f7713025b33c2a76039cd06279d6020b7f"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-3/screenshots/screenshot-004.jpg",
+      "bytes": 69526,
+      "sha256": "32395dd38968c3633b619f8e5d4e0a4b9e3a2dd097580c887bcf060c2151efdc"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-3/screenshots/screenshot-005.jpg",
+      "bytes": 70870,
+      "sha256": "e69498f6752e11c4241384d048beb1cfdbe845cf594fc8f210256c93a979d488"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-3/screenshots/screenshot-006.jpg",
+      "bytes": 72390,
+      "sha256": "348c0989b56542d2dc3db0bc4035a39f6e6c77b42b9854c3046b90aea9e2f668"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-3/screenshots/screenshot-007.jpg",
+      "bytes": 72335,
+      "sha256": "6ede7122c639dd9d50728e4fd81b7f0a4aa2c35f80824c232ac72dedfee7340c"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-3/screenshots/screenshot-008.jpg",
+      "bytes": 72162,
+      "sha256": "3975ce34f25cfc5334df5d5281cc39e12850a44859c46a0a655054baab2356c3"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-3/screenshots/screenshot-009.jpg",
+      "bytes": 73579,
+      "sha256": "f0817c07deaeeb114b909eff39819778f6681edebf607038fc44dc01a41e61b2"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-3/screenshots/screenshot-010.jpg",
+      "bytes": 73579,
+      "sha256": "f0817c07deaeeb114b909eff39819778f6681edebf607038fc44dc01a41e61b2"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-3/submission.json",
+      "bytes": 91,
+      "sha256": "552eed4a463ccc5bf0868376c985697e39f2208a6a17b1f28996f0032f7c2720"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-3/submitted-once.json",
+      "bytes": 1380,
+      "sha256": "6032cfdcdb5b1cb98ac076b109434e49e5dfcab9a69fccf015b9eecf55c24910"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-3/task-prompt.txt",
+      "bytes": 1099,
+      "sha256": "1b237d3e106992c3cdc5e1e866b19f7e2d873d04937f6cbd2d58649a67d2f155"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-3/wallet-observation.json",
+      "bytes": 330,
+      "sha256": "8a950985caa6dc32519acce656727a0e7cf9167f322311dbeb086fb771b9afaa"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-3/wrapper-timing.json",
+      "bytes": 261,
+      "sha256": "cce2493ab89f61cbc3441dd5dad1d38a6bb1c568606bfe3d125d036c2571f207"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/actual-submission-payload.json",
+      "bytes": 1498,
+      "sha256": "e2e7569c1f0b40932a8a62164faf4f1c96f13d31656425b372a8cf0869b575a2"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/capture-index.json",
+      "bytes": 1644,
+      "sha256": "844e5ad4b41b1989109d1477998870d2efab7a63bef4bfd2955ba27ef93eab20"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/configuration.json",
+      "bytes": 585,
+      "sha256": "7265b7e2eca479da812a459c278cb488287b477dbe3cc3c38933443e0ca7afd3"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/gui-observations.json",
+      "bytes": 1747,
+      "sha256": "e6843aa1c57ea1a2f41aa7782415089b968eb994d82a4f835081b5e73c9b1341"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/html-captures/000.html",
+      "bytes": 40473,
+      "sha256": "f64cdd41cb4ec22ac8e515d7270957e0a83a159609d90ab0ac29dd2a5dda4f65"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/html-captures/001.html",
+      "bytes": 40568,
+      "sha256": "28cf98cca3f26cb5af0cd945f61aa0c8a342164b281040092ef25c512a97d1a3"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/html-captures/002.html",
+      "bytes": 40568,
+      "sha256": "9676705a5aa8ac6083d936fed755b922cb6576bf28b9f82a20379dd75d924d75"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/html-captures/003.html",
+      "bytes": 40568,
+      "sha256": "4763cc2a4b82f30607efa5dcb65d817f50166bf73812a6f600ef12de5573ac46"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/html-captures/004.html",
+      "bytes": 40568,
+      "sha256": "7a6b5b84b901caf04a6a9e511c1b32e11447f4f4abb5b938b7de3ab33b60640f"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/html-captures/005.html",
+      "bytes": 40568,
+      "sha256": "56ce97dd8c77488dce241798a51a75bf73762a1e96687bbe08db21438703ab96"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/html-captures/006.html",
+      "bytes": 40568,
+      "sha256": "8e30af1192ea220f862c611f0960fca914405ed61bc623ee5b9155e42fdabe47"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/html-captures/007.html",
+      "bytes": 40568,
+      "sha256": "011b443dab1fd2f5800a9a8f0c18a43a0f3103cf1fce791e6022d1df18a91556"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/html-captures/008.html",
+      "bytes": 40568,
+      "sha256": "104e38732e2c7bdd6e6e42aa9171704365bdda2e1c828ed8caa6bee513b1c64b"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/html-captures/009.html",
+      "bytes": 40568,
+      "sha256": "e454399cf6074c7f16ca3f934d4bc050aeefe7f1a81f5005c2c089f11be9b068"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/html-captures/010.html",
+      "bytes": 42233,
+      "sha256": "ed2bb5c0e8e2ff92fdd9a3f28693aa8271749f4cb180cd92afb29b4f3edfd3c7"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/html-captures/011.html",
+      "bytes": 42233,
+      "sha256": "ed2bb5c0e8e2ff92fdd9a3f28693aa8271749f4cb180cd92afb29b4f3edfd3c7"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/independent-verification.json",
+      "bytes": 1424,
+      "sha256": "70d64b8e5b6e316552f582c5e732721c32018853c3c7aab67bb17b05dbac7581"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/original-response.txt",
+      "bytes": 790,
+      "sha256": "df16da39c31190a443dc72b996814c126229a4eb8cb2cac0e1d8c1c244f5e79d"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/polls.json",
+      "bytes": 3245,
+      "sha256": "d33f1a19f42345ea39f6d5a56c901ab389e3f0524c0121e382662551d60cbbb8"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/provider-run.json",
+      "bytes": 9059,
+      "sha256": "24edd3571cc8390abc9192549304785c957cb1590fc07d1c6ef1b019ee1296d7"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/run-record.json",
+      "bytes": 624,
+      "sha256": "e6b60ae1a1b6480df4ac90f0e02dcad41c9a99e5d1eb3edae3cabb987cdb3270"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/screenshots/screenshot-000.jpg",
+      "bytes": 62990,
+      "sha256": "ba231f8e10539661dbc8225331e55ae32820ac92c9557dc46473441b07bfc8e6"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/screenshots/screenshot-001.jpg",
+      "bytes": 63669,
+      "sha256": "5211283f63347ec0a31f94fdd495335fd37ae95123ebb7b046a599925078ccb5"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/screenshots/screenshot-002.jpg",
+      "bytes": 64389,
+      "sha256": "831c6501334666a89be5744525ae8a31eb63ca822cb3611636eaaaf762464aa9"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/screenshots/screenshot-003.jpg",
+      "bytes": 67157,
+      "sha256": "a5016867d53115cf3effb1b66d35d9f7713025b33c2a76039cd06279d6020b7f"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/screenshots/screenshot-004.jpg",
+      "bytes": 69526,
+      "sha256": "32395dd38968c3633b619f8e5d4e0a4b9e3a2dd097580c887bcf060c2151efdc"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/screenshots/screenshot-005.jpg",
+      "bytes": 70870,
+      "sha256": "e69498f6752e11c4241384d048beb1cfdbe845cf594fc8f210256c93a979d488"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/screenshots/screenshot-006.jpg",
+      "bytes": 72390,
+      "sha256": "348c0989b56542d2dc3db0bc4035a39f6e6c77b42b9854c3046b90aea9e2f668"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/screenshots/screenshot-007.jpg",
+      "bytes": 72335,
+      "sha256": "6ede7122c639dd9d50728e4fd81b7f0a4aa2c35f80824c232ac72dedfee7340c"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/screenshots/screenshot-008.jpg",
+      "bytes": 72162,
+      "sha256": "3975ce34f25cfc5334df5d5281cc39e12850a44859c46a0a655054baab2356c3"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/screenshots/screenshot-009.jpg",
+      "bytes": 73579,
+      "sha256": "f0817c07deaeeb114b909eff39819778f6681edebf607038fc44dc01a41e61b2"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/screenshots/screenshot-010.jpg",
+      "bytes": 73579,
+      "sha256": "f0817c07deaeeb114b909eff39819778f6681edebf607038fc44dc01a41e61b2"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/screenshots/screenshot-011.jpg",
+      "bytes": 73579,
+      "sha256": "f0817c07deaeeb114b909eff39819778f6681edebf607038fc44dc01a41e61b2"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/submission.json",
+      "bytes": 91,
+      "sha256": "3b80c231dbaf9ac88bc38b8f42c1e5d36006a4133d91b3c01085f7dcd9abcfc4"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/submitted-once.json",
+      "bytes": 1380,
+      "sha256": "779363067ce488352cec38153647a37f199d64eead097aae030939abbfd9da33"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/task-prompt.txt",
+      "bytes": 1099,
+      "sha256": "1b237d3e106992c3cdc5e1e866b19f7e2d873d04937f6cbd2d58649a67d2f155"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/wallet-observation.json",
+      "bytes": 330,
+      "sha256": "594560ae9343be8b43250174838d400b5d07172c8f0a412face9d0730258036e"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/wrapper-timing.json",
+      "bytes": 263,
+      "sha256": "f3037bf3e7e8b9619c3476412b1ac5357259aa3c20644267e3f5396a55540cf7"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/batch-progress.json",
+      "bytes": 672,
+      "sha256": "50fed48cc3fe1a70c82346e2bf7bf7ca5bd30272fe04f31522a1c69eef5efaac"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/batch-started.json",
+      "bytes": 281,
+      "sha256": "5265d2543b421d6eb07cde30dde4b1104f60b87ed4a42cfa6c0e8231507fe504"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/batch-status.json",
+      "bytes": 855,
+      "sha256": "3c8089c30c01823f6ac71f0b91506d09699c118ce82ae3887927a3298b7e23c3"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/execution-source/executed-tinyfish-adapter.py.txt",
+      "bytes": 3701,
+      "sha256": "90cec564536f92dc91d808e0fd2f910f186b72f9da1087cb18daa4d5afcc5c20"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/execution-source/executed-wrapper.py.txt",
+      "bytes": 10760,
+      "sha256": "a93f657c16ac901fdcab14543b021e4479691332d2415d0fd2f1fcdc48ffc785"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/execution-source/source-hashes.json",
+      "bytes": 591,
+      "sha256": "88a278648db320c38d60724ad794fa2a331278c155fac7474e4220e40b6810de"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/expected-state.json",
+      "bytes": 573,
+      "sha256": "ef4b562bd243c4048c5a5d52136d67bd9389d6145cb01009da9da7e929967465"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/followup-ledger.json",
+      "bytes": 1187,
+      "sha256": "7c67fbd921f713b306955368550b269996b614cd6e62eea656f57487fed832bb"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/original-claude-reference/0023-screenshot.png",
+      "bytes": 89245,
+      "sha256": "a53ed20b54576c8ff7efde3da90bb3f22ec78ffaca29124aa7a5807f25d16d84"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/original-claude-reference/provenance.json",
+      "bytes": 514,
+      "sha256": "1381a56c4a86f3f5953dad2fb838aef6d5406e9b6a215c5d1ef54999bebffe87"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/results.csv",
+      "bytes": 1281,
+      "sha256": "db8c2061acbbc0d21b0a46bc20f47599278f4e3be78666e5084d7737fb6e9583"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/results.json",
+      "bytes": 7059,
+      "sha256": "405bb55998e57dc13a4ea1e13981f91d6c716b8c4fa339da7d91afb7d4110628"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/source-provenance.json",
+      "bytes": 52063,
+      "sha256": "88470f78c64bf05002ce1c7496cc0fac01c6a655270fa6d47591282a16f7d856"
+    },
+    {
+      "path": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/verify_followup.py",
+      "bytes": 5626,
+      "sha256": "cd6ac77b8d0eb0f4f6d3f32699ec0e99049468fc4895a978664d28dd407cf64e"
+    },
+    {
       "path": "browser-benchmarks/results/benchmark-results.csv",
       "bytes": 13895,
       "sha256": "23c5a84e72ede4b65abce974c079356d2d041c303d589f09d94eb103cbae912f"
@@ -6668,8 +7333,8 @@
     },
     {
       "path": "browser-benchmarks/tasks/form-completion.md",
-      "bytes": 4506,
-      "sha256": "32ad62598802f1a1aa7c10085373c700b6ac132ccf333a9f176466354c17ecc6"
+      "bytes": 4925,
+      "sha256": "e027b773ff1c8b82eb6adf7bdb3cf5dc9baafa4ff8b5fc41a6f163b21b8f068d"
     },
     {
       "path": "browser-benchmarks/tasks/github-issues.md",
@@ -10688,8 +11353,8 @@
     },
     {
       "path": "verification/README.md",
-      "bytes": 1849,
-      "sha256": "083a2ad9d30b9f2b01272b3e1776e8e3ff47247245a4333ef5325d5ae003c4f3"
+      "bytes": 2490,
+      "sha256": "18ba9dc6a8c84c050a244af0d0fcba3b42654e79c75c13ae34906ea4e97c3895"
     },
     {
       "path": "verification/browser-evidence-availability.json",
@@ -10702,9 +11367,14 @@
       "sha256": "0f5a3728e48ec6b5826138989c8a54cf9103080fb4ab4f69421ff1b9542ac930"
     },
     {
+      "path": "verification/original-publication-validation.json",
+      "bytes": 596,
+      "sha256": "c47b8b29843f3a0ebbf3323e537c9f471eec4cab25356390b253363c114aeb5b"
+    },
+    {
       "path": "verification/prompt-integrity.json",
-      "bytes": 4256,
-      "sha256": "c3230df6ba8d328f30396e632549f5efd2f8b3913a70ff0cfd1b5a290390ff20"
+      "bytes": 4994,
+      "sha256": "8c65078effc9c43061ccedb9c65b2827613bb71edc4bf17194a412a5e744adbd"
     },
     {
       "path": "verification/runtime-prompt-variants.json",
@@ -10713,13 +11383,23 @@
     },
     {
       "path": "verification/scripts/validate_package.py",
-      "bytes": 7803,
-      "sha256": "9c79caabc24992d695cc42e7928a7de1a981a82ef2e5632f406e378c93698832"
+      "bytes": 8389,
+      "sha256": "9c200b14f4416feb2fecba57518c0af9ac3babe5bb4566efaf57d8ec4cc81a25"
     },
     {
       "path": "verification/source-provenance.json",
       "bytes": 1044163,
       "sha256": "bdf01f8638edbd14a3391440ecf8ec174e0515730309dbee67a9731b1d21e0fd"
+    },
+    {
+      "path": "verification/tinyfish-followup-review.json",
+      "bytes": 635,
+      "sha256": "49f95e5bcb7a266683c723a8336c3023e345693b14dd48148500adf84ae160c9"
+    },
+    {
+      "path": "verification/tinyfish-followup-safety.json",
+      "bytes": 501,
+      "sha256": "89faa11aa47185dcc0157a77aeac936bc0ed4bfa1d5520a281d3331031826405"
     },
     {
       "path": "verification/visual-review.json",

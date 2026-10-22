@@ -1,0 +1,6 @@
+{
+  "wrapper_wall_seconds": 75.48600602149963,
+  "wrapper_monotonic_seconds": 75.48661091700342,
+  "includes_artifact_collection": true,
+  "comparison_time_source": "run-record.agent_wall_seconds uses the unchanged original submission-to-terminal-poll timer"
+}

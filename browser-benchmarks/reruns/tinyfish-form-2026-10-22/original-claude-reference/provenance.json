@@ -1,0 +1,6 @@
+{
+  "source": "outputs/manicule-benchmarks-tasks-2-5/runs/claude/test-3-form/native-evidence/20261017T182319Z-148ad151/screenshots/0023-screenshot.png",
+  "sha256": "a53ed20b54576c8ff7efde3da90bb3f22ec78ffaca29124aa7a5807f25d16d84",
+  "role": "Recovered historical upper-name-fields screenshot already cited by original verifier, not a rerun",
+  "original_final_screenshot": "../../../evidence/additional-tasks/runs/claude/test-3-form/native-evidence/20261017T182319Z-148ad151/screenshots/independent-final.png"
+}

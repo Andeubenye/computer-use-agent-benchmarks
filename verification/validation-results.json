@@ -4,15 +4,15 @@
   "tasks_documented": 15,
   "scoped_browser_common_runs": 16,
   "browser_record_rows": 34,
+  "tinyfish_form_followup_runs": 3,
+  "tinyfish_form_followup_cost_usd": "0.624",
   "desktop_attempts": 13,
   "desktop_artifact_regrades": 11,
   "desktop_estimated_cost_usd": "3.6676817",
-  "exact_prompt_records": 19,
-  "internal_links_checked": 436,
-  "files_scanned": 2146,
+  "exact_prompt_records": 22,
+  "internal_links_checked": 492,
+  "files_scanned": 2283,
   "decompressed_document_members_scanned": 581,
-  "git_history_blobs_scanned": 0,
-  "errors": [],
-  "phase": "Pre-commit current-file verification; post-commit history scan is performed separately before publishing.",
-  "utc": "2026-10-22T11:33:50.207762+00:00"
+  "git_history_blobs_scanned": 1756,
+  "errors": []
 }

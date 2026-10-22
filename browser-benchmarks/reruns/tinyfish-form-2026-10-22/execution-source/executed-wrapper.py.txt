@@ -1,0 +1,115 @@
+"""Three explicit form reruns using the existing TinyFish async adapter unchanged.
+
+This wrapper adds separate attempt directories, secure RAM credential input,
+read-only artifact capture, and an append-only follow-up budget. It never makes
+task decisions or edits the remote form.
+"""
+from pathlib import Path
+import ast, argparse, datetime, hashlib, json, os, socket, time, urllib.parse
+
+HERE=Path(__file__).resolve().parent
+ROOT=HERE.parents[1]
+PRIVATE=HERE/'tinyfish-form-reruns-2026-10-22-private'
+PRIVATE.mkdir(mode=0o700,exist_ok=True)
+BASELINE=json.loads((ROOT/'outputs/manicule-benchmarks-tasks-2-5/budget-ledger.json').read_text())
+FOLLOW=PRIVATE/'followup-ledger.json'
+def now():return datetime.datetime.now(datetime.timezone.utc).isoformat()
+def dump(path,x):path.parent.mkdir(parents=True,exist_ok=True);path.write_text(json.dumps(x,indent=2,ensure_ascii=False)+'\n')
+def credential(path):
+    s=socket.socket(socket.AF_UNIX,socket.SOCK_STREAM)
+    try:s.connect(path);s.sendall(b'tinyfish');return s.recv(16384).decode()
+    finally:s.close()
+
+def main(sock):
+    if (PRIVATE/'batch-started.json').exists():raise SystemExit('Existing rerun batch marker; refuse automatic restart')
+    key=credential(sock)
+    if not key:raise SystemExit('No TinyFish credential received')
+    # Load the existing helper module, replacing only its deleted on-disk key input.
+    ns={'__file__':str(HERE/'common.py'),'KEYS':{'tinyfish':key}}
+    common=ast.parse((HERE/'common.py').read_text())
+    common.body=[node for node in common.body if not(isinstance(node,ast.Assign) and any(isinstance(t,ast.Name) and t.id=='KEYS' for t in node.targets))]
+    exec(compile(common,str(HERE/'common.py'),'exec'),ns)
+    original_api=ns['api'];original_save=ns['save'];original_redact=ns['redact']
+    expected=ns['TASKS']['test-3-form']['prompt']
+    canonical=ROOT/'publication/computer-use-agent-benchmarks/browser-benchmarks/prompts/exact/test-3-form.txt'
+    assert canonical.read_text()==expected, 'Original prompt bytes disagree'
+    tree=ast.parse((HERE/'cloud_batch.py').read_text());core=next(n for n in tree.body if isinstance(n,ast.FunctionDef) and n.name=='tiny')
+    marker=next(n for n in tree.body if isinstance(n,ast.FunctionDef) and n.name=='submit_marker')
+    exec(compile(ast.fix_missing_locations(ast.Module(body=[marker,core],type_ignores=[])),str(HERE/'cloud_batch.py'),'exec'),ns)
+    active={'folder':None,'attempt':None};capability={'extra_capture':True};events=[]
+    baseline=float(BASELINE['committed_or_reserved_usd'])
+    ledger={'authorized_cumulative_browser_usd':10,'baseline_committed_usd':baseline,'baseline_source':'outputs/manicule-benchmarks-tasks-2-5/budget-ledger.json','new_request_scope':'Three TinyFish form reruns, user attachment 348edf54-cc40-4d69-b5fa-09aa53f6aa81','new_entries':{}}
+    def persist():
+        total=baseline+sum(x['charged_or_reserved_usd'] for x in ledger['new_entries'].values())
+        ledger.update(committed_or_reserved_usd=round(total,8),remaining_usd=round(10-total,8));dump(FOLLOW,ledger)
+    def claim(agent,task,reserve):
+        folder=active['folder'];folder.mkdir(mode=0o700,exist_ok=False)
+        amount=2.5 # Covers the documented default 150 steps at $0.016 plus margin.
+        if baseline+sum(x['charged_or_reserved_usd'] for x in ledger['new_entries'].values())+amount>10:raise RuntimeError('Existing cumulative browser cap would be exceeded')
+        ledger['new_entries'][str(active['attempt'])]={'state':'active','reserved_usd':amount,'charged_or_reserved_usd':amount,'utc':now()};persist()
+        (folder/'task-prompt.txt').write_text(expected)
+        original_save(folder/'configuration.json',{'agent':'tinyfish','task':task,'attempt':active['attempt'],'max_seconds_from_submission':600,'fresh_profile_requested':True,'use_profile':False,'use_vault':False,'browser_profile':'lite','proxy_requested':False,'default_step_limit_documented':150,'extra_read_only_capture_requested':capability['extra_capture'],'prompt_sha256':hashlib.sha256(expected.encode()).hexdigest(),'expected_answers_provided':False,'automatic_benchmark_restarts':0,'adapter_source_sha256':hashlib.sha256((HERE/'cloud_batch.py').read_bytes()).hexdigest()})
+        return folder
+    def finish_budget(unused,amount,basis):
+        x=ledger['new_entries'][str(active['attempt'])]
+        uncertain='uncertain' in basis.lower()
+        x.update(state='finished',charged_or_reserved_usd=max(amount,x['reserved_usd']) if uncertain else amount,cost_basis=basis,finished_at=now());persist();return True,None
+    def api(agent,path,payload=None,**kwargs):
+        if path=='/v1/automation/run-async':
+            assert payload['goal']==expected and payload['use_profile'] is False and payload['use_vault'] is False
+            payload=dict(payload);payload['proxy_config']={'enabled':False}
+            if capability['extra_capture']:payload['capture_config']={'screenshots':True,'html':True,'snapshots':True,'elements':True}
+            result=original_api(agent,path,payload,**kwargs)
+            # One clearly retained capture-only infrastructure repair, before any run exists.
+            body=result.get('body',{});message=json.dumps(body).lower()
+            rejected=result.get('http_status') in (400,403) and not(isinstance(body,dict) and (body.get('run_id') or body.get('id'))) and any(s in message for s in ('capture','artifact','snapshot','elements'))
+            if capability['extra_capture'] and rejected:
+                original_save(active['folder']/'capture-submission-rejection.json',result)
+                capability['extra_capture']=False;payload.pop('capture_config',None)
+                original_save(active['folder']/'infrastructure-repair.json',{'kind':'Optional capture flags rejected before agent creation; use original capture defaults','agent_restart':False,'original_rejection_retained':True,'extra_capture_disabled_for_remaining_attempts':True})
+                result=original_api(agent,path,payload,**kwargs)
+            original_save(active['folder']/'actual-submission-payload.json',payload)
+            return result
+        return original_api(agent,path,payload,**kwargs)
+    ns.update(claim=claim,ledger=finish_budget,api=api)
+    def wallet():
+        r=original_api('tinyfish','/v1/wallet');b=r.get('body',{})
+        if r.get('http_status')!=200:return {'http_status':r.get('http_status')}
+        return {'http_status':200,'available_balance':b.get('available_balance'),'currency':b.get('currency'),'as_of':b.get('as_of'),'auto_reload_state':(b.get('auto_reload') or {}).get('state'),'pending_top_up_present':bool(b.get('pending_top_up'))}
+    before=wallet();dump(PRIVATE/'wallet-before.json',before)
+    if before.get('auto_reload_state') not in ('unconfigured','disabled'):raise SystemExit('Auto-reload condition requires review; no task submitted')
+    if float(before.get('available_balance',0))<7.5:raise SystemExit('Insufficient existing balance to conservatively reserve three runs')
+    dump(PRIVATE/'batch-started.json',{'utc':now(),'attempts':[2,3,4],'original_attempt_1_preserved':True,'prompt_sha256':hashlib.sha256(expected.encode()).hexdigest(),'no_other_agent_runs':True,'no_purchases_or_topups':True})
+    persist()
+    try:
+        for attempt in [2,3,4]:
+            active.update(attempt=attempt,folder=PRIVATE/f'attempt-{attempt}')
+            wallet_before=wallet();wall=time.time();mono=time.monotonic()
+            ns['tiny']('test-3-form')
+            folder=active['folder'];record=json.loads((folder/'run-record.json').read_text());wallet_after=wallet()
+            dump(folder/'wallet-observation.json',{'before':wallet_before,'after':wallet_after,'delta_usd':round(float(wallet_before['available_balance'])-float(wallet_after['available_balance']),8) if 'available_balance' in wallet_before and 'available_balance' in wallet_after else None,'attribution':'Observed account balance delta, not an invoice; concurrent activity cannot be ruled out'})
+            dump(folder/'wrapper-timing.json',{'wrapper_wall_seconds':time.time()-wall,'wrapper_monotonic_seconds':time.monotonic()-mono,'includes_artifact_collection':True,'comparison_time_source':'run-record.agent_wall_seconds uses the unchanged original submission-to-terminal-poll timer'})
+            f=folder/'provider-run.json'
+            if not f.exists():
+                events.append({'attempt':attempt,'blocked':'No provider run record; no automatic submission restart'});break
+            provider=json.loads(f.read_text());run=provider.get('run_id') or record.get('run_id');status=str(provider.get('status','')).lower()
+            # All verification data are collected AFTER the evaluated run is terminal.
+            if status not in ('completed','failed','cancelled','canceled','timed_out','timeout','success','succeeded'):
+                events.append({'attempt':attempt,'blocked':'Provider stop not confirmed; stop the batch rather than overlap runs'});break
+            captures=[]
+            for step in provider.get('steps',[]):
+                if not step.get('html') or not step.get('id'):continue
+                path='/v1/runs/'+urllib.parse.quote(str(run),safe='')+'/steps/'+urllib.parse.quote(str(step['id']),safe='')+'/html'
+                r=original_api('tinyfish',path,binary=True)
+                if r.get('http_status')==200 and isinstance(r.get('body'),bytes):
+                    target=folder/'html-captures'/f'{len(captures):03d}.html';target.parent.mkdir(exist_ok=True);target.write_bytes(r['body']);captures.append({'step_id':step['id'],'file':str(target.relative_to(folder)),'after_agent_terminal':True})
+            dump(folder/'capture-index.json',{'html':captures,'extra_capture_supported':capability['extra_capture'],'post_run_only':True,'agent_fields_manually_edited':False})
+            events.append({'attempt':attempt,'status':record.get('status'),'seconds':record.get('agent_wall_seconds'),'cost_usd':record.get('cost_usd'),'actions':record.get('actions'),'screenshots':record.get('screenshots'),'html_captures':len(captures)})
+            dump(PRIVATE/'batch-progress.json',{'utc':now(),'completed':events,'active':None})
+            print(json.dumps({'attempt_finished':attempt,'status':record.get('status'),'seconds':record.get('agent_wall_seconds'),'estimated_cost_usd':record.get('cost_usd'),'steps':record.get('actions'),'screenshots':record.get('screenshots'),'html_captures':len(captures)}),flush=True)
+    finally:
+        dump(PRIVATE/'batch-status.json',{'utc':now(),'attempts':events,'automatic_benchmark_restarts':0,'wallet_after':wallet()})
+        ns['KEYS'].clear();key=None
+
+if __name__=='__main__':
+    parser=argparse.ArgumentParser();parser.add_argument('--socket',required=True);args=parser.parse_args();main(args.socket)

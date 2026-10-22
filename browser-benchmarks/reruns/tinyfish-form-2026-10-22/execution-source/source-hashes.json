@@ -1,0 +1,9 @@
+{
+  "wrapper_sha256": "a93f657c16ac901fdcab14543b021e4479691332d2415d0fd2f1fcdc48ffc785",
+  "existing_adapter_module_sha256": "d91c52b4d95d6d9fbdd447b930e4077c32846acfb21a9057e80183433317f643",
+  "existing_helper_module_sha256": "1945fcd3dbf503caec96add8f47baaca6b98845a87836f5f574ba57675144c8a",
+  "wrapper_byte_identical": true,
+  "adapter_excerpt_exact_function_source": true,
+  "archive_only": true,
+  "private_dependencies_not_included": "Existing common helper and multi-provider module; archived excerpt is not a standalone executable. No public adaptation is claimed to have run."
+}

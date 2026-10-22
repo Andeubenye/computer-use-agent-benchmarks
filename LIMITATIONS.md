@@ -15,3 +15,7 @@
 - Historical source scripts require manual environment configuration. The original custom local desktop base image is not supplied as a public registry artifact. Hosted account access, deployed fixture availability and current model access can prevent full execution reproduction. Offline grading is more portable; one-command agent reproduction is not claimed.
 - Public evidence is sanitized: credentials, capability URLs, account metadata, browser profiles and sensitive local paths are omitted. Historical references to private files do not mean those binaries are public. Public GitHub target names and genuine issue titles remain task data; outside-scope evaluated-agent evidence is excluded.
 - Source repositories and prior commits remain private and unchanged. This scoped repository starts a separate publication history so excluded evaluations are not carried invisibly in old commits.
+
+## Form follow-up limitation
+
+[Three TinyFish reruns](browser-benchmarks/reruns/tinyfish-form-2026-10-22/README.md) improved the visible result to eight correct controls but never captured the newsletter. Serialized HTML did not retain live form properties. The message has an already disclosed alternative reading. These limits prevent a verified full pass without proving that every unverified state was wrong. Three new attempts and one historical Claude reference do not support a general reliability ranking; dates, capture options, browsers and timer boundaries differ.

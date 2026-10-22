@@ -1,7 +1,7 @@
 """Offline evidence checks only. No provider calls, GUI actions or benchmark runs."""
 from pathlib import Path
 from decimal import Decimal
-import csv, hashlib, io, json, re, subprocess, sys, urllib.parse, zipfile
+import csv, hashlib, importlib.util, io, json, re, subprocess, sys, urllib.parse, zipfile
 
 ROOT=Path(__file__).resolve().parents[2]
 ALLOWED={'claude','openai','sai','ui-tars','tinyfish'}
@@ -54,6 +54,13 @@ for r in common:
     if f.exists():check(outcomes.get(load(f).get('outcome'))==r['status'],'Browser saved grade mismatch: '+str(f.relative_to(ROOT)))
 check({f.stem for f in (ROOT/'agents').glob('*.md')}=={'claude','openai','simular-sai','ui-tars','tinyfish'},'Agent index scope mismatch')
 check(not any(part.lower() in ('browser-use','browser_use') for f in ROOT.rglob('*') for part in f.relative_to(ROOT).parts),'Outside-scope evaluated-agent directory')
+
+# Separate follow-up cohort: retain the historical browser CSV and desktop counts.
+followup_path=ROOT/'browser-benchmarks/reruns/tinyfish-form-2026-10-22/verify_followup.py'
+spec=importlib.util.spec_from_file_location('tinyfish_form_followup',followup_path)
+followup_module=importlib.util.module_from_spec(spec);spec.loader.exec_module(followup_module)
+followup=followup_module.verify()
+for error in followup['errors']:errors.append('TinyFish follow-up: '+error)
 
 # Independent read-only artifact checks; these modules contain no provider execution.
 DESKTOP=ROOT/'desktop-benchmarks'
@@ -115,5 +122,5 @@ if (ROOT/'.git').is_dir():
             end=data.index(b'\n',offset);head=data[offset:end].split();size=int(head[2]);start=end+1;body=data[start:start+size];offset=start+size+1
             if head[1]==b'blob':scan(body,'Git history blob '+head[0].decode());history_blobs+=1
 
-print(json.dumps({'passed':not errors,'benchmark_requests':0,'tasks_documented':15,'scoped_browser_common_runs':16,'browser_record_rows':len(browser),'desktop_attempts':attempts,'desktop_artifact_regrades':regrades,'desktop_estimated_cost_usd':str(total),'exact_prompt_records':len(prompts),'internal_links_checked':links,'files_scanned':files,'decompressed_document_members_scanned':archives,'git_history_blobs_scanned':history_blobs,'errors':errors},indent=2))
+print(json.dumps({'passed':not errors,'benchmark_requests':0,'tasks_documented':15,'scoped_browser_common_runs':16,'browser_record_rows':len(browser),'tinyfish_form_followup_runs':followup['new_runs'],'tinyfish_form_followup_cost_usd':followup['cost_usd'],'desktop_attempts':attempts,'desktop_artifact_regrades':regrades,'desktop_estimated_cost_usd':str(total),'exact_prompt_records':len(prompts),'internal_links_checked':links,'files_scanned':files,'decompressed_document_members_scanned':archives,'git_history_blobs_scanned':history_blobs,'errors':errors},indent=2))
 sys.exit(bool(errors))

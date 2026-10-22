@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-22",
+  "scope": "Three TinyFish reruns and recovered historical Claude name-field image",
+  "new_tinyfish_screenshots_reviewed": 36,
+  "new_tinyfish_screenshots_published": 36,
+  "recovered_original_claude_image_published": 1,
+  "historical_publication_image_count": 292,
+  "current_public_image_count": 329,
+  "all_new_provider_images_byte_identical": true,
+  "private_contact_sheets_not_published": true,
+  "newsletter_visible_in_any_new_capture": false,
+  "credentials_or_account_screens_published": false,
+  "new_agent_runs_after_review": 0,
+  "ram_broker_stopped": true,
+  "ram_broker_socket_removed": true
+}

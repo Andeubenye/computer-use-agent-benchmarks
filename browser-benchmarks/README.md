@@ -10,3 +10,7 @@ The original experiments included six agents. This public archive presents the f
 - [Five later UI-TARS tasks](tasks/ui-tars-supplement.md)
 
 [Per-attempt measurements](results/benchmark-results.csv) · [Screenshots](screenshots/README.md) · [Recorded verification and traces](evidence/) · [Recovered synthetic fixture](fixtures/)
+
+## Dated follow-up
+
+[Three TinyFish form reruns — 22 October 2026](reruns/tinyfish-form-2026-10-22/README.md), compared against the unchanged original Claude result. This is a separately reported browser cohort, not a desktop evaluation or a rewrite of the original additional-task totals.

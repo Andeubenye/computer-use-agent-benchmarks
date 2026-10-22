@@ -31,3 +31,7 @@ Every requirement was independently checked against saved files and cited GUI ob
 Sai’s original CSV/API eligibility record and four further desktop slots are NOT TESTED after HTTP 403, not scored failures. A request references separate frontend desktop attempts, but no independently scoreable frontend artifacts/traces were recovered; those are missing evidence, not inferred API runs. TinyFish had no desktop test. UI-TARS’s planned desktop evaluation was not completed.
 
 [Every desktop attempt](desktop-benchmarks/RESULTS.md) · [Independent token/artifact audit](desktop-benchmarks/logs/usage-reconciliation.json) · [Browser per-attempt measurements](browser-benchmarks/results/benchmark-results.csv)
+
+## Separate TinyFish form follow-up — 22 October 2026
+
+Three new TinyFish attempts each reached PARTIAL: **8 confirmed correct, 1 strict message mismatch, 1 unverified /10**. The reasonable shorter-message sensitivity gives 9 confirmed with 1 still unverified. The original three visible omissions did not recur. No new fully verified pass was established; Claude's original 10/10 is unchanged. New mean client time 93.05 s; total new cost $0.624. [Five-attempt table and evidence](browser-benchmarks/reruns/tinyfish-form-2026-10-22/README.md). These three follow-up runs are separate from the historical 16-run common cohort and do not alter its counts.

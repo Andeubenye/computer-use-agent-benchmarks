@@ -1,0 +1,6 @@
+agent,attempt,cohort,outcome,confirmed_correct,incorrect,unverified,total_checks,client_submission_to_terminal_seconds,provider_started_to_finished_seconds,actions,action_unit,screenshots,html_captures,cost_usd,cost_basis,evidence
+Claude,original,historical-reference,PASS,10,0,0,10,66.749507,,37,native computer actions including screenshots/zoom,7,,0.194282,"token estimate, not invoice",../../evidence/additional-tasks/runs/claude/test-3-form/verification.json
+TinyFish,1,historical-reference,PARTIAL,5,3,2,10,37.03136050000103,,7,provider steps,6,,0.112,"steps x saved $0.016 rate, not invoice",../../evidence/additional-tasks/runs/tinyfish/test-3-form/verification.json
+TinyFish,2,three-new-reruns,PARTIAL,8,1,1,10,101.52620445899811,71.0,14,provider steps,13,13,0.224,"steps x $0.016; matches observed account delta, not invoice",attempt-2/independent-verification.json
+TinyFish,3,three-new-reruns,PARTIAL,8,1,1,10,71.4355691669989,47.0,12,provider steps,11,11,0.192,"steps x $0.016; matches observed account delta, not invoice",attempt-3/independent-verification.json
+TinyFish,4,three-new-reruns,PARTIAL,8,1,1,10,106.1973695839988,79.0,13,provider steps,12,12,0.208,"steps x $0.016; matches observed account delta, not invoice",attempt-4/independent-verification.json

@@ -1,0 +1,37 @@
+{
+  "utc": "2026-10-22T13:41:56.696355+00:00",
+  "attempts": [
+    {
+      "attempt": 2,
+      "status": "COMPLETED",
+      "seconds": 101.52620445899811,
+      "cost_usd": 0.224,
+      "actions": 14,
+      "screenshots": 13,
+      "html_captures": 13
+    },
+    {
+      "attempt": 3,
+      "status": "COMPLETED",
+      "seconds": 71.4355691669989,
+      "cost_usd": 0.192,
+      "actions": 12,
+      "screenshots": 11,
+      "html_captures": 11
+    },
+    {
+      "attempt": 4,
+      "status": "COMPLETED",
+      "seconds": 106.1973695839988,
+      "cost_usd": 0.208,
+      "actions": 13,
+      "screenshots": 12,
+      "html_captures": 12
+    }
+  ],
+  "automatic_benchmark_restarts": 0,
+  "all_three_runs_terminal": true,
+  "additional_paid_requests_after_batch": 0,
+  "new_total_account_delta_usd": 0.624,
+  "account_absolute_balances_omitted": true
+}

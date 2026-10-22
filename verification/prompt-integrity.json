@@ -98,5 +98,20 @@
     "file": "browser-benchmarks/prompts/ui-tars-oct21/test-5-programming-languages/prompt.txt",
     "sha256": "9ba091e33abdd8d8c00c59f9f73e8eee5a72cfc530c0c1218e07eb9c27efec65",
     "matches_recovered_original": true
+  },
+  {
+    "file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-2/task-prompt.txt",
+    "sha256": "1b237d3e106992c3cdc5e1e866b19f7e2d873d04937f6cbd2d58649a67d2f155",
+    "cohort": "TinyFish form follow-up, exact original prompt"
+  },
+  {
+    "file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-3/task-prompt.txt",
+    "sha256": "1b237d3e106992c3cdc5e1e866b19f7e2d873d04937f6cbd2d58649a67d2f155",
+    "cohort": "TinyFish form follow-up, exact original prompt"
+  },
+  {
+    "file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/task-prompt.txt",
+    "sha256": "1b237d3e106992c3cdc5e1e866b19f7e2d873d04937f6cbd2d58649a67d2f155",
+    "cohort": "TinyFish form follow-up, exact original prompt"
   }
 ]

@@ -1,0 +1,67 @@
+{
+  "html": [
+    {
+      "step_id": "attempt-4-step-000",
+      "file": "html-captures/000.html",
+      "after_agent_terminal": true
+    },
+    {
+      "step_id": "attempt-4-step-001",
+      "file": "html-captures/001.html",
+      "after_agent_terminal": true
+    },
+    {
+      "step_id": "attempt-4-step-002",
+      "file": "html-captures/002.html",
+      "after_agent_terminal": true
+    },
+    {
+      "step_id": "attempt-4-step-003",
+      "file": "html-captures/003.html",
+      "after_agent_terminal": true
+    },
+    {
+      "step_id": "attempt-4-step-004",
+      "file": "html-captures/004.html",
+      "after_agent_terminal": true
+    },
+    {
+      "step_id": "attempt-4-step-005",
+      "file": "html-captures/005.html",
+      "after_agent_terminal": true
+    },
+    {
+      "step_id": "attempt-4-step-006",
+      "file": "html-captures/006.html",
+      "after_agent_terminal": true
+    },
+    {
+      "step_id": "attempt-4-step-007",
+      "file": "html-captures/007.html",
+      "after_agent_terminal": true
+    },
+    {
+      "step_id": "attempt-4-step-008",
+      "file": "html-captures/008.html",
+      "after_agent_terminal": true
+    },
+    {
+      "step_id": "attempt-4-step-009",
+      "file": "html-captures/009.html",
+      "after_agent_terminal": true
+    },
+    {
+      "step_id": "attempt-4-step-010",
+      "file": "html-captures/010.html",
+      "after_agent_terminal": true
+    },
+    {
+      "step_id": "attempt-4-step-011",
+      "file": "html-captures/011.html",
+      "after_agent_terminal": true
+    }
+  ],
+  "extra_capture_supported": true,
+  "post_run_only": true,
+  "agent_fields_manually_edited": false
+}

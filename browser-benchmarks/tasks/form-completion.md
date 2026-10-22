@@ -38,3 +38,7 @@ Ten one-point controls: first name Alex; last name Morgan; fictional email alex.
 UI-TARS did not submit this task in the common batch. Its later five tasks used different prompts and are [separate evidence](../tasks/ui-tars-supplement.md).
 
 [Reviewed browser screenshots](../screenshots/README.md) · [Full attempt measurements](../results/benchmark-results.csv) · [Limitations](../../LIMITATIONS.md)
+
+## TinyFish follow-up — 22 October 2026
+
+[Three independently executed reruns](../reruns/tinyfish-form-2026-10-22/README.md) reused this exact prompt and rubric. Each confirms 8/10 fields, with one strict message mismatch and one checkbox unverified; the alternative message interpretation confirms 9 with one still unverified. Original visible omissions did not recur. All original outcomes above remain unchanged.

@@ -1,0 +1,18 @@
+{
+  "reference": "../../evidence/additional-tasks/preparation/FORM-RECONSTRUCTION.md",
+  "fields": {
+    "firstName": "Alex",
+    "lastName": "Morgan",
+    "email": "alex.morgan@example.com",
+    "phone": "+1 202-555-0147",
+    "company": "Northstar Labs",
+    "jobTitle": "Product Manager",
+    "country": "United States",
+    "contactMethod": "Email",
+    "message": "This is a benchmark. Do not submit.",
+    "newsletter": false
+  },
+  "submission_allowed": false,
+  "text_comparison": "exact except phone punctuation",
+  "message_sensitivity": "This is a benchmark."
+}

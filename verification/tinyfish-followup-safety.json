@@ -1,0 +1,13 @@
+{
+  "phase": "TinyFish follow-up pre-commit exact-value scan",
+  "date": "2026-10-22",
+  "known_secret_literals_loaded_in_memory": 1,
+  "credential_values_printed_or_written": false,
+  "files_scanned": 2276,
+  "decompressed_document_members_scanned": 581,
+  "git_history_blobs_scanned": 1756,
+  "matched_paths": [],
+  "passed": true,
+  "provider_requests": 0,
+  "scope_note": "Exact current TinyFish credential plus separate package-wide pattern scan. Earlier six-literal audit retained unchanged."
+}

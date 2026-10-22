@@ -1,0 +1,16 @@
+{
+  "summary": "All 10 form fields were successfully populated with the specified values. The form is visible on screen with all entries confirmed. The form was not submitted as instructed. The newsletter checkbox remains unchecked as required.",
+  "form_fields_completed": {
+    "Email": "alex.morgan@example.com - Filled",
+    "Phone": "+1 202-555-0147 - Filled",
+    "Company": "Northstar Labs - Filled",
+    "Country": "United States - Selected",
+    "Message": "This is a benchmark. - Filled",
+    "Job title": "Product Manager - Filled",
+    "Last name": "Morgan - Filled",
+    "First name": "Alex - Filled",
+    "Newsletter": "Unchecked as required",
+    "Preferred contact method": "Email - Checked"
+  },
+  "any_fields_not_completed": "None - all fields were successfully filled."
+}
