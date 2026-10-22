@@ -1,0 +1,43 @@
+{
+  "checked_on": "2026-10-22",
+  "timezone_for_user_facing_dates": "Africa/Lagos",
+  "research_only_no_agent_requests": true,
+  "alternative_integrations_tested": false,
+  "sources": [
+    {
+      "title": "Anthropic Computer Use",
+      "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/computer-use-tool",
+      "limited_claim_supported": "Client toolset; application executes desktop actions. Not the only integration choice."
+    },
+    {
+      "title": "Anthropic Browser Use",
+      "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/browser-use-tool",
+      "limited_claim_supported": "Browser-only, client-executed; full desktop unnecessary. Native toolset not directly available in Managed Agents at audit date."
+    },
+    {
+      "title": "Anthropic SDK toolsets",
+      "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/browser-use-sdk",
+      "limited_claim_supported": "SDK loop/checks with provider or custom driver; lists partner integrations."
+    },
+    {
+      "title": "Anthropic Managed Agents",
+      "url": "https://platform.claude.com/docs/en/managed-agents/overview",
+      "limited_claim_supported": "Managed harness/runtime with built-in tools and MCP; distinct from Messages API client toolsets."
+    },
+    {
+      "title": "Browserbase Managed Agents integration",
+      "url": "https://docs.browserbase.com/integrations/anthropic/managed-agents/introduction",
+      "limited_claim_supported": "Provider documentation describes hosted browser sessions paired through browse CLI and credential vault."
+    },
+    {
+      "title": "Kernel Managed Agents integration",
+      "url": "https://www.kernel.sh/blog/claude-managed-agents",
+      "limited_claim_supported": "Provider announces managed browser integration with Anthropic runtime and vault credentials."
+    },
+    {
+      "title": "TinyFish Browser Context Profiles",
+      "url": "https://docs.tinyfish.ai/agent-api/browser-context-profiles",
+      "limited_claim_supported": "API setup supports own CDP controller; save state and use_profile/profile_id for subsequent runs."
+    }
+  ]
+}

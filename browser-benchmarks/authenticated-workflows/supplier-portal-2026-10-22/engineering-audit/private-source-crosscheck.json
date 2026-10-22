@@ -1,0 +1,74 @@
+{
+  "read_only_audit": true,
+  "provider_requests": 0,
+  "matches": [
+    {
+      "public_file": "uncapped-followup/harness/executed-source/run_workflows.py",
+      "private_source_category": "Existing supplier runner",
+      "byte_identical": true,
+      "sha256": "29d84bd2489c3910e371fde21557d2dd387a371220c2166b3deab4593eb7502c"
+    },
+    {
+      "public_file": "uncapped-followup/harness/executed-source/uncapped_core.py",
+      "private_source_category": "Existing supplier runner",
+      "byte_identical": true,
+      "sha256": "398c9c7615b1f5ecdace1121caef2b1d12db4971c9d60247aa09f0a9919ed74c"
+    },
+    {
+      "public_file": "uncapped-followup/harness/executed-source/setup_tinyfish_profile.py",
+      "private_source_category": "Existing supplier runner",
+      "byte_identical": true,
+      "sha256": "b778286c979314028f7dfd376c0de34653d0c317f6e0c5c0ee47ec8b8215d18f"
+    },
+    {
+      "public_file": "uncapped-followup/harness/executed-source/setup_claude_context.py",
+      "private_source_category": "Existing supplier runner",
+      "byte_identical": true,
+      "sha256": "a3681b3dccd12f6601d00e3256d907502761d736aa17f110aea2da4c479510dd"
+    },
+    {
+      "public_file": "harness/executed-source/claude/desktop.py",
+      "private_source_category": "Reused original Claude project",
+      "byte_identical": true,
+      "sha256": "11e937ae56b04604c018393b5bf282352093f7bf4bfe936e02bde0d710833128"
+    },
+    {
+      "public_file": "harness/executed-source/claude/native-action.py",
+      "private_source_category": "Reused original Claude project",
+      "byte_identical": true,
+      "sha256": "9602806a5b43f6a522f7fb7282b5a9e26426b6c58716f347e906a08093b270b7"
+    },
+    {
+      "public_file": "harness/executed-source/tinyfish-adapter-original.py",
+      "private_source_category": "Functions extracted from original shared cloud adapter; other providers excluded",
+      "byte_identical_to_selected_function_source": true,
+      "original_line_ranges": [
+        [
+          5,
+          6
+        ],
+        [
+          8,
+          45
+        ]
+      ]
+    }
+  ],
+  "original_claude_source_has_git_history": false,
+  "portal_source_commits": [
+    "65c1f6f5168988c242fd5c113560f6bddf961094",
+    "9955044e2cb9efe0adc2eb7e553d8f5f01b8bbab"
+  ],
+  "portal_source_history": [
+    {
+      "commit": "9955044e2cb9efe0adc2eb7e553d8f5f01b8bbab",
+      "committed_at": "2026-10-22T17:39:23+01:00",
+      "subject": "Update Site source"
+    },
+    {
+      "commit": "65c1f6f5168988c242fd5c113560f6bddf961094",
+      "committed_at": "2026-10-22T17:31:16+01:00",
+      "subject": "Update Site source"
+    }
+  ]
+}

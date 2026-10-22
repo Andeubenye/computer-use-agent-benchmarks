@@ -1,0 +1,624 @@
+{
+  "method": "Unique effective source slices; physical lines, tokenizer-based Python code-bearing lines excluding comments/docstrings, nonblank noncomment shell/Docker lines. AST statement counts are separate. No production-minimum or labor-hour claim.",
+  "new_agent_requests": 0,
+  "units": [
+    {
+      "provider": "TinyFish",
+      "role": "async adapter",
+      "file": "harness/executed-source/tinyfish-adapter-original.py",
+      "physical_lines_including_blanks_comments": 41,
+      "code_bearing_physical_lines": 40,
+      "python_ast_statements": 75,
+      "selected_ranges": [
+        [
+          1,
+          41
+        ]
+      ],
+      "sha256": "90cec564536f92dc91d808e0fd2f910f186b72f9da1087cb18daa4d5afcc5c20"
+    },
+    {
+      "provider": "TinyFish",
+      "role": "provider wrapper slices",
+      "file": "uncapped-followup/harness/executed-source/run_workflows.py",
+      "physical_lines_including_blanks_comments": 33,
+      "code_bearing_physical_lines": 33,
+      "python_ast_statements": 62,
+      "selected_ranges": [
+        [
+          46,
+          47
+        ],
+        [
+          62,
+          92
+        ]
+      ],
+      "sha256": "29d84bd2489c3910e371fde21557d2dd387a371220c2166b3deab4593eb7502c"
+    },
+    {
+      "provider": "TinyFish",
+      "role": "authenticated profile setup",
+      "file": "uncapped-followup/harness/executed-source/setup_tinyfish_profile.py",
+      "physical_lines_including_blanks_comments": 37,
+      "code_bearing_physical_lines": 36,
+      "python_ast_statements": 75,
+      "selected_ranges": [
+        [
+          1,
+          37
+        ]
+      ],
+      "sha256": "b778286c979314028f7dfd376c0de34653d0c317f6e0c5c0ee47ec8b8215d18f"
+    },
+    {
+      "provider": "Claude",
+      "role": "effective instrumented native core",
+      "file": "uncapped-followup/harness/executed-source/uncapped_core.py",
+      "physical_lines_including_blanks_comments": 568,
+      "code_bearing_physical_lines": 539,
+      "python_ast_statements": 299,
+      "selected_ranges": [
+        [
+          1,
+          568
+        ]
+      ],
+      "sha256": "398c9c7615b1f5ecdace1121caef2b1d12db4971c9d60247aa09f0a9919ed74c"
+    },
+    {
+      "provider": "Claude",
+      "role": "Docker bridge and lifecycle",
+      "file": "harness/executed-source/claude/desktop.py",
+      "physical_lines_including_blanks_comments": 129,
+      "code_bearing_physical_lines": 108,
+      "python_ast_statements": 57,
+      "selected_ranges": [
+        [
+          1,
+          129
+        ]
+      ],
+      "sha256": "11e937ae56b04604c018393b5bf282352093f7bf4bfe936e02bde0d710833128"
+    },
+    {
+      "provider": "Claude",
+      "role": "native GUI action executor",
+      "file": "harness/executed-source/claude/native-action.py",
+      "physical_lines_including_blanks_comments": 190,
+      "code_bearing_physical_lines": 168,
+      "python_ast_statements": 121,
+      "selected_ranges": [
+        [
+          1,
+          190
+        ]
+      ],
+      "sha256": "9602806a5b43f6a522f7fb7282b5a9e26426b6c58716f347e906a08093b270b7"
+    },
+    {
+      "provider": "Claude",
+      "role": "authenticated context setup",
+      "file": "uncapped-followup/harness/executed-source/setup_claude_context.py",
+      "physical_lines_including_blanks_comments": 42,
+      "code_bearing_physical_lines": 41,
+      "python_ast_statements": 70,
+      "selected_ranges": [
+        [
+          1,
+          42
+        ]
+      ],
+      "sha256": "a3681b3dccd12f6601d00e3256d907502761d736aa17f110aea2da4c479510dd"
+    },
+    {
+      "provider": "Claude",
+      "role": "provider wrapper slices",
+      "file": "uncapped-followup/harness/executed-source/run_workflows.py",
+      "physical_lines_including_blanks_comments": 32,
+      "code_bearing_physical_lines": 30,
+      "python_ast_statements": 49,
+      "selected_ranges": [
+        [
+          48,
+          52
+        ],
+        [
+          93,
+          119
+        ]
+      ],
+      "sha256": "29d84bd2489c3910e371fde21557d2dd387a371220c2166b3deab4593eb7502c"
+    },
+    {
+      "provider": "Claude",
+      "role": "desktop startup script",
+      "file": "engineering-audit/source/claude-start.sh",
+      "physical_lines_including_blanks_comments": 20,
+      "code_bearing_physical_lines": 19,
+      "python_ast_statements": null,
+      "selected_ranges": [
+        [
+          1,
+          20
+        ]
+      ],
+      "sha256": "b3b3c249c1a06d571112a340c27f1fcee4a7a6b16d392c956ee7ed7f2d5959cc"
+    },
+    {
+      "provider": "Claude",
+      "role": "desktop image recipe",
+      "file": "engineering-audit/source/claude-Dockerfile",
+      "physical_lines_including_blanks_comments": 13,
+      "code_bearing_physical_lines": 13,
+      "python_ast_statements": null,
+      "selected_ranges": [
+        [
+          1,
+          13
+        ]
+      ],
+      "sha256": "293f89f6fc4bfc317ffca0754963afd7a5958e7abac24d2bc57bc829395840d0"
+    },
+    {
+      "provider": "Claude",
+      "role": "imported grading and redaction helpers",
+      "file": "engineering-audit/source/claude-evaluation.py",
+      "physical_lines_including_blanks_comments": 50,
+      "code_bearing_physical_lines": 36,
+      "python_ast_statements": 32,
+      "selected_ranges": [
+        [
+          1,
+          50
+        ]
+      ],
+      "sha256": "45f7dd56147b88debac83f79c159991a04ee57bfbb04931aca20ad511202012a"
+    },
+    {
+      "provider": "Shared",
+      "role": "legacy initialization and HTTP/redaction/capture utilities actually reused",
+      "file": "harness/executed-source/common-original.py",
+      "physical_lines_including_blanks_comments": 48,
+      "code_bearing_physical_lines": 47,
+      "python_ast_statements": 69,
+      "selected_ranges": [
+        [
+          1,
+          7
+        ],
+        [
+          9,
+          38
+        ],
+        [
+          66,
+          76
+        ]
+      ],
+      "sha256": "1945fcd3dbf503caec96add8f47baaca6b98845a87836f5f574ba57675144c8a"
+    },
+    {
+      "provider": "Shared",
+      "role": "owner verifier and setup credential client",
+      "file": "uncapped-followup/harness/executed-source/fixture_client.py",
+      "physical_lines_including_blanks_comments": 33,
+      "code_bearing_physical_lines": 32,
+      "python_ast_statements": 50,
+      "selected_ranges": [
+        [
+          1,
+          33
+        ]
+      ],
+      "sha256": "3e78c09e61de14b95c316aa4252d75fbd19b552c0664154a5795199d995e0e98"
+    },
+    {
+      "provider": "Shared",
+      "role": "RAM credential broker",
+      "file": "harness/executed-source/credential-broker.py",
+      "physical_lines_including_blanks_comments": 19,
+      "code_bearing_physical_lines": 18,
+      "python_ast_statements": 25,
+      "selected_ranges": [
+        [
+          1,
+          19
+        ]
+      ],
+      "sha256": "875644df39ec5258dddc648a2bbb3ae7c8bcb638c31940bd7b3c630e696b0501"
+    },
+    {
+      "provider": "Shared",
+      "role": "remaining batch driver incl prompt/verification",
+      "file": "uncapped-followup/harness/executed-source/run_workflows.py",
+      "physical_lines_including_blanks_comments": 83,
+      "code_bearing_physical_lines": 80,
+      "python_ast_statements": 151,
+      "selected_ranges": [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          9,
+          9
+        ],
+        [
+          10,
+          10
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          12,
+          12
+        ],
+        [
+          13,
+          13
+        ],
+        [
+          14,
+          14
+        ],
+        [
+          15,
+          15
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          17,
+          17
+        ],
+        [
+          18,
+          18
+        ],
+        [
+          19,
+          19
+        ],
+        [
+          20,
+          20
+        ],
+        [
+          21,
+          21
+        ],
+        [
+          22,
+          22
+        ],
+        [
+          23,
+          23
+        ],
+        [
+          24,
+          24
+        ],
+        [
+          25,
+          25
+        ],
+        [
+          26,
+          26
+        ],
+        [
+          27,
+          27
+        ],
+        [
+          28,
+          28
+        ],
+        [
+          29,
+          29
+        ],
+        [
+          30,
+          30
+        ],
+        [
+          31,
+          31
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          33,
+          33
+        ],
+        [
+          34,
+          34
+        ],
+        [
+          35,
+          35
+        ],
+        [
+          36,
+          36
+        ],
+        [
+          37,
+          37
+        ],
+        [
+          38,
+          38
+        ],
+        [
+          39,
+          39
+        ],
+        [
+          40,
+          40
+        ],
+        [
+          41,
+          41
+        ],
+        [
+          42,
+          42
+        ],
+        [
+          43,
+          43
+        ],
+        [
+          44,
+          44
+        ],
+        [
+          45,
+          45
+        ],
+        [
+          53,
+          53
+        ],
+        [
+          54,
+          54
+        ],
+        [
+          55,
+          55
+        ],
+        [
+          56,
+          56
+        ],
+        [
+          57,
+          57
+        ],
+        [
+          58,
+          58
+        ],
+        [
+          59,
+          59
+        ],
+        [
+          60,
+          60
+        ],
+        [
+          61,
+          61
+        ],
+        [
+          120,
+          120
+        ],
+        [
+          121,
+          121
+        ],
+        [
+          122,
+          122
+        ],
+        [
+          123,
+          123
+        ],
+        [
+          124,
+          124
+        ],
+        [
+          125,
+          125
+        ],
+        [
+          126,
+          126
+        ],
+        [
+          127,
+          127
+        ],
+        [
+          128,
+          128
+        ],
+        [
+          129,
+          129
+        ],
+        [
+          130,
+          130
+        ],
+        [
+          131,
+          131
+        ],
+        [
+          132,
+          132
+        ],
+        [
+          133,
+          133
+        ],
+        [
+          134,
+          134
+        ],
+        [
+          135,
+          135
+        ],
+        [
+          136,
+          136
+        ],
+        [
+          137,
+          137
+        ],
+        [
+          138,
+          138
+        ],
+        [
+          139,
+          139
+        ],
+        [
+          140,
+          140
+        ],
+        [
+          141,
+          141
+        ],
+        [
+          142,
+          142
+        ],
+        [
+          143,
+          143
+        ],
+        [
+          144,
+          144
+        ],
+        [
+          145,
+          145
+        ],
+        [
+          146,
+          146
+        ],
+        [
+          147,
+          147
+        ],
+        [
+          148,
+          148
+        ]
+      ],
+      "sha256": "29d84bd2489c3910e371fde21557d2dd387a371220c2166b3deab4593eb7502c"
+    },
+    {
+      "provider": "Historical Claude only",
+      "role": "earlier Mac provisioning recipe; not rerun",
+      "file": "engineering-audit/source/claude-setup-mac.sh",
+      "physical_lines_including_blanks_comments": 24,
+      "code_bearing_physical_lines": 20,
+      "python_ast_statements": null,
+      "selected_ranges": [
+        [
+          1,
+          24
+        ]
+      ],
+      "sha256": "c237862ac81e3004c03f4a381e5741a20d4bcce6373e33cfb36fc9522e3db113"
+    }
+  ],
+  "totals": {
+    "TinyFish": {
+      "source_units": 3,
+      "physical_lines": 111,
+      "code_bearing_physical_lines": 109,
+      "python_ast_statements": 212
+    },
+    "Claude": {
+      "source_units": 8,
+      "physical_lines": 1044,
+      "code_bearing_physical_lines": 954,
+      "python_ast_statements": 628
+    },
+    "Shared": {
+      "source_units": 4,
+      "physical_lines": 183,
+      "code_bearing_physical_lines": 177,
+      "python_ast_statements": 295
+    },
+    "Historical Claude only": {
+      "source_units": 1,
+      "physical_lines": 24,
+      "code_bearing_physical_lines": 20,
+      "python_ast_statements": 0
+    }
+  },
+  "not_in_totals": [
+    "Shared portal, schema and build/deployment sources",
+    "Report packaging, graders and publication scripts",
+    "SDK/dependency implementation code",
+    "Historical bootstrap is separately subtotaled; existing lockfile/manifest/CLI are not active runtime code",
+    "Old pilot core is not double-counted with effective uncapped core",
+    "Other providers and obsolete common.py ledger/claim are excluded"
+  ]
+}

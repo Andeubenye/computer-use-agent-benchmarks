@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1040" viewBox="0 0 1440 1040"><rect width="1440" height="1040" fill="#f8fafc"/>
+<text x="50" y="52" font-family="Arial,sans-serif" font-size="32" font-weight="700" fill="#172b3a">What we operated: authenticated supplier workflows</text>
+<text x="50" y="80" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#172b3a">Actual implementations audited 22 October 2026. No alternative integrations were benchmarked.</text>
+<text x="90" y="132" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#172b3a">TINYFISH WEB AGENT</text>
+<text x="810" y="132" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#172b3a">OUR CLAUDE COMPUTER USE STACK</text>
+<rect x="90" y="150" width="540" height="108" rx="10" fill="#fff1dc" stroke="#c6d2df" stroke-width="2"/>
+<text x="108" y="183" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#172b3a">Our Python integration</text>
+<text x="108" y="211" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#172b3a">Submit goal / URL / profile; poll and cancel</text>
+<text x="108" y="236" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#172b3a">Collect provider results, traces and screenshots</text>
+<rect x="90" y="308" width="540" height="106" rx="10" fill="#fff1dc" stroke="#c6d2df" stroke-width="2"/>
+<text x="108" y="341" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#172b3a">Our login bootstrap - outside scored runs</text>
+<text x="108" y="369" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#172b3a">Existing Playwright + supported setup CDP</text>
+<text x="108" y="394" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#172b3a">Log in once, save a dedicated profile</text>
+<rect x="90" y="477" width="540" height="170" rx="10" fill="#e1f1e8" stroke="#c6d2df" stroke-width="2"/>
+<text x="108" y="510" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#172b3a">TinyFish-managed execution</text>
+<text x="108" y="538" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#172b3a">Saved profile restored into remote runs</text>
+<text x="108" y="563" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#172b3a">Web Agent model/action loop and browser</text>
+<text x="108" y="588" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#172b3a">Provider executes actions and captures images</text>
+<text x="108" y="613" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#172b3a">Internal controller and model revision opaque</text>
+<path d="M630 204 H680 V452 H360 V477" fill="none" stroke="#526b82" stroke-width="3"/>
+<path d="M354 467 L360 477 L366 467" fill="none" stroke="#526b82" stroke-width="3"/>
+<path d="M360 414 L360 445" stroke="#526b82" stroke-width="3"/><path d="M354 435 L360 445 L366 435" fill="none" stroke="#526b82" stroke-width="3"/>
+<text x="104" y="439" font-family="Arial,sans-serif" font-size="15" font-weight="400" fill="#172b3a">Setup saves authenticated state</text>
+<rect x="810" y="150" width="540" height="100" rx="10" fill="#e1f1e8" stroke="#c6d2df" stroke-width="2"/>
+<text x="828" y="183" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#172b3a">Anthropic Messages API</text>
+<text x="828" y="211" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#172b3a">Remote model and native computer tool definitions</text>
+<rect x="810" y="300" width="540" height="103" rx="10" fill="#fff1dc" stroke="#c6d2df" stroke-width="2"/>
+<text x="828" y="333" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#172b3a">Our instrumented native agent loop</text>
+<text x="828" y="361" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#172b3a">Send messages; validate ordered tool calls</text>
+<text x="828" y="386" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#172b3a">Return action results and screenshot images</text>
+<text x="829" y="282" font-family="Arial,sans-serif" font-size="15" font-weight="400" fill="#172b3a">Tool calls and feedback</text>
+<path d="M1080 250 L1080 295" stroke="#526b82" stroke-width="3"/><path d="M1074 285 L1080 295 L1086 285" fill="none" stroke="#526b82" stroke-width="3"/>
+<rect x="810" y="449" width="540" height="100" rx="10" fill="#fff1dc" stroke="#c6d2df" stroke-width="2"/>
+<text x="828" y="482" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#172b3a">Our Docker bridge + GUI executor</text>
+<text x="828" y="510" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#172b3a">JSON actions; xdotool / xclip; scrot / Pillow</text>
+<path d="M1080 403 L1080 444" stroke="#526b82" stroke-width="3"/><path d="M1074 434 L1080 444 L1086 434" fill="none" stroke="#526b82" stroke-width="3"/>
+<rect x="810" y="595" width="540" height="125" rx="10" fill="#e4edfb" stroke="#c6d2df" stroke-width="2"/>
+<text x="828" y="628" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#172b3a">Reused developer-operated runtime</text>
+<text x="828" y="656" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#172b3a">Local Colima VM + Docker; Xvfb / Openbox</text>
+<text x="828" y="681" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#172b3a">Firefox and live profile; our startup / teardown</text>
+<path d="M1080 549 L1080 590" stroke="#526b82" stroke-width="3"/><path d="M1074 580 L1080 590 L1086 580" fill="none" stroke="#526b82" stroke-width="3"/>
+<rect x="90" y="762" width="1260" height="82" rx="10" fill="#e9edf1" stroke="#c6d2df" stroke-width="2"/>
+<text x="108" y="795" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#172b3a">Shared target application / synthetic fixture</text>
+<text x="108" y="823" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#172b3a">HTTPS Worker + D1: login, supplier status and note, generated receipts and server audit</text>
+<path d="M360 647 L360 757" stroke="#526b82" stroke-width="3"/><path d="M354 747 L360 757 L366 747" fill="none" stroke="#526b82" stroke-width="3"/>
+<path d="M1080 720 L1080 757" stroke="#526b82" stroke-width="3"/><path d="M1074 747 L1080 757 L1086 747" fill="none" stroke="#526b82" stroke-width="3"/>
+<rect x="90" y="894" width="1260" height="82" rx="10" fill="#e9edf1" stroke="#c6d2df" stroke-width="2"/>
+<text x="108" y="927" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#172b3a">Our shared verification and operational responsibilities</text>
+<text x="108" y="955" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#172b3a">Credentials, authorization, baselines, post-run audit checks, cost accounting and evidence retention</text>
+<path d="M720 844 L720 889" stroke="#526b82" stroke-width="3"/><path d="M714 879 L720 889 L726 879" fill="none" stroke="#526b82" stroke-width="3"/>
+<text x="90" y="1016" font-family="Arial,sans-serif" font-size="16" font-weight="400" fill="#172b3a">Green: provider managed     Orange: our integration code     Blue: reused local infrastructure     Grey: shared application / benchmark</text>
+<text x="828" y="706" font-family="Arial,sans-serif" font-size="18" fill="#172b3a">Our native GUI login setup, once per phase</text>
+</svg>

@@ -16,9 +16,9 @@
   "desktop_artifact_regrades": 11,
   "desktop_estimated_cost_usd": "3.6676817",
   "exact_prompt_records": 42,
-  "internal_links_checked": 624,
-  "files_scanned": 3102,
+  "internal_links_checked": 752,
+  "files_scanned": 3119,
   "decompressed_document_members_scanned": 581,
-  "git_history_blobs_scanned": 2087,
+  "git_history_blobs_scanned": 2523,
   "errors": []
 }

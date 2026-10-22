@@ -1,0 +1,19 @@
+[project]
+name = "claude-computer-benchmark"
+version = "0.1.0"
+description = "Instrumented native Claude computer-use benchmark on an isolated Docker desktop"
+requires-python = ">=3.12,<3.13"
+dependencies = ["anthropic>=1.15.0,<2", "python-dotenv>=1.0"]
+
+[dependency-groups]
+dev = ["pytest>=8", "httpx2>=2.13", "pillow==11.3.0", "ruff>=0.11"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I"]

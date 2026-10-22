@@ -92,6 +92,16 @@
       "sha256": "54cf54a37ea2e09bf44e1a9fe6939466296aa68dba2c5323b565608385e3c4de"
     },
     {
+      "path": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/ENGINEERING-EFFORT-ARTICLE.md",
+      "bytes": 7259,
+      "sha256": "01d141d979c8afc2825c17c9b5fb7ee6d04c04a2109eb53444223a248d026304"
+    },
+    {
+      "path": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/ENGINEERING-EFFORT-AUDIT.md",
+      "bytes": 35095,
+      "sha256": "b477d33771bf446761f3afcf34803853404e6f403fef8e113cebb9d319002119"
+    },
+    {
       "path": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/METHODOLOGY.md",
       "bytes": 6518,
       "sha256": "77117df8d59c8adf20e96400ac57722372a9c0fe7dc3ed45ef6adf160ecc2d76"
@@ -130,6 +140,76 @@
       "path": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/combined-results.json",
       "bytes": 21112,
       "sha256": "752f94d9c4001ad198c4fe064f475deb389375df5f9ecdb5eac57604cd203a16"
+    },
+    {
+      "path": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/engineering-audit/architecture.png",
+      "bytes": 141515,
+      "sha256": "7de1ef850db1bfb8ba904cd6562b46e5433a160e744ff12f090b436a19a917b6"
+    },
+    {
+      "path": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/engineering-audit/architecture.svg",
+      "bytes": 7423,
+      "sha256": "ca95f3fecbdbd22554ffd8e3b824f71cae9472ad3ce2fedeeec725d9c73cb5ad"
+    },
+    {
+      "path": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/engineering-audit/audit-validation.json",
+      "bytes": 441,
+      "sha256": "60d6bf09a13600ea184734c782bf0cb950201ef475eba82c1f7bcfb32c273ef3"
+    },
+    {
+      "path": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/engineering-audit/code-inventory.json",
+      "bytes": 12878,
+      "sha256": "431728410657b14decc9a191a75d11cf90e938d1b93467fca9a898abcd80b5a7"
+    },
+    {
+      "path": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/engineering-audit/measure_code.py",
+      "bytes": 5021,
+      "sha256": "f26aa4efc95107c549b9625ace60d5b8750fbccedce00db87c798b5fd261a531"
+    },
+    {
+      "path": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/engineering-audit/private-source-crosscheck.json",
+      "bytes": 2629,
+      "sha256": "3ab99f22c25c8f01874d253aea1b0a808a7525962e0989d7da31385d1ac97587"
+    },
+    {
+      "path": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/engineering-audit/profile-creation-observation.json",
+      "bytes": 440,
+      "sha256": "80c2fa7951a0c8fc58055e2240e9c92a9d2956d5e3f1916e935120a36499e34c"
+    },
+    {
+      "path": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/engineering-audit/research-sources.json",
+      "bytes": 2135,
+      "sha256": "2ff0d54a2a737531ae9ef6d27aab8d48974d02b1161e6936071ef01da3160b30"
+    },
+    {
+      "path": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/engineering-audit/source/claude-Dockerfile",
+      "bytes": 573,
+      "sha256": "293f89f6fc4bfc317ffca0754963afd7a5958e7abac24d2bc57bc829395840d0"
+    },
+    {
+      "path": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/engineering-audit/source/claude-evaluation.py",
+      "bytes": 1765,
+      "sha256": "45f7dd56147b88debac83f79c159991a04ee57bfbb04931aca20ad511202012a"
+    },
+    {
+      "path": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/engineering-audit/source/claude-pyproject.toml",
+      "bytes": 501,
+      "sha256": "31ea4b0593eaecd1710e7feef5a013e5b9b22cbca4cde5f07fe74cf26248dba2"
+    },
+    {
+      "path": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/engineering-audit/source/claude-setup-mac.sh",
+      "bytes": 1094,
+      "sha256": "c237862ac81e3004c03f4a381e5741a20d4bcce6373e33cfb36fc9522e3db113"
+    },
+    {
+      "path": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/engineering-audit/source/claude-start.sh",
+      "bytes": 795,
+      "sha256": "b3b3c249c1a06d571112a340c27f1fcee4a7a6b16d392c956ee7ed7f2d5959cc"
+    },
+    {
+      "path": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/engineering-audit/source-provenance.json",
+      "bytes": 1698,
+      "sha256": "4d1965f00fb10ce3e8df2c11d5ab6694e766effbebf5bb1855eb00f9d2598b87"
     },
     {
       "path": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/evidence/benchmark-started.json",
@@ -15465,6 +15545,11 @@
       "path": "verification/pre-clarified-validation.json",
       "bytes": 516,
       "sha256": "29b57374a330904b0958545ab283ad593b8d82a16cf80109cc8d0380d803455f"
+    },
+    {
+      "path": "verification/pre-engineering-audit-validation.json",
+      "bytes": 765,
+      "sha256": "7a7a9074f06dc934c21a6ab3fd0b9183fcb5e97258ceb5aed0445c10d21678a4"
     },
     {
       "path": "verification/prompt-integrity.json",

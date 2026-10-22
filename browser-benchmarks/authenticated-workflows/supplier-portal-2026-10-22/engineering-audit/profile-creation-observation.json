@@ -1,0 +1,10 @@
+{
+  "source_category": "Original private dedicated-profile creation response; full account/profile metadata excluded",
+  "source_sha256": "3c6f934b39aaf17415cdaf11b6d169abc9c71a9fcf07b956eb6c7f5847cc30a8",
+  "http_status": 201,
+  "named_profile_returned": true,
+  "created_at_raw": "2026-10-22 16:33:15",
+  "timestamp_timezone": "UNKNOWN: raw field has no offset",
+  "creation_wall_seconds": null,
+  "provider_requests_for_this_audit": 0
+}

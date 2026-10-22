@@ -1,0 +1,41 @@
+{
+  "source_files": [
+    {
+      "original_source": "previous Claude project/Dockerfile",
+      "published_file": "engineering-audit/source/claude-Dockerfile",
+      "sha256": "293f89f6fc4bfc317ffca0754963afd7a5958e7abac24d2bc57bc829395840d0",
+      "byte_identical": true,
+      "status": "Execution-layer source / imported utility"
+    },
+    {
+      "original_source": "previous Claude project/desktop/start.sh",
+      "published_file": "engineering-audit/source/claude-start.sh",
+      "sha256": "b3b3c249c1a06d571112a340c27f1fcee4a7a6b16d392c956ee7ed7f2d5959cc",
+      "byte_identical": true,
+      "status": "Execution-layer source / imported utility"
+    },
+    {
+      "original_source": "previous Claude project/setup-mac.sh",
+      "published_file": "engineering-audit/source/claude-setup-mac.sh",
+      "sha256": "c237862ac81e3004c03f4a381e5741a20d4bcce6373e33cfb36fc9522e3db113",
+      "byte_identical": true,
+      "status": "Historical bootstrap only"
+    },
+    {
+      "original_source": "previous Claude project/pyproject.toml",
+      "published_file": "engineering-audit/source/claude-pyproject.toml",
+      "sha256": "31ea4b0593eaecd1710e7feef5a013e5b9b22cbca4cde5f07fe74cf26248dba2",
+      "byte_identical": true,
+      "status": "Reused dependency manifest"
+    },
+    {
+      "original_source": "previous Claude project/benchmark/evaluation.py",
+      "published_file": "engineering-audit/source/claude-evaluation.py",
+      "sha256": "45f7dd56147b88debac83f79c159991a04ee57bfbb04931aca20ad511202012a",
+      "byte_identical": true,
+      "status": "Execution-layer source / imported utility"
+    }
+  ],
+  "existing_evidence_unchanged": true,
+  "new_benchmark_requests": 0
+}
