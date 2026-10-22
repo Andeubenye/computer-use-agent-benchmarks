@@ -1,0 +1,54 @@
+{"time_utc": "2026-10-17T00:51:18.978412+00:00", "event": "grading_started"}
+{"time_utc": "2026-10-17T00:51:19.455725+00:00", "event": "grader_action", "index": 1, "name": "screenshot", "input": {}, "is_error": false}
+{"time_utc": "2026-10-17T00:51:19.456466+00:00", "event": "grader_screenshot", "path": "001-post-agent.png"}
+{"time_utc": "2026-10-17T00:51:38.864739+00:00", "event": "grader_action", "index": 2, "name": "key", "input": {"text": "ctrl+l"}, "is_error": false}
+{"time_utc": "2026-10-17T00:51:39.374931+00:00", "event": "grader_action", "index": 3, "name": "type", "input": {"text": "https://github.com/browser-use/browser-use/issues?q=is%3Aissue%20is%3Aopen%20label%3Abug%20sort%3Aupdated-desc"}, "is_error": false}
+{"time_utc": "2026-10-17T00:51:39.837830+00:00", "event": "grader_action", "index": 4, "name": "key", "input": {"text": "Return"}, "is_error": false}
+{"time_utc": "2026-10-17T00:51:43.402456+00:00", "event": "grader_action", "index": 5, "name": "wait", "input": {"duration": 3}, "is_error": false}
+{"time_utc": "2026-10-17T00:51:43.888464+00:00", "event": "grader_action", "index": 6, "name": "screenshot", "input": {}, "is_error": false}
+{"time_utc": "2026-10-17T00:51:43.889367+00:00", "event": "grader_screenshot", "path": "002-filtered-list.png"}
+{"time_utc": "2026-10-17T00:52:15.096521+00:00", "event": "grader_action", "index": 7, "name": "mouse_move", "input": {"coordinate": [420, 328]}, "is_error": false}
+{"time_utc": "2026-10-17T00:52:16.497376+00:00", "event": "grader_action", "index": 8, "name": "wait", "input": {"duration": 1}, "is_error": false}
+{"time_utc": "2026-10-17T00:52:16.803690+00:00", "event": "grader_action", "index": 9, "name": "screenshot", "input": {}, "is_error": false}
+{"time_utc": "2026-10-17T00:52:16.804450+00:00", "event": "grader_screenshot", "path": "003-issue-1-link.png"}
+{"time_utc": "2026-10-17T00:52:17.237527+00:00", "event": "grader_action", "index": 10, "name": "mouse_move", "input": {"coordinate": [490, 343]}, "is_error": false}
+{"time_utc": "2026-10-17T00:52:19.688760+00:00", "event": "grader_action", "index": 11, "name": "wait", "input": {"duration": 2}, "is_error": false}
+{"time_utc": "2026-10-17T00:52:20.010795+00:00", "event": "grader_action", "index": 12, "name": "screenshot", "input": {}, "is_error": false}
+{"time_utc": "2026-10-17T00:52:20.011671+00:00", "event": "grader_screenshot", "path": "004-issue-1-updated.png"}
+{"time_utc": "2026-10-17T00:52:20.426990+00:00", "event": "grader_action", "index": 13, "name": "mouse_move", "input": {"coordinate": [420, 368]}, "is_error": false}
+{"time_utc": "2026-10-17T00:52:21.879324+00:00", "event": "grader_action", "index": 14, "name": "wait", "input": {"duration": 1}, "is_error": false}
+{"time_utc": "2026-10-17T00:52:22.210504+00:00", "event": "grader_action", "index": 15, "name": "screenshot", "input": {}, "is_error": false}
+{"time_utc": "2026-10-17T00:52:22.211721+00:00", "event": "grader_screenshot", "path": "005-issue-2-link.png"}
+{"time_utc": "2026-10-17T00:52:22.602694+00:00", "event": "grader_action", "index": 16, "name": "mouse_move", "input": {"coordinate": [472, 383]}, "is_error": false}
+{"time_utc": "2026-10-17T00:52:25.024900+00:00", "event": "grader_action", "index": 17, "name": "wait", "input": {"duration": 2}, "is_error": false}
+{"time_utc": "2026-10-17T00:52:25.379587+00:00", "event": "grader_action", "index": 18, "name": "screenshot", "input": {}, "is_error": false}
+{"time_utc": "2026-10-17T00:52:25.380803+00:00", "event": "grader_screenshot", "path": "006-issue-2-updated.png"}
+{"time_utc": "2026-10-17T00:52:25.784622+00:00", "event": "grader_action", "index": 19, "name": "mouse_move", "input": {"coordinate": [420, 407]}, "is_error": false}
+{"time_utc": "2026-10-17T00:52:27.157349+00:00", "event": "grader_action", "index": 20, "name": "wait", "input": {"duration": 1}, "is_error": false}
+{"time_utc": "2026-10-17T00:52:27.470336+00:00", "event": "grader_action", "index": 21, "name": "screenshot", "input": {}, "is_error": false}
+{"time_utc": "2026-10-17T00:52:27.471517+00:00", "event": "grader_screenshot", "path": "007-issue-3-link.png"}
+{"time_utc": "2026-10-17T00:52:27.866532+00:00", "event": "grader_action", "index": 22, "name": "mouse_move", "input": {"coordinate": [475, 422]}, "is_error": false}
+{"time_utc": "2026-10-17T00:52:30.340851+00:00", "event": "grader_action", "index": 23, "name": "wait", "input": {"duration": 2}, "is_error": false}
+{"time_utc": "2026-10-17T00:52:30.674773+00:00", "event": "grader_action", "index": 24, "name": "screenshot", "input": {}, "is_error": false}
+{"time_utc": "2026-10-17T00:52:30.675959+00:00", "event": "grader_screenshot", "path": "008-issue-3-updated.png"}
+{"time_utc": "2026-10-17T00:52:31.112737+00:00", "event": "grader_action", "index": 25, "name": "mouse_move", "input": {"coordinate": [420, 447]}, "is_error": false}
+{"time_utc": "2026-10-17T00:52:32.529712+00:00", "event": "grader_action", "index": 26, "name": "wait", "input": {"duration": 1}, "is_error": false}
+{"time_utc": "2026-10-17T00:52:32.854882+00:00", "event": "grader_action", "index": 27, "name": "screenshot", "input": {}, "is_error": false}
+{"time_utc": "2026-10-17T00:52:32.856574+00:00", "event": "grader_screenshot", "path": "009-issue-4-link.png"}
+{"time_utc": "2026-10-17T00:52:33.263569+00:00", "event": "grader_action", "index": 28, "name": "mouse_move", "input": {"coordinate": [478, 462]}, "is_error": false}
+{"time_utc": "2026-10-17T00:52:35.728701+00:00", "event": "grader_action", "index": 29, "name": "wait", "input": {"duration": 2}, "is_error": false}
+{"time_utc": "2026-10-17T00:52:36.050246+00:00", "event": "grader_action", "index": 30, "name": "screenshot", "input": {}, "is_error": false}
+{"time_utc": "2026-10-17T00:52:36.051514+00:00", "event": "grader_screenshot", "path": "010-issue-4-updated.png"}
+{"time_utc": "2026-10-17T00:52:36.457445+00:00", "event": "grader_action", "index": 31, "name": "mouse_move", "input": {"coordinate": [420, 486]}, "is_error": false}
+{"time_utc": "2026-10-17T00:52:37.850591+00:00", "event": "grader_action", "index": 32, "name": "wait", "input": {"duration": 1}, "is_error": false}
+{"time_utc": "2026-10-17T00:52:38.142885+00:00", "event": "grader_action", "index": 33, "name": "screenshot", "input": {}, "is_error": false}
+{"time_utc": "2026-10-17T00:52:38.144061+00:00", "event": "grader_screenshot", "path": "011-issue-5-link.png"}
+{"time_utc": "2026-10-17T00:52:38.579339+00:00", "event": "grader_action", "index": 34, "name": "mouse_move", "input": {"coordinate": [470, 501]}, "is_error": false}
+{"time_utc": "2026-10-17T00:52:41.254058+00:00", "event": "grader_action", "index": 35, "name": "wait", "input": {"duration": 2}, "is_error": false}
+{"time_utc": "2026-10-17T00:52:41.587492+00:00", "event": "grader_action", "index": 36, "name": "screenshot", "input": {}, "is_error": false}
+{"time_utc": "2026-10-17T00:52:41.588663+00:00", "event": "grader_screenshot", "path": "012-issue-5-updated.png"}
+{"time_utc": "2026-10-17T00:53:07.544367+00:00", "event": "grader_action", "index": 37, "name": "key", "input": {"text": "ctrl+l"}, "is_error": false}
+{"time_utc": "2026-10-17T00:53:07.979444+00:00", "event": "grader_action", "index": 38, "name": "key", "input": {"text": "ctrl+c"}, "is_error": false}
+{"time_utc": "2026-10-17T00:53:08.037566+00:00", "event": "grader_address_bar", "observed_url": "https://github.com/browser-use/browser-use/issues?q=is%3Aissue%20is%3Aopen%20label%3Abug%20sort%3Aupdated-desc"}
+{"time_utc": "2026-10-17T00:53:08.454024+00:00", "event": "grader_action", "index": 39, "name": "key", "input": {"text": "Escape"}, "is_error": false}
+{"time_utc": "2026-10-17T00:53:08.542403+00:00", "event": "grading_finished", "elapsed_seconds": 109.562569}

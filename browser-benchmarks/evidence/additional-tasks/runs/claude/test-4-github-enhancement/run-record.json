@@ -1,0 +1,22 @@
+{
+  "agent": "claude",
+  "task": "test-4-github-enhancement",
+  "submitted": true,
+  "status": "needs_review",
+  "agent_wall_seconds": 113.699621,
+  "wall_seconds": 113.699918,
+  "max_seconds_from_submission": 600,
+  "actions": 51,
+  "action_unit": "native computer actions including screenshots/zoom",
+  "screenshots": 15,
+  "model": "claude-sonnet-5-5",
+  "tool_version": "computer_toolset_20260801",
+  "cost_usd": 0.254624,
+  "uncertain_cost_reserved_usd": 0.0,
+  "cost_basis": "recorded tokens × standard model rates; not invoice",
+  "errors": 0,
+  "api_retries": 0,
+  "automatic_restarts": 0,
+  "fresh_desktop": true,
+  "evidence_directory": "runs/claude/test-4-github-enhancement/native-evidence/20261017T182429Z-450aecd5"
+}

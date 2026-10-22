@@ -1,0 +1,1 @@
+{"agent": "claude", "reason": "execution_error", "model_requests": 22, "seconds": 223.24, "cost_estimate_usd": 0.885828, "uncertain_reserved_usd": 0, "actions": 100, "errors": ["Next-request budget guard; generation not sent"]}

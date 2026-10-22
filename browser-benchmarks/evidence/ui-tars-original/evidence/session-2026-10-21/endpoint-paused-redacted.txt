@@ -1,0 +1,186 @@
+Window: "Inference Endpoints by Hugging Face", App: Google Chrome.
+0 standard window Inference Endpoints by Hugging Face - Google Chrome – Vera (Vera Agiang), URL: endpoints.huggingface.co/andeubneye/endpoints/ui-tars-1-5-7b-inh, Secondary Actions: Raise
+	1 container Inference Endpoints by Hugging Face - Google Chrome – Vera (Vera Agiang), URL: endpoints.huggingface.co/andeubneye/endpoints/ui-tars-1-5-7b-inh
+		2 container
+			3 container
+				4 scroll area
+					5 HTML content Inference Endpoints by Hugging Face, URL: endpoints.huggingface.co/andeubneye/endpoints/ui-tars-1-5-7b-inh
+						6 container
+							7 container
+								8 link Inference Endpoints, Value: endpoints.huggingface.co/andeubneye/endpoints/dedicated
+								9 button andeubneye
+								10 content list
+									11 link Endpoints, Value: endpoints.huggingface.co/andeubneye/endpoints/dedicated
+									12 button Catalog
+									13 button Deploy F
+								14 button
+								15 button
+							16 container
+								17 heading ui-tars-1-5-7b-inh, Value: 2
+									18 text ui-tars-1-5-7b-inh
+								19 button Copy to clipboard
+								20 text Paused
+								21 button
+								22 text Resume
+								23 content list
+									24 link Overview, Value: endpoints.huggingface.co/andeubneye/endpoints/ui-tars-1-5-7b-inh
+									25 link Playground, Value: endpoints.huggingface.co/andeubneye/endpoints/ui-tars-1-5-7b-inh/playground
+									26 link Analytics, Value: endpoints.huggingface.co/andeubneye/endpoints/ui-tars-1-5-7b-inh/analytics
+									27 link Logs, Value: endpoints.huggingface.co/andeubneye/endpoints/ui-tars-1-5-7b-inh/logs
+									28 link Settings, Value: endpoints.huggingface.co/andeubneye/endpoints/ui-tars-1-5-7b-inh/settings/hardware
+								29 container
+									30 text Endpoint is Paused Paused Endpoints don't count toward quota usage.
+									31 image
+									32 text Endpoint URL
+									33 link Help, Value: huggingface.co/docs/inference-endpoints/guides/test_endpoint
+									34 text field [PRIVATE ENDPOINT REDACTED]
+									35 button Copy URL to clipboard
+									36 text Configuration Private
+									37 content list
+										38 container
+											39 text Only  you  can access your endpoint, using a 
+											40 link Hugging Face Token, Value: huggingface.co/docs/hub/security-tokens
+											41 text  generated from  your  personal account.
+									42 text  image-text-to-text Created
+									43 text Oct 17
+									44 text  by 
+									45 link andeubneye, Value: huggingface.co/andeubneye
+									46 text • Last Edited
+									47 text Oct 21 at 12:12 AM
+									48 text  by 
+									49 link andeubneye, Value: huggingface.co/andeubneye
+									50 image
+									51 text Model
+									52 link ✓ Up-to-date Uses the latest revision available for this repository., Value: endpoints.huggingface.co/andeubneye/endpoints/ui-tars-1-5-7b-inh/settings/advanced
+									53 link ByteDance-Seed/UI-TARS-1.5-7B, Value: huggingface.co/ByteDance-Seed/UI-TARS-1.5-7B
+									54 image
+									55 text Revision
+									56 link 683d002, Value: huggingface.co/ByteDance-Seed/UI-TARS-1.5-7B/tree/683d002dd99d8f95104d31e70391a39348857f4e
+									57 text vLLM Engine
+									58 text field vllm/vllm-openai:v0.29.0
+									59 text Port 8000
+									60 button Copy URL to clipboard
+									61 text Instance $ 1.8 /h while running
+									62 text Scaled-to-zero endpoints are not billed AWS us-east-1
+									63 link GPU · Nvidia L40S · 1x GPU · 48 GB, Help: Edit Instance Settings, Value: endpoints.huggingface.co/andeubneye/endpoints/ui-tars-1-5-7b-inh/settings/hardware
+									64 text Autoscaling
+									65 text 0 to 1 replicas • Scale to zero after 1h VPC Service Name
+									66 text field This endpoint doesn't have a VPC config set
+									67 image
+									68 text Usage
+									69 link Past Invoices, Value: huggingface.co/settings/billing
+									70 table
+										71 row
+											72 column header
+												73 text Instance Type
+											74 column header
+												75 text Compute Time
+											76 column header
+												77 text Rate (USD/hour)
+											78 column header
+												79 text Cost (USD)
+										80 row
+											81 cell
+												82 text Nvidia L40S
+												83 text Active
+											84 cell
+												85 text 272 minutes
+											86 cell
+												87 text 1.80
+											88 cell
+												89 text 8.16
+										90 row
+											91 cell
+												92 text Total
+											93 cell 1-3
+												94 text $ 8.16
+							95 text Inference Endpoints by Hugging Face
+		96 container
+			97 container
+				98 toolbar
+					99 button Back
+					100 button (disabled) Forward
+					101 button Reload
+					102 container
+						103 pop-up button View site information
+						104 text field (settable) Address and search bar, Value: endpoints.huggingface.co/andeubneye/endpoints/ui-tars-1-5-7b-inh, Placeholder: Ask Google or type a URL
+						105 button Bookmark this tab
+					106 container
+						107 pop-up button Volume Booster
+Has access to this site
+						108 pop-up button Awesome Screen Recorder & Screenshot
+Has access to this site
+						109 pop-up button Take a Screenshot
+Has access to this site
+						110 pop-up button Proton VPN: Unprotected
+Has access to this site
+						111 pop-up button Popup
+Wants access to this site
+						112 pop-up button Free VPN for Chrome - VPN Proxy VeePN
+You are not connected
+Has access to this site
+						113 pop-up button Click to start / stop recording
+Has access to this site
+						114 pop-up button Extensions
+					115 button Vera (Vera Agiang)
+					116 pop-up button Chrome
+				117 toolbar Bookmarks
+					118 toolbar Saved tab groups
+						119 button Tab groups
+					120 splitter Separator
+					121 bookmark button How to Use LinkedIn Ads to Grow Your Business: A Guide for Marketers
+					122 bookmark button Second Person Point of View: A Writer's Guide
+					123 bookmark button Meta documentation reference - Claude
+					124 bookmark button 30 Filler Words You Can Cut Out of Your Writing (Infographic)
+					125 bookmark button How to Write Second Person POV - Bookfox
+					126 bookmark button Randoms
+					127 bookmark button Huge List of eBook Templates You Can Download for Free
+					128 bookmark button https://coschedule.com/click-to-tweet
+					129 pop-up button Menu containing hidden bookmarks
+					130 bookmark folder button All Bookmarks
+					131 splitter Separator
+			132 container
+				133 pop-up button Tab search
+				134 tab group
+					135 tab (settable, boolean) Briefs | Boki - Memory usage - 329 MB, Value: off
+						136 button Close
+					137 tab (selected, settable, boolean) Inference Endpoints by Hugging Face, Value: on
+						138 button Close
+					139 tab (settable, boolean) Tinyfish > Content piece > Best computer use agents - Memory usage - 236 MB, Value: off
+						140 button Close
+					141 tab (settable, boolean) Rewrite Codex Description - High memory usage - 899 MB, Value: off
+						142 button Close
+					143 tab (settable, boolean) Update Intro Copy - Memory usage - 669 MB, Value: off
+						144 button Close
+					145 tab (settable, boolean) Vera's Portfolio - Google Docs, Value: off
+						146 button Close
+					147 tab (settable, boolean) (124) WhatsApp - Memory usage - 640 MB, Value: off
+						148 button Close
+					149 tab (settable, boolean) Home / X, Value: off
+						150 button Close
+					151 tab (settable, boolean) Agent 200 - Google Docs, Value: off
+						152 button Close
+					153 tab (settable, boolean) how did firecrawl blow up - Google Search, Value: off
+						154 button Close
+					155 tab (settable, boolean) Exa | Search API for AI Agents — Real-Time Web Data, Value: off
+						156 button Close
+					157 tab (settable, boolean) Value: off, bytedance/UI-TARS-desktop: The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra
+						158 button Close
+				159 button New tab
+				160 button Open Gemini in Chrome
+	161 container
+		162 close button
+		163 zoom button
+164 menu bar
+	165 Chrome
+	166 File
+	167 Edit
+	168 View
+	169 History
+	170 Bookmarks
+	171 Profiles
+	172 Tab
+	173 Window
+	174 Help
+
+The focused UI element is 5 HTML content Inference Endpoints by Hugging Face, URL: endpoints.huggingface.co/andeubneye/endpoints/ui-tars-1-5-7b-inh

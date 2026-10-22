@@ -1,0 +1,41 @@
+{
+  "task": "test-2-selenium-form",
+  "submitted": true,
+  "attempts": 1,
+  "start_utc": "2026-10-21T00:09:11.084000+00:00",
+  "finish_utc": "2026-10-21T00:11:47.817000+00:00",
+  "duration_seconds": 156.733,
+  "agent_loop_seconds": 152.614,
+  "terminal_status": "error",
+  "actions": 6,
+  "action_types": [
+    "click",
+    "click",
+    "type",
+    "hotkey",
+    "click",
+    "click"
+  ],
+  "sdk_invocations": 6,
+  "model_responses": 5,
+  "timeouts": 1,
+  "automatic_reruns": 0,
+  "reported_total_tokens": 81831,
+  "input_tokens": "Not measured",
+  "output_tokens": "Not measured",
+  "inference_cost_usd": "Not measured",
+  "status": "FAIL",
+  "screenshots_saved": 10,
+  "final_model_response": "Thought: I finally managed to open the form page, and now I need to start filling in the information. The first input field I see is the text input box, and I need to enter \"Vera Agiang\" in it. Let me click on this input box to activate it so I can start typing.\nAction: click(start_box='(511,217)')",
+  "complete_final_answer": false,
+  "observed_same_run_retry_invocations": 1,
+  "classification": "FAIL",
+  "deadline_watchdog_triggered": false,
+  "watchdog_disarmed_after_terminal": true,
+  "manual_agent_corrections": 0,
+  "verification_file": "verification.json",
+  "timeout_messages": [
+    "Request timed out."
+  ],
+  "returned_prediction_after_timeout": true
+}

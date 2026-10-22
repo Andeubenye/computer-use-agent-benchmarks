@@ -1,0 +1,20 @@
+Open https://en.wikipedia.org/wiki/List_of_programming_languages
+
+Find these five programming languages:
+
+1. Python
+2. Java
+3. Rust
+4. Go
+5. Ruby
+
+For each language, navigate to its Wikipedia article and collect:
+
+- Programming language name
+- Year it first appeared
+- Original designer or creator
+- Direct Wikipedia URL
+
+Return the information in a structured table.
+
+Verify the information against each Wikipedia article. Do not invent missing details.

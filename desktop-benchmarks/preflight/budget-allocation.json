@@ -1,0 +1,10 @@
+{
+  "task_caps_usd": {
+    "4": 1.25,
+    "5": 1.0
+  },
+  "same_cap_for_both_agents": true,
+  "cumulative_cap_usd": 7,
+  "reason": "Earlier tasks used less than reserved; allocate released allowance to the remaining reporting and recovery tasks. Does not increase total authorization.",
+  "utc": "2026-10-21T23:10:37.355616+00:00"
+}

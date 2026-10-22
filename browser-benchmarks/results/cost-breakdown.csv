@@ -1,0 +1,38 @@
+cohort,agent,task,amount_usd,basis,source
+original-github,tinyfish,github-bugs,0.128,Attributed user billing text; not invoice,browser-benchmarks/evidence/original-github/agents/tinyfish/run-record.json
+original-github,claude,github-bugs,0.222,Recorded tokens × saved rates; excludes local hosting,browser-benchmarks/evidence/original-github/agents/claude/run-record.json
+original-github,openai,github-bugs,0.0731802,Recorded tokens × saved rates; excludes local hosting,browser-benchmarks/evidence/original-github/agents/openai/run-record.json
+original-github,sai,github-bugs,0.07,Promotional-credit delta; alternative reported usage $0.02; do not sum,browser-benchmarks/evidence/original-github/agents/sai/run-record.json
+original-github-followup,ui-tars,github-bugs,0.082303,Hosting interval estimate; contained in $0.24406 session; do not add,browser-benchmarks/evidence/ui-tars-original/results.json
+additional-20,tinyfish,test-2-wikipedia,0.288,published $0.016 per reported step; not invoice,browser-benchmarks/evidence/additional-tasks/runs/tinyfish/test-2-wikipedia/run-record.json
+additional-20,tinyfish,test-3-form,0.112,published $0.016 per reported step; not invoice,browser-benchmarks/evidence/additional-tasks/runs/tinyfish/test-3-form/run-record.json
+additional-20,tinyfish,test-4-github-enhancement,0.224,published $0.016 per reported step; not invoice,browser-benchmarks/evidence/additional-tasks/runs/tinyfish/test-4-github-enhancement/run-record.json
+additional-20,tinyfish,test-5-popup,0.112,published $0.016 per reported step; not invoice,browser-benchmarks/evidence/additional-tasks/runs/tinyfish/test-5-popup/run-record.json
+additional-20,claude,test-2-wikipedia,0.400342,recorded tokens × standard model rates; not invoice,browser-benchmarks/evidence/additional-tasks/runs/claude/test-2-wikipedia/run-record.json
+additional-20,claude,test-3-form,0.194282,recorded tokens × standard model rates; not invoice,browser-benchmarks/evidence/additional-tasks/runs/claude/test-3-form/run-record.json
+additional-20,claude,test-4-github-enhancement,0.254624,recorded tokens × standard model rates; not invoice,browser-benchmarks/evidence/additional-tasks/runs/claude/test-4-github-enhancement/run-record.json
+additional-20,claude,test-5-popup,0.129996,recorded tokens × standard model rates; not invoice,browser-benchmarks/evidence/additional-tasks/runs/claude/test-5-popup/run-record.json
+additional-20,openai,test-2-wikipedia,0.0500897,recorded tokens × standard model rates; not invoice,browser-benchmarks/evidence/additional-tasks/runs/openai/test-2-wikipedia/run-record.json
+additional-20,openai,test-3-form,0.0380349,recorded tokens × standard model rates; not invoice,browser-benchmarks/evidence/additional-tasks/runs/openai/test-3-form/run-record.json
+additional-20,openai,test-4-github-enhancement,0.0946966,recorded tokens × standard model rates; not invoice,browser-benchmarks/evidence/additional-tasks/runs/openai/test-4-github-enhancement/run-record.json
+additional-20,openai,test-5-popup,0.0350261,recorded tokens × standard model rates; not invoice,browser-benchmarks/evidence/additional-tasks/runs/openai/test-5-popup/run-record.json
+additional-20,sai,test-2-wikipedia,0.02,free-account credit delta; provider usage separately retained,browser-benchmarks/evidence/additional-tasks/runs/sai/test-2-wikipedia/run-record.json
+additional-20,sai,test-3-form,0.02,free-account credit delta; provider usage separately retained,browser-benchmarks/evidence/additional-tasks/runs/sai/test-3-form/run-record.json
+additional-20,sai,test-4-github-enhancement,0.02,free-account credit delta; provider usage separately retained,browser-benchmarks/evidence/additional-tasks/runs/sai/test-4-github-enhancement/run-record.json
+additional-20,sai,test-5-popup,0.02,free-account credit delta; provider usage separately retained,browser-benchmarks/evidence/additional-tasks/runs/sai/test-5-popup/run-record.json
+original-ui-tars-unsubmitted,ui-tars,test-2-wikipedia,,No task submission; setup hosting not separately allocated,browser-benchmarks/evidence/ui-tars-original/results.json
+original-ui-tars-unsubmitted,ui-tars,test-3-form,,No task submission; setup hosting not separately allocated,browser-benchmarks/evidence/ui-tars-original/results.json
+original-ui-tars-unsubmitted,ui-tars,test-4-github-enhancement,,No task submission; setup hosting not separately allocated,browser-benchmarks/evidence/ui-tars-original/results.json
+original-ui-tars-unsubmitted,ui-tars,test-5-popup,,No task submission; setup hosting not separately allocated,browser-benchmarks/evidence/ui-tars-original/results.json
+ui-tars-oct21-different-prompts,ui-tars,test-1-wikipedia-people,,Not measured; no invoice or attributable hosting baseline,browser-benchmarks/evidence/ui-tars-oct21/test-1-wikipedia-people/record.json
+ui-tars-oct21-different-prompts,ui-tars,test-2-selenium-form,,Not measured; no invoice or attributable hosting baseline,browser-benchmarks/evidence/ui-tars-oct21/test-2-selenium-form/record.json
+ui-tars-oct21-different-prompts,ui-tars,test-3-vscode-issues,,Not measured; no invoice or attributable hosting baseline,browser-benchmarks/evidence/ui-tars-oct21/test-3-vscode-issues/record.json
+ui-tars-oct21-different-prompts,ui-tars,test-4-login-recovery,,Not measured; no invoice or attributable hosting baseline,browser-benchmarks/evidence/ui-tars-oct21/test-4-login-recovery/record.json
+ui-tars-oct21-different-prompts,ui-tars,test-5-programming-languages,,Not measured; no invoice or attributable hosting baseline,browser-benchmarks/evidence/ui-tars-oct21/test-5-programming-languages/record.json
+setup-smoke,claude,wikipedia-single-person-smoke,0.07704,Recorded tokens × saved rates; excluded from main success row,browser-benchmarks/evidence/original-github/agents/claude/run-record.json
+original-github-prior-failure,claude,github-bugs,0.12091,Recorded tokens × saved rates; excluded from main success row,browser-benchmarks/evidence/original-github/agents/claude/run-record.json
+original-github-prior-failure,claude,github-bugs,0.419026,Recorded tokens × saved rates; excluded from main success row,browser-benchmarks/evidence/original-github/agents/claude/run-record.json
+additional-20,sai,unallocated-credit-adjustment,0.01,Promotional-credit depletion not allocated to a run,browser-benchmarks/evidence/additional-tasks/audit/sai-credit-reconciliation.json
+original-github-followup,ui-tars,whole-session,0.24406,Hosting estimate; includes task interval; DO NOT ADD task estimate,browser-benchmarks/evidence/ui-tars-original/results.json
+user-supplied-later-account-figure,ui-tars,account-current-period,10.05,User-supplied dashboard figure; raw source not recovered; NOT verified task cost,LIMITATIONS.md
+setup-smoke,ui-tars,example-com-smoke,0.089194,Active hosting interval estimate; do not sum with overlapping session intervals,browser-benchmarks/evidence/ui-tars-original/evidence/smoke/record.json

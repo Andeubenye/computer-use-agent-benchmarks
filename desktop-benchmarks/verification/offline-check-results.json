@@ -1,0 +1,54 @@
+{
+  "provider_requests": 0,
+  "total_cases_passed": 21,
+  "checks": [
+    {
+      "script": "scripts/check_verifier.py",
+      "exit_code": 0,
+      "result": {
+        "offline_verifier_cases_passed": 6,
+        "agent_model_calls": 0,
+        "temporary_files_not_agent_outputs": true
+      }
+    },
+    {
+      "script": "verification/check_harness.py",
+      "exit_code": 0,
+      "result": {
+        "offline_checks_passed": 6,
+        "checks": [
+          "sleep-inclusive deadline",
+          "cumulative budget reservation",
+          "native Responses action ordering and screenshot continuation",
+          "native click modifier preserved",
+          "executor error propagation",
+          "returned cost retained on reservation overrun"
+        ],
+        "provider_requests": 0,
+        "docker_calls": 0,
+        "simulations_are_not_benchmark_results": true
+      }
+    },
+    {
+      "script": "verification/check_additional.py",
+      "exit_code": 0,
+      "result": {
+        "offline_cases_passed": 9,
+        "checks": [
+          "correct organization needs GUI verification",
+          "duplicate rejected",
+          "modified binary rejected",
+          "document edits with missing reopen are partial",
+          "unrequested document edit rejected",
+          "metrics checked independently without GUI claims",
+          "incorrect arithmetic rejected",
+          "recovery artifact needs interruption and reopen evidence",
+          "unsubmitted recovery is not scored"
+        ],
+        "provider_requests": 0,
+        "agent_outputs_created": false,
+        "temporary_test_files_only": true
+      }
+    }
+  ]
+}

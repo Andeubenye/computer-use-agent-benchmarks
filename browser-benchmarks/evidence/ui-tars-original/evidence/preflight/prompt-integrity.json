@@ -1,0 +1,27 @@
+[
+  {
+    "task": "test-1-github-bug",
+    "sha256": "40ea2777b2d6d330d275ded4e42757c23c975c4beaf84d314f2dd40a0feced4e",
+    "source": "outputs/benchmark-2026-10-17-execution-b-first/test-a-hugging-face/prompt.txt"
+  },
+  {
+    "task": "test-2-wikipedia",
+    "sha256": "5a9cea954c8edf59c018f9f837535ace8469a33d0d1ec92e606697676b638c30",
+    "source": "outputs/manicule-benchmarks-tasks-2-5/preparation/tasks.json"
+  },
+  {
+    "task": "test-3-form",
+    "sha256": "1b237d3e106992c3cdc5e1e866b19f7e2d873d04937f6cbd2d58649a67d2f155",
+    "source": "outputs/manicule-benchmarks-tasks-2-5/preparation/tasks.json"
+  },
+  {
+    "task": "test-4-github-enhancement",
+    "sha256": "331e5d68c42a17fd2544559508bf04304e1e495408d65d8ad6aeee02de44193c",
+    "source": "outputs/manicule-benchmarks-tasks-2-5/preparation/tasks.json"
+  },
+  {
+    "task": "test-5-popup",
+    "sha256": "af29ecb3989f7f72712a0f97bb49dd9735db7ce6870316e5f9e141b55c32a4d1",
+    "source": "outputs/manicule-benchmarks-tasks-2-5/preparation/tasks.json"
+  }
+]

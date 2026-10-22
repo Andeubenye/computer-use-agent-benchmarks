@@ -1,0 +1,66 @@
+{
+  "run_id": "20261017T001240Z-00ae9af7",
+  "model_requested": "claude-sonnet-5-5",
+  "model_returned": "claude-sonnet-5-5",
+  "tool_version": "computer_toolset_20260801",
+  "sdk_version": "1.15.0",
+  "python_version": "3.12.4",
+  "desktop": {
+    "container_id": "8bc689906b008abe96c7e1aca3b0bd661d68aa9202c631ba9a2ebdadeebf95ac",
+    "image_id": "sha256:195fda83d17d253dbb5d122583fd7d58cdfb13971e16f6fd7c1f73840b07f55d",
+    "resolution": "1024x768",
+    "architecture": "arm64",
+    "browser_version": "Mozilla Firefox 153.5.0esr"
+  },
+  "task": {
+    "id": "github-browser-use-recent-open-bugs-v1",
+    "prompt": "Open https://github.com/browser-use/browser-use/issues. Using GitHub's website interface, find the five most recently updated open issues labeled bug. Return each issue's number, title, URL, and last updated date, ordered from most recently updated to least recently updated. Do not use GitHub's API, Playwright, Selenium, DOM inspection, or direct HTTP requests to retrieve issue data. Do not log in or make any changes to the repository. Use only the native computer toolset and visible GitHub website. Hovering visible relative update dates may reveal exact dates in tooltips; do not confuse issue creation dates with update dates. Return exact dates if visible. If only a relative update date is available, preserve it verbatim and state that limitation rather than inventing a date. Return a final JSON object with keys issues, count_found, notes. Each issue must include number (integer), title, url, last_updated, and last_updated_precision (exact_timestamp, calendar_date, or relative).",
+    "evaluation": "manual_visible_github",
+    "record_public_evidence": true
+  },
+  "task_sha256": "2ec91c6cf5625bba90986c892715fa260b6deab41348098ef5f192ec7fa367f7",
+  "configured_limits": {
+    "budget_usd": "0.50",
+    "max_steps": "20",
+    "max_actions": "80",
+    "max_tokens": "1024",
+    "max_seconds": "300"
+  },
+  "automatic_api_retries": 0,
+  "sdk_method": "client.messages.create",
+  "anthropic_version_header": "2023-06-01",
+  "beta_header": null,
+  "docker_context": "colima-claude-benchmark",
+  "fresh_profile": true,
+  "initial_page": "about:blank",
+  "browser_zoom_start": "100%",
+  "browser_zoom_end": "70% (changed visually by agent)",
+  "endpoint": "https://api.anthropic.com",
+  "key_available": true,
+  "authentication_succeeded": true,
+  "credential_persisted_in_artifacts": false,
+  "additional_paid_trials": 0,
+  "pricing": {
+    "verified_on": "2026-10-17",
+    "input_usd_per_million": "2",
+    "output_usd_per_million": "10",
+    "source": "https://platform.claude.com/docs/en/about-claude/pricing",
+    "cache_requested": false
+  },
+  "source_sha256": {
+    "benchmark/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "benchmark/__main__.py": "3a2f0cd96f0c5e2dde1c86f83f8f699c04ada5f0e088043e9ce337f4a3eefb91",
+    "benchmark/core.py": "d86fbabf14461126ae64ffc58a5266b3f192e0db36787a1338c788e262eae5a8",
+    "benchmark/desktop.py": "11e937ae56b04604c018393b5bf282352093f7bf4bfe936e02bde0d710833128",
+    "benchmark/evaluation.py": "eb57bf5f1e4c31bf0059dec429c400f67a3ad9dd01c63f5fd875ae8a61c36122",
+    "benchmark/grading.py": "7cbda3d48ce91509fcb4d133fa75fa81d532ebccfc0e8f156e76ef2ed07f4075",
+    "desktop/action.py": "9602806a5b43f6a522f7fb7282b5a9e26426b6c58716f347e906a08093b270b7",
+    "desktop/start.sh": "b3b3c249c1a06d571112a340c27f1fcee4a7a6b16d392c956ee7ed7f2d5959cc",
+    "Dockerfile": "293f89f6fc4bfc317ffca0754963afd7a5958e7abac24d2bc57bc829395840d0",
+    "uv.lock": "6c061792035768aeba03491fa83c73a78b89a2224fdf4657d97121de3b8a3fde",
+    "tasks/github-recent-open-bugs.json": "4f832a682f7a3f7a58d960e1df72e87dedc98047cb90a44f3f545a3f0ef099d6"
+  },
+  "source_hash_note": "Hashes reflect packaged source after review: grading.py added and initial grading-label selection corrected after the live run; neither changed agent behavior or original run records.",
+  "offline_tests_passed": 47,
+  "offline_tests_do_not_prove_task_success": true
+}

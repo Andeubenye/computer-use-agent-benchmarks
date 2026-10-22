@@ -1,0 +1,58 @@
+{
+  "http_status": 200,
+  "body": {
+    "sessionId": "id-71dc1af9c730",
+    "status": "running",
+    "events": [
+      {
+        "type": "tool-input-start",
+        "toolCallId": "1792261311068-tool-mlbgw225lc",
+        "toolName": "execute"
+      },
+      {
+        "type": "tool-input-available",
+        "toolCallId": "1792261311068-tool-mlbgw225lc",
+        "toolName": "execute",
+        "input": {}
+      }
+    ],
+    "text": "",
+    "cursor": "eyJ0dXJuIjoxNzkyMjYxMjM0ODY1LCJzZWVuIjpbIjE3OTIyNjEyNDk5OTAtdG9vbC12ODZxNnNrdXptOSIsImVycjoxNzkyMjYxMjUwNTE1LXJlc3VsdC1uNnZzMnJubXpuIiwiMTc5MjI2MTI2NDExMC10b29sLXRhMzR4bWl6aWtzIiwiMTc5MjI2MTI4Nzk2MC10b29sLWEwdWRiYzRrbGp2IiwiMTc5MjI2MTI2OTA5MS1hc3Npc3RhbnQtanNpcXRmZjQweGQiLCIxNzkyMjYxMjk3OTA3LXRvb2wtYWwxaDQxMGNqc2EiLCIxNzkyMjYxMzExMDY4LXRvb2wtbWxiZ3cyMjVsYyJdLCJwcm9nIjp7IjE3OTIyNjEyODg1MTYtcmVzdWx0LWFrbmd2OGd4Nm9pIjoxLCIxNzkyMjYxMjk4NDMwLXJlc3VsdC0xeXUybDIzaWFobiI6MX19",
+    "usage": {
+      "inputTokens": 39189,
+      "outputTokens": 1077,
+      "cacheReadTokens": 157184,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 5,
+      "byModel": {
+        "openrouter-deepseek/deepseek-v4-flash": {
+          "inputTokens": 39189,
+          "outputTokens": 1077,
+          "cacheReadTokens": 157184,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 5
+        }
+      }
+    },
+    "sessionUsage": {
+      "inputTokens": 39189,
+      "outputTokens": 1077,
+      "cacheReadTokens": 157184,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 5,
+      "byModel": {
+        "openrouter-deepseek/deepseek-v4-flash": {
+          "inputTokens": 39189,
+          "outputTokens": 1077,
+          "cacheReadTokens": 157184,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 5
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "task_id": 1,
+  "task_title": "Desktop CSV editing",
+  "agent": "openai",
+  "outcome": "NOT TESTED / BLOCKED",
+  "score": null,
+  "requirements_total": 5,
+  "submitted": false,
+  "existing_evaluation_retained": false,
+  "run_record": null,
+  "blockers": [
+    "Secure replacement API credential unavailable"
+  ],
+  "duration_seconds_monotonic": null,
+  "utc_timestamp_span_seconds": null,
+  "actions": null,
+  "saved_screenshots": 0,
+  "model_responses": 0,
+  "estimated_api_cost_usd": 0,
+  "new_generation_requests_this_batch": 0,
+  "automatic_restarts": 0
+}

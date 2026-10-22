@@ -1,0 +1,71 @@
+{
+  "id": "provider-id-41595554f54d",
+  "content": [
+    {
+      "id": "toolu_019sACL9jaccHxZBt5R6fYvD",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "text": "ctrl+l"
+      },
+      "name": "key",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_018iAzf8Fux2pmgyZwspxrea",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "text": "https://manicule-agent-benchmark-oct17.peppyshark33.chatgpt.site/?task=form\n"
+      },
+      "name": "type",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01P5RkBfZnHfCgZUtEii9Fwx",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "duration": 3
+      },
+      "name": "wait",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01GLxpd1YTLJij7mEX8DJmVu",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {},
+      "name": "screenshot",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    }
+  ],
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_reason": "tool_use",
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 5124,
+    "output_tokens": 141,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "task": 3,
+  "outcome": "PASS",
+  "score": 5,
+  "requirements": {
+    "Both spelling corrections and all other text preserved": true,
+    "Next steps uses Heading 1": true,
+    "Training table cell is Pending and table structure preserved": true,
+    "Separate valid revised DOCX and unchanged original": true,
+    "Reopened revised document and visually verified requested changes": true
+  },
+  "core_artifact_correct": true,
+  "details": {
+    "output_exists": true,
+    "valid_docx": true,
+    "paragraphs": [
+      "Warehouse dispatch update",
+      "Operations bulletin for the packing team.",
+      "The shipment window starts at 09:00.",
+      "Please receive the stock before dispatch.",
+      "Next steps",
+      "Check the packing list before loading."
+    ],
+    "tables": [
+      [
+        [
+          "Item",
+          "Status"
+        ],
+        [
+          "Training",
+          "Pending"
+        ]
+      ]
+    ],
+    "all_originals_preserved": true,
+    "heading_style": "Heading 1"
+  },
+  "gui_observations": {
+    "reopened_and_verified": {
+      "verified": true,
+      "evidence": [
+        "screenshots/openai/task-3/016-screenshot.png",
+        "screenshots/openai/task-3/017-screenshot.png",
+        "screenshots/openai/task-3/018-screenshot.png",
+        "screenshots/openai/task-3/019-screenshot.png"
+      ],
+      "explanation": "After closing the revised document, the Open dialog shows both source and revised files. The revised Writer document then reopens and renders both corrected words, Next steps in Heading 1, and the Pending table cell."
+    }
+  },
+  "response_used_as_proof": false,
+  "verifier_edits_files": false
+}

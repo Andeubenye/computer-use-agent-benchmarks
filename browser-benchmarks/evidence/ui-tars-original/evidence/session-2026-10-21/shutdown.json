@@ -1,0 +1,11 @@
+{
+  "verified_at_utc": "2026-10-20T23:12:23.171Z",
+  "status": "Paused",
+  "resume_control_present": true,
+  "session_elapsed_seconds": 488.12,
+  "estimated_session_hosting_usd": 0.24406000000000003,
+  "observed_cumulative_compute_minutes": 272,
+  "observed_cumulative_cost_usd": 8.16,
+  "baseline_unavailable": true,
+  "new_model_requests_task1_sdk_invocations": 8
+}

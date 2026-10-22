@@ -1,0 +1,323 @@
+
+ RUN  v3.0.8 <PROJECT_ROOT>/work/UI-TARS-desktop-v0.2.4-2026-10-20
+
+stderr | packages/ui-tars/sdk/tests/Model.test.ts > UITarsModel > ChatCompletion API > should send all messages for ChatCompletion API
+Failed to parse action 'test response': Error: Not a function call
+
+stderr | packages/ui-tars/sdk/tests/Model.test.ts > UITarsModel > Response API > should send all messages for Response API (first call)
+Failed to parse action 'test response 2': Error: Not a function call
+
+stderr | packages/ui-tars/sdk/tests/Model.test.ts > UITarsModel > Response API > should send incremental messages for Response API (subsequent call)
+Failed to parse action 'test response 2': Error: Not a function call
+
+stderr | packages/ui-tars/sdk/tests/Model.test.ts > UITarsModel > Response API > should handle multiple rounds correctly
+Failed to parse action 'test response 3': Error: Not a function call
+
+stderr | packages/ui-tars/sdk/tests/Model.test.ts > UITarsModel > Response API > should handle sliding window scenario (6th round)
+Failed to parse action 'test response 6': Error: Not a function call
+
+stderr | packages/ui-tars/sdk/tests/Model.test.ts > UITarsModel > Input format conversion > should convert image_url to input_image for Response API
+Failed to parse action 'test response 2': Error: Not a function call
+
+stdout | packages/ui-tars/sdk/tests/Model.test.ts > UITarsModel > Response API Incremental Logic > should demonstrate incremental messages exceeds MAX_IMAGES
+responseId4 response-4
+
+ ✓ packages/ui-tars/sdk/tests/Model.test.ts (16 tests) 22ms
+stderr | packages/ui-tars/action-parser/test/actionParser.test.ts > parseActionVlm > Edge cases > should handle empty action input
+Failed to parse action '': Error: Not a function call
+
+ ✓ packages/ui-tars/action-parser/test/actionParser.test.ts (26 tests) 5ms
+stdout | packages/ui-tars/sdk/tests/GUIAgent.test.ts > GUIAgent > normal run
+[GUIAgent] run:
+system prompt: You are a GUI agent. You are given a task and your action history, with screenshots. You need to perform the next action to complete the task.
+
+## Output Format
+```
+Thought: ...
+Action: ...
+```
+
+## Action Space
+click(start_box='[x1, y1, x2, y2]')
+left_double(start_box='[x1, y1, x2, y2]')
+right_single(start_box='[x1, y1, x2, y2]')
+drag(start_box='[x1, y1, x2, y2]', end_box='[x3, y3, x4, y4]')
+hotkey(key='')
+type(content='') #If you want to submit your input, use "\n" at the end of `content`.
+scroll(start_box='[x1, y1, x2, y2]', direction='down or up or right or left')
+wait() #Sleep for 5s and take a screenshot to check for any changes.
+finished()
+call_user() # Submit the task and call the user when the task is unsolvable, or when you need the user's help.
+
+## Note
+- Write a small plan and finally summarize your next action (with its target element) in one sentence in `Thought` part.
+
+## User Instruction
+,
+model version: undefined,
+model config: {"headImageContext":null,"modelConfig":{"baseURL":"http://localhost:3000/v1","apiKey":"test","model":"ui-tars"}}
+
+stdout | packages/ui-tars/sdk/tests/GUIAgent.test.ts > GUIAgent > normal run
+[GUIAgent] loopCnt: 0
+
+stdout | packages/ui-tars/sdk/tests/GUIAgent.test.ts > GUIAgent > normal run
+[UITarsModel] invoke: screenContext={"width":1920,"height":1080}, scaleFactor=1, uiTarsVersion=undefined, useResponsesApi=undefined
+
+stdout | packages/ui-tars/sdk/tests/GUIAgent.test.ts > GUIAgent > normal run
+[UITarsModel cost]: 0ms
+
+stdout | packages/ui-tars/sdk/tests/GUIAgent.test.ts > GUIAgent > normal run
+[GUIAgent] consumes: >>> costTime: 0, costTokens: 0 <<<
+[GUIAgent] Response: Thought: Click on the search bar at the top of the screen
+Action: click(start_box='(72,646)')
+[GUIAgent] Parsed Predictions: [{"reflection":null,"thought":"Click on the search bar at the top of the screen","action_type":"click","action_inputs":{"start_box":"[0.072,0.646,0.072,0.646]","start_coords":[138.24,697.68]}}]
+
+stdout | packages/ui-tars/sdk/tests/GUIAgent.test.ts > GUIAgent > normal run
+[GUIAgent] Action: click
+[GUIAgent] Action Inputs: {
+  start_box: '[0.072,0.646,0.072,0.646]',
+  start_coords: [ 138.24, 697.68 ]
+} click
+
+stdout | packages/ui-tars/sdk/tests/GUIAgent.test.ts > GUIAgent > normal run
+[GUIAgent] loopCnt: 1
+
+stdout | packages/ui-tars/sdk/tests/GUIAgent.test.ts > GUIAgent > normal run
+[UITarsModel] invoke: screenContext={"width":1920,"height":1080}, scaleFactor=1, uiTarsVersion=undefined, useResponsesApi=undefined
+
+stdout | packages/ui-tars/sdk/tests/GUIAgent.test.ts > GUIAgent > normal run
+[UITarsModel cost]: 0ms
+
+stdout | packages/ui-tars/sdk/tests/GUIAgent.test.ts > GUIAgent > normal run
+[GUIAgent] consumes: >>> costTime: 0, costTokens: 0 <<<
+[GUIAgent] Response: Thought: finished.
+Action: finished()
+[GUIAgent] Parsed Predictions: [{"reflection":null,"thought":"finished.","action_type":"finished","action_inputs":{}}]
+
+stdout | packages/ui-tars/sdk/tests/GUIAgent.test.ts > GUIAgent > normal run
+[GUIAgent] Action: finished
+[GUIAgent] Action Inputs: {} finished
+
+stdout | packages/ui-tars/sdk/tests/GUIAgent.test.ts > GUIAgent > normal run
+[GUIAgent] loopCnt: 2
+[GUIAgent] Finally: status end
+
+stdout | packages/ui-tars/sdk/tests/GUIAgent.test.ts > GUIAgent > normal run
+[GUIAgent] >>> totalTokens: 0, totalTime: 0, loopCnt: 2 <<<
+
+stdout | packages/ui-tars/sdk/tests/GUIAgent.test.ts > GUIAgent > custom UITarsModel run
+[GUIAgent] run:
+system prompt: You are a GUI agent. You are given a task and your action history, with screenshots. You need to perform the next action to complete the task.
+
+## Output Format
+```
+Thought: ...
+Action: ...
+```
+
+## Action Space
+click(start_box='[x1, y1, x2, y2]')
+left_double(start_box='[x1, y1, x2, y2]')
+right_single(start_box='[x1, y1, x2, y2]')
+drag(start_box='[x1, y1, x2, y2]', end_box='[x3, y3, x4, y4]')
+hotkey(key='')
+type(content='') #If you want to submit your input, use "\n" at the end of `content`.
+scroll(start_box='[x1, y1, x2, y2]', direction='down or up or right or left')
+wait() #Sleep for 5s and take a screenshot to check for any changes.
+finished()
+call_user() # Submit the task and call the user when the task is unsolvable, or when you need the user's help.
+
+## Note
+- Write a small plan and finally summarize your next action (with its target element) in one sentence in `Thought` part.
+
+## User Instruction
+,
+model version: undefined,
+model config: {"headImageContext":null,"modelConfig":{"model":"ui-tars-sft"}}
+
+stdout | packages/ui-tars/sdk/tests/GUIAgent.test.ts > GUIAgent > custom UITarsModel run
+[GUIAgent] loopCnt: 0
+
+stdout | packages/ui-tars/sdk/tests/GUIAgent.test.ts > GUIAgent > custom UITarsModel run
+[UITarsModel] invoke: screenContext={"width":1920,"height":1080}, scaleFactor=1, uiTarsVersion=undefined, useResponsesApi=undefined
+
+stdout | packages/ui-tars/sdk/tests/GUIAgent.test.ts > GUIAgent > custom UITarsModel run
+[UITarsModel cost]: 0ms
+
+stdout | packages/ui-tars/sdk/tests/GUIAgent.test.ts > GUIAgent > custom UITarsModel run
+[GUIAgent] consumes: >>> costTime: undefined, costTokens: undefined <<<
+[GUIAgent] Response: Thought: finished.
+Action: finished()
+[GUIAgent] Parsed Predictions: [{"reflection":null,"thought":"finished.","action_type":"finished","action_inputs":{}}]
+
+stdout | packages/ui-tars/sdk/tests/GUIAgent.test.ts > GUIAgent > custom UITarsModel run
+[GUIAgent] Action: finished
+[GUIAgent] Action Inputs: {} finished
+
+stdout | packages/ui-tars/sdk/tests/GUIAgent.test.ts > GUIAgent > custom UITarsModel run
+[GUIAgent] loopCnt: 1
+[GUIAgent] Finally: status end
+
+stdout | packages/ui-tars/sdk/tests/GUIAgent.test.ts > GUIAgent > custom UITarsModel run
+[GUIAgent] >>> totalTokens: 0, totalTime: 0, loopCnt: 1 <<<
+
+stdout | packages/ui-tars/sdk/tests/GUIAgent.test.ts > GUIAgent > should handle abort correctly
+[GUIAgent] run:
+system prompt: You are a GUI agent. You are given a task and your action history, with screenshots. You need to perform the next action to complete the task.
+
+## Output Format
+```
+Thought: ...
+Action: ...
+```
+
+## Action Space
+click(start_box='[x1, y1, x2, y2]')
+left_double(start_box='[x1, y1, x2, y2]')
+right_single(start_box='[x1, y1, x2, y2]')
+drag(start_box='[x1, y1, x2, y2]', end_box='[x3, y3, x4, y4]')
+hotkey(key='')
+type(content='') #If you want to submit your input, use "\n" at the end of `content`.
+scroll(start_box='[x1, y1, x2, y2]', direction='down or up or right or left')
+wait() #Sleep for 5s and take a screenshot to check for any changes.
+finished()
+call_user() # Submit the task and call the user when the task is unsolvable, or when you need the user's help.
+
+## Note
+- Write a small plan and finally summarize your next action (with its target element) in one sentence in `Thought` part.
+
+## User Instruction
+,
+model version: undefined,
+model config: {"headImageContext":null,"modelConfig":{"baseURL":"http://localhost:3000/v1","apiKey":"test","model":"ui-tars"}}
+
+stdout | packages/ui-tars/sdk/tests/GUIAgent.test.ts > GUIAgent > should handle abort correctly
+[GUIAgent] loopCnt: 0
+
+stdout | packages/ui-tars/sdk/tests/GUIAgent.test.ts > GUIAgent > should handle abort correctly
+[UITarsModel] invoke: screenContext={"width":1920,"height":1080}, scaleFactor=1, uiTarsVersion=undefined, useResponsesApi=undefined
+
+stdout | packages/ui-tars/sdk/tests/GUIAgent.test.ts > GUIAgent > should handle abort correctly
+options?.signal?.aborted true
+
+stderr | packages/ui-tars/sdk/tests/GUIAgent.test.ts > GUIAgent > should handle abort correctly
+[UITarsModel] error Error: Request aborted
+    at <PROJECT_ROOT>/work/UI-TARS-desktop-v0.2.4-2026-10-20/packages/ui-tars/sdk/tests/testKits/mockOpenAIResponse.ts:37:34
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (<PROJECT_ROOT>/work/UI-TARS-desktop-v0.2.4-2026-10-20/packages/ui-tars/sdk/tests/testKits/mockOpenAIResponse.ts:31:23)
+    at Object.mockCall (file://<PROJECT_ROOT>/work/UI-TARS-desktop-v0.2.4-2026-10-20/node_modules/@vitest/spy/dist/index.js:61:17)
+    at Object.spy [as create] (file://<PROJECT_ROOT>/work/UI-TARS-desktop-v0.2.4-2026-10-20/node_modules/tinyspy/dist/index.js:45:80)
+    at UITarsModel.invokeModelProvider (<PROJECT_ROOT>/work/UI-TARS-desktop-v0.2.4-2026-10-20/packages/ui-tars/sdk/src/Model.ts:264:50)
+    at UITarsModel.invoke (<PROJECT_ROOT>/work/UI-TARS-desktop-v0.2.4-2026-10-20/packages/ui-tars/sdk/src/Model.ts:313:31)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at retries (<PROJECT_ROOT>/work/UI-TARS-desktop-v0.2.4-2026-10-20/packages/ui-tars/sdk/src/GUIAgent.ts:270:30)
+    at GUIAgent.run (<PROJECT_ROOT>/work/UI-TARS-desktop-v0.2.4-2026-10-20/packages/ui-tars/sdk/src/GUIAgent.ts:267:13)
+
+stdout | packages/ui-tars/sdk/tests/GUIAgent.test.ts > GUIAgent > should handle abort correctly
+[UITarsModel cost]: 7ms
+
+stdout | packages/ui-tars/sdk/tests/GUIAgent.test.ts > GUIAgent > should handle abort correctly
+[GUIAgent] Catch: request was aborted
+[GUIAgent] Finally: status user_stopped
+
+stderr | packages/ui-tars/sdk/tests/GUIAgent.test.ts > GUIAgent > should handle abort correctly
+[GUIAgent] Catch error Error: Request aborted
+    at <PROJECT_ROOT>/work/UI-TARS-desktop-v0.2.4-2026-10-20/packages/ui-tars/sdk/tests/testKits/mockOpenAIResponse.ts:37:34
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (<PROJECT_ROOT>/work/UI-TARS-desktop-v0.2.4-2026-10-20/packages/ui-tars/sdk/tests/testKits/mockOpenAIResponse.ts:31:23)
+    at Object.mockCall (file://<PROJECT_ROOT>/work/UI-TARS-desktop-v0.2.4-2026-10-20/node_modules/@vitest/spy/dist/index.js:61:17)
+    at Object.spy [as create] (file://<PROJECT_ROOT>/work/UI-TARS-desktop-v0.2.4-2026-10-20/node_modules/tinyspy/dist/index.js:45:80)
+    at UITarsModel.invokeModelProvider (<PROJECT_ROOT>/work/UI-TARS-desktop-v0.2.4-2026-10-20/packages/ui-tars/sdk/src/Model.ts:264:50)
+    at UITarsModel.invoke (<PROJECT_ROOT>/work/UI-TARS-desktop-v0.2.4-2026-10-20/packages/ui-tars/sdk/src/Model.ts:313:31)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at retries (<PROJECT_ROOT>/work/UI-TARS-desktop-v0.2.4-2026-10-20/packages/ui-tars/sdk/src/GUIAgent.ts:270:30)
+    at GUIAgent.run (<PROJECT_ROOT>/work/UI-TARS-desktop-v0.2.4-2026-10-20/packages/ui-tars/sdk/src/GUIAgent.ts:267:13)
+
+stdout | packages/ui-tars/sdk/tests/GUIAgent.test.ts > GUIAgent > should handle abort correctly
+[GUIAgent] >>> totalTokens: 0, totalTime: 0, loopCnt: 1 <<<
+
+stdout | packages/ui-tars/sdk/tests/GUIAgent.test.ts > GUIAgent > Custom Action Spaces in Custom Operator
+[GUIAgent] run:
+system prompt: 
+      You are a helpful assistant.
+      You can only use the following actions:
+      ## Action Spaces
+      CLICK(start_box='[x1, y1, x2, y2]')
+END() # Submit the task regardless of whether it succeeds or fails.
+      ,
+model version: undefined,
+model config: {"headImageContext":null,"modelConfig":{"baseURL":"http://localhost:3000/v1","apiKey":"test","model":"ui-tars"}}
+
+stdout | packages/ui-tars/sdk/tests/GUIAgent.test.ts > GUIAgent > Custom Action Spaces in Custom Operator
+[GUIAgent] loopCnt: 0
+
+stdout | packages/ui-tars/sdk/tests/GUIAgent.test.ts > GUIAgent > Custom Action Spaces in Custom Operator
+[UITarsModel] invoke: screenContext={"width":1920,"height":1080}, scaleFactor=1, uiTarsVersion=undefined, useResponsesApi=undefined
+
+stdout | packages/ui-tars/sdk/tests/GUIAgent.test.ts > GUIAgent > Custom Action Spaces in Custom Operator
+[UITarsModel cost]: 1ms
+
+stdout | packages/ui-tars/sdk/tests/GUIAgent.test.ts > GUIAgent > Custom Action Spaces in Custom Operator
+[GUIAgent] consumes: >>> costTime: 0, costTokens: 0 <<<
+[GUIAgent] Response: Thought: Click on the search bar at the top of the screen
+Action: CLICK(start_box='(72,646)')
+[GUIAgent] Parsed Predictions: [{"reflection":null,"thought":"Click on the search bar at the top of the screen","action_type":"CLICK","action_inputs":{"start_box":"[0.072,0.646,0.072,0.646]","start_coords":[138.24,697.68]}}]
+
+stdout | packages/ui-tars/sdk/tests/GUIAgent.test.ts > GUIAgent > Custom Action Spaces in Custom Operator
+[GUIAgent] Action: CLICK
+[GUIAgent] Action Inputs: {
+  start_box: '[0.072,0.646,0.072,0.646]',
+  start_coords: [ 138.24, 697.68 ]
+} CLICK
+
+stdout | packages/ui-tars/sdk/tests/GUIAgent.test.ts > GUIAgent > Custom Action Spaces in Custom Operator
+[GUIAgent] loopCnt: 1
+
+stdout | packages/ui-tars/sdk/tests/GUIAgent.test.ts > GUIAgent > Custom Action Spaces in Custom Operator
+[UITarsModel] invoke: screenContext={"width":1920,"height":1080}, scaleFactor=1, uiTarsVersion=undefined, useResponsesApi=undefined
+
+stdout | packages/ui-tars/sdk/tests/GUIAgent.test.ts > GUIAgent > Custom Action Spaces in Custom Operator
+[UITarsModel cost]: 0ms
+
+stdout | packages/ui-tars/sdk/tests/GUIAgent.test.ts > GUIAgent > Custom Action Spaces in Custom Operator
+[GUIAgent] consumes: >>> costTime: 0, costTokens: 0 <<<
+[GUIAgent] Response: Thought: finished.
+Action: END()
+[GUIAgent] Parsed Predictions: [{"reflection":null,"thought":"finished.","action_type":"END","action_inputs":{}}]
+
+stdout | packages/ui-tars/sdk/tests/GUIAgent.test.ts > GUIAgent > Custom Action Spaces in Custom Operator
+[GUIAgent] Action: END
+[GUIAgent] Action Inputs: {} END
+
+stdout | packages/ui-tars/sdk/tests/GUIAgent.test.ts > GUIAgent > Custom Action Spaces in Custom Operator
+[GUIAgent] loopCnt: 2
+[GUIAgent] Finally: status end
+
+stdout | packages/ui-tars/sdk/tests/GUIAgent.test.ts > GUIAgent > Custom Action Spaces in Custom Operator
+[GUIAgent] >>> totalTokens: 0, totalTime: 0, loopCnt: 2 <<<
+
+ ✓ packages/ui-tars/sdk/tests/GUIAgent.test.ts (4 tests) 2825ms
+   ✓ GUIAgent > normal run 1008ms
+   ✓ GUIAgent > custom UITarsModel run 427ms
+   ✓ GUIAgent > should handle abort correctly 437ms
+   ✓ GUIAgent > Custom Action Spaces in Custom Operator 952ms
+stderr | packages/ui-tars/action-parser/test/index.test.ts > actionParser > it should return empty action
+Failed to parse action 'Thought: 在当前的界面中，我看到有多个窗口和文件，包括一个浏览器窗口和一个终端窗口。': Error: Not a function call
+
+ ✓ packages/ui-tars/action-parser/test/index.test.ts (13 tests) 5ms
+stderr | packages/ui-tars/sdk/tests/utils.test.ts > preprocessResizeImage > should throw error when processing invalid image
+preprocessResizeImage error: Error: Could not find MIME for Buffer
+    at Jimp.fromBuffer (file://<PROJECT_ROOT>/work/UI-TARS-desktop-v0.2.4-2026-10-20/node_modules/@jimp/core/src/index.ts:340:15)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at preprocessResizeImage (<PROJECT_ROOT>/work/UI-TARS-desktop-v0.2.4-2026-10-20/packages/ui-tars/sdk/src/utils.ts:200:19)
+    at <PROJECT_ROOT>/work/UI-TARS-desktop-v0.2.4-2026-10-20/packages/ui-tars/sdk/tests/utils.test.ts:300:5
+    at file://<PROJECT_ROOT>/work/UI-TARS-desktop-v0.2.4-2026-10-20/node_modules/@vitest/runner/dist/index.js:563:22
+
+ ✓ packages/ui-tars/sdk/tests/utils.test.ts (10 tests) 180ms
+ ✓ packages/ui-tars/sdk/src/utils.test.ts (11 tests) 2ms
+
+ Test Files  6 passed (6)
+      Tests  80 passed (80)
+   Start at  22:04:13
+   Duration  4.70s (transform 210ms, setup 0ms, collect 584ms, tests 3.04s, environment 1ms, prepare 314ms)
+

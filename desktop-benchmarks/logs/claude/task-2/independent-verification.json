@@ -1,0 +1,6 @@
+{
+  "outcome": "NOT TESTED",
+  "score": null,
+  "submitted": false,
+  "reason": "Input-staging race before model submission; repaired once and retried in attempt-2."
+}

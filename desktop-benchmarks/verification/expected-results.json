@@ -1,0 +1,15 @@
+{
+  "task_1": {
+    "prompt_file": "inputs/task-prompt.txt",
+    "input_file": "inputs/orders_to_fix.csv",
+    "expected_file": "expected/orders_corrected.csv",
+    "manifest": "inputs/manifest.json",
+    "rubric_source": "scripts/verify_result.py",
+    "rubric_changed": false
+  },
+  "tasks_2_to_5": {
+    "status": "Missing original definitions; do not infer expected outputs",
+    "expected_files": null,
+    "rubrics": null
+  }
+}

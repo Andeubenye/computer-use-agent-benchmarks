@@ -1,0 +1,41 @@
+{
+  "agent": "claude",
+  "submitted": true,
+  "model_requested": "claude-sonnet-5-5",
+  "reason": "execution_error",
+  "errors": [
+    "count HTTP 400 "
+  ],
+  "duration_seconds": 12.712091082998086,
+  "actions": 5,
+  "action_unit": "native computer-tool actions; includes screenshot/zoom when requested",
+  "model_requests": 1,
+  "token_count_requests": 2,
+  "screenshots_saved": 3,
+  "usage": [
+    {
+      "input_tokens": 6002,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 143,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "service_tier": "standard",
+      "inference_geo": "global",
+      "speed": "standard"
+    }
+  ],
+  "estimated_api_cost_usd": 0.013434,
+  "uncertain_cost_reserved_usd": 0,
+  "api_retries": 0,
+  "automatic_restarts": 0,
+  "watchdog_fired": false,
+  "complete_final_response_file": null,
+  "container_stopped": true,
+  "original_response_is_unverified": true
+}

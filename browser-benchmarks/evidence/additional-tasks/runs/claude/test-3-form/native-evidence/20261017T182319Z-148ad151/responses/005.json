@@ -1,0 +1,91 @@
+{
+  "id": "provider-id-82471e626c39",
+  "content": [
+    {
+      "id": "toolu_01JWuxL8qLaND9aCCDa2JXdR",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "coordinate": [
+          511,
+          496
+        ]
+      },
+      "name": "left_click",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01P3zq86sVPYGXdxMdbQBLkX",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "text": "This is a benchmark. Do not submit."
+      },
+      "name": "type",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01LDETHUaMF9zZj51f1ijFJ4",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "coordinate": [
+          512,
+          400
+        ],
+        "scroll_direction": "up",
+        "scroll_amount": 2
+      },
+      "name": "scroll",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_015pKeTpriPEPB9W17Pxx3VT",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "duration": 1
+      },
+      "name": "wait",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01Mg7xJyLTBw9shvGCmJ2icr",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {},
+      "name": "screenshot",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    }
+  ],
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_reason": "tool_use",
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 10463,
+    "output_tokens": 169,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

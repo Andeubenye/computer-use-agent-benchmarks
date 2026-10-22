@@ -1,0 +1,104 @@
+{
+  "status": "partial",
+  "strict_task_success": false,
+  "assessed_at": "2026-10-16T21:22:18.553946+00:00",
+  "observation_at": "2026-10-16T21:21:42.006Z",
+  "method": "After the native agent process exited, Codex used a separate in-app browser and GitHub website search UI. Read the rendered accessibility tree and saved a full-page screenshot. No GitHub API, direct HTTP scraping, or hardcoded selectors.",
+  "browser_url": "https://github.com/browser-use/browser-use/issues?q=is%3Aissue+is%3Aopen+label%3Abug+sort%3Aupdated-desc",
+  "matching_open_bug_issues": 48,
+  "verified_issues": [
+    {
+      "number": 6068,
+      "title": "Bug: agent enables a disabled button with evaluate, places the order, and often reports a plain success",
+      "url": "https://github.com/browser-use/browser-use/issues/6068",
+      "last_updated": "2026-10-16T09:59+01:00",
+      "last_updated_precision": "minute",
+      "date_as_exposed_in_accessibility": "Oct 16, 2026, 09:59 GMT+1",
+      "relative_text": "12h ago",
+      "agent_fields_match": {
+        "number": true,
+        "title": true,
+        "url": true,
+        "last_updated_relative": true
+      }
+    },
+    {
+      "number": 4579,
+      "title": "Bug: CDP connection instability causing indefinite hangs with remote browsers",
+      "url": "https://github.com/browser-use/browser-use/issues/4579",
+      "last_updated": "2026-10-15T07:31+01:00",
+      "last_updated_precision": "minute",
+      "date_as_exposed_in_accessibility": "Oct 15, 2026, 07:31 GMT+1",
+      "relative_text": "2d ago",
+      "agent_fields_match": {
+        "number": true,
+        "title": true,
+        "url": true,
+        "last_updated_relative": true
+      }
+    },
+    {
+      "number": 6065,
+      "title": "Bug: Browser parameter accept_downloads is nonfunctional when running Browser-use locally",
+      "url": "https://github.com/browser-use/browser-use/issues/6065",
+      "last_updated": "2026-10-14T16:44+01:00",
+      "last_updated_precision": "minute",
+      "date_as_exposed_in_accessibility": "Oct 14, 2026, 16:44 GMT+1",
+      "relative_text": "2d ago",
+      "agent_fields_match": {
+        "number": true,
+        "title": true,
+        "url": true,
+        "last_updated_relative": true
+      }
+    },
+    {
+      "number": 4877,
+      "title": "Bug: ...pip dependency conflicts due to strict exact-pins (==) in pyproject.toml",
+      "url": "https://github.com/browser-use/browser-use/issues/4877",
+      "last_updated": "2026-10-14T07:18+01:00",
+      "last_updated_precision": "minute",
+      "date_as_exposed_in_accessibility": "Oct 14, 2026, 07:18 GMT+1",
+      "relative_text": "3d ago",
+      "agent_fields_match": {
+        "number": true,
+        "title": true,
+        "url": true,
+        "last_updated_relative": true
+      }
+    },
+    {
+      "number": 5633,
+      "title": "Bug: AnthropicMessageSerializer drops earlier system messages",
+      "url": "https://github.com/browser-use/browser-use/issues/5633",
+      "last_updated": "2026-10-10T06:54+01:00",
+      "last_updated_precision": "minute",
+      "date_as_exposed_in_accessibility": "Oct 10, 2026, 06:54 GMT+1",
+      "relative_text": "1w ago",
+      "agent_fields_match": {
+        "number": true,
+        "title": true,
+        "url": true,
+        "last_updated_relative": true
+      }
+    }
+  ],
+  "checks": {
+    "top_five_numbers": true,
+    "titles": true,
+    "urls": true,
+    "ordering": true,
+    "open_state": true,
+    "bug_label": true,
+    "relative_update_labels": true,
+    "calendar_dates_returned_by_agent": false
+  },
+  "finding": "All five issues and their order are correct. Agent returned relative update labels, not calendar dates. Calendar timestamps shown here are independent verification data, not agent output.",
+  "date_limitation": "Accessibility text exposes update dates to minute precision in GMT+1. Normalized ISO strings retain minute precision; seconds were not verified.",
+  "agent_has_access_to_verification_data": false,
+  "agent_process_finished_before_verification": true,
+  "evidence": [
+    "verification/filtered_list_accessibility.txt",
+    "verification/filtered_list.png"
+  ]
+}

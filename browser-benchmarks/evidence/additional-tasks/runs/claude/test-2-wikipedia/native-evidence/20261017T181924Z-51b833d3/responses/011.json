@@ -1,0 +1,87 @@
+{
+  "id": "provider-id-d7bb5f2f0769",
+  "content": [
+    {
+      "text": "Ada: 10 December 1815, London, England.",
+      "type": "text"
+    },
+    {
+      "id": "toolu_01Lct7BcszWeFRdBXz9MafMe",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "text": "ctrl+l"
+      },
+      "name": "key",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_014oGKoTe56r84gugjph3Xug",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "text": "en.wikipedia.org/wiki/Grace_Hopper"
+      },
+      "name": "type",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01FLJZAAcox3FanXBav4Q1ZA",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "text": "Return"
+      },
+      "name": "key",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_011TMQmocAuBABCNchhZv6Ms",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "duration": 3
+      },
+      "name": "wait",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01KFEPR4SdQmUYmq558YiLpg",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {},
+      "name": "screenshot",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    }
+  ],
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_reason": "tool_use",
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 15052,
+    "output_tokens": 164,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

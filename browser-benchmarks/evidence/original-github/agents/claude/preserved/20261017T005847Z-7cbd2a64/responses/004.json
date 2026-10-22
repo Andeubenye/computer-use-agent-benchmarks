@@ -1,0 +1,250 @@
+{
+  "id": "provider-id-1e20d1ee213e",
+  "content": [
+    {
+      "signature": "CAQS0gYKEAgSGAI4AUIIdGhpbmtpbmcSDCvr/dF21vn3CduB1BoM9I19yCO0bJGIZepcIjB8w6a55HX1XHwxnknG4smc5+FuE5hvGDpMV+U7H4phGkBpcZ+t+/NWq82v/v3D7Bgq7wWK9CwJAm1KNWtvxVwNjyi7U+TgadeLGpFTseqaX5sjNFm2OvMN8Orsg5u0a7Wy24PGzDrnF82IvwvSg59YIHBlIVRDwzkY7Xx+adeV1/1mN+iM1EMDlRykqBmjU/hClL2RSBX8uyFS8r+JbUDU36F+ytewwL6DsAAnTekxmn3j80M+4UnLlyV5kqjKT9BgGpihw3lw73iJNv2WZvTez8M6oSnVQ8QiWADrYaoy+lF2Ml5Pe8Zjepq2/8+EtBjVCZdF95Io8Ad+y4s4/MWd6ZSFDUkVjpyZTfbSd7LKKrOhxA5Uu1oE0lUq2o+etV/flVnvHHmXl9uU0m0Ak2EDjlRyD0mEBirWCokD0A5sBSI0bbsgBYhKSO9uDYqPrOIcW1TVeC4brhJr5pM2Soj+1Oay/UNYIN04aY/nmemSAO1kdHMgL1LBbIYrPHK0PfZeG9/SljGM7x3T7ew/PwPNMF1Z9XJMFCD0qEiZNWNhbMvvRYk2IM5waVi1G6s8H9OvBqWplb8CrXPdoiYFj3DVES+Y/HTgNgGChIfXSPkHMt9EjIdDYrHxMgs2N3XK6jU6HLvvMCaTOB7ug/vc3OVuKmJOUGjmCqXDLubpxUOasHgvTqBFWj8UPesVPx2efaDlBk1aKnI7kQy9eQXfOz+H4rt6vwnwC0DDFK8w05TPQkafFZnt2OIynHDd7QllkNxCtbZcwY/SRIiFAbLKrsejKfcb8+TfqrAomNJuhhZHZQx9CrPbXEGTpPc7XBuaV9gbwPyYtn9G6f17g3iC71SYqwjI5mYgiGYuLisAk86HP0N3ehREHiYVh8n9SKA+RN1hO6dmtiIv611dCo0jVTKgMdNk1p1/3d1GbT+gC78VcqsK4knQiomt8HmCcXD+BxsCorU4ffj7wI5cmT1q6P4MyBGgYfsKmPTugQZS2uEuqNp+PEeMaUnStglr4SLJ8CRuaFGChD8CuJ01koDN0gKA4XJDLj6l+t+H+zA+7wnP9UjfGAE=",
+      "thinking": "",
+      "type": "thinking"
+    },
+    {
+      "id": "toolu_01MMfVCr3w4VRvVGbb4LXfBj",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "coordinate": [
+          512,
+          129
+        ]
+      },
+      "name": "mouse_move",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01Wy7E8LaWGsN9Xk8aAGxcXr",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "duration": 2
+      },
+      "name": "wait",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01WJbtqhkMWL2KnXRaTtxmJR",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "region": [
+          180,
+          100,
+          700,
+          200
+        ]
+      },
+      "name": "zoom",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01L4jWg4yovM2nCAajpBLXmo",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "coordinate": [
+          512,
+          175
+        ]
+      },
+      "name": "mouse_move",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01CzmsS8QVJzTdAM8oAt2sbj",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "duration": 2
+      },
+      "name": "wait",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01VDFEHr5uNbPc9U9gdP6DU3",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "region": [
+          180,
+          140,
+          700,
+          240
+        ]
+      },
+      "name": "zoom",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01M1U6x9iy34sDRLf9VVweBV",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "coordinate": [
+          512,
+          221
+        ]
+      },
+      "name": "mouse_move",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01NjoCoTHmwbMAH4SNBRAxyX",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "duration": 2
+      },
+      "name": "wait",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01EnkPQ5Hf236CbTCRhfXgTd",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "region": [
+          180,
+          190,
+          700,
+          290
+        ]
+      },
+      "name": "zoom",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01CGyb4xiEDfES5Hk4NwvdFA",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "coordinate": [
+          512,
+          266
+        ]
+      },
+      "name": "mouse_move",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01L68RJDA43Evfu9onbMnt86",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "duration": 2
+      },
+      "name": "wait",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01KjvVex91fe8WjCxwf8UaCu",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "region": [
+          180,
+          230,
+          700,
+          330
+        ]
+      },
+      "name": "zoom",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01XyQfATa3XNMn4jsYk3vAi7",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "coordinate": [
+          512,
+          312
+        ]
+      },
+      "name": "mouse_move",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_011puvwJr5c2zAUUkMKkdZWy",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "duration": 2
+      },
+      "name": "wait",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_018K1niCT4JfXD2VA6Sbnj6Q",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "region": [
+          180,
+          280,
+          700,
+          380
+        ]
+      },
+      "name": "zoom",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    }
+  ],
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_reason": "tool_use",
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 8638,
+    "output_tokens": 440,
+    "output_tokens_details": {
+      "thinking_tokens": 57
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

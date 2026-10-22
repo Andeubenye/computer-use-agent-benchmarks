@@ -1,0 +1,10 @@
+{
+  "graded_at_utc": "2026-10-17T18:27:02.662324+00:00",
+  "grader": "Codex evidence audit, separate from evaluated agent",
+  "verification_data_sent_to_agent": false,
+  "outcome": "successful",
+  "correct_checks": 10,
+  "total_checks": 10,
+  "reference": "preparation/FORM-RECONSTRUCTION.md",
+  "evidence": "Original final answer and saved native screenshots / response tool arguments independently inspected. Form upper names shown in 0023-screenshot.png; remaining fields, exact two-sentence message, unchecked newsletter and Not submitted shown in independent-final.png."
+}

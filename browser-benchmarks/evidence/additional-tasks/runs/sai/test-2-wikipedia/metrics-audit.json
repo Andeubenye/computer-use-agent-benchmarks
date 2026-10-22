@@ -1,0 +1,124 @@
+{
+  "agent": "sai",
+  "task": "test-2-wikipedia",
+  "original_record_preserved": true,
+  "checked_at": "2026-10-17T19:00:04.043108+00:00",
+  "last_stream_usage": {
+    "inputTokens": 153887,
+    "outputTokens": 4221,
+    "cacheReadTokens": 451584,
+    "cacheWriteTokens": 0,
+    "costUsd": 0,
+    "modelCalls": 15,
+    "byModel": {
+      "openrouter-deepseek/deepseek-v4-flash": {
+        "inputTokens": 152989,
+        "outputTokens": 4216,
+        "cacheReadTokens": 451584,
+        "cacheWriteTokens": 0,
+        "costUsd": 0,
+        "modelCalls": 14
+      },
+      "vertex-gemini-3-flash-preview": {
+        "inputTokens": 898,
+        "outputTokens": 5,
+        "cacheReadTokens": 0,
+        "cacheWriteTokens": 0,
+        "costUsd": 0,
+        "modelCalls": 1
+      }
+    }
+  },
+  "model_routes_observed": [
+    "openrouter-deepseek/deepseek-v4-flash",
+    "vertex-gemini-3-flash-preview"
+  ],
+  "provider_internal_retries": null,
+  "fresh_conversation": true,
+  "fresh_desktop": false,
+  "final_provider_turn": {
+    "turnId": "id-b3b0ef28639b",
+    "sessionId": "id-d70b1706f18d",
+    "machineId": "free-6WRf2PabNOOC8BV7CIDNKs0ckre2",
+    "status": "succeeded",
+    "output": "Here are the results from inspecting each Wikipedia article:\n\n---\n\n## Results\n\n### 1. Alan Turing\n| Field | Value |\n|---|---|\n| **Full name** | Alan Mathison Turing |\n| **Birth date** | 23 June 1912 |\n| **Birthplace** | Maida Vale, London, England |\n| **Article URL** | https://en.wikipedia.org/wiki/Alan_Turing |\n\n### 2. Ada Lovelace\n| Field | Value |\n|---|---|\n| **Full name** | Augusta Ada Byron (Ada Lovelace) |\n| **Birth date** | 10 December 1815 |\n| **Birthplace** | London, England |\n| **Article URL** | https://en.wikipedia.org/wiki/Ada_Lovelace |\n\n### 3. Grace Hopper\n| Field | Value |\n|---|---|\n| **Full name** | Grace Brewster Murray (Grace Hopper) |\n| **Birth date** | December 9, 1906 |\n| **Birthplace** | New York City, U.S. |\n| **Article URL** | https://en.wikipedia.org/wiki/Grace_Hopper |\n\n### 4. Alan Kay\n| Field | Value |\n|---|---|\n| **Full name** | Alan Curtis Kay |\n| **Birth date** | May 17, 1940 |\n| **Birthplace** | Springfield, Massachusetts, U.S. |\n| **Article URL** | https://en.wikipedia.org/wiki/Alan_Kay |\n\n### 5. Margaret Hamilton\n| Field | Value |\n|---|---|\n| **Full name** | Margaret Elaine Heafield (Margaret Hamilton) |\n| **Birth date** | August 17, 1936 |\n| **Birthplace** | Paoli, Indiana, U.S. |\n| **Article URL** | https://en.wikipedia.org/wiki/Margaret_Hamilton_(software_engineer) |\n\n---\n\n### Limitations & Notes\n\n- All information was extracted from each Wikipedia article's **infobox** (the \"Born\" row) as displayed on the page via the web interface. No API, HTTP extraction, or prior knowledge was used.\n- **Ada Lovelace's infobox** listed her name at birth as \"Augusta Ada Byron\" — the article title uses the more common name \"Ada Lovelace.\"\n- **Grace Hopper's infobox** listed her birth name as \"Grace Brewster Murray\"; the article itself covers her married name \"Hopper.\"\n- **Margaret Hamilton** — the search was disambiguated by adding \"software engineer\" to distinguish her from other notable people named Margaret Hamilton. The correct article is at `/wiki/Margaret_Hamilton_(software_engineer)`.\n- No access blockers, agreements, or login prompts were encountered — all pages loaded without issue.",
+    "reason_code": null,
+    "usage": {
+      "inputTokens": 152989,
+      "outputTokens": 4216
+    },
+    "recordTrajectory": true,
+    "trajectory": {
+      "recorded": true,
+      "url": "/v1/agents/turns/id-b3b0ef28639b/trajectory"
+    }
+  },
+  "screenshot_payloads": [
+    {
+      "original": "002.jpg",
+      "viewable": "002.recovered.jpg",
+      "valid_image_signature": true
+    },
+    {
+      "original": "003.jpg",
+      "viewable": "003.recovered.jpg",
+      "valid_image_signature": true
+    },
+    {
+      "original": "001.jpg",
+      "viewable": "001.recovered.jpg",
+      "valid_image_signature": true
+    },
+    {
+      "original": "000.jpg",
+      "viewable": "000.jpg",
+      "valid_image_signature": true
+    },
+    {
+      "original": "004.jpg",
+      "viewable": "004.recovered.jpg",
+      "valid_image_signature": true
+    },
+    {
+      "original": "010.jpg",
+      "viewable": "010.recovered.jpg",
+      "valid_image_signature": true
+    },
+    {
+      "original": "011.jpg",
+      "viewable": "011.recovered.jpg",
+      "valid_image_signature": true
+    },
+    {
+      "original": "005.jpg",
+      "viewable": "005.recovered.jpg",
+      "valid_image_signature": true
+    },
+    {
+      "original": "007.jpg",
+      "viewable": "007.recovered.jpg",
+      "valid_image_signature": true
+    },
+    {
+      "original": "006.jpg",
+      "viewable": "006.recovered.jpg",
+      "valid_image_signature": true
+    },
+    {
+      "original": "012.jpg",
+      "viewable": "012.recovered.jpg",
+      "valid_image_signature": true
+    },
+    {
+      "original": "008.jpg",
+      "viewable": "008.recovered.jpg",
+      "valid_image_signature": true
+    },
+    {
+      "original": "009.jpg",
+      "viewable": "009.recovered.jpg",
+      "valid_image_signature": true
+    }
+  ],
+  "viewable_screenshot_count": 13
+}

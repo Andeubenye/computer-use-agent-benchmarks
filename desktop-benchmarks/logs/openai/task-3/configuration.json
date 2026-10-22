@@ -1,0 +1,12 @@
+{
+  "model": "gpt-6.1-sol",
+  "system": "You control an isolated Linux desktop at 1024 x 768 pixels. The task folder is /home/agent/Desktop/benchmark. Use only the native computer tool for task work. Open, inspect, edit, save and verify through graphical desktop applications. No terminal, browser, shell, code, scripts, macros, filesystem tools, network or programmatic editing. Spreadsheet formulas entered in the spreadsheet GUI are allowed for calculations. End each action batch with a screenshot and observe the result before proceeding. Expected outputs and grader references are not available. Do not inspect unrelated files, sign in, change settings or install software. If blocked, stop and describe the blocker. You have ten minutes from submission.",
+  "prompt": "Open dispatch_original.docx in LibreOffice Writer. Correct 'shippment' to 'shipment' and 'recieve' to 'receive'. Apply the built-in Heading 1 paragraph style to the paragraph 'Next steps'. In the table, change the Training status from 'Pendng' to 'Pending'. Preserve all other text and the table structure. Save a separate dispatch_revised.docx in the same folder, keeping the original unchanged. Close and reopen the revised document to verify the text, heading style, and table correction. Use only desktop graphical applications, mouse and keyboard. Do not use a browser, terminal, scripts, macros, programmatic file tools, or the network. Spreadsheet formulas entered through the GUI are allowed for calculations. Report what you changed, the output location, and any incomplete steps.",
+  "task_timeout_seconds": 600,
+  "budget_usd": 0.7,
+  "output_token_cap": 2048,
+  "api_retries": 0,
+  "computer_tool": "computer",
+  "execution_environment": "Linux / LibreOffice / Xvfb 1024x768 / network none",
+  "expected_output_exposed": false
+}

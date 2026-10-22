@@ -1,0 +1,26 @@
+{
+  "status": "running",
+  "reason": null,
+  "sessionId": "id-888676afd25a",
+  "turnId": "id-5805f3eef2fb",
+  "started_at_utc": "2026-10-17T14:49:30.467934+00:00",
+  "finished_at_utc": "2026-10-17T14:59:31.410613+00:00",
+  "client_elapsed_seconds": 600.9481723329991,
+  "time_limit_seconds": 600,
+  "elapsed_includes_machine_startup_and_final_evidence_reads": true,
+  "benchmark_submissions": 1,
+  "automatic_benchmark_restarts": 0,
+  "deadline_fired": true,
+  "abort_response": {
+    "http_status": 200,
+    "elapsed_seconds": 0.9437352919994737,
+    "body": {
+      "ok": true,
+      "aborted": true
+    }
+  },
+  "agent_model_requested": "session default (auto)",
+  "paid_plan_or_purchase_initiated": false,
+  "original_response_present": false,
+  "task_success_independently_verified": false
+}

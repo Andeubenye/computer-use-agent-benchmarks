@@ -1,0 +1,9 @@
+{
+  "agent": "sai",
+  "task": "test-2-wikipedia",
+  "max_seconds_from_submission": 600,
+  "automatic_benchmark_restarts": 0,
+  "reserved_usd": 0.93,
+  "prompt_sha256": "5a9cea954c8edf59c018f9f837535ace8469a33d0d1ec92e606697676b638c30",
+  "expected_answers_provided": false
+}

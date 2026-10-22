@@ -1,0 +1,15 @@
+{
+  "task": "test-4-github-enhancement",
+  "status": "NOT RUN",
+  "reason": "Pre-billing spending gate: concrete HF cap and end-of-session pause authorization pending",
+  "submitted": false,
+  "attempts": 0,
+  "duration_seconds": null,
+  "actions": null,
+  "requests": 0,
+  "token_usage": null,
+  "new_inference_cost_usd": 0,
+  "hosting_cost_usd": null,
+  "score": null,
+  "prompt_sha256": "331e5d68c42a17fd2544559508bf04304e1e495408d65d8ad6aeee02de44193c"
+}

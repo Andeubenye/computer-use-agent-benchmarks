@@ -1,0 +1,107 @@
+{
+  "id": "provider-id-d60368b066d0",
+  "content": [
+    {
+      "id": "toolu_01MKcTrAGPHct2NtVyEVpSRd",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "text": "ctrl+l"
+      },
+      "name": "key",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_0191uyq2Wr4932dnhtnt1frS",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "text": "en.wikipedia.org/wiki/Margaret_Hamilton_(software_engineer)"
+      },
+      "name": "type",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01VkwRgakcGknG16Ff8ScE64",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "text": "Return"
+      },
+      "name": "key",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01HMQiMqS3ZaZ6YE9H9ZeyGa",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "duration": 3
+      },
+      "name": "wait",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01LZgF9gnByq7KoLGTorKeM6",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "text": "Page_Down"
+      },
+      "name": "key",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01JikHuY9sa8DPaBZTnrWJX7",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "duration": 2
+      },
+      "name": "wait",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01WWQZvPeF9pGKjobLTC1s9S",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {},
+      "name": "screenshot",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    }
+  ],
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_reason": "tool_use",
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 18852,
+    "output_tokens": 192,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

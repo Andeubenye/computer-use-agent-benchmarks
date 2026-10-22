@@ -1,0 +1,49 @@
+{
+  "task": 5,
+  "outcome": "PASS",
+  "score": 5,
+  "requirements": {
+    "Identified REC-204 approved source by contents": true,
+    "Dismissed the controlled interruption through GUI": true,
+    "Corrected time and preserved all other text": true,
+    "Separate valid output and all four source documents unchanged": true,
+    "Reopened corrected document and verified ID approval and time": true
+  },
+  "core_artifact_correct": true,
+  "details": {
+    "output_exists": true,
+    "valid_docx": true,
+    "paragraphs": [
+      "Dispatch recovery plan",
+      "Document ID REC-204",
+      "Approval APPROVED",
+      "The dispatch handoff is at 16:30.",
+      "Keep the loading checklist unchanged."
+    ],
+    "tables": [],
+    "all_originals_preserved": true
+  },
+  "gui_observations": {
+    "interruption_dismissed": {
+      "verified": true,
+      "evidence": [
+        "screenshots/openai/task-5/001-screenshot.png",
+        "logs/openai/task-5/events.jsonl",
+        "logs/openai/task-5/interruption-evidence.json"
+      ],
+      "explanation": "Initial warning is visible. The model requests an OK click, and the notice exits with code 0 before the container is stopped; harness did not dismiss it."
+    },
+    "reopened_and_verified": {
+      "verified": true,
+      "evidence": [
+        "screenshots/openai/task-5/014-screenshot.png",
+        "screenshots/openai/task-5/015-screenshot.png",
+        "screenshots/openai/task-5/016-screenshot.png",
+        "logs/openai/task-5/events.jsonl"
+      ],
+      "explanation": "After Ctrl+W, actions 28\u201331 reopen recovery_plan_corrected.docx. Reopened approved REC-204 with 16:30 is shown and followed by a successful final model response."
+    }
+  },
+  "response_used_as_proof": false,
+  "verifier_edits_files": false
+}

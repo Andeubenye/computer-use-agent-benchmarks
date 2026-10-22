@@ -1,0 +1,14 @@
+{
+  "source_sha256": "172c7b251b10ac8992abc0d1badc78a5aa1d996b1796208e5e61f1ba3a62a823",
+  "expected_sha256": "118eaa9aec46a75a22f2b8d0bcafebdb0debe47a9d5fb9f3f52d78847d55ee69",
+  "prompt_sha256": "409633c43e51d6dec788410a90874c4375246d32e41548c56e8af7fa731bf439",
+  "data_rows": 10,
+  "status_column": "status",
+  "misspelled_status_count": 2,
+  "expected_changed_order_ids": [
+    "ORD-1003",
+    "ORD-1007"
+  ],
+  "expected_file_is_grader_only": true,
+  "real_personal_data": false
+}

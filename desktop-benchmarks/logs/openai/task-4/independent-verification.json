@@ -1,0 +1,74 @@
+{
+  "task": 4,
+  "outcome": "PASS",
+  "score": 5,
+  "requirements": {
+    "Observed 30 records in Calc and used Writer": true,
+    "All four metrics independently correct": true,
+    "Metrics transferred into a valid Writer document with no placeholders": true,
+    "Separate saved report and unchanged input CSV and template": true,
+    "Reopened saved report and visually verified metrics": true
+  },
+  "core_artifact_correct": true,
+  "details": {
+    "output_exists": true,
+    "valid_docx": true,
+    "paragraphs": [
+      "Sales summary",
+      "Source sales_records.csv",
+      "Total revenue: 1,780.00",
+      "Total units: 90",
+      "Average order value: 59.33",
+      "Highest revenue region: South"
+    ],
+    "tables": [],
+    "all_originals_preserved": true,
+    "independently_recomputed_metrics": {
+      "total_revenue": "1780.00",
+      "total_units": 90,
+      "average_order_value": "59.33",
+      "highest_revenue_region": "South"
+    },
+    "metrics": {
+      "total_revenue": {
+        "value": "1780.00",
+        "correct": true
+      },
+      "total_units": {
+        "value": "90",
+        "correct": true
+      },
+      "average_order_value": {
+        "value": "59.33",
+        "correct": true
+      },
+      "highest_revenue_region": {
+        "value": "South",
+        "correct": true
+      }
+    }
+  },
+  "gui_observations": {
+    "both_applications_and_records": {
+      "verified": true,
+      "evidence": [
+        "screenshots/openai/task-4/010-screenshot.png",
+        "screenshots/openai/task-4/012-screenshot.png",
+        "screenshots/openai/task-4/026-screenshot.png"
+      ],
+      "explanation": "Calc shows all 30 order rows and calculated totals; Writer shows the transferred report."
+    },
+    "reopened_and_verified": {
+      "verified": true,
+      "evidence": [
+        "screenshots/openai/task-4/024-screenshot.png",
+        "screenshots/openai/task-4/026-screenshot.png",
+        "screenshots/openai/task-4/027-screenshot.png",
+        "logs/openai/task-4/events.jsonl"
+      ],
+      "explanation": "Actions 48\u201353 close the saved report and unsaved calculation sheet, then reopen sales_summary.docx through Ctrl+O. Final screenshot shows four correct metrics."
+    }
+  },
+  "response_used_as_proof": false,
+  "verifier_edits_files": false
+}

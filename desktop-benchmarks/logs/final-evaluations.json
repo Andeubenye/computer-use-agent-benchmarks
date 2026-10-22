@@ -1,0 +1,3386 @@
+{
+  "planned_evaluations": 14,
+  "task_definitions": "TASKS.md",
+  "csv_rubric_changed": false,
+  "additional_tasks_reconstructed_with_authorization": true,
+  "evaluations": [
+    {
+      "task": 1,
+      "title": "Desktop CSV editing",
+      "agent": "claude",
+      "outcome": "PARTIAL",
+      "score": 4,
+      "run": {
+        "agent": "claude",
+        "submitted": true,
+        "model_requested": "claude-sonnet-5-5",
+        "reason": "execution_error",
+        "errors": [
+          "count HTTP None TimeoutError"
+        ],
+        "duration_seconds": 183.17696454100223,
+        "actions": 49,
+        "action_unit": "native computer-tool actions; includes screenshot/zoom when requested",
+        "model_requests": 11,
+        "token_count_requests": 12,
+        "screenshots_saved": 13,
+        "usage": [
+          {
+            "input_tokens": 6002,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 143,
+            "output_tokens_details": {
+              "thinking_tokens": 0
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          },
+          {
+            "input_tokens": 7276,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 98,
+            "output_tokens_details": {
+              "thinking_tokens": 0
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          },
+          {
+            "input_tokens": 8474,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 219,
+            "output_tokens_details": {
+              "thinking_tokens": 74
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          },
+          {
+            "input_tokens": 9819,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 231,
+            "output_tokens_details": {
+              "thinking_tokens": 42
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          },
+          {
+            "input_tokens": 10091,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 59,
+            "output_tokens_details": {
+              "thinking_tokens": 0
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          },
+          {
+            "input_tokens": 11225,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 112,
+            "output_tokens_details": {
+              "thinking_tokens": 0
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          },
+          {
+            "input_tokens": 12437,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 194,
+            "output_tokens_details": {
+              "thinking_tokens": 0
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          },
+          {
+            "input_tokens": 13765,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 174,
+            "output_tokens_details": {
+              "thinking_tokens": 75
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          },
+          {
+            "input_tokens": 15037,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 153,
+            "output_tokens_details": {
+              "thinking_tokens": 0
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          },
+          {
+            "input_tokens": 16325,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 141,
+            "output_tokens_details": {
+              "thinking_tokens": 42
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          },
+          {
+            "input_tokens": 17566,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 204,
+            "output_tokens_details": {
+              "thinking_tokens": 0
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          }
+        ],
+        "estimated_api_cost_usd": 0.273314,
+        "uncertain_cost_reserved_usd": 0,
+        "api_retries": 0,
+        "automatic_restarts": 0,
+        "watchdog_fired": false,
+        "complete_final_response_file": "original-response.txt",
+        "container_stopped": true,
+        "original_response_is_unverified": true,
+        "evidence_folder": "logs/claude-attempt-2",
+        "verification": {
+          "outcome": "PARTIAL",
+          "score": 4,
+          "checks": {
+            "opened_in_spreadsheet": true,
+            "both_status_corrections": true,
+            "other_values_and_row_order_preserved": true,
+            "separate_corrected_csv_and_original_preserved": true,
+            "reopened_saved_file_and_verified": false
+          },
+          "parsed_output_exactly_matches_expected": true,
+          "original_sha256": "172c7b251b10ac8992abc0d1badc78a5aa1d996b1796208e5e61f1ba3a62a823",
+          "expected_original_sha256": "172c7b251b10ac8992abc0d1badc78a5aa1d996b1796208e5e61f1ba3a62a823",
+          "corrected_sha256": "118eaa9aec46a75a22f2b8d0bcafebdb0debe47a9d5fb9f3f52d78847d55ee69",
+          "gui_observations": {
+            "opened_csv_in_spreadsheet": {
+              "verified": true,
+              "evidence": [
+                "screenshots/claude-attempt-2/004-screenshot.png"
+              ],
+              "explanation": "Visual review: LibreOffice Calc title is orders_to_fix.csv and both original Pendng values are visible."
+            },
+            "reopened_saved_csv_and_verified": {
+              "verified": false,
+              "evidence": [
+                "screenshots/claude-attempt-2/011-screenshot.png",
+                "screenshots/claude-attempt-2/012-screenshot.png",
+                "screenshots/claude-attempt-2/013-screenshot.png",
+                "logs/claude-attempt-2/events.jsonl"
+              ],
+              "explanation": "Saved sheet is shown before closing; final screenshots show the Open dialog with corrected path entered. No subsequent reopened sheet or verification response was captured. Reviewer did not click Open."
+            }
+          },
+          "agent_response_used_as_proof": false,
+          "verifier_edits_files": false,
+          "csv_formatting_note": "Compare parsed values, not quoting or line endings; original file must remain byte-identical."
+        }
+      }
+    },
+    {
+      "task": 1,
+      "title": "Desktop CSV editing",
+      "agent": "openai",
+      "outcome": "PASS",
+      "score": 5,
+      "run": {
+        "agent": "openai",
+        "submitted": true,
+        "model_requested": "gpt-6.1-sol",
+        "reason": "model_finished",
+        "errors": [],
+        "duration_seconds": 128.70956766699965,
+        "wall_clock_duration_seconds": 128.70758175849915,
+        "deadline_clock": "stricter of wall and monotonic elapsed time",
+        "actions": 34,
+        "action_unit": "native computer-tool actions; includes screenshot/zoom when requested",
+        "model_requests": 20,
+        "token_count_requests": 20,
+        "screenshots_saved": 25,
+        "usage": [
+          {
+            "input_tokens": 2012,
+            "input_tokens_details": {
+              "cache_write_tokens": 2009,
+              "cached_tokens": 0
+            },
+            "output_tokens": 25,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 2037
+          },
+          {
+            "input_tokens": 2968,
+            "input_tokens_details": {
+              "cache_write_tokens": 956,
+              "cached_tokens": 2009
+            },
+            "output_tokens": 53,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 3021
+          },
+          {
+            "input_tokens": 3952,
+            "input_tokens_details": {
+              "cache_write_tokens": 984,
+              "cached_tokens": 2965
+            },
+            "output_tokens": 24,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 3976
+          },
+          {
+            "input_tokens": 4907,
+            "input_tokens_details": {
+              "cache_write_tokens": 955,
+              "cached_tokens": 3949
+            },
+            "output_tokens": 49,
+            "output_tokens_details": {
+              "reasoning_tokens": 12
+            },
+            "total_tokens": 4956
+          },
+          {
+            "input_tokens": 5887,
+            "input_tokens_details": {
+              "cache_write_tokens": 980,
+              "cached_tokens": 4904
+            },
+            "output_tokens": 47,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 5934
+          },
+          {
+            "input_tokens": 6865,
+            "input_tokens_details": {
+              "cache_write_tokens": 978,
+              "cached_tokens": 5884
+            },
+            "output_tokens": 65,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 6930
+          },
+          {
+            "input_tokens": 7861,
+            "input_tokens_details": {
+              "cache_write_tokens": 996,
+              "cached_tokens": 6862
+            },
+            "output_tokens": 63,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 7924
+          },
+          {
+            "input_tokens": 8855,
+            "input_tokens_details": {
+              "cache_write_tokens": 994,
+              "cached_tokens": 7858
+            },
+            "output_tokens": 23,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 8878
+          },
+          {
+            "input_tokens": 9809,
+            "input_tokens_details": {
+              "cache_write_tokens": 954,
+              "cached_tokens": 8852
+            },
+            "output_tokens": 81,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 9890
+          },
+          {
+            "input_tokens": 10821,
+            "input_tokens_details": {
+              "cache_write_tokens": 1012,
+              "cached_tokens": 9806
+            },
+            "output_tokens": 28,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 10849
+          },
+          {
+            "input_tokens": 11780,
+            "input_tokens_details": {
+              "cache_write_tokens": 959,
+              "cached_tokens": 10818
+            },
+            "output_tokens": 53,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 11833
+          },
+          {
+            "input_tokens": 12764,
+            "input_tokens_details": {
+              "cache_write_tokens": 984,
+              "cached_tokens": 11777
+            },
+            "output_tokens": 31,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 12795
+          },
+          {
+            "input_tokens": 13726,
+            "input_tokens_details": {
+              "cache_write_tokens": 962,
+              "cached_tokens": 12761
+            },
+            "output_tokens": 28,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 13754
+          },
+          {
+            "input_tokens": 14685,
+            "input_tokens_details": {
+              "cache_write_tokens": 959,
+              "cached_tokens": 13723
+            },
+            "output_tokens": 35,
+            "output_tokens_details": {
+              "reasoning_tokens": 7
+            },
+            "total_tokens": 14720
+          },
+          {
+            "input_tokens": 15651,
+            "input_tokens_details": {
+              "cache_write_tokens": 966,
+              "cached_tokens": 14682
+            },
+            "output_tokens": 52,
+            "output_tokens_details": {
+              "reasoning_tokens": 19
+            },
+            "total_tokens": 15703
+          },
+          {
+            "input_tokens": 16634,
+            "input_tokens_details": {
+              "cache_write_tokens": 983,
+              "cached_tokens": 15648
+            },
+            "output_tokens": 31,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 16665
+          },
+          {
+            "input_tokens": 17596,
+            "input_tokens_details": {
+              "cache_write_tokens": 962,
+              "cached_tokens": 16631
+            },
+            "output_tokens": 31,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 17627
+          },
+          {
+            "input_tokens": 18558,
+            "input_tokens_details": {
+              "cache_write_tokens": 962,
+              "cached_tokens": 17593
+            },
+            "output_tokens": 31,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 18589
+          },
+          {
+            "input_tokens": 19520,
+            "input_tokens_details": {
+              "cache_write_tokens": 962,
+              "cached_tokens": 18555
+            },
+            "output_tokens": 24,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 19544
+          },
+          {
+            "input_tokens": 20475,
+            "input_tokens_details": {
+              "cache_write_tokens": 955,
+              "cached_tokens": 19517
+            },
+            "output_tokens": 63,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 20538
+          }
+        ],
+        "estimated_api_cost_usd": 0.0801494,
+        "uncertain_cost_reserved_usd": 0,
+        "api_retries": 0,
+        "automatic_restarts": 0,
+        "watchdog_fired": false,
+        "last_response_text_file": "original-response.txt",
+        "complete_final_response_file": "original-response.txt",
+        "container_stopped": true,
+        "original_response_is_unverified": true,
+        "evidence_folder": "logs/openai",
+        "verification": {
+          "outcome": "PASS",
+          "score": 5,
+          "checks": {
+            "opened_in_spreadsheet": true,
+            "both_status_corrections": true,
+            "other_values_and_row_order_preserved": true,
+            "separate_corrected_csv_and_original_preserved": true,
+            "reopened_saved_file_and_verified": true
+          },
+          "parsed_output_exactly_matches_expected": true,
+          "original_sha256": "172c7b251b10ac8992abc0d1badc78a5aa1d996b1796208e5e61f1ba3a62a823",
+          "expected_original_sha256": "172c7b251b10ac8992abc0d1badc78a5aa1d996b1796208e5e61f1ba3a62a823",
+          "corrected_sha256": "118eaa9aec46a75a22f2b8d0bcafebdb0debe47a9d5fb9f3f52d78847d55ee69",
+          "gui_observations": {
+            "opened_csv_in_spreadsheet": {
+              "verified": true,
+              "evidence": [
+                "screenshots/openai/012-screenshot.png"
+              ],
+              "explanation": "Source orders_to_fix.csv visible in Calc during the editing workflow."
+            },
+            "reopened_saved_csv_and_verified": {
+              "verified": true,
+              "evidence": [
+                "screenshots/openai/021-screenshot.png",
+                "screenshots/openai/024-screenshot.png",
+                "screenshots/openai/025-screenshot.png",
+                "logs/openai/events.jsonl"
+              ],
+              "explanation": "After closing, corrected CSV import dialog is shown, then the reopened orders_corrected.csv sheet with both Pending values visible. No reviewer GUI intervention."
+            }
+          },
+          "agent_response_used_as_proof": false,
+          "verifier_edits_files": false,
+          "csv_formatting_note": "Compare parsed values, not quoting or line endings; original file must remain byte-identical."
+        }
+      }
+    },
+    {
+      "task": 2,
+      "title": "File organization",
+      "agent": "claude",
+      "outcome": "PARTIAL",
+      "score": 2,
+      "run": {
+        "agent": "claude",
+        "submitted": true,
+        "model_requested": "claude-sonnet-5-5",
+        "reason": "execution_error",
+        "errors": [
+          "Desktop executor reported an action error; no automatic retry"
+        ],
+        "duration_seconds": 106.12794858399866,
+        "wall_clock_duration_seconds": 106.12630605697632,
+        "deadline_clock": "stricter of wall and monotonic elapsed time",
+        "actions": 49,
+        "action_unit": "native computer-tool actions; includes screenshot/zoom when requested",
+        "model_requests": 9,
+        "token_count_requests": 9,
+        "screenshots_saved": 10,
+        "usage": [
+          {
+            "input_tokens": 6290,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 186,
+            "output_tokens_details": {
+              "thinking_tokens": 95
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          },
+          {
+            "input_tokens": 7579,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 183,
+            "output_tokens_details": {
+              "thinking_tokens": 0
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          },
+          {
+            "input_tokens": 8887,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 142,
+            "output_tokens_details": {
+              "thinking_tokens": 43
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          },
+          {
+            "input_tokens": 10129,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 137,
+            "output_tokens_details": {
+              "thinking_tokens": 0
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          },
+          {
+            "input_tokens": 11377,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 197,
+            "output_tokens_details": {
+              "thinking_tokens": 90
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          },
+          {
+            "input_tokens": 12666,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 178,
+            "output_tokens_details": {
+              "thinking_tokens": 0
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          },
+          {
+            "input_tokens": 13970,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 106,
+            "output_tokens_details": {
+              "thinking_tokens": 0
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          },
+          {
+            "input_tokens": 15168,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 475,
+            "output_tokens_details": {
+              "thinking_tokens": 0
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          },
+          {
+            "input_tokens": 16959,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 152,
+            "output_tokens_details": {
+              "thinking_tokens": 36
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          }
+        ],
+        "estimated_api_cost_usd": 0.22361,
+        "uncertain_cost_reserved_usd": 0,
+        "api_retries": 0,
+        "automatic_restarts": 0,
+        "watchdog_fired": false,
+        "last_response_text_file": "original-response.txt",
+        "complete_final_response_file": null,
+        "container_stopped": true,
+        "original_response_is_unverified": true,
+        "evidence_folder": "logs/claude/task-2/attempt-2",
+        "verification": {
+          "task": 2,
+          "outcome": "PARTIAL",
+          "score": 2,
+          "requirements": {
+            "All 20 files retained exactly once": true,
+            "All four type folders correct and no loose files": false,
+            "All eight PDF renames correct": false,
+            "Every file byte-identical to its input": true,
+            "GUI verification of final folders and filenames": false
+          },
+          "core_artifact_correct": false,
+          "details": {
+            "actual_file_count": 20,
+            "actual_paths": [
+              "Inbox/counts_01.csv",
+              "Inbox/counts_02.csv",
+              "Inbox/counts_03.csv",
+              "Inbox/counts_04.csv",
+              "Inbox/note_01.txt",
+              "Inbox/note_02.txt",
+              "Inbox/note_03.txt",
+              "Inbox/note_04.txt",
+              "Inbox/photo_01.png",
+              "Inbox/photo_02.png",
+              "Inbox/photo_03.png",
+              "Inbox/photo_04.png",
+              "Inbox/scan_01.pdf",
+              "Inbox/scan_02.pdf",
+              "Inbox/scan_03.pdf",
+              "Inbox/scan_04.pdf",
+              "Inbox/scan_05.pdf",
+              "Inbox/scan_06.pdf",
+              "Inbox/scan_07.pdf",
+              "Inbox/scan_08.pdf"
+            ],
+            "expected_paths": [
+              "Inbox/Images/photo_01.png",
+              "Inbox/Images/photo_02.png",
+              "Inbox/Images/photo_03.png",
+              "Inbox/Images/photo_04.png",
+              "Inbox/Notes/note_01.txt",
+              "Inbox/Notes/note_02.txt",
+              "Inbox/Notes/note_03.txt",
+              "Inbox/Notes/note_04.txt",
+              "Inbox/PDFs/2026-01-INV-1001.pdf",
+              "Inbox/PDFs/2026-01-INV-1002.pdf",
+              "Inbox/PDFs/2026-01-INV-1003.pdf",
+              "Inbox/PDFs/2026-01-INV-1004.pdf",
+              "Inbox/PDFs/2026-01-INV-1005.pdf",
+              "Inbox/PDFs/2026-01-INV-1006.pdf",
+              "Inbox/PDFs/2026-01-INV-1007.pdf",
+              "Inbox/PDFs/2026-01-INV-1008.pdf",
+              "Inbox/Spreadsheets/counts_01.csv",
+              "Inbox/Spreadsheets/counts_02.csv",
+              "Inbox/Spreadsheets/counts_03.csv",
+              "Inbox/Spreadsheets/counts_04.csv"
+            ],
+            "all_bytes_preserved": true
+          },
+          "gui_observations": {},
+          "response_used_as_proof": false,
+          "verifier_edits_files": false,
+          "failure_category": "infrastructure/executor",
+          "limitation": "Run interrupted on a native drag error after creating folders; no file moves or renames completed. Earlier zero-generation staging failure consumed the one documented setup retry."
+        }
+      }
+    },
+    {
+      "task": 2,
+      "title": "File organization",
+      "agent": "openai",
+      "outcome": "PASS",
+      "score": 5,
+      "run": {
+        "agent": "openai",
+        "submitted": true,
+        "model_requested": "gpt-6.1-sol",
+        "reason": "model_finished",
+        "errors": [],
+        "duration_seconds": 292.0002115829993,
+        "wall_clock_duration_seconds": 292.0380620956421,
+        "deadline_clock": "stricter of wall and monotonic elapsed time",
+        "actions": 95,
+        "action_unit": "native computer-tool actions; includes screenshot/zoom when requested",
+        "model_requests": 36,
+        "token_count_requests": 36,
+        "screenshots_saved": 38,
+        "usage": [
+          {
+            "input_tokens": 2184,
+            "input_tokens_details": {
+              "cache_write_tokens": 2181,
+              "cached_tokens": 0
+            },
+            "output_tokens": 22,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 2206
+          },
+          {
+            "input_tokens": 3137,
+            "input_tokens_details": {
+              "cache_write_tokens": 953,
+              "cached_tokens": 2181
+            },
+            "output_tokens": 26,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 3163
+          },
+          {
+            "input_tokens": 4094,
+            "input_tokens_details": {
+              "cache_write_tokens": 957,
+              "cached_tokens": 3134
+            },
+            "output_tokens": 58,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 4152
+          },
+          {
+            "input_tokens": 5083,
+            "input_tokens_details": {
+              "cache_write_tokens": 989,
+              "cached_tokens": 4091
+            },
+            "output_tokens": 27,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 5110
+          },
+          {
+            "input_tokens": 6041,
+            "input_tokens_details": {
+              "cache_write_tokens": 958,
+              "cached_tokens": 5080
+            },
+            "output_tokens": 27,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 6068
+          },
+          {
+            "input_tokens": 6999,
+            "input_tokens_details": {
+              "cache_write_tokens": 958,
+              "cached_tokens": 6038
+            },
+            "output_tokens": 31,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 7030
+          },
+          {
+            "input_tokens": 7961,
+            "input_tokens_details": {
+              "cache_write_tokens": 962,
+              "cached_tokens": 6996
+            },
+            "output_tokens": 64,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 8025
+          },
+          {
+            "input_tokens": 8956,
+            "input_tokens_details": {
+              "cache_write_tokens": 995,
+              "cached_tokens": 7958
+            },
+            "output_tokens": 132,
+            "output_tokens_details": {
+              "reasoning_tokens": 36
+            },
+            "total_tokens": 9088
+          },
+          {
+            "input_tokens": 10019,
+            "input_tokens_details": {
+              "cache_write_tokens": 1063,
+              "cached_tokens": 8953
+            },
+            "output_tokens": 71,
+            "output_tokens_details": {
+              "reasoning_tokens": 30
+            },
+            "total_tokens": 10090
+          },
+          {
+            "input_tokens": 11021,
+            "input_tokens_details": {
+              "cache_write_tokens": 1002,
+              "cached_tokens": 10016
+            },
+            "output_tokens": 19,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 11040
+          },
+          {
+            "input_tokens": 11971,
+            "input_tokens_details": {
+              "cache_write_tokens": 950,
+              "cached_tokens": 11018
+            },
+            "output_tokens": 92,
+            "output_tokens_details": {
+              "reasoning_tokens": 34
+            },
+            "total_tokens": 12063
+          },
+          {
+            "input_tokens": 12994,
+            "input_tokens_details": {
+              "cache_write_tokens": 1023,
+              "cached_tokens": 11968
+            },
+            "output_tokens": 101,
+            "output_tokens_details": {
+              "reasoning_tokens": 30
+            },
+            "total_tokens": 13095
+          },
+          {
+            "input_tokens": 14026,
+            "input_tokens_details": {
+              "cache_write_tokens": 1032,
+              "cached_tokens": 12991
+            },
+            "output_tokens": 45,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 14071
+          },
+          {
+            "input_tokens": 15002,
+            "input_tokens_details": {
+              "cache_write_tokens": 976,
+              "cached_tokens": 14023
+            },
+            "output_tokens": 47,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 15049
+          },
+          {
+            "input_tokens": 15980,
+            "input_tokens_details": {
+              "cache_write_tokens": 978,
+              "cached_tokens": 14999
+            },
+            "output_tokens": 52,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 16032
+          },
+          {
+            "input_tokens": 16963,
+            "input_tokens_details": {
+              "cache_write_tokens": 983,
+              "cached_tokens": 15977
+            },
+            "output_tokens": 84,
+            "output_tokens_details": {
+              "reasoning_tokens": 51
+            },
+            "total_tokens": 17047
+          },
+          {
+            "input_tokens": 17978,
+            "input_tokens_details": {
+              "cache_write_tokens": 1015,
+              "cached_tokens": 16960
+            },
+            "output_tokens": 50,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 18028
+          },
+          {
+            "input_tokens": 18959,
+            "input_tokens_details": {
+              "cache_write_tokens": 981,
+              "cached_tokens": 17975
+            },
+            "output_tokens": 31,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 18990
+          },
+          {
+            "input_tokens": 19921,
+            "input_tokens_details": {
+              "cache_write_tokens": 962,
+              "cached_tokens": 18956
+            },
+            "output_tokens": 66,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 19987
+          },
+          {
+            "input_tokens": 20918,
+            "input_tokens_details": {
+              "cache_write_tokens": 997,
+              "cached_tokens": 19918
+            },
+            "output_tokens": 31,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 20949
+          },
+          {
+            "input_tokens": 21880,
+            "input_tokens_details": {
+              "cache_write_tokens": 962,
+              "cached_tokens": 20915
+            },
+            "output_tokens": 66,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 21946
+          },
+          {
+            "input_tokens": 22877,
+            "input_tokens_details": {
+              "cache_write_tokens": 997,
+              "cached_tokens": 21877
+            },
+            "output_tokens": 31,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 22908
+          },
+          {
+            "input_tokens": 23839,
+            "input_tokens_details": {
+              "cache_write_tokens": 962,
+              "cached_tokens": 22874
+            },
+            "output_tokens": 92,
+            "output_tokens_details": {
+              "reasoning_tokens": 23
+            },
+            "total_tokens": 23931
+          },
+          {
+            "input_tokens": 24862,
+            "input_tokens_details": {
+              "cache_write_tokens": 1023,
+              "cached_tokens": 23836
+            },
+            "output_tokens": 31,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 24893
+          },
+          {
+            "input_tokens": 25824,
+            "input_tokens_details": {
+              "cache_write_tokens": 962,
+              "cached_tokens": 24859
+            },
+            "output_tokens": 66,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 25890
+          },
+          {
+            "input_tokens": 26821,
+            "input_tokens_details": {
+              "cache_write_tokens": 997,
+              "cached_tokens": 25821
+            },
+            "output_tokens": 41,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 26862
+          },
+          {
+            "input_tokens": 27793,
+            "input_tokens_details": {
+              "cache_write_tokens": 972,
+              "cached_tokens": 26818
+            },
+            "output_tokens": 40,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 27833
+          },
+          {
+            "input_tokens": 28764,
+            "input_tokens_details": {
+              "cache_write_tokens": 971,
+              "cached_tokens": 27790
+            },
+            "output_tokens": 66,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 28830
+          },
+          {
+            "input_tokens": 29761,
+            "input_tokens_details": {
+              "cache_write_tokens": 997,
+              "cached_tokens": 28761
+            },
+            "output_tokens": 66,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 29827
+          },
+          {
+            "input_tokens": 30758,
+            "input_tokens_details": {
+              "cache_write_tokens": 997,
+              "cached_tokens": 29758
+            },
+            "output_tokens": 66,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 30824
+          },
+          {
+            "input_tokens": 31755,
+            "input_tokens_details": {
+              "cache_write_tokens": 997,
+              "cached_tokens": 30755
+            },
+            "output_tokens": 66,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 31821
+          },
+          {
+            "input_tokens": 32752,
+            "input_tokens_details": {
+              "cache_write_tokens": 997,
+              "cached_tokens": 31752
+            },
+            "output_tokens": 66,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 32818
+          },
+          {
+            "input_tokens": 33749,
+            "input_tokens_details": {
+              "cache_write_tokens": 997,
+              "cached_tokens": 32749
+            },
+            "output_tokens": 66,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 33815
+          },
+          {
+            "input_tokens": 34746,
+            "input_tokens_details": {
+              "cache_write_tokens": 997,
+              "cached_tokens": 33746
+            },
+            "output_tokens": 77,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 34823
+          },
+          {
+            "input_tokens": 35754,
+            "input_tokens_details": {
+              "cache_write_tokens": 1008,
+              "cached_tokens": 34743
+            },
+            "output_tokens": 31,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 35785
+          },
+          {
+            "input_tokens": 36716,
+            "input_tokens_details": {
+              "cache_write_tokens": 962,
+              "cached_tokens": 35751
+            },
+            "output_tokens": 145,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 36861
+          }
+        ],
+        "estimated_api_cost_usd": 0.1791222,
+        "uncertain_cost_reserved_usd": 0,
+        "api_retries": 0,
+        "automatic_restarts": 0,
+        "watchdog_fired": false,
+        "last_response_text_file": "original-response.txt",
+        "complete_final_response_file": "original-response.txt",
+        "container_stopped": true,
+        "original_response_is_unverified": true,
+        "evidence_folder": "logs/openai/task-2",
+        "verification": {
+          "task": 2,
+          "outcome": "PASS",
+          "score": 5,
+          "requirements": {
+            "All 20 files retained exactly once": true,
+            "All four type folders correct and no loose files": true,
+            "All eight PDF renames correct": true,
+            "Every file byte-identical to its input": true,
+            "GUI verification of final folders and filenames": true
+          },
+          "core_artifact_correct": true,
+          "details": {
+            "actual_file_count": 20,
+            "actual_paths": [
+              "Inbox/Images/photo_01.png",
+              "Inbox/Images/photo_02.png",
+              "Inbox/Images/photo_03.png",
+              "Inbox/Images/photo_04.png",
+              "Inbox/Notes/note_01.txt",
+              "Inbox/Notes/note_02.txt",
+              "Inbox/Notes/note_03.txt",
+              "Inbox/Notes/note_04.txt",
+              "Inbox/PDFs/2026-01-INV-1001.pdf",
+              "Inbox/PDFs/2026-01-INV-1002.pdf",
+              "Inbox/PDFs/2026-01-INV-1003.pdf",
+              "Inbox/PDFs/2026-01-INV-1004.pdf",
+              "Inbox/PDFs/2026-01-INV-1005.pdf",
+              "Inbox/PDFs/2026-01-INV-1006.pdf",
+              "Inbox/PDFs/2026-01-INV-1007.pdf",
+              "Inbox/PDFs/2026-01-INV-1008.pdf",
+              "Inbox/Spreadsheets/counts_01.csv",
+              "Inbox/Spreadsheets/counts_02.csv",
+              "Inbox/Spreadsheets/counts_03.csv",
+              "Inbox/Spreadsheets/counts_04.csv"
+            ],
+            "expected_paths": [
+              "Inbox/Images/photo_01.png",
+              "Inbox/Images/photo_02.png",
+              "Inbox/Images/photo_03.png",
+              "Inbox/Images/photo_04.png",
+              "Inbox/Notes/note_01.txt",
+              "Inbox/Notes/note_02.txt",
+              "Inbox/Notes/note_03.txt",
+              "Inbox/Notes/note_04.txt",
+              "Inbox/PDFs/2026-01-INV-1001.pdf",
+              "Inbox/PDFs/2026-01-INV-1002.pdf",
+              "Inbox/PDFs/2026-01-INV-1003.pdf",
+              "Inbox/PDFs/2026-01-INV-1004.pdf",
+              "Inbox/PDFs/2026-01-INV-1005.pdf",
+              "Inbox/PDFs/2026-01-INV-1006.pdf",
+              "Inbox/PDFs/2026-01-INV-1007.pdf",
+              "Inbox/PDFs/2026-01-INV-1008.pdf",
+              "Inbox/Spreadsheets/counts_01.csv",
+              "Inbox/Spreadsheets/counts_02.csv",
+              "Inbox/Spreadsheets/counts_03.csv",
+              "Inbox/Spreadsheets/counts_04.csv"
+            ],
+            "all_bytes_preserved": true
+          },
+          "gui_observations": {
+            "final_folder_verification": {
+              "verified": true,
+              "evidence": [
+                "screenshots/openai/task-2/019-screenshot.png",
+                "screenshots/openai/task-2/021-screenshot.png",
+                "screenshots/openai/task-2/023-screenshot.png",
+                "screenshots/openai/task-2/036-screenshot.png",
+                "screenshots/openai/task-2/037-screenshot.png"
+              ],
+              "explanation": "Agent screenshots show the four CSVs, four notes and four images after moving, all eight final PDF names in list view, and Inbox containing only the four destination folders. Artifact hashes independently confirm exactly 20 unchanged files."
+            }
+          },
+          "response_used_as_proof": false,
+          "verifier_edits_files": false
+        }
+      }
+    },
+    {
+      "task": 2,
+      "title": "File organization",
+      "agent": "sai",
+      "outcome": "NOT TESTED / BLOCKED",
+      "score": null,
+      "reason": "Authorized control recheck HTTP 403: Not authorized for this machine. No task submitted.",
+      "run": null
+    },
+    {
+      "task": 3,
+      "title": "Document editing",
+      "agent": "claude",
+      "outcome": "PASS",
+      "score": 5,
+      "run": {
+        "agent": "claude",
+        "submitted": true,
+        "model_requested": "claude-sonnet-5-5",
+        "reason": "model_finished",
+        "errors": [],
+        "duration_seconds": 104.52024145799805,
+        "wall_clock_duration_seconds": 104.51926398277283,
+        "deadline_clock": "stricter of wall and monotonic elapsed time",
+        "actions": 45,
+        "action_unit": "native computer-tool actions; includes screenshot/zoom when requested",
+        "model_requests": 12,
+        "token_count_requests": 12,
+        "screenshots_saved": 13,
+        "usage": [
+          {
+            "input_tokens": 6082,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 90,
+            "output_tokens_details": {
+              "thinking_tokens": 0
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          },
+          {
+            "input_tokens": 7275,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 116,
+            "output_tokens_details": {
+              "thinking_tokens": 0
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          },
+          {
+            "input_tokens": 8489,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 98,
+            "output_tokens_details": {
+              "thinking_tokens": 0
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          },
+          {
+            "input_tokens": 9687,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 394,
+            "output_tokens_details": {
+              "thinking_tokens": 131
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          },
+          {
+            "input_tokens": 11278,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 174,
+            "output_tokens_details": {
+              "thinking_tokens": 68
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          },
+          {
+            "input_tokens": 12553,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 145,
+            "output_tokens_details": {
+              "thinking_tokens": 49
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          },
+          {
+            "input_tokens": 13796,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 207,
+            "output_tokens_details": {
+              "thinking_tokens": 100
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          },
+          {
+            "input_tokens": 15093,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 162,
+            "output_tokens_details": {
+              "thinking_tokens": 0
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          },
+          {
+            "input_tokens": 16382,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 133,
+            "output_tokens_details": {
+              "thinking_tokens": 34
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          },
+          {
+            "input_tokens": 17615,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 111,
+            "output_tokens_details": {
+              "thinking_tokens": 0
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          },
+          {
+            "input_tokens": 18824,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 121,
+            "output_tokens_details": {
+              "thinking_tokens": 0
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          },
+          {
+            "input_tokens": 20058,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 355,
+            "output_tokens_details": {
+              "thinking_tokens": 0
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          }
+        ],
+        "estimated_api_cost_usd": 0.33532399999999996,
+        "uncertain_cost_reserved_usd": 0,
+        "api_retries": 0,
+        "automatic_restarts": 0,
+        "watchdog_fired": false,
+        "last_response_text_file": "original-response.txt",
+        "complete_final_response_file": "original-response.txt",
+        "container_stopped": true,
+        "original_response_is_unverified": true,
+        "evidence_folder": "logs/claude/task-3",
+        "verification": {
+          "task": 3,
+          "outcome": "PASS",
+          "score": 5,
+          "requirements": {
+            "Both spelling corrections and all other text preserved": true,
+            "Next steps uses Heading 1": true,
+            "Training table cell is Pending and table structure preserved": true,
+            "Separate valid revised DOCX and unchanged original": true,
+            "Reopened revised document and visually verified requested changes": true
+          },
+          "core_artifact_correct": true,
+          "details": {
+            "output_exists": true,
+            "valid_docx": true,
+            "paragraphs": [
+              "Warehouse dispatch update",
+              "Operations bulletin for the packing team.",
+              "The shipment window starts at 09:00.",
+              "Please receive the stock before dispatch.",
+              "Next steps",
+              "Check the packing list before loading."
+            ],
+            "tables": [
+              [
+                [
+                  "Item",
+                  "Status"
+                ],
+                [
+                  "Training",
+                  "Pending"
+                ]
+              ]
+            ],
+            "all_originals_preserved": true,
+            "heading_style": "Heading 1"
+          },
+          "gui_observations": {
+            "reopened_and_verified": {
+              "verified": true,
+              "evidence": [
+                "screenshots/claude/task-3/010-screenshot.png",
+                "screenshots/claude/task-3/011-screenshot.png",
+                "screenshots/claude/task-3/012-screenshot.png",
+                "screenshots/claude/task-3/013-screenshot.png"
+              ],
+              "explanation": "Saved revised file is shown, then closed to LibreOffice start center, then reopened as dispatch_revised.docx. Correct spellings, Heading 1 shown in toolbar and Pending table cell are visible."
+            }
+          },
+          "response_used_as_proof": false,
+          "verifier_edits_files": false
+        }
+      }
+    },
+    {
+      "task": 3,
+      "title": "Document editing",
+      "agent": "openai",
+      "outcome": "PASS",
+      "score": 5,
+      "run": {
+        "agent": "openai",
+        "submitted": true,
+        "model_requested": "gpt-6.1-sol",
+        "reason": "model_finished",
+        "errors": [],
+        "duration_seconds": 112.36590737500228,
+        "wall_clock_duration_seconds": 112.3648431301117,
+        "deadline_clock": "stricter of wall and monotonic elapsed time",
+        "actions": 34,
+        "action_unit": "native computer-tool actions; includes screenshot/zoom when requested",
+        "model_requests": 17,
+        "token_count_requests": 17,
+        "screenshots_saved": 19,
+        "usage": [
+          {
+            "input_tokens": 2045,
+            "input_tokens_details": {
+              "cache_write_tokens": 2042,
+              "cached_tokens": 0
+            },
+            "output_tokens": 19,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 2064
+          },
+          {
+            "input_tokens": 2995,
+            "input_tokens_details": {
+              "cache_write_tokens": 950,
+              "cached_tokens": 2042
+            },
+            "output_tokens": 54,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 3049
+          },
+          {
+            "input_tokens": 3980,
+            "input_tokens_details": {
+              "cache_write_tokens": 985,
+              "cached_tokens": 2992
+            },
+            "output_tokens": 19,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 3999
+          },
+          {
+            "input_tokens": 4930,
+            "input_tokens_details": {
+              "cache_write_tokens": 950,
+              "cached_tokens": 3977
+            },
+            "output_tokens": 54,
+            "output_tokens_details": {
+              "reasoning_tokens": 17
+            },
+            "total_tokens": 4984
+          },
+          {
+            "input_tokens": 5915,
+            "input_tokens_details": {
+              "cache_write_tokens": 985,
+              "cached_tokens": 4927
+            },
+            "output_tokens": 47,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 5962
+          },
+          {
+            "input_tokens": 6893,
+            "input_tokens_details": {
+              "cache_write_tokens": 978,
+              "cached_tokens": 5912
+            },
+            "output_tokens": 31,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 6924
+          },
+          {
+            "input_tokens": 7855,
+            "input_tokens_details": {
+              "cache_write_tokens": 962,
+              "cached_tokens": 6890
+            },
+            "output_tokens": 50,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 7905
+          },
+          {
+            "input_tokens": 8836,
+            "input_tokens_details": {
+              "cache_write_tokens": 981,
+              "cached_tokens": 7852
+            },
+            "output_tokens": 19,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 8855
+          },
+          {
+            "input_tokens": 9786,
+            "input_tokens_details": {
+              "cache_write_tokens": 950,
+              "cached_tokens": 8833
+            },
+            "output_tokens": 153,
+            "output_tokens_details": {
+              "reasoning_tokens": 11
+            },
+            "total_tokens": 9939
+          },
+          {
+            "input_tokens": 10870,
+            "input_tokens_details": {
+              "cache_write_tokens": 1084,
+              "cached_tokens": 9783
+            },
+            "output_tokens": 28,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 10898
+          },
+          {
+            "input_tokens": 11829,
+            "input_tokens_details": {
+              "cache_write_tokens": 959,
+              "cached_tokens": 10867
+            },
+            "output_tokens": 54,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 11883
+          },
+          {
+            "input_tokens": 12814,
+            "input_tokens_details": {
+              "cache_write_tokens": 985,
+              "cached_tokens": 11826
+            },
+            "output_tokens": 31,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 12845
+          },
+          {
+            "input_tokens": 13776,
+            "input_tokens_details": {
+              "cache_write_tokens": 962,
+              "cached_tokens": 12811
+            },
+            "output_tokens": 26,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 13802
+          },
+          {
+            "input_tokens": 14733,
+            "input_tokens_details": {
+              "cache_write_tokens": 957,
+              "cached_tokens": 13773
+            },
+            "output_tokens": 26,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 14759
+          },
+          {
+            "input_tokens": 15690,
+            "input_tokens_details": {
+              "cache_write_tokens": 957,
+              "cached_tokens": 14730
+            },
+            "output_tokens": 28,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 15718
+          },
+          {
+            "input_tokens": 16649,
+            "input_tokens_details": {
+              "cache_write_tokens": 959,
+              "cached_tokens": 15687
+            },
+            "output_tokens": 35,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 16684
+          },
+          {
+            "input_tokens": 17615,
+            "input_tokens_details": {
+              "cache_write_tokens": 966,
+              "cached_tokens": 16646
+            },
+            "output_tokens": 100,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 17715
+          }
+        ],
+        "estimated_api_cost_usd": 0.06682679999999999,
+        "uncertain_cost_reserved_usd": 0,
+        "api_retries": 0,
+        "automatic_restarts": 0,
+        "watchdog_fired": false,
+        "last_response_text_file": "original-response.txt",
+        "complete_final_response_file": "original-response.txt",
+        "container_stopped": true,
+        "original_response_is_unverified": true,
+        "evidence_folder": "logs/openai/task-3",
+        "verification": {
+          "task": 3,
+          "outcome": "PASS",
+          "score": 5,
+          "requirements": {
+            "Both spelling corrections and all other text preserved": true,
+            "Next steps uses Heading 1": true,
+            "Training table cell is Pending and table structure preserved": true,
+            "Separate valid revised DOCX and unchanged original": true,
+            "Reopened revised document and visually verified requested changes": true
+          },
+          "core_artifact_correct": true,
+          "details": {
+            "output_exists": true,
+            "valid_docx": true,
+            "paragraphs": [
+              "Warehouse dispatch update",
+              "Operations bulletin for the packing team.",
+              "The shipment window starts at 09:00.",
+              "Please receive the stock before dispatch.",
+              "Next steps",
+              "Check the packing list before loading."
+            ],
+            "tables": [
+              [
+                [
+                  "Item",
+                  "Status"
+                ],
+                [
+                  "Training",
+                  "Pending"
+                ]
+              ]
+            ],
+            "all_originals_preserved": true,
+            "heading_style": "Heading 1"
+          },
+          "gui_observations": {
+            "reopened_and_verified": {
+              "verified": true,
+              "evidence": [
+                "screenshots/openai/task-3/016-screenshot.png",
+                "screenshots/openai/task-3/017-screenshot.png",
+                "screenshots/openai/task-3/018-screenshot.png",
+                "screenshots/openai/task-3/019-screenshot.png"
+              ],
+              "explanation": "After closing the revised document, the Open dialog shows both source and revised files. The revised Writer document then reopens and renders both corrected words, Next steps in Heading 1, and the Pending table cell."
+            }
+          },
+          "response_used_as_proof": false,
+          "verifier_edits_files": false
+        }
+      }
+    },
+    {
+      "task": 3,
+      "title": "Document editing",
+      "agent": "sai",
+      "outcome": "NOT TESTED / BLOCKED",
+      "score": null,
+      "reason": "Authorized control recheck HTTP 403: Not authorized for this machine. No task submitted.",
+      "run": null
+    },
+    {
+      "task": 4,
+      "title": "Cross-application reporting",
+      "agent": "claude",
+      "outcome": "PASS",
+      "score": 5,
+      "run": {
+        "agent": "claude",
+        "submitted": true,
+        "model_requested": "claude-sonnet-5-5",
+        "reason": "model_finished",
+        "errors": [],
+        "duration_seconds": 193.29072670900496,
+        "wall_clock_duration_seconds": 193.2888970375061,
+        "deadline_clock": "stricter of wall and monotonic elapsed time",
+        "actions": 102,
+        "action_unit": "native computer-tool actions; includes screenshot/zoom when requested",
+        "model_requests": 19,
+        "token_count_requests": 19,
+        "screenshots_saved": 20,
+        "usage": [
+          {
+            "input_tokens": 6114,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 140,
+            "output_tokens_details": {
+              "thinking_tokens": 0
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          },
+          {
+            "input_tokens": 7385,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 98,
+            "output_tokens_details": {
+              "thinking_tokens": 0
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          },
+          {
+            "input_tokens": 8583,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 343,
+            "output_tokens_details": {
+              "thinking_tokens": 0
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          },
+          {
+            "input_tokens": 10061,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 236,
+            "output_tokens_details": {
+              "thinking_tokens": 136
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          },
+          {
+            "input_tokens": 11396,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 259,
+            "output_tokens_details": {
+              "thinking_tokens": 0
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          },
+          {
+            "input_tokens": 12037,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 59,
+            "output_tokens_details": {
+              "thinking_tokens": 0
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          },
+          {
+            "input_tokens": 13171,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 175,
+            "output_tokens_details": {
+              "thinking_tokens": 76
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          },
+          {
+            "input_tokens": 14446,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 151,
+            "output_tokens_details": {
+              "thinking_tokens": 66
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          },
+          {
+            "input_tokens": 15683,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 157,
+            "output_tokens_details": {
+              "thinking_tokens": 81
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          },
+          {
+            "input_tokens": 16927,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 524,
+            "output_tokens_details": {
+              "thinking_tokens": 84
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          },
+          {
+            "input_tokens": 18700,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 221,
+            "output_tokens_details": {
+              "thinking_tokens": 104
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          },
+          {
+            "input_tokens": 20030,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 348,
+            "output_tokens_details": {
+              "thinking_tokens": 0
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          },
+          {
+            "input_tokens": 21575,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 246,
+            "output_tokens_details": {
+              "thinking_tokens": 82
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          },
+          {
+            "input_tokens": 22953,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 492,
+            "output_tokens_details": {
+              "thinking_tokens": 97
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          },
+          {
+            "input_tokens": 24716,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 111,
+            "output_tokens_details": {
+              "thinking_tokens": 0
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          },
+          {
+            "input_tokens": 25917,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 166,
+            "output_tokens_details": {
+              "thinking_tokens": 0
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          },
+          {
+            "input_tokens": 27229,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 226,
+            "output_tokens_details": {
+              "thinking_tokens": 130
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          },
+          {
+            "input_tokens": 28553,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 173,
+            "output_tokens_details": {
+              "thinking_tokens": 0
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          },
+          {
+            "input_tokens": 29858,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 360,
+            "output_tokens_details": {
+              "thinking_tokens": 0
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          }
+        ],
+        "estimated_api_cost_usd": 0.715518,
+        "uncertain_cost_reserved_usd": 0,
+        "api_retries": 0,
+        "automatic_restarts": 0,
+        "watchdog_fired": false,
+        "last_response_text_file": "original-response.txt",
+        "complete_final_response_file": "original-response.txt",
+        "container_stopped": true,
+        "original_response_is_unverified": true,
+        "evidence_folder": "logs/claude/task-4",
+        "verification": {
+          "task": 4,
+          "outcome": "PASS",
+          "score": 5,
+          "requirements": {
+            "Observed 30 records in Calc and used Writer": true,
+            "All four metrics independently correct": true,
+            "Metrics transferred into a valid Writer document with no placeholders": true,
+            "Separate saved report and unchanged input CSV and template": true,
+            "Reopened saved report and visually verified metrics": true
+          },
+          "core_artifact_correct": true,
+          "details": {
+            "output_exists": true,
+            "valid_docx": true,
+            "paragraphs": [
+              "Sales summary",
+              "Source sales_records.csv",
+              "Total revenue: 1780",
+              "Total units: 90",
+              "Average order value: 59.33",
+              "Highest revenue region: South"
+            ],
+            "tables": [],
+            "all_originals_preserved": true,
+            "independently_recomputed_metrics": {
+              "total_revenue": "1780.00",
+              "total_units": 90,
+              "average_order_value": "59.33",
+              "highest_revenue_region": "South"
+            },
+            "metrics": {
+              "total_revenue": {
+                "value": "1780",
+                "correct": true
+              },
+              "total_units": {
+                "value": "90",
+                "correct": true
+              },
+              "average_order_value": {
+                "value": "59.33",
+                "correct": true
+              },
+              "highest_revenue_region": {
+                "value": "South",
+                "correct": true
+              }
+            }
+          },
+          "gui_observations": {
+            "both_applications_and_records": {
+              "verified": true,
+              "evidence": [
+                "screenshots/claude/task-4/008-screenshot.png",
+                "screenshots/claude/task-4/018-screenshot.png",
+                "screenshots/claude/task-4/019-screenshot.png"
+              ],
+              "explanation": "Calc shows S-001 through S-030 and formula results in column G, then Writer shows the four transferred metrics."
+            },
+            "reopened_and_verified": {
+              "verified": true,
+              "evidence": [
+                "screenshots/claude/task-4/017-screenshot.png",
+                "screenshots/claude/task-4/018-screenshot.png",
+                "screenshots/claude/task-4/019-screenshot.png",
+                "screenshots/claude/task-4/020-screenshot.png",
+                "logs/claude/task-4/events.jsonl"
+              ],
+              "explanation": "Trace actions 94\u2013102 close Writer via Ctrl+W, return to Calc, then Ctrl+O opens sales_summary.docx again. Reopened report shows all four correct metrics."
+            }
+          },
+          "response_used_as_proof": false,
+          "verifier_edits_files": false
+        }
+      }
+    },
+    {
+      "task": 4,
+      "title": "Cross-application reporting",
+      "agent": "openai",
+      "outcome": "PASS",
+      "score": 5,
+      "run": {
+        "agent": "openai",
+        "submitted": true,
+        "model_requested": "gpt-6.1-sol",
+        "reason": "model_finished",
+        "errors": [],
+        "duration_seconds": 146.05701933300588,
+        "wall_clock_duration_seconds": 146.05563497543335,
+        "deadline_clock": "stricter of wall and monotonic elapsed time",
+        "actions": 54,
+        "action_unit": "native computer-tool actions; includes screenshot/zoom when requested",
+        "model_requests": 21,
+        "token_count_requests": 21,
+        "screenshots_saved": 27,
+        "usage": [
+          {
+            "input_tokens": 2059,
+            "input_tokens_details": {
+              "cache_write_tokens": 2056,
+              "cached_tokens": 0
+            },
+            "output_tokens": 19,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 2078
+          },
+          {
+            "input_tokens": 3009,
+            "input_tokens_details": {
+              "cache_write_tokens": 950,
+              "cached_tokens": 2056
+            },
+            "output_tokens": 53,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 3062
+          },
+          {
+            "input_tokens": 3993,
+            "input_tokens_details": {
+              "cache_write_tokens": 984,
+              "cached_tokens": 3006
+            },
+            "output_tokens": 19,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 4012
+          },
+          {
+            "input_tokens": 4943,
+            "input_tokens_details": {
+              "cache_write_tokens": 950,
+              "cached_tokens": 3990
+            },
+            "output_tokens": 69,
+            "output_tokens_details": {
+              "reasoning_tokens": 27
+            },
+            "total_tokens": 5012
+          },
+          {
+            "input_tokens": 5943,
+            "input_tokens_details": {
+              "cache_write_tokens": 1000,
+              "cached_tokens": 4940
+            },
+            "output_tokens": 58,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 6001
+          },
+          {
+            "input_tokens": 6932,
+            "input_tokens_details": {
+              "cache_write_tokens": 989,
+              "cached_tokens": 5940
+            },
+            "output_tokens": 31,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 6963
+          },
+          {
+            "input_tokens": 7894,
+            "input_tokens_details": {
+              "cache_write_tokens": 962,
+              "cached_tokens": 6929
+            },
+            "output_tokens": 19,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 7913
+          },
+          {
+            "input_tokens": 8844,
+            "input_tokens_details": {
+              "cache_write_tokens": 950,
+              "cached_tokens": 7891
+            },
+            "output_tokens": 226,
+            "output_tokens_details": {
+              "reasoning_tokens": 14
+            },
+            "total_tokens": 9070
+          },
+          {
+            "input_tokens": 10001,
+            "input_tokens_details": {
+              "cache_write_tokens": 1157,
+              "cached_tokens": 8841
+            },
+            "output_tokens": 74,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 10075
+          },
+          {
+            "input_tokens": 11006,
+            "input_tokens_details": {
+              "cache_write_tokens": 1005,
+              "cached_tokens": 9998
+            },
+            "output_tokens": 19,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 11025
+          },
+          {
+            "input_tokens": 11956,
+            "input_tokens_details": {
+              "cache_write_tokens": 950,
+              "cached_tokens": 11003
+            },
+            "output_tokens": 88,
+            "output_tokens_details": {
+              "reasoning_tokens": 32
+            },
+            "total_tokens": 12044
+          },
+          {
+            "input_tokens": 12975,
+            "input_tokens_details": {
+              "cache_write_tokens": 1019,
+              "cached_tokens": 11953
+            },
+            "output_tokens": 170,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 13145
+          },
+          {
+            "input_tokens": 14076,
+            "input_tokens_details": {
+              "cache_write_tokens": 1101,
+              "cached_tokens": 12972
+            },
+            "output_tokens": 28,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 14104
+          },
+          {
+            "input_tokens": 15035,
+            "input_tokens_details": {
+              "cache_write_tokens": 959,
+              "cached_tokens": 14073
+            },
+            "output_tokens": 53,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 15088
+          },
+          {
+            "input_tokens": 16019,
+            "input_tokens_details": {
+              "cache_write_tokens": 984,
+              "cached_tokens": 15032
+            },
+            "output_tokens": 31,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 16050
+          },
+          {
+            "input_tokens": 16981,
+            "input_tokens_details": {
+              "cache_write_tokens": 962,
+              "cached_tokens": 16016
+            },
+            "output_tokens": 26,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 17007
+          },
+          {
+            "input_tokens": 17938,
+            "input_tokens_details": {
+              "cache_write_tokens": 957,
+              "cached_tokens": 16978
+            },
+            "output_tokens": 26,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 17964
+          },
+          {
+            "input_tokens": 18895,
+            "input_tokens_details": {
+              "cache_write_tokens": 957,
+              "cached_tokens": 17935
+            },
+            "output_tokens": 31,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 18926
+          },
+          {
+            "input_tokens": 19857,
+            "input_tokens_details": {
+              "cache_write_tokens": 962,
+              "cached_tokens": 18892
+            },
+            "output_tokens": 54,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 19911
+          },
+          {
+            "input_tokens": 20842,
+            "input_tokens_details": {
+              "cache_write_tokens": 985,
+              "cached_tokens": 19854
+            },
+            "output_tokens": 19,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 20861
+          },
+          {
+            "input_tokens": 21792,
+            "input_tokens_details": {
+              "cache_write_tokens": 950,
+              "cached_tokens": 20839
+            },
+            "output_tokens": 99,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 21891
+          }
+        ],
+        "estimated_api_cost_usd": 0.08963229999999998,
+        "uncertain_cost_reserved_usd": 0,
+        "api_retries": 0,
+        "automatic_restarts": 0,
+        "watchdog_fired": false,
+        "last_response_text_file": "original-response.txt",
+        "complete_final_response_file": "original-response.txt",
+        "container_stopped": true,
+        "original_response_is_unverified": true,
+        "evidence_folder": "logs/openai/task-4",
+        "verification": {
+          "task": 4,
+          "outcome": "PASS",
+          "score": 5,
+          "requirements": {
+            "Observed 30 records in Calc and used Writer": true,
+            "All four metrics independently correct": true,
+            "Metrics transferred into a valid Writer document with no placeholders": true,
+            "Separate saved report and unchanged input CSV and template": true,
+            "Reopened saved report and visually verified metrics": true
+          },
+          "core_artifact_correct": true,
+          "details": {
+            "output_exists": true,
+            "valid_docx": true,
+            "paragraphs": [
+              "Sales summary",
+              "Source sales_records.csv",
+              "Total revenue: 1,780.00",
+              "Total units: 90",
+              "Average order value: 59.33",
+              "Highest revenue region: South"
+            ],
+            "tables": [],
+            "all_originals_preserved": true,
+            "independently_recomputed_metrics": {
+              "total_revenue": "1780.00",
+              "total_units": 90,
+              "average_order_value": "59.33",
+              "highest_revenue_region": "South"
+            },
+            "metrics": {
+              "total_revenue": {
+                "value": "1780.00",
+                "correct": true
+              },
+              "total_units": {
+                "value": "90",
+                "correct": true
+              },
+              "average_order_value": {
+                "value": "59.33",
+                "correct": true
+              },
+              "highest_revenue_region": {
+                "value": "South",
+                "correct": true
+              }
+            }
+          },
+          "gui_observations": {
+            "both_applications_and_records": {
+              "verified": true,
+              "evidence": [
+                "screenshots/openai/task-4/010-screenshot.png",
+                "screenshots/openai/task-4/012-screenshot.png",
+                "screenshots/openai/task-4/026-screenshot.png"
+              ],
+              "explanation": "Calc shows all 30 order rows and calculated totals; Writer shows the transferred report."
+            },
+            "reopened_and_verified": {
+              "verified": true,
+              "evidence": [
+                "screenshots/openai/task-4/024-screenshot.png",
+                "screenshots/openai/task-4/026-screenshot.png",
+                "screenshots/openai/task-4/027-screenshot.png",
+                "logs/openai/task-4/events.jsonl"
+              ],
+              "explanation": "Actions 48\u201353 close the saved report and unsaved calculation sheet, then reopen sales_summary.docx through Ctrl+O. Final screenshot shows four correct metrics."
+            }
+          },
+          "response_used_as_proof": false,
+          "verifier_edits_files": false
+        }
+      }
+    },
+    {
+      "task": 4,
+      "title": "Cross-application reporting",
+      "agent": "sai",
+      "outcome": "NOT TESTED / BLOCKED",
+      "score": null,
+      "reason": "Authorized control recheck HTTP 403: Not authorized for this machine. No task submitted.",
+      "run": null
+    },
+    {
+      "task": 5,
+      "title": "Desktop error recovery",
+      "agent": "claude",
+      "outcome": "PASS",
+      "score": 5,
+      "run": {
+        "agent": "claude",
+        "submitted": true,
+        "model_requested": "claude-sonnet-5-5",
+        "reason": "model_finished",
+        "errors": [],
+        "duration_seconds": 204.41030554100143,
+        "wall_clock_duration_seconds": 204.40507173538208,
+        "deadline_clock": "stricter of wall and monotonic elapsed time",
+        "actions": 74,
+        "action_unit": "native computer-tool actions; includes screenshot/zoom when requested",
+        "model_requests": 20,
+        "token_count_requests": 20,
+        "screenshots_saved": 21,
+        "usage": [
+          {
+            "input_tokens": 6119,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 123,
+            "output_tokens_details": {
+              "thinking_tokens": 0
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          },
+          {
+            "input_tokens": 7376,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 130,
+            "output_tokens_details": {
+              "thinking_tokens": 0
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          },
+          {
+            "input_tokens": 8618,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 142,
+            "output_tokens_details": {
+              "thinking_tokens": 0
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          },
+          {
+            "input_tokens": 9871,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 130,
+            "output_tokens_details": {
+              "thinking_tokens": 0
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          },
+          {
+            "input_tokens": 11093,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 98,
+            "output_tokens_details": {
+              "thinking_tokens": 0
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          },
+          {
+            "input_tokens": 12291,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 136,
+            "output_tokens_details": {
+              "thinking_tokens": 0
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          },
+          {
+            "input_tokens": 13540,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 108,
+            "output_tokens_details": {
+              "thinking_tokens": 0
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          },
+          {
+            "input_tokens": 14746,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 101,
+            "output_tokens_details": {
+              "thinking_tokens": 0
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          },
+          {
+            "input_tokens": 15945,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 149,
+            "output_tokens_details": {
+              "thinking_tokens": 0
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          },
+          {
+            "input_tokens": 17207,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 218,
+            "output_tokens_details": {
+              "thinking_tokens": 119
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          },
+          {
+            "input_tokens": 18523,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 157,
+            "output_tokens_details": {
+              "thinking_tokens": 0
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          },
+          {
+            "input_tokens": 19815,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 146,
+            "output_tokens_details": {
+              "thinking_tokens": 41
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          },
+          {
+            "input_tokens": 21061,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 119,
+            "output_tokens_details": {
+              "thinking_tokens": 0
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          },
+          {
+            "input_tokens": 22278,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 184,
+            "output_tokens_details": {
+              "thinking_tokens": 0
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          },
+          {
+            "input_tokens": 23610,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 156,
+            "output_tokens_details": {
+              "thinking_tokens": 0
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          },
+          {
+            "input_tokens": 24900,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 185,
+            "output_tokens_details": {
+              "thinking_tokens": 83
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          },
+          {
+            "input_tokens": 26183,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 164,
+            "output_tokens_details": {
+              "thinking_tokens": 62
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          },
+          {
+            "input_tokens": 27445,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 117,
+            "output_tokens_details": {
+              "thinking_tokens": 0
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          },
+          {
+            "input_tokens": 28660,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 127,
+            "output_tokens_details": {
+              "thinking_tokens": 0
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          },
+          {
+            "input_tokens": 29900,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+            "cache_creation": {
+              "ephemeral_5m_input_tokens": 0,
+              "ephemeral_1h_input_tokens": 0
+            },
+            "output_tokens": 510,
+            "output_tokens_details": {
+              "thinking_tokens": 0
+            },
+            "service_tier": "standard",
+            "inference_geo": "global",
+            "speed": "standard"
+          }
+        ],
+        "estimated_api_cost_usd": 0.750362,
+        "uncertain_cost_reserved_usd": 0,
+        "api_retries": 0,
+        "automatic_restarts": 0,
+        "watchdog_fired": false,
+        "last_response_text_file": "original-response.txt",
+        "complete_final_response_file": "original-response.txt",
+        "container_stopped": true,
+        "original_response_is_unverified": true,
+        "evidence_folder": "logs/claude/task-5/attempt-2",
+        "verification": {
+          "task": 5,
+          "outcome": "PASS",
+          "score": 5,
+          "requirements": {
+            "Identified REC-204 approved source by contents": true,
+            "Dismissed the controlled interruption through GUI": true,
+            "Corrected time and preserved all other text": true,
+            "Separate valid output and all four source documents unchanged": true,
+            "Reopened corrected document and verified ID approval and time": true
+          },
+          "core_artifact_correct": true,
+          "details": {
+            "output_exists": true,
+            "valid_docx": true,
+            "paragraphs": [
+              "Dispatch recovery plan",
+              "Document ID REC-204",
+              "Approval APPROVED",
+              "The dispatch handoff is at 16:30.",
+              "Keep the loading checklist unchanged."
+            ],
+            "tables": [],
+            "all_originals_preserved": true
+          },
+          "gui_observations": {
+            "interruption_dismissed": {
+              "verified": true,
+              "evidence": [
+                "screenshots/claude/task-5/attempt-2/001-screenshot.png",
+                "logs/claude/task-5/attempt-2/events.jsonl",
+                "logs/claude/task-5/attempt-2/interruption-evidence.json"
+              ],
+              "explanation": "Initial synthetic warning is visible. Native action 1 clicks OK. The notice exits with code 0 without harness dismissal."
+            },
+            "reopened_and_verified": {
+              "verified": true,
+              "evidence": [
+                "screenshots/claude/task-5/attempt-2/018-screenshot.png",
+                "screenshots/claude/task-5/attempt-2/019-screenshot.png",
+                "screenshots/claude/task-5/attempt-2/020-screenshot.png",
+                "logs/claude/task-5/attempt-2/events.jsonl"
+              ],
+              "explanation": "Actions 65\u201374 close Writer, reopen the saved file in read-only mode and capture it showing REC-204, APPROVED and 16:30. The model receives this image before its final response 20."
+            }
+          },
+          "response_used_as_proof": false,
+          "verifier_edits_files": false
+        }
+      }
+    },
+    {
+      "task": 5,
+      "title": "Desktop error recovery",
+      "agent": "openai",
+      "outcome": "PASS",
+      "score": 5,
+      "run": {
+        "agent": "openai",
+        "submitted": true,
+        "model_requested": "gpt-6.1-sol",
+        "reason": "model_finished",
+        "errors": [],
+        "duration_seconds": 96.93772283399448,
+        "wall_clock_duration_seconds": 96.93716382980347,
+        "deadline_clock": "stricter of wall and monotonic elapsed time",
+        "actions": 31,
+        "action_unit": "native computer-tool actions; includes screenshot/zoom when requested",
+        "model_requests": 14,
+        "token_count_requests": 14,
+        "screenshots_saved": 16,
+        "usage": [
+          {
+            "input_tokens": 2069,
+            "input_tokens_details": {
+              "cache_write_tokens": 2066,
+              "cached_tokens": 0
+            },
+            "output_tokens": 18,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 2087
+          },
+          {
+            "input_tokens": 3018,
+            "input_tokens_details": {
+              "cache_write_tokens": 949,
+              "cached_tokens": 2066
+            },
+            "output_tokens": 66,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 3084
+          },
+          {
+            "input_tokens": 4015,
+            "input_tokens_details": {
+              "cache_write_tokens": 997,
+              "cached_tokens": 3015
+            },
+            "output_tokens": 28,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 4043
+          },
+          {
+            "input_tokens": 4974,
+            "input_tokens_details": {
+              "cache_write_tokens": 959,
+              "cached_tokens": 4012
+            },
+            "output_tokens": 19,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 4993
+          },
+          {
+            "input_tokens": 5924,
+            "input_tokens_details": {
+              "cache_write_tokens": 950,
+              "cached_tokens": 4971
+            },
+            "output_tokens": 55,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 5979
+          },
+          {
+            "input_tokens": 6910,
+            "input_tokens_details": {
+              "cache_write_tokens": 986,
+              "cached_tokens": 5921
+            },
+            "output_tokens": 19,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 6929
+          },
+          {
+            "input_tokens": 7860,
+            "input_tokens_details": {
+              "cache_write_tokens": 950,
+              "cached_tokens": 6907
+            },
+            "output_tokens": 61,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 7921
+          },
+          {
+            "input_tokens": 8852,
+            "input_tokens_details": {
+              "cache_write_tokens": 992,
+              "cached_tokens": 7857
+            },
+            "output_tokens": 126,
+            "output_tokens_details": {
+              "reasoning_tokens": 13
+            },
+            "total_tokens": 8978
+          },
+          {
+            "input_tokens": 9909,
+            "input_tokens_details": {
+              "cache_write_tokens": 1057,
+              "cached_tokens": 8849
+            },
+            "output_tokens": 31,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 9940
+          },
+          {
+            "input_tokens": 10871,
+            "input_tokens_details": {
+              "cache_write_tokens": 962,
+              "cached_tokens": 9906
+            },
+            "output_tokens": 70,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 10941
+          },
+          {
+            "input_tokens": 11872,
+            "input_tokens_details": {
+              "cache_write_tokens": 1001,
+              "cached_tokens": 10868
+            },
+            "output_tokens": 36,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 11908
+          },
+          {
+            "input_tokens": 12839,
+            "input_tokens_details": {
+              "cache_write_tokens": 967,
+              "cached_tokens": 11869
+            },
+            "output_tokens": 26,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 12865
+          },
+          {
+            "input_tokens": 13796,
+            "input_tokens_details": {
+              "cache_write_tokens": 957,
+              "cached_tokens": 12836
+            },
+            "output_tokens": 60,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 13856
+          },
+          {
+            "input_tokens": 14787,
+            "input_tokens_details": {
+              "cache_write_tokens": 991,
+              "cached_tokens": 13793
+            },
+            "output_tokens": 108,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 14895
+          }
+        ],
+        "estimated_api_cost_usd": 0.054561,
+        "uncertain_cost_reserved_usd": 0,
+        "api_retries": 0,
+        "automatic_restarts": 0,
+        "watchdog_fired": false,
+        "last_response_text_file": "original-response.txt",
+        "complete_final_response_file": "original-response.txt",
+        "container_stopped": true,
+        "original_response_is_unverified": true,
+        "evidence_folder": "logs/openai/task-5",
+        "verification": {
+          "task": 5,
+          "outcome": "PASS",
+          "score": 5,
+          "requirements": {
+            "Identified REC-204 approved source by contents": true,
+            "Dismissed the controlled interruption through GUI": true,
+            "Corrected time and preserved all other text": true,
+            "Separate valid output and all four source documents unchanged": true,
+            "Reopened corrected document and verified ID approval and time": true
+          },
+          "core_artifact_correct": true,
+          "details": {
+            "output_exists": true,
+            "valid_docx": true,
+            "paragraphs": [
+              "Dispatch recovery plan",
+              "Document ID REC-204",
+              "Approval APPROVED",
+              "The dispatch handoff is at 16:30.",
+              "Keep the loading checklist unchanged."
+            ],
+            "tables": [],
+            "all_originals_preserved": true
+          },
+          "gui_observations": {
+            "interruption_dismissed": {
+              "verified": true,
+              "evidence": [
+                "screenshots/openai/task-5/001-screenshot.png",
+                "logs/openai/task-5/events.jsonl",
+                "logs/openai/task-5/interruption-evidence.json"
+              ],
+              "explanation": "Initial warning is visible. The model requests an OK click, and the notice exits with code 0 before the container is stopped; harness did not dismiss it."
+            },
+            "reopened_and_verified": {
+              "verified": true,
+              "evidence": [
+                "screenshots/openai/task-5/014-screenshot.png",
+                "screenshots/openai/task-5/015-screenshot.png",
+                "screenshots/openai/task-5/016-screenshot.png",
+                "logs/openai/task-5/events.jsonl"
+              ],
+              "explanation": "After Ctrl+W, actions 28\u201331 reopen recovery_plan_corrected.docx. Reopened approved REC-204 with 16:30 is shown and followed by a successful final model response."
+            }
+          },
+          "response_used_as_proof": false,
+          "verifier_edits_files": false
+        }
+      }
+    },
+    {
+      "task": 5,
+      "title": "Desktop error recovery",
+      "agent": "sai",
+      "outcome": "NOT TESTED / BLOCKED",
+      "score": null,
+      "reason": "Authorized control recheck HTTP 403: Not authorized for this machine. No task submitted.",
+      "run": null
+    }
+  ]
+}

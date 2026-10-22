@@ -1,0 +1,104 @@
+{
+  "model": "claude-sonnet-5-5",
+  "id": "msg_011CgH5sLkugNEsGm3CupiPf",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "tool_use",
+      "id": "toolu_01Ma8ECho5vSTHuU5BVAtHRX",
+      "name": "left_click",
+      "input": {
+        "coordinate": [
+          741,
+          554
+        ]
+      },
+      "toolset_name": "computer",
+      "caller": {
+        "type": "direct"
+      }
+    },
+    {
+      "type": "tool_use",
+      "id": "toolu_01WHecB2ZP2vMLQgPz3JKsig",
+      "name": "key",
+      "input": {
+        "text": "ctrl+s"
+      },
+      "toolset_name": "computer",
+      "caller": {
+        "type": "direct"
+      }
+    },
+    {
+      "type": "tool_use",
+      "id": "toolu_01XEcaPKdYhRfdeEFFdhmuHe",
+      "name": "wait",
+      "input": {
+        "duration": 2
+      },
+      "toolset_name": "computer",
+      "caller": {
+        "type": "direct"
+      }
+    },
+    {
+      "type": "tool_use",
+      "id": "toolu_01MESvMpcsqYjRVuykVywoD7",
+      "name": "key",
+      "input": {
+        "text": "Return"
+      },
+      "toolset_name": "computer",
+      "caller": {
+        "type": "direct"
+      }
+    },
+    {
+      "type": "tool_use",
+      "id": "toolu_01KpBKzWbUok8CBk1VGV1zFu",
+      "name": "wait",
+      "input": {
+        "duration": 2
+      },
+      "toolset_name": "computer",
+      "caller": {
+        "type": "direct"
+      }
+    },
+    {
+      "type": "tool_use",
+      "id": "toolu_01SA8xJhfYbGmHDkTuqzLJkU",
+      "name": "screenshot",
+      "input": {
+        "zoom": null
+      },
+      "toolset_name": "computer",
+      "caller": {
+        "type": "direct"
+      }
+    }
+  ],
+  "container": null,
+  "stop_reason": "tool_use",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 23610,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 156,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

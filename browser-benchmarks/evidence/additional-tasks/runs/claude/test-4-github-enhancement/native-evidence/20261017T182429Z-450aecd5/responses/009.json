@@ -1,0 +1,47 @@
+{
+  "id": "provider-id-a18f89f5d2ef",
+  "content": [
+    {
+      "signature": "CAQS7wYKEAgSGAI4AUIIdGhpbmtpbmcSDMXkTKOUwkvUp2T9nhoMVlRu28GyGK7cbKO3IjBqpPLFcb6CtLaq4d78rnwtAdV5/089SZAZHyvnJjzgqVOwmTw4+DhWgT1xYUv5hfoqjAY5JYrJIwecf2MgiU9xmspk9X38Y/gLn5jPCFt/UsJFk9WyS2x5Y8RQbAtCKTNBglw7bYuo6AY8O3tjR79elOB38+raLBr3WpaeO1SF8SDKd1iC3kq64PgyK2bdcYvsv8WDItMa+YIvDA3IyIRe0xJnkOqR+SwCZB1WJWPF/u/yUZW48in12/cObf7zcJpNJjXOjP5Tj9YxIiimn5/OeEF/EeKHuGWayOllZ3pfdCwhF+Qn4biH/kzmTAK54jCNl/X3EQQ6fbvZ2eNbEft7P7EbKHVGkWPMdXKFURP55eJ8YD5Wzl3QIH+YS8o5WDxCUVGpM0QOJAjoznGOB9o9l/aTJCtxU0gUaRC7mpvvYajjgGK9AgmT7Qdp1+TtuC2DyN4OTr7CTl9EfSVXxmYkoJ7fAV7ENlafqiyPBSoBaeDtNUxkIqU8qk45NSiDj2PjnP/ZYo4UrBG7T0E7Z+CjwMviC74sT0gBwJZ/5z29L6KvyYLhvDuaCGq9uhbk+TNJDqse2uhNlIR/AtqMWnjYiclGofYJUuvXFMYCOqYQzgX387FkmyTuUHrDpe3vamnvBpYu/FPjzFI6WaTZbdRtaLnbqecUom60UdKFa5Pn/MDfqOMqXA0saib1fxyhs8ZafxiWeWo6sAwix/C6FUk7dQImC2v8qqiyTfPUssY96RBjWf3S2tdk2zAEZN6mUO/zTeuDabhpdhktbJO4uXmYyDHK/F01rMqwDga4RG2+Fptyjhu2OVDxCdhAG+TO8BWqJO/bRUqWon02jEubiwa61QhWTZ15xuAbs/B5wlunFoi3MbxAHKkO+RE/NCxFmn99XD/6vxnI5ZHb8LsqFn5z2+Q0JynqoDWxvSORC+aUq0oGboT9cIJn+EwT7SW+p+BnVzZhIlmIj+qjK9H33afZvlXHtMaGoAmxBxOW+GunJ8UICa25NgrhqqBtXNxp8pNc9SlsPjqXskr0cje06lhEh/WrTutD/q1Hc8l/OQ76daPfg+Flfz5MawOkb5eT/qUnPz9IZs176ooaddnsnwcYAQ==",
+      "thinking": "",
+      "type": "thinking"
+    },
+    {
+      "id": "toolu_01A7GzmEnj76wtwcBCK5W4ez",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "region": [
+          400,
+          520,
+          912,
+          620
+        ]
+      },
+      "name": "zoom",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    }
+  ],
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_reason": "tool_use",
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 16076,
+    "output_tokens": 123,
+    "output_tokens_details": {
+      "thinking_tokens": 49
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

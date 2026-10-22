@@ -1,0 +1,35 @@
+{
+  "utc": "2026-10-21T23:02:22.286958+00:00",
+  "queue": [
+    [
+      "openai",
+      2
+    ],
+    [
+      "claude",
+      3
+    ],
+    [
+      "openai",
+      3
+    ],
+    [
+      "claude",
+      4
+    ],
+    [
+      "openai",
+      4
+    ],
+    [
+      "claude",
+      5
+    ],
+    [
+      "openai",
+      5
+    ]
+  ],
+  "api_retries": 0,
+  "automatic_benchmark_restarts": 0
+}

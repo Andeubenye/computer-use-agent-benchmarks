@@ -1,0 +1,1 @@
+Retained isolated IndexedDB bytes only; no settings, cookies, Local Storage or API keys copied. Live LevelDB snapshot is best-effort and not proven transaction-consistent. Screenshot binaries may be embedded; not individually decoded or counted. Exact stored key/base URL/hostname UTF-8 and UTF-16 literal scan found no matches.

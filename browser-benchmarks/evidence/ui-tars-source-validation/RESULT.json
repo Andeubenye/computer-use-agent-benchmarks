@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-20",
+  "source_commit": "0ee87301a6db754c5f67909e5fbbcf05233abad9",
+  "node": "v24.16.0",
+  "pnpm_used": "9.10.0",
+  "install_exit_code": 0,
+  "focused_tests": {
+    "passed": 80,
+    "files_passed": 6,
+    "exit_code": 0
+  },
+  "sdk_typecheck_exit_code": 0,
+  "desktop_typecheck_exit_code": 0,
+  "compiled_sdk_mocked_request": {
+    "passed": true,
+    "api": "Chat Completions",
+    "model": "ByteDance-Seed/UI-TARS-1.5-7B",
+    "max_tokens": 2048,
+    "network_io": false
+  },
+  "development_launch": {
+    "attempts": 1,
+    "exit_code": 1,
+    "main_preload_built": true,
+    "renderer_server_started": true,
+    "electron_started": false,
+    "blocker": "Electron executable missing after dependency installation"
+  },
+  "permissions_for_new_development_app": "Not verified: application did not launch; no permissions changed",
+  "live_browser_control_verified": false,
+  "example_com_agent_test": "Not run",
+  "benchmark_tasks": "Not run",
+  "credential_configuration": "Existing settings untouched; no key read/copied; fresh profile credential-free launcher only",
+  "logging_guard": "Launcher refuses saved credentials; full real-credential logging safeguard not activated or claimed",
+  "hugging_face_api_requests": 0,
+  "hugging_face_state_changes": 0,
+  "additional_paid_inference_cost_usd": 0,
+  "endpoint_current_state": "Not queried",
+  "installed_app_unchanged": true,
+  "installed_app_files": {
+    "/Applications/UI TARS.app/Contents/Info.plist": true,
+    "/Applications/UI TARS.app/Contents/MacOS/UI-TARS": true,
+    "/Applications/UI TARS.app/Contents/Resources/app.asar": true
+  },
+  "earlier_evidence_unchanged": true,
+  "lockfile_unchanged": true,
+  "remaining_checkout_processes": [],
+  "git_status": " M packages/ui-tars/sdk/src/Model.ts\n M packages/ui-tars/sdk/tests/Model.test.ts\n",
+  "stopped_after_launch_failure": true
+}

@@ -1,0 +1,12 @@
+{
+  "model": "gpt-6.1-sol",
+  "system": "You control an isolated Linux desktop at 1024 x 768 pixels. The task folder is /home/agent/Desktop/benchmark. Use only the native computer tool for task work. Open, inspect, edit, save and verify through graphical desktop applications. No terminal, browser, shell, code, scripts, macros, filesystem tools, network or programmatic editing. Spreadsheet formulas entered in the spreadsheet GUI are allowed for calculations. End each action batch with a screenshot and observe the result before proceeding. Expected outputs and grader references are not available. Do not inspect unrelated files, sign in, change settings or install software. If blocked, stop and describe the blocker. You have ten minutes from submission.",
+  "prompt": "A single synthetic interruption notice is on screen. Dismiss it and continue using desktop GUI controls. Among the similarly named dispatch_plan documents in /home/agent/Desktop/benchmark, inspect the contents to find the one with Document ID REC-204 and Approval APPROVED. Do not edit a draft or rely on the filename alone. In that approved document, change the dispatch handoff time from 16:00 to 16:30, preserving every other paragraph. Save a separate recovery_plan_corrected.docx in the same folder without changing any of the four source documents. Close and reopen the corrected document to verify its ID, approval, and corrected time. Use only desktop graphical applications, mouse and keyboard. Do not use a browser, terminal, scripts, macros, programmatic file tools, or the network. Spreadsheet formulas entered through the GUI are allowed for calculations. Report what you changed, the output location, and any incomplete steps.",
+  "task_timeout_seconds": 600,
+  "budget_usd": 1.0,
+  "output_token_cap": 2048,
+  "api_retries": 0,
+  "computer_tool": "computer",
+  "execution_environment": "Linux / LibreOffice / Xvfb 1024x768 / network none",
+  "expected_output_exposed": false
+}

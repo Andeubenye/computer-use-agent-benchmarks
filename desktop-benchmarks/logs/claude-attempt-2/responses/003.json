@@ -1,0 +1,101 @@
+{
+  "model": "claude-sonnet-5-5",
+  "id": "msg_011CgFzbbQBgABCYPvN1YKti",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "thinking",
+      "thinking": "",
+      "signature": "CAQSwwYKEAgTGAI4AUIIdGhpbmtpbmcSDImvHeg3R6OPvmmvWBoMn47c48X3QRQFQSEUIjBAGV6ZwXCqg0+SS+EZJzfCxLFe4FeC+pSfFH7OpDuR2G0iNCGliHL/F+6L6xbEIZQq4AVTEyMaM5YhTmmYYUDlrcuq7BvIt2lHvv3c6CFlWt0uWm5FzPU30O5Uu1qHFclCAgoVRYM7WDkWD4dJ2lNJ7hyc9s1lVqHjbBxLd5os1jFTMPc9iLTqmjWTMnFX3VMJTlaMRqxgRe6SPqd1momlH9s03G3q3kACL/GVZSOGLtrbcrkw/1WCTa4z+4vq8OPdVW9WFeBoSqHkFM4qZJdvevnK6S6YPffNqzxpeElrXxrwy03GpJUTuF32gYjZzPyWl8l4t6jc79le59S4mCVLY3SZYfCNv2lfVonJc7MvD1LxktClgIScsCLX6ytxZAwFFyIORqRELG6Ii2kBHwxz6LAKsU/oSYmL4CBWFnNZdqOzAG1ZwUBVxEkqI8u43twbipIL3DtkCWqv+UVSMjt9QZuSFzjSzxZefPIDbKW2/JL71ozfGNKXftAJcQtMHb2eRGjWnIZ9oE9hibRlq0Bb3KDCelLcO5onpLym/U6n+Wg6F7rwDTS9OXycgjFNseRORmLPj2XRuQ3qkaWhwLpF0oIiLzhz43UvFv5A5V/stnhUQla++SIT1NvQl0GR/AJrWmskzuD58lj9HIb4CdWljbTGBvyFSa664joTaEzmofc4uMYYQfumrX7yUKaL0ItZLd/szTBGdZY3vjYCfmUkdF0PxCKKXFP+xG+afYt29/oAffaPFGY2zJFalsx21npP/ajcAQlh5QA8UR3u1YaV28gBhzQ5FqMYMZprswaS9A+tmbuQ7oJipxnAQxtoccIiUEQRcUL9NpvXI5T2ZSvwW7+zTuoU8mI6qqSGaOBiC65Ulz7zIj6vguExtix7jN2iE1MbM+N6nT0UY7Mb/2e41bqfXRv/KXuJjOGWbSX72DaCYXAr2yPKs6Q4F1ae1YvfhL6liXeeG5Bv6Ut+i+rDaD7F4kIZAIEv4O0UKOb5qsbZdJhJ80HG+V7c7hftC5326/p1PtlkLWvzpER/dgaoYmZ2GAE="
+    },
+    {
+      "type": "tool_use",
+      "id": "toolu_013sC5aLqMAXGQdVAeEZLNBe",
+      "name": "left_click",
+      "input": {
+        "coordinate": [
+          301,
+          300
+        ]
+      },
+      "toolset_name": "computer",
+      "caller": {
+        "type": "direct"
+      }
+    },
+    {
+      "type": "tool_use",
+      "id": "toolu_01HHWz6HYbehsjqpURCyM9Cb",
+      "name": "left_click",
+      "input": {
+        "coordinate": [
+          451,
+          300
+        ]
+      },
+      "toolset_name": "computer",
+      "caller": {
+        "type": "direct"
+      }
+    },
+    {
+      "type": "tool_use",
+      "id": "toolu_01S5K3Y3G8f2FHrwerhRWHyi",
+      "name": "left_click",
+      "input": {
+        "coordinate": [
+          703,
+          623
+        ]
+      },
+      "toolset_name": "computer",
+      "caller": {
+        "type": "direct"
+      }
+    },
+    {
+      "type": "tool_use",
+      "id": "toolu_01F1c8ZkeZMqwHoPZ7H6EVav",
+      "name": "wait",
+      "input": {
+        "duration": 2
+      },
+      "toolset_name": "computer",
+      "caller": {
+        "type": "direct"
+      }
+    },
+    {
+      "type": "tool_use",
+      "id": "toolu_01WBT7BqtEJMkBwQxb1ogcvb",
+      "name": "screenshot",
+      "input": {},
+      "toolset_name": "computer",
+      "caller": {
+        "type": "direct"
+      }
+    }
+  ],
+  "container": null,
+  "stop_reason": "tool_use",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 8474,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 219,
+    "output_tokens_details": {
+      "thinking_tokens": 74
+    },
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

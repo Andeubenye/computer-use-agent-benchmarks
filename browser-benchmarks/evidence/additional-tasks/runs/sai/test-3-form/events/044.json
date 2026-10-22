@@ -1,0 +1,46 @@
+{
+  "http_status": 200,
+  "body": {
+    "sessionId": "id-71dc1af9c730",
+    "status": "running",
+    "events": [],
+    "text": "",
+    "cursor": "eyJ0dXJuIjoxNzkyMjYxMjM0ODY1LCJzZWVuIjpbIjE3OTIyNjEyNDk5OTAtdG9vbC12ODZxNnNrdXptOSIsImVycjoxNzkyMjYxMjUwNTE1LXJlc3VsdC1uNnZzMnJubXpuIiwiMTc5MjI2MTI2NDExMC10b29sLXRhMzR4bWl6aWtzIiwiMTc5MjI2MTI4Nzk2MC10b29sLWEwdWRiYzRrbGp2IiwiMTc5MjI2MTI2OTA5MS1hc3Npc3RhbnQtanNpcXRmZjQweGQiLCIxNzkyMjYxMjk3OTA3LXRvb2wtYWwxaDQxMGNqc2EiLCIxNzkyMjYxMzExMDY4LXRvb2wtbWxiZ3cyMjVsYyIsIjE3OTIyNjEzMjQ1NTgtdG9vbC1iaXRncjVkcTJqZyIsIjE3OTIyNjEzMzU1ODgtdG9vbC1wNWN1MTR5aWxvIiwiMTc5MjI2MTM0MjQ2My10b29sLXh3MGZvajZleTUiLCIxNzkyMjYxMzUyODcwLXRvb2wtNmh5NnU0dzdkNGsiLCIxNzkyMjYxMzQ0MDA3LWFzc2lzdGFudC10b3EwMm9zb29jIl0sInByb2ciOnsiMTc5MjI2MTI4ODUxNi1yZXN1bHQtYWtuZ3Y4Z3g2b2kiOjEsIjE3OTIyNjEyOTg0MzAtcmVzdWx0LTF5dTJsMjNpYWhuIjoxLCIxNzkyMjYxMzExNjA1LXJlc3VsdC1oNHozc21pb2ZjbyI6NCwiMTc5MjI2MTMyNTE5OS1yZXN1bHQteW4yaXpxMm41M2kiOjEsIjE3OTIyNjEzMzYwNjYtcmVzdWx0LTFnNm1qemJqMTczIjoxLCIxNzkyMjYxMzQyOTg4LXJlc3VsdC1ieHF6djJ6cjlxbiI6MX19",
+    "usage": {
+      "inputTokens": 40879,
+      "outputTokens": 1732,
+      "cacheReadTokens": 316160,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 9,
+      "byModel": {
+        "openrouter-deepseek/deepseek-v4-flash": {
+          "inputTokens": 40879,
+          "outputTokens": 1732,
+          "cacheReadTokens": 316160,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 9
+        }
+      }
+    },
+    "sessionUsage": {
+      "inputTokens": 40879,
+      "outputTokens": 1732,
+      "cacheReadTokens": 316160,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 9,
+      "byModel": {
+        "openrouter-deepseek/deepseek-v4-flash": {
+          "inputTokens": 40879,
+          "outputTokens": 1732,
+          "cacheReadTokens": 316160,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 9
+        }
+      }
+    }
+  }
+}

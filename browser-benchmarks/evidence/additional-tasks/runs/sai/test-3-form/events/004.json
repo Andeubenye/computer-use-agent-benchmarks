@@ -1,0 +1,52 @@
+{
+  "http_status": 200,
+  "body": {
+    "sessionId": "id-71dc1af9c730",
+    "status": "running",
+    "events": [
+      {
+        "type": "tool-output-error",
+        "toolCallId": "1792261250515-result-n6vs2rnmzn",
+        "errorText": "The free cloud workspace has not been acquired. Call `await machine.waitAndAcquire()` before using its files or computer tools. That starts the workspace and asks for phone verification when required. A failed verification can be retried in the verification card; wait for it instead of treating this as an offline computer or skipping the requested file."
+      }
+    ],
+    "text": "",
+    "cursor": "eyJ0dXJuIjoxNzkyMjYxMjM0ODY1LCJzZWVuIjpbIjE3OTIyNjEyNDk5OTAtdG9vbC12ODZxNnNrdXptOSIsImVycjoxNzkyMjYxMjUwNTE1LXJlc3VsdC1uNnZzMnJubXpuIl0sInByb2ciOnt9fQ",
+    "usage": {
+      "inputTokens": 37162,
+      "outputTokens": 179,
+      "cacheReadTokens": 1536,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 1,
+      "byModel": {
+        "openrouter-deepseek/deepseek-v4-flash": {
+          "inputTokens": 37162,
+          "outputTokens": 179,
+          "cacheReadTokens": 1536,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 1
+        }
+      }
+    },
+    "sessionUsage": {
+      "inputTokens": 37162,
+      "outputTokens": 179,
+      "cacheReadTokens": 1536,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 1,
+      "byModel": {
+        "openrouter-deepseek/deepseek-v4-flash": {
+          "inputTokens": 37162,
+          "outputTokens": 179,
+          "cacheReadTokens": 1536,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 1
+        }
+      }
+    }
+  }
+}

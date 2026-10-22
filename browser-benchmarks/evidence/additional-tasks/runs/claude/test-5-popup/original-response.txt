@@ -1,0 +1,3 @@
+The confirmation code is **MN-47-QK-92**, shown on Step 2 of 2, which is still visible on screen.
+
+I closed the release announcement with its "Close announcement" button. Then I selected "Standard review" in the Review path dropdown, ticked "Checklist reviewed", and clicked "Continue to step 2". I did not touch the disabled "Unavailable shortcut" button and did not use code or view the page source. I hit no errors or limitations.

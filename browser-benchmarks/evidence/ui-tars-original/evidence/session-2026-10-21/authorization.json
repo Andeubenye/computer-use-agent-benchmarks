@@ -1,0 +1,8 @@
+{
+  "recorded_at_utc": "2026-10-20T23:04:15.051Z",
+  "cap_usd": 2,
+  "limit_minutes": 55,
+  "per_task_seconds": 600,
+  "endpoint_pause_after": true,
+  "user_approved": true
+}

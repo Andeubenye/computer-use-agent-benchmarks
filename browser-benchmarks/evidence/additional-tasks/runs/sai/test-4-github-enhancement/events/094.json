@@ -1,0 +1,68 @@
+{
+  "http_status": 200,
+  "body": {
+    "sessionId": "id-ee28d2092e89",
+    "status": "running",
+    "events": [
+      {
+        "type": "data-progress",
+        "data": {
+          "text": "305-                      - button \"Filter by author Jayanthpulisheri\" [ref=e1306] [cursor=pointer]:",
+          "tool": "execute"
+        }
+      },
+      {
+        "type": "data-progress",
+        "data": {
+          "text": "===",
+          "tool": "execute"
+        }
+      },
+      {
+        "type": "data-progress",
+        "data": {
+          "text": "159-                  - listitem [ref=e185]:",
+          "tool": "execute"
+        }
+      }
+    ],
+    "text": "",
+    "cursor": "eyJ0dXJuIjoxNzkyMjYxNTE2NjA5LCJzZWVuIjpbIjE3OTIyNjE1MzIwMjItdG9vbC1veGc1amZ0bDl3IiwiMTc5MjI2MTUzMzg5Ni1hc3Npc3RhbnQtemZwaDJmM2tzM28iLCIxNzkyMjYxNjQ4NzI0LXRvb2wtaTZ1MGwxdjd2dyIsIjE3OTIyNjE2Mzc5MzUtYXNzaXN0YW50LTNjbW1pZmYxaGt3IiwiMTc5MjI2MTY2NzMyMS10b29sLXQ5dXJ6b3J5NHhkIiwiMTc5MjI2MTY1MzMwNy1hc3Npc3RhbnQtbTV1NGVuMmRxbCIsIjE3OTIyNjE2OTQzNTctdG9vbC03NmplbHcwbTZwaSIsIjE3OTIyNjE2NzU1MDYtYXNzaXN0YW50LTBhbTJmYjlheHJwIiwiMTc5MjI2MTY5ODY3OS1hc3Npc3RhbnQtd2JjZno0bjQ1NCIsIjE3OTIyNjE3NDM2OTAtdG9vbC1hYnpjMnRsanE4diIsIjE3OTIyNjE3NTU2OTAtdG9vbC1hZzc4bDBicDkyIiwiMTc5MjI2MTc3MTE1NS10b29sLWd1enU5Y2tkNnFyIiwiMTc5MjI2MTc1NzczOS1hc3Npc3RhbnQtaGx1cjhnbnZrbiIsIjE3OTIyNjE3OTQ0MjMtdG9vbC1lczBmemRvcTB4aSIsIjE3OTIyNjE4MjEzNzgtdG9vbC02cHBtMHpoZ2l6biIsIjE3OTIyNjE3OTg0OTYtYXNzaXN0YW50LXE0NmNybmpvNTBhIiwiMTc5MjI2MTg2MzMyMC10b29sLXJ3N3hsaHl5MjJkIiwiMTc5MjI2MTgyODk3MS1hc3Npc3RhbnQteTl6Z2Z3aXk3OGMiXSwicHJvZyI6eyIxNzkyMjYxNjQ5MTI2LXJlc3VsdC1ycHM0bWxocTJqOCI6MSwiMTc5MjI2MTY2NzcxMS1yZXN1bHQtMngwemJobXBudGwiOjEsIjE3OTIyNjE2OTQ3OTQtcmVzdWx0LWcwODAzeXo4dDk3IjoyLCIxNzkyMjYxNzQ0MDU3LXJlc3VsdC1nd3VpN3Yzcmp3IjoyLCIxNzkyMjYxNzU2MDY2LXJlc3VsdC1xMDYwbzlrb3A4ayI6NiwiMTc5MjI2MTc3MTUyOC1yZXN1bHQtNGhmYjVzNDRzNTEiOjMsIjE3OTIyNjE3OTQ3NzgtcmVzdWx0LXFsZXVhd2Z3ZDBwIjo2LCIxNzkyMjYxODIxODI4LXJlc3VsdC1qems2OXFmaDB3byI6NCwiMTc5MjI2MTg2Mzc1My1yZXN1bHQtMG51eTlkOTc4NWEiOjN9fQ",
+    "usage": {
+      "inputTokens": 28380,
+      "outputTokens": 3459,
+      "cacheReadTokens": 399104,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 10,
+      "byModel": {
+        "openrouter-deepseek/deepseek-v4-flash": {
+          "inputTokens": 28380,
+          "outputTokens": 3459,
+          "cacheReadTokens": 399104,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 10
+        }
+      }
+    },
+    "sessionUsage": {
+      "inputTokens": 28380,
+      "outputTokens": 3459,
+      "cacheReadTokens": 399104,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 10,
+      "byModel": {
+        "openrouter-deepseek/deepseek-v4-flash": {
+          "inputTokens": 28380,
+          "outputTokens": 3459,
+          "cacheReadTokens": 399104,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 10
+        }
+      }
+    }
+  }
+}

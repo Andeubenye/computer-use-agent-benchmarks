@@ -1,0 +1,266 @@
+{
+  "id": "provider-id-fe8a8aaaecbb",
+  "content": [
+    {
+      "signature": "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",
+      "thinking": "",
+      "type": "thinking"
+    },
+    {
+      "id": "toolu_01G9YFzJ72kikq4gGVf2dH8c",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "coordinate": [
+          506,
+          427
+        ]
+      },
+      "name": "mouse_move",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_012tX9Y6i3Cj4Y9EwyCdTT7u",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "coordinate": [
+          507,
+          427
+        ]
+      },
+      "name": "mouse_move",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01UrkEJyjdR23rhGwbK4Hyng",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "duration": 2
+      },
+      "name": "wait",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01Km9HGnt1HpW8mDRDUr8poZ",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "region": [
+          192,
+          390,
+          704,
+          490
+        ]
+      },
+      "name": "zoom",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_014VvioQnk8TdESdpqW9JzNu",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "coordinate": [
+          506,
+          472
+        ]
+      },
+      "name": "mouse_move",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01KDa3LuGfDgRCv4UVPHd6C7",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "coordinate": [
+          507,
+          472
+        ]
+      },
+      "name": "mouse_move",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_018KuPbkT5jWSw4FFkTN9o12",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "duration": 2
+      },
+      "name": "wait",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01FTWkugT3hP4wGn8C6fmYa4",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "region": [
+          192,
+          430,
+          704,
+          530
+        ]
+      },
+      "name": "zoom",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01PkHB2JRVDmH7XT9iwYSSXP",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "coordinate": [
+          506,
+          518
+        ]
+      },
+      "name": "mouse_move",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01Fw6HbA7j9NZMRYkPNFA6Ae",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "coordinate": [
+          507,
+          518
+        ]
+      },
+      "name": "mouse_move",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_0187t7iNFAPXmNB8oXJ9qafB",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "duration": 2
+      },
+      "name": "wait",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01K3kxtTVzgRKqWhVbhR71Lj",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "region": [
+          192,
+          480,
+          704,
+          580
+        ]
+      },
+      "name": "zoom",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01LMfRhTUeZe78wCwX26HrVY",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "coordinate": [
+          506,
+          564
+        ]
+      },
+      "name": "mouse_move",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_011Yukz8uLsnwN6fV32fgbfx",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "coordinate": [
+          507,
+          564
+        ]
+      },
+      "name": "mouse_move",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01Urz9LLAWdKMZXGA3xt5jUL",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "duration": 2
+      },
+      "name": "wait",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01SMDVnjHspaV7WcrJ2UBgBw",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "region": [
+          192,
+          520,
+          704,
+          620
+        ]
+      },
+      "name": "zoom",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    }
+  ],
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_reason": "tool_use",
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 12694,
+    "output_tokens": 804,
+    "output_tokens_details": {
+      "thinking_tokens": 356
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

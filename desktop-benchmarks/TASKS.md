@@ -1,0 +1,123 @@
+# Frozen desktop tasks
+
+Task 1 reuses the exact original prompt, input and rubric. Tasks 2–5 are reconstructed from the user-stated objectives and counts under the latest explicit authorization. A search of the accessible conversation and project did not recover complete historical prompts, data or rubrics for those four tasks. These reconstructed versions were frozen before either agent saw each task. They must not be described as exact recovered historical fixtures.
+
+## Task 1 Desktop CSV editing
+
+Open orders_to_fix.csv in a desktop spreadsheet application. Find and correct both instances of 'Pendng' to 'Pending'. Do not change any other values or the order of the rows. Save the corrected file as orders_corrected.csv in the same folder, preserving the original file. Reopen the saved file to verify both corrections, then report what you changed and where you saved it. Do not use a web browser, terminal, scripts, or programmatic file-editing tools to complete the task.
+
+The original five checks are: opened in a spreadsheet; both corrections; all other values and row order preserved; separate output and intact original; reopened saved CSV and verified. See `inputs/manifest.json` and unchanged `scripts/verify_result.py`.
+
+
+## Task 2
+
+In /home/agent/Desktop/benchmark/Inbox, organize all 20 files into exactly four subfolders named PDFs, Images, Notes, and Spreadsheets, according to their file types. Move the eight PDFs into PDFs and rename them using this mapping: scan_01.pdf to 2026-01-INV-1001.pdf; scan_02.pdf to 2026-01-INV-1002.pdf; scan_03.pdf to 2026-01-INV-1003.pdf; scan_04.pdf to 2026-01-INV-1004.pdf; scan_05.pdf to 2026-01-INV-1005.pdf; scan_06.pdf to 2026-01-INV-1006.pdf; scan_07.pdf to 2026-01-INV-1007.pdf; scan_08.pdf to 2026-01-INV-1008.pdf. Move all PNGs to Images, TXT files to Notes, and CSV files to Spreadsheets, keeping those filenames. Do not change any file contents. Verify that exactly 20 files remain, with none missing, duplicated, or left loose in Inbox, and verify the eight PDF names. Use only desktop graphical applications, mouse and keyboard. Do not use a browser, terminal, scripts, macros, programmatic file tools, or the network. Spreadsheet formulas entered through the GUI are allowed for calculations. Report what you changed, the output location, and any incomplete steps.
+
+
+Scoring, one point each:
+
+1. All 20 files retained exactly once
+2. All four type folders correct and no loose files
+3. All eight PDF renames correct
+4. Every file byte-identical to its input
+5. GUI verification of final folders and filenames
+
+
+Frozen input files:
+
+- `Inbox/counts_01.csv` — `23e86264d8e11b227a1d39f43c27f3fe1f8145bdbb0033e1be8c805734dcff3c`
+- `Inbox/counts_02.csv` — `0fb6d51952a47fa8ac42987f09e0640a68d08631c67eb4354810479496124f58`
+- `Inbox/counts_03.csv` — `425b6f56ab31bbf48abd136b3a87090923bf868a942f639aa2e65d8bd03311e5`
+- `Inbox/counts_04.csv` — `cae44e3c576746d2ff9e24e1be714a86a2cebc2ba9a392922ad611ea57f1670d`
+- `Inbox/note_01.txt` — `2abbab918b3e2db9b3d02d47b55a71ab65fd7238b582e42b825fa9ee6490b040`
+- `Inbox/note_02.txt` — `bdd953a3b37f3f5dedc1868dcf358019b7175c198f44ec2f8716c88d07693756`
+- `Inbox/note_03.txt` — `00c7f2cdd85e2c8fa32197de9ce741f74f61b03367fd341e4677b526c3a8550b`
+- `Inbox/note_04.txt` — `c0332361de560ee6ebc6f6608b50eda741e35a16dca7115deb34097083192ac0`
+- `Inbox/photo_01.png` — `bd066815c315387e55dbe3b84386c0a4876d2b0f68c2c08ea63901ad5529517b`
+- `Inbox/photo_02.png` — `b915613a3b54d8a6f95ad86378322288a02257c172e6b6c7810641c418bf3aed`
+- `Inbox/photo_03.png` — `2f0738789245451516eefb0d8d89cd5ee7922329342ccfa8222bfeba5d611f7b`
+- `Inbox/photo_04.png` — `9c23b232a4bbf3cf584523ee1399e12506f3451fea63825b27e5028388e3e2e3`
+- `Inbox/scan_01.pdf` — `69dcf8feff995bba3a93b350d9fe16a01b13b4ebe91f0396317e1a66ca6a6b93`
+- `Inbox/scan_02.pdf` — `82326887615c2a02aa87acec82615a6e2fb51beb53e28319dab484b3dc1ab3bd`
+- `Inbox/scan_03.pdf` — `bad1a0320db9f8b221bd2e9dc89342861bd33ecf296b2d8d812ceac3cb54d59b`
+- `Inbox/scan_04.pdf` — `307f3d23198ae9387362bcefba43b828c3dad41e470b51567117e62b7aedca36`
+- `Inbox/scan_05.pdf` — `c3cba5203e2c39eb70749ef41f991194be76193d883c982905f3747190fc2689`
+- `Inbox/scan_06.pdf` — `64a0b55e451f72b9521429a21844a4903e2fe95079c8664d6524a6656ca4c1e6`
+- `Inbox/scan_07.pdf` — `c8e8fb46db519711439b30733576642cf4280ebf1c2f6261f0cd6d97dbfb8dd5`
+- `Inbox/scan_08.pdf` — `9da4353af7e812c9dee6616fecca49762a241c32412b744b61cbb4eb122a387c`
+
+
+Expected artifact checks: `expected/additional/task-2.json`. Initial application: file-manager.
+
+
+## Task 3
+
+Open dispatch_original.docx in LibreOffice Writer. Correct 'shippment' to 'shipment' and 'recieve' to 'receive'. Apply the built-in Heading 1 paragraph style to the paragraph 'Next steps'. In the table, change the Training status from 'Pendng' to 'Pending'. Preserve all other text and the table structure. Save a separate dispatch_revised.docx in the same folder, keeping the original unchanged. Close and reopen the revised document to verify the text, heading style, and table correction. Use only desktop graphical applications, mouse and keyboard. Do not use a browser, terminal, scripts, macros, programmatic file tools, or the network. Spreadsheet formulas entered through the GUI are allowed for calculations. Report what you changed, the output location, and any incomplete steps.
+
+
+Scoring, one point each:
+
+1. Both spelling corrections and all other text preserved
+2. Next steps uses Heading 1
+3. Training table cell is Pending and table structure preserved
+4. Separate valid revised DOCX and unchanged original
+5. Reopened revised document and visually verified requested changes
+
+
+Frozen input files:
+
+- `dispatch_original.docx` — `cbc54de5a0360e6095f6bb5da74dd1274cea665275d098a8a3e7d63c3aef6fcb`
+
+
+Expected artifact checks: `expected/additional/task-3.json`. Initial application: writer.
+
+
+## Task 4
+
+Open sales_records.csv in LibreOffice Calc and inspect all 30 sales records. Calculate four metrics: total revenue, total units, average order value (total revenue divided by 30, rounded to two decimal places), and the region with the highest total revenue. Use spreadsheet GUI calculations as needed. Open report_template.docx in LibreOffice Writer and replace its four [fill] placeholders with the calculated metrics, preserving the title and source reference. Save the completed report as sales_summary.docx in the same folder, keeping both inputs unchanged. Close and reopen sales_summary.docx to verify all four reported metrics. Use only desktop graphical applications, mouse and keyboard. Do not use a browser, terminal, scripts, macros, programmatic file tools, or the network. Spreadsheet formulas entered through the GUI are allowed for calculations. Report what you changed, the output location, and any incomplete steps.
+
+
+Scoring, one point each:
+
+1. Observed 30 records in Calc and used Writer
+2. All four metrics independently correct
+3. Metrics transferred into a valid Writer document with no placeholders
+4. Separate saved report and unchanged input CSV and template
+5. Reopened saved report and visually verified metrics
+
+
+Frozen input files:
+
+- `report_template.docx` — `a8502d2e4da63d2054c6b34671a5a7fb150f5e44a36d58b2e1db067856950c89`
+- `sales_records.csv` — `2fe70c7ede4053d4c0b496b1c54b0f601537a00134481d09abccde0017940c86`
+
+
+Expected artifact checks: `expected/additional/task-4.json`. Initial application: calc.
+
+
+## Task 5
+
+A single synthetic interruption notice is on screen. Dismiss it and continue using desktop GUI controls. Among the similarly named dispatch_plan documents in /home/agent/Desktop/benchmark, inspect the contents to find the one with Document ID REC-204 and Approval APPROVED. Do not edit a draft or rely on the filename alone. In that approved document, change the dispatch handoff time from 16:00 to 16:30, preserving every other paragraph. Save a separate recovery_plan_corrected.docx in the same folder without changing any of the four source documents. Close and reopen the corrected document to verify its ID, approval, and corrected time. Use only desktop graphical applications, mouse and keyboard. Do not use a browser, terminal, scripts, macros, programmatic file tools, or the network. Spreadsheet formulas entered through the GUI are allowed for calculations. Report what you changed, the output location, and any incomplete steps.
+
+
+Scoring, one point each:
+
+1. Identified REC-204 approved source by contents
+2. Dismissed the controlled interruption through GUI
+3. Corrected time and preserved all other text
+4. Separate valid output and all four source documents unchanged
+5. Reopened corrected document and verified ID approval and time
+
+
+Frozen input files:
+
+- `dispatch_plan.docx` — `9fa53e53dd1eae62863b788a324a22fdcd8356cfb057da65bfecb8ac15ed3bd1`
+- `dispatch_plan_final.docx` — `e1ad1427743b208915b6263bb4a937132da1b6874d5b1fd0d93311da1a93d40d`
+- `dispatch_plan_final_copy.docx` — `989e9d1bc98e57121b4a4d9a617eb8a1ec39413cc6d41c95d6fe795661629d52`
+- `dispatch_plan_final_v2.docx` — `ae0a4e240cf0f11e9d538ec00e0b197221df87b00e32e6949d45cfd001a4227c`
+
+
+Expected artifact checks: `expected/additional/task-5.json`. Initial application: writer-interrupted.
+
+
+For task 5, the interruption is a synthetic modal warning visible at the initial state, not a real application crash. Inputs remain unchanged by the interruption. This is a controlled recovery scenario with limited realism.

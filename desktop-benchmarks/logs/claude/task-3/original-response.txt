@@ -1,0 +1,9 @@
+I made the three corrections and the heading change, saved them as a new file, and confirmed them after closing and reopening it.
+
+- **Spelling:** "shippment" is now "shipment" and "recieve" is now "receive".
+- **Heading:** the paragraph "Next steps" now uses the built-in Heading 1 style. I first typed the style name into the style box, which didn't apply, so I used Ctrl+1 instead.
+- **Table:** the Training status now reads "Pending" instead of "Pendng". The table structure is unchanged, and I made no other text edits.
+- **Output:** the revised file is `/home/agent/Desktop/benchmark/dispatch_revised.docx`, saved in Word format. I did all the edits first and then used Save As, so `dispatch_original.docx` was never overwritten.
+- **Verification:** I closed the revised document and reopened it. The text, the Heading 1 style on "Next steps" and the "Pending" cell all show correctly.
+
+There are no incomplete steps. After the check, `dispatch_revised.docx` is still open in Writer.

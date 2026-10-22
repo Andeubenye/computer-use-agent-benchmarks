@@ -1,0 +1,99 @@
+Window: "UI-TARS Desktop", App: Electron.
+0 standard window UI-TARS Desktop, Secondary Actions: Raise
+	1 HTML content UI-TARS Desktop, URL: localhost:5173/#/local
+		2 container
+			3 content list
+				4 button UI-TARS Playground
+					5 text UI-TARS
+					6 text Playground
+			7 content list
+				8 button Home
+					9 image
+					10 text Home
+			11 content list
+				12 container
+					13 button History
+						14 image
+						15 text History
+						16 image
+			17 content list
+				18 button Settings
+					19 image
+					20 text Settings
+			21 button Local Browser Operator
+				22 image
+				23 text Local Browser Operator
+			24 button
+				25 image
+			26 button Toggle Sidebar
+				27 image
+				28 text Toggle Sidebar
+			29 button New Chat
+				30 image
+				31 text New Chat
+			32 container
+				33 text Open https://the-internet.herokuapp.com/login Attempt to log in using these incorrect credentials: Username: incorrect_user Password: wrong_password Observe the error message. Then recover by using the correct demo credentials: Username: tomsmith Password: SuperSecretPassword! Verify that login succeeds and report the final result.
+				34 button Screenshot
+					35 image
+					36 text Screenshot
+				37 text I noticed that the browser's address bar is currently empty, so I need to enter the URL for the target website. Let me click on the address bar to activate it, so I can start typing in the URL.
+				38 button Action: click (start_box: [0.18720565149136578,0.05952380952380952,0.18720565149136578,0.05952380952380952])
+					39 image
+					40 text Action:
+					41 text click
+					42 text  (start_box: [0.18720565149136578,0.05952380952380952,0.18720565149136578,0.05952380952380952])
+				43 button Screenshot
+					44 image
+					45 text Screenshot
+				46 text I just clicked on the address bar, but it seems like the page didn't respond. It looks like I need to try again. I have to click on the address bar once more to make sure it's activated, so I can enter the URL for the target website.
+				47 button Action: click (start_box: [0.5102040816326531,0.03070175438596491,0.5102040816326531,0.03070175438596491])
+					48 image
+					49 text Action:
+					50 text click
+					51 text  (start_box: [0.5102040816326531,0.03070175438596491,0.5102040816326531,0.03070175438596491])
+				52 button Screenshot
+					53 image
+					54 text Screenshot
+				55 text I see that the Google search page is already open, and the next step is to visit the target website. I need to click on the address bar at the top of the browser so that I can enter the URL for the login page. Let me go ahead and click on the address bar to get ready to type in the website address.
+				56 button Action: click (start_box: [0.5102040816326531,0.03070175438596491,0.5102040816326531,0.03070175438596491])
+					57 image
+					58 text Action:
+					59 text click
+					60 text  (start_box: [0.5102040816326531,0.03070175438596491,0.5102040816326531,0.03070175438596491])
+				61 image
+				62 text INVOKE_RETRY_ERROR: Too many model invoke failures: Request timed out.
+				63 text Error: Request timed out.
+    at OpenAI2.makeRequest (<PROJECT_ROOT>/work/UI-TARS-desktop-v0.2.4-2026-10-20/apps/ui-tars/dist/main/main.js:72697:15)
+				64 button
+					65 image
+			66 container
+				67 text entry area (settable) What can I do for you today?
+				68 button (disabled)
+					69 image
+			70 tab group
+				71 tab (selected) ScreenShot, Value: 1
+			72 container ScreenShot
+				73 container
+					74 image
+					75 text Action
+					76 text click
+					77 text (start_box: [0.5102040816326531,0.03070175438596491,0.5102040816326531,0.03070175438596491])
+					78 text 2m
+				79 image screenshot from message 7
+				80 button
+					81 image
+				82 button (disabled)
+					83 image
+				84 slider Value: 5, Secondary Actions: Increment, Decrement
+			85 container Notifications alt+T
+	86 close button
+	87 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	88 minimise button
+89 menu bar
+	90 Electron
+	91 Edit
+	92 View
+	93 Window
+	94 Help
+
+The focused UI element is 1 HTML content UI-TARS Desktop, URL: localhost:5173/#/local

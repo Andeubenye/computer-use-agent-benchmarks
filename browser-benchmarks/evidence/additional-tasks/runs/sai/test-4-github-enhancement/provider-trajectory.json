@@ -1,0 +1,146 @@
+{
+  "http_status": 200,
+  "body": {
+    "turnId": "id-5d0576d3d818",
+    "trajectory": {
+      "recorded": true,
+      "url": "/v1/agents/turns/id-5d0576d3d818/trajectory"
+    },
+    "steps": [
+      {
+        "index": 0,
+        "timestamp": "2026-10-17T18:27:17.894Z",
+        "title": "Opening GitHub issues page for browser-use/browser-use",
+        "code": "var machine = getMachine((await listMachines())[0].id)\nawait machine.waitAndAcquire()\nvar page = await machine.browser.newtab(\"https://github.com/browser-use/browser-use/issues\")\nawait wait({ waitTime: 3 })\nvar snap = await page.snapshot()\nconsole.log(snap.snapshot.outline())\n",
+        "rationale": "",
+        "screenshot": "/v1/agents/turns/id-5d0576d3d818/trajectory/screenshots/0"
+      },
+      {
+        "index": 1,
+        "timestamp": "2026-10-17T18:27:33.207Z",
+        "title": "Clicking \"Filter by labels\" to add enhancement label filter",
+        "code": "await page.click({ ref: \"e276\" })\nawait wait({ waitTime: 2 })\nvar snap = await page.snapshot()\nconsole.log(snap.snapshot.outline())\n",
+        "rationale": "I can see the issues page loaded with 181 open issues. Now I need to filter by the \"enhancement\" label and sort by most recently updated. Let me start by clicking the \"Filter by labels\" button.\n\n",
+        "screenshot": "/v1/agents/turns/id-5d0576d3d818/trajectory/screenshots/1"
+      },
+      {
+        "index": 2,
+        "timestamp": "2026-10-17T18:27:55.409Z",
+        "title": "Clicking enhancement label and setting sort order",
+        "code": "// Click enhancement label in the dialog\nawait page.click({ ref: \"e1146\" })\nawait wait({ waitTime: 3 })\nvar snap = await page.snapshot()\nconsole.log(snap.snapshot.outline())\n",
+        "rationale": "Good, I can see the labels dialog opened. Now I need to click \"enhancement\" to add it as a filter. Let me also check the sort option.\n\n",
+        "screenshot": "/v1/agents/turns/id-5d0576d3d818/trajectory/screenshots/2"
+      },
+      {
+        "index": 3,
+        "timestamp": "2026-10-17T18:28:18.632Z",
+        "title": "Selecting enhancement label from the dialog",
+        "code": "// Click the enhancement option to select it\nawait page.click({ ref: \"e1146\" })\nawait wait({ waitTime: 2 })\n// Check the URL to see what happened\nvar url = await page.url()\nconsole.log(\"Current URL:\", url)\nvar snap = await page.snapshot()\nconsole.log(snap.snapshot.outline())\n",
+        "rationale": "I see the labels dialog is still open. Let me select the enhancement label and apply it.\n\n",
+        "screenshot": "/v1/agents/turns/id-5d0576d3d818/trajectory/screenshots/3"
+      },
+      {
+        "index": 4,
+        "timestamp": "2026-10-17T18:29:05.696Z",
+        "title": "Looking at the labels dialog for apply/close buttons",
+        "code": "// Check the outline for the labels dialog content more carefully\nvar snap = await page.snapshot()\n// Find any dialog close or apply buttons\nconsole.log(snap.snapshot.grep(\"dialog\", { context: 5 }))\nconsole.log(snap.snapshot.grep(\"enhancement\", { context: 3 }))\n",
+        "rationale": "I see the labels dialog is still open - clicking the option didn't close it. Let me look at what buttons are available to apply the filter and close the dialog.\n\n",
+        "screenshot": "/v1/agents/turns/id-5d0576d3d818/trajectory/screenshots/4"
+      },
+      {
+        "index": 5,
+        "timestamp": "2026-10-17T18:29:17.692Z",
+        "title": "Finding the apply button and sort dropdown",
+        "code": "var snap = await page.snapshot()\n// Look for any apply/close button and the sort dropdown\nconsole.log(snap.snapshot.grep(\"dialog\", { context: 10 }))\nconsole.log(\"---\")\nconsole.log(snap.snapshot.grep(\"Sort\", { context: 3 }))\nconsole.log(\"---\")\nconsole.log(snap.snapshot.grep(\"Apply\", { context: 3 }))\nconsole.log(\"---\")\n// Look for the labels bar\nconsole.log(snap.snapshot.grep(\"is:issue\", { context: 5 }))\n",
+        "rationale": "",
+        "screenshot": "/v1/agents/turns/id-5d0576d3d818/trajectory/screenshots/5"
+      },
+      {
+        "index": 6,
+        "timestamp": "2026-10-17T18:29:33.079Z",
+        "title": "Finding enhancement option and label buttons",
+        "code": "var snap = await page.snapshot()\n// Look at the labels dialog content\nconsole.log(snap.snapshot.grep(\"enhancement\", { context: 5 }))\nconsole.log(\"---\")\n// Look for any buttons or close elements in the dialog\nconsole.log(snap.snapshot.grep(\"e114\", { context: 2 }))\n",
+        "rationale": "Let me look at the labels dialog more carefully and see how to select the enhancement label.\n\n",
+        "screenshot": "/v1/agents/turns/id-5d0576d3d818/trajectory/screenshots/6"
+      },
+      {
+        "index": 7,
+        "timestamp": "2026-10-17T18:29:58.414Z",
+        "title": "Closing the dialog and finding the labels filter bar",
+        "code": "// Press Escape to close the dialog\nawait page.press({ key: \"Escape\" })\nawait wait({ waitTime: 2 })\nvar snap = await page.snapshot()\n// Look at the area near the search/filter bar for labels\nconsole.log(snap.snapshot.grep(\"Labels\", { context: 3 }))\nconsole.log(\"---\")\nconsole.log(snap.snapshot.grep(\"is:issue\", { context: 10 }))\nconsole.log(\"---\")\nconsole.log(snap.snapshot.grep(\"Sort\", { context: 5 }))\n",
+        "rationale": "",
+        "screenshot": "/v1/agents/turns/id-5d0576d3d818/trajectory/screenshots/7"
+      },
+      {
+        "index": 8,
+        "timestamp": "2026-10-17T18:30:28.915Z",
+        "title": "Typing label:enhancement filter in search box",
+        "code": "// Clear the search field and type the filter\nawait page.click({ ref: \"e244\" })\nawait wait({ waitTime: 1 })\n// Clear existing text and type our search\nawait page.type({ ref: \"e244\", text: \"is:issue state:open label:enhancement sort:updated-desc\", clear: true })\nawait wait({ waitTime: 1 })\nawait page.press({ key: \"Enter\" })\nawait wait({ waitTime: 3 })\nvar url = await page.url()\nconsole.log(\"Current URL:\", url)\nvar snap = await page.snapshot()\nconsole.log(snap.snapshot.outline())\n",
+        "rationale": "I can see the page structure. Let me add the label filter and sort directly by typing into the search bar.\n\n",
+        "screenshot": "/v1/agents/turns/id-5d0576d3d818/trajectory/screenshots/8"
+      },
+      {
+        "index": 9,
+        "timestamp": "2026-10-17T18:31:05.414Z",
+        "title": "Getting detailed issue list with URLs and dates",
+        "code": "// Let me get a more detailed view of the issues area\nvar snap = await page.snapshot()\n// Look at the issues area more carefully\nconsole.log(snap.snapshot.grep(\"opened on\", { context: 3 }))\nconsole.log(\"===\")\nconsole.log(snap.snapshot.grep(\"/issues/\", { context: 2 }))\n",
+        "rationale": "The filter is working — 25 open enhancement issues sorted by most recently updated. Now I need to extract the issue details and hover over the relative dates to get exact timestamps. Let me read the data carefully.\n\n",
+        "screenshot": "/v1/agents/turns/id-5d0576d3d818/trajectory/screenshots/9"
+      },
+      {
+        "index": 10,
+        "timestamp": "2026-10-17T18:31:54.405Z",
+        "title": "Hovering over date elements to see exact timestamps",
+        "code": "var snap = await page.snapshot()\n// Find the exact refs for the \"Updated on\" elements\n// Let me look at the raw tree around those elements\nconsole.log(snap.snapshot.read(306, { context: 5 }))\nconsole.log(\"===\")\nconsole.log(snap.snapshot.read(329, { context: 5 }))\nconsole.log(\"===\")\nconsole.log(snap.snapshot.read(349, { context: 5 }))\nconsole.log(\"===\")\nconsole.log(snap.snapshot.read(371, { context: 5 }))\nconsole.log(\"===\")\nconsole.log(snap.snapshot.read(400, { context: 5 }))\n",
+        "rationale": "Now let me hover over the \"Updated on\" dates to see exact timestamps from the tooltips.\n\n",
+        "screenshot": "/v1/agents/turns/id-5d0576d3d818/trajectory/screenshots/10"
+      },
+      {
+        "index": 11,
+        "timestamp": "2026-10-17T18:32:18.450Z",
+        "title": "Getting exact timestamps via hover on the first 5 issues",
+        "code": "// Hover on the \"Updated on\" text for each issue to see tooltip\n// Issue 1: ref=e1308 - Updated on Oct 17, 2026 1h ago\n// Issue 2: ref=e1341 - Updated on Oct 16, 2026 1d ago\n// Issue 3: ref=e1372 - Updated on Oct 16, 2026 1d ago\n// Issue 4: ref=e1405 - Updated on Oct 16, 2026 1d ago\n// Issue 5: ref=e1441 - Updated on Oct 15, 2026 2d ago\n\n// Hover on each one to check for tooltip\nawait page.hover({ ref: \"e1308\" })\nawait wait({ waitTime: 1.5 })\nvar tooltip1 = await page.snapshot()\nconsole.log(\"--- After hover on #1 ---\")\nconsole.log(tooltip1.snapshot.grep(\"updated\", { context: 5 }))\n",
+        "rationale": "I can see the first 5 issues. Let me now hover over each \"Updated on\" element to get the exact timestamp from the tooltip.\n\n",
+        "screenshot": "/v1/agents/turns/id-5d0576d3d818/trajectory/screenshots/11"
+      },
+      {
+        "index": 12,
+        "timestamp": "2026-10-17T18:33:29.457Z",
+        "title": "Extracting exact issue numbers and titles",
+        "code": "var snap = await page.snapshot()\n// Get the first 5 issue links with their numbers\nconsole.log(snap.snapshot.grep(\"/issues/61\", { context: 2 }))\nconsole.log(\"===\")\nconsole.log(snap.snapshot.grep(\"/issues/60\", { context: 2 }))\nconsole.log(\"===\")\nconsole.log(snap.snapshot.read(296, 335))\nconsole.log(\"===\")\nconsole.log(snap.snapshot.read(336, 380))\nconsole.log(\"===\")\nconsole.log(snap.snapshot.read(381, 420))\nconsole.log(\"===\")\nconsole.log(snap.snapshot.read(421, 460))\n",
+        "rationale": "I can see the data. Let me get the issue numbers and full details for each of the first 5 issues.\n\n",
+        "screenshot": "/v1/agents/turns/id-5d0576d3d818/trajectory/screenshots/12"
+      },
+      {
+        "index": 13,
+        "timestamp": "2026-10-17T18:34:00.297Z",
+        "title": "Hovering on first issue's Updated date for tooltip",
+        "code": "// Hover on the \"Updated on\" text for each issue to see if tooltip appears\nawait page.hover({ ref: \"e1308\" })\nawait wait({ waitTime: 2 })\nvar afterHover = await page.snapshot()\nconsole.log(afterHover.snapshot.grep(\"Updated\", { context: 3 }))\nconsole.log(\"===\")\nconsole.log(afterHover.snapshot.grep(\"tooltip\", { context: 5 }))\n",
+        "rationale": "Let me hover on the date elements to check for tooltip timestamps.\n\n",
+        "screenshot": "/v1/agents/turns/id-5d0576d3d818/trajectory/screenshots/13"
+      },
+      {
+        "index": 14,
+        "timestamp": "2026-10-17T18:34:24.566Z",
+        "title": "Getting issue numbers and exact timestamps via hover",
+        "code": "// First, let me look at the full outline for the first few issues\nvar snap = await page.snapshot()\n// Issue 1 area\nconsole.log(\"=== ISSUE 1 ===\")\nconsole.log(snap.snapshot.read(283, 312))\nconsole.log(\"=== ISSUE 2 ===\")\nconsole.log(snap.snapshot.read(316, 335))\nconsole.log(\"=== ISSUE 3 ===\")\nconsole.log(snap.snapshot.read(338, 358))\nconsole.log(\"=== ISSUE 4 ===\")\nconsole.log(snap.snapshot.read(361, 380))\nconsole.log(\"=== ISSUE 5 ===\")\nconsole.log(snap.snapshot.read(383, 405))\n",
+        "rationale": "Let me hover on the date elements to see if GitHub shows exact timestamps in tooltips, and also get the issue numbers and titles.\n\n",
+        "screenshot": "/v1/agents/turns/id-5d0576d3d818/trajectory/screenshots/14"
+      },
+      {
+        "index": 15,
+        "timestamp": "2026-10-17T18:35:14.276Z",
+        "title": "Hovering on each date element for tooltip timestamps",
+        "code": "// Hover on issue 1's updated date\nawait page.hover({ ref: \"e1308\" })\nawait wait({ waitTime: 2 })\nvar snap1 = await page.snapshot()\nconsole.log(\"=== Hover on #1 ===\")\nconsole.log(snap1.snapshot.grep(\"tooltip\", { context: 2 }))\n\n// Hover on issue 2's updated date\nawait page.hover({ ref: \"e1341\" })\nawait wait({ waitTime: 2 })\nvar snap2 = await page.snapshot()\nconsole.log(\"=== Hover on #2 ===\")\nconsole.log(snap2.snapshot.grep(\"tooltip\", { context: 2 }))\n\n// Hover on issue 3's updated date\nawait page.hover({ ref: \"e1372\" })\nawait wait({ waitTime: 2 })\nvar snap3 = await page.snapshot()\nconsole.log(\"=== Hover on #3 ===\")\nconsole.log(snap3.snapshot.grep(\"tooltip\", { context: 2 }))\n\n// Hover on issue 4's updated date\nawait page.hover({ ref: \"e1405\" })\nawait wait({ waitTime: 2 })\nvar snap4 = await page.snapshot()\nconsole.log(\"=== Hover on #4 ===\")\nconsole.log(snap4.snapshot.grep(\"tooltip\", { context: 2 }))\n\n// Hover on issue 5's updated date\nawait page.hover({ ref: \"e1441\" })\nawait wait({ waitTime: 2 })\nvar snap5 = await page.snapshot()\nconsole.log(\"=== Hover on #5 ===\")\nconsole.log(snap5.snapshot.grep(\"tooltip\", { context: 2 }))\n",
+        "rationale": "Excellent! I have the data. Let me hover on each date element to check for exact timestamps in tooltips.\n\n",
+        "screenshot": "/v1/agents/turns/id-5d0576d3d818/trajectory/screenshots/15"
+      },
+      {
+        "index": 16,
+        "final": true,
+        "timestamp": "2026-10-17T18:35:17.069Z",
+        "screenshot": null
+      }
+    ]
+  }
+}

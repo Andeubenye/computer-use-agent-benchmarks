@@ -1,0 +1,75 @@
+{
+  "http_status": 200,
+  "body": {
+    "sessionId": "id-71dc1af9c730",
+    "status": "running",
+    "events": [
+      {
+        "type": "tool-input-start",
+        "toolCallId": "1792261335588-tool-p5cu14yilo",
+        "toolName": "execute"
+      },
+      {
+        "type": "tool-input-available",
+        "toolCallId": "1792261335588-tool-p5cu14yilo",
+        "toolName": "execute",
+        "input": {
+          "title": "Selecting Email as preferred contact method",
+          "code": "await page.click({ ref: \"e28\" })\n"
+        }
+      },
+      {
+        "type": "data-progress",
+        "data": {
+          "text": "Selecting Email as preferred contact method",
+          "tool": "execute"
+        }
+      },
+      {
+        "type": "data-progress",
+        "data": {
+          "text": "[Guardrails] ✅ click: allow (score=0) ref=e28 — score=0",
+          "tool": "execute"
+        }
+      }
+    ],
+    "text": "",
+    "cursor": "eyJ0dXJuIjoxNzkyMjYxMjM0ODY1LCJzZWVuIjpbIjE3OTIyNjEyNDk5OTAtdG9vbC12ODZxNnNrdXptOSIsImVycjoxNzkyMjYxMjUwNTE1LXJlc3VsdC1uNnZzMnJubXpuIiwiMTc5MjI2MTI2NDExMC10b29sLXRhMzR4bWl6aWtzIiwiMTc5MjI2MTI4Nzk2MC10b29sLWEwdWRiYzRrbGp2IiwiMTc5MjI2MTI2OTA5MS1hc3Npc3RhbnQtanNpcXRmZjQweGQiLCIxNzkyMjYxMjk3OTA3LXRvb2wtYWwxaDQxMGNqc2EiLCIxNzkyMjYxMzExMDY4LXRvb2wtbWxiZ3cyMjVsYyIsIjE3OTIyNjEzMjQ1NTgtdG9vbC1iaXRncjVkcTJqZyIsIjE3OTIyNjEzMzU1ODgtdG9vbC1wNWN1MTR5aWxvIl0sInByb2ciOnsiMTc5MjI2MTI4ODUxNi1yZXN1bHQtYWtuZ3Y4Z3g2b2kiOjEsIjE3OTIyNjEyOTg0MzAtcmVzdWx0LTF5dTJsMjNpYWhuIjoxLCIxNzkyMjYxMzExNjA1LXJlc3VsdC1oNHozc21pb2ZjbyI6NCwiMTc5MjI2MTMyNTE5OS1yZXN1bHQteW4yaXpxMm41M2kiOjEsIjE3OTIyNjEzMzYwNjYtcmVzdWx0LTFnNm1qemJqMTczIjoxfX0",
+    "usage": {
+      "inputTokens": 40177,
+      "outputTokens": 1479,
+      "cacheReadTokens": 236288,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 7,
+      "byModel": {
+        "openrouter-deepseek/deepseek-v4-flash": {
+          "inputTokens": 40177,
+          "outputTokens": 1479,
+          "cacheReadTokens": 236288,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 7
+        }
+      }
+    },
+    "sessionUsage": {
+      "inputTokens": 40177,
+      "outputTokens": 1479,
+      "cacheReadTokens": 236288,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 7,
+      "byModel": {
+        "openrouter-deepseek/deepseek-v4-flash": {
+          "inputTokens": 40177,
+          "outputTokens": 1479,
+          "cacheReadTokens": 236288,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 7
+        }
+      }
+    }
+  }
+}

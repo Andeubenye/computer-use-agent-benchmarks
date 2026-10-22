@@ -1,0 +1,11 @@
+{
+  "task": "test-4-github-enhancement",
+  "status": "NOT RUN",
+  "submitted": false,
+  "attempts": 0,
+  "actions": null,
+  "wall_seconds_from_submission": null,
+  "score": null,
+  "reason": "Batch stopped after native window-control failures prevented a verified clean second task. No app restart, rebuild, permission change, or substitute agent. Endpoint paused.",
+  "verification": "No submission or model output exists for this task in this session."
+}

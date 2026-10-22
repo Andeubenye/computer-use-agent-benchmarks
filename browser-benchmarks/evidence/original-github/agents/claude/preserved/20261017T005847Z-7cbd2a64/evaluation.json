@@ -1,0 +1,11 @@
+{
+  "status": "needs_review",
+  "strict_task_success": null,
+  "agent_completed": true,
+  "normal_stop_reason": "end_turn",
+  "final_answer_contains_five_records": true,
+  "independent_website_verification_performed": false,
+  "reason": "User requested Claude computer-use API only; Codex did not browse or inspect the website. No independent grade is claimed.",
+  "grader_actions": 0,
+  "grader_api_requests": 0
+}

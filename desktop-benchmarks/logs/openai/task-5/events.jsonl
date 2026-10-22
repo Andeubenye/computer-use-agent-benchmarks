@@ -1,0 +1,135 @@
+{"utc": "2026-10-21T23:20:55.539698+00:00", "event": "native_action", "index": 0, "name": "screenshot", "arguments": {}, "is_error": false, "executor_error": null, "screenshots": ["screenshots/openai/task-5/001-screenshot.png"]}
+{"utc": "2026-10-21T23:20:55.539892+00:00", "event": "task_start", "prompt_sha256": "f7c88f57a71dadec9c89b969d1c1eb1706f1e24800a57b7ee5e8b78f71a60d23"}
+{"utc": "2026-10-21T23:20:57.228847+00:00", "event": "count", "http_status": 200, "transport_error": null}
+{"utc": "2026-10-21T23:20:57.236244+00:00", "event": "request_reservation", "input_tokens": 2069, "reserved_usd": 0.036927, "spent_estimate_usd": 0.0}
+{"utc": "2026-10-21T23:21:01.101751+00:00", "event": "generation", "http_status": 200, "transport_error": null}
+{"utc": "2026-10-21T23:21:01.104863+00:00", "event": "model_response", "number": 1, "returned_model": "gpt-6.1-sol", "usage": {"input_tokens": 2069, "input_tokens_details": {"cache_write_tokens": 2066, "cached_tokens": 0}, "output_tokens": 18, "output_tokens_details": {"reasoning_tokens": 0}, "total_tokens": 2087}, "cost_estimate_usd": 0.005351}
+{"utc": "2026-10-21T23:21:01.105201+00:00", "event": "provider_action", "index": 1, "action": {"type": "screenshot"}}
+{"utc": "2026-10-21T23:21:01.526632+00:00", "event": "native_action", "index": 1, "name": "screenshot", "arguments": {}, "is_error": false, "executor_error": null, "screenshots": ["screenshots/openai/task-5/002-screenshot.png"]}
+{"utc": "2026-10-21T23:21:01.774251+00:00", "event": "native_action", "index": 1, "name": "screenshot", "arguments": {}, "is_error": false, "executor_error": null, "screenshots": ["screenshots/openai/task-5/003-screenshot.png"]}
+{"utc": "2026-10-21T23:21:02.769221+00:00", "event": "count", "http_status": 200, "transport_error": null}
+{"utc": "2026-10-21T23:21:02.776986+00:00", "event": "request_reservation", "input_tokens": 3018, "reserved_usd": 0.039774, "spent_estimate_usd": 0.005351}
+{"utc": "2026-10-21T23:21:06.997855+00:00", "event": "generation", "http_status": 200, "transport_error": null}
+{"utc": "2026-10-21T23:21:07.002029+00:00", "event": "model_response", "number": 2, "returned_model": "gpt-6.1-sol", "usage": {"input_tokens": 3018, "input_tokens_details": {"cache_write_tokens": 949, "cached_tokens": 2066}, "output_tokens": 66, "output_tokens_details": {"reasoning_tokens": 0}, "total_tokens": 3084}, "cost_estimate_usd": 0.0032451}
+{"utc": "2026-10-21T23:21:07.002440+00:00", "event": "provider_action", "index": 2, "action": {"type": "click", "button": "left", "keys": null, "x": 732, "y": 438}}
+{"utc": "2026-10-21T23:21:07.589051+00:00", "event": "native_action", "index": 2, "name": "left_click", "arguments": {"coordinate": [732, 438], "text": ""}, "is_error": false, "executor_error": null, "screenshots": []}
+{"utc": "2026-10-21T23:21:07.589566+00:00", "event": "provider_action", "index": 3, "action": {"type": "keypress", "keys": ["CTRL", "o"]}}
+{"utc": "2026-10-21T23:21:08.039581+00:00", "event": "native_action", "index": 3, "name": "key", "arguments": {"text": "ctrl+o"}, "is_error": false, "executor_error": null, "screenshots": []}
+{"utc": "2026-10-21T23:21:08.039819+00:00", "event": "provider_action", "index": 4, "action": {"type": "type", "text": "/home/agent/Desktop/benchmark/"}}
+{"utc": "2026-10-21T23:21:08.469683+00:00", "event": "native_action", "index": 4, "name": "type", "arguments": {"text": "/home/agent/Desktop/benchmark/"}, "is_error": false, "executor_error": null, "screenshots": []}
+{"utc": "2026-10-21T23:21:08.469956+00:00", "event": "provider_action", "index": 5, "action": {"type": "keypress", "keys": ["ENTER"]}}
+{"utc": "2026-10-21T23:21:08.897406+00:00", "event": "native_action", "index": 5, "name": "key", "arguments": {"text": "Return"}, "is_error": false, "executor_error": null, "screenshots": []}
+{"utc": "2026-10-21T23:21:09.190466+00:00", "event": "native_action", "index": 5, "name": "screenshot", "arguments": {}, "is_error": false, "executor_error": null, "screenshots": ["screenshots/openai/task-5/004-screenshot.png"]}
+{"utc": "2026-10-21T23:21:10.347451+00:00", "event": "count", "http_status": 200, "transport_error": null}
+{"utc": "2026-10-21T23:21:10.356467+00:00", "event": "request_reservation", "input_tokens": 4015, "reserved_usd": 0.042765, "spent_estimate_usd": 0.008596099999999999}
+{"utc": "2026-10-21T23:21:13.889521+00:00", "event": "generation", "http_status": 200, "transport_error": null}
+{"utc": "2026-10-21T23:21:13.891351+00:00", "event": "model_response", "number": 3, "returned_model": "gpt-6.1-sol", "usage": {"input_tokens": 4015, "input_tokens_details": {"cache_write_tokens": 997, "cached_tokens": 3015}, "output_tokens": 28, "output_tokens_details": {"reasoning_tokens": 0}, "total_tokens": 4043}, "cost_estimate_usd": 0.00308}
+{"utc": "2026-10-21T23:21:13.891564+00:00", "event": "provider_action", "index": 6, "action": {"type": "double_click", "keys": null, "x": 406, "y": 294}}
+{"utc": "2026-10-21T23:21:14.606495+00:00", "event": "native_action", "index": 6, "name": "double_click", "arguments": {"coordinate": [406, 294], "text": ""}, "is_error": false, "executor_error": null, "screenshots": []}
+{"utc": "2026-10-21T23:21:14.877934+00:00", "event": "native_action", "index": 6, "name": "screenshot", "arguments": {}, "is_error": false, "executor_error": null, "screenshots": ["screenshots/openai/task-5/005-screenshot.png"]}
+{"utc": "2026-10-21T23:21:15.969105+00:00", "event": "count", "http_status": 200, "transport_error": null}
+{"utc": "2026-10-21T23:21:15.971302+00:00", "event": "request_reservation", "input_tokens": 4974, "reserved_usd": 0.045642, "spent_estimate_usd": 0.011676099999999998}
+{"utc": "2026-10-21T23:21:18.639852+00:00", "event": "generation", "http_status": 200, "transport_error": null}
+{"utc": "2026-10-21T23:21:18.642549+00:00", "event": "model_response", "number": 4, "returned_model": "gpt-6.1-sol", "usage": {"input_tokens": 4974, "input_tokens_details": {"cache_write_tokens": 959, "cached_tokens": 4012}, "output_tokens": 19, "output_tokens_details": {"reasoning_tokens": 0}, "total_tokens": 4993}, "cost_estimate_usd": 0.0029947}
+{"utc": "2026-10-21T23:21:18.642834+00:00", "event": "provider_action", "index": 7, "action": {"type": "wait"}}
+{"utc": "2026-10-21T23:21:20.114425+00:00", "event": "native_action", "index": 7, "name": "wait", "arguments": {"duration": 1}, "is_error": false, "executor_error": null, "screenshots": []}
+{"utc": "2026-10-21T23:21:20.405369+00:00", "event": "native_action", "index": 7, "name": "screenshot", "arguments": {}, "is_error": false, "executor_error": null, "screenshots": ["screenshots/openai/task-5/006-screenshot.png"]}
+{"utc": "2026-10-21T23:21:21.436938+00:00", "event": "count", "http_status": 200, "transport_error": null}
+{"utc": "2026-10-21T23:21:21.452718+00:00", "event": "request_reservation", "input_tokens": 5924, "reserved_usd": 0.048492, "spent_estimate_usd": 0.014670799999999998}
+{"utc": "2026-10-21T23:21:25.438974+00:00", "event": "generation", "http_status": 200, "transport_error": null}
+{"utc": "2026-10-21T23:21:25.442500+00:00", "event": "model_response", "number": 5, "returned_model": "gpt-6.1-sol", "usage": {"input_tokens": 5924, "input_tokens_details": {"cache_write_tokens": 950, "cached_tokens": 4971}, "output_tokens": 55, "output_tokens_details": {"reasoning_tokens": 0}, "total_tokens": 5979}, "cost_estimate_usd": 0.0034281}
+{"utc": "2026-10-21T23:21:25.442858+00:00", "event": "provider_action", "index": 8, "action": {"type": "keypress", "keys": ["CTRL", "o"]}}
+{"utc": "2026-10-21T23:21:25.927116+00:00", "event": "native_action", "index": 8, "name": "key", "arguments": {"text": "ctrl+o"}, "is_error": false, "executor_error": null, "screenshots": []}
+{"utc": "2026-10-21T23:21:25.927451+00:00", "event": "provider_action", "index": 9, "action": {"type": "type", "text": "/home/agent/Desktop/benchmark/dispatch_plan_final.docx"}}
+{"utc": "2026-10-21T23:21:26.389409+00:00", "event": "native_action", "index": 9, "name": "type", "arguments": {"text": "/home/agent/Desktop/benchmark/dispatch_plan_final.docx"}, "is_error": false, "executor_error": null, "screenshots": []}
+{"utc": "2026-10-21T23:21:26.389871+00:00", "event": "provider_action", "index": 10, "action": {"type": "keypress", "keys": ["ENTER"]}}
+{"utc": "2026-10-21T23:21:26.814763+00:00", "event": "native_action", "index": 10, "name": "key", "arguments": {"text": "Return"}, "is_error": false, "executor_error": null, "screenshots": []}
+{"utc": "2026-10-21T23:21:27.116579+00:00", "event": "native_action", "index": 10, "name": "screenshot", "arguments": {}, "is_error": false, "executor_error": null, "screenshots": ["screenshots/openai/task-5/007-screenshot.png"]}
+{"utc": "2026-10-21T23:21:28.285211+00:00", "event": "count", "http_status": 200, "transport_error": null}
+{"utc": "2026-10-21T23:21:28.294680+00:00", "event": "request_reservation", "input_tokens": 6910, "reserved_usd": 0.05145, "spent_estimate_usd": 0.018098899999999998}
+{"utc": "2026-10-21T23:21:31.418125+00:00", "event": "generation", "http_status": 200, "transport_error": null}
+{"utc": "2026-10-21T23:21:31.418764+00:00", "event": "model_response", "number": 6, "returned_model": "gpt-6.1-sol", "usage": {"input_tokens": 6910, "input_tokens_details": {"cache_write_tokens": 986, "cached_tokens": 5921}, "output_tokens": 19, "output_tokens_details": {"reasoning_tokens": 0}, "total_tokens": 6929}, "cost_estimate_usd": 0.0032531}
+{"utc": "2026-10-21T23:21:31.418873+00:00", "event": "provider_action", "index": 11, "action": {"type": "wait"}}
+{"utc": "2026-10-21T23:21:32.954177+00:00", "event": "native_action", "index": 11, "name": "wait", "arguments": {"duration": 1}, "is_error": false, "executor_error": null, "screenshots": []}
+{"utc": "2026-10-21T23:21:33.244446+00:00", "event": "native_action", "index": 11, "name": "screenshot", "arguments": {}, "is_error": false, "executor_error": null, "screenshots": ["screenshots/openai/task-5/008-screenshot.png"]}
+{"utc": "2026-10-21T23:21:34.278054+00:00", "event": "count", "http_status": 200, "transport_error": null}
+{"utc": "2026-10-21T23:21:34.280326+00:00", "event": "request_reservation", "input_tokens": 7860, "reserved_usd": 0.0543, "spent_estimate_usd": 0.021351999999999996}
+{"utc": "2026-10-21T23:21:38.087148+00:00", "event": "generation", "http_status": 200, "transport_error": null}
+{"utc": "2026-10-21T23:21:38.087970+00:00", "event": "model_response", "number": 7, "returned_model": "gpt-6.1-sol", "usage": {"input_tokens": 7860, "input_tokens_details": {"cache_write_tokens": 950, "cached_tokens": 6907}, "output_tokens": 61, "output_tokens_details": {"reasoning_tokens": 0}, "total_tokens": 7921}, "cost_estimate_usd": 0.0036817}
+{"utc": "2026-10-21T23:21:38.088096+00:00", "event": "provider_action", "index": 12, "action": {"type": "keypress", "keys": ["CTRL", "o"]}}
+{"utc": "2026-10-21T23:21:38.636293+00:00", "event": "native_action", "index": 12, "name": "key", "arguments": {"text": "ctrl+o"}, "is_error": false, "executor_error": null, "screenshots": []}
+{"utc": "2026-10-21T23:21:38.636763+00:00", "event": "provider_action", "index": 13, "action": {"type": "type", "text": "/home/agent/Desktop/benchmark/dispatch_plan_final_v2.docx"}}
+{"utc": "2026-10-21T23:21:39.088887+00:00", "event": "native_action", "index": 13, "name": "type", "arguments": {"text": "/home/agent/Desktop/benchmark/dispatch_plan_final_v2.docx"}, "is_error": false, "executor_error": null, "screenshots": []}
+{"utc": "2026-10-21T23:21:39.089360+00:00", "event": "provider_action", "index": 14, "action": {"type": "keypress", "keys": ["ENTER"]}}
+{"utc": "2026-10-21T23:21:39.530605+00:00", "event": "native_action", "index": 14, "name": "key", "arguments": {"text": "Return"}, "is_error": false, "executor_error": null, "screenshots": []}
+{"utc": "2026-10-21T23:21:39.530850+00:00", "event": "provider_action", "index": 15, "action": {"type": "wait"}}
+{"utc": "2026-10-21T23:21:40.937925+00:00", "event": "native_action", "index": 15, "name": "wait", "arguments": {"duration": 1}, "is_error": false, "executor_error": null, "screenshots": []}
+{"utc": "2026-10-21T23:21:41.229969+00:00", "event": "native_action", "index": 15, "name": "screenshot", "arguments": {}, "is_error": false, "executor_error": null, "screenshots": ["screenshots/openai/task-5/009-screenshot.png"]}
+{"utc": "2026-10-21T23:21:42.433022+00:00", "event": "count", "http_status": 200, "transport_error": null}
+{"utc": "2026-10-21T23:21:42.436714+00:00", "event": "request_reservation", "input_tokens": 8852, "reserved_usd": 0.057276, "spent_estimate_usd": 0.025033699999999996}
+{"utc": "2026-10-21T23:21:47.886779+00:00", "event": "generation", "http_status": 200, "transport_error": null}
+{"utc": "2026-10-21T23:21:47.891980+00:00", "event": "model_response", "number": 8, "returned_model": "gpt-6.1-sol", "usage": {"input_tokens": 8852, "input_tokens_details": {"cache_write_tokens": 992, "cached_tokens": 7857}, "output_tokens": 126, "output_tokens_details": {"reasoning_tokens": 13}, "total_tokens": 8978}, "cost_estimate_usd": 0.0045317}
+{"utc": "2026-10-21T23:21:47.892829+00:00", "event": "provider_action", "index": 16, "action": {"type": "keypress", "keys": ["CTRL", "SHIFT", "s"]}}
+{"utc": "2026-10-21T23:21:48.397466+00:00", "event": "native_action", "index": 16, "name": "key", "arguments": {"text": "ctrl+shift+s"}, "is_error": false, "executor_error": null, "screenshots": []}
+{"utc": "2026-10-21T23:21:48.397870+00:00", "event": "provider_action", "index": 17, "action": {"type": "keypress", "keys": ["CTRL", "a"]}}
+{"utc": "2026-10-21T23:21:48.825897+00:00", "event": "native_action", "index": 17, "name": "key", "arguments": {"text": "ctrl+a"}, "is_error": false, "executor_error": null, "screenshots": []}
+{"utc": "2026-10-21T23:21:48.826410+00:00", "event": "provider_action", "index": 18, "action": {"type": "type", "text": "/home/agent/Desktop/benchmark/recovery_plan_corrected.docx"}}
+{"utc": "2026-10-21T23:21:49.251350+00:00", "event": "native_action", "index": 18, "name": "type", "arguments": {"text": "/home/agent/Desktop/benchmark/recovery_plan_corrected.docx"}, "is_error": false, "executor_error": null, "screenshots": []}
+{"utc": "2026-10-21T23:21:49.518667+00:00", "event": "native_action", "index": 18, "name": "screenshot", "arguments": {}, "is_error": false, "executor_error": null, "screenshots": ["screenshots/openai/task-5/010-screenshot.png"]}
+{"utc": "2026-10-21T23:21:51.068398+00:00", "event": "count", "http_status": 200, "transport_error": null}
+{"utc": "2026-10-21T23:21:51.070644+00:00", "event": "request_reservation", "input_tokens": 9909, "reserved_usd": 0.060447, "spent_estimate_usd": 0.029565399999999995}
+{"utc": "2026-10-21T23:21:55.230691+00:00", "event": "generation", "http_status": 200, "transport_error": null}
+{"utc": "2026-10-21T23:21:55.233979+00:00", "event": "model_response", "number": 9, "returned_model": "gpt-6.1-sol", "usage": {"input_tokens": 9909, "input_tokens_details": {"cache_write_tokens": 1057, "cached_tokens": 8849}, "output_tokens": 31, "output_tokens_details": {"reasoning_tokens": 0}, "total_tokens": 9940}, "cost_estimate_usd": 0.0038434000000000003}
+{"utc": "2026-10-21T23:21:55.234520+00:00", "event": "provider_action", "index": 19, "action": {"type": "click", "button": "left", "keys": null, "x": 798, "y": 440}}
+{"utc": "2026-10-21T23:21:55.819441+00:00", "event": "native_action", "index": 19, "name": "left_click", "arguments": {"coordinate": [798, 440], "text": ""}, "is_error": false, "executor_error": null, "screenshots": []}
+{"utc": "2026-10-21T23:21:56.109039+00:00", "event": "native_action", "index": 19, "name": "screenshot", "arguments": {}, "is_error": false, "executor_error": null, "screenshots": ["screenshots/openai/task-5/011-screenshot.png"]}
+{"utc": "2026-10-21T23:21:57.421846+00:00", "event": "count", "http_status": 200, "transport_error": null}
+{"utc": "2026-10-21T23:21:57.454759+00:00", "event": "request_reservation", "input_tokens": 10871, "reserved_usd": 0.06333299999999999, "spent_estimate_usd": 0.033408799999999995}
+{"utc": "2026-10-21T23:22:01.465007+00:00", "event": "generation", "http_status": 200, "transport_error": null}
+{"utc": "2026-10-21T23:22:01.468585+00:00", "event": "model_response", "number": 10, "returned_model": "gpt-6.1-sol", "usage": {"input_tokens": 10871, "input_tokens_details": {"cache_write_tokens": 962, "cached_tokens": 9906}, "output_tokens": 70, "output_tokens_details": {"reasoning_tokens": 0}, "total_tokens": 10941}, "cost_estimate_usd": 0.0041016}
+{"utc": "2026-10-21T23:22:01.469211+00:00", "event": "provider_action", "index": 20, "action": {"type": "click", "button": "left", "keys": null, "x": 648, "y": 445}}
+{"utc": "2026-10-21T23:22:02.043681+00:00", "event": "native_action", "index": 20, "name": "left_click", "arguments": {"coordinate": [648, 445], "text": ""}, "is_error": false, "executor_error": null, "screenshots": []}
+{"utc": "2026-10-21T23:22:02.043978+00:00", "event": "provider_action", "index": 21, "action": {"type": "keypress", "keys": ["CTRL", "f"]}}
+{"utc": "2026-10-21T23:22:02.484062+00:00", "event": "native_action", "index": 21, "name": "key", "arguments": {"text": "ctrl+f"}, "is_error": false, "executor_error": null, "screenshots": []}
+{"utc": "2026-10-21T23:22:02.484484+00:00", "event": "provider_action", "index": 22, "action": {"type": "type", "text": "16:00"}}
+{"utc": "2026-10-21T23:22:02.925319+00:00", "event": "native_action", "index": 22, "name": "type", "arguments": {"text": "16:00"}, "is_error": false, "executor_error": null, "screenshots": []}
+{"utc": "2026-10-21T23:22:02.925763+00:00", "event": "provider_action", "index": 23, "action": {"type": "keypress", "keys": ["ENTER"]}}
+{"utc": "2026-10-21T23:22:03.347744+00:00", "event": "native_action", "index": 23, "name": "key", "arguments": {"text": "Return"}, "is_error": false, "executor_error": null, "screenshots": []}
+{"utc": "2026-10-21T23:22:03.348002+00:00", "event": "provider_action", "index": 24, "action": {"type": "keypress", "keys": ["ESC"]}}
+{"utc": "2026-10-21T23:22:03.832603+00:00", "event": "native_action", "index": 24, "name": "key", "arguments": {"text": "Escape"}, "is_error": false, "executor_error": null, "screenshots": []}
+{"utc": "2026-10-21T23:22:04.079795+00:00", "event": "native_action", "index": 24, "name": "screenshot", "arguments": {}, "is_error": false, "executor_error": null, "screenshots": ["screenshots/openai/task-5/012-screenshot.png"]}
+{"utc": "2026-10-21T23:22:05.277991+00:00", "event": "count", "http_status": 200, "transport_error": null}
+{"utc": "2026-10-21T23:22:05.281462+00:00", "event": "request_reservation", "input_tokens": 11872, "reserved_usd": 0.066336, "spent_estimate_usd": 0.0375104}
+{"utc": "2026-10-21T23:22:09.518351+00:00", "event": "generation", "http_status": 200, "transport_error": null}
+{"utc": "2026-10-21T23:22:09.519221+00:00", "event": "model_response", "number": 11, "returned_model": "gpt-6.1-sol", "usage": {"input_tokens": 11872, "input_tokens_details": {"cache_write_tokens": 1001, "cached_tokens": 10868}, "output_tokens": 36, "output_tokens_details": {"reasoning_tokens": 0}, "total_tokens": 11908}, "cost_estimate_usd": 0.0039553}
+{"utc": "2026-10-21T23:22:09.519358+00:00", "event": "provider_action", "index": 25, "action": {"type": "type", "text": "16:30"}}
+{"utc": "2026-10-21T23:22:10.119436+00:00", "event": "native_action", "index": 25, "name": "type", "arguments": {"text": "16:30"}, "is_error": false, "executor_error": null, "screenshots": []}
+{"utc": "2026-10-21T23:22:10.119788+00:00", "event": "provider_action", "index": 26, "action": {"type": "keypress", "keys": ["CTRL", "s"]}}
+{"utc": "2026-10-21T23:22:10.560238+00:00", "event": "native_action", "index": 26, "name": "key", "arguments": {"text": "ctrl+s"}, "is_error": false, "executor_error": null, "screenshots": []}
+{"utc": "2026-10-21T23:22:10.834484+00:00", "event": "native_action", "index": 26, "name": "screenshot", "arguments": {}, "is_error": false, "executor_error": null, "screenshots": ["screenshots/openai/task-5/013-screenshot.png"]}
+{"utc": "2026-10-21T23:22:12.199359+00:00", "event": "count", "http_status": 200, "transport_error": null}
+{"utc": "2026-10-21T23:22:12.206130+00:00", "event": "request_reservation", "input_tokens": 12839, "reserved_usd": 0.069237, "spent_estimate_usd": 0.0414657}
+{"utc": "2026-10-21T23:22:16.069106+00:00", "event": "generation", "http_status": 200, "transport_error": null}
+{"utc": "2026-10-21T23:22:16.069841+00:00", "event": "model_response", "number": 12, "returned_model": "gpt-6.1-sol", "usage": {"input_tokens": 12839, "input_tokens_details": {"cache_write_tokens": 967, "cached_tokens": 11869}, "output_tokens": 26, "output_tokens_details": {"reasoning_tokens": 0}, "total_tokens": 12865}, "cost_estimate_usd": 0.0038704}
+{"utc": "2026-10-21T23:22:16.069965+00:00", "event": "provider_action", "index": 27, "action": {"type": "keypress", "keys": ["CTRL", "w"]}}
+{"utc": "2026-10-21T23:22:16.576210+00:00", "event": "native_action", "index": 27, "name": "key", "arguments": {"text": "ctrl+w"}, "is_error": false, "executor_error": null, "screenshots": []}
+{"utc": "2026-10-21T23:22:16.850464+00:00", "event": "native_action", "index": 27, "name": "screenshot", "arguments": {}, "is_error": false, "executor_error": null, "screenshots": ["screenshots/openai/task-5/014-screenshot.png"]}
+{"utc": "2026-10-21T23:22:18.308510+00:00", "event": "count", "http_status": 200, "transport_error": null}
+{"utc": "2026-10-21T23:22:18.344077+00:00", "event": "request_reservation", "input_tokens": 13796, "reserved_usd": 0.072108, "spent_estimate_usd": 0.045336100000000004}
+{"utc": "2026-10-21T23:22:22.213561+00:00", "event": "generation", "http_status": 200, "transport_error": null}
+{"utc": "2026-10-21T23:22:22.216953+00:00", "event": "model_response", "number": 13, "returned_model": "gpt-6.1-sol", "usage": {"input_tokens": 13796, "input_tokens_details": {"cache_write_tokens": 957, "cached_tokens": 12836}, "output_tokens": 60, "output_tokens_details": {"reasoning_tokens": 0}, "total_tokens": 13856}, "cost_estimate_usd": 0.0042821000000000005}
+{"utc": "2026-10-21T23:22:22.217065+00:00", "event": "provider_action", "index": 28, "action": {"type": "keypress", "keys": ["CTRL", "o"]}}
+{"utc": "2026-10-21T23:22:23.200129+00:00", "event": "native_action", "index": 28, "name": "key", "arguments": {"text": "ctrl+o"}, "is_error": false, "executor_error": null, "screenshots": []}
+{"utc": "2026-10-21T23:22:23.200420+00:00", "event": "provider_action", "index": 29, "action": {"type": "type", "text": "/home/agent/Desktop/benchmark/recovery_plan_corrected.docx"}}
+{"utc": "2026-10-21T23:22:23.660856+00:00", "event": "native_action", "index": 29, "name": "type", "arguments": {"text": "/home/agent/Desktop/benchmark/recovery_plan_corrected.docx"}, "is_error": false, "executor_error": null, "screenshots": []}
+{"utc": "2026-10-21T23:22:23.661100+00:00", "event": "provider_action", "index": 30, "action": {"type": "keypress", "keys": ["ENTER"]}}
+{"utc": "2026-10-21T23:22:24.091757+00:00", "event": "native_action", "index": 30, "name": "key", "arguments": {"text": "Return"}, "is_error": false, "executor_error": null, "screenshots": []}
+{"utc": "2026-10-21T23:22:24.091973+00:00", "event": "provider_action", "index": 31, "action": {"type": "wait"}}
+{"utc": "2026-10-21T23:22:25.497816+00:00", "event": "native_action", "index": 31, "name": "wait", "arguments": {"duration": 1}, "is_error": false, "executor_error": null, "screenshots": []}
+{"utc": "2026-10-21T23:22:25.864318+00:00", "event": "native_action", "index": 31, "name": "screenshot", "arguments": {}, "is_error": false, "executor_error": null, "screenshots": ["screenshots/openai/task-5/015-screenshot.png"]}
+{"utc": "2026-10-21T23:22:27.074908+00:00", "event": "count", "http_status": 200, "transport_error": null}
+{"utc": "2026-10-21T23:22:27.114412+00:00", "event": "request_reservation", "input_tokens": 14787, "reserved_usd": 0.075081, "spent_estimate_usd": 0.0496182}
+{"utc": "2026-10-21T23:22:32.204360+00:00", "event": "generation", "http_status": 200, "transport_error": null}
+{"utc": "2026-10-21T23:22:32.205182+00:00", "event": "model_response", "number": 14, "returned_model": "gpt-6.1-sol", "usage": {"input_tokens": 14787, "input_tokens_details": {"cache_write_tokens": 991, "cached_tokens": 13793}, "output_tokens": 108, "output_tokens_details": {"reasoning_tokens": 0}, "total_tokens": 14895}, "cost_estimate_usd": 0.0049428}
+{"utc": "2026-10-21T23:22:32.579148+00:00", "event": "native_action", "index": 31, "name": "screenshot", "arguments": {}, "is_error": false, "executor_error": null, "screenshots": ["screenshots/openai/task-5/016-screenshot.png"]}
+{"utc": "2026-10-21T23:22:32.663234+00:00", "event": "post_run_file_collection", "file": "benchmark directory", "retrieved": true}

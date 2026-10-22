@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-21T22:54:16.278754+00:00",
+  "result": {
+    "http_status": 200,
+    "body": {
+      "object": "response.input_tokens",
+      "input_tokens": 2012
+    }
+  },
+  "generation_requests": 0,
+  "native_tool": "computer"
+}

@@ -1,0 +1,5 @@
+{
+  "passed": true,
+  "provider_requests": 0,
+  "message": "Benchmark paused: exposed keys must be rotated and securely configured before any provider requests. No automatic resume."
+}

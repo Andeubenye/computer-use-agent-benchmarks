@@ -1,0 +1,20 @@
+{
+  "agent": "tinyfish",
+  "task": "test-4-github-enhancement",
+  "original_record_preserved": true,
+  "checked_at": "2026-10-17T19:00:04.123881+00:00",
+  "model_revision": null,
+  "model_revision_exposed": false,
+  "provider_reported_steps": 14,
+  "raw_step_records": 15,
+  "browser_configuration": {
+    "proxy_enabled": false,
+    "proxy_country_code": null
+  },
+  "profile_attached": false,
+  "provider_internal_retries": null,
+  "provider_started_at": "2026-10-17T18:18:36Z",
+  "provider_finished_at": "2026-10-17T18:20:01Z",
+  "cost_recomputed_usd": "0.224",
+  "cost_matches": true
+}

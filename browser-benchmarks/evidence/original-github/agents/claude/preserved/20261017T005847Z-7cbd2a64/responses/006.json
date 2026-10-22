@@ -1,0 +1,206 @@
+{
+  "id": "provider-id-d564b2593d0f",
+  "content": [
+    {
+      "signature": "CAQSgQcKEAgSGAI4AUIIdGhpbmtpbmcSDIXSwSYtuxCOtqwNRBoMNCbDCpAD1K+UbFoSIjDr2WFES+u5056QoNQFU5ViNPAmDx1P1TJ5vNTPH/nf4ymLM4MqXpOuUMvlO+0I9usqngbae7AZhUx2PBOkWngzX08ku/R3eFxmM4hf1yPkaR3pL3cQuo/StEWQF0YBe5AyC8FRPzl+MsZgh0AdVpNyljJMPSBZTnR2pOdt6ZMCiIFffACMc8L/aXwLQjbdHGAh8o5sEyuYKQD9n8OvU11BR8nYnW5CrzSJgQ4TMOwz0E6jmxkda2yBqXm5WQ9HYXZ/BMPk0TTsQIj11NjY3z+TuKbPId2ld/VNcO3UYiB5GWSrcDsvA5LmJjc+cp0Y8ttl9riSk7KxV9C88gYj66ao0hiKYvt4pl3KddM8rdFO97PfqGfJEDiY1Kd9yM0pZ0OxJs7Zz1PV5++Qt3Uyp0mIX1WCwN23Jp2R3SRE9BfIzOqjg7HMx7PxUnwH1KA/iu4FM8k9kolyeDI2mLr7r/aGpd9NciI1TWSpAz35sG8etCFI7mpTwqrGYXqoGSrtllQFgLSn/+/dfYptOtK+BkDymMecWHp4dOx+55H0o/gCqkgufv2Dr72BA5dtMTnxrZj6QeQHr+qKL0TaphuLcKvmdrJb4x8UGRENLjUXA2yMOhgVa9Azz2EAanYBFud+pCyqUvC9ToBUN7IR/0xeK8tHrsokO3u7EkZqdsW4WF+dfS4rAl2WPOXPki1du5/RyCcE9991776HlpF245DeXPKX1U2eWpVygUu0ILkZqAJeJo3Z8JXUIiw1qSlMeyWzvSrtMNWq0mg7wQXiPF+JhtAEcqn6MWPkcewRere861oYLsXDOqTlB9lf1Y/R8m5bN8anlvyTofKJx5DkbCn80QNU35c7N++3jG7H17U9E3LSnA0Xwu5QgqOcgR7TMgT1yRVIDIaaitLclKY48UqmTr2O0ZeZaN64iBGS29Y57jydiojvyKUGZi9JtKB71MvwmerAqv44eYJ6h4TSOGHg+KOmXiWb87EouLodoDwmNoo3TQd7yTI+jruZi29sLFsqIzVDSxgbbZaf9v9jqia7AgqVgxyDjETIRBMvQsJAFhRPEjYWFurByI/jgCMlM4H3DKpmRW7y/UnV48XV3gr0mDYNrVoyxcjnooJA2Gt8uiqggMQYAQ==",
+      "thinking": "",
+      "type": "thinking"
+    },
+    {
+      "id": "toolu_01WX2eJ2kTdDGwxHUUepikML",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "coordinate": [
+          475,
+          176
+        ]
+      },
+      "name": "mouse_move",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01VuFdf7ezfxp6UfYM81bSKm",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "duration": 2
+      },
+      "name": "wait",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_0174kNNKv8GXGtyYvvojCy7r",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "region": [
+          180,
+          140,
+          800,
+          240
+        ]
+      },
+      "name": "zoom",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_018b2ea33GY7cwrHdcGbXqP3",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "coordinate": [
+          475,
+          222
+        ]
+      },
+      "name": "mouse_move",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_011eGvNcsBhsSmk8MqcFYJVZ",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "duration": 2
+      },
+      "name": "wait",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_018Vkfd6gkdwPb1xKhcbjHUk",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "region": [
+          180,
+          190,
+          800,
+          290
+        ]
+      },
+      "name": "zoom",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_013vPcmsC2KVzdGob4T1DdwF",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "coordinate": [
+          475,
+          267
+        ]
+      },
+      "name": "mouse_move",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_016uChKqPKkcqWGnhVNwu117",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "duration": 2
+      },
+      "name": "wait",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_013wgETyMKQLYQkX3iv2SHWt",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "region": [
+          180,
+          230,
+          800,
+          330
+        ]
+      },
+      "name": "zoom",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01X2zxGjqrVPHqtcWaYCPUvG",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "coordinate": [
+          475,
+          313
+        ]
+      },
+      "name": "mouse_move",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01592XEumTUBsUgAT31Pubmq",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "duration": 2
+      },
+      "name": "wait",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01Xyv1yQv1QxaQyKym8JwpT3",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "region": [
+          180,
+          280,
+          800,
+          380
+        ]
+      },
+      "name": "zoom",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    }
+  ],
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_reason": "tool_use",
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 12141,
+    "output_tokens": 418,
+    "output_tokens_details": {
+      "thinking_tokens": 70
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

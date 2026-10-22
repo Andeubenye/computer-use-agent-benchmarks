@@ -1,0 +1,37 @@
+# Methodology and limitations
+
+## Task and separation of roles
+
+The exact task is in `inputs/task-prompt.txt`: open the CSV in a desktop spreadsheet, replace both instances of `Pendng` with `Pending`, preserve other data and row order, save a separate corrected CSV, reopen it, and report the changes and saved location. The ten-row input is synthetic. `inputs/manifest.json` records input, expected-output, and prompt hashes. The expected CSV was grader-only and never placed in the agent desktop.
+
+Models choose all task actions through their official native computer tools. The harness only translates returned mouse, keyboard, wait, and screenshot actions. It does not choose the edits, click Open to finish a stalled agent step, create the agent's corrected output, or provide verification answers to the model. Input staging and post-run read-only artifact collection are infrastructure, outside the agent's task actions.
+
+Claude uses `computer_toolset_20260801` via Anthropic Messages. OpenAI's prepared path uses `type: computer` through Responses and returns native `computer_call_output` screenshots. No OpenAI execution result exists. Official docs are archived under `docs/`; see [OpenAI computer use](https://developers.openai.com/api/docs/guides/tools-computer-use) and [Anthropic computer use](https://platform.claude.com/docs/en/agents-and-tools/tool-use/computer-use-tool).
+
+## Environment
+
+Host: Apple M1 Mac, 8 GB RAM. Agent desktop: local Colima/Docker Linux environment, Xvfb 1024×768, Openbox, LibreOffice Calc 7.4.7.2. The new image is `desktop-csv-benchmark:2026-10-21`. Each actual attempt used a separate container with no network, no host mounts, no provider credentials, dropped capabilities, and 2 GB memory/2 CPU limits. Calc initially opened a blank sheet. GUI task behavior therefore measures Linux Calc, not native macOS desktop control.
+
+Preflight installation and environment errors are retained. An input ownership issue was fixed during setup, before benchmark execution, by staging the original input as the desktop user. This did not edit task results. No new paid infrastructure was provisioned. Original macOS applications, signed UI-TARS installation, Hugging Face endpoint, and earlier browser evidence were not modified in this desktop batch.
+
+## Verification
+
+After a run stopped, the harness captured a read-only screenshot, retrieved the two known CSV paths, and stopped the container. The independent verifier parses CSV values and compares every cell and row against the expected changes; it also hashes the original. Formatting differences in quoting/line endings are allowed for the new CSV; original preservation is byte-for-byte.
+
+Five checks are scored separately: opened in a spreadsheet; both corrections; other values and row order preserved; separate corrected file and intact original; reopened saved file and verified. The GUI checks require screenshot evidence. All five are needed for PASS. A correct artifact with an unfinished required workflow is PARTIAL. Missing task submission is NOT TESTED, without a zero score. Six offline verifier checks cover missing files, correct artifacts without GUI proof, extraneous changes, row reordering, overwritten original, and unsubmitted runs.
+
+The saved original model response is evidence of what the agent said, not proof of success. Attempt 2's historical record labels its last text as a complete-response file; visual evidence and the timeout contradict completion. The report explicitly treats it as interim text without altering the raw record.
+
+## Limits, timing, actions and costs
+
+Budget: $7 total, no top-ups or purchases. Maximum model execution allowance is 600 seconds per run. The explicit Claude repair attempt used a shorter configured allowance after the first failure. API retries are disabled. A timeout, access restriction, or protocol error stops the attempt. No benchmark automatically restarts. Current runs are additionally blocked by the persistent user pause until exposed keys are rotated and securely configured.
+
+The watchdog/record use the host monotonic clock; events use UTC timestamps. Attempt 2 shows a material discrepancy between them, with no verified cause. Both measurements are retained and neither is silently corrected. Its UTC task-start-to-error span is 397.540251 seconds, below ten minutes. No speed ranking is made. Neither setup nor post-run verification is counted in agent execution duration.
+
+Action count is the number of native computer-tool actions requested by the model, including model-requested screenshots/waits; read-only initial/final harness screenshots are not extra model actions. Saved image counts include those captures, so screenshot counts and action counts are different measures. Responses/turns are not actions. Raw events permit inspection of finer detail.
+
+Cost estimates are computed from recorded provider-returned token usage at the recorded $2/M input and $10/M output rates; no cache usage was returned in the Claude attempts. These are estimates, not provider invoices. First-attempt infrastructure failure cost is included. OpenAI and Sai have no model-generation cost in this batch; preflight calls are not completed tasks. Budget remaining is an estimate until reconciled. No relative agent cost comparison is possible without comparable completed runs.
+
+## Security and privacy
+
+The user requested a pause before more paid calls because API keys were exposed in chat. Existing key values are not copied into this package. The temporary RAM-only credential broker was stopped and its socket removed. Rotation must occur at the provider; stopping the broker is not revocation. Replacement keys must be configured securely, never pasted into chat. There is no automatic resume. Public release needs a separate review of provider/account identifiers in raw local evidence; raw traces are preserved locally for audit.

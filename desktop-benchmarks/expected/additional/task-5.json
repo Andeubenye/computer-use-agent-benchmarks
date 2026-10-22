@@ -1,0 +1,12 @@
+{
+  "filename": "recovery_plan_corrected.docx",
+  "source": "dispatch_plan_final_v2.docx",
+  "paragraphs": [
+    "Dispatch recovery plan",
+    "Document ID REC-204",
+    "Approval APPROVED",
+    "The dispatch handoff is at 16:30.",
+    "Keep the loading checklist unchanged."
+  ],
+  "interruption": "One synthetic modal warning present at the initial state; dismissal required through model-requested GUI actions."
+}

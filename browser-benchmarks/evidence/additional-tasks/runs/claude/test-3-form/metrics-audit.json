@@ -1,0 +1,39 @@
+{
+  "agent": "claude",
+  "task": "test-3-form",
+  "original_record_preserved": true,
+  "checked_at": "2026-10-17T19:00:04.028222+00:00",
+  "model_requested": "claude-sonnet-5-5",
+  "model_returned": "claude-sonnet-5-5",
+  "tool_version": "computer_toolset_20260801",
+  "sdk_version": "1.15.0",
+  "python_version": "3.12.4",
+  "model_generation_requests": 9,
+  "token_count_requests": 9,
+  "native_action_errors": 1,
+  "recovery_attempts": 1,
+  "api_retries": 0,
+  "usage": {
+    "input_tokens": 89806,
+    "output_tokens": 1467,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "desktop": {
+    "container_id": "34216a70f39575926912d88ac7dbcdf24b4d88c730dde20d983ab2ce3b738814",
+    "image_id": "sha256:195fda83d17d253dbb5d122583fd7d58cdfb13971e16f6fd7c1f73840b07f55d",
+    "resolution": "1024x768",
+    "architecture": "arm64",
+    "browser_version": "Mozilla Firefox 153.5.0esr"
+  },
+  "limits": {
+    "budget_usd": "0.8",
+    "max_steps": "60",
+    "max_actions": "300",
+    "max_tokens": "4096",
+    "max_seconds": "600"
+  },
+  "submitted_at_utc": "2026-10-17T18:23:19.290922+00:00",
+  "cost_recomputed_usd": "0.194282",
+  "cost_matches": true
+}

@@ -1,0 +1,16 @@
+{
+  "libreoffice_version": "LibreOffice 7.4.7.2 40(Build:2)",
+  "image": "desktop-csv-benchmark:2026-10-21",
+  "network": "none",
+  "native_resolution": [
+    1024,
+    768
+  ],
+  "initial_state": "blank Calc, task file present but unopened",
+  "input_path": "/home/agent/Desktop/benchmark/orders_to_fix.csv",
+  "input_owner_uid": 1000,
+  "expected_output_not_mounted": true,
+  "paid_inference": false,
+  "host_home_mounts": false,
+  "preflight_fix": "Reseeded input as agent user after cap-drop=ALL prevented root chown; original host fixture unchanged"
+}

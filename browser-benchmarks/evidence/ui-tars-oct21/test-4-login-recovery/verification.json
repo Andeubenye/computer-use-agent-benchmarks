@@ -1,0 +1,13 @@
+{
+  "outcome": "FAIL",
+  "reason": "Terminal request-timeout error while still on the Google starting page; the login fixture was never reached.",
+  "initial_demo_login_failed_as_requested": false,
+  "login_error_recognized": false,
+  "correct_demo_login_succeeded": false,
+  "final_login_success_reported": false,
+  "workflow_checks_verified": 0,
+  "workflow_checks_total": 4,
+  "final_browser_url": "https://www.google.com/",
+  "verification_data_sent_to_agent": false,
+  "limitation": "This run does not isolate ability to recover from an authentication error; API/navigation failure prevented reaching that condition."
+}

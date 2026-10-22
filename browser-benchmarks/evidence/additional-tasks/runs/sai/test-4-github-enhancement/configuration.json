@@ -1,0 +1,9 @@
+{
+  "agent": "sai",
+  "task": "test-4-github-enhancement",
+  "max_seconds_from_submission": 600,
+  "automatic_benchmark_restarts": 0,
+  "reserved_usd": 0.89,
+  "prompt_sha256": "331e5d68c42a17fd2544559508bf04304e1e495408d65d8ad6aeee02de44193c",
+  "expected_answers_provided": false
+}

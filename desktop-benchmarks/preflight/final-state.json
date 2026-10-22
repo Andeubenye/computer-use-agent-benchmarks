@@ -1,0 +1,20 @@
+{
+  "checked_utc": "2026-10-21T20:30:12.792381+00:00",
+  "benchmark_colima_profile": [
+    {
+      "name": "claude-benchmark",
+      "status": "Stopped",
+      "arch": "aarch64",
+      "cpus": 2,
+      "memory": 3221225472,
+      "disk": 17179869184,
+      "runtime": "docker"
+    }
+  ],
+  "credential_socket_exists": false,
+  "provider_requests_sent": 0,
+  "new_runs_started": 0,
+  "new_approvals_requested": 0,
+  "pause_active": true,
+  "report_links_valid": true
+}

@@ -1,0 +1,118 @@
+{
+  "id": "provider-id-74ad01ab4e63",
+  "content": [
+    {
+      "signature": "CAQS1AYKEAgSGAI4AUIIdGhpbmtpbmcSDFCZe8FMg16puMk9DxoMKHRGUbmvzbDGP4jPIjApQIlMaTjA7U8VnlfY+Pg2G19MO1T6xWmLVNjWeNskQni43vu1G/t5CLm2vMPeez0q8QUkCfA6VNYwCpFgWzQ15EDrOfQZ3pXr9EK8R/h2PhFfHcdwAIYH4Csz+rxI6gM+v4vptAa4BS+fvQdxZ3bus1XG6O18ryO5BWCLZQ8P0RrZiZqwzYExN69JGoCpIQLFnuX1nUD4bIAsHOmHXtJz/wt7fHTCqaFZ2wnAcnWRM4bZtXIJEd95myj2NkC9JOyq06Gw/dMRXDlfK6GXSMx+yqwhVuubIL4CMuUPSQefX/zSMms/Bl3SrnP5rKfhln986VSj2jo51hvnG8P8SCrja+SUBCO2bdlesy3TmWFqYu9SK6iEJt1M1jYn7MXSJBVD8O64tE41UDb4WX4sk2zwXnfyrwhUj6+pdlsBESkDt+oHcZXYrjIzLXIoG53EiBkP9txHOLcQtQjXfPHS+peyHoJwnATK45hH/enLMhM/cLjIhTZKE/gh2siLAzDPY0M/ZzaV2qS0tzAGZydwKrzS8OORzszJ0eLuqdMO47d+1gcgLVxDs1gDepJi6DGXARj1UG7wPwrP2VxYBhFp5neuv1JvPB9KcfUJpCHhaKefmKCRCZPcqem0EWbtGkjhEB4QUuD/t0UP5PcRTW5kVnkZaY0q+4S2XUnFRGf2WnUfsvuv6EqF2+ED5Gc9buRrkTsIekK+6A7zdv/e22hjPfRSAVYdKBKbpQbFhRrda6Vr6YQ/MbvQ4VzgCxLU6JDwg008cQVs4xAw78DC0+H4Y2GfDVOKCBUGvjmByqn74cWBNPOzd+X/vrzflNkmlmu5c9+YpG6JkvTwvg2zgv2C+9Gi+gYGNfwFah3Xs0xDgKjkkOzX55vVBmZ2Jr6Er8OycCX1/YG6t9OIIsUypC0Jds90DH0lqLus4L1I5S2LbJnysC3Ewtt/tQOtSlh5Vu2A7No2OhgaL3f38o95lmpl13qskf9F4YKf6dXmQeLNgPYBlCdAfINWbOvQbgjRev8HNrJYoRZgpM0v/TIXii6qCcMGs8v7ymF8CMQOqVp92yJIaKxWmS0YAQ==",
+      "thinking": "",
+      "type": "thinking"
+    },
+    {
+      "id": "toolu_01Mo1i3Rp7Rnhn7A7XoBULAV",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "coordinate": [
+          460,
+          342
+        ]
+      },
+      "name": "mouse_move",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01Pmn2mVVVFGMmM4cpbtYQY7",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "duration": 2
+      },
+      "name": "wait",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01KdefYwzhLrYPJbQqYVnbow",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "region": [
+          220,
+          310,
+          740,
+          400
+        ]
+      },
+      "name": "zoom",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01T8FTqLCvtsXzLkc7wZkjGQ",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "coordinate": [
+          460,
+          382
+        ]
+      },
+      "name": "mouse_move",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01Q7NL6Vdum3PaZ6oeauSsuS",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "duration": 2
+      },
+      "name": "wait",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01HNRwRoJcXC7w5HnDXQPbuf",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "region": [
+          220,
+          350,
+          740,
+          440
+        ]
+      },
+      "name": "zoom",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    }
+  ],
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_reason": "tool_use",
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 8577,
+    "output_tokens": 243,
+    "output_tokens_details": {
+      "thinking_tokens": 61
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

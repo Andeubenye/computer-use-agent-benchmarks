@@ -1,0 +1,1 @@
+Fresh endpoint baseline unavailable: Chrome window changed during read-only dashboard selection. No baseline usage value established.

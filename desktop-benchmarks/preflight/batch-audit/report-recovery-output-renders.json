@@ -1,0 +1,30 @@
+[
+  {
+    "input": "outputs/claude/task-4/sales_summary.docx",
+    "exit": 0,
+    "pages": [
+      "verification/output-renders/claude/task-4/page-1.png"
+    ]
+  },
+  {
+    "input": "outputs/claude/task-5/recovery_plan_corrected.docx",
+    "exit": 0,
+    "pages": [
+      "verification/output-renders/claude/task-5/page-1.png"
+    ]
+  },
+  {
+    "input": "outputs/openai/task-4/sales_summary.docx",
+    "exit": 0,
+    "pages": [
+      "verification/output-renders/openai/task-4/page-1.png"
+    ]
+  },
+  {
+    "input": "outputs/openai/task-5/recovery_plan_corrected.docx",
+    "exit": 0,
+    "pages": [
+      "verification/output-renders/openai/task-5/page-1.png"
+    ]
+  }
+]

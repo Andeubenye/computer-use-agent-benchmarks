@@ -1,0 +1,60 @@
+{
+  "http_status": 200,
+  "body": {
+    "sessionId": "id-ee28d2092e89",
+    "status": "running",
+    "events": [
+      {
+        "type": "reasoning-start",
+        "id": "1792261533896-assistant-zfph2f3ks3o"
+      },
+      {
+        "type": "reasoning-delta",
+        "id": "1792261533896-assistant-zfph2f3ks3o",
+        "delta": "The machine is currently in use by another session — I'll wait and continue as soon as it's free."
+      },
+      {
+        "type": "reasoning-end",
+        "id": "1792261533896-assistant-zfph2f3ks3o"
+      }
+    ],
+    "text": "",
+    "cursor": "eyJ0dXJuIjoxNzkyMjYxNTE2NjA5LCJzZWVuIjpbIjE3OTIyNjE1MzIwMjItdG9vbC1veGc1amZ0bDl3IiwiMTc5MjI2MTUzMzg5Ni1hc3Npc3RhbnQtemZwaDJmM2tzM28iXSwicHJvZyI6e319",
+    "usage": {
+      "inputTokens": 283,
+      "outputTokens": 206,
+      "cacheReadTokens": 38400,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 1,
+      "byModel": {
+        "openrouter-deepseek/deepseek-v4-flash": {
+          "inputTokens": 283,
+          "outputTokens": 206,
+          "cacheReadTokens": 38400,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 1
+        }
+      }
+    },
+    "sessionUsage": {
+      "inputTokens": 283,
+      "outputTokens": 206,
+      "cacheReadTokens": 38400,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 1,
+      "byModel": {
+        "openrouter-deepseek/deepseek-v4-flash": {
+          "inputTokens": 283,
+          "outputTokens": 206,
+          "cacheReadTokens": 38400,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 1
+        }
+      }
+    }
+  }
+}

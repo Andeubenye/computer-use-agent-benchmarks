@@ -1,0 +1,28 @@
+{
+  "http_status": 200,
+  "body": {
+    "sessionId": "id-b0ace35c3f25",
+    "status": "running",
+    "events": [],
+    "text": "",
+    "cursor": "eyJ0dXJuIjoxNzkyMjYyMTY5MTY3LCJzZWVuIjpbXSwicHJvZyI6e319",
+    "usage": {
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 0,
+      "byModel": {}
+    },
+    "sessionUsage": {
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 0,
+      "byModel": {}
+    }
+  }
+}

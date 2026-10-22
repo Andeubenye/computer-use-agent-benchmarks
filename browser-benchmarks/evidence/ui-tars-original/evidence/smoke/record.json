@@ -1,0 +1,22 @@
+{
+  "recorded_at_utc": "2026-10-20T22:29:19.054380+00:00",
+  "source": "existing application log and native UI; run predates this evaluation request",
+  "classification": "PARTIAL",
+  "browser_navigation_evidenced": true,
+  "explicit_page_title_returned": false,
+  "duration_seconds_app_reported": 178.388,
+  "finish_local": "2026-10-20T23:22:11.789+01:00",
+  "start_local_inferred_from_app_duration": "2026-10-20T23:19:13.401+01:00",
+  "browser_actions": 5,
+  "finished_markers": 1,
+  "sdk_invoke_attempts": 7,
+  "successful_model_responses": 6,
+  "timeouts": 1,
+  "recovery": "same run retried following Request timed out.; subsequently emitted finished()",
+  "app_reported_total_tokens": 107764,
+  "token_limitation": "SDK-reported aggregate; not an invoice or prompt/completion breakdown",
+  "estimated_active_gpu_cost_usd": 0.089194,
+  "cost_limitation": "time-proportional estimate for agent interval only; excludes startup, preceding/following idle and billing granularity",
+  "screenshot_limitation": "Native screenshot preserves UI-TARS final screenshot preview; original per-action image binaries not exported in this preflight",
+  "final_state_caveat": "A status error event remains visible in the log before final end; preserve timeout and recovery, do not call this a clean first-try success."
+}

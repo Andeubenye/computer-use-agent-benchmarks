@@ -1,0 +1,67 @@
+{
+  "id": "provider-id-7bd21e87d7c2",
+  "content": [
+    {
+      "signature": "CAQSuAcKEAgSGAI4AUIIdGhpbmtpbmcSDM92Kvm1rpe09S/d3hoMb9uSMdGjHrPp9ObOIjCjQ2X3BT+ZeZ1LP3HGabxOcTrp2PI36341zpn3bDGb3SQkIKxSwft3jzURBQrQgYMq1QbvNA1t5URwg5qtjsESIcp97+zmrC7vU+VNk7BtTpvX1YXtv3uOXHSpZby8nRr1twbZeGXCSyva1GWibFm4h/DwmCyzJCfbSAZ5PYE3sSfzeKCq9uj5TG7NYOFoivMlXihZBmGT12+m5aEaYMh2WHbG0ax9a1W7X2LDVm0mhtc2woVaL9Eg5b1b3COwpWK3kDke2C68qa5fKo2QO1DZ3+UXrCZHBkaH44Pt4MvUy4MTY+0C+NHRs0r3ZZWfFTFOpxeYTxEyXsfW8dW9/1hTUmDfORd0dZ6Ev0fyHDjllnA1Eqf8MSqEzjvpNpZDcY6XWI6dfSkN/tjAorcY4MB2YY0s6qgBdnf0eVgnUl25DLrM720FhLsWyD/I8IT7j5KqGn/wUKq/oejba2AGwvv0baV6wtVidcZ9Bjj24syJhI5/spaChHSjHsfhYn+HztsM+qtASLZJvtIJBVLCMq71rzSH5CVb6Rl6COTT7K99cd2o5xhOXo7MFjOS2TiA/J8UP1sTxlmlU3a7dWPYvAHloZbwyVbncG7CgJflAZ4Ke9bN3+/eHEaic6dU67qJ1Lth/1fqfQeETYGIHTG6m0CbrbxDe96oTzNDKa0qte4x8W/O7zmZCm9+1qbi/EHVWLZz2B5WoHfwfzwz/HT+cDOhk98P/3DScGD09E82h6CQ45lYABy2gRKyH09dD0A7PMA3R2naGeeujlo0oRT6IvpfforqZN3Fd91Kl25wCAnylYlmMwq0YjqFCkOQP/NJjJ6TglZJ+a3n0gQvzhDgiUz/v9vxTNr1xYzEnMOp1w1PqpUDfEkEUk/oqDoDFmmKNk1oDX2z1pGxQLHHYYcX7ravBkbNWpN+johnBwd/a25K+BTrP0SjZisrAgrlxzph7ZHi7BdofkaiLphrhdfib/XXkbavV8F0vpz2jwG2NogRut2fKGUDBmp0jqnGzfkrhrm0Td1TwqEDeaLZOpCZ+jyMvV79ceex1twa91vlC/+beb0F5X+umqfGN8XPuwdMRWRj2OCuXh4/M3WannHjHjbYSb2n723ywEwF3khOR1Thf2quR9d0GotY9kTbV0D3Ik7zdVFNntKJejFUcM5z3jCvvkOfmIvTBor1GX1L20ORpg47SyTi1kkRGAE=",
+      "thinking": "",
+      "type": "thinking"
+    },
+    {
+      "id": "toolu_01RFEbD8d8HTSmSZb8Gt5mxP",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "coordinate": [
+          500,
+          382
+        ]
+      },
+      "name": "mouse_move",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01Csy8SjKwpYdRocGbhn5tnx",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "duration": 2
+      },
+      "name": "wait",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_015u6GinzSmuXy38x2higNa7",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {},
+      "name": "screenshot",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    }
+  ],
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_reason": "tool_use",
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 10143,
+    "output_tokens": 159,
+    "output_tokens_details": {
+      "thinking_tokens": 58
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

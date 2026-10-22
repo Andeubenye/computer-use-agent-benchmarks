@@ -1,0 +1,63 @@
+{
+  "http_status": 200,
+  "elapsed_seconds": 1.3678426670012414,
+  "body": {
+    "sessionId": "id-888676afd25a",
+    "status": "running",
+    "events": [],
+    "text": "",
+    "cursor": "eyJ0dXJuIjoxNzkyMjQ4NTcxODg1LCJzZWVuIjpbIjE3OTIyNDg1ODQzMTctdG9vbC02Zjl1cXZrZXViaiIsIjE3OTIyNDg1ODY0NDEtYXNzaXN0YW50LWt6bDU0ZnZ6MDE4IiwiMTc5MjI0ODY0MDY0NS10b29sLTc2bjdxaDJzMG1xIiwiMTc5MjI0ODY2NTA0OC10b29sLTI4MGE3OXRxYWZrIiwiMTc5MjI0ODY0NDg1MS1hc3Npc3RhbnQtNGw0ODRwNGF1emUiLCIxNzkyMjQ4NjcyNjM2LXRvb2wtOWJjMDFsMmp1YjUiLCIxNzkyMjQ4NzAwNDc3LXRvb2wtaHN5aTNzNDBqODQiLCIxNzkyMjQ4NjczOTE3LWFzc2lzdGFudC1rY2F5MTAyZjA3aiIsIjE3OTIyNDg3MTQ0NDItdG9vbC1obnZ0M3F6aHJhZiIsIjE3OTIyNDg3MDEzNzItYXNzaXN0YW50LXV4ZjZseTFzaTlmIiwiMTc5MjI0ODcyNDEwMy10b29sLWt2aWZkNzhmNzkiLCIxNzkyMjQ4NzMyMTE0LXRvb2wtMHE4NzlxeHN6OWJtIiwiMTc5MjI0ODc0MzM2Mi10b29sLWhwdWdhYXY0OHluIiwiMTc5MjI0ODc1MzEwMy10b29sLXM3enVjdGM5aG9hIiwiMTc5MjI0ODc2MTA2NC10b29sLTZucnRvM2poZ3NxIiwiMTc5MjI0ODc1NDA1Ni1hc3Npc3RhbnQtaHRiZWdvdW12dm8iLCIxNzkyMjQ4NzY4ODU4LXRvb2wtZjVxMzZ0OTZqayIsIjE3OTIyNDg3ODM4NTktdG9vbC1iYmw0ZHcwb2p5biIsIjE3OTIyNDg3OTI1OTctdG9vbC13cGdhbW9zNHN5IiwiMTc5MjI0ODgxNzQ0MS10b29sLXI4dXhyNmQzYmNxIiwiMTc5MjI0ODgyNzcyMS10b29sLTZnY2k3dTc4emFnIiwiMTc5MjI0ODg1MDc5My10b29sLTdqaDRvb2xxMG5uIiwiMTc5MjI0ODg2NDY3OS10b29sLTNoZnFxbzBpMTlhIiwiMTc5MjI0ODg1MTY5NS1hc3Npc3RhbnQteWJuOHVlb2pyMDkiLCIxNzkyMjQ4ODcxMjcxLWFzc2lzdGFudC1hOW9ma3NxdnJzbiIsIjE3OTIyNDg4OTk3NjEtdG9vbC1paW8wamViYmtvIiwiMTc5MjI0ODkyODI3OS10b29sLXNyajBqbHVzdm8iLCIxNzkyMjQ4OTAwNzU1LWFzc2lzdGFudC05bjV0cGJkZTV0aiJdLCJwcm9nIjp7IjE3OTIyNDg2NjU1MDAtcmVzdWx0LTlrNHppbTJ4dXgiOjMsIjE3OTIyNDg3MDA5NDItcmVzdWx0LXU4eDN3NHNnc3UiOjEsIjE3OTIyNDg3MTQ4NzgtcmVzdWx0LXR5NGpkNmk3eWQiOjEsIjE3OTIyNDg3MjQ1NjQtcmVzdWx0LXYxNGlnNWtvZHoiOjEsIjE3OTIyNDg3MzI1NDItcmVzdWx0LXdueXh6dW5qOHVkIjoxLCIxNzkyMjQ4NzQzODA0LXJlc3VsdC12dXp1czJodmtsIjoxLCIxNzkyMjQ4NzUzNTUwLXJlc3VsdC1taG5mc2p2NWc3IjoyLCIxNzkyMjQ4NzYxNDgyLXJlc3VsdC1kdHc5NnhsdWxyNyI6MSwiMTc5MjI0ODc2OTI4Ny1yZXN1bHQtdThkNThnaGlrdSI6MiwiMTc5MjI0ODc4NDM4MC1yZXN1bHQteTUwZnU2ZHR0eHAiOjEsIjE3OTIyNDg4MTc4OTktcmVzdWx0LTd2ZXJvbjhhOW5yIjozLCIxNzkyMjQ4ODI4MTA4LXJlc3VsdC0ydmFtdXlldW1oZSI6MSwiMTc5MjI0ODg1MTI2Mi1yZXN1bHQta3pubXczYzkxc2YiOjEsIjE3OTIyNDg5MDAxNzMtcmVzdWx0LWhsZWIzajg1a2giOjEsIjE3OTIyNDg5Mjg3NTYtcmVzdWx0LWEwN2h5Y253NmJqIjo2fX0",
+    "usage": {
+      "inputTokens": 220039,
+      "outputTokens": 5396,
+      "cacheReadTokens": 654848,
+      "cacheWriteTokens": 0,
+      "costUsd": 0.01,
+      "modelCalls": 21,
+      "byModel": {
+        "vertex-gemini-3-flash-preview": {
+          "inputTokens": 17700,
+          "outputTokens": 4,
+          "cacheReadTokens": 0,
+          "cacheWriteTokens": 0,
+          "costUsd": 0.01,
+          "modelCalls": 1
+        },
+        "openrouter-deepseek/deepseek-v4-flash": {
+          "inputTokens": 202339,
+          "outputTokens": 5392,
+          "cacheReadTokens": 654848,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 20
+        }
+      }
+    },
+    "sessionUsage": {
+      "inputTokens": 220039,
+      "outputTokens": 5396,
+      "cacheReadTokens": 654848,
+      "cacheWriteTokens": 0,
+      "costUsd": 0.01,
+      "modelCalls": 21,
+      "byModel": {
+        "vertex-gemini-3-flash-preview": {
+          "inputTokens": 17700,
+          "outputTokens": 4,
+          "cacheReadTokens": 0,
+          "cacheWriteTokens": 0,
+          "costUsd": 0.01,
+          "modelCalls": 1
+        },
+        "openrouter-deepseek/deepseek-v4-flash": {
+          "inputTokens": 202339,
+          "outputTokens": 5392,
+          "cacheReadTokens": 654848,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 20
+        }
+      }
+    }
+  }
+}

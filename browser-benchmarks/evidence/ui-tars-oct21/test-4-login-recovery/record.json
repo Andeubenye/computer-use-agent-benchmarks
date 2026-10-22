@@ -1,0 +1,38 @@
+{
+  "task": "test-4-login-recovery",
+  "submitted": true,
+  "attempts": 1,
+  "start_utc": "2026-10-21T00:18:51.532000+00:00",
+  "finish_utc": "2026-10-21T00:20:47.757000+00:00",
+  "duration_seconds": 116.225,
+  "agent_loop_seconds": 112.854,
+  "terminal_status": "error",
+  "actions": 3,
+  "action_types": [
+    "click",
+    "click",
+    "click"
+  ],
+  "sdk_invocations": 4,
+  "model_responses": 3,
+  "timeouts": 1,
+  "automatic_reruns": 0,
+  "reported_total_tokens": 32806,
+  "input_tokens": "Not measured",
+  "output_tokens": "Not measured",
+  "inference_cost_usd": "Not measured",
+  "status": "FAIL",
+  "screenshots_saved": 7,
+  "final_model_response": "Thought: I see that the Google search page is already open, and the next step is to visit the target website. I need to click on the address bar at the top of the browser so that I can enter the URL for the login page. Let me go ahead and click on the address bar to get ready to type in the website address.\nAction: click(start_box='(1300,49)')",
+  "complete_final_answer": false,
+  "observed_same_run_retry_invocations": 1,
+  "classification": "FAIL",
+  "deadline_watchdog_triggered": false,
+  "watchdog_disarmed_after_terminal": true,
+  "manual_agent_corrections": 0,
+  "verification_file": "verification.json",
+  "timeout_messages": [
+    "Request timed out."
+  ],
+  "returned_prediction_after_timeout": true
+}

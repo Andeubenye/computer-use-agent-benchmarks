@@ -1,0 +1,81 @@
+{
+  "http_status": 200,
+  "body": {
+    "sessionId": "id-ee28d2092e89",
+    "status": "running",
+    "events": [
+      {
+        "type": "reasoning-start",
+        "id": "1792261698679-assistant-wbcfz4n454"
+      },
+      {
+        "type": "reasoning-delta",
+        "id": "1792261698679-assistant-wbcfz4n454",
+        "delta": "I see the labels dialog is still open - clicking the option didn't close it. Let me look at what buttons are available to apply the filter and close the dialog.\n\n"
+      },
+      {
+        "type": "reasoning-end",
+        "id": "1792261698679-assistant-wbcfz4n454"
+      },
+      {
+        "type": "tool-input-start",
+        "toolCallId": "1792261743690-tool-abzc2tljq8v",
+        "toolName": "execute"
+      },
+      {
+        "type": "tool-input-available",
+        "toolCallId": "1792261743690-tool-abzc2tljq8v",
+        "toolName": "execute",
+        "input": {
+          "title": "Looking at the labels dialog for apply/close buttons",
+          "code": "// Check the outline for the labels dialog content more carefully\nvar snap = await page.snapshot()\n// Find any dialog close or apply buttons\nconsole.log(snap.snapshot.grep(\"dialog\", { context: 5 }))\nconsole.log(snap.snapshot.grep(\"enhancement\", { context: 3 }))\n"
+        }
+      },
+      {
+        "type": "data-progress",
+        "data": {
+          "text": "Looking at the labels dialog for apply/close buttons",
+          "tool": "execute"
+        }
+      }
+    ],
+    "text": "",
+    "cursor": "eyJ0dXJuIjoxNzkyMjYxNTE2NjA5LCJzZWVuIjpbIjE3OTIyNjE1MzIwMjItdG9vbC1veGc1amZ0bDl3IiwiMTc5MjI2MTUzMzg5Ni1hc3Npc3RhbnQtemZwaDJmM2tzM28iLCIxNzkyMjYxNjQ4NzI0LXRvb2wtaTZ1MGwxdjd2dyIsIjE3OTIyNjE2Mzc5MzUtYXNzaXN0YW50LTNjbW1pZmYxaGt3IiwiMTc5MjI2MTY2NzMyMS10b29sLXQ5dXJ6b3J5NHhkIiwiMTc5MjI2MTY1MzMwNy1hc3Npc3RhbnQtbTV1NGVuMmRxbCIsIjE3OTIyNjE2OTQzNTctdG9vbC03NmplbHcwbTZwaSIsIjE3OTIyNjE2NzU1MDYtYXNzaXN0YW50LTBhbTJmYjlheHJwIiwiMTc5MjI2MTY5ODY3OS1hc3Npc3RhbnQtd2JjZno0bjQ1NCIsIjE3OTIyNjE3NDM2OTAtdG9vbC1hYnpjMnRsanE4diJdLCJwcm9nIjp7IjE3OTIyNjE2NDkxMjYtcmVzdWx0LXJwczRtbGhxMmo4IjoxLCIxNzkyMjYxNjY3NzExLXJlc3VsdC0yeDB6YmhtcG50bCI6MSwiMTc5MjI2MTY5NDc5NC1yZXN1bHQtZzA4MDN5ejh0OTciOjJ9fQ",
+    "usage": {
+      "inputTokens": 17637,
+      "outputTokens": 1450,
+      "cacheReadTokens": 194304,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 5,
+      "byModel": {
+        "openrouter-deepseek/deepseek-v4-flash": {
+          "inputTokens": 17637,
+          "outputTokens": 1450,
+          "cacheReadTokens": 194304,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 5
+        }
+      }
+    },
+    "sessionUsage": {
+      "inputTokens": 17637,
+      "outputTokens": 1450,
+      "cacheReadTokens": 194304,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 5,
+      "byModel": {
+        "openrouter-deepseek/deepseek-v4-flash": {
+          "inputTokens": 17637,
+          "outputTokens": 1450,
+          "cacheReadTokens": 194304,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 5
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "utc": "2026-10-22T10:30:42.973072+00:00",
+  "operation": "RESUME, not reset",
+  "completed": true,
+  "new_paid_attempts_this_resume": [
+    "claude/task-5/attempt-2"
+  ],
+  "existing_finished_runs_verified_without_repeat": [
+    "openai/task-4",
+    "openai/task-5"
+  ],
+  "no_further_model_requests": true,
+  "estimated_cumulative_usd": 3.6676817,
+  "remaining_of_original_seven_usd": 3.3323183,
+  "offline_cases_passed": 21,
+  "independent_regrades_match": 11,
+  "native_run_records_reconciled": 13,
+  "original_evidence_manifest_unchanged": true,
+  "ui_tars_operated": false,
+  "sai_requests_this_resume": 0,
+  "fixtures_regenerated_this_resume": false,
+  "harness_rebuilt_this_resume": false,
+  "publication_blockers": [
+    "Existing publication repository has no Git remote configured.",
+    "Existing gh credential returns HTTP 401; no new authentication or account setup attempted."
+  ]
+}

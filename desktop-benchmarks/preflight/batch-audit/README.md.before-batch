@@ -1,0 +1,11 @@
+# Desktop CSV computer-use benchmark
+
+Status: paused pending API-key rotation and secure configuration. No agent has completed and independently passed all five task requirements. This package is separate from earlier browser benchmarks, which remain unchanged.
+
+Read [RESULTS.md](RESULTS.md), [COMPARISON.md](COMPARISON.md), and [METHODOLOGY.md](METHODOLOGY.md). Raw provider responses, events, errors, usage, and screenshots are preserved under `logs/` and `screenshots/`. The corrected CSV is an actual Claude-generated artifact in `outputs/claude/`; it is not a grader-created substitute.
+
+The request pause is enforced by `preflight/user-pause.json` and `scripts/run_native.py`. Do not remove the pause or automatically resume. Chat-exposed credentials must first be revoked/rotated by their owner and configured through a secure local environment or credential store. Never paste replacement keys into chat, logs, source, or this package. The temporary RAM-only broker was terminated; see `preflight/credential-shutdown.json`.
+
+The $7 total cap remains. Estimated usage so far is $0.286748, including the failed first Claude attempt. Costs are not reconciled invoices. There are no purchases or paid infrastructure deployments in this batch. OpenAI must use its official native Responses computer tool when execution is permitted; it has not yet been run.
+
+Do not publish raw local evidence without reviewing provider request identifiers and account metadata for privacy. No API-key values are intentionally stored in this folder.

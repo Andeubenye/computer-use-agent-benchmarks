@@ -1,0 +1,1 @@
+Reference snapshots of executed orchestration/adapters. They are retained for audit, not configured as runnable launchers from this copied folder. Credentials are intentionally omitted. The original native harness files were read and reused without edits; runtime task values came from preparation/tasks.json.

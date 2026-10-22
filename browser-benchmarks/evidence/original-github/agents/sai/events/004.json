@@ -1,0 +1,29 @@
+{
+  "http_status": 200,
+  "elapsed_seconds": 1.0823898749986256,
+  "body": {
+    "sessionId": "id-888676afd25a",
+    "status": "running",
+    "events": [],
+    "text": "",
+    "cursor": "eyJ0dXJuIjoxNzkyMjQ4NTcxODg1LCJzZWVuIjpbXSwicHJvZyI6e319",
+    "usage": {
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 0,
+      "byModel": {}
+    },
+    "sessionUsage": {
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 0,
+      "byModel": {}
+    }
+  }
+}

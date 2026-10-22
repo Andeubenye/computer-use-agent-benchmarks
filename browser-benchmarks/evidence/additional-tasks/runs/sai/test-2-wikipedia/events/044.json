@@ -1,0 +1,88 @@
+{
+  "http_status": 200,
+  "body": {
+    "sessionId": "id-d70b1706f18d",
+    "status": "running",
+    "events": [
+      {
+        "type": "reasoning-start",
+        "id": "1792261050289-assistant-gbhvty5jvj9"
+      },
+      {
+        "type": "reasoning-delta",
+        "id": "1792261050289-assistant-gbhvty5jvj9",
+        "delta": "I have Grace Hopper. Now let me search for Alan Kay.\n\n\n\n"
+      },
+      {
+        "type": "reasoning-end",
+        "id": "1792261050289-assistant-gbhvty5jvj9"
+      },
+      {
+        "type": "tool-input-start",
+        "toolCallId": "1792261057931-tool-u3ucoyc18tl",
+        "toolName": "execute"
+      },
+      {
+        "type": "tool-input-available",
+        "toolCallId": "1792261057931-tool-u3ucoyc18tl",
+        "toolName": "execute",
+        "input": {
+          "title": "Searching for Alan Kay on Wikipedia",
+          "code": "await page.type({ ref: \"e24\", text: \"Alan Kay\", submit: true })\nawait wait({ waitTime: 2 })\nvar snap = await page.snapshot()\nvar kayBorn = snap.snapshot.grep(\"Born\", { context: 2 })\nconsole.log(kayBorn)\nvar kayUrl = await page.url()\nconsole.log(\"URL: \" + kayUrl)\n"
+        }
+      },
+      {
+        "type": "data-progress",
+        "data": {
+          "text": "Searching for Alan Kay on Wikipedia",
+          "tool": "execute"
+        }
+      },
+      {
+        "type": "data-progress",
+        "data": {
+          "text": "[Guardrails] ✅ keypress_enter: allow (score=0) text=\"Alan Kay\" — score=0",
+          "tool": "execute"
+        }
+      }
+    ],
+    "text": "",
+    "cursor": "eyJ0dXJuIjoxNzkyMjYwODY5ODU4LCJzZWVuIjpbIjE3OTIyNjA4ODIzMzctdG9vbC13OTcxM2U5YTFtaiIsIjE3OTIyNjA4NzQ1MzEtYXNzaXN0YW50LW9ycWZoZXg4ZDUiLCIxNzkyMjYwODg0NzE1LWFzc2lzdGFudC0yNHJrNmJ3N20ycCIsIjE3OTIyNjA5NDYxMTYtdG9vbC10anY1cDA0djUiLCIxNzkyMjYwOTM3OTUyLWFzc2lzdGFudC13YzE3NjNldzQzbCIsIjE3OTIyNjA5NTUwNTAtYXNzaXN0YW50LXR1YTk5Z3UycGFtIiwiMTc5MjI2MDk2Njg5MC10b29sLW1iZjIxZ3Nsa3hzIiwiMTc5MjI2MDk3MjM4NC1hc3Npc3RhbnQtamV5cmFtN2JocyIsIjE3OTIyNjEwMTI5MDAtdG9vbC05dG13dDV2OWl2dCIsIjE3OTIyNjEwMzA3NzAtdG9vbC1xdWJpdmx0Ym1iOSIsIjE3OTIyNjEwMjA5NDEtYXNzaXN0YW50LTRvejVodHFudngiLCIxNzkyMjYxMDQ0ODUyLXRvb2wtODBmd21zNGswZ3YiLCIxNzkyMjYxMDM2MjM5LWFzc2lzdGFudC04MGJrZGJubnk0aiIsIjE3OTIyNjEwNTAyODktYXNzaXN0YW50LWdiaHZ0eTVqdmo5IiwiMTc5MjI2MTA1NzkzMS10b29sLXUzdWNveWMxOHRsIl0sInByb2ciOnsiMTc5MjI2MDk0NjY1Mi1yZXN1bHQtdjc0aHhibGpreiI6MSwiMTc5MjI2MDk2NzQ2OC1yZXN1bHQteHBoMjV6MjIxNG8iOjEsIjE3OTIyNjEwMTM0MDAtcmVzdWx0LXQ1dGxmY3JqaGZiIjo0LCIxNzkyMjYxMDMxMjcyLXJlc3VsdC0zaW1tNHg2bDc3diI6MywiMTc5MjI2MTA0NTQ3NC1yZXN1bHQtOG51aWU4YnA5bCI6NCwiMTc5MjI2MTA1ODQyNS1yZXN1bHQtajJhdGwyNXZmbG0iOjF9fQ",
+    "usage": {
+      "inputTokens": 140870,
+      "outputTokens": 1701,
+      "cacheReadTokens": 156416,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 7,
+      "byModel": {
+        "openrouter-deepseek/deepseek-v4-flash": {
+          "inputTokens": 140870,
+          "outputTokens": 1701,
+          "cacheReadTokens": 156416,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 7
+        }
+      }
+    },
+    "sessionUsage": {
+      "inputTokens": 140870,
+      "outputTokens": 1701,
+      "cacheReadTokens": 156416,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 7,
+      "byModel": {
+        "openrouter-deepseek/deepseek-v4-flash": {
+          "inputTokens": 140870,
+          "outputTokens": 1701,
+          "cacheReadTokens": 156416,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 7
+        }
+      }
+    }
+  }
+}

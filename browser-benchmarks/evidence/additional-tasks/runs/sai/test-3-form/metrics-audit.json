@@ -1,0 +1,129 @@
+{
+  "agent": "sai",
+  "task": "test-3-form",
+  "original_record_preserved": true,
+  "checked_at": "2026-10-17T19:00:04.062091+00:00",
+  "last_stream_usage": {
+    "inputTokens": 47258,
+    "outputTokens": 3768,
+    "cacheReadTokens": 558336,
+    "cacheWriteTokens": 0,
+    "costUsd": 0,
+    "modelCalls": 16,
+    "byModel": {
+      "openrouter-deepseek/deepseek-v4-flash": {
+        "inputTokens": 46681,
+        "outputTokens": 3764,
+        "cacheReadTokens": 558336,
+        "cacheWriteTokens": 0,
+        "costUsd": 0,
+        "modelCalls": 15
+      },
+      "vertex-gemini-3-flash-preview": {
+        "inputTokens": 577,
+        "outputTokens": 4,
+        "cacheReadTokens": 0,
+        "cacheWriteTokens": 0,
+        "costUsd": 0,
+        "modelCalls": 1
+      }
+    }
+  },
+  "model_routes_observed": [
+    "openrouter-deepseek/deepseek-v4-flash",
+    "vertex-gemini-3-flash-preview"
+  ],
+  "provider_internal_retries": null,
+  "fresh_conversation": true,
+  "fresh_desktop": false,
+  "final_provider_turn": {
+    "turnId": "id-667198b2c324",
+    "sessionId": "id-71dc1af9c730",
+    "machineId": "free-6WRf2PabNOOC8BV7CIDNKs0ckre2",
+    "status": "succeeded",
+    "output": "All fields have been successfully filled and verified. Here's the summary:\n\n## ✅ Form Completion Report\n\n| Field | Value | Status |\n|---|---|---|\n| **First name** | Alex | ✅ Filled |\n| **Last name** | Morgan | ✅ Filled |\n| **Email** | alex.morgan@example.com | ✅ Filled |\n| **Phone** | +1 202-555-0147 | ✅ Filled |\n| **Company** | Northstar Labs | ✅ Filled |\n| **Job title** | Product Manager | ✅ Filled |\n| **Country** | United States | ✅ Selected from dropdown |\n| **Preferred contact method** | Email (radio) | ✅ Selected |\n| **Message** | This is a benchmark. | ✅ Filled |\n| **Newsletter checkbox** | Unchecked | ✅ As instructed |\n| **Submit button** | Not pressed | ✅ As instructed |\n\n**All fields were completed successfully.** No fields could not be filled. The form is fully populated and visible on screen, and the Submit button was not pressed as required.",
+    "reason_code": null,
+    "usage": {
+      "inputTokens": 46681,
+      "outputTokens": 3764
+    },
+    "recordTrajectory": true,
+    "trajectory": {
+      "recorded": true,
+      "url": "/v1/agents/turns/id-667198b2c324/trajectory"
+    }
+  },
+  "screenshot_payloads": [
+    {
+      "original": "002.jpg",
+      "viewable": "002.recovered.jpg",
+      "valid_image_signature": true
+    },
+    {
+      "original": "003.jpg",
+      "viewable": "003.recovered.jpg",
+      "valid_image_signature": true
+    },
+    {
+      "original": "001.jpg",
+      "viewable": "001.recovered.jpg",
+      "valid_image_signature": true
+    },
+    {
+      "original": "014.jpg",
+      "viewable": "014.recovered.jpg",
+      "valid_image_signature": true
+    },
+    {
+      "original": "004.jpg",
+      "viewable": "004.recovered.jpg",
+      "valid_image_signature": true
+    },
+    {
+      "original": "010.jpg",
+      "viewable": "010.recovered.jpg",
+      "valid_image_signature": true
+    },
+    {
+      "original": "011.jpg",
+      "viewable": "011.recovered.jpg",
+      "valid_image_signature": true
+    },
+    {
+      "original": "005.jpg",
+      "viewable": "005.recovered.jpg",
+      "valid_image_signature": true
+    },
+    {
+      "original": "013.jpg",
+      "viewable": "013.recovered.jpg",
+      "valid_image_signature": true
+    },
+    {
+      "original": "007.jpg",
+      "viewable": "007.recovered.jpg",
+      "valid_image_signature": true
+    },
+    {
+      "original": "006.jpg",
+      "viewable": "006.recovered.jpg",
+      "valid_image_signature": true
+    },
+    {
+      "original": "012.jpg",
+      "viewable": "012.recovered.jpg",
+      "valid_image_signature": true
+    },
+    {
+      "original": "008.jpg",
+      "viewable": "008.recovered.jpg",
+      "valid_image_signature": true
+    },
+    {
+      "original": "009.jpg",
+      "viewable": "009.recovered.jpg",
+      "valid_image_signature": true
+    }
+  ],
+  "viewable_screenshot_count": 14
+}

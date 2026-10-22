@@ -1,0 +1,38 @@
+{
+  "checked_at_utc": "2026-10-20T22:05:17.024670+00:00",
+  "running_ui_tars_pid": 39900,
+  "original_ui_tars_process_still_running": true,
+  "running_executable": "<PROJECT_ROOT>/work/UI-TARS-desktop-v0.2.4-2026-10-20/node_modules/electron/dist/Electron.app/Contents/MacOS/Electron",
+  "enabled_entry_bundle": "<PROJECT_ROOT>/work/UI-TARS-desktop-v0.2.4-2026-10-20/node_modules/electron/dist/Electron.app",
+  "enabled_entry_location_verification": "System Settings Electron context menu: Show in Finder opened the fresh checkout dist directory with its Electron.app",
+  "path_mismatch_found": false,
+  "bundle_identifier": "com.github.Electron",
+  "electron_version": "34.1.1",
+  "code_signing": {
+    "identifier": "Electron",
+    "kind": "ad-hoc, linker-signed",
+    "team_identifier": null
+  },
+  "existing_app_fresh_permission_result": {
+    "checked_at_local": "2026-10-20 23:03:39.986",
+    "screen_capture": true,
+    "accessibility": true
+  },
+  "same_binary_isolated_probe": {
+    "pid": 43242,
+    "accessibility": true,
+    "native_accessibility": "authorized",
+    "native_screen": "authorized",
+    "prompting_enabled": false
+  },
+  "tcc_databases": "read-only access unavailable; no escalation or reset attempted",
+  "permission_changes_by_this_audit": 0,
+  "permission_resets": 0,
+  "source_changes": 0,
+  "existing_ui_tars_restarts": 0,
+  "model_requests": 0,
+  "hf_management_requests": 0,
+  "hf_state_changes": 0,
+  "inference": false,
+  "fix_needed": "No identity correction needed; existing app recognized granted permissions after ordinary UI permission refresh."
+}

@@ -1,0 +1,81 @@
+{
+  "http_status": 200,
+  "body": {
+    "sessionId": "id-d70b1706f18d",
+    "status": "running",
+    "events": [
+      {
+        "type": "reasoning-start",
+        "id": "1792260972384-assistant-jeyram7bhs"
+      },
+      {
+        "type": "reasoning-delta",
+        "id": "1792260972384-assistant-jeyram7bhs",
+        "delta": "Good, I have Ada Lovelace's data. Now let me go back and get Alan Turing's details, then continue with Grace Hopper, Alan Kay, and Margaret Hamilton.\n\n"
+      },
+      {
+        "type": "reasoning-end",
+        "id": "1792260972384-assistant-jeyram7bhs"
+      },
+      {
+        "type": "tool-input-start",
+        "toolCallId": "1792261012900-tool-9tmwt5v9ivt",
+        "toolName": "execute"
+      },
+      {
+        "type": "tool-input-available",
+        "toolCallId": "1792261012900-tool-9tmwt5v9ivt",
+        "toolName": "execute",
+        "input": {
+          "title": "Getting Alan Turing's birth details from his article",
+          "code": "// Navigate to Alan Turing\nawait page.type({ ref: \"e24\", text: \"Alan Turing\", submit: true })\nawait wait({ waitTime: 2 })\nvar snap = await page.snapshot()\n\n// Extract birth info from the infobox\nvar turingBirth = snap.snapshot.grep(\"Born\", { context: 2 })\nconsole.log(turingBirth)\n\nvar turingDied = snap.snapshot.grep(\"Died\", { context: 1 })\nconsole.log(turingDied)\n\n// Get the URL\nvar url = await page.url()\nconsole.log(\"URL: \" + url)\n"
+        }
+      },
+      {
+        "type": "data-progress",
+        "data": {
+          "text": "Getting Alan Turing's birth details from his article",
+          "tool": "execute"
+        }
+      }
+    ],
+    "text": "",
+    "cursor": "eyJ0dXJuIjoxNzkyMjYwODY5ODU4LCJzZWVuIjpbIjE3OTIyNjA4ODIzMzctdG9vbC13OTcxM2U5YTFtaiIsIjE3OTIyNjA4NzQ1MzEtYXNzaXN0YW50LW9ycWZoZXg4ZDUiLCIxNzkyMjYwODg0NzE1LWFzc2lzdGFudC0yNHJrNmJ3N20ycCIsIjE3OTIyNjA5NDYxMTYtdG9vbC10anY1cDA0djUiLCIxNzkyMjYwOTM3OTUyLWFzc2lzdGFudC13YzE3NjNldzQzbCIsIjE3OTIyNjA5NTUwNTAtYXNzaXN0YW50LXR1YTk5Z3UycGFtIiwiMTc5MjI2MDk2Njg5MC10b29sLW1iZjIxZ3Nsa3hzIiwiMTc5MjI2MDk3MjM4NC1hc3Npc3RhbnQtamV5cmFtN2JocyIsIjE3OTIyNjEwMTI5MDAtdG9vbC05dG13dDV2OWl2dCJdLCJwcm9nIjp7IjE3OTIyNjA5NDY2NTItcmVzdWx0LXY3NGh4Ymxqa3oiOjEsIjE3OTIyNjA5Njc0NjgtcmVzdWx0LXhwaDI1ejIyMTRvIjoxfX0",
+    "usage": {
+      "inputTokens": 93050,
+      "outputTokens": 942,
+      "cacheReadTokens": 77056,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 4,
+      "byModel": {
+        "openrouter-deepseek/deepseek-v4-flash": {
+          "inputTokens": 93050,
+          "outputTokens": 942,
+          "cacheReadTokens": 77056,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 4
+        }
+      }
+    },
+    "sessionUsage": {
+      "inputTokens": 93050,
+      "outputTokens": 942,
+      "cacheReadTokens": 77056,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 4,
+      "byModel": {
+        "openrouter-deepseek/deepseek-v4-flash": {
+          "inputTokens": 93050,
+          "outputTokens": 942,
+          "cacheReadTokens": 77056,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 4
+        }
+      }
+    }
+  }
+}

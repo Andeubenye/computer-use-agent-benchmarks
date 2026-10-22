@@ -1,0 +1,329 @@
+{
+  "run_id": "openai_run_1",
+  "status": "completed_unverified",
+  "model": "gpt-6.1-sol",
+  "native_tool": "computer",
+  "native_computer_call_observed": true,
+  "started_at": "2026-10-17T18:30:57.413667+00:00",
+  "finished_at": "2026-10-17T18:31:38.790310+00:00",
+  "wall_clock_seconds": 41.272,
+  "api_request_attempts": 6,
+  "responses_succeeded": 6,
+  "model_access_requests": 1,
+  "computer_tool_calls": 5,
+  "computer_actions": 8,
+  "retries": 0,
+  "errors": [],
+  "error": null,
+  "final_output": null,
+  "final_output_text": "Confirmation code: **MN-47-QK-92**\n\nDismissed the announcement and used the legitimate checklist path: **Standard review → Checklist reviewed → Continue to step 2**. Step 2 remains visible. No errors or limitations encountered.",
+  "raw_usage": [
+    {
+      "input_tokens": 2938,
+      "input_tokens_details": {
+        "cache_write_tokens": 2935,
+        "cached_tokens": 0
+      },
+      "output_tokens": 15,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 2953
+    },
+    {
+      "input_tokens": 4691,
+      "input_tokens_details": {
+        "cache_write_tokens": 1753,
+        "cached_tokens": 2935
+      },
+      "output_tokens": 47,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 4738
+    },
+    {
+      "input_tokens": 6476,
+      "input_tokens_details": {
+        "cache_write_tokens": 1785,
+        "cached_tokens": 4688
+      },
+      "output_tokens": 31,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 6507
+    },
+    {
+      "input_tokens": 8245,
+      "input_tokens_details": {
+        "cache_write_tokens": 1769,
+        "cached_tokens": 6473
+      },
+      "output_tokens": 33,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 8278
+    },
+    {
+      "input_tokens": 10016,
+      "input_tokens_details": {
+        "cache_write_tokens": 1771,
+        "cached_tokens": 8242
+      },
+      "output_tokens": 47,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10063
+    },
+    {
+      "input_tokens": 11801,
+      "input_tokens_details": {
+        "cache_write_tokens": 1785,
+        "cached_tokens": 10013
+      },
+      "output_tokens": 53,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 11854
+    }
+  ],
+  "api_requests": [
+    {
+      "number": 1,
+      "attempt": 1,
+      "started_at": "2026-10-17T18:31:05.664623+00:00",
+      "model": "gpt-6.1-sol",
+      "reserved_usd": 0.060014,
+      "status": "success",
+      "response_id": "provider-id-63456f685dca",
+      "returned_model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 2938,
+        "input_tokens_details": {
+          "cache_write_tokens": 2935,
+          "cached_tokens": 0
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 2953
+      }
+    },
+    {
+      "number": 2,
+      "attempt": 1,
+      "started_at": "2026-10-17T18:31:12.156312+00:00",
+      "model": "gpt-6.1-sol",
+      "reserved_usd": 0.065273,
+      "status": "success",
+      "response_id": "provider-id-9fe1d5303865",
+      "returned_model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 4691,
+        "input_tokens_details": {
+          "cache_write_tokens": 1753,
+          "cached_tokens": 2935
+        },
+        "output_tokens": 47,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 4738
+      }
+    },
+    {
+      "number": 3,
+      "attempt": 1,
+      "started_at": "2026-10-17T18:31:16.686476+00:00",
+      "model": "gpt-6.1-sol",
+      "reserved_usd": 0.070628,
+      "status": "success",
+      "response_id": "provider-id-1abb664afddc",
+      "returned_model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 6476,
+        "input_tokens_details": {
+          "cache_write_tokens": 1785,
+          "cached_tokens": 4688
+        },
+        "output_tokens": 31,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 6507
+      }
+    },
+    {
+      "number": 4,
+      "attempt": 1,
+      "started_at": "2026-10-17T18:31:23.619281+00:00",
+      "model": "gpt-6.1-sol",
+      "reserved_usd": 0.075935,
+      "status": "success",
+      "response_id": "provider-id-0810f52e52d9",
+      "returned_model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 8245,
+        "input_tokens_details": {
+          "cache_write_tokens": 1769,
+          "cached_tokens": 6473
+        },
+        "output_tokens": 33,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 8278
+      }
+    },
+    {
+      "number": 5,
+      "attempt": 1,
+      "started_at": "2026-10-17T18:31:27.430110+00:00",
+      "model": "gpt-6.1-sol",
+      "reserved_usd": 0.081248,
+      "status": "success",
+      "response_id": "provider-id-cb759fb3556e",
+      "returned_model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 10016,
+        "input_tokens_details": {
+          "cache_write_tokens": 1771,
+          "cached_tokens": 8242
+        },
+        "output_tokens": 47,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 10063
+      }
+    },
+    {
+      "number": 6,
+      "attempt": 1,
+      "started_at": "2026-10-17T18:31:33.678222+00:00",
+      "model": "gpt-6.1-sol",
+      "reserved_usd": 0.086603,
+      "status": "success",
+      "response_id": "provider-id-e0a4e70d6757",
+      "returned_model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 11801,
+        "input_tokens_details": {
+          "cache_write_tokens": 1785,
+          "cached_tokens": 10013
+        },
+        "output_tokens": 53,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 11854
+      }
+    }
+  ],
+  "estimated_cost": {
+    "label": "ESTIMATE — model token cost, not an invoice",
+    "currency": "USD",
+    "estimated_usd": 0.0350261,
+    "source": "https://developers.openai.com/api/docs/pricing",
+    "rates_checked_on": "2026-10-16",
+    "service_tier": "default (Standard)",
+    "per_response": [
+      {
+        "estimated_usd": 0.0074935,
+        "rates_per_million_tokens": {
+          "input": 2.0,
+          "cached": 0.1,
+          "cache_write": 2.5,
+          "output": 10.0
+        }
+      },
+      {
+        "estimated_usd": 0.005152,
+        "rates_per_million_tokens": {
+          "input": 2.0,
+          "cached": 0.1,
+          "cache_write": 2.5,
+          "output": 10.0
+        }
+      },
+      {
+        "estimated_usd": 0.0052473,
+        "rates_per_million_tokens": {
+          "input": 2.0,
+          "cached": 0.1,
+          "cache_write": 2.5,
+          "output": 10.0
+        }
+      },
+      {
+        "estimated_usd": 0.0054058000000000005,
+        "rates_per_million_tokens": {
+          "input": 2.0,
+          "cached": 0.1,
+          "cache_write": 2.5,
+          "output": 10.0
+        }
+      },
+      {
+        "estimated_usd": 0.0057277,
+        "rates_per_million_tokens": {
+          "input": 2.0,
+          "cached": 0.1,
+          "cache_write": 2.5,
+          "output": 10.0
+        }
+      },
+      {
+        "estimated_usd": 0.0059998000000000004,
+        "rates_per_million_tokens": {
+          "input": 2.0,
+          "cached": 0.1,
+          "cache_write": 2.5,
+          "output": 10.0
+        }
+      }
+    ],
+    "token_totals": {
+      "input_tokens": 44167,
+      "cached_input_tokens": 32351,
+      "cache_write_tokens": 11798,
+      "output_tokens": 226,
+      "reasoning_tokens": 0,
+      "total_tokens": 44393
+    },
+    "assumptions": [
+      "Reasoning tokens are included in output, not billed twice.",
+      "Screenshot input is included in API-reported input tokens.",
+      "Excludes local compute, taxes, and any charges for failed requests without usage.",
+      "No separate computer-tool charge added: none itemized for this model in the published rate table."
+    ]
+  },
+  "uncertain_cost_reserved_usd": 0,
+  "browser": {
+    "engine": "Chromium",
+    "version": "156.0.8078.4",
+    "fresh_profile": true,
+    "viewport": [
+      1440,
+      1000
+    ],
+    "timezone": "UTC",
+    "headless": true,
+    "state_preserved_during_run": true
+  },
+  "verification": {
+    "status": "pending",
+    "agent_has_access_to_verification_data": false
+  },
+  "sources": {
+    "documentation": "https://developers.openai.com/api/docs/guides/tools-computer-use/",
+    "pricing": "https://developers.openai.com/api/docs/pricing",
+    "sample": "https://github.com/openai/openai-cua-sample-app",
+    "sample_commit": "f2a3dc523ae406f9b704f9a420a05402a63b4522"
+  }
+}

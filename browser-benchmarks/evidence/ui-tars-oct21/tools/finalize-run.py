@@ -1,0 +1,10 @@
+import sys,json,re,datetime,pathlib
+p=pathlib.Path(sys.argv[1]);s=(p/'execution-trace.txt').read_text();sub=json.loads((p/'submission.json').read_text())
+m=re.search(r'\[([^\]]+)\] \[info\]\s+\[GUIAgent\] Finally: status (\S+)',s)
+if not m:raise SystemExit('No terminal agent status; refusing finalization')
+finish=datetime.datetime.fromisoformat(m[1]).replace(tzinfo=datetime.timezone(datetime.timedelta(hours=1)));start=datetime.datetime.fromisoformat(sub['submitted_at_utc'].replace('Z','+00:00'))
+cost=re.search(r'\[runAgent Totoal cost\]:\s+([\d.]+) s',s);tok=re.search(r'>>> totalTokens: (\d+), totalTime: (\d+), loopCnt: (\d+)',s)
+responses=re.findall(r'\[GUIAgent\] Response: (.*?)(?=\n\[\d{4}-|$)',s,re.S)
+actions=re.findall(r'\[GUIAgent\] Action: (\w+)',s)
+record={'task':sub['task_id'],'submitted':True,'attempts':1,'start_utc':start.isoformat(),'finish_utc':finish.astimezone(datetime.timezone.utc).isoformat(),'duration_seconds':round((finish-start).total_seconds(),3),'agent_loop_seconds':float(cost[1]) if cost else 'Not measured','terminal_status':m[2],'actions':len(actions),'action_types':actions,'sdk_invocations':s.count('[UITarsModel] invoke:'),'model_responses':len(responses),'timeouts':len(re.findall(r'\[UITarsModel\] error \{\s+name: \'Error\',\s+message: \'Request timed out\.',s)),'automatic_reruns':0,'reported_total_tokens':int(tok[1]) if tok else 'Not measured','input_tokens':'Not measured','output_tokens':'Not measured','inference_cost_usd':'Not measured','status':'FAIL' if m[2]=='error' else 'UNVERIFIED','screenshots_saved':len(list((p/'screenshots').glob('*.png'))),'final_model_response':responses[-1] if responses else 'Not measured','complete_final_answer':'Not established'}
+(p/'record.json').write_text(json.dumps(record,indent=2)+'\n');(p/'final-response.txt').write_text(record['final_model_response']+'\n');print(json.dumps({k:record[k] for k in ['task','duration_seconds','terminal_status','actions','sdk_invocations','timeouts','reported_total_tokens']}))

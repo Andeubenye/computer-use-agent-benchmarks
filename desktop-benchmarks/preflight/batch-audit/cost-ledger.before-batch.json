@@ -1,0 +1,16 @@
+{
+  "budget_cap_usd": 7,
+  "scope": "This desktop CSV benchmark only; excludes earlier unrelated browser benchmarks.",
+  "currency": "USD",
+  "claude_attempt_1_estimated": 0.013434,
+  "claude_attempt_2_estimated": 0.273314,
+  "openai": 0,
+  "sai": 0,
+  "new_paid_infrastructure": 0,
+  "estimated_total": 0.286748,
+  "remaining_estimated_allowance": 6.713252,
+  "provider_invoice_reconciled": false,
+  "source": "Provider-returned token usage times recorded rates ($2/M input, $10/M output); estimates, not invoices.",
+  "paused": true,
+  "no_purchases_or_topups": true
+}

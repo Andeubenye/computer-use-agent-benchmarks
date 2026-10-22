@@ -1,0 +1,9 @@
+I opened each article on English Wikipedia and read the birth details from the infobox. For Turing, Kay and Hamilton the article text also states the birthplace. For Lovelace and Hopper I used the infobox only.
+
+1. **Alan Turing**: born 23 June 1912 in Maida Vale, London, England. https://en.wikipedia.org/wiki/Alan_Turing
+2. **Ada Lovelace**: born 10 December 1815 in London, England. https://en.wikipedia.org/wiki/Ada_Lovelace
+3. **Grace Hopper**: born December 9, 1906 in New York City, U.S. https://en.wikipedia.org/wiki/Grace_Hopper
+4. **Alan Kay**: born May 17, 1940 in Springfield, Massachusetts, U.S. https://en.wikipedia.org/wiki/Alan_Kay
+5. **Margaret Hamilton (software engineer)**: born August 17, 1936 in Paoli, Indiana, U.S. https://en.wikipedia.org/wiki/Margaret_Hamilton_(software_engineer)
+
+Every requested fact was available, and I didn't guess any. Scrolling timed out a couple of times on the Ada Lovelace page, but Page Down worked and the results aren't affected.

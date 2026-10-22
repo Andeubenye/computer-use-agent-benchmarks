@@ -1,0 +1,58 @@
+{
+  "run_id": "20261017T000017Z-7972f15e",
+  "model_requested": "claude-sonnet-5-5",
+  "model_returned": "claude-sonnet-5-5",
+  "tool_version": "computer_toolset_20260801",
+  "sdk_version": "1.15.0",
+  "python_version": "3.12.4",
+  "desktop": {
+    "container_id": "ad6196aab4eb09dc3133ce93f50dd749712de8ae18227f90542157b29917a70f",
+    "image_id": "sha256:195fda83d17d253dbb5d122583fd7d58cdfb13971e16f6fd7c1f73840b07f55d",
+    "resolution": "1024x768",
+    "architecture": "arm64",
+    "browser_version": "Mozilla Firefox 153.5.0esr"
+  },
+  "task_configuration": {
+    "id": "wikipedia-alan-turing-birth-year-v1",
+    "expected_answer": "1912",
+    "answer_match": "single_year",
+    "expected_window_title": "Alan Turing - Wikipedia",
+    "expected_url": "https://en.wikipedia.org/wiki/Alan_Turing",
+    "required_typed_text": "Alan Turing",
+    "record_public_evidence": true
+  },
+  "configured_limits": {
+    "budget_usd": "0.50",
+    "max_steps": 20,
+    "max_actions": 80,
+    "max_tokens": 1024,
+    "max_seconds": 300
+  },
+  "automatic_api_retries": 0,
+  "sdk_method": "client.messages.create",
+  "anthropic_version_header": "2023-06-01",
+  "beta_header": null,
+  "endpoint": "https://api.anthropic.com",
+  "docker_context": "colima-claude-benchmark",
+  "pricing": {
+    "verified_on": "2026-10-17",
+    "input_usd_per_million": "2",
+    "output_usd_per_million": "10",
+    "mode": "standard global synchronous API",
+    "source": "https://platform.claude.com/docs/en/about-claude/pricing"
+  },
+  "system_prompt_sha256": "4ca0730e5a7b00fa1ea6ef98099a2026cca4a46c32db759f6d0bc6d5a8605b62",
+  "source_sha256": {
+    "benchmark/core.py": "2eda59e5d83253b84cb3a07477e74e203605028238526eabf9694b599cae0f9b",
+    "benchmark/desktop.py": "11e937ae56b04604c018393b5bf282352093f7bf4bfe936e02bde0d710833128",
+    "benchmark/evaluation.py": "a212bc36e0e9a059e1c1394b7b2bb862ee36b5e96308914fd076cca5360c30ab",
+    "benchmark/__main__.py": "3a2f0cd96f0c5e2dde1c86f83f8f699c04ada5f0e088043e9ce337f4a3eefb91",
+    "desktop/action.py": "9602806a5b43f6a522f7fb7282b5a9e26426b6c58716f347e906a08093b270b7",
+    "desktop/start.sh": "b3b3c249c1a06d571112a340c27f1fcee4a7a6b16d392c956ee7ed7f2d5959cc",
+    "Dockerfile": "293f89f6fc4bfc317ffca0754963afd7a5958e7abac24d2bc57bc829395840d0",
+    "uv.lock": "6c061792035768aeba03491fa83c73a78b89a2224fdf4657d97121de3b8a3fde",
+    "pyproject.toml": "31ea4b0593eaecd1710e7feef5a013e5b9b22cbca4cde5f07fe74cf26248dba2",
+    "tasks/wikipedia-alan-turing.json": "70a46622b3255ab158a292f15a3fbcffafce42949719a1fe394d14ecead1e0c2"
+  },
+  "additional_paid_trials": 0
+}

@@ -1,0 +1,1 @@
+{"utc": "2026-10-21T22:59:21.893097+00:00", "event": "error", "category": "CalledProcessError", "detail": "Command '['docker', '--context', 'colima-claude-benchmark', 'exec', '-i', 'manicule-additional-claude-2-1', 'tar', '-xf', '-', '-C', '/home/agent/Desktop/benchmark']' returned non-zero exit status 2."}

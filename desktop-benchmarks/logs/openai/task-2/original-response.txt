@@ -1,0 +1,10 @@
+Completed in `/home/agent/Desktop/benchmark/Inbox`.
+
+- **PDFs:** 8 PDFs moved and renamed to `2026-01-INV-1001.pdf` through `2026-01-INV-1008.pdf`, following your mapping.
+- **Images:** 4 PNG files moved; filenames unchanged.
+- **Notes:** 4 TXT files moved; filenames unchanged.
+- **Spreadsheets:** 4 CSV files moved; filenames unchanged.
+
+Verified all **20 files** are present across exactly these four subfolders, with no missing or duplicate files and none left loose in Inbox. Verified all eight PDF names. No file contents were changed.
+
+Incomplete steps: **None.**

@@ -1,0 +1,1 @@
+{"agent": "claude", "reason": "execution_error", "model_requests": 9, "seconds": 106.13, "cost_estimate_usd": 0.22361, "uncertain_reserved_usd": 0, "actions": 49, "errors": ["Desktop executor reported an action error; no automatic retry"]}

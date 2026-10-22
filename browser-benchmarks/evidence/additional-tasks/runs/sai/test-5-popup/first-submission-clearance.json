@@ -1,0 +1,8 @@
+{
+  "prior_enhancement_turn": "id-5d0576d3d818",
+  "post_abort_status": "failed",
+  "terminal_check_evidence": "../test-4-github-enhancement/post-abort-terminal-check.json",
+  "popup_prior_submissions": 0,
+  "this_is_a_distinct_task_not_a_retry": true,
+  "prior_blocked_placeholder_preserved": "pre-submit-blocked-snapshot.json"
+}

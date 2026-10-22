@@ -1,0 +1,25 @@
+{
+  "expected_files_sha256": {
+    "Inbox/PDFs/2026-01-INV-1008.pdf": "9da4353af7e812c9dee6616fecca49762a241c32412b744b61cbb4eb122a387c",
+    "Inbox/PDFs/2026-01-INV-1005.pdf": "c3cba5203e2c39eb70749ef41f991194be76193d883c982905f3747190fc2689",
+    "Inbox/PDFs/2026-01-INV-1004.pdf": "307f3d23198ae9387362bcefba43b828c3dad41e470b51567117e62b7aedca36",
+    "Inbox/PDFs/2026-01-INV-1006.pdf": "64a0b55e451f72b9521429a21844a4903e2fe95079c8664d6524a6656ca4c1e6",
+    "Inbox/Notes/note_04.txt": "c0332361de560ee6ebc6f6608b50eda741e35a16dca7115deb34097083192ac0",
+    "Inbox/Images/photo_04.png": "9c23b232a4bbf3cf584523ee1399e12506f3451fea63825b27e5028388e3e2e3",
+    "Inbox/PDFs/2026-01-INV-1007.pdf": "c8e8fb46db519711439b30733576642cf4280ebf1c2f6261f0cd6d97dbfb8dd5",
+    "Inbox/PDFs/2026-01-INV-1003.pdf": "bad1a0320db9f8b221bd2e9dc89342861bd33ecf296b2d8d812ceac3cb54d59b",
+    "Inbox/Notes/note_01.txt": "2abbab918b3e2db9b3d02d47b55a71ab65fd7238b582e42b825fa9ee6490b040",
+    "Inbox/Images/photo_01.png": "bd066815c315387e55dbe3b84386c0a4876d2b0f68c2c08ea63901ad5529517b",
+    "Inbox/PDFs/2026-01-INV-1002.pdf": "82326887615c2a02aa87acec82615a6e2fb51beb53e28319dab484b3dc1ab3bd",
+    "Inbox/Notes/note_02.txt": "bdd953a3b37f3f5dedc1868dcf358019b7175c198f44ec2f8716c88d07693756",
+    "Inbox/Images/photo_02.png": "b915613a3b54d8a6f95ad86378322288a02257c172e6b6c7810641c418bf3aed",
+    "Inbox/Images/photo_03.png": "2f0738789245451516eefb0d8d89cd5ee7922329342ccfa8222bfeba5d611f7b",
+    "Inbox/Notes/note_03.txt": "00c7f2cdd85e2c8fa32197de9ce741f74f61b03367fd341e4677b526c3a8550b",
+    "Inbox/PDFs/2026-01-INV-1001.pdf": "69dcf8feff995bba3a93b350d9fe16a01b13b4ebe91f0396317e1a66ca6a6b93",
+    "Inbox/Spreadsheets/counts_01.csv": "23e86264d8e11b227a1d39f43c27f3fe1f8145bdbb0033e1be8c805734dcff3c",
+    "Inbox/Spreadsheets/counts_03.csv": "425b6f56ab31bbf48abd136b3a87090923bf868a942f639aa2e65d8bd03311e5",
+    "Inbox/Spreadsheets/counts_02.csv": "0fb6d51952a47fa8ac42987f09e0640a68d08631c67eb4354810479496124f58",
+    "Inbox/Spreadsheets/counts_04.csv": "cae44e3c576746d2ff9e24e1be714a86a2cebc2ba9a392922ad611ea57f1670d"
+  },
+  "file_count": 20
+}

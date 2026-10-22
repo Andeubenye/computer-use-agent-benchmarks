@@ -1,0 +1,28 @@
+run_id,mode,task_sha256,model_requested,model_returned,tool_version,pricing_verified,sdk_version,python_version,host_platform,success,status,grading,wall_seconds,agent_wall_seconds,grading_seconds,api_seconds,count_seconds,action_seconds,steps,api_attempts,token_count_requests,api_requests,api_retries,computer_actions,successful_actions,screenshots,skipped_actions,input_tokens,output_tokens,cache_creation_input_tokens,cache_read_input_tokens,total_input_tokens,api_cost_usd,uncertain_cost_reserved_usd,billing_uncertain,errors,failed_actions,recovery_attempts,last_stop_reason,error_category,error_http_status,final_answer,partial_output,answer_matches,page_title_matches,page_url_matches,verified_page_url,required_text_typed,grader_computer_actions,budget_usd,max_steps,max_actions,max_tokens,max_seconds,final_answer_sha256
+20261017T182429Z-450aecd5,paid_api,d1fc4d9903c914757d88cb6133bac64ef66243a4b7c4935c7ec40d756646120a,claude-sonnet-5-5,claude-sonnet-5-5,computer_toolset_20260801,2026-10-17,1.15.0,3.12.4,Darwin,False,needs_review,manual_review_required,113.699918,113.699621,0.0,42.057911,16.424076,54.961944,10,10,10,20,0,51,51,15,0,109702,3522,0,0,109702,0.254624,0,False,0,0,0,end_turn,,,"I opened the issues list on GitHub with the filter `is:issue state:open label:enhancement sort:updated-desc`. GitHub showed 25 open issues, and the search box displayed the filter. The first five are below. The updated dates come from the hover tooltips on each ""Updated …"" text, and all are in UTC.
+
+| # | Issue | Title | URL | Last updated (tooltip) | Relative |
+|---|---|---|---|---|---|
+| 1 | #6119 | Feature Request: Pre-execution guardrails and security middleware for subshell/CLI actions | https://github.com/browser-use/browser-use/issues/6119 | Oct 17, 2026, 5:07 PM UTC | 1h ago |
+| 2 | #6109 | [Feature]: Outbound Web Bot Auth signing for navigated requests | https://github.com/browser-use/browser-use/issues/6109 | Oct 16, 2026, 7:13 PM UTC | 1d ago |
+| 3 | #6031 | Known-answer false-success regression cases (403 block, disabled click, 6 more) | https://github.com/browser-use/browser-use/issues/6031 | Oct 16, 2026, 6:13 PM UTC | 1d ago |
+| 4 | #4798 | Feature Request: Support agent.pause() within tool calls | https://github.com/browser-use/browser-use/issues/4798 | Oct 16, 2026, 9:48 AM UTC | 1d ago |
+| 5 | #5057 | Feature Request: RFC: Standardized Evaluation/Benchmarking Harness for LLM Tool Calling | https://github.com/browser-use/browser-use/issues/5057 | Oct 15, 2026, 6:58 PM UTC | 2d ago |
+
+- **Dates:** These are last-updated dates, not creation dates. The tooltips on #6109, #6031 and #4798 were each read once and not cross-checked against a second hover.
+- **URLs:** I built them from the issue numbers shown in the list (the `browser-use/browser-use#NNNN` labels). I did not open each issue page.
+
+I made no changes to the repository and did not log in.","I opened the issues list on GitHub with the filter `is:issue state:open label:enhancement sort:updated-desc`. GitHub showed 25 open issues, and the search box displayed the filter. The first five are below. The updated dates come from the hover tooltips on each ""Updated …"" text, and all are in UTC.
+
+| # | Issue | Title | URL | Last updated (tooltip) | Relative |
+|---|---|---|---|---|---|
+| 1 | #6119 | Feature Request: Pre-execution guardrails and security middleware for subshell/CLI actions | https://github.com/browser-use/browser-use/issues/6119 | Oct 17, 2026, 5:07 PM UTC | 1h ago |
+| 2 | #6109 | [Feature]: Outbound Web Bot Auth signing for navigated requests | https://github.com/browser-use/browser-use/issues/6109 | Oct 16, 2026, 7:13 PM UTC | 1d ago |
+| 3 | #6031 | Known-answer false-success regression cases (403 block, disabled click, 6 more) | https://github.com/browser-use/browser-use/issues/6031 | Oct 16, 2026, 6:13 PM UTC | 1d ago |
+| 4 | #4798 | Feature Request: Support agent.pause() within tool calls | https://github.com/browser-use/browser-use/issues/4798 | Oct 16, 2026, 9:48 AM UTC | 1d ago |
+| 5 | #5057 | Feature Request: RFC: Standardized Evaluation/Benchmarking Harness for LLM Tool Calling | https://github.com/browser-use/browser-use/issues/5057 | Oct 15, 2026, 6:58 PM UTC | 2d ago |
+
+- **Dates:** These are last-updated dates, not creation dates. The tooltips on #6109, #6031 and #4798 were each read once and not cross-checked against a second hover.
+- **URLs:** I built them from the issue numbers shown in the list (the `browser-use/browser-use#NNNN` labels). I did not open each issue page.
+
+I made no changes to the repository and did not log in.",False,False,False,,False,0,0.8,60,300,4096,600,9877f3e35db54d4479d58cdc479bcd8ef006f46e310a0d0913202fa106c21334

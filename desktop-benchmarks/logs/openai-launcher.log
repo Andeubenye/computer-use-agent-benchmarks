@@ -1,0 +1,1 @@
+{"agent": "openai", "reason": "model_finished", "model_requests": 20, "seconds": 128.71, "cost_estimate_usd": 0.0801494, "uncertain_reserved_usd": 0, "actions": 34, "errors": []}

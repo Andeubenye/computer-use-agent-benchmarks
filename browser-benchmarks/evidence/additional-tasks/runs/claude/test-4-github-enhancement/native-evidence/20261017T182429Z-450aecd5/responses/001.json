@@ -1,0 +1,71 @@
+{
+  "id": "provider-id-44cd7b7cef09",
+  "content": [
+    {
+      "id": "toolu_01Gxqe2Vp72CAWTE7LnZ8aZ7",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "text": "ctrl+l"
+      },
+      "name": "key",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01AxNjGmZjQoRjZn2n8rMvSe",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "text": "https://github.com/browser-use/browser-use/issues?q=is%3Aissue%20state%3Aopen%20label%3Aenhancement%20sort%3Aupdated-desc\n"
+      },
+      "name": "type",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01EmEtDVtZdbzSnbpBM3dwYk",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "duration": 4
+      },
+      "name": "wait",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_012eWKpWVqPfRSW5XMSSBVNe",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {},
+      "name": "screenshot",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    }
+  ],
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_reason": "tool_use",
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 5116,
+    "output_tokens": 167,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

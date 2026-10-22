@@ -1,0 +1,11 @@
+I visited all five English Wikipedia articles using the website interface and read their birth information.
+
+| Name | Full birth date | Birthplace as stated in the article | Wikipedia article URL |
+|---|---|---|---|
+| Alan Turing | 23 June 1912 | Maida Vale, London, England | https://en.wikipedia.org/wiki/Alan_Turing |
+| Ada Lovelace | 10 December 1815 | London, England | https://en.wikipedia.org/wiki/Ada_Lovelace |
+| Grace Hopper | December 9, 1906 | New York City, U.S. | https://en.wikipedia.org/wiki/Grace_Hopper |
+| Alan Kay | May 17, 1940 | Springfield, Massachusetts, U.S. | https://en.wikipedia.org/wiki/Alan_Kay |
+| Margaret Hamilton (software engineer) | August 17, 1936 | Paoli, Indiana, U.S. | https://en.wikipedia.org/wiki/Margaret_Hamilton_(software_engineer) |
+
+**Limitations:** No requested birth facts were unavailable, and no access or security blockers were encountered. These results reflect the articles as displayed; I did not independently verify their claims.

@@ -1,0 +1,16 @@
+{
+  "budget_cap_usd": 7,
+  "estimated_total": 3.6676817,
+  "uncertain_reserved_usd": 0.0,
+  "remaining_conservative_allowance": 3.3323183,
+  "provider_invoice_reconciled": false,
+  "new_paid_infrastructure": 0,
+  "assistant_purchases_or_topups": false,
+  "user_credit_topup_did_not_reset_cap": true,
+  "scope": "Desktop benchmark only, including both historical Claude CSV attempts and every additional attempt.",
+  "by_agent": {
+    "claude": 3.19739,
+    "openai": 0.4702917,
+    "sai": 0
+  }
+}

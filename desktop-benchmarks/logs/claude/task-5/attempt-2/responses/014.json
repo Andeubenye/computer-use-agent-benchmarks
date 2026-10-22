@@ -1,0 +1,122 @@
+{
+  "model": "claude-sonnet-5-5",
+  "id": "msg_011CgH5rbTfmFa1ktHZ9eRG8",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "tool_use",
+      "id": "toolu_01YFuemPA5BMkr4sdXsNkPP3",
+      "name": "left_click",
+      "input": {
+        "coordinate": [
+          540,
+          231
+        ]
+      },
+      "toolset_name": "computer",
+      "caller": {
+        "type": "direct"
+      }
+    },
+    {
+      "type": "tool_use",
+      "id": "toolu_01J5yZPZErB7jSoB1BXGoBXN",
+      "name": "type",
+      "input": {
+        "text": "16:00"
+      },
+      "toolset_name": "computer",
+      "caller": {
+        "type": "direct"
+      }
+    },
+    {
+      "type": "tool_use",
+      "id": "toolu_011baNeFefiZwPPq3kJNbmpf",
+      "name": "left_click",
+      "input": {
+        "coordinate": [
+          540,
+          299
+        ]
+      },
+      "toolset_name": "computer",
+      "caller": {
+        "type": "direct"
+      }
+    },
+    {
+      "type": "tool_use",
+      "id": "toolu_01UcTCcTyiZw1e5ZZHnCfFoa",
+      "name": "type",
+      "input": {
+        "text": "16:30"
+      },
+      "toolset_name": "computer",
+      "caller": {
+        "type": "direct"
+      }
+    },
+    {
+      "type": "tool_use",
+      "id": "toolu_01QZ3nZ56abPXXzW6XTVQcUs",
+      "name": "left_click",
+      "input": {
+        "coordinate": [
+          731,
+          345
+        ]
+      },
+      "toolset_name": "computer",
+      "caller": {
+        "type": "direct"
+      }
+    },
+    {
+      "type": "tool_use",
+      "id": "toolu_01QrtqbjHF6MS4nnetYFmW72",
+      "name": "wait",
+      "input": {
+        "duration": 1
+      },
+      "toolset_name": "computer",
+      "caller": {
+        "type": "direct"
+      }
+    },
+    {
+      "type": "tool_use",
+      "id": "toolu_01QkjzzbPUahsDNqVPbeWq5e",
+      "name": "screenshot",
+      "input": {
+        "zoom": null
+      },
+      "toolset_name": "computer",
+      "caller": {
+        "type": "direct"
+      }
+    }
+  ],
+  "container": null,
+  "stop_reason": "tool_use",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 22278,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 184,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

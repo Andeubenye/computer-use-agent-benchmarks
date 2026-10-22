@@ -1,0 +1,102 @@
+[
+  {
+    "file": "browser-benchmarks/prompts/exact/github-bugs-sai.txt",
+    "sha256": "40ea2777b2d6d330d275ded4e42757c23c975c4beaf84d314f2dd40a0feced4e",
+    "matches_recovered_original": true
+  },
+  {
+    "file": "browser-benchmarks/prompts/exact/github-bugs-ui-tars.txt",
+    "sha256": "40ea2777b2d6d330d275ded4e42757c23c975c4beaf84d314f2dd40a0feced4e",
+    "matches_recovered_original": true
+  },
+  {
+    "file": "browser-benchmarks/prompts/exact/github-bugs-tinyfish.txt",
+    "sha256": "3ff5a35b7468f6594d685c938ca2eefc4a5cc495d0ea168672e16ab4515c57fa",
+    "matches_recovered_original": true
+  },
+  {
+    "file": "browser-benchmarks/prompts/exact/test-3-form.txt",
+    "sha256": "1b237d3e106992c3cdc5e1e866b19f7e2d873d04937f6cbd2d58649a67d2f155",
+    "matches_recovered_original": true
+  },
+  {
+    "file": "browser-benchmarks/prompts/exact/github-bugs-openai.txt",
+    "sha256": "c112e1f1b06f5efd36e3348e235844d65663d17d2ce2d28824e08c652c3d348b",
+    "matches_recovered_original": true
+  },
+  {
+    "file": "browser-benchmarks/prompts/exact/test-5-popup.txt",
+    "sha256": "af29ecb3989f7f72712a0f97bb49dd9735db7ce6870316e5f9e141b55c32a4d1",
+    "matches_recovered_original": true
+  },
+  {
+    "file": "browser-benchmarks/prompts/exact/test-2-wikipedia.txt",
+    "sha256": "5a9cea954c8edf59c018f9f837535ace8469a33d0d1ec92e606697676b638c30",
+    "matches_recovered_original": true
+  },
+  {
+    "file": "browser-benchmarks/prompts/exact/test-4-github-enhancement.txt",
+    "sha256": "331e5d68c42a17fd2544559508bf04304e1e495408d65d8ad6aeee02de44193c",
+    "matches_recovered_original": true
+  },
+  {
+    "file": "browser-benchmarks/prompts/exact/github-bugs-claude.txt",
+    "sha256": "3ff5a35b7468f6594d685c938ca2eefc4a5cc495d0ea168672e16ab4515c57fa",
+    "matches_recovered_original": true
+  },
+  {
+    "file": "desktop-benchmarks/tasks/csv-editing.md",
+    "embedded_prompt_sha256": "409633c43e51d6dec788410a90874c4375246d32e41548c56e8af7fa731bf439",
+    "source": "desktop-benchmarks/inputs/task-prompt.txt",
+    "reconstructed_then_frozen": false
+  },
+  {
+    "file": "desktop-benchmarks/tasks/file-organization.md",
+    "embedded_prompt_sha256": "bbd0c4794d7c45f0c7ff1768f79ea3558675dcec93234d9126528d35e59a4008",
+    "source": "desktop-benchmarks/inputs/additional/tasks.json",
+    "reconstructed_then_frozen": true
+  },
+  {
+    "file": "desktop-benchmarks/tasks/document-editing.md",
+    "embedded_prompt_sha256": "f749dfee9d8adde4fc822584d8149c5a5b68808258f727232757e9cfaeec049b",
+    "source": "desktop-benchmarks/inputs/additional/tasks.json",
+    "reconstructed_then_frozen": true
+  },
+  {
+    "file": "desktop-benchmarks/tasks/cross-application-reporting.md",
+    "embedded_prompt_sha256": "56c27384ed209b0e55be335f92ea435439baf6b550cac35a52d61ce8fb035543",
+    "source": "desktop-benchmarks/inputs/additional/tasks.json",
+    "reconstructed_then_frozen": true
+  },
+  {
+    "file": "desktop-benchmarks/tasks/error-recovery.md",
+    "embedded_prompt_sha256": "f7c88f57a71dadec9c89b969d1c1eb1706f1e24800a57b7ee5e8b78f71a60d23",
+    "source": "desktop-benchmarks/inputs/additional/tasks.json",
+    "reconstructed_then_frozen": true
+  },
+  {
+    "file": "browser-benchmarks/prompts/ui-tars-oct21/test-1-wikipedia-people/prompt.txt",
+    "sha256": "e64e2e4338c4ac0b112b8ee0c96d978dade4ce6b5267024e98208ee4528a078f",
+    "matches_recovered_original": true
+  },
+  {
+    "file": "browser-benchmarks/prompts/ui-tars-oct21/test-2-selenium-form/prompt.txt",
+    "sha256": "ef227524c59a9622a777b7ee596bcbb76d83b638067c21991a8aa77915fd6bfc",
+    "matches_recovered_original": true
+  },
+  {
+    "file": "browser-benchmarks/prompts/ui-tars-oct21/test-3-vscode-issues/prompt.txt",
+    "sha256": "ba03728944aa40cbb15f0d7ffd36f717b9c9cb9d27a34b5f0bf051c0ab3c2862",
+    "matches_recovered_original": true
+  },
+  {
+    "file": "browser-benchmarks/prompts/ui-tars-oct21/test-4-login-recovery/prompt.txt",
+    "sha256": "5fe9ea639842724cba8ccc63d292b0be9b536be4ec1d1aa16a0eca5b26dc70b2",
+    "matches_recovered_original": true
+  },
+  {
+    "file": "browser-benchmarks/prompts/ui-tars-oct21/test-5-programming-languages/prompt.txt",
+    "sha256": "9ba091e33abdd8d8c00c59f9f73e8eee5a72cfc530c0c1218e07eb9c27efec65",
+    "matches_recovered_original": true
+  }
+]

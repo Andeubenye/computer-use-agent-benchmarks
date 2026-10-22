@@ -1,0 +1,40 @@
+{
+  "http_status": 200,
+  "body": {
+    "sessionId": "id-71dc1af9c730",
+    "status": "running",
+    "events": [
+      {
+        "type": "tool-input-start",
+        "toolCallId": "1792261249990-tool-v86q6skuzm9",
+        "toolName": "execute"
+      },
+      {
+        "type": "tool-input-available",
+        "toolCallId": "1792261249990-tool-v86q6skuzm9",
+        "toolName": "execute",
+        "input": {}
+      }
+    ],
+    "text": "",
+    "cursor": "eyJ0dXJuIjoxNzkyMjYxMjM0ODY1LCJzZWVuIjpbIjE3OTIyNjEyNDk5OTAtdG9vbC12ODZxNnNrdXptOSJdLCJwcm9nIjp7fX0",
+    "usage": {
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 0,
+      "byModel": {}
+    },
+    "sessionUsage": {
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 0,
+      "byModel": {}
+    }
+  }
+}

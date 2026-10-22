@@ -1,0 +1,50 @@
+[
+  {
+    "input": "inputs/additional/task-5/dispatch_plan.docx",
+    "exit": 0,
+    "pages": [
+      "preflight/fixture-renders/task-5/dispatch_plan/page-1.png"
+    ],
+    "error_tail": null
+  },
+  {
+    "input": "inputs/additional/task-5/dispatch_plan_final_copy.docx",
+    "exit": 0,
+    "pages": [
+      "preflight/fixture-renders/task-5/dispatch_plan_final_copy/page-1.png"
+    ],
+    "error_tail": null
+  },
+  {
+    "input": "inputs/additional/task-5/dispatch_plan_final.docx",
+    "exit": 0,
+    "pages": [
+      "preflight/fixture-renders/task-5/dispatch_plan_final/page-1.png"
+    ],
+    "error_tail": null
+  },
+  {
+    "input": "inputs/additional/task-5/dispatch_plan_final_v2.docx",
+    "exit": 0,
+    "pages": [
+      "preflight/fixture-renders/task-5/dispatch_plan_final_v2/page-1.png"
+    ],
+    "error_tail": null
+  },
+  {
+    "input": "inputs/additional/task-4/report_template.docx",
+    "exit": 0,
+    "pages": [
+      "preflight/fixture-renders/task-4/report_template/page-1.png"
+    ],
+    "error_tail": null
+  },
+  {
+    "input": "inputs/additional/task-3/dispatch_original.docx",
+    "exit": 0,
+    "pages": [
+      "preflight/fixture-renders/task-3/dispatch_original/page-1.png"
+    ],
+    "error_tail": null
+  }
+]

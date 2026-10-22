@@ -1,0 +1,30 @@
+{
+  "task": 5,
+  "outcome": "PARTIAL",
+  "score": 3,
+  "requirements": {
+    "Identified REC-204 approved source by contents": true,
+    "Dismissed the controlled interruption through GUI": false,
+    "Corrected time and preserved all other text": true,
+    "Separate valid output and all four source documents unchanged": true,
+    "Reopened corrected document and verified ID approval and time": false
+  },
+  "core_artifact_correct": true,
+  "details": {
+    "output_exists": true,
+    "valid_docx": true,
+    "paragraphs": [
+      "Dispatch recovery plan",
+      "Document ID REC-204",
+      "Approval APPROVED",
+      "The dispatch handoff is at 16:30.",
+      "Keep the loading checklist unchanged."
+    ],
+    "tables": [],
+    "all_originals_preserved": true
+  },
+  "gui_observations": {},
+  "response_used_as_proof": false,
+  "verifier_edits_files": false,
+  "gui_review_pending": true
+}

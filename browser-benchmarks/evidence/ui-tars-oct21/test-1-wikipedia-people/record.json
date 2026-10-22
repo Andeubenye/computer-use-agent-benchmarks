@@ -1,0 +1,42 @@
+{
+  "task": "test-1-wikipedia-people",
+  "submitted": true,
+  "attempts": 1,
+  "start_utc": "2026-10-21T00:04:21.510000+00:00",
+  "finish_utc": "2026-10-21T00:07:06.473000+00:00",
+  "duration_seconds": 164.963,
+  "agent_loop_seconds": 160.385,
+  "terminal_status": "error",
+  "actions": 7,
+  "action_types": [
+    "click",
+    "click",
+    "type",
+    "hotkey",
+    "wait",
+    "click",
+    "click"
+  ],
+  "sdk_invocations": 8,
+  "model_responses": 7,
+  "timeouts": 1,
+  "automatic_reruns": 0,
+  "reported_total_tokens": 135309,
+  "input_tokens": "Not measured",
+  "output_tokens": "Not measured",
+  "inference_cost_usd": "Not measured",
+  "status": "FAIL",
+  "screenshots_saved": 6,
+  "final_model_response": "Thought: I've found the birth year of Turing, and it's 1912. However, the task isn't finished yet; I still need to look up the birth years of the other four individuals. Let me click on the search box at the top of the page and start searching for the next person, Ada Lovelace. I'll take it step by step, and I'll have all the information gathered in no time.\nAction: click(start_box='(1205,65)')",
+  "complete_final_answer": false,
+  "observed_same_run_retry_invocations": 1,
+  "classification": "FAIL",
+  "deadline_watchdog_triggered": false,
+  "watchdog_disarmed_after_terminal": true,
+  "manual_agent_corrections": 0,
+  "verification_file": "verification.json",
+  "timeout_messages": [
+    "Request timed out."
+  ],
+  "returned_prediction_after_timeout": true
+}

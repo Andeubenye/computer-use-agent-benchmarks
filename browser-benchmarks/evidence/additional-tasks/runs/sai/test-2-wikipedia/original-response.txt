@@ -1,0 +1,55 @@
+Here are the results from inspecting each Wikipedia article:
+
+---
+
+## Results
+
+### 1. Alan Turing
+| Field | Value |
+|---|---|
+| **Full name** | Alan Mathison Turing |
+| **Birth date** | 23 June 1912 |
+| **Birthplace** | Maida Vale, London, England |
+| **Article URL** | https://en.wikipedia.org/wiki/Alan_Turing |
+
+### 2. Ada Lovelace
+| Field | Value |
+|---|---|
+| **Full name** | Augusta Ada Byron (Ada Lovelace) |
+| **Birth date** | 10 December 1815 |
+| **Birthplace** | London, England |
+| **Article URL** | https://en.wikipedia.org/wiki/Ada_Lovelace |
+
+### 3. Grace Hopper
+| Field | Value |
+|---|---|
+| **Full name** | Grace Brewster Murray (Grace Hopper) |
+| **Birth date** | December 9, 1906 |
+| **Birthplace** | New York City, U.S. |
+| **Article URL** | https://en.wikipedia.org/wiki/Grace_Hopper |
+
+### 4. Alan Kay
+| Field | Value |
+|---|---|
+| **Full name** | Alan Curtis Kay |
+| **Birth date** | May 17, 1940 |
+| **Birthplace** | Springfield, Massachusetts, U.S. |
+| **Article URL** | https://en.wikipedia.org/wiki/Alan_Kay |
+
+### 5. Margaret Hamilton
+| Field | Value |
+|---|---|
+| **Full name** | Margaret Elaine Heafield (Margaret Hamilton) |
+| **Birth date** | August 17, 1936 |
+| **Birthplace** | Paoli, Indiana, U.S. |
+| **Article URL** | https://en.wikipedia.org/wiki/Margaret_Hamilton_(software_engineer) |
+
+---
+
+### Limitations & Notes
+
+- All information was extracted from each Wikipedia article's **infobox** (the "Born" row) as displayed on the page via the web interface. No API, HTTP extraction, or prior knowledge was used.
+- **Ada Lovelace's infobox** listed her name at birth as "Augusta Ada Byron" — the article title uses the more common name "Ada Lovelace."
+- **Grace Hopper's infobox** listed her birth name as "Grace Brewster Murray"; the article itself covers her married name "Hopper."
+- **Margaret Hamilton** — the search was disambiguated by adding "software engineer" to distinguish her from other notable people named Margaret Hamilton. The correct article is at `/wiki/Margaret_Hamilton_(software_engineer)`.
+- No access blockers, agreements, or login prompts were encountered — all pages loaded without issue.

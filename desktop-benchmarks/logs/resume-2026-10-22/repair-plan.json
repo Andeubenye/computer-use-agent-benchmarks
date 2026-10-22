@@ -1,0 +1,15 @@
+{
+  "utc": "2026-10-22T10:00:40.075244+00:00",
+  "only_target": "claude/task-5/attempt-2",
+  "existing_estimated_spend": 2.9173196999999997,
+  "remaining_before": 4.0826803,
+  "repair_local_cap": 1.75,
+  "global_cap": 7,
+  "reason": "Initial recovery run hit its local $1 reservation guard with a correct saved file but no model observation of the reopened screenshot. Increase local allowance from unused global balance, preserve the first attempt, make one explicit retry.",
+  "fixtures_regenerated": false,
+  "harness_adapters_rebuilt": false,
+  "image_rebuilt": false,
+  "native_conversation_resumable": false,
+  "new_isolated_container_reason": "Prior container stopped and GUI session exited. A separate labeled attempt preserves initial conditions and all previous artifacts.",
+  "completed_tests_repeated": false
+}

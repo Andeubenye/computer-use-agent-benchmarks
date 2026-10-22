@@ -1,0 +1,12 @@
+{
+  "agent": "openai",
+  "submitted": false,
+  "outcome": "NOT TESTED",
+  "reason": "Paused before task submission pending rotation and secure configuration of exposed API keys.",
+  "duration_seconds": null,
+  "actions": null,
+  "model": null,
+  "estimated_api_cost_usd": 0,
+  "automatic_restarts": 0,
+  "new_requests_after_user_pause": 0
+}

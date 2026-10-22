@@ -1,0 +1,70 @@
+{
+  "outcome": "FAIL",
+  "reason": "Terminal request-timeout error before entering any required value.",
+  "state_checks_correct": 5,
+  "state_checks_total": 14,
+  "required_changes_completed": 0,
+  "required_changes_total": 9,
+  "checks": [
+    {
+      "criterion": "Text input",
+      "passed": false
+    },
+    {
+      "criterion": "Password",
+      "passed": false
+    },
+    {
+      "criterion": "Textarea",
+      "passed": false
+    },
+    {
+      "criterion": "Disabled unchanged",
+      "passed": true
+    },
+    {
+      "criterion": "Read-only unchanged",
+      "passed": true
+    },
+    {
+      "criterion": "Select Two",
+      "passed": false
+    },
+    {
+      "criterion": "Datalist New York",
+      "passed": false
+    },
+    {
+      "criterion": "Checked checkbox remains checked",
+      "passed": true
+    },
+    {
+      "criterion": "Default checkbox checked",
+      "passed": false
+    },
+    {
+      "criterion": "Checked radio remains selected",
+      "passed": true
+    },
+    {
+      "criterion": "Default radio unselected",
+      "passed": true
+    },
+    {
+      "criterion": "Color red",
+      "passed": false
+    },
+    {
+      "criterion": "Date",
+      "passed": false
+    },
+    {
+      "criterion": "Range 7",
+      "passed": false
+    }
+  ],
+  "preexisting_defaults_caveat": "Five matching states were unchanged page defaults; they are not evidence of successful form-filling actions.",
+  "submission_observed": false,
+  "submission_evidence": "Full action trace contains no form submission; final URL is the original web form and all requested changed values remain unfilled.",
+  "verification_data_sent_to_agent": false
+}

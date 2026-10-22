@@ -1,0 +1,69 @@
+{
+  "model": "claude-sonnet-5-5",
+  "id": "msg_011CgH5qvVsEdd329ugaX9cX",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "Now editable. Use Find & Replace for the time."
+    },
+    {
+      "type": "tool_use",
+      "id": "toolu_0186UBFooeGgd6jtxcS1zuJK",
+      "name": "key",
+      "input": {
+        "text": "ctrl+h"
+      },
+      "toolset_name": "computer",
+      "caller": {
+        "type": "direct"
+      }
+    },
+    {
+      "type": "tool_use",
+      "id": "toolu_0152yBKdkTWnfYQ5yVscXYms",
+      "name": "wait",
+      "input": {
+        "duration": 2
+      },
+      "toolset_name": "computer",
+      "caller": {
+        "type": "direct"
+      }
+    },
+    {
+      "type": "tool_use",
+      "id": "toolu_018Bi6r7YzofdvGBetKoBoqv",
+      "name": "screenshot",
+      "input": {
+        "zoom": null
+      },
+      "toolset_name": "computer",
+      "caller": {
+        "type": "direct"
+      }
+    }
+  ],
+  "container": null,
+  "stop_reason": "tool_use",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 21061,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 119,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

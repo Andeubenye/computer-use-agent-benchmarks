@@ -1,0 +1,8 @@
+{
+  "read_after_agent_stopped": true,
+  "read_before_container_shutdown": true,
+  "notice_exit_recorded": true,
+  "notice_exit_code": "0",
+  "harness_dismissed_notice": false,
+  "initial_notice_required_by_setup": true
+}

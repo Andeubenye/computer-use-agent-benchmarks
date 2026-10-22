@@ -1,0 +1,9 @@
+{
+  "http_status": 202,
+  "body": {
+    "sessionId": "id-ee28d2092e89",
+    "machineId": "free-6WRf2PabNOOC8BV7CIDNKs0ckre2",
+    "queued": false,
+    "turnId": "id-5d0576d3d818"
+  }
+}

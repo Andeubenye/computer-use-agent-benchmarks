@@ -1,0 +1,23 @@
+{
+  "agent": "sai",
+  "task": "test-5-popup",
+  "submitted": true,
+  "status": "events_error",
+  "provider_turn_status": "finalizing",
+  "started_at": "2026-10-17T18:36:07.990656+00:00",
+  "agent_wall_seconds": 137.59224691700365,
+  "max_seconds_from_submission": 600,
+  "deadline_fired": false,
+  "turn_id": "id-ae0e39dbd480",
+  "session_id": "id-b0ace35c3f25",
+  "actions": 9,
+  "action_unit": "executor calls",
+  "screenshots": 10,
+  "model": "auto; actual routes in events",
+  "cost_usd": null,
+  "free_credit_decrease_usd": 0.02,
+  "cost_basis": "free-account credit delta; provider usage separately retained",
+  "automatic_restarts": 0,
+  "fresh_session": true,
+  "fresh_desktop": false
+}

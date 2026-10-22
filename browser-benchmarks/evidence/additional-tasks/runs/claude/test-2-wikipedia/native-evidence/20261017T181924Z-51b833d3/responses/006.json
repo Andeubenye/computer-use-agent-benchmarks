@@ -1,0 +1,63 @@
+{
+  "id": "provider-id-c9b109bf6538",
+  "content": [
+    {
+      "text": "The Enter seems not to register in the same batch; press it again.",
+      "type": "text"
+    },
+    {
+      "id": "toolu_01PW8mFNFHtAxcXU1Sx9Qe98",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "text": "Return"
+      },
+      "name": "key",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01DVgBrfmAoLZwZbDnBdSFQs",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "duration": 3
+      },
+      "name": "wait",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01RBLXpB2yNoxYtNYfZK9vrW",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {},
+      "name": "screenshot",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    }
+  ],
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_reason": "tool_use",
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 11185,
+    "output_tokens": 111,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

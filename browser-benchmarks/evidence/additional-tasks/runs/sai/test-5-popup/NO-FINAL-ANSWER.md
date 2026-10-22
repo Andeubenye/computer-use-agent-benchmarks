@@ -1,0 +1,1 @@
+No final task answer was returned. The blank original-response.txt is preserved. See the post-abort/post-stop terminal check for the provider diagnostic “The agent finished without an answer.” This diagnostic is not a successful agent result. No benchmark was restarted.

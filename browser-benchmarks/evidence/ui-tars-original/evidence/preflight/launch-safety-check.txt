@@ -1,0 +1,3 @@
+2026-10-20T22:30:09Z
+PASS: validated credential-log protections and token source match.
+Read-only fingerprint validation; no application launch, model request or permission change.

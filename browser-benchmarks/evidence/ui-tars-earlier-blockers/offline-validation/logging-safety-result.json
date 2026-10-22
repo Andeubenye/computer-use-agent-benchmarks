@@ -1,0 +1,8 @@
+{
+  "redaction_passed": true,
+  "fixture_value_never_present_in_captured_console_or_file_logs": true,
+  "structured_and_serialized_log_tests": true,
+  "token_usage_retained": 42,
+  "real_credentials_loaded": false,
+  "project_rebuilt": false
+}

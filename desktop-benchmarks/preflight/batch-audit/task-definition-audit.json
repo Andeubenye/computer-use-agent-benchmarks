@@ -1,0 +1,17 @@
+{
+  "searched": [
+    "desktop-computer-use-benchmark",
+    "project outputs and work (excluding unrelated vendor code)",
+    "Documents/Codex text/JSON/Markdown/Python files with dependency directories excluded",
+    "original desktop CSV request attachment"
+  ],
+  "complete_task_specs_found": [
+    "task-1-csv"
+  ],
+  "task_2_to_5_exact_prompts_found": false,
+  "task_2_to_5_fixtures_found": false,
+  "task_2_to_5_expected_outputs_found": false,
+  "task_2_to_5_rubrics_found": false,
+  "new_request_contains": "Descriptions, counts and general objectives only; it refers to prior exact definitions that were not found.",
+  "decision": "Do not invent missing prompts, data, acceptance criteria or expected outputs; mark the affected planned evaluations blocked."
+}

@@ -1,0 +1,466 @@
+{
+  "provider_requests": 0,
+  "agent_files_edited": false,
+  "estimated_total_usd": 3.6676817,
+  "invoice_reconciled": false,
+  "attempts": [
+    {
+      "attempt": "claude",
+      "requested_model": "claude-sonnet-5-5",
+      "returned_model_aliases": [
+        "claude-sonnet-5-5"
+      ],
+      "responses": 1,
+      "actions_requested": 5,
+      "last_logged_action_index": 5,
+      "images": 3,
+      "input_tokens": 6002,
+      "output_tokens": 143,
+      "cache_read_tokens": 0,
+      "cache_write_tokens": 0,
+      "estimated_cost_usd": 0.013434,
+      "stop_reason": "execution_error",
+      "wall_seconds": null,
+      "stopwatch_seconds": 12.712091082998086,
+      "checks": {
+        "response_count_matches_record": true,
+        "raw_usage_matches_record": true,
+        "recalculated_cost_matches_record": true,
+        "no_automatic_retries": true,
+        "within_600_second_wall_limit": true,
+        "original_frozen_prompt_used": true,
+        "configured_limit_not_above_600": true,
+        "screenshot_count_matches": true,
+        "action_counter_not_below_trace": true
+      }
+    },
+    {
+      "attempt": "claude/task-2/attempt-2",
+      "requested_model": "claude-sonnet-5-5",
+      "returned_model_aliases": [
+        "claude-sonnet-5-5"
+      ],
+      "responses": 9,
+      "actions_requested": 49,
+      "last_logged_action_index": 49,
+      "images": 10,
+      "input_tokens": 103025,
+      "output_tokens": 1756,
+      "cache_read_tokens": 0,
+      "cache_write_tokens": 0,
+      "estimated_cost_usd": 0.22361,
+      "stop_reason": "execution_error",
+      "wall_seconds": 106.12630605697632,
+      "stopwatch_seconds": 106.12794858399866,
+      "checks": {
+        "response_count_matches_record": true,
+        "raw_usage_matches_record": true,
+        "recalculated_cost_matches_record": true,
+        "no_automatic_retries": true,
+        "within_600_second_wall_limit": true,
+        "original_frozen_prompt_used": true,
+        "configured_limit_not_above_600": true,
+        "screenshot_count_matches": true,
+        "action_counter_not_below_trace": true
+      }
+    },
+    {
+      "attempt": "claude/task-2",
+      "requested_model": "claude-sonnet-5-5",
+      "returned_model_aliases": [],
+      "responses": 0,
+      "actions_requested": 0,
+      "last_logged_action_index": 0,
+      "images": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_tokens": 0,
+      "cache_write_tokens": 0,
+      "estimated_cost_usd": 0.0,
+      "stop_reason": "infrastructure_or_protocol_error",
+      "wall_seconds": 0,
+      "stopwatch_seconds": 0,
+      "checks": {
+        "response_count_matches_record": true,
+        "raw_usage_matches_record": true,
+        "recalculated_cost_matches_record": true,
+        "no_automatic_retries": true,
+        "within_600_second_wall_limit": true,
+        "screenshot_count_matches": true,
+        "action_counter_not_below_trace": true
+      }
+    },
+    {
+      "attempt": "claude/task-3",
+      "requested_model": "claude-sonnet-5-5",
+      "returned_model_aliases": [
+        "claude-sonnet-5-5"
+      ],
+      "responses": 12,
+      "actions_requested": 45,
+      "last_logged_action_index": 45,
+      "images": 13,
+      "input_tokens": 157132,
+      "output_tokens": 2106,
+      "cache_read_tokens": 0,
+      "cache_write_tokens": 0,
+      "estimated_cost_usd": 0.335324,
+      "stop_reason": "model_finished",
+      "wall_seconds": 104.51926398277283,
+      "stopwatch_seconds": 104.52024145799805,
+      "checks": {
+        "response_count_matches_record": true,
+        "raw_usage_matches_record": true,
+        "recalculated_cost_matches_record": true,
+        "no_automatic_retries": true,
+        "within_600_second_wall_limit": true,
+        "original_frozen_prompt_used": true,
+        "configured_limit_not_above_600": true,
+        "screenshot_count_matches": true,
+        "action_counter_not_below_trace": true
+      }
+    },
+    {
+      "attempt": "claude/task-4",
+      "requested_model": "claude-sonnet-5-5",
+      "returned_model_aliases": [
+        "claude-sonnet-5-5"
+      ],
+      "responses": 19,
+      "actions_requested": 102,
+      "last_logged_action_index": 102,
+      "images": 20,
+      "input_tokens": 335334,
+      "output_tokens": 4485,
+      "cache_read_tokens": 0,
+      "cache_write_tokens": 0,
+      "estimated_cost_usd": 0.715518,
+      "stop_reason": "model_finished",
+      "wall_seconds": 193.2888970375061,
+      "stopwatch_seconds": 193.29072670900496,
+      "checks": {
+        "response_count_matches_record": true,
+        "raw_usage_matches_record": true,
+        "recalculated_cost_matches_record": true,
+        "no_automatic_retries": true,
+        "within_600_second_wall_limit": true,
+        "original_frozen_prompt_used": true,
+        "configured_limit_not_above_600": true,
+        "screenshot_count_matches": true,
+        "action_counter_not_below_trace": true
+      }
+    },
+    {
+      "attempt": "claude/task-5/attempt-2",
+      "requested_model": "claude-sonnet-5-5",
+      "returned_model_aliases": [
+        "claude-sonnet-5-5"
+      ],
+      "responses": 20,
+      "actions_requested": 74,
+      "last_logged_action_index": 74,
+      "images": 21,
+      "input_tokens": 359181,
+      "output_tokens": 3200,
+      "cache_read_tokens": 0,
+      "cache_write_tokens": 0,
+      "estimated_cost_usd": 0.750362,
+      "stop_reason": "model_finished",
+      "wall_seconds": 204.40507173538208,
+      "stopwatch_seconds": 204.41030554100143,
+      "checks": {
+        "response_count_matches_record": true,
+        "raw_usage_matches_record": true,
+        "recalculated_cost_matches_record": true,
+        "no_automatic_retries": true,
+        "within_600_second_wall_limit": true,
+        "original_frozen_prompt_used": true,
+        "configured_limit_not_above_600": true,
+        "screenshot_count_matches": true,
+        "action_counter_not_below_trace": true
+      }
+    },
+    {
+      "attempt": "claude/task-5",
+      "requested_model": "claude-sonnet-5-5",
+      "returned_model_aliases": [
+        "claude-sonnet-5-5"
+      ],
+      "responses": 22,
+      "actions_requested": 100,
+      "last_logged_action_index": 100,
+      "images": 25,
+      "input_tokens": 425764,
+      "output_tokens": 3430,
+      "cache_read_tokens": 0,
+      "cache_write_tokens": 0,
+      "estimated_cost_usd": 0.885828,
+      "stop_reason": "execution_error",
+      "wall_seconds": 223.23725008964539,
+      "stopwatch_seconds": 223.23760133299947,
+      "checks": {
+        "response_count_matches_record": true,
+        "raw_usage_matches_record": true,
+        "recalculated_cost_matches_record": true,
+        "no_automatic_retries": true,
+        "within_600_second_wall_limit": true,
+        "original_frozen_prompt_used": true,
+        "configured_limit_not_above_600": true,
+        "screenshot_count_matches": true,
+        "action_counter_not_below_trace": true
+      }
+    },
+    {
+      "attempt": "claude-attempt-2",
+      "requested_model": "claude-sonnet-5-5",
+      "returned_model_aliases": [
+        "claude-sonnet-5-5"
+      ],
+      "responses": 11,
+      "actions_requested": 49,
+      "last_logged_action_index": 49,
+      "images": 13,
+      "input_tokens": 128017,
+      "output_tokens": 1728,
+      "cache_read_tokens": 0,
+      "cache_write_tokens": 0,
+      "estimated_cost_usd": 0.273314,
+      "stop_reason": "execution_error",
+      "wall_seconds": null,
+      "stopwatch_seconds": 183.17696454100223,
+      "checks": {
+        "response_count_matches_record": true,
+        "raw_usage_matches_record": true,
+        "recalculated_cost_matches_record": true,
+        "no_automatic_retries": true,
+        "within_600_second_wall_limit": true,
+        "original_frozen_prompt_used": true,
+        "configured_limit_not_above_600": true,
+        "screenshot_count_matches": true,
+        "action_counter_not_below_trace": true
+      }
+    },
+    {
+      "attempt": "openai",
+      "requested_model": "gpt-6.1-sol",
+      "returned_model_aliases": [
+        "gpt-6.1-sol"
+      ],
+      "responses": 20,
+      "actions_requested": 34,
+      "last_logged_action_index": 34,
+      "images": 25,
+      "input_tokens": 225326,
+      "output_tokens": 837,
+      "cache_read_tokens": 204794,
+      "cache_write_tokens": 20472,
+      "estimated_cost_usd": 0.0801494,
+      "stop_reason": "model_finished",
+      "wall_seconds": 128.70758175849915,
+      "stopwatch_seconds": 128.70956766699965,
+      "checks": {
+        "response_count_matches_record": true,
+        "raw_usage_matches_record": true,
+        "recalculated_cost_matches_record": true,
+        "no_automatic_retries": true,
+        "within_600_second_wall_limit": true,
+        "original_frozen_prompt_used": true,
+        "configured_limit_not_above_600": true,
+        "screenshot_count_matches": true,
+        "action_counter_not_below_trace": true
+      }
+    },
+    {
+      "attempt": "openai/task-2",
+      "requested_model": "gpt-6.1-sol",
+      "returned_model_aliases": [
+        "gpt-6.1-sol"
+      ],
+      "responses": 36,
+      "actions_requested": 95,
+      "last_logged_action_index": 95,
+      "images": 38,
+      "input_tokens": 698858,
+      "output_tokens": 2092,
+      "cache_read_tokens": 662037,
+      "cache_write_tokens": 36713,
+      "estimated_cost_usd": 0.1791222,
+      "stop_reason": "model_finished",
+      "wall_seconds": 292.0380620956421,
+      "stopwatch_seconds": 292.0002115829993,
+      "checks": {
+        "response_count_matches_record": true,
+        "raw_usage_matches_record": true,
+        "recalculated_cost_matches_record": true,
+        "no_automatic_retries": true,
+        "within_600_second_wall_limit": true,
+        "original_frozen_prompt_used": true,
+        "configured_limit_not_above_600": true,
+        "screenshot_count_matches": true,
+        "action_counter_not_below_trace": true
+      }
+    },
+    {
+      "attempt": "openai/task-3",
+      "requested_model": "gpt-6.1-sol",
+      "returned_model_aliases": [
+        "gpt-6.1-sol"
+      ],
+      "responses": 17,
+      "actions_requested": 34,
+      "last_logged_action_index": 34,
+      "images": 19,
+      "input_tokens": 167211,
+      "output_tokens": 774,
+      "cache_read_tokens": 149548,
+      "cache_write_tokens": 17612,
+      "estimated_cost_usd": 0.0668268,
+      "stop_reason": "model_finished",
+      "wall_seconds": 112.3648431301117,
+      "stopwatch_seconds": 112.36590737500228,
+      "checks": {
+        "response_count_matches_record": true,
+        "raw_usage_matches_record": true,
+        "recalculated_cost_matches_record": true,
+        "no_automatic_retries": true,
+        "within_600_second_wall_limit": true,
+        "original_frozen_prompt_used": true,
+        "configured_limit_not_above_600": true,
+        "screenshot_count_matches": true,
+        "action_counter_not_below_trace": true
+      }
+    },
+    {
+      "attempt": "openai/task-4",
+      "requested_model": "gpt-6.1-sol",
+      "returned_model_aliases": [
+        "gpt-6.1-sol"
+      ],
+      "responses": 21,
+      "actions_requested": 54,
+      "last_logged_action_index": 54,
+      "images": 27,
+      "input_tokens": 250990,
+      "output_tokens": 1212,
+      "cache_read_tokens": 229138,
+      "cache_write_tokens": 21789,
+      "estimated_cost_usd": 0.0896323,
+      "stop_reason": "model_finished",
+      "wall_seconds": 146.05563497543335,
+      "stopwatch_seconds": 146.05701933300588,
+      "checks": {
+        "response_count_matches_record": true,
+        "raw_usage_matches_record": true,
+        "recalculated_cost_matches_record": true,
+        "no_automatic_retries": true,
+        "within_600_second_wall_limit": true,
+        "original_frozen_prompt_used": true,
+        "configured_limit_not_above_600": true,
+        "screenshot_count_matches": true,
+        "action_counter_not_below_trace": true
+      }
+    },
+    {
+      "attempt": "openai/task-5",
+      "requested_model": "gpt-6.1-sol",
+      "returned_model_aliases": [
+        "gpt-6.1-sol"
+      ],
+      "responses": 14,
+      "actions_requested": 31,
+      "last_logged_action_index": 31,
+      "images": 16,
+      "input_tokens": 117696,
+      "output_tokens": 723,
+      "cache_read_tokens": 102870,
+      "cache_write_tokens": 14784,
+      "estimated_cost_usd": 0.054561,
+      "stop_reason": "model_finished",
+      "wall_seconds": 96.93716382980347,
+      "stopwatch_seconds": 96.93772283399448,
+      "checks": {
+        "response_count_matches_record": true,
+        "raw_usage_matches_record": true,
+        "recalculated_cost_matches_record": true,
+        "no_automatic_retries": true,
+        "within_600_second_wall_limit": true,
+        "original_frozen_prompt_used": true,
+        "configured_limit_not_above_600": true,
+        "screenshot_count_matches": true,
+        "action_counter_not_below_trace": true
+      }
+    }
+  ],
+  "regrades": [
+    {
+      "attempt": "claude/task-2/attempt-2",
+      "outcome": "PARTIAL",
+      "score": 2,
+      "matches_saved_final_grade": true
+    },
+    {
+      "attempt": "claude/task-3",
+      "outcome": "PASS",
+      "score": 5,
+      "matches_saved_final_grade": true
+    },
+    {
+      "attempt": "claude/task-4",
+      "outcome": "PASS",
+      "score": 5,
+      "matches_saved_final_grade": true
+    },
+    {
+      "attempt": "claude/task-5/attempt-2",
+      "outcome": "PASS",
+      "score": 5,
+      "matches_saved_final_grade": true
+    },
+    {
+      "attempt": "claude/task-5",
+      "outcome": "PARTIAL",
+      "score": 4,
+      "matches_saved_final_grade": true
+    },
+    {
+      "attempt": "claude-attempt-2",
+      "outcome": "PARTIAL",
+      "score": 4,
+      "matches_saved_final_grade": true
+    },
+    {
+      "attempt": "openai",
+      "outcome": "PASS",
+      "score": 5,
+      "matches_saved_final_grade": true
+    },
+    {
+      "attempt": "openai/task-2",
+      "outcome": "PASS",
+      "score": 5,
+      "matches_saved_final_grade": true
+    },
+    {
+      "attempt": "openai/task-3",
+      "outcome": "PASS",
+      "score": 5,
+      "matches_saved_final_grade": true
+    },
+    {
+      "attempt": "openai/task-4",
+      "outcome": "PASS",
+      "score": 5,
+      "matches_saved_final_grade": true
+    },
+    {
+      "attempt": "openai/task-5",
+      "outcome": "PASS",
+      "score": 5,
+      "matches_saved_final_grade": true
+    }
+  ],
+  "original_manifest_checked": 43,
+  "original_manifest_unchanged": true,
+  "errors": [],
+  "passed": true
+}

@@ -1,0 +1,5 @@
+FROM desktop-csv-benchmark:2026-10-21
+USER root
+RUN apt-get update && apt-get install -y --no-install-recommends libreoffice-writer pcmanfm zenity \
+    && rm -rf /var/lib/apt/lists/*
+USER agent

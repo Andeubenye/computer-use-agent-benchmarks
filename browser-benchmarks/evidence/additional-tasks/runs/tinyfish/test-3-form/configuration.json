@@ -1,0 +1,9 @@
+{
+  "agent": "tinyfish",
+  "task": "test-3-form",
+  "max_seconds_from_submission": 600,
+  "automatic_benchmark_restarts": 0,
+  "reserved_usd": 2.4,
+  "prompt_sha256": "1b237d3e106992c3cdc5e1e866b19f7e2d873d04937f6cbd2d58649a67d2f155",
+  "expected_answers_provided": false
+}

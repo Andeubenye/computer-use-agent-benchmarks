@@ -1,0 +1,17 @@
+# Desktop comparison — incomplete evaluation
+
+| Configuration / attempt | Independently verified status | Duration evidence | Model actions | Saved screenshots | Estimated API cost | Limitation |
+|---|---|---|---:|---:|---:|---|
+| Claude attempt 1 | Incomplete — harness protocol failure | 12.45s UTC span; 12.71s stopwatch | 5 | 3 | $0.013434 | Tool-result field omitted; HTTP 400; no corrected file |
+| Claude attempt 2 | PARTIAL — 4/5 checks; correct output and intact original | 6m 38s UTC span; 3m 03s stopwatch; discrepancy unresolved | 49 | 13 | $0.273314 | Token-count timeout before reopened-file verification |
+| OpenAI native computer tool | NOT TESTED — security pause | — | — | — | $0 | Awaiting rotated, securely configured credentials |
+| Sai | NOT TESTED — access restricted | No task submitted | — | 0 | $0 | Control preflight HTTP 403; machine not authorized |
+| UI-TARS | NOT TESTED — manual evaluation pending | — | — | — | $0 in this batch | Outside this desktop execution |
+
+Four of five checks is a workflow checklist, not a general accuracy percentage. The corrected artifact is exactly right; the complete workflow is unfinished. Untested agents receive no failure score. No relative speed, reliability, quality, or cost-per-success ranking is justified by these observations.
+
+Total estimate across both Claude attempts: $0.286748. Provider invoices have not been reconciled. The explicit repair attempt counts as an additional attempt; neither attempt automatically retried API calls. The comparison is restricted to this one synthetic desktop CSV task, not the earlier GitHub/browser tasks.
+
+## Article-ready note
+
+In the desktop test, Claude used its native computer tool to open a CSV in LibreOffice Calc, correct two misspelled status values, and save a separate file. A read-only check confirmed that the saved CSV was correct and the source file was unchanged. The full task remained incomplete: a token-count request timed out while Claude was trying to reopen the saved file for verification. An earlier attempt had stopped because of a harness protocol error; both attempts are retained and together account for approximately $0.287 in estimated API usage. OpenAI was paused before execution because exposed credentials needed rotation, while Sai's desktop-control preflight returned an authorization error. These are incomplete test results, not grounds for ranking the three agents.

@@ -1,0 +1,14 @@
+I filled in every requested field on the form, and none of them failed. I verified each entry on screen, and the form is still open and unsubmitted.
+
+- **First name:** Alex
+- **Last name:** Morgan
+- **Email:** alex.morgan@example.com
+- **Phone:** +1 202-555-0147
+- **Company:** Northstar Labs
+- **Job title:** Product Manager
+- **Country:** United States, chosen from the dropdown
+- **Preferred contact method:** Email, selected
+- **Message:** "This is a benchmark. Do not submit."
+- **Newsletter:** left unchecked
+
+I did not press Submit, and the page still shows "Not submitted."

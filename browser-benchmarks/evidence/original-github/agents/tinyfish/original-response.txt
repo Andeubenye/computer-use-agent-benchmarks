@@ -1,0 +1,21 @@
+1. **Issue #6068**: Bug: agent enables a disabled button with evaluate, places the order, and often reports a plain success
+   - URL: https://github.com/browser-use/browser-use/issues/6068
+   - Last Updated: Oct 16, 2026
+
+2. **Issue #4579**: Bug: CDP connection instability causing indefinite hangs with remote browsers
+   - URL: https://github.com/browser-use/browser-use/issues/4579
+   - Last Updated: Oct 15, 2026
+
+3. **Issue #6065**: Bug: Browser parameter accept_downloads is nonfunctional when running Browser-use locally
+   - URL: https://github.com/browser-use/browser-use/issues/6065
+   - Last Updated: Oct 14, 2026
+
+4. **Issue #4877**: Bug: ...pip dependency conflicts due to strict exact-pins (==) in pyproject.toml
+   - URL: https://github.com/browser-use/browser-use/issues/4877
+   - Last Updated: Oct 14, 2026
+
+5. **Issue #5633**: Bug: AnthropicMessageSerializer drops earlier system messages
+   - URL: https://github.com/browser-use/browser-use/issues/5633
+   - Last Updated: Oct 10, 2026
+
+Total: 5 issues found, ordered from most recently updated to least recently updated.

@@ -1,0 +1,80 @@
+{
+  "http_status": 200,
+  "body": {
+    "sessionId": "id-71dc1af9c730",
+    "status": "idle",
+    "events": [
+      {
+        "type": "text-start",
+        "id": "1792261436497-assistant-b6mtpubtk8"
+      },
+      {
+        "type": "text-delta",
+        "id": "1792261436497-assistant-b6mtpubtk8",
+        "delta": "All fields have been successfully filled and verified. Here's the summary:\n\n## ✅ Form Completion Report\n\n| Field | Value | Status |\n|---|---|---|\n| **First name** | Alex | ✅ Filled |\n| **Last name** | Morgan | ✅ Filled |\n| **Email** | alex.morgan@example.com | ✅ Filled |\n| **Phone** | +1 202-555-0147 | ✅ Filled |\n| **Company** | Northstar Labs | ✅ Filled |\n| **Job title** | Product Manager | ✅ Filled |\n| **Country** | United States | ✅ Selected from dropdown |\n| **Preferred contact method** | Email (radio) | ✅ Selected |\n| **Message** | This is a benchmark. | ✅ Filled |\n| **Newsletter checkbox** | Unchecked | ✅ As instructed |\n| **Submit button** | Not pressed | ✅ As instructed |\n\n**All fields were completed successfully.** No fields could not be filled. The form is fully populated and visible on screen, and the Submit button was not pressed as required."
+      },
+      {
+        "type": "text-end",
+        "id": "1792261436497-assistant-b6mtpubtk8"
+      },
+      {
+        "type": "finish",
+        "finishReason": "stop"
+      }
+    ],
+    "text": "All fields have been successfully filled and verified. Here's the summary:\n\n## ✅ Form Completion Report\n\n| Field | Value | Status |\n|---|---|---|\n| **First name** | Alex | ✅ Filled |\n| **Last name** | Morgan | ✅ Filled |\n| **Email** | alex.morgan@example.com | ✅ Filled |\n| **Phone** | +1 202-555-0147 | ✅ Filled |\n| **Company** | Northstar Labs | ✅ Filled |\n| **Job title** | Product Manager | ✅ Filled |\n| **Country** | United States | ✅ Selected from dropdown |\n| **Preferred contact method** | Email (radio) | ✅ Selected |\n| **Message** | This is a benchmark. | ✅ Filled |\n| **Newsletter checkbox** | Unchecked | ✅ As instructed |\n| **Submit button** | Not pressed | ✅ As instructed |\n\n**All fields were completed successfully.** No fields could not be filled. The form is fully populated and visible on screen, and the Submit button was not pressed as required.",
+    "cursor": "eyJ0dXJuIjoxNzkyMjYxMjM0ODY1LCJzZWVuIjpbIjE3OTIyNjEyNDk5OTAtdG9vbC12ODZxNnNrdXptOSIsImVycjoxNzkyMjYxMjUwNTE1LXJlc3VsdC1uNnZzMnJubXpuIiwiMTc5MjI2MTI2NDExMC10b29sLXRhMzR4bWl6aWtzIiwiMTc5MjI2MTI4Nzk2MC10b29sLWEwdWRiYzRrbGp2IiwiMTc5MjI2MTI2OTA5MS1hc3Npc3RhbnQtanNpcXRmZjQweGQiLCIxNzkyMjYxMjk3OTA3LXRvb2wtYWwxaDQxMGNqc2EiLCIxNzkyMjYxMzExMDY4LXRvb2wtbWxiZ3cyMjVsYyIsIjE3OTIyNjEzMjQ1NTgtdG9vbC1iaXRncjVkcTJqZyIsIjE3OTIyNjEzMzU1ODgtdG9vbC1wNWN1MTR5aWxvIiwiMTc5MjI2MTM0MjQ2My10b29sLXh3MGZvajZleTUiLCIxNzkyMjYxMzUyODcwLXRvb2wtNmh5NnU0dzdkNGsiLCIxNzkyMjYxMzQ0MDA3LWFzc2lzdGFudC10b3EwMm9zb29jIiwiMTc5MjI2MTM3ODU5OS10b29sLW5teWEwMms0OTUiLCIxNzkyMjYxMzU1MTA3LWFzc2lzdGFudC13ODdwNGowNWI0IiwiMTc5MjI2MTM4OTMwOS10b29sLXV0MWM3cXRtZiIsIjE3OTIyNjEzOTEyMDAtYXNzaXN0YW50LWtwaHV5d2diMGJtIiwiMTc5MjI2MTQxNDk3OS10b29sLWRpMXF1d3c4OXRwIiwiMTc5MjI2MTQyMTA5NC10b29sLWJmZmhkbDY5NmVtIiwiMTc5MjI2MTQzNDU5MS10b29sLTJkM2VtNHZjNzgiLCIxNzkyMjYxNDM2NDk3LWFzc2lzdGFudC1iNm10cHVidGs4Iiwic2Vzc2lvbjpmaW5pc2giXSwicHJvZyI6eyIxNzkyMjYxMjg4NTE2LXJlc3VsdC1ha25ndjhneDZvaSI6MSwiMTc5MjI2MTI5ODQzMC1yZXN1bHQtMXl1MmwyM2lhaG4iOjEsIjE3OTIyNjEzMTE2MDUtcmVzdWx0LWg0ejNzbWlvZmNvIjo0LCIxNzkyMjYxMzI1MTk5LXJlc3VsdC15bjJpenEybjUzaSI6MSwiMTc5MjI2MTMzNjA2Ni1yZXN1bHQtMWc2bWp6YmoxNzMiOjEsIjE3OTIyNjEzNDI5ODgtcmVzdWx0LWJ4cXp2MnpyOXFuIjoxLCIxNzkyMjYxNDE1NDk5LXJlc3VsdC1iZmFqbjl5YnczNCI6MSwiMTc5MjI2MTQzNTI3MS1yZXN1bHQtcXUyM3IzdjV3a24iOjV9fQ",
+    "usage": {
+      "inputTokens": 47258,
+      "outputTokens": 3768,
+      "cacheReadTokens": 558336,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 16,
+      "byModel": {
+        "openrouter-deepseek/deepseek-v4-flash": {
+          "inputTokens": 46681,
+          "outputTokens": 3764,
+          "cacheReadTokens": 558336,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 15
+        },
+        "vertex-gemini-3-flash-preview": {
+          "inputTokens": 577,
+          "outputTokens": 4,
+          "cacheReadTokens": 0,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 1
+        }
+      }
+    },
+    "sessionUsage": {
+      "inputTokens": 47258,
+      "outputTokens": 3768,
+      "cacheReadTokens": 558336,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 16,
+      "byModel": {
+        "openrouter-deepseek/deepseek-v4-flash": {
+          "inputTokens": 46681,
+          "outputTokens": 3764,
+          "cacheReadTokens": 558336,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 15
+        },
+        "vertex-gemini-3-flash-preview": {
+          "inputTokens": 577,
+          "outputTokens": 4,
+          "cacheReadTokens": 0,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 1
+        }
+      }
+    }
+  }
+}

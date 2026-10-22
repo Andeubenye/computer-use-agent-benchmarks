@@ -1,0 +1,15 @@
+{
+  "agent": "sai",
+  "task": 3,
+  "outcome": "NOT TESTED / BLOCKED",
+  "score": null,
+  "submitted": false,
+  "model": null,
+  "duration_seconds": null,
+  "actions": null,
+  "screenshots_saved": 0,
+  "agent_generation_requests": 0,
+  "estimated_api_cost_usd": 0,
+  "reason": "Authorized direct-control recheck returned HTTP 403 forbidden: Not authorized for this machine. No bypass or task submission.",
+  "evidence": "preflight/batch-audit/sai-access-recheck.json"
+}

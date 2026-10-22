@@ -1,0 +1,54 @@
+{
+  "http_status": 200,
+  "body": {
+    "sessionId": "id-d70b1706f18d",
+    "status": "running",
+    "events": [
+      {
+        "type": "data-progress",
+        "data": {
+          "text": "[Guardrails] ✅ keypress_enter: allow (score=0) text=\"Ada Lovelace\" — score=0",
+          "tool": "execute"
+        }
+      }
+    ],
+    "text": "",
+    "cursor": "eyJ0dXJuIjoxNzkyMjYwODY5ODU4LCJzZWVuIjpbIjE3OTIyNjA4ODIzMzctdG9vbC13OTcxM2U5YTFtaiIsIjE3OTIyNjA4NzQ1MzEtYXNzaXN0YW50LW9ycWZoZXg4ZDUiLCIxNzkyMjYwODg0NzE1LWFzc2lzdGFudC0yNHJrNmJ3N20ycCIsIjE3OTIyNjA5NDYxMTYtdG9vbC10anY1cDA0djUiLCIxNzkyMjYwOTM3OTUyLWFzc2lzdGFudC13YzE3NjNldzQzbCIsIjE3OTIyNjA5NTUwNTAtYXNzaXN0YW50LXR1YTk5Z3UycGFtIiwiMTc5MjI2MDk2Njg5MC10b29sLW1iZjIxZ3Nsa3hzIl0sInByb2ciOnsiMTc5MjI2MDk0NjY1Mi1yZXN1bHQtdjc0aHhibGpreiI6MSwiMTc5MjI2MDk2NzQ2OC1yZXN1bHQteHBoMjV6MjIxNG8iOjF9fQ",
+    "usage": {
+      "inputTokens": 87457,
+      "outputTokens": 602,
+      "cacheReadTokens": 38400,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 3,
+      "byModel": {
+        "openrouter-deepseek/deepseek-v4-flash": {
+          "inputTokens": 87457,
+          "outputTokens": 602,
+          "cacheReadTokens": 38400,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 3
+        }
+      }
+    },
+    "sessionUsage": {
+      "inputTokens": 87457,
+      "outputTokens": 602,
+      "cacheReadTokens": 38400,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 3,
+      "byModel": {
+        "openrouter-deepseek/deepseek-v4-flash": {
+          "inputTokens": 87457,
+          "outputTokens": 602,
+          "cacheReadTokens": 38400,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 3
+        }
+      }
+    }
+  }
+}

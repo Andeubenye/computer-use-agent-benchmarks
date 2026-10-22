@@ -1,0 +1,22 @@
+{
+  "agent": "claude",
+  "task": "test-2-wikipedia",
+  "submitted": true,
+  "status": "needs_review",
+  "agent_wall_seconds": 230.398238,
+  "wall_seconds": 230.398297,
+  "max_seconds_from_submission": 600,
+  "actions": 48,
+  "action_unit": "native computer actions including screenshots/zoom",
+  "screenshots": 12,
+  "model": "claude-sonnet-5-5",
+  "tool_version": "computer_toolset_20260801",
+  "cost_usd": 0.400342,
+  "uncertain_cost_reserved_usd": 0.0,
+  "cost_basis": "recorded tokens × standard model rates; not invoice",
+  "errors": 2,
+  "api_retries": 0,
+  "automatic_restarts": 0,
+  "fresh_desktop": true,
+  "evidence_directory": "runs/claude/test-2-wikipedia/native-evidence/20261017T181924Z-51b833d3"
+}

@@ -1,0 +1,112 @@
+{
+  "id": "resp_09cb781ca12dec7f006ad94631c22487d2ae126568836b231d",
+  "object": "response",
+  "created_at": 1792624177,
+  "status": "completed",
+  "access_programs": null,
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1792624180,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": "You control an isolated Linux desktop at 1024 x 768 pixels. The task folder is /home/agent/Desktop/benchmark. Use only the native computer tool for task work. Open, inspect, edit, save and verify through graphical desktop applications. No terminal, browser, shell, code, scripts, macros, filesystem tools, network or programmatic editing. Spreadsheet formulas entered in the spreadsheet GUI are allowed for calculations. End each action batch with a screenshot and observe the result before proceeding. Expected outputs and grader references are not available. Do not inspect unrelated files, sign in, change settings or install software. If blocked, stop and describe the blocker. You have ten minutes from submission.",
+  "max_output_tokens": 2048,
+  "max_tool_calls": null,
+  "model": "gpt-6.1-sol",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_09cb781ca12dec7f006ad94633998887d288059697697bd9f1",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq2UY0qsHgE-vbHxIzfdMQC4-VQN4uuw6jpw9uJB7yKCtFLmf9LECwcMdDLPbx_2tHO5JmHAOEjqaq5CozVrlt9a6aZmBqwd2hVQHm3NbfEEMjmOzcKTJth05aK-EHNVguKRmbFICa0HL8eyiNxpsSDt8slM9WJ-NYJ36aWaFvXJkSmW3tBnW5EODnvWStzwiu9nXb_Or2n2XjJDHN9LB_3NImPuwS2TIVX_q0pEr1Gs2rWcFi8_iGzrg8J99KVlxvIMMXeYVYgLObgyBWrIYHMDlTTbRHh7e3AYQN2oWan7ztxtVIGIsBTN_CcRy9Ms--J9x_t-tKa8FkAJA8KjXWIOBjB3u8Z8jhkHHgX03ajfc-iNF2mYAEhJSzbI3OiXaCgyGA1U2fj-aiBNw9a3gPOaucNbpDis-V_D56Yi4a3QdPBBJbeCAr56sBPwvPbRmvgGz-gLPVnbE9KbUa_1IU7aDY_g6ArZLQiMWeaW0Qm04108AA1UQ1U7E5f2CsY0mB5rErRaveeUsaAJEW6EmOpfHTwVHt_lLw0rlPPF66-690x4_bPFdHD3RArOI_6DjA13TSQYaOE9OBwUQ0Oe0e1XlRlygiIdQlHram03EayOAQbLGGZTChCds3EnONdkdmyj5h4N_x6qwNoBhKnkQWLM1qH_oz9q9SvAhYiQxiwRjE_o8-_dyQyDVW4RlLgy9QOpSW0u5ZpdF9p1SHMvWE0ZTPSu17FZmPtcC6pGGlVh_A6tWsDOTyheMBLe3gRo_BVH3vbfTZPrgdAFeth7cnWevLiiIomrQ6IRAF_3qOa4hVLn3jEUGdyuj5irvWwl3uIJacxD7TVTBWFtTRtjZescZSDKdNc2sWKKpJqr7fqvRE8ulF_x5Rogw_HZgW_JaI-n0tSnIkoXqUrn-G-FX5b9WVN-YPPwZ8yTmhuJXDTH9UArhQ6F36u4zGm4oh3Mnsm05dH6hdHNX1eEKWjVU5SFiiCoNpAHb797M6iNP5vVEhyELm-Y12BEEcelZVibZgaiPZ8-q-N8gDVDTFXYhJG6aYvLyGukU_ToxXzvxbR2fIsmLIEfvMfjcAIKCCx1kbG5Sd4fIczJFSWBYvoWrKuszoq98OQU633C_rPNVLwMUJu4_iWqLgR9vHCRUf3Izx5t_LLlQQlEyZa2EQLRZGlSEq4TB4mgCZUB17p6-0Jt2kVE8woBV56FI7T6AjdNGLyLxs-B5YyV9znP53BFDBWswqBDSeUF8D9ySRabfcWjnBruJqyx73iYYSTUEtYU9GPhu5KGJvVh42cPtefSVQDQMG6xwCVQGG6jQsgHVx-X4ogFOHRbq7SBKgrh5NLyolnAXzHkiKzEVmiJFG_ZxrbAVNyPZ6y6oT65FAudQ6hXRSXCzRndhMtWiOKtUXEX7a_dMl9DFyb1ZA2Gm1WWw5zLC02BQxBJxuxGQC6Xs82vuVR1GNM58yBkH9d4X5gpyqGdHr5G2_QdXp78Dpb7mewzVFb_kH9FMWrgrMJ27XpOzjv-4-Cpet8rLRqjNkxWiNKwmva6r4OaBv9h6rSqWeaNjyzb_G6j-Kf9rPp-GicwBgCj_jBk6bpVYYDWDFKvf8WejbAoSoBl93_odVpOZii7VRAA==",
+      "summary": []
+    },
+    {
+      "id": "cu_09cb781ca12dec7f006ad94633f92487d2995b8bcc32f85142",
+      "type": "computer_call",
+      "status": "completed",
+      "actions": [
+        {
+          "type": "keypress",
+          "keys": [
+            "ESC"
+          ]
+        },
+        {
+          "type": "keypress",
+          "keys": [
+            "CTRL",
+            "O"
+          ]
+        }
+      ],
+      "call_id": "call_gLdklhMi6mq1CrTtYG6ZBHg9"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": "resp_09cb781ca12dec7f006ad9462b3acc87d294a6b85b74886851",
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [
+    {
+      "type": "computer"
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 4930,
+    "input_tokens_details": {
+      "cache_write_tokens": 950,
+      "cached_tokens": 3977
+    },
+    "output_tokens": 54,
+    "output_tokens_details": {
+      "reasoning_tokens": 17
+    },
+    "total_tokens": 4984
+  },
+  "user": null,
+  "metadata": {}
+}

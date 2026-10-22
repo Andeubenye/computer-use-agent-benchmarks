@@ -1,0 +1,46 @@
+{
+  "checked_on": "2026-10-17",
+  "method": "Independent GitHub website accessibility tree and screenshot; no GitHub API",
+  "query": "is:issue is:open label:enhancement sort:updated-desc",
+  "total_results_observed": 25,
+  "never_send_to_agents": true,
+  "observed_timezone": "Africa/Lagos (GMT+1)",
+  "issues": [
+    {
+      "number": 6119,
+      "title": "Feature Request: Pre-execution guardrails and security middleware for subshell/CLI actions",
+      "url": "https://github.com/browser-use/browser-use/issues/6119",
+      "updated_date": "2026-10-17",
+      "updated_minute_utc": "2026-10-17T17:07Z"
+    },
+    {
+      "number": 6109,
+      "title": "[Feature]: Outbound Web Bot Auth signing for navigated requests",
+      "url": "https://github.com/browser-use/browser-use/issues/6109",
+      "updated_date": "2026-10-16",
+      "updated_minute_utc": "2026-10-16T19:13Z"
+    },
+    {
+      "number": 6031,
+      "title": "Known-answer false-success regression cases (403 block, disabled click, 6 more)",
+      "url": "https://github.com/browser-use/browser-use/issues/6031",
+      "updated_date": "2026-10-16",
+      "updated_minute_utc": "2026-10-16T18:13Z"
+    },
+    {
+      "number": 4798,
+      "title": "Feature Request: Support agent.pause() within tool calls",
+      "url": "https://github.com/browser-use/browser-use/issues/4798",
+      "updated_date": "2026-10-16",
+      "updated_minute_utc": "2026-10-16T09:48Z"
+    },
+    {
+      "number": 5057,
+      "title": "Feature Request: RFC: Standardized Evaluation/Benchmarking Harness for LLM Tool Calling",
+      "url": "https://github.com/browser-use/browser-use/issues/5057",
+      "updated_date": "2026-10-15",
+      "updated_minute_utc": "2026-10-15T18:58Z"
+    }
+  ],
+  "evidence_saved_at_utc": "2026-10-17T18:17:18.880085+00:00"
+}

@@ -1,0 +1,1 @@
+{"agent": "claude", "reason": "execution_error", "model_requests": 1, "seconds": 12.71, "cost_estimate_usd": 0.013434, "uncertain_reserved_usd": 0, "actions": 5, "errors": ["count HTTP 400 "]}

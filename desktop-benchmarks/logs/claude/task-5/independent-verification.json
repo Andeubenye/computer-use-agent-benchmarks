@@ -1,0 +1,50 @@
+{
+  "task": 5,
+  "outcome": "PARTIAL",
+  "score": 4,
+  "requirements": {
+    "Identified REC-204 approved source by contents": true,
+    "Dismissed the controlled interruption through GUI": true,
+    "Corrected time and preserved all other text": true,
+    "Separate valid output and all four source documents unchanged": true,
+    "Reopened corrected document and verified ID approval and time": false
+  },
+  "core_artifact_correct": true,
+  "details": {
+    "output_exists": true,
+    "valid_docx": true,
+    "paragraphs": [
+      "Dispatch recovery plan",
+      "Document ID REC-204",
+      "Approval APPROVED",
+      "The dispatch handoff is at 16:30.",
+      "Keep the loading checklist unchanged."
+    ],
+    "tables": [],
+    "all_originals_preserved": true
+  },
+  "gui_observations": {
+    "interruption_dismissed": {
+      "verified": true,
+      "evidence": [
+        "screenshots/claude/task-5/001-screenshot.png",
+        "logs/claude/task-5/events.jsonl",
+        "logs/claude/task-5/interruption-evidence.json"
+      ],
+      "explanation": "Initial warning is visible. The model requests an OK click, and the notice exits with code 0 before the container is stopped; harness did not dismiss it."
+    },
+    "reopened_and_verified": {
+      "verified": false,
+      "evidence": [
+        "screenshots/claude/task-5/024-screenshot.png",
+        "screenshots/claude/task-5/025-screenshot.png",
+        "logs/claude/task-5/events.jsonl"
+      ],
+      "explanation": "Reopened correct file is visible, but the next model request was blocked by the local reservation guard before the model could observe that screenshot and verify it. No final completion response."
+    }
+  },
+  "response_used_as_proof": false,
+  "verifier_edits_files": false,
+  "failure_category": "infrastructure/local spending allocation",
+  "limitation": "Correct artifact and reopened GUI state; model verification continuation was stopped by the $1 local cap while the global $7 cap still had balance."
+}

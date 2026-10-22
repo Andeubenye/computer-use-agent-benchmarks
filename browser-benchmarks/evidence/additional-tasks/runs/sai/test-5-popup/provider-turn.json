@@ -1,0 +1,17 @@
+{
+  "http_status": 200,
+  "body": {
+    "turnId": "id-ae0e39dbd480",
+    "sessionId": "id-b0ace35c3f25",
+    "machineId": "free-6WRf2PabNOOC8BV7CIDNKs0ckre2",
+    "status": "finalizing",
+    "output": null,
+    "reason_code": null,
+    "usage": null,
+    "recordTrajectory": true,
+    "trajectory": {
+      "recorded": true,
+      "url": "/v1/agents/turns/id-ae0e39dbd480/trajectory"
+    }
+  }
+}

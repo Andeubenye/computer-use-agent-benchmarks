@@ -1,0 +1,182 @@
+{
+  "verified_after_agent_stopped": true,
+  "captured_at_utc": "2026-10-21T00:12:00.072Z",
+  "url": "https://www.selenium.dev/selenium/web/web-form.html",
+  "title": "Web form",
+  "text": "Web form\nText input\n Password\n Textarea\n Disabled input\n Readonly input\nReturn to index\nDropdown (select)\nOpen this select menu\nOne\nTwo\nThree\n Dropdown (datalist)\n File input\nChecked checkbox \nDefault checkbox\nChecked radio\nDefault radio\nSubmit\nColor picker\n Date picker\n Example range ",
+  "fields": [
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": "my-text",
+      "id": "my-text-id",
+      "value": "",
+      "disabled": false,
+      "readOnly": false,
+      "checked": false,
+      "selectedText": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "password",
+      "name": "my-password",
+      "id": "",
+      "value": "",
+      "disabled": false,
+      "readOnly": false,
+      "checked": false,
+      "selectedText": null
+    },
+    {
+      "tag": "TEXTAREA",
+      "type": "textarea",
+      "name": "my-textarea",
+      "id": "",
+      "value": "",
+      "disabled": false,
+      "readOnly": false,
+      "selectedText": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": "my-disabled",
+      "id": "",
+      "value": "",
+      "disabled": true,
+      "readOnly": false,
+      "checked": false,
+      "selectedText": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": "my-readonly",
+      "id": "",
+      "value": "Readonly input",
+      "disabled": false,
+      "readOnly": true,
+      "checked": false,
+      "selectedText": null
+    },
+    {
+      "tag": "SELECT",
+      "type": "select-one",
+      "name": "my-select",
+      "id": "",
+      "value": "Open this select menu",
+      "disabled": false,
+      "selectedText": "Open this select menu"
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": "my-datalist",
+      "id": "",
+      "value": "",
+      "disabled": false,
+      "readOnly": false,
+      "checked": false,
+      "selectedText": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "file",
+      "name": "my-file",
+      "id": "",
+      "value": "",
+      "disabled": false,
+      "readOnly": false,
+      "checked": false,
+      "selectedText": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "name": "my-check",
+      "id": "my-check-1",
+      "value": "on",
+      "disabled": false,
+      "readOnly": false,
+      "checked": true,
+      "selectedText": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "name": "my-check",
+      "id": "my-check-2",
+      "value": "on",
+      "disabled": false,
+      "readOnly": false,
+      "checked": false,
+      "selectedText": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "radio",
+      "name": "my-radio",
+      "id": "my-radio-1",
+      "value": "on",
+      "disabled": false,
+      "readOnly": false,
+      "checked": true,
+      "selectedText": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "radio",
+      "name": "my-radio",
+      "id": "my-radio-2",
+      "value": "on",
+      "disabled": false,
+      "readOnly": false,
+      "checked": false,
+      "selectedText": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "color",
+      "name": "my-colors",
+      "id": "",
+      "value": "#563d7c",
+      "disabled": false,
+      "readOnly": false,
+      "checked": false,
+      "selectedText": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": "my-date",
+      "id": "",
+      "value": "",
+      "disabled": false,
+      "readOnly": false,
+      "checked": false,
+      "selectedText": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "range",
+      "name": "my-range",
+      "id": "",
+      "value": "5",
+      "disabled": false,
+      "readOnly": false,
+      "checked": false,
+      "selectedText": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "hidden",
+      "name": "my-hidden",
+      "id": "",
+      "value": "",
+      "disabled": false,
+      "readOnly": false,
+      "checked": false,
+      "selectedText": null
+    }
+  ]
+}

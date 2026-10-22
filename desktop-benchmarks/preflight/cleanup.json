@@ -1,0 +1,15 @@
+{
+  "utc": "2026-10-21T20:28:30.871462+00:00",
+  "preflight_container_stop_exit": 0,
+  "benchmark_container_states": [
+    "manicule-desktop-claude-attempt-2-20261021 Exited (137) 8 minutes ago",
+    "manicule-desktop-claude-20261021 Exited (137) About an hour ago",
+    "manicule-desktop-preflight-20261021 Exited (137) Less than a second ago"
+  ],
+  "any_containers_running_before_vm_stop": false,
+  "colima_stop_exit": 0,
+  "colima_stop_output": "Stopping 'docker.service', but its triggering units are still active:\ndocker.socket\ncolima-claude-benchmark\ntime=\"2026-10-21T21:28:28+01:00\" level=info msg=\"Sending SIGINT to hostagent process 25220\"\ntime=\"2026-10-21T21:28:28+01:00\" level=info msg=\"Waiting for the host agent and the driver processes to shut down\"\ntime=\"2026-10-21T21:28:28+01:00\" level=info msg=\"[hostagent] Received SIGINT, shutting down the host agent\"\ntime=\"2026-10-21T21:28:28+01:00\" level=info msg=\"[hostagent] Shutting down the host agent\"\ntime=\"2026-10-21T21:28:28+01:00\" level=info msg=\"[hostagent] Stopping forwarding `/var/run/docker.sock` (guest) to `<USER_HOME>/.colima/claude-benchmark/docker.sock` (host)\"\ntime=\"2026-10-21T21:28:28+01:00\" level=info msg=\"[hostagent] Stopping forwarding `/var/run/containerd/containerd.sock` (guest) to `<USER_HOME>/.colima/claude-benchmark/containerd.sock` (host)\"\ntime=\"2026-10-21T21:28:28+01:00\" level=info msg=\"[hostagent] Unmounting disk `colima-claude-benchmark`\"\ntime=\"2026-10-21T21:28:28+01:00\" level=info msg=\"[hostagent] Shutting down VZ\"\ntime=\"2026-10-21T21:28:29+01:00\" level=info msg=\"[hostagent] [VZ] - vm state change: stopped\"\ntime=\"2026-10-21T21:28:29+01:00\" level=info msg=\"Waiting for the instance to shut down\"\ntime=\"2026-10-21T21:28:30+01:00\" level=info msg=\"The instance colima-claude-benchmark has shut down\"\ntime=\"2026-10-21T21:28:27+01:00\" level=info msg=\"stopping colima [profile=claude-benchmark]\"\ntime=\"2026-10-21T21:28:27+01:00\" level=info msg=\"stopping ...\" context=docker\ntime=\"2026-10-21T21:28:27+01:00\" level=info msg=\"stopping ...\" context=vm\ntime=\"2026-10-21T21:28:30+01:00\" level=info msg=done\n",
+  "stopped_containers_preserved": true,
+  "hugging_face_or_ui_tars_operations": false,
+  "provider_requests": 0
+}

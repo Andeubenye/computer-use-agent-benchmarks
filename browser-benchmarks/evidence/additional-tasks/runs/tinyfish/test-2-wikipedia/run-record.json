@@ -1,0 +1,22 @@
+{
+  "agent": "tinyfish",
+  "task": "test-2-wikipedia",
+  "submitted": true,
+  "status": "COMPLETED",
+  "client_error": null,
+  "started_at": "2026-10-17T18:14:26.647328+00:00",
+  "agent_wall_seconds": 202.31592762500077,
+  "max_seconds_from_submission": 600,
+  "deadline_fired": false,
+  "run_id": "id-b88fc31f3c17",
+  "actions": 18,
+  "action_unit": "provider steps",
+  "screenshots": 17,
+  "model": null,
+  "model_limitation": "Revision not exposed",
+  "cost_usd": 0.288,
+  "cost_basis": "published $0.016 per reported step; not invoice",
+  "automatic_restarts": 0,
+  "fresh_profile_requested": true,
+  "internal_retries": null
+}

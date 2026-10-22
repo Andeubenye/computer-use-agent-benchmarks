@@ -1,0 +1,15 @@
+Open https://the-internet.herokuapp.com/login
+
+Attempt to log in using these incorrect credentials:
+
+Username: incorrect_user
+Password: wrong_password
+
+Observe the error message.
+
+Then recover by using the correct demo credentials:
+
+Username: tomsmith
+Password: SuperSecretPassword!
+
+Verify that login succeeds and report the final result.

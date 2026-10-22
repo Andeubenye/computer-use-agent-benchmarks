@@ -1,0 +1,22 @@
+{
+  "agent": "tinyfish",
+  "task": "test-4-github-enhancement",
+  "submitted": true,
+  "status": "COMPLETED",
+  "client_error": null,
+  "started_at": "2026-10-17T18:18:31.744665+00:00",
+  "agent_wall_seconds": 102.16928100000223,
+  "max_seconds_from_submission": 600,
+  "deadline_fired": false,
+  "run_id": "id-eec001a0ef57",
+  "actions": 14,
+  "action_unit": "provider steps",
+  "screenshots": 13,
+  "model": null,
+  "model_limitation": "Revision not exposed",
+  "cost_usd": 0.224,
+  "cost_basis": "published $0.016 per reported step; not invoice",
+  "automatic_restarts": 0,
+  "fresh_profile_requested": true,
+  "internal_retries": null
+}

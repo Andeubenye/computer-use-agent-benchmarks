@@ -1,0 +1,59 @@
+{
+  "id": "provider-id-36bcdb44af68",
+  "content": [
+    {
+      "id": "toolu_01FBDBNcpawwab9Ua3Jnwvnd",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "text": "Return"
+      },
+      "name": "key",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01P8RKSdCtaf5JF2z1xN3gPL",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "duration": 5
+      },
+      "name": "wait",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01F4cr5MP4VqqYTwzN2sjoJN",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {},
+      "name": "screenshot",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    }
+  ],
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_reason": "tool_use",
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 6398,
+    "output_tokens": 91,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "reopened_and_verified": {
+    "verified": true,
+    "evidence": [
+      "screenshots/claude/task-3/010-screenshot.png",
+      "screenshots/claude/task-3/011-screenshot.png",
+      "screenshots/claude/task-3/012-screenshot.png",
+      "screenshots/claude/task-3/013-screenshot.png"
+    ],
+    "explanation": "Saved revised file is shown, then closed to LibreOffice start center, then reopened as dispatch_revised.docx. Correct spellings, Heading 1 shown in toolbar and Pending table cell are visible."
+  }
+}

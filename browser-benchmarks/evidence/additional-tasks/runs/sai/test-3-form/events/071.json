@@ -1,0 +1,82 @@
+{
+  "http_status": 200,
+  "body": {
+    "sessionId": "id-71dc1af9c730",
+    "status": "running",
+    "events": [
+      {
+        "type": "data-progress",
+        "data": {
+          "text": "--- Full outline ---",
+          "tool": "execute"
+        }
+      },
+      {
+        "type": "data-progress",
+        "data": {
+          "text": "--- Checking Country specifically ---",
+          "tool": "execute"
+        }
+      },
+      {
+        "type": "data-progress",
+        "data": {
+          "text": "28-            - text: Job title",
+          "tool": "execute"
+        }
+      },
+      {
+        "type": "data-progress",
+        "data": {
+          "text": "--- Checking United States ---",
+          "tool": "execute"
+        }
+      },
+      {
+        "type": "data-progress",
+        "data": {
+          "text": "33-              - option \"Select a country\"",
+          "tool": "execute"
+        }
+      }
+    ],
+    "text": "",
+    "cursor": "eyJ0dXJuIjoxNzkyMjYxMjM0ODY1LCJzZWVuIjpbIjE3OTIyNjEyNDk5OTAtdG9vbC12ODZxNnNrdXptOSIsImVycjoxNzkyMjYxMjUwNTE1LXJlc3VsdC1uNnZzMnJubXpuIiwiMTc5MjI2MTI2NDExMC10b29sLXRhMzR4bWl6aWtzIiwiMTc5MjI2MTI4Nzk2MC10b29sLWEwdWRiYzRrbGp2IiwiMTc5MjI2MTI2OTA5MS1hc3Npc3RhbnQtanNpcXRmZjQweGQiLCIxNzkyMjYxMjk3OTA3LXRvb2wtYWwxaDQxMGNqc2EiLCIxNzkyMjYxMzExMDY4LXRvb2wtbWxiZ3cyMjVsYyIsIjE3OTIyNjEzMjQ1NTgtdG9vbC1iaXRncjVkcTJqZyIsIjE3OTIyNjEzMzU1ODgtdG9vbC1wNWN1MTR5aWxvIiwiMTc5MjI2MTM0MjQ2My10b29sLXh3MGZvajZleTUiLCIxNzkyMjYxMzUyODcwLXRvb2wtNmh5NnU0dzdkNGsiLCIxNzkyMjYxMzQ0MDA3LWFzc2lzdGFudC10b3EwMm9zb29jIiwiMTc5MjI2MTM3ODU5OS10b29sLW5teWEwMms0OTUiLCIxNzkyMjYxMzU1MTA3LWFzc2lzdGFudC13ODdwNGowNWI0IiwiMTc5MjI2MTM4OTMwOS10b29sLXV0MWM3cXRtZiIsIjE3OTIyNjEzOTEyMDAtYXNzaXN0YW50LWtwaHV5d2diMGJtIiwiMTc5MjI2MTQxNDk3OS10b29sLWRpMXF1d3c4OXRwIiwiMTc5MjI2MTQyMTA5NC10b29sLWJmZmhkbDY5NmVtIiwiMTc5MjI2MTQzNDU5MS10b29sLTJkM2VtNHZjNzgiXSwicHJvZyI6eyIxNzkyMjYxMjg4NTE2LXJlc3VsdC1ha25ndjhneDZvaSI6MSwiMTc5MjI2MTI5ODQzMC1yZXN1bHQtMXl1MmwyM2lhaG4iOjEsIjE3OTIyNjEzMTE2MDUtcmVzdWx0LWg0ejNzbWlvZmNvIjo0LCIxNzkyMjYxMzI1MTk5LXJlc3VsdC15bjJpenEybjUzaSI6MSwiMTc5MjI2MTMzNjA2Ni1yZXN1bHQtMWc2bWp6YmoxNzMiOjEsIjE3OTIyNjEzNDI5ODgtcmVzdWx0LWJ4cXp2MnpyOXFuIjoxLCIxNzkyMjYxNDE1NDk5LXJlc3VsdC1iZmFqbjl5YnczNCI6MSwiMTc5MjI2MTQzNTI3MS1yZXN1bHQtcXUyM3IzdjV3a24iOjV9fQ",
+    "usage": {
+      "inputTokens": 45621,
+      "outputTokens": 3241,
+      "cacheReadTokens": 517120,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 14,
+      "byModel": {
+        "openrouter-deepseek/deepseek-v4-flash": {
+          "inputTokens": 45621,
+          "outputTokens": 3241,
+          "cacheReadTokens": 517120,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 14
+        }
+      }
+    },
+    "sessionUsage": {
+      "inputTokens": 45621,
+      "outputTokens": 3241,
+      "cacheReadTokens": 517120,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 14,
+      "byModel": {
+        "openrouter-deepseek/deepseek-v4-flash": {
+          "inputTokens": 45621,
+          "outputTokens": 3241,
+          "cacheReadTokens": 517120,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 14
+        }
+      }
+    }
+  }
+}

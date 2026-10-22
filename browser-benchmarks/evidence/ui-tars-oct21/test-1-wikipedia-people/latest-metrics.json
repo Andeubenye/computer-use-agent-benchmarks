@@ -1,0 +1,17 @@
+{
+  "task": "test-1-wikipedia-people",
+  "elapsed_seconds": 164.963,
+  "terminal": "error",
+  "actions": [
+    "click",
+    "click",
+    "type",
+    "hotkey",
+    "wait",
+    "click",
+    "click"
+  ],
+  "sdk_invocations": 8,
+  "model_responses": 7,
+  "last_model_response": "Thought: I've found the birth year of Turing, and it's 1912. However, the task isn't finished yet; I still need to look up the birth years of the other four individuals. Let me click on the search box at the top of the page and start searching for the next person, Ada Lovelace. I'll take it step by step, and I'll have all the information gathered in no time.\nAction: click(start_box='(1205,65)')"
+}

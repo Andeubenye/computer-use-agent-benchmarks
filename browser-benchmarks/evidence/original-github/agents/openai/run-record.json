@@ -1,0 +1,23 @@
+{
+  "run_id": "openai_run_1",
+  "status": "partially_successful",
+  "model": "gpt-6.1-sol",
+  "native_tool": "computer",
+  "native_computer_call_observed": true,
+  "wall_clock_seconds": 97.546,
+  "api_request_attempts": 11,
+  "computer_tool_calls": 10,
+  "computer_actions": 27,
+  "retries": 0,
+  "errors": [],
+  "issue_fields_correct": 15,
+  "issue_fields_total": 20,
+  "issue_identity_and_order_correct": true,
+  "calendar_dates_returned": false,
+  "prompt_explicitly_permitted_relative_dates": true,
+  "model_screenshot_count": 11,
+  "cost_estimate_usd": 0.0731802,
+  "cost_kind": "Token-derived model estimate; arithmetic and rate source checked, invoice not checked",
+  "no_new_run_submitted_by_this_audit": true,
+  "original_response_file": "original-response.txt"
+}

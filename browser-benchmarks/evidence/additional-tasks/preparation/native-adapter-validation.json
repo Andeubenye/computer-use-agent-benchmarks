@@ -1,0 +1,7 @@
+{
+  "adapted_source_compiles": true,
+  "openai_budget_guard_prevents_generation_when_reservation_exceeds_allowance": true,
+  "mock_generation_calls": 0,
+  "network_requests": 0,
+  "original_harness_modified": false
+}

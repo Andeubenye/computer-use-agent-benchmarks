@@ -1,0 +1,13 @@
+Filtered GitHub using `is:issue is:open label:enhancement sort:updated-desc`. There were **25 matching issues**. The first five, in GitHub’s most-recently-updated order, were:
+
+| Issue | Title | Last updated (observed) |
+|---|---|---|
+| [#6119](https://github.com/browser-use/browser-use/issues/6119) | Feature Request: Pre-execution guardrails and security middleware for subshell/CLI actions | 1h ago |
+| [#6109](https://github.com/browser-use/browser-use/issues/6109) | [Feature]: Outbound Web Bot Auth signing for navigated requests | 1d ago |
+| [#6031](https://github.com/browser-use/browser-use/issues/6031) | Known-answer false-success regression cases (403 block, disabled click, 6 more) | 1d ago |
+| [#4798](https://github.com/browser-use/browser-use/issues/4798) | Feature Request: Support agent.pause() within tool calls | 1d ago |
+| [#5057](https://github.com/browser-use/browser-use/issues/5057) | Feature Request: RFC: Standardized Evaluation/Benchmarking Harness for LLM Tool Calling | 2d ago |
+
+**Date limitation:** GitHub displayed relative **Updated** values. Hovering over those values did not reveal exact calendar dates or timestamps, so I preserved the observed relative dates rather than substituting creation dates. The ordering above follows GitHub’s updated-descending results, including issues sharing “1d ago.”  
+
+No API was used, and I did not log in or make repository changes.

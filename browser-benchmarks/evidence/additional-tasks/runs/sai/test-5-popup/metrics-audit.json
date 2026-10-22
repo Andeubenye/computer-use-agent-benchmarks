@@ -1,0 +1,101 @@
+{
+  "agent": "sai",
+  "task": "test-5-popup",
+  "original_record_preserved": true,
+  "checked_at": "2026-10-17T19:00:04.114326+00:00",
+  "last_stream_usage": {
+    "inputTokens": 4149,
+    "outputTokens": 1219,
+    "cacheReadTokens": 233984,
+    "cacheWriteTokens": 0,
+    "costUsd": 0,
+    "modelCalls": 6,
+    "byModel": {
+      "openrouter-deepseek/deepseek-v4-flash": {
+        "inputTokens": 4149,
+        "outputTokens": 1219,
+        "cacheReadTokens": 233984,
+        "cacheWriteTokens": 0,
+        "costUsd": 0,
+        "modelCalls": 6
+      }
+    }
+  },
+  "model_routes_observed": [
+    "openrouter-deepseek/deepseek-v4-flash"
+  ],
+  "provider_internal_retries": null,
+  "fresh_conversation": true,
+  "fresh_desktop": false,
+  "final_provider_turn": {
+    "turnId": "id-ae0e39dbd480",
+    "sessionId": "id-b0ace35c3f25",
+    "machineId": "free-6WRf2PabNOOC8BV7CIDNKs0ckre2",
+    "status": "failed",
+    "output": null,
+    "reason_code": "agent_error",
+    "raw_answer": "The agent finished without an answer.",
+    "usage": {
+      "inputTokens": 7979,
+      "outputTokens": 2090
+    },
+    "recordTrajectory": true,
+    "trajectory": {
+      "recorded": true,
+      "url": "/v1/agents/turns/id-ae0e39dbd480/trajectory"
+    }
+  },
+  "screenshot_payloads": [
+    {
+      "original": "002.jpg",
+      "viewable": "002.recovered.jpg",
+      "valid_image_signature": true
+    },
+    {
+      "original": "003.jpg",
+      "viewable": "003.recovered.jpg",
+      "valid_image_signature": true
+    },
+    {
+      "original": "001.jpg",
+      "viewable": "001.recovered.jpg",
+      "valid_image_signature": true
+    },
+    {
+      "original": "000.jpg",
+      "viewable": "000.jpg",
+      "valid_image_signature": true
+    },
+    {
+      "original": "004.jpg",
+      "viewable": "004.recovered.jpg",
+      "valid_image_signature": true
+    },
+    {
+      "original": "005.jpg",
+      "viewable": "005.recovered.jpg",
+      "valid_image_signature": true
+    },
+    {
+      "original": "007.jpg",
+      "viewable": "007.recovered.jpg",
+      "valid_image_signature": true
+    },
+    {
+      "original": "006.jpg",
+      "viewable": "006.recovered.jpg",
+      "valid_image_signature": true
+    },
+    {
+      "original": "008.jpg",
+      "viewable": "008.recovered.jpg",
+      "valid_image_signature": true
+    },
+    {
+      "original": "009.jpg",
+      "viewable": "009.recovered.jpg",
+      "valid_image_signature": true
+    }
+  ],
+  "viewable_screenshot_count": 10
+}

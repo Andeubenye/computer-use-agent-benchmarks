@@ -1,0 +1,21 @@
+{
+  "graded_at_utc": "2026-10-17T18:34:10.864213+00:00",
+  "grader": "Codex evidence audit, separate from evaluated agent",
+  "verification_data_sent_to_agent": false,
+  "outcome": "partially_successful",
+  "correct_checks": 15,
+  "total_checks": 20,
+  "numbers_titles_urls_correct": true,
+  "membership_and_order_correct": true,
+  "exact_updated_dates_provided": false,
+  "observed_dates": [
+    "1h ago",
+    "1d ago",
+    "1d ago",
+    "1d ago",
+    "2d ago"
+  ],
+  "limitation_reported_by_agent": "Hovering did not reveal exact calendar dates in the headless page-screenshot environment. The prompt allowed reporting relative fallback values with an explicit limitation.",
+  "reference": "verification/github-enhancement-reference.json",
+  "evidence": "Original answer matches all five issue identities and correct order. Native computer move/hover/screenshot trace is preserved; no exact-date points awarded."
+}

@@ -1,0 +1,12 @@
+{
+  "model": "claude-sonnet-5-5",
+  "system": "You control an isolated Linux desktop at 1024 x 768 pixels. The task folder is /home/agent/Desktop/benchmark. Use only the native computer tool for task work. Open, inspect, edit, save and verify through graphical desktop applications. No terminal, browser, shell, code, scripts, macros, filesystem tools, network or programmatic editing. Spreadsheet formulas entered in the spreadsheet GUI are allowed for calculations. End each action batch with a screenshot and observe the result before proceeding. Expected outputs and grader references are not available. Do not inspect unrelated files, sign in, change settings or install software. If blocked, stop and describe the blocker. You have ten minutes from submission.",
+  "prompt": "In /home/agent/Desktop/benchmark/Inbox, organize all 20 files into exactly four subfolders named PDFs, Images, Notes, and Spreadsheets, according to their file types. Move the eight PDFs into PDFs and rename them using this mapping: scan_01.pdf to 2026-01-INV-1001.pdf; scan_02.pdf to 2026-01-INV-1002.pdf; scan_03.pdf to 2026-01-INV-1003.pdf; scan_04.pdf to 2026-01-INV-1004.pdf; scan_05.pdf to 2026-01-INV-1005.pdf; scan_06.pdf to 2026-01-INV-1006.pdf; scan_07.pdf to 2026-01-INV-1007.pdf; scan_08.pdf to 2026-01-INV-1008.pdf. Move all PNGs to Images, TXT files to Notes, and CSV files to Spreadsheets, keeping those filenames. Do not change any file contents. Verify that exactly 20 files remain, with none missing, duplicated, or left loose in Inbox, and verify the eight PDF names. Use only desktop graphical applications, mouse and keyboard. Do not use a browser, terminal, scripts, macros, programmatic file tools, or the network. Spreadsheet formulas entered through the GUI are allowed for calculations. Report what you changed, the output location, and any incomplete steps.",
+  "task_timeout_seconds": 600,
+  "budget_usd": 0.65,
+  "output_token_cap": 2048,
+  "api_retries": 0,
+  "computer_tool": "computer_toolset_20260801",
+  "execution_environment": "Linux / LibreOffice / Xvfb 1024x768 / network none",
+  "expected_output_exposed": false
+}

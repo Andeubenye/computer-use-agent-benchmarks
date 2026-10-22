@@ -1,0 +1,42 @@
+[
+  {
+    "number": 6068,
+    "title": "Bug: agent enables a disabled button with evaluate, places the order, and often reports a plain success",
+    "url": "https://github.com/browser-use/browser-use/issues/6068",
+    "last_updated": "Oct 16, 2026, 8:59 AM UTC",
+    "source": "Claude final answer",
+    "independently_verified": false
+  },
+  {
+    "number": 4579,
+    "title": "Bug: CDP connection instability causing indefinite hangs with remote browsers",
+    "url": "https://github.com/browser-use/browser-use/issues/4579",
+    "last_updated": "Oct 15, 2026, 6:31 AM UTC",
+    "source": "Claude final answer",
+    "independently_verified": false
+  },
+  {
+    "number": 6065,
+    "title": "Bug: Browser parameter accept_downloads is nonfunctional when running Browser-use locally",
+    "url": "https://github.com/browser-use/browser-use/issues/6065",
+    "last_updated": "Oct 14, 2026, 3:44 PM UTC",
+    "source": "Claude final answer",
+    "independently_verified": false
+  },
+  {
+    "number": 4877,
+    "title": "Bug: ...pip dependency conflicts due to strict exact-pins (==) in pyproject.toml",
+    "url": "https://github.com/browser-use/browser-use/issues/4877",
+    "last_updated": "Oct 14, 2026, 6:18 AM UTC",
+    "source": "Claude final answer",
+    "independently_verified": false
+  },
+  {
+    "number": 5633,
+    "title": "Bug: AnthropicMessageSerializer drops earlier system messages",
+    "url": "https://github.com/browser-use/browser-use/issues/5633",
+    "last_updated": "Oct 10, 2026, 5:54 AM UTC",
+    "source": "Claude final answer",
+    "independently_verified": false
+  }
+]

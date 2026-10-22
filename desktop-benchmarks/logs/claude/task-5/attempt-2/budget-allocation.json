@@ -1,0 +1,9 @@
+{
+  "queue_requested_cap": 1.75,
+  "configured_initial_task_cap": 1.0,
+  "effective_run_cap": 1.75,
+  "cumulative_cap": 7,
+  "same_task_cap_for_both_agents": false,
+  "explicit_repair_allowance": true,
+  "reason": "Released allowance from earlier completed tasks; no budget reset"
+}

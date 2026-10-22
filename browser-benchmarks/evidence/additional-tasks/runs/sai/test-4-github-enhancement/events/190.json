@@ -1,0 +1,54 @@
+{
+  "http_status": 200,
+  "body": {
+    "sessionId": "id-ee28d2092e89",
+    "status": "running",
+    "events": [
+      {
+        "type": "data-progress",
+        "data": {
+          "text": "=== Hover on #1 ===",
+          "tool": "execute"
+        }
+      }
+    ],
+    "text": "",
+    "cursor": "eyJ0dXJuIjoxNzkyMjYxNTE2NjA5LCJzZWVuIjpbIjE3OTIyNjE1MzIwMjItdG9vbC1veGc1amZ0bDl3IiwiMTc5MjI2MTUzMzg5Ni1hc3Npc3RhbnQtemZwaDJmM2tzM28iLCIxNzkyMjYxNjQ4NzI0LXRvb2wtaTZ1MGwxdjd2dyIsIjE3OTIyNjE2Mzc5MzUtYXNzaXN0YW50LTNjbW1pZmYxaGt3IiwiMTc5MjI2MTY2NzMyMS10b29sLXQ5dXJ6b3J5NHhkIiwiMTc5MjI2MTY1MzMwNy1hc3Npc3RhbnQtbTV1NGVuMmRxbCIsIjE3OTIyNjE2OTQzNTctdG9vbC03NmplbHcwbTZwaSIsIjE3OTIyNjE2NzU1MDYtYXNzaXN0YW50LTBhbTJmYjlheHJwIiwiMTc5MjI2MTY5ODY3OS1hc3Npc3RhbnQtd2JjZno0bjQ1NCIsIjE3OTIyNjE3NDM2OTAtdG9vbC1hYnpjMnRsanE4diIsIjE3OTIyNjE3NTU2OTAtdG9vbC1hZzc4bDBicDkyIiwiMTc5MjI2MTc3MTE1NS10b29sLWd1enU5Y2tkNnFyIiwiMTc5MjI2MTc1NzczOS1hc3Npc3RhbnQtaGx1cjhnbnZrbiIsIjE3OTIyNjE3OTQ0MjMtdG9vbC1lczBmemRvcTB4aSIsIjE3OTIyNjE4MjEzNzgtdG9vbC02cHBtMHpoZ2l6biIsIjE3OTIyNjE3OTg0OTYtYXNzaXN0YW50LXE0NmNybmpvNTBhIiwiMTc5MjI2MTg2MzMyMC10b29sLXJ3N3hsaHl5MjJkIiwiMTc5MjI2MTgyODk3MS1hc3Npc3RhbnQteTl6Z2Z3aXk3OGMiLCIxNzkyMjYxODY1NjA2LWFzc2lzdGFudC15dG9pZ2J5Y2tkOSIsIjE3OTIyNjE5MTIzMTEtdG9vbC1rbW84YWl6bzh2ZSIsIjE3OTIyNjE5MzQyMDUtdG9vbC10ZzRldnAxb3BkIiwiMTc5MjI2MTkxNDQ4MS1hc3Npc3RhbnQtaG05NGo2MG0xMmgiLCIxNzkyMjYyMDA3MjY1LXRvb2wtOXkxdnh0NGltNDgiLCIxNzkyMjYxOTM4NTIwLWFzc2lzdGFudC1ldDBmajE5ajc4NiIsIjE3OTIyNjIwMzYyNzItdG9vbC03bzAwcm9zOTZ2cyIsIjE3OTIyNjIwMDk0OTEtYXNzaXN0YW50LWd3djQ0OHQ0N25tIiwiMTc5MjI2MjA2MjM3MS10b29sLTkxeDRteDBxbWtwIiwiMTc5MjI2MjA0MDM1NC1hc3Npc3RhbnQtc2pmczJ4aDBoYmkiLCIxNzkyMjYyMDk5NDkxLXRvb2wtcW4wdW05MnA0cyIsIjE3OTIyNjIwNjQ2MDgtYXNzaXN0YW50LXJqbnFnemp2cmdtIl0sInByb2ciOnsiMTc5MjI2MTY0OTEyNi1yZXN1bHQtcnBzNG1saHEyajgiOjEsIjE3OTIyNjE2Njc3MTEtcmVzdWx0LTJ4MHpiaG1wbnRsIjoxLCIxNzkyMjYxNjk0Nzk0LXJlc3VsdC1nMDgwM3l6OHQ5NyI6MiwiMTc5MjI2MTc0NDA1Ny1yZXN1bHQtZ3d1aTd2M3JqdyI6MiwiMTc5MjI2MTc1NjA2Ni1yZXN1bHQtcTA2MG85a29wOGsiOjYsIjE3OTIyNjE3NzE1MjgtcmVzdWx0LTRoZmI1czQ0czUxIjozLCIxNzkyMjYxNzk0Nzc4LXJlc3VsdC1xbGV1YXdmd2QwcCI6NiwiMTc5MjI2MTgyMTgyOC1yZXN1bHQtanprNjlxZmgwd28iOjQsIjE3OTIyNjE4NjM3NTMtcmVzdWx0LTBudXk5ZDk3ODVhIjozLCIxNzkyMjYxOTEyNzcxLXJlc3VsdC10MjRrcGxpcW41ZCI6OSwiMTc5MjI2MTkzNDY4MS1yZXN1bHQtZnM4eTkyYWc4ZHMiOjIsIjE3OTIyNjIwMDc2NTYtcmVzdWx0LW1sZ3BrdXl1ZnkiOjExLCIxNzkyMjYyMDM2NjIwLXJlc3VsdC1hbzZodmM1bTA0dCI6MywiMTc5MjI2MjA2Mjc4NS1yZXN1bHQtNmtiMWlkbjZhZTUiOjEwLCIxNzkyMjYyMDk5OTYyLXJlc3VsdC1ldHc3bWFuMWFxdSI6MX19",
+    "usage": {
+      "inputTokens": 50300,
+      "outputTokens": 8259,
+      "cacheReadTokens": 658944,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 16,
+      "byModel": {
+        "openrouter-deepseek/deepseek-v4-flash": {
+          "inputTokens": 50300,
+          "outputTokens": 8259,
+          "cacheReadTokens": 658944,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 16
+        }
+      }
+    },
+    "sessionUsage": {
+      "inputTokens": 50300,
+      "outputTokens": 8259,
+      "cacheReadTokens": 658944,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 16,
+      "byModel": {
+        "openrouter-deepseek/deepseek-v4-flash": {
+          "inputTokens": 50300,
+          "outputTokens": 8259,
+          "cacheReadTokens": 658944,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 16
+        }
+      }
+    }
+  }
+}

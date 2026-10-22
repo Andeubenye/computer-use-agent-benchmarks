@@ -1,0 +1,7 @@
+{
+  "utc": "2026-10-22",
+  "reason": "Authorized desktop batch complete. No automatic further provider requests. Credential broker stopped. Exposed credentials require owner rotation before any future experiment.",
+  "completed": true,
+  "new_runs_authorized": false,
+  "historical_credential_reauthorization": "preflight/batch-audit/credential-reauthorization.json"
+}

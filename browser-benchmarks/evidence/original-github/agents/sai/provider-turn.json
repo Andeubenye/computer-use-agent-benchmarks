@@ -1,0 +1,18 @@
+{
+  "http_status": 200,
+  "elapsed_seconds": 0.8332367919974786,
+  "body": {
+    "turnId": "id-5805f3eef2fb",
+    "sessionId": "id-888676afd25a",
+    "machineId": "free-6WRf2PabNOOC8BV7CIDNKs0ckre2",
+    "status": "running",
+    "output": null,
+    "reason_code": null,
+    "usage": null,
+    "recordTrajectory": true,
+    "trajectory": {
+      "recorded": true,
+      "url": "/v1/agents/turns/id-5805f3eef2fb/trajectory"
+    }
+  }
+}

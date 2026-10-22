@@ -1,0 +1,131 @@
+{
+  "agent": "sai",
+  "task": "test-4-github-enhancement",
+  "original_record_preserved": true,
+  "checked_at": "2026-10-17T19:00:04.078528+00:00",
+  "last_stream_usage": {
+    "inputTokens": 50300,
+    "outputTokens": 8259,
+    "cacheReadTokens": 658944,
+    "cacheWriteTokens": 0,
+    "costUsd": 0,
+    "modelCalls": 16,
+    "byModel": {
+      "openrouter-deepseek/deepseek-v4-flash": {
+        "inputTokens": 50300,
+        "outputTokens": 8259,
+        "cacheReadTokens": 658944,
+        "cacheWriteTokens": 0,
+        "costUsd": 0,
+        "modelCalls": 16
+      }
+    }
+  },
+  "model_routes_observed": [
+    "openrouter-deepseek/deepseek-v4-flash"
+  ],
+  "provider_internal_retries": null,
+  "fresh_conversation": true,
+  "fresh_desktop": false,
+  "final_provider_turn": {
+    "turnId": "id-5d0576d3d818",
+    "sessionId": "id-ee28d2092e89",
+    "machineId": "free-6WRf2PabNOOC8BV7CIDNKs0ckre2",
+    "status": "failed",
+    "output": null,
+    "reason_code": "agent_error",
+    "raw_answer": "The agent finished without an answer.",
+    "usage": {
+      "inputTokens": 50300,
+      "outputTokens": 8259
+    },
+    "recordTrajectory": true,
+    "trajectory": {
+      "recorded": true,
+      "url": "/v1/agents/turns/id-5d0576d3d818/trajectory"
+    }
+  },
+  "screenshot_payloads": [
+    {
+      "original": "002.jpg",
+      "viewable": "002.recovered.jpg",
+      "valid_image_signature": true
+    },
+    {
+      "original": "003.jpg",
+      "viewable": "003.recovered.jpg",
+      "valid_image_signature": true
+    },
+    {
+      "original": "001.jpg",
+      "viewable": "001.recovered.jpg",
+      "valid_image_signature": true
+    },
+    {
+      "original": "015.jpg",
+      "viewable": "015.recovered.jpg",
+      "valid_image_signature": true
+    },
+    {
+      "original": "014.jpg",
+      "viewable": "014.recovered.jpg",
+      "valid_image_signature": true
+    },
+    {
+      "original": "000.jpg",
+      "viewable": "000.jpg",
+      "valid_image_signature": true
+    },
+    {
+      "original": "004.jpg",
+      "viewable": "004.recovered.jpg",
+      "valid_image_signature": true
+    },
+    {
+      "original": "010.jpg",
+      "viewable": "010.recovered.jpg",
+      "valid_image_signature": true
+    },
+    {
+      "original": "011.jpg",
+      "viewable": "011.recovered.jpg",
+      "valid_image_signature": true
+    },
+    {
+      "original": "005.jpg",
+      "viewable": "005.recovered.jpg",
+      "valid_image_signature": true
+    },
+    {
+      "original": "013.jpg",
+      "viewable": "013.recovered.jpg",
+      "valid_image_signature": true
+    },
+    {
+      "original": "007.jpg",
+      "viewable": "007.recovered.jpg",
+      "valid_image_signature": true
+    },
+    {
+      "original": "006.jpg",
+      "viewable": "006.recovered.jpg",
+      "valid_image_signature": true
+    },
+    {
+      "original": "012.jpg",
+      "viewable": "012.recovered.jpg",
+      "valid_image_signature": true
+    },
+    {
+      "original": "008.jpg",
+      "viewable": "008.recovered.jpg",
+      "valid_image_signature": true
+    },
+    {
+      "original": "009.jpg",
+      "viewable": "009.recovered.jpg",
+      "valid_image_signature": true
+    }
+  ],
+  "viewable_screenshot_count": 16
+}

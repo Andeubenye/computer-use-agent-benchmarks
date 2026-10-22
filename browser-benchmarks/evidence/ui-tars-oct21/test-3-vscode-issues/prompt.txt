@@ -1,0 +1,17 @@
+Open https://github.com/microsoft/vscode
+
+Navigate through the website's interface to the Issues section.
+
+Find open issues labeled `bug`.
+
+Sort the issues by most recently updated.
+
+Identify the three most recently updated issues.
+
+For each issue, report:
+1. Issue number
+2. Exact issue title
+3. Direct GitHub URL
+4. Last updated date
+
+Use the GitHub interface to complete the task. Do not invent issue details.

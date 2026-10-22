@@ -1,0 +1,21 @@
+{
+  "both_applications_and_records": {
+    "verified": true,
+    "evidence": [
+      "screenshots/openai/task-4/010-screenshot.png",
+      "screenshots/openai/task-4/012-screenshot.png",
+      "screenshots/openai/task-4/026-screenshot.png"
+    ],
+    "explanation": "Calc shows all 30 order rows and calculated totals; Writer shows the transferred report."
+  },
+  "reopened_and_verified": {
+    "verified": true,
+    "evidence": [
+      "screenshots/openai/task-4/024-screenshot.png",
+      "screenshots/openai/task-4/026-screenshot.png",
+      "screenshots/openai/task-4/027-screenshot.png",
+      "logs/openai/task-4/events.jsonl"
+    ],
+    "explanation": "Actions 48\u201353 close the saved report and unsaved calculation sheet, then reopen sales_summary.docx through Ctrl+O. Final screenshot shows four correct metrics."
+  }
+}

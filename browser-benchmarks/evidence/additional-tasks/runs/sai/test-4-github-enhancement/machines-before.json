@@ -1,0 +1,16 @@
+{
+  "http_status": 200,
+  "body": {
+    "machines": [
+      {
+        "machineId": "free-6WRf2PabNOOC8BV7CIDNKs0ckre2",
+        "name": "free-c5486756",
+        "updatedAt": 0,
+        "status": "active",
+        "canWake": false,
+        "kind": "cloud",
+        "online": true
+      }
+    ]
+  }
+}

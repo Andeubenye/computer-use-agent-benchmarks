@@ -1,0 +1,23 @@
+{
+  "agent": "sai",
+  "task": "test-4-github-enhancement",
+  "submitted": true,
+  "status": "timeout",
+  "provider_turn_status": "running",
+  "started_at": "2026-10-17T18:25:15.401713+00:00",
+  "agent_wall_seconds": 600.8487615829945,
+  "max_seconds_from_submission": 600,
+  "deadline_fired": true,
+  "turn_id": "id-5d0576d3d818",
+  "session_id": "id-ee28d2092e89",
+  "actions": 16,
+  "action_unit": "executor calls",
+  "screenshots": 16,
+  "model": "auto; actual routes in events",
+  "cost_usd": null,
+  "free_credit_decrease_usd": 0.02,
+  "cost_basis": "free-account credit delta; provider usage separately retained",
+  "automatic_restarts": 0,
+  "fresh_session": true,
+  "fresh_desktop": false
+}

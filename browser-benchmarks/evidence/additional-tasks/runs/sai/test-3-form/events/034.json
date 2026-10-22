@@ -1,0 +1,54 @@
+{
+  "http_status": 200,
+  "body": {
+    "sessionId": "id-71dc1af9c730",
+    "status": "running",
+    "events": [
+      {
+        "type": "data-progress",
+        "data": {
+          "text": "[Guardrails] ✅ type: allow (score=0) text=\"This is a benchmark.\" — fast_path: safe_type",
+          "tool": "execute"
+        }
+      }
+    ],
+    "text": "",
+    "cursor": "eyJ0dXJuIjoxNzkyMjYxMjM0ODY1LCJzZWVuIjpbIjE3OTIyNjEyNDk5OTAtdG9vbC12ODZxNnNrdXptOSIsImVycjoxNzkyMjYxMjUwNTE1LXJlc3VsdC1uNnZzMnJubXpuIiwiMTc5MjI2MTI2NDExMC10b29sLXRhMzR4bWl6aWtzIiwiMTc5MjI2MTI4Nzk2MC10b29sLWEwdWRiYzRrbGp2IiwiMTc5MjI2MTI2OTA5MS1hc3Npc3RhbnQtanNpcXRmZjQweGQiLCIxNzkyMjYxMjk3OTA3LXRvb2wtYWwxaDQxMGNqc2EiLCIxNzkyMjYxMzExMDY4LXRvb2wtbWxiZ3cyMjVsYyIsIjE3OTIyNjEzMjQ1NTgtdG9vbC1iaXRncjVkcTJqZyIsIjE3OTIyNjEzMzU1ODgtdG9vbC1wNWN1MTR5aWxvIiwiMTc5MjI2MTM0MjQ2My10b29sLXh3MGZvajZleTUiXSwicHJvZyI6eyIxNzkyMjYxMjg4NTE2LXJlc3VsdC1ha25ndjhneDZvaSI6MSwiMTc5MjI2MTI5ODQzMC1yZXN1bHQtMXl1MmwyM2lhaG4iOjEsIjE3OTIyNjEzMTE2MDUtcmVzdWx0LWg0ejNzbWlvZmNvIjo0LCIxNzkyMjYxMzI1MTk5LXJlc3VsdC15bjJpenEybjUzaSI6MSwiMTc5MjI2MTMzNjA2Ni1yZXN1bHQtMWc2bWp6YmoxNzMiOjEsIjE3OTIyNjEzNDI5ODgtcmVzdWx0LWJ4cXp2MnpyOXFuIjoxfX0",
+    "usage": {
+      "inputTokens": 40468,
+      "outputTokens": 1597,
+      "cacheReadTokens": 276224,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 8,
+      "byModel": {
+        "openrouter-deepseek/deepseek-v4-flash": {
+          "inputTokens": 40468,
+          "outputTokens": 1597,
+          "cacheReadTokens": 276224,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 8
+        }
+      }
+    },
+    "sessionUsage": {
+      "inputTokens": 40468,
+      "outputTokens": 1597,
+      "cacheReadTokens": 276224,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 8,
+      "byModel": {
+        "openrouter-deepseek/deepseek-v4-flash": {
+          "inputTokens": 40468,
+          "outputTokens": 1597,
+          "cacheReadTokens": 276224,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 8
+        }
+      }
+    }
+  }
+}

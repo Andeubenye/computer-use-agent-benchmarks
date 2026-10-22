@@ -1,0 +1,68 @@
+{
+  "model": "claude-sonnet-5-5",
+  "id": "msg_011CgGDJNRsszGy59YB2zKSu",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "thinking",
+      "thinking": "",
+      "signature": "CAQSygYKEAgTGAI4AUIIdGhpbmtpbmcSDFG5XiyiD5YKMp2juxoMxp4TxhGdkPvTbWV6IjD0L87zbQ2V2Wh/yDvI3r2hmG6DMLa8Khvheb07Ov+wPlSPHvfe7NHjp2B281tlDg0q5wVrzjQZm+hg5NOS5fgl69Dh8XDovExc1DN+kJ3V5dCYWfXgRZjnFJexuWZIMC54NyI610K/CiovNvqIj7FQ1kV/LC1TYDLMBEW0dxiYiPTeDqKp9TZ2YZdNIfqZZm69y6zT5FmTwXXNFLiOnmrqKBPxz7O826RW+cUHSiAitN4mNFqJJIRKKeed7IhcrcD7JvH2sMoj263WAb2dns0h/jQ373us8ZSz9Fiypx/+wUc/H6FPHuKut/TzFLSt0eI/6yPpujTJL5BD7UivkdxQd+DFv6GZl710gz3v8WGj9dPMpjCgDbU5gGLx00NQ0UfHDJMLXLdYCNeWPg6e1cMbvQXAOZwrnb/MY4U6Gf/8tpd85261HwEHjOejTlacSX3FXD+Km3cWSOEuly9teIfoUMMxdbe5ELJNKsCcjWRcLmayUP6ncceuTC/Ar3QaBbGdzaGhoJpGh21eBGzP+fcV6LB3o6j9QhPhBZvpvU0Ha7xvMkl+eF4BICgaDEcPTK/9mfjtPFNco/+7vNGKaYFj1yjmg2/sf7P8igKB/QB/RDvUZpvhJpIN0RS63a6mweiV5YEAgDunA5qrF/B7RG99u6RFJzWkLli0rQDbrisAer0/7Hk/A7jmE/eMoVqJQWfVnc3qFiXqX8Yx0dBxyePMjzWiU/HDqPfuEZXlp+eh03uA4CC2S6BQE2NzvsppgIhoF8UbyO1VcTS87GtYhoU3AlOiEXCL+Cn9R8zgRvmHB7xyttByt4VnYuCAGwW+b/nLAZdxCx3i8uk6ZSjq0K878mU3gKoNOKnM/9QU/Xw3tI8uMXDfI3bzPLVIDVSje4ovuGtVO4rKQR3stQqq57dotPQOeV2s1J/RJzY6Ot9yN6eZda5bIeeneVWwijwuJZ+H5D7oII1BkFbaSQqlJa8tBaHZFkqxb1YkFALM+Vh4yp/MEEkICHo2h+eqHY55qe6UWLVI0QfQpXkkhxSWfz/2GH4OhQsX76MpRxgB"
+    },
+    {
+      "type": "tool_use",
+      "id": "toolu_01FdgEhB4YrTXK2RzE7ejtnY",
+      "name": "key",
+      "input": {
+        "text": "ctrl+o"
+      },
+      "toolset_name": "computer",
+      "caller": {
+        "type": "direct"
+      }
+    },
+    {
+      "type": "tool_use",
+      "id": "toolu_01W7f5cXCuAuPCFLszzpA24g",
+      "name": "wait",
+      "input": {
+        "duration": 2
+      },
+      "toolset_name": "computer",
+      "caller": {
+        "type": "direct"
+      }
+    },
+    {
+      "type": "tool_use",
+      "id": "toolu_01DpCLNmzQ4knbH2ZNirBWYs",
+      "name": "screenshot",
+      "input": {},
+      "toolset_name": "computer",
+      "caller": {
+        "type": "direct"
+      }
+    }
+  ],
+  "container": null,
+  "stop_reason": "tool_use",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 6290,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 186,
+    "output_tokens_details": {
+      "thinking_tokens": 95
+    },
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

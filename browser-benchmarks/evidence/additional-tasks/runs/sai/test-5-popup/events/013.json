@@ -1,0 +1,67 @@
+{
+  "http_status": 200,
+  "body": {
+    "sessionId": "id-b0ace35c3f25",
+    "status": "running",
+    "events": [
+      {
+        "type": "reasoning-start",
+        "id": "1792262205654-assistant-xsmysbhfsw"
+      },
+      {
+        "type": "reasoning-delta",
+        "id": "1792262205654-assistant-xsmysbhfsw",
+        "delta": "Good, the announcement is dismissed. Now I need to select \"Standard review\", check \"Checklist reviewed\", and click \"Continue to step 2\". Let me interact with the dropdown first.\n\n"
+      },
+      {
+        "type": "reasoning-end",
+        "id": "1792262205654-assistant-xsmysbhfsw"
+      },
+      {
+        "type": "data-progress",
+        "data": {
+          "text": "[Guardrails] ✅ click: allow (score=0) ref=e16 — score=0",
+          "tool": "execute"
+        }
+      }
+    ],
+    "text": "",
+    "cursor": "eyJ0dXJuIjoxNzkyMjYyMTY5MTY3LCJzZWVuIjpbIjE3OTIyNjIxODU5OTQtdG9vbC1mY2Jja2FscG5pIiwiMTc5MjI2MjE5MzQ0MC1hc3Npc3RhbnQta3pxaWpnYzBzOHMiLCIxNzkyMjYyMjAzMDMwLXRvb2wtc3JpZmlodnZ0M2YiLCIxNzkyMjYyMjE1NjY3LXRvb2wtdHhrYm1rNHkxYzgiLCIxNzkyMjYyMjA1NjU0LWFzc2lzdGFudC14c215c2JoZnN3Il0sInByb2ciOnsiMTc5MjI2MjIwMzU1OC1yZXN1bHQtaXRtbHFvbmIwcWIiOjEsIjE3OTIyNjIyMTYxNzctcmVzdWx0LW4wOTFvdjAzdDVqIjoxfX0",
+    "usage": {
+      "inputTokens": 1845,
+      "outputTokens": 633,
+      "cacheReadTokens": 115456,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 3,
+      "byModel": {
+        "openrouter-deepseek/deepseek-v4-flash": {
+          "inputTokens": 1845,
+          "outputTokens": 633,
+          "cacheReadTokens": 115456,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 3
+        }
+      }
+    },
+    "sessionUsage": {
+      "inputTokens": 1845,
+      "outputTokens": 633,
+      "cacheReadTokens": 115456,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 3,
+      "byModel": {
+        "openrouter-deepseek/deepseek-v4-flash": {
+          "inputTokens": 1845,
+          "outputTokens": 633,
+          "cacheReadTokens": 115456,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 3
+        }
+      }
+    }
+  }
+}

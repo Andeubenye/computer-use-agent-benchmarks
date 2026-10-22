@@ -1,0 +1,91 @@
+{
+  "utc": "2026-10-22T10:29:28.482193+00:00",
+  "active": null,
+  "completed": [
+    {
+      "agent": "openai",
+      "task": 2,
+      "process_exit": 0,
+      "record_present": true,
+      "submitted": true,
+      "reason": "model_finished",
+      "estimated_api_cost_usd": 0.1791222
+    },
+    {
+      "agent": "claude",
+      "task": 3,
+      "process_exit": 0,
+      "record_present": true,
+      "submitted": true,
+      "reason": "model_finished",
+      "estimated_api_cost_usd": 0.33532399999999996
+    },
+    {
+      "agent": "openai",
+      "task": 3,
+      "process_exit": 0,
+      "record_present": true,
+      "submitted": true,
+      "reason": "model_finished",
+      "estimated_api_cost_usd": 0.06682679999999999
+    },
+    {
+      "agent": "claude",
+      "task": 4,
+      "process_exit": 0,
+      "record_present": true,
+      "submitted": true,
+      "reason": "model_finished",
+      "estimated_api_cost_usd": 0.715518
+    },
+    {
+      "agent": "openai",
+      "task": 4,
+      "process_exit": 0,
+      "record_present": true,
+      "submitted": true,
+      "reason": "model_finished",
+      "estimated_api_cost_usd": 0.08963229999999998
+    },
+    {
+      "agent": "claude",
+      "task": 5,
+      "process_exit": 0,
+      "record_present": true,
+      "submitted": true,
+      "reason": "execution_error",
+      "estimated_api_cost_usd": 0.885828
+    },
+    {
+      "agent": "openai",
+      "task": 5,
+      "process_exit": 0,
+      "record_present": true,
+      "submitted": true,
+      "reason": "model_finished",
+      "estimated_api_cost_usd": 0.054561
+    }
+  ],
+  "estimated_spent": 3.6676817,
+  "resume_operation": true,
+  "resume_started_utc": "2026-10-22T10:00:40.063886+00:00",
+  "estimated_spent_before": 2.9173196999999997,
+  "next_run_cap": 1.75,
+  "resume_completed": true,
+  "resume_completed_attempts": [
+    {
+      "agent": "claude",
+      "task": 5,
+      "attempt": 2,
+      "record": "logs/claude/task-5/attempt-2/run-record.json",
+      "outcome": "PASS",
+      "score": 5,
+      "estimated_api_cost_usd": 0.750362
+    }
+  ],
+  "existing_runs_verified_without_repeat": [
+    "openai/task-4",
+    "openai/task-5",
+    "claude/task-5"
+  ]
+}

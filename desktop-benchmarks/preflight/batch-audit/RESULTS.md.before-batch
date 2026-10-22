@@ -1,0 +1,41 @@
+# Status report — 21 October 2026
+
+## Claude's second attempt: PARTIAL, 4/5 checks
+
+Requested and returned model: `claude-sonnet-5-5`. Official native computer tool: `computer_toolset_20260801`. The model controlled LibreOffice Calc in an isolated Linux desktop, not the Mac's native spreadsheet application.
+
+Independent read-only verification confirms:
+
+- Opened the source CSV in Calc (screenshot 004).
+- Corrected both `Pendng` status values to `Pending` (ORD-1003 and ORD-1007).
+- Preserved all other parsed values and row order.
+- Saved `orders_corrected.csv` separately; original CSV remains byte-identical.
+- **Did not complete reopening and verifying the saved file.** Screenshots 012 and 013 end at the Open dialog with the corrected filename entered.
+
+The run stopped on `count HTTP None TimeoutError`, during its twelfth token-count request, before another generation request. There were 49 model-requested native actions, 11 generation responses, 13 saved screenshots, zero API retries, and no automatic restart within this attempt. Estimated API usage: **$0.273314**.
+
+The recorded monotonic duration is 183.176965 seconds (3m 03s). UTC task-start-to-error timestamps span 397.540251 seconds (6m 38s). The 214.363286-second discrepancy is unexplained; both intervals are preserved in `logs/timing-audit.json`. Use the UTC span with this caveat rather than claiming a precise stopwatch-based speed result. Setup and independent verification are excluded. Both observed intervals are below the ten-minute per-run limit.
+
+The preserved last model text is **“Saved. Now close and reopen to verify.”** It is interim text, not a completed final answer. The historical `complete_final_response_file` field in the original run record points to this text, but the timeout and screenshots establish that the task was incomplete. The original record is retained without rewriting it.
+
+Evidence: [independent verification](logs/claude-attempt-2/independent-verification.json), [original response](logs/claude-attempt-2/original-response.txt), [run record](logs/claude-attempt-2/run-record.json), [events](logs/claude-attempt-2/events.jsonl), [timeout](logs/claude-attempt-2/count-error.json), [final screenshot](screenshots/claude-attempt-2/013-screenshot.png), [actual corrected CSV](outputs/claude/orders_corrected.csv).
+
+## Earlier Claude failure is preserved
+
+Attempt 1 stopped after five native actions and one generation response. The harness omitted the paired `toolset_name: computer` from its tool-result messages, producing HTTP 400 on the next token-count request. No corrected output was collected. This is a harness protocol failure, not a measured model capability failure. Estimated cost: **$0.013434**. Recorded stopwatch: 12.712091 seconds; timestamp span: 12.449251 seconds. Three screenshots are preserved.
+
+The adapter was repaired and checked with a token-count validation. One repair run was explicitly announced before attempt 2; it was not a silent retry. Both attempts and their costs remain in the ledger. There will be no further automatic retry.
+
+## OpenAI: NOT TESTED — paused
+
+No OpenAI benchmark generation request was sent. Native Responses computer-tool support is implemented and official documentation is archived, but implementation is not evidence of successful execution. The requested model alias is `gpt-6.1-sol`; there is no benchmark-returned version yet. The exposed API key must be rotated and securely configured before any provider request or benchmark execution. Nothing will resume automatically.
+
+## Sai: NOT TESTED — access restriction
+
+The saved direct-control preflight response is HTTP **403**, error **`forbidden`**, message **“Not authorized for this machine.”** See [the exact response](preflight/sai-control-open.json). The machine-list preflight returned an entry, but opening its control lease was denied. This credential could not access the machine needed for fixture setup and independent output retrieval, so **no Sai task was submitted**. No bypass, ownership takeover, new account, paid deployment, or alternative scripted task was attempted.
+
+This establishes a restriction on the tested account/credential's available desktop-control route. It does not establish that Sai's model cannot edit a spreadsheet, or explain the provider's underlying entitlement decision. The response is not a phone-verification error. Sai documents the [direct-control lease API](https://platform.simular.ai/documentation/api-reference/control); the saved response is the evidence of this specific denial. Estimated task cost is $0; the recorded free-credit balance remained $1.
+
+## Budget and stopping state
+
+Estimated total new usage is **$0.286748 / $7**, leaving **$6.713252** of the approved allowance before invoice reconciliation. See [cost ledger](logs/cost-ledger.json). No new paid inference requests were sent after the user's pause. The credential broker is shut down. Benchmark containers were stopped; cleanup evidence is in `preflight/cleanup.json`. UI-TARS and Hugging Face were not operated in this desktop batch.

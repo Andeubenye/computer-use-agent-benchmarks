@@ -1,0 +1,67 @@
+{
+  "http_status": 200,
+  "body": {
+    "sessionId": "id-ee28d2092e89",
+    "status": "running",
+    "events": [
+      {
+        "type": "reasoning-start",
+        "id": "1792261653307-assistant-m5u4en2dql"
+      },
+      {
+        "type": "reasoning-delta",
+        "id": "1792261653307-assistant-m5u4en2dql",
+        "delta": "Good, I can see the labels dialog opened. Now I need to click \"enhancement\" to add it as a filter. Let me also check the sort option.\n\n"
+      },
+      {
+        "type": "reasoning-end",
+        "id": "1792261653307-assistant-m5u4en2dql"
+      },
+      {
+        "type": "data-progress",
+        "data": {
+          "text": "[Guardrails] ✅ click: allow (score=0) ref=e1146 — score=0",
+          "tool": "execute"
+        }
+      }
+    ],
+    "text": "",
+    "cursor": "eyJ0dXJuIjoxNzkyMjYxNTE2NjA5LCJzZWVuIjpbIjE3OTIyNjE1MzIwMjItdG9vbC1veGc1amZ0bDl3IiwiMTc5MjI2MTUzMzg5Ni1hc3Npc3RhbnQtemZwaDJmM2tzM28iLCIxNzkyMjYxNjQ4NzI0LXRvb2wtaTZ1MGwxdjd2dyIsIjE3OTIyNjE2Mzc5MzUtYXNzaXN0YW50LTNjbW1pZmYxaGt3IiwiMTc5MjI2MTY2NzMyMS10b29sLXQ5dXJ6b3J5NHhkIiwiMTc5MjI2MTY1MzMwNy1hc3Npc3RhbnQtbTV1NGVuMmRxbCJdLCJwcm9nIjp7IjE3OTIyNjE2NDkxMjYtcmVzdWx0LXJwczRtbGhxMmo4IjoxLCIxNzkyMjYxNjY3NzExLXJlc3VsdC0yeDB6YmhtcG50bCI6MX19",
+    "usage": {
+      "inputTokens": 8840,
+      "outputTokens": 761,
+      "cacheReadTokens": 115456,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 3,
+      "byModel": {
+        "openrouter-deepseek/deepseek-v4-flash": {
+          "inputTokens": 8840,
+          "outputTokens": 761,
+          "cacheReadTokens": 115456,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 3
+        }
+      }
+    },
+    "sessionUsage": {
+      "inputTokens": 8840,
+      "outputTokens": 761,
+      "cacheReadTokens": 115456,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 3,
+      "byModel": {
+        "openrouter-deepseek/deepseek-v4-flash": {
+          "inputTokens": 8840,
+          "outputTokens": 761,
+          "cacheReadTokens": 115456,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 3
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "outcome": "FAIL",
+  "reason": "Terminal API timeout error and no complete five-person answer.",
+  "returned_complete_answer": false,
+  "five_birth_years_verified": false,
+  "five_article_urls_returned": false,
+  "partial_progress": {
+    "visited_article": "https://en.wikipedia.org/wiki/Alan_Turing",
+    "Alan_Turing_1912_present_on_observed_page": true,
+    "correct_year_mentioned_in_model_trace": true
+  },
+  "verification_data_sent_to_agent": false,
+  "correct_checks": "Not measured",
+  "total_factual_checks": 10,
+  "fields_scored": "Full five-person final-answer score unavailable; partial trace observation retained."
+}

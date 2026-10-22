@@ -1,0 +1,86 @@
+{
+  "tasks": {
+    "2": {
+      "prompt_sha256": "bbd0c4794d7c45f0c7ff1768f79ea3558675dcec93234d9126528d35e59a4008",
+      "inputs": {
+        "Inbox/counts_01.csv": "23e86264d8e11b227a1d39f43c27f3fe1f8145bdbb0033e1be8c805734dcff3c",
+        "Inbox/counts_02.csv": "0fb6d51952a47fa8ac42987f09e0640a68d08631c67eb4354810479496124f58",
+        "Inbox/counts_03.csv": "425b6f56ab31bbf48abd136b3a87090923bf868a942f639aa2e65d8bd03311e5",
+        "Inbox/counts_04.csv": "cae44e3c576746d2ff9e24e1be714a86a2cebc2ba9a392922ad611ea57f1670d",
+        "Inbox/note_01.txt": "2abbab918b3e2db9b3d02d47b55a71ab65fd7238b582e42b825fa9ee6490b040",
+        "Inbox/note_02.txt": "bdd953a3b37f3f5dedc1868dcf358019b7175c198f44ec2f8716c88d07693756",
+        "Inbox/note_03.txt": "00c7f2cdd85e2c8fa32197de9ce741f74f61b03367fd341e4677b526c3a8550b",
+        "Inbox/note_04.txt": "c0332361de560ee6ebc6f6608b50eda741e35a16dca7115deb34097083192ac0",
+        "Inbox/photo_01.png": "bd066815c315387e55dbe3b84386c0a4876d2b0f68c2c08ea63901ad5529517b",
+        "Inbox/photo_02.png": "b915613a3b54d8a6f95ad86378322288a02257c172e6b6c7810641c418bf3aed",
+        "Inbox/photo_03.png": "2f0738789245451516eefb0d8d89cd5ee7922329342ccfa8222bfeba5d611f7b",
+        "Inbox/photo_04.png": "9c23b232a4bbf3cf584523ee1399e12506f3451fea63825b27e5028388e3e2e3",
+        "Inbox/scan_01.pdf": "69dcf8feff995bba3a93b350d9fe16a01b13b4ebe91f0396317e1a66ca6a6b93",
+        "Inbox/scan_02.pdf": "82326887615c2a02aa87acec82615a6e2fb51beb53e28319dab484b3dc1ab3bd",
+        "Inbox/scan_03.pdf": "bad1a0320db9f8b221bd2e9dc89342861bd33ecf296b2d8d812ceac3cb54d59b",
+        "Inbox/scan_04.pdf": "307f3d23198ae9387362bcefba43b828c3dad41e470b51567117e62b7aedca36",
+        "Inbox/scan_05.pdf": "c3cba5203e2c39eb70749ef41f991194be76193d883c982905f3747190fc2689",
+        "Inbox/scan_06.pdf": "64a0b55e451f72b9521429a21844a4903e2fe95079c8664d6524a6656ca4c1e6",
+        "Inbox/scan_07.pdf": "c8e8fb46db519711439b30733576642cf4280ebf1c2f6261f0cd6d97dbfb8dd5",
+        "Inbox/scan_08.pdf": "9da4353af7e812c9dee6616fecca49762a241c32412b744b61cbb4eb122a387c"
+      },
+      "rubric": [
+        "All 20 files retained exactly once",
+        "All four type folders correct and no loose files",
+        "All eight PDF renames correct",
+        "Every file byte-identical to its input",
+        "GUI verification of final folders and filenames"
+      ],
+      "reconstructed": true
+    },
+    "3": {
+      "prompt_sha256": "f749dfee9d8adde4fc822584d8149c5a5b68808258f727232757e9cfaeec049b",
+      "inputs": {
+        "dispatch_original.docx": "cbc54de5a0360e6095f6bb5da74dd1274cea665275d098a8a3e7d63c3aef6fcb"
+      },
+      "rubric": [
+        "Both spelling corrections and all other text preserved",
+        "Next steps uses Heading 1",
+        "Training table cell is Pending and table structure preserved",
+        "Separate valid revised DOCX and unchanged original",
+        "Reopened revised document and visually verified requested changes"
+      ],
+      "reconstructed": true
+    },
+    "4": {
+      "prompt_sha256": "56c27384ed209b0e55be335f92ea435439baf6b550cac35a52d61ce8fb035543",
+      "inputs": {
+        "report_template.docx": "a8502d2e4da63d2054c6b34671a5a7fb150f5e44a36d58b2e1db067856950c89",
+        "sales_records.csv": "2fe70c7ede4053d4c0b496b1c54b0f601537a00134481d09abccde0017940c86"
+      },
+      "rubric": [
+        "Observed 30 records in Calc and used Writer",
+        "All four metrics independently correct",
+        "Metrics transferred into a valid Writer document with no placeholders",
+        "Separate saved report and unchanged input CSV and template",
+        "Reopened saved report and visually verified metrics"
+      ],
+      "reconstructed": true
+    },
+    "5": {
+      "prompt_sha256": "f7c88f57a71dadec9c89b969d1c1eb1706f1e24800a57b7ee5e8b78f71a60d23",
+      "inputs": {
+        "dispatch_plan.docx": "9fa53e53dd1eae62863b788a324a22fdcd8356cfb057da65bfecb8ac15ed3bd1",
+        "dispatch_plan_final.docx": "e1ad1427743b208915b6263bb4a937132da1b6874d5b1fd0d93311da1a93d40d",
+        "dispatch_plan_final_copy.docx": "989e9d1bc98e57121b4a4d9a617eb8a1ec39413cc6d41c95d6fe795661629d52",
+        "dispatch_plan_final_v2.docx": "ae0a4e240cf0f11e9d538ec00e0b197221df87b00e32e6949d45cfd001a4227c"
+      },
+      "rubric": [
+        "Identified REC-204 approved source by contents",
+        "Dismissed the controlled interruption through GUI",
+        "Corrected time and preserved all other text",
+        "Separate valid output and all four source documents unchanged",
+        "Reopened corrected document and verified ID approval and time"
+      ],
+      "reconstructed": true
+    }
+  },
+  "csv_prompt_sha256": "409633c43e51d6dec788410a90874c4375246d32e41548c56e8af7fa731bf439",
+  "expected_files_never_mounted": true,
+  "input_docx_qa": "Six documents rendered with bundled LibreOffice and visually inspected; title color/border fixed before task 3\u20135 runs."
+}

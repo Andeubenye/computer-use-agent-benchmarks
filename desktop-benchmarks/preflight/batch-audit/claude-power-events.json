@@ -1,0 +1,33 @@
+{
+  "source": "pmset -g log, read-only query on 2026-10-21; filtered to 21:12\u201321:21 Africa/Lagos",
+  "events": [
+    {
+      "local_timestamp": "2026-10-21 21:15:08",
+      "event_kind": "Sleep",
+      "duration_seconds_field": 217
+    },
+    {
+      "local_timestamp": "2026-10-21 21:15:10",
+      "event_kind": "Wake",
+      "duration_seconds_field": null
+    },
+    {
+      "local_timestamp": "2026-10-21 21:15:10",
+      "event_kind": "Sleep",
+      "duration_seconds_field": null
+    },
+    {
+      "local_timestamp": "2026-10-21 21:18:45",
+      "event_kind": "Wake",
+      "duration_seconds_field": 3065
+    },
+    {
+      "local_timestamp": "2026-10-21 21:18:45",
+      "event_kind": "Wake",
+      "duration_seconds_field": null
+    }
+  ],
+  "interpretation": "Host sleep/wake records overlap the stalled count request. This strongly supports sleep-excluded stopwatch time as the reason for most of the 214.36-second difference. Generic duration fields in pmset lines do not all represent this task interval. No exact second-by-second reconciliation is claimed. Preserve both original clocks and exclude attempt 2 from comparative speed claims.",
+  "source_log_published": false,
+  "unrelated_device_and_process_details_retained": false
+}

@@ -1,0 +1,49 @@
+{
+  "task": 4,
+  "outcome": "PARTIAL",
+  "score": 3,
+  "requirements": {
+    "Observed 30 records in Calc and used Writer": false,
+    "All four metrics independently correct": true,
+    "Metrics transferred into a valid Writer document with no placeholders": true,
+    "Separate saved report and unchanged input CSV and template": true,
+    "Reopened saved report and visually verified metrics": false
+  },
+  "core_artifact_correct": true,
+  "details": {
+    "output_exists": true,
+    "valid_docx": true,
+    "paragraphs": [
+      "Sales summary",
+      "Source sales_records.csv",
+      "Total revenue: 1780",
+      "Total units: 90",
+      "Average order value: 59.33",
+      "Highest revenue region: South"
+    ],
+    "tables": [],
+    "all_originals_preserved": true,
+    "metrics": {
+      "total_revenue": {
+        "value": "1780",
+        "correct": true
+      },
+      "total_units": {
+        "value": "90",
+        "correct": true
+      },
+      "average_order_value": {
+        "value": "59.33",
+        "correct": true
+      },
+      "highest_revenue_region": {
+        "value": "South",
+        "correct": true
+      }
+    }
+  },
+  "gui_observations": {},
+  "response_used_as_proof": false,
+  "verifier_edits_files": false,
+  "gui_review_pending": true
+}

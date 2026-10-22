@@ -1,0 +1,33 @@
+{
+  "agent": "openai",
+  "task": "test-3-form",
+  "submitted": true,
+  "status": "completed_unverified",
+  "agent_wall_seconds": 34.629,
+  "max_seconds_from_submission": 600,
+  "actions": 24,
+  "action_unit": "native computer actions",
+  "screenshots": 6,
+  "model": "gpt-6.1-sol",
+  "tool_version": "computer",
+  "cost_usd": 0.0380349,
+  "uncertain_cost_reserved_usd": 0,
+  "cost_basis": "recorded tokens × standard model rates; not invoice",
+  "errors": [],
+  "error": null,
+  "api_retries": 0,
+  "automatic_restarts": 0,
+  "fresh_profile": true,
+  "browser": {
+    "engine": "Chromium",
+    "version": "156.0.8078.4",
+    "fresh_profile": true,
+    "viewport": [
+      1440,
+      1000
+    ],
+    "timezone": "UTC",
+    "headless": true,
+    "state_preserved_during_run": true
+  }
+}

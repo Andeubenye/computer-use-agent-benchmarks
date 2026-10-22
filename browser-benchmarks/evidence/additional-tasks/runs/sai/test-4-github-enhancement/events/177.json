@@ -1,0 +1,117 @@
+{
+  "http_status": 200,
+  "body": {
+    "sessionId": "id-ee28d2092e89",
+    "status": "running",
+    "events": [
+      {
+        "type": "data-progress",
+        "data": {
+          "text": "=== ISSUE 1 ===",
+          "tool": "execute"
+        }
+      },
+      {
+        "type": "data-progress",
+        "data": {
+          "text": "283:                   - listitem [ref=e301]:",
+          "tool": "execute"
+        }
+      },
+      {
+        "type": "data-progress",
+        "data": {
+          "text": "=== ISSUE 2 ===",
+          "tool": "execute"
+        }
+      },
+      {
+        "type": "data-progress",
+        "data": {
+          "text": "316:                       - 'link \"[Feature]: Outbound Web Bot Auth signing for navigated requests\" [ref=e1319] [cursor=pointer]':",
+          "tool": "execute"
+        }
+      },
+      {
+        "type": "data-progress",
+        "data": {
+          "text": "=== ISSUE 3 ===",
+          "tool": "execute"
+        }
+      },
+      {
+        "type": "data-progress",
+        "data": {
+          "text": "338:                         - generic [ref=e1351]: Known-answer false-success regression cases (403 block, disabled click, 6 more)",
+          "tool": "execute"
+        }
+      },
+      {
+        "type": "data-progress",
+        "data": {
+          "text": "=== ISSUE 4 ===",
+          "tool": "execute"
+        }
+      },
+      {
+        "type": "data-progress",
+        "data": {
+          "text": "361:                         - generic [ref=e1384]: \"Feature Request: Support agent.pause() within tool calls\"",
+          "tool": "execute"
+        }
+      },
+      {
+        "type": "data-progress",
+        "data": {
+          "text": "=== ISSUE 5 ===",
+          "tool": "execute"
+        }
+      },
+      {
+        "type": "data-progress",
+        "data": {
+          "text": "383:                       - img \"17 comments\" [ref=e1412]",
+          "tool": "execute"
+        }
+      }
+    ],
+    "text": "",
+    "cursor": "eyJ0dXJuIjoxNzkyMjYxNTE2NjA5LCJzZWVuIjpbIjE3OTIyNjE1MzIwMjItdG9vbC1veGc1amZ0bDl3IiwiMTc5MjI2MTUzMzg5Ni1hc3Npc3RhbnQtemZwaDJmM2tzM28iLCIxNzkyMjYxNjQ4NzI0LXRvb2wtaTZ1MGwxdjd2dyIsIjE3OTIyNjE2Mzc5MzUtYXNzaXN0YW50LTNjbW1pZmYxaGt3IiwiMTc5MjI2MTY2NzMyMS10b29sLXQ5dXJ6b3J5NHhkIiwiMTc5MjI2MTY1MzMwNy1hc3Npc3RhbnQtbTV1NGVuMmRxbCIsIjE3OTIyNjE2OTQzNTctdG9vbC03NmplbHcwbTZwaSIsIjE3OTIyNjE2NzU1MDYtYXNzaXN0YW50LTBhbTJmYjlheHJwIiwiMTc5MjI2MTY5ODY3OS1hc3Npc3RhbnQtd2JjZno0bjQ1NCIsIjE3OTIyNjE3NDM2OTAtdG9vbC1hYnpjMnRsanE4diIsIjE3OTIyNjE3NTU2OTAtdG9vbC1hZzc4bDBicDkyIiwiMTc5MjI2MTc3MTE1NS10b29sLWd1enU5Y2tkNnFyIiwiMTc5MjI2MTc1NzczOS1hc3Npc3RhbnQtaGx1cjhnbnZrbiIsIjE3OTIyNjE3OTQ0MjMtdG9vbC1lczBmemRvcTB4aSIsIjE3OTIyNjE4MjEzNzgtdG9vbC02cHBtMHpoZ2l6biIsIjE3OTIyNjE3OTg0OTYtYXNzaXN0YW50LXE0NmNybmpvNTBhIiwiMTc5MjI2MTg2MzMyMC10b29sLXJ3N3hsaHl5MjJkIiwiMTc5MjI2MTgyODk3MS1hc3Npc3RhbnQteTl6Z2Z3aXk3OGMiLCIxNzkyMjYxODY1NjA2LWFzc2lzdGFudC15dG9pZ2J5Y2tkOSIsIjE3OTIyNjE5MTIzMTEtdG9vbC1rbW84YWl6bzh2ZSIsIjE3OTIyNjE5MzQyMDUtdG9vbC10ZzRldnAxb3BkIiwiMTc5MjI2MTkxNDQ4MS1hc3Npc3RhbnQtaG05NGo2MG0xMmgiLCIxNzkyMjYyMDA3MjY1LXRvb2wtOXkxdnh0NGltNDgiLCIxNzkyMjYxOTM4NTIwLWFzc2lzdGFudC1ldDBmajE5ajc4NiIsIjE3OTIyNjIwMzYyNzItdG9vbC03bzAwcm9zOTZ2cyIsIjE3OTIyNjIwMDk0OTEtYXNzaXN0YW50LWd3djQ0OHQ0N25tIiwiMTc5MjI2MjA2MjM3MS10b29sLTkxeDRteDBxbWtwIiwiMTc5MjI2MjA0MDM1NC1hc3Npc3RhbnQtc2pmczJ4aDBoYmkiXSwicHJvZyI6eyIxNzkyMjYxNjQ5MTI2LXJlc3VsdC1ycHM0bWxocTJqOCI6MSwiMTc5MjI2MTY2NzcxMS1yZXN1bHQtMngwemJobXBudGwiOjEsIjE3OTIyNjE2OTQ3OTQtcmVzdWx0LWcwODAzeXo4dDk3IjoyLCIxNzkyMjYxNzQ0MDU3LXJlc3VsdC1nd3VpN3Yzcmp3IjoyLCIxNzkyMjYxNzU2MDY2LXJlc3VsdC1xMDYwbzlrb3A4ayI6NiwiMTc5MjI2MTc3MTUyOC1yZXN1bHQtNGhmYjVzNDRzNTEiOjMsIjE3OTIyNjE3OTQ3NzgtcmVzdWx0LXFsZXVhd2Z3ZDBwIjo2LCIxNzkyMjYxODIxODI4LXJlc3VsdC1qems2OXFmaDB3byI6NCwiMTc5MjI2MTg2Mzc1My1yZXN1bHQtMG51eTlkOTc4NWEiOjMsIjE3OTIyNjE5MTI3NzEtcmVzdWx0LXQyNGtwbGlxbjVkIjo5LCIxNzkyMjYxOTM0NjgxLXJlc3VsdC1mczh5OTJhZzhkcyI6MiwiMTc5MjI2MjAwNzY1Ni1yZXN1bHQtbWxncGt1eXVmeSI6MTEsIjE3OTIyNjIwMzY2MjAtcmVzdWx0LWFvNmh2YzVtMDR0IjozLCIxNzkyMjYyMDYyNzg1LXJlc3VsdC02a2IxaWRuNmFlNSI6MTB9fQ",
+    "usage": {
+      "inputTokens": 47404,
+      "outputTokens": 7352,
+      "cacheReadTokens": 614400,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 15,
+      "byModel": {
+        "openrouter-deepseek/deepseek-v4-flash": {
+          "inputTokens": 47404,
+          "outputTokens": 7352,
+          "cacheReadTokens": 614400,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 15
+        }
+      }
+    },
+    "sessionUsage": {
+      "inputTokens": 47404,
+      "outputTokens": 7352,
+      "cacheReadTokens": 614400,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 15,
+      "byModel": {
+        "openrouter-deepseek/deepseek-v4-flash": {
+          "inputTokens": 47404,
+          "outputTokens": 7352,
+          "cacheReadTokens": 614400,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 15
+        }
+      }
+    }
+  }
+}

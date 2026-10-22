@@ -1,0 +1,5 @@
+# Preserve benchmark evidence byte-for-byte across checkouts.
+* -text
+*.png binary
+*.pdf binary
+*.docx binary

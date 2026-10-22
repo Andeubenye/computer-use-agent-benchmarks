@@ -1,0 +1,14 @@
+{
+  "recomputed_estimate_usd": "0.0731802",
+  "recorded_estimate_usd": 0.0731802,
+  "arithmetic_matches": true,
+  "rates_per_million": {
+    "input": 2,
+    "cached_input": 0.1,
+    "cache_write": 2.5,
+    "output": 10
+  },
+  "invoice_verified": false,
+  "pricing_source": "https://developers.openai.com/api/docs/pricing",
+  "source_checked_on": "2026-10-17"
+}

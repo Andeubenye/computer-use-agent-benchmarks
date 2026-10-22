@@ -1,0 +1,9 @@
+{
+  "paused_at_utc": "2026-10-21T20:24:17.740705+00:00",
+  "reason": "User requires exposed API keys to be rotated and securely configured before any new paid requests",
+  "targeted_claude_attempt_2_pids": [],
+  "openai_paid_run_started": false,
+  "automatic_resume": false,
+  "api_key_values_saved": false,
+  "followup_checked_at_utc": "2026-10-21T20:24:29.619410+00:00"
+}

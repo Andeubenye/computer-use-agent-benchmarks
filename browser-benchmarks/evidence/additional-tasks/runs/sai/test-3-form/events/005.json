@@ -1,0 +1,46 @@
+{
+  "http_status": 200,
+  "body": {
+    "sessionId": "id-71dc1af9c730",
+    "status": "running",
+    "events": [],
+    "text": "",
+    "cursor": "eyJ0dXJuIjoxNzkyMjYxMjM0ODY1LCJzZWVuIjpbIjE3OTIyNjEyNDk5OTAtdG9vbC12ODZxNnNrdXptOSIsImVycjoxNzkyMjYxMjUwNTE1LXJlc3VsdC1uNnZzMnJubXpuIl0sInByb2ciOnt9fQ",
+    "usage": {
+      "inputTokens": 37162,
+      "outputTokens": 179,
+      "cacheReadTokens": 1536,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 1,
+      "byModel": {
+        "openrouter-deepseek/deepseek-v4-flash": {
+          "inputTokens": 37162,
+          "outputTokens": 179,
+          "cacheReadTokens": 1536,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 1
+        }
+      }
+    },
+    "sessionUsage": {
+      "inputTokens": 37162,
+      "outputTokens": 179,
+      "cacheReadTokens": 1536,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 1,
+      "byModel": {
+        "openrouter-deepseek/deepseek-v4-flash": {
+          "inputTokens": 37162,
+          "outputTokens": 179,
+          "cacheReadTokens": 1536,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 1
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "agent": "sai",
+  "task": "test-5-popup",
+  "max_seconds_from_submission": 600,
+  "automatic_benchmark_restarts": 0,
+  "reserved_usd": 0.87,
+  "prompt_sha256": "af29ecb3989f7f72712a0f97bb49dd9735db7ce6870316e5f9e141b55c32a4d1",
+  "expected_answers_provided": false
+}

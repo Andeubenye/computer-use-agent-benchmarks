@@ -1,0 +1,7 @@
+[
+  {
+    "pid": 3413,
+    "action": "SIGTERM stopped agent-owned temporary Chrome for fresh test state",
+    "personal_chrome_untouched": true
+  }
+]

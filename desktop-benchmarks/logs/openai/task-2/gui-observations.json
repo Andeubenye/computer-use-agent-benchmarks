@@ -1,0 +1,13 @@
+{
+  "final_folder_verification": {
+    "verified": true,
+    "evidence": [
+      "screenshots/openai/task-2/019-screenshot.png",
+      "screenshots/openai/task-2/021-screenshot.png",
+      "screenshots/openai/task-2/023-screenshot.png",
+      "screenshots/openai/task-2/036-screenshot.png",
+      "screenshots/openai/task-2/037-screenshot.png"
+    ],
+    "explanation": "Agent screenshots show the four CSVs, four notes and four images after moving, all eight final PDF names in list view, and Inbox containing only the four destination folders. Artifact hashes independently confirm exactly 20 unchanged files."
+  }
+}

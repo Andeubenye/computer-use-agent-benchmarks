@@ -1,0 +1,46 @@
+{
+  "http_status": 200,
+  "body": {
+    "sessionId": "id-71dc1af9c730",
+    "status": "running",
+    "events": [],
+    "text": "",
+    "cursor": "eyJ0dXJuIjoxNzkyMjYxMjM0ODY1LCJzZWVuIjpbIjE3OTIyNjEyNDk5OTAtdG9vbC12ODZxNnNrdXptOSIsImVycjoxNzkyMjYxMjUwNTE1LXJlc3VsdC1uNnZzMnJubXpuIiwiMTc5MjI2MTI2NDExMC10b29sLXRhMzR4bWl6aWtzIiwiMTc5MjI2MTI4Nzk2MC10b29sLWEwdWRiYzRrbGp2IiwiMTc5MjI2MTI2OTA5MS1hc3Npc3RhbnQtanNpcXRmZjQweGQiLCIxNzkyMjYxMjk3OTA3LXRvb2wtYWwxaDQxMGNqc2EiLCIxNzkyMjYxMzExMDY4LXRvb2wtbWxiZ3cyMjVsYyIsIjE3OTIyNjEzMjQ1NTgtdG9vbC1iaXRncjVkcTJqZyIsIjE3OTIyNjEzMzU1ODgtdG9vbC1wNWN1MTR5aWxvIiwiMTc5MjI2MTM0MjQ2My10b29sLXh3MGZvajZleTUiLCIxNzkyMjYxMzUyODcwLXRvb2wtNmh5NnU0dzdkNGsiLCIxNzkyMjYxMzQ0MDA3LWFzc2lzdGFudC10b3EwMm9zb29jIiwiMTc5MjI2MTM3ODU5OS10b29sLW5teWEwMms0OTUiLCIxNzkyMjYxMzU1MTA3LWFzc2lzdGFudC13ODdwNGowNWI0IiwiMTc5MjI2MTM4OTMwOS10b29sLXV0MWM3cXRtZiIsIjE3OTIyNjEzOTEyMDAtYXNzaXN0YW50LWtwaHV5d2diMGJtIiwiMTc5MjI2MTQxNDk3OS10b29sLWRpMXF1d3c4OXRwIiwiMTc5MjI2MTQyMTA5NC10b29sLWJmZmhkbDY5NmVtIl0sInByb2ciOnsiMTc5MjI2MTI4ODUxNi1yZXN1bHQtYWtuZ3Y4Z3g2b2kiOjEsIjE3OTIyNjEyOTg0MzAtcmVzdWx0LTF5dTJsMjNpYWhuIjoxLCIxNzkyMjYxMzExNjA1LXJlc3VsdC1oNHozc21pb2ZjbyI6NCwiMTc5MjI2MTMyNTE5OS1yZXN1bHQteW4yaXpxMm41M2kiOjEsIjE3OTIyNjEzMzYwNjYtcmVzdWx0LTFnNm1qemJqMTczIjoxLCIxNzkyMjYxMzQyOTg4LXJlc3VsdC1ieHF6djJ6cjlxbiI6MSwiMTc5MjI2MTQxNTQ5OS1yZXN1bHQtYmZham45eWJ3MzQiOjF9fQ",
+    "usage": {
+      "inputTokens": 45215,
+      "outputTokens": 3061,
+      "cacheReadTokens": 476160,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 13,
+      "byModel": {
+        "openrouter-deepseek/deepseek-v4-flash": {
+          "inputTokens": 45215,
+          "outputTokens": 3061,
+          "cacheReadTokens": 476160,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 13
+        }
+      }
+    },
+    "sessionUsage": {
+      "inputTokens": 45215,
+      "outputTokens": 3061,
+      "cacheReadTokens": 476160,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 13,
+      "byModel": {
+        "openrouter-deepseek/deepseek-v4-flash": {
+          "inputTokens": 45215,
+          "outputTokens": 3061,
+          "cacheReadTokens": 476160,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 13
+        }
+      }
+    }
+  }
+}

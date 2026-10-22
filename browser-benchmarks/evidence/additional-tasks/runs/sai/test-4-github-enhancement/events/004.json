@@ -1,0 +1,68 @@
+{
+  "http_status": 200,
+  "body": {
+    "sessionId": "id-ee28d2092e89",
+    "status": "running",
+    "events": [
+      {
+        "type": "tool-input-start",
+        "toolCallId": "1792261532022-tool-oxg5jftl9w",
+        "toolName": "execute"
+      },
+      {
+        "type": "tool-input-available",
+        "toolCallId": "1792261532022-tool-oxg5jftl9w",
+        "toolName": "execute",
+        "input": {
+          "title": "Opening GitHub issues page for browser-use/browser-use",
+          "code": "var machine = getMachine((await listMachines())[0].id)\nawait machine.waitAndAcquire()\nvar page = await machine.browser.newtab(\"https://github.com/browser-use/browser-use/issues\")\nawait wait({ waitTime: 3 })\nvar snap = await page.snapshot()\nconsole.log(snap.snapshot.outline())\n"
+        }
+      },
+      {
+        "type": "data-progress",
+        "data": {
+          "text": "Opening GitHub issues page for browser-use/browser-use",
+          "tool": "execute"
+        }
+      }
+    ],
+    "text": "",
+    "cursor": "eyJ0dXJuIjoxNzkyMjYxNTE2NjA5LCJzZWVuIjpbIjE3OTIyNjE1MzIwMjItdG9vbC1veGc1amZ0bDl3Il0sInByb2ciOnt9fQ",
+    "usage": {
+      "inputTokens": 283,
+      "outputTokens": 206,
+      "cacheReadTokens": 38400,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 1,
+      "byModel": {
+        "openrouter-deepseek/deepseek-v4-flash": {
+          "inputTokens": 283,
+          "outputTokens": 206,
+          "cacheReadTokens": 38400,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 1
+        }
+      }
+    },
+    "sessionUsage": {
+      "inputTokens": 283,
+      "outputTokens": 206,
+      "cacheReadTokens": 38400,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 1,
+      "byModel": {
+        "openrouter-deepseek/deepseek-v4-flash": {
+          "inputTokens": 283,
+          "outputTokens": 206,
+          "cacheReadTokens": 38400,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 1
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "http_status": 200,
+  "body": {
+    "sessionId": "id-d70b1706f18d",
+    "status": "running",
+    "events": [],
+    "text": "",
+    "cursor": "eyJ0dXJuIjoxNzkyMjYwODY5ODU4LCJzZWVuIjpbIjE3OTIyNjA4ODIzMzctdG9vbC13OTcxM2U5YTFtaiIsIjE3OTIyNjA4NzQ1MzEtYXNzaXN0YW50LW9ycWZoZXg4ZDUiLCIxNzkyMjYwODg0NzE1LWFzc2lzdGFudC0yNHJrNmJ3N20ycCIsIjE3OTIyNjA5NDYxMTYtdG9vbC10anY1cDA0djUiLCIxNzkyMjYwOTM3OTUyLWFzc2lzdGFudC13YzE3NjNldzQzbCIsIjE3OTIyNjA5NTUwNTAtYXNzaXN0YW50LXR1YTk5Z3UycGFtIiwiMTc5MjI2MDk2Njg5MC10b29sLW1iZjIxZ3Nsa3hzIiwiMTc5MjI2MDk3MjM4NC1hc3Npc3RhbnQtamV5cmFtN2JocyIsIjE3OTIyNjEwMTI5MDAtdG9vbC05dG13dDV2OWl2dCIsIjE3OTIyNjEwMzA3NzAtdG9vbC1xdWJpdmx0Ym1iOSIsIjE3OTIyNjEwMjA5NDEtYXNzaXN0YW50LTRvejVodHFudngiLCIxNzkyMjYxMDQ0ODUyLXRvb2wtODBmd21zNGswZ3YiLCIxNzkyMjYxMDM2MjM5LWFzc2lzdGFudC04MGJrZGJubnk0aiIsIjE3OTIyNjEwNTAyODktYXNzaXN0YW50LWdiaHZ0eTVqdmo5IiwiMTc5MjI2MTA1NzkzMS10b29sLXUzdWNveWMxOHRsIiwiMTc5MjI2MTA2MjgzMS1hc3Npc3RhbnQteXJza3d2MnhoMyIsIjE3OTIyNjEwNzEwNDItdG9vbC1seXd5Mmd2aXVpIiwiMTc5MjI2MTA5MzkyNC10b29sLXozaWtrM20zdnVpIiwiMTc5MjI2MTA3NTg2My1hc3Npc3RhbnQtZjlxbW1iaXo2YSIsIjE3OTIyNjEwOTgwODMtYXNzaXN0YW50LXE3NnQ0YWEzN2FuIiwiMTc5MjI2MTEwNjkxOS10b29sLWtnaWJjdnJvbjEiLCIxNzkyMjYxMTA4OTU4LWFzc2lzdGFudC11b2ljaXU2ZWRkIiwiMTc5MjI2MTExODQ5NS10b29sLTMxeTZocHYxMzBkIiwiMTc5MjI2MTEyMzMxMy1hc3Npc3RhbnQtaDZ1MHMwZDJvc3UiLCIxNzkyMjYxMTQxNTc2LXRvb2wteXE4NTd3dnI2bWciLCIxNzkyMjYxMTY4MDE4LXRvb2wtczdodXBhdGY4c3AiLCIxNzkyMjYxMTUwNTg4LWFzc2lzdGFudC1xcjU0YnlwNnJuOSJdLCJwcm9nIjp7IjE3OTIyNjA5NDY2NTItcmVzdWx0LXY3NGh4Ymxqa3oiOjEsIjE3OTIyNjA5Njc0NjgtcmVzdWx0LXhwaDI1ejIyMTRvIjoxLCIxNzkyMjYxMDEzNDAwLXJlc3VsdC10NXRsZmNyamhmYiI6NCwiMTc5MjI2MTAzMTI3Mi1yZXN1bHQtM2ltbTR4Nmw3N3YiOjMsIjE3OTIyNjEwNDU0NzQtcmVzdWx0LThudWllOGJwOWwiOjQsIjE3OTIyNjEwNTg0MjUtcmVzdWx0LWoyYXRsMjV2ZmxtIjozLCIxNzkyMjYxMDcxNTUwLXJlc3VsdC1wcjZ4ZnBzMHRrcCI6MywiMTc5MjI2MTA5NDQ3NC1yZXN1bHQtZXdxczN1cnl6dm8iOjMsIjE3OTIyNjExMDc0NDMtcmVzdWx0LXJsN3pmcXhxM3FvIjoxLCIxNzkyMjYxMTE5MDYxLXJlc3VsdC1haXlxcjB3dWppZiI6MywiMTc5MjI2MTE0MjE1OS1yZXN1bHQtamdoaW51YTZ5eWsiOjgsIjE3OTIyNjExNjg1NzUtcmVzdWx0LWxhc3l2YjZ2eGtuIjoxfX0",
+    "usage": {
+      "inputTokens": 151991,
+      "outputTokens": 3256,
+      "cacheReadTokens": 408064,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 13,
+      "byModel": {
+        "openrouter-deepseek/deepseek-v4-flash": {
+          "inputTokens": 151991,
+          "outputTokens": 3256,
+          "cacheReadTokens": 408064,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 13
+        }
+      }
+    },
+    "sessionUsage": {
+      "inputTokens": 151991,
+      "outputTokens": 3256,
+      "cacheReadTokens": 408064,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 13,
+      "byModel": {
+        "openrouter-deepseek/deepseek-v4-flash": {
+          "inputTokens": 151991,
+          "outputTokens": 3256,
+          "cacheReadTokens": 408064,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 13
+        }
+      }
+    }
+  }
+}

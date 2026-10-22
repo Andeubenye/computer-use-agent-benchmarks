@@ -1,0 +1,12 @@
+{
+  "reopened_and_verified": {
+    "verified": true,
+    "evidence": [
+      "screenshots/openai/task-3/016-screenshot.png",
+      "screenshots/openai/task-3/017-screenshot.png",
+      "screenshots/openai/task-3/018-screenshot.png",
+      "screenshots/openai/task-3/019-screenshot.png"
+    ],
+    "explanation": "After closing the revised document, the Open dialog shows both source and revised files. The revised Writer document then reopens and renders both corrected words, Next steps in Heading 1, and the Pending table cell."
+  }
+}

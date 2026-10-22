@@ -1,0 +1,35 @@
+{
+  "reviewer": "Codex post-run visual audit; no task GUI actions",
+  "agent_outputs_edited": false,
+  "reviewed_output_renders": [
+    {
+      "path": "verification/output-renders/claude/task-3/page-1.png",
+      "review": "Readable one-page document, expected visible values and no clipping in required content."
+    },
+    {
+      "path": "verification/output-renders/claude/task-4/page-1.png",
+      "review": "Readable one-page document, expected visible values and no clipping in required content."
+    },
+    {
+      "path": "verification/output-renders/claude/task-5/attempt-2/page-1.png",
+      "review": "Readable one-page document, expected visible values and no clipping in required content."
+    },
+    {
+      "path": "verification/output-renders/claude/task-5/page-1.png",
+      "review": "Readable one-page document, expected visible values and no clipping in required content."
+    },
+    {
+      "path": "verification/output-renders/openai/task-3/page-1.png",
+      "review": "Readable one-page document, expected visible values and no clipping in required content."
+    },
+    {
+      "path": "verification/output-renders/openai/task-4/page-1.png",
+      "review": "Readable one-page document, expected visible values and no clipping in required content."
+    },
+    {
+      "path": "verification/output-renders/openai/task-5/page-1.png",
+      "review": "Readable one-page document, expected visible values and no clipping in required content."
+    }
+  ],
+  "gui_evidence": "Per-attempt gui-observations.json and independent-verification.json cite screenshot/action traces. Original model text alone is not proof."
+}

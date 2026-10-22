@@ -1,0 +1,67 @@
+{
+  "http_status": 200,
+  "body": {
+    "sessionId": "id-ee28d2092e89",
+    "status": "running",
+    "events": [
+      {
+        "type": "reasoning-start",
+        "id": "1792261675506-assistant-0am2fb9axrp"
+      },
+      {
+        "type": "reasoning-delta",
+        "id": "1792261675506-assistant-0am2fb9axrp",
+        "delta": "I see the labels dialog is still open. Let me select the enhancement label and apply it.\n\n"
+      },
+      {
+        "type": "reasoning-end",
+        "id": "1792261675506-assistant-0am2fb9axrp"
+      },
+      {
+        "type": "data-progress",
+        "data": {
+          "text": "[Guardrails] ✅ click: allow (score=0) ref=e1146 — score=0",
+          "tool": "execute"
+        }
+      }
+    ],
+    "text": "",
+    "cursor": "eyJ0dXJuIjoxNzkyMjYxNTE2NjA5LCJzZWVuIjpbIjE3OTIyNjE1MzIwMjItdG9vbC1veGc1amZ0bDl3IiwiMTc5MjI2MTUzMzg5Ni1hc3Npc3RhbnQtemZwaDJmM2tzM28iLCIxNzkyMjYxNjQ4NzI0LXRvb2wtaTZ1MGwxdjd2dyIsIjE3OTIyNjE2Mzc5MzUtYXNzaXN0YW50LTNjbW1pZmYxaGt3IiwiMTc5MjI2MTY2NzMyMS10b29sLXQ5dXJ6b3J5NHhkIiwiMTc5MjI2MTY1MzMwNy1hc3Npc3RhbnQtbTV1NGVuMmRxbCIsIjE3OTIyNjE2OTQzNTctdG9vbC03NmplbHcwbTZwaSIsIjE3OTIyNjE2NzU1MDYtYXNzaXN0YW50LTBhbTJmYjlheHJwIl0sInByb2ciOnsiMTc5MjI2MTY0OTEyNi1yZXN1bHQtcnBzNG1saHEyajgiOjEsIjE3OTIyNjE2Njc3MTEtcmVzdWx0LTJ4MHpiaG1wbnRsIjoxLCIxNzkyMjYxNjk0Nzk0LXJlc3VsdC1nMDgwM3l6OHQ5NyI6MX19",
+    "usage": {
+      "inputTokens": 13262,
+      "outputTokens": 1164,
+      "cacheReadTokens": 154624,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 4,
+      "byModel": {
+        "openrouter-deepseek/deepseek-v4-flash": {
+          "inputTokens": 13262,
+          "outputTokens": 1164,
+          "cacheReadTokens": 154624,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 4
+        }
+      }
+    },
+    "sessionUsage": {
+      "inputTokens": 13262,
+      "outputTokens": 1164,
+      "cacheReadTokens": 154624,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 4,
+      "byModel": {
+        "openrouter-deepseek/deepseek-v4-flash": {
+          "inputTokens": 13262,
+          "outputTokens": 1164,
+          "cacheReadTokens": 154624,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 4
+        }
+      }
+    }
+  }
+}

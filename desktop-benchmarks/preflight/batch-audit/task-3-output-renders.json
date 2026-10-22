@@ -1,0 +1,16 @@
+[
+  {
+    "input": "outputs/claude/task-3/dispatch_revised.docx",
+    "exit": 0,
+    "pages": [
+      "verification/output-renders/claude/task-3/page-1.png"
+    ]
+  },
+  {
+    "input": "outputs/openai/task-3/dispatch_revised.docx",
+    "exit": 0,
+    "pages": [
+      "verification/output-renders/openai/task-3/page-1.png"
+    ]
+  }
+]

@@ -1,0 +1,80 @@
+{
+  "http_status": 200,
+  "body": {
+    "sessionId": "id-d70b1706f18d",
+    "status": "idle",
+    "events": [
+      {
+        "type": "text-start",
+        "id": "1792261169656-assistant-0q2bbr3xxky"
+      },
+      {
+        "type": "text-delta",
+        "id": "1792261169656-assistant-0q2bbr3xxky",
+        "delta": "Here are the results from inspecting each Wikipedia article:\n\n---\n\n## Results\n\n### 1. Alan Turing\n| Field | Value |\n|---|---|\n| **Full name** | Alan Mathison Turing |\n| **Birth date** | 23 June 1912 |\n| **Birthplace** | Maida Vale, London, England |\n| **Article URL** | https://en.wikipedia.org/wiki/Alan_Turing |\n\n### 2. Ada Lovelace\n| Field | Value |\n|---|---|\n| **Full name** | Augusta Ada Byron (Ada Lovelace) |\n| **Birth date** | 10 December 1815 |\n| **Birthplace** | London, England |\n| **Article URL** | https://en.wikipedia.org/wiki/Ada_Lovelace |\n\n### 3. Grace Hopper\n| Field | Value |\n|---|---|\n| **Full name** | Grace Brewster Murray (Grace Hopper) |\n| **Birth date** | December 9, 1906 |\n| **Birthplace** | New York City, U.S. |\n| **Article URL** | https://en.wikipedia.org/wiki/Grace_Hopper |\n\n### 4. Alan Kay\n| Field | Value |\n|---|---|\n| **Full name** | Alan Curtis Kay |\n| **Birth date** | May 17, 1940 |\n| **Birthplace** | Springfield, Massachusetts, U.S. |\n| **Article URL** | https://en.wikipedia.org/wiki/Alan_Kay |\n\n### 5. Margaret Hamilton\n| Field | Value |\n|---|---|\n| **Full name** | Margaret Elaine Heafield (Margaret Hamilton) |\n| **Birth date** | August 17, 1936 |\n| **Birthplace** | Paoli, Indiana, U.S. |\n| **Article URL** | https://en.wikipedia.org/wiki/Margaret_Hamilton_(software_engineer) |\n\n---\n\n### Limitations & Notes\n\n- All information was extracted from each Wikipedia article's **infobox** (the \"Born\" row) as displayed on the page via the web interface. No API, HTTP extraction, or prior knowledge was used.\n- **Ada Lovelace's infobox** listed her name at birth as \"Augusta Ada Byron\" — the article title uses the more common name \"Ada Lovelace.\"\n- **Grace Hopper's infobox** listed her birth name as \"Grace Brewster Murray\"; the article itself covers her married name \"Hopper.\"\n- **Margaret Hamilton** — the search was disambiguated by adding \"software engineer\" to distinguish her from other notable people named Margaret Hamilton. The correct article is at `/wiki/Margaret_Hamilton_(software_engineer)`.\n- No access blockers, agreements, or login prompts were encountered — all pages loaded without issue."
+      },
+      {
+        "type": "text-end",
+        "id": "1792261169656-assistant-0q2bbr3xxky"
+      },
+      {
+        "type": "finish",
+        "finishReason": "stop"
+      }
+    ],
+    "text": "Here are the results from inspecting each Wikipedia article:\n\n---\n\n## Results\n\n### 1. Alan Turing\n| Field | Value |\n|---|---|\n| **Full name** | Alan Mathison Turing |\n| **Birth date** | 23 June 1912 |\n| **Birthplace** | Maida Vale, London, England |\n| **Article URL** | https://en.wikipedia.org/wiki/Alan_Turing |\n\n### 2. Ada Lovelace\n| Field | Value |\n|---|---|\n| **Full name** | Augusta Ada Byron (Ada Lovelace) |\n| **Birth date** | 10 December 1815 |\n| **Birthplace** | London, England |\n| **Article URL** | https://en.wikipedia.org/wiki/Ada_Lovelace |\n\n### 3. Grace Hopper\n| Field | Value |\n|---|---|\n| **Full name** | Grace Brewster Murray (Grace Hopper) |\n| **Birth date** | December 9, 1906 |\n| **Birthplace** | New York City, U.S. |\n| **Article URL** | https://en.wikipedia.org/wiki/Grace_Hopper |\n\n### 4. Alan Kay\n| Field | Value |\n|---|---|\n| **Full name** | Alan Curtis Kay |\n| **Birth date** | May 17, 1940 |\n| **Birthplace** | Springfield, Massachusetts, U.S. |\n| **Article URL** | https://en.wikipedia.org/wiki/Alan_Kay |\n\n### 5. Margaret Hamilton\n| Field | Value |\n|---|---|\n| **Full name** | Margaret Elaine Heafield (Margaret Hamilton) |\n| **Birth date** | August 17, 1936 |\n| **Birthplace** | Paoli, Indiana, U.S. |\n| **Article URL** | https://en.wikipedia.org/wiki/Margaret_Hamilton_(software_engineer) |\n\n---\n\n### Limitations & Notes\n\n- All information was extracted from each Wikipedia article's **infobox** (the \"Born\" row) as displayed on the page via the web interface. No API, HTTP extraction, or prior knowledge was used.\n- **Ada Lovelace's infobox** listed her name at birth as \"Augusta Ada Byron\" — the article title uses the more common name \"Ada Lovelace.\"\n- **Grace Hopper's infobox** listed her birth name as \"Grace Brewster Murray\"; the article itself covers her married name \"Hopper.\"\n- **Margaret Hamilton** — the search was disambiguated by adding \"software engineer\" to distinguish her from other notable people named Margaret Hamilton. The correct article is at `/wiki/Margaret_Hamilton_(software_engineer)`.\n- No access blockers, agreements, or login prompts were encountered — all pages loaded without issue.",
+    "cursor": "eyJ0dXJuIjoxNzkyMjYwODY5ODU4LCJzZWVuIjpbIjE3OTIyNjA4ODIzMzctdG9vbC13OTcxM2U5YTFtaiIsIjE3OTIyNjA4NzQ1MzEtYXNzaXN0YW50LW9ycWZoZXg4ZDUiLCIxNzkyMjYwODg0NzE1LWFzc2lzdGFudC0yNHJrNmJ3N20ycCIsIjE3OTIyNjA5NDYxMTYtdG9vbC10anY1cDA0djUiLCIxNzkyMjYwOTM3OTUyLWFzc2lzdGFudC13YzE3NjNldzQzbCIsIjE3OTIyNjA5NTUwNTAtYXNzaXN0YW50LXR1YTk5Z3UycGFtIiwiMTc5MjI2MDk2Njg5MC10b29sLW1iZjIxZ3Nsa3hzIiwiMTc5MjI2MDk3MjM4NC1hc3Npc3RhbnQtamV5cmFtN2JocyIsIjE3OTIyNjEwMTI5MDAtdG9vbC05dG13dDV2OWl2dCIsIjE3OTIyNjEwMzA3NzAtdG9vbC1xdWJpdmx0Ym1iOSIsIjE3OTIyNjEwMjA5NDEtYXNzaXN0YW50LTRvejVodHFudngiLCIxNzkyMjYxMDQ0ODUyLXRvb2wtODBmd21zNGswZ3YiLCIxNzkyMjYxMDM2MjM5LWFzc2lzdGFudC04MGJrZGJubnk0aiIsIjE3OTIyNjEwNTAyODktYXNzaXN0YW50LWdiaHZ0eTVqdmo5IiwiMTc5MjI2MTA1NzkzMS10b29sLXUzdWNveWMxOHRsIiwiMTc5MjI2MTA2MjgzMS1hc3Npc3RhbnQteXJza3d2MnhoMyIsIjE3OTIyNjEwNzEwNDItdG9vbC1seXd5Mmd2aXVpIiwiMTc5MjI2MTA5MzkyNC10b29sLXozaWtrM20zdnVpIiwiMTc5MjI2MTA3NTg2My1hc3Npc3RhbnQtZjlxbW1iaXo2YSIsIjE3OTIyNjEwOTgwODMtYXNzaXN0YW50LXE3NnQ0YWEzN2FuIiwiMTc5MjI2MTEwNjkxOS10b29sLWtnaWJjdnJvbjEiLCIxNzkyMjYxMTA4OTU4LWFzc2lzdGFudC11b2ljaXU2ZWRkIiwiMTc5MjI2MTExODQ5NS10b29sLTMxeTZocHYxMzBkIiwiMTc5MjI2MTEyMzMxMy1hc3Npc3RhbnQtaDZ1MHMwZDJvc3UiLCIxNzkyMjYxMTQxNTc2LXRvb2wteXE4NTd3dnI2bWciLCIxNzkyMjYxMTY4MDE4LXRvb2wtczdodXBhdGY4c3AiLCIxNzkyMjYxMTUwNTg4LWFzc2lzdGFudC1xcjU0YnlwNnJuOSIsIjE3OTIyNjExNjk2NTYtYXNzaXN0YW50LTBxMmJicjN4eGt5Iiwic2Vzc2lvbjpmaW5pc2giXSwicHJvZyI6eyIxNzkyMjYwOTQ2NjUyLXJlc3VsdC12NzRoeGJsamt6IjoxLCIxNzkyMjYwOTY3NDY4LXJlc3VsdC14cGgyNXoyMjE0byI6MSwiMTc5MjI2MTAxMzQwMC1yZXN1bHQtdDV0bGZjcmpoZmIiOjQsIjE3OTIyNjEwMzEyNzItcmVzdWx0LTNpbW00eDZsNzd2IjozLCIxNzkyMjYxMDQ1NDc0LXJlc3VsdC04bnVpZThicDlsIjo0LCIxNzkyMjYxMDU4NDI1LXJlc3VsdC1qMmF0bDI1dmZsbSI6MywiMTc5MjI2MTA3MTU1MC1yZXN1bHQtcHI2eGZwczB0a3AiOjMsIjE3OTIyNjEwOTQ0NzQtcmVzdWx0LWV3cXMzdXJ5enZvIjozLCIxNzkyMjYxMTA3NDQzLXJlc3VsdC1ybDd6ZnF4cTNxbyI6MSwiMTc5MjI2MTExOTA2MS1yZXN1bHQtYWl5cXIwd3VqaWYiOjMsIjE3OTIyNjExNDIxNTktcmVzdWx0LWpnaGludWE2eXlrIjo4LCIxNzkyMjYxMTY4NTc1LXJlc3VsdC1sYXN5dmI2dnhrbiI6MX19",
+    "usage": {
+      "inputTokens": 153887,
+      "outputTokens": 4221,
+      "cacheReadTokens": 451584,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 15,
+      "byModel": {
+        "openrouter-deepseek/deepseek-v4-flash": {
+          "inputTokens": 152989,
+          "outputTokens": 4216,
+          "cacheReadTokens": 451584,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 14
+        },
+        "vertex-gemini-3-flash-preview": {
+          "inputTokens": 898,
+          "outputTokens": 5,
+          "cacheReadTokens": 0,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 1
+        }
+      }
+    },
+    "sessionUsage": {
+      "inputTokens": 153887,
+      "outputTokens": 4221,
+      "cacheReadTokens": 451584,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 15,
+      "byModel": {
+        "openrouter-deepseek/deepseek-v4-flash": {
+          "inputTokens": 152989,
+          "outputTokens": 4216,
+          "cacheReadTokens": 451584,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 14
+        },
+        "vertex-gemini-3-flash-preview": {
+          "inputTokens": 898,
+          "outputTokens": 5,
+          "cacheReadTokens": 0,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 1
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "filename": "sales_summary.docx",
+  "metrics": {
+    "total_revenue": "1780.00",
+    "total_units": 90,
+    "average_order_value": "59.33",
+    "highest_revenue_region": "South"
+  },
+  "regional_totals": {
+    "North": "570.00",
+    "South": "610.00",
+    "East": "600.00"
+  }
+}

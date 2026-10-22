@@ -1,0 +1,142 @@
+[
+  {
+    "record": "browser-benchmarks/evidence/original-github/agents/claude/run-record.json",
+    "public_stills_in_subtree": 4,
+    "public_selection_not_total_capture_count": true,
+    "raw_recorded_totals_source": "browser-benchmarks/evidence/original-github/agents/claude/run-record.json",
+    "other_original_media_retained_privately": true
+  },
+  {
+    "record": "browser-benchmarks/evidence/original-github/agents/tinyfish/run-record.json",
+    "public_stills_in_subtree": 1,
+    "public_selection_not_total_capture_count": true,
+    "raw_recorded_totals_source": "browser-benchmarks/evidence/original-github/agents/tinyfish/run-record.json",
+    "other_original_media_retained_privately": true
+  },
+  {
+    "record": "browser-benchmarks/evidence/original-github/agents/sai/run-record.json",
+    "public_stills_in_subtree": 1,
+    "public_selection_not_total_capture_count": true,
+    "raw_recorded_totals_source": "browser-benchmarks/evidence/original-github/agents/sai/run-record.json",
+    "other_original_media_retained_privately": true
+  },
+  {
+    "record": "browser-benchmarks/evidence/original-github/agents/openai/run-record.json",
+    "public_stills_in_subtree": 1,
+    "public_selection_not_total_capture_count": true,
+    "raw_recorded_totals_source": "browser-benchmarks/evidence/original-github/agents/openai/run-record.json",
+    "other_original_media_retained_privately": true
+  },
+  {
+    "record": "browser-benchmarks/evidence/additional-tasks/runs/claude/test-2-wikipedia/run-record.json",
+    "public_stills_in_subtree": 1,
+    "public_selection_not_total_capture_count": true,
+    "raw_recorded_totals_source": "browser-benchmarks/evidence/additional-tasks/runs/claude/test-2-wikipedia/run-record.json",
+    "other_original_media_retained_privately": true
+  },
+  {
+    "record": "browser-benchmarks/evidence/additional-tasks/runs/claude/test-5-popup/run-record.json",
+    "public_stills_in_subtree": 1,
+    "public_selection_not_total_capture_count": true,
+    "raw_recorded_totals_source": "browser-benchmarks/evidence/additional-tasks/runs/claude/test-5-popup/run-record.json",
+    "other_original_media_retained_privately": true
+  },
+  {
+    "record": "browser-benchmarks/evidence/additional-tasks/runs/claude/test-4-github-enhancement/run-record.json",
+    "public_stills_in_subtree": 1,
+    "public_selection_not_total_capture_count": true,
+    "raw_recorded_totals_source": "browser-benchmarks/evidence/additional-tasks/runs/claude/test-4-github-enhancement/run-record.json",
+    "other_original_media_retained_privately": true
+  },
+  {
+    "record": "browser-benchmarks/evidence/additional-tasks/runs/claude/test-3-form/run-record.json",
+    "public_stills_in_subtree": 1,
+    "public_selection_not_total_capture_count": true,
+    "raw_recorded_totals_source": "browser-benchmarks/evidence/additional-tasks/runs/claude/test-3-form/run-record.json",
+    "other_original_media_retained_privately": true
+  },
+  {
+    "record": "browser-benchmarks/evidence/additional-tasks/runs/tinyfish/test-2-wikipedia/run-record.json",
+    "public_stills_in_subtree": 1,
+    "public_selection_not_total_capture_count": true,
+    "raw_recorded_totals_source": "browser-benchmarks/evidence/additional-tasks/runs/tinyfish/test-2-wikipedia/run-record.json",
+    "other_original_media_retained_privately": true
+  },
+  {
+    "record": "browser-benchmarks/evidence/additional-tasks/runs/tinyfish/test-5-popup/run-record.json",
+    "public_stills_in_subtree": 1,
+    "public_selection_not_total_capture_count": true,
+    "raw_recorded_totals_source": "browser-benchmarks/evidence/additional-tasks/runs/tinyfish/test-5-popup/run-record.json",
+    "other_original_media_retained_privately": true
+  },
+  {
+    "record": "browser-benchmarks/evidence/additional-tasks/runs/tinyfish/test-4-github-enhancement/run-record.json",
+    "public_stills_in_subtree": 1,
+    "public_selection_not_total_capture_count": true,
+    "raw_recorded_totals_source": "browser-benchmarks/evidence/additional-tasks/runs/tinyfish/test-4-github-enhancement/run-record.json",
+    "other_original_media_retained_privately": true
+  },
+  {
+    "record": "browser-benchmarks/evidence/additional-tasks/runs/tinyfish/test-3-form/run-record.json",
+    "public_stills_in_subtree": 1,
+    "public_selection_not_total_capture_count": true,
+    "raw_recorded_totals_source": "browser-benchmarks/evidence/additional-tasks/runs/tinyfish/test-3-form/run-record.json",
+    "other_original_media_retained_privately": true
+  },
+  {
+    "record": "browser-benchmarks/evidence/additional-tasks/runs/sai/test-2-wikipedia/run-record.json",
+    "public_stills_in_subtree": 1,
+    "public_selection_not_total_capture_count": true,
+    "raw_recorded_totals_source": "browser-benchmarks/evidence/additional-tasks/runs/sai/test-2-wikipedia/run-record.json",
+    "other_original_media_retained_privately": true
+  },
+  {
+    "record": "browser-benchmarks/evidence/additional-tasks/runs/sai/test-5-popup/run-record.json",
+    "public_stills_in_subtree": 1,
+    "public_selection_not_total_capture_count": true,
+    "raw_recorded_totals_source": "browser-benchmarks/evidence/additional-tasks/runs/sai/test-5-popup/run-record.json",
+    "other_original_media_retained_privately": true
+  },
+  {
+    "record": "browser-benchmarks/evidence/additional-tasks/runs/sai/test-4-github-enhancement/run-record.json",
+    "public_stills_in_subtree": 1,
+    "public_selection_not_total_capture_count": true,
+    "raw_recorded_totals_source": "browser-benchmarks/evidence/additional-tasks/runs/sai/test-4-github-enhancement/run-record.json",
+    "other_original_media_retained_privately": true
+  },
+  {
+    "record": "browser-benchmarks/evidence/additional-tasks/runs/sai/test-3-form/run-record.json",
+    "public_stills_in_subtree": 1,
+    "public_selection_not_total_capture_count": true,
+    "raw_recorded_totals_source": "browser-benchmarks/evidence/additional-tasks/runs/sai/test-3-form/run-record.json",
+    "other_original_media_retained_privately": true
+  },
+  {
+    "record": "browser-benchmarks/evidence/additional-tasks/runs/openai/test-2-wikipedia/run-record.json",
+    "public_stills_in_subtree": 1,
+    "public_selection_not_total_capture_count": true,
+    "raw_recorded_totals_source": "browser-benchmarks/evidence/additional-tasks/runs/openai/test-2-wikipedia/run-record.json",
+    "other_original_media_retained_privately": true
+  },
+  {
+    "record": "browser-benchmarks/evidence/additional-tasks/runs/openai/test-5-popup/run-record.json",
+    "public_stills_in_subtree": 1,
+    "public_selection_not_total_capture_count": true,
+    "raw_recorded_totals_source": "browser-benchmarks/evidence/additional-tasks/runs/openai/test-5-popup/run-record.json",
+    "other_original_media_retained_privately": true
+  },
+  {
+    "record": "browser-benchmarks/evidence/additional-tasks/runs/openai/test-4-github-enhancement/run-record.json",
+    "public_stills_in_subtree": 1,
+    "public_selection_not_total_capture_count": true,
+    "raw_recorded_totals_source": "browser-benchmarks/evidence/additional-tasks/runs/openai/test-4-github-enhancement/run-record.json",
+    "other_original_media_retained_privately": true
+  },
+  {
+    "record": "browser-benchmarks/evidence/additional-tasks/runs/openai/test-3-form/run-record.json",
+    "public_stills_in_subtree": 1,
+    "public_selection_not_total_capture_count": true,
+    "raw_recorded_totals_source": "browser-benchmarks/evidence/additional-tasks/runs/openai/test-3-form/run-record.json",
+    "other_original_media_retained_privately": true
+  }
+]

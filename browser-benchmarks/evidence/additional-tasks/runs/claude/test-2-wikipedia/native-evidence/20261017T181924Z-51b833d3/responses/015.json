@@ -1,0 +1,34 @@
+{
+  "id": "provider-id-1afbf7eabb46",
+  "content": [
+    {
+      "signature": "CAQSuwgKEAgSGAI4AUIIdGhpbmtpbmcSDFoTMWt9PNEUJMHfChoMcVFxVT/xlw3XTd0XIjD128NpNWhbHA9bYwCSdt9o9BsPTqC/GeKd5tD/NtUxB3j82uH1Ax+eNob7JzMBF3cq2AdhijJ0gE6w0EppU7YG1+iLmI4iDcEf+J9/+6CyuJik6RLTp4oxWvciDoV/dRd9RuuSurCRfv4cHW9S+DzvCu++llV7xyDspC89hmIPbjL6eVNBg9j1RQZqYL0L3FI7yUdrgTthnJhThoQZv5/3VuOy2Rl6gEXk/wJat4pFj9q9r5k2N/NTbcObfogJPEF4QHh3OKAct1tVBC50FLhygVfgJfsAL73or0MT19RhxeMNBilFrlJzOPgf4XkwCI+Gh/n7xHe1haSyLsO+QbwCtU/iXgJe2qbO+WuNyo/e931C7iPJ78zPrbEZ2Kc6dj+OaTkJfVvBDVPm3ItF+L1JLbtryEmApa4abhCbr1iN7r90Rq+ZURrv1tdDgfpVM41rG6UZFlOROthP2Ni6zg1ox+4yFmUJRNMXvmvCBHa+BAmcf5WooA50/OIOzdR9EZIrEvoVqNN4qiYEXKMTeCb1u0G7aG0FGJsWYvrRr8+fC5JTzGBwT9b77DF90sjd2crJp/zZ+3uk3drddKmAX+xBzMgDvVOYDbcRGH1ezuLiGE7umPJVyBWLGDws4j34st0H1ogiSzAr4fXgmLgRmhSaHfh4hcW7aDUzjXnZDIQZOAQpnuN9eUiibftcfBFNcSdvaP7riGQGMOJ4feJIJpOM1OSYRGFiCGKcGHZSNCnF4/ElUEgS988hz5SCp93Gtnh8jvQASSmT+n9QAz/mOcw7rBkqu9R8jD0pm2FOTRx31gAMwbwasyr85gBS9s0zjqLRaU/4eIXkBTA4FNnH4BgQuxtGZyovWCHW2OWazLgU8mRiUBcS3JHA99na9JPWHQqHd5hHMOvsqjDM8dTr2UBzOltCUs5CJfar3VD8oeY+wD16uJup1KOjNBqRQ3Ym2zvvH7RSN6fZhDOusyZZpxgauTIxdIA/00Gxxp0KasJByWNZz559CF8srp++NwhIzAGCmYGCtGUnKdDQI9+nrA9le8MdX4jpMvPiX9iwskS479JPWiUMGxtU9Yx+6QYRPZyjAPkxyg9rdlAjsXlYFuw9ml0s6cTDgBAFvp/K9c2TTgcwfnMAErdmzFUezZkFxDTh/WtLb1QN7oA5fexVbQHMnxVy2ZRV0PdEgl4BGMSexsWnPj9O2zZmRMiE0hInQZH0QKzb6e644kqdJp/Uzt2qbm3XSSb/RjWepSj1rZ3RlVsWNN5PUfnco81XGHhsJ4Gh/xbzRspYT1FKC0er1OAqJzfSIBhw+a8E4Tb1vuIPeX79w9XpUXjjc1eiuybx+KyQy2NpqHcnsK8wPMhzldJD5dgU67qVjoiMYZQYAQ==",
+      "thinking": "",
+      "type": "thinking"
+    },
+    {
+      "text": "I opened each article on English Wikipedia and read the birth details from the infobox. For Turing, Kay and Hamilton the article text also states the birthplace. For Lovelace and Hopper I used the infobox only.\n\n1. **Alan Turing**: born 23 June 1912 in Maida Vale, London, England. https://en.wikipedia.org/wiki/Alan_Turing\n2. **Ada Lovelace**: born 10 December 1815 in London, England. https://en.wikipedia.org/wiki/Ada_Lovelace\n3. **Grace Hopper**: born December 9, 1906 in New York City, U.S. https://en.wikipedia.org/wiki/Grace_Hopper\n4. **Alan Kay**: born May 17, 1940 in Springfield, Massachusetts, U.S. https://en.wikipedia.org/wiki/Alan_Kay\n5. **Margaret Hamilton (software engineer)**: born August 17, 1936 in Paoli, Indiana, U.S. https://en.wikipedia.org/wiki/Margaret_Hamilton_(software_engineer)\n\nEvery requested fact was available, and I didn't guess any. Scrolling timed out a couple of times on the Ada Lovelace page, but Page Down worked and the results aren't affected.",
+      "type": "text"
+    }
+  ],
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 20187,
+    "output_tokens": 479,
+    "output_tokens_details": {
+      "thinking_tokens": 44
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

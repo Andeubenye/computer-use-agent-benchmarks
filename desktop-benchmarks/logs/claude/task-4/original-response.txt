@@ -1,0 +1,13 @@
+I filled in all four metrics and saved the report as `sales_summary.docx` in `/home/agent/Desktop/benchmark/`. After closing and reopening it, all four values were still there. I did not do anything to the CSV beyond adding calculation cells.
+
+The values come from formulas I entered in `sales_records.csv` in Calc, which covers 30 orders:
+- **Total revenue:** 1780
+- **Total units:** 90
+- **Average order value:** 59.33 (1780 / 30, rounded to two decimals)
+- **Highest revenue region:** South
+
+Per-region revenue was North 570, South 610, East 600. A West check came back 0, so there are only three regions.
+
+In `report_template.docx` I replaced each of the four `[fill]` placeholders with these values, leaving the title "Sales summary" and the "Source sales_records.csv" line as they were. I saved the result under the new name with Save As, so the template file is unchanged.
+
+The extra formula cells in `sales_records.csv` (column G) are still in the open Calc window, and I did not save that file. Nothing is incomplete.

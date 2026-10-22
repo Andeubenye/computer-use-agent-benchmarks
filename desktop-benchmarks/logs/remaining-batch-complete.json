@@ -1,0 +1,70 @@
+{
+  "utc": "2026-10-21T23:22:35.056035+00:00",
+  "records": [
+    {
+      "agent": "openai",
+      "task": 2,
+      "process_exit": 0,
+      "record_present": true,
+      "submitted": true,
+      "reason": "model_finished",
+      "estimated_api_cost_usd": 0.1791222
+    },
+    {
+      "agent": "claude",
+      "task": 3,
+      "process_exit": 0,
+      "record_present": true,
+      "submitted": true,
+      "reason": "model_finished",
+      "estimated_api_cost_usd": 0.33532399999999996
+    },
+    {
+      "agent": "openai",
+      "task": 3,
+      "process_exit": 0,
+      "record_present": true,
+      "submitted": true,
+      "reason": "model_finished",
+      "estimated_api_cost_usd": 0.06682679999999999
+    },
+    {
+      "agent": "claude",
+      "task": 4,
+      "process_exit": 0,
+      "record_present": true,
+      "submitted": true,
+      "reason": "model_finished",
+      "estimated_api_cost_usd": 0.715518
+    },
+    {
+      "agent": "openai",
+      "task": 4,
+      "process_exit": 0,
+      "record_present": true,
+      "submitted": true,
+      "reason": "model_finished",
+      "estimated_api_cost_usd": 0.08963229999999998
+    },
+    {
+      "agent": "claude",
+      "task": 5,
+      "process_exit": 0,
+      "record_present": true,
+      "submitted": true,
+      "reason": "execution_error",
+      "estimated_api_cost_usd": 0.885828
+    },
+    {
+      "agent": "openai",
+      "task": 5,
+      "process_exit": 0,
+      "record_present": true,
+      "submitted": true,
+      "reason": "model_finished",
+      "estimated_api_cost_usd": 0.054561
+    }
+  ],
+  "estimated_total_spent": 2.9173196999999997,
+  "automatic_restarts": 0
+}

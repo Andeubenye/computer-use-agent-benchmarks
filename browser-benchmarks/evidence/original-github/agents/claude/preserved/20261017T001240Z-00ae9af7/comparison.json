@@ -1,0 +1,77 @@
+{
+  "claude_run_id": "20261017T001240Z-00ae9af7",
+  "openai_source": "<LOCAL_HOME>/Documents/Codex/2026-10-16/i-want-to-benchmark-openai-s/outputs/results/openai_run_1.json",
+  "openai_source_sha256": "a3c438e238da984dead473b903d49b01500ee35617a2fd1e76ae5a8aa1512766",
+  "openai_execution_log_sha256": "caa6739230ffe32b62368572417db7833437625015b8138744fc09e5896fff63",
+  "openai": {
+    "model": "gpt-6.1-sol",
+    "status": "completed_partial",
+    "strict_success": false,
+    "final_issues_returned": 5,
+    "wall_seconds": 97.546,
+    "model_request_seconds": 55.52579241600324,
+    "computer_actions": 27,
+    "screenshots": 11,
+    "generation_requests": 11,
+    "model_access_requests": 1,
+    "api_requests": 12,
+    "token_count_requests": 0,
+    "input_tokens": 132467,
+    "cached_input_tokens": 111467,
+    "cache_write_tokens": 20967,
+    "output_tokens": 955,
+    "cost_usd_as_recorded": 0.0731802,
+    "cost_label": "ESTIMATE — model token cost, not an invoice",
+    "retries": 0,
+    "errors": 0,
+    "browser": {
+      "engine": "Chromium",
+      "version": "156.0.8078.4",
+      "fresh_profile": true,
+      "viewport": [
+        1440,
+        1000
+      ],
+      "timezone": "UTC",
+      "headless": false,
+      "state_preserved_during_run": true
+    },
+    "strict_failure": "Returned relative update labels rather than calendar dates",
+    "limits": {
+      "seconds": 600,
+      "computer_calls": 80,
+      "individual_actions": 300,
+      "max_output_tokens_per_response": 4096
+    }
+  },
+  "claude": {
+    "status": "incomplete_max_tokens",
+    "success": false,
+    "wall_seconds": 63.311995,
+    "agent_wall_seconds": 63.311159,
+    "api_seconds": 19.842699,
+    "count_seconds": 6.924592,
+    "computer_actions": 28,
+    "successful_actions": 28,
+    "screenshots": 9,
+    "api_attempts": 6,
+    "token_count_requests": 6,
+    "api_requests": 12,
+    "input_tokens": 49585,
+    "output_tokens": 2174,
+    "api_cost_usd": "0.120910",
+    "api_retries": 0,
+    "errors": 0
+  },
+  "caveats": [
+    "Different limits and output caps (Claude 1024 vs OpenAI 4096); one incomplete run cannot establish a speed winner.",
+    "Claude Linux Docker/Colima Firefox 1024x768 including chrome; OpenAI browser-profile Chromium 1440x1000 content-only.",
+    "Claude starts blank, OpenAI starts at requested GitHub URL after harness navigation.",
+    "OpenAI timer includes model access check/browser startup/initial navigation; Claude timer begins after desktop setup.",
+    "Claude actions include screenshot, zoom, wait, key, mouse moves. OpenAI screenshots are automatic harness captures after batches, outside its 27 model action count.",
+    "OpenAI used Playwright only to execute native computer actions; its separate grader used rendered accessibility data. Claude agent and grader use native GUI only.",
+    "OpenAI input count includes cached input; its cache-write bucket is a subset, not additional input. Claude cache usage is zero.",
+    "OpenAI cost retained as recorded estimate, excluding separate capability probe ($0.002176); neither cost is an invoice.",
+    "Runs occurred about three hours apart on a changing public repository; current grading independently confirmed the same top five."
+  ]
+}

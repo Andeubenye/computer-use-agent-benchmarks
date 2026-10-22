@@ -1,0 +1,75 @@
+{
+  "model": "claude-sonnet-5-5",
+  "id": "msg_011CgGDQk9VtzgpmfK7bcyFz",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "thinking",
+      "thinking": "",
+      "signature": "CAQSmQgKEAgTGAI4AUIIdGhpbmtpbmcSDEcewOPWrcYF4RXMWRoMn1GdPKORGtuQphSmIjBSFlqzv2j47wmPh5g0XH8LSCZfd2IBrJO1/hjZYSxsWCHCTHTNca+Cv0t6ND9CYhkqtgd5GMf/0yu/83jbEvF45gj5YGiff/L4oTqeMl1TE/UPst/qV+cZi1BnM6mqyEIf51FtlnFPMMkjcAIWQNLEfQo2kUiqnJLUpY89mOh8IDfZuI/PADCTLeAm7vhn2jNpX6r+BAxnTyN0qBFndd8t8LZSI5BtgKivteRZJxTsCwIi97y9R9xF0X/VydqfC5gSqHD2kU84U5BtGqVD+/9Ah22lv2V3pfl/gUrt9hcCSXCXkBuwkPo16nJQ8dRkv8YvqcrSk2psoRfKpX46q2099e7Qq6nLDoT9LbIBrNvuotOOjfe4CN5i84iEVr9WnIEf+09gk+DHgazOy1XMtaDMMBMfBVEE41eHITiGitvFsEW3WluQKqUJMuuqcOOFt2SHImk33mnSsVGMP1JqUY7EnKWeWGjEX7HlGG/cttTzofnuOZWlQDlBSefxnMxdtMM2Qk5IJq3VVfqeVVTSaQtVjQuvauP/mf5VMhWxTYoSLHATjG6Blu1/ORStOFPppwQh8A9MC8VMJ9nG9W+krjVbkJDVgGPGTVub+ZR5+abuHHXuFRdFpAwzjb8epb3ecXxCDVCVRaOrtPlcbIWT6pTEdIcFFeSpvLkDQQSDRy8cEb57IuTRo6OGz76jE9Hoy5xE6q/4cLsnsJqvLHSYAyaJvM+BHfqx7/fWhv4ZoxBxugPAgsC3Jlvd0z+owwUXgSa/+Hz5l4b1O3C9jACGVzkhudZapfCfIl8SH7u/hDt/3Mzhzw3hLcDX1aOwhLIOix4mpP8gyf8uLPZqtYob/P1Pt8mrQpoiu33Jf8fjUmrcpqENir+sNEeQx/RHy+Y0gdqG/bpsV6MWtxCO/KYETlCByTqlg3y1k+jboBvD4L6gpPUxOra7Hf2B+kwCZ4VVHp1tSlPefIvMli7BlFnNNcH7cA78N29JwQkfeix7XBrF7irVIZX+EmE5t1lAafoetTMviA+T3/DZ9FpkeTvkeAj2nG686eDilhyYSwh8b7OU7FAx3yWHMPa+Kwi/ADCwlLSOKhwE1CYbXl27NHyCeqpOAgnUh8kOyzc3MaLnvv5U+8/+gzRyyp3YOxJkHOI4K4fBAkycV5TKsszv1EDQvdRyCeLzvOh1mnY9ejSHdI6Z3kGEs84rDS0DoHuPeNeGzGP4RRnHRdNvwxxgPbRewZiA3t2e7QhOBdYAvIj2HO/Lgh4JuKCLS/I2pon72WVZ8eDYPWkCrXF/C9ohiNV5NYnz+RNLlK11K2aDKDWHwy1VwXKSyNuaoD/UdhgB"
+    },
+    {
+      "type": "tool_use",
+      "id": "toolu_017q4FkwZHxHpPhWn17r8UjU",
+      "name": "left_click_drag",
+      "input": {
+        "start_coordinate": [
+          198,
+          287
+        ],
+        "coordinate": [
+          178,
+          415
+        ]
+      },
+      "toolset_name": "computer",
+      "caller": {
+        "type": "direct"
+      }
+    },
+    {
+      "type": "tool_use",
+      "id": "toolu_018Td8HF46VSwLXQq6GcqZ99",
+      "name": "wait",
+      "input": {
+        "duration": 1
+      },
+      "toolset_name": "computer",
+      "caller": {
+        "type": "direct"
+      }
+    },
+    {
+      "type": "tool_use",
+      "id": "toolu_01VEF23uV7JYviNFNFdcBrMG",
+      "name": "screenshot",
+      "input": {},
+      "toolset_name": "computer",
+      "caller": {
+        "type": "direct"
+      }
+    }
+  ],
+  "container": null,
+  "stop_reason": "tool_use",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 16959,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 152,
+    "output_tokens_details": {
+      "thinking_tokens": 36
+    },
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

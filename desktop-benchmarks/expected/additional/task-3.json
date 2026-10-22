@@ -1,0 +1,23 @@
+{
+  "filename": "dispatch_revised.docx",
+  "paragraphs": [
+    "Warehouse dispatch update",
+    "Operations bulletin for the packing team.",
+    "The shipment window starts at 09:00.",
+    "Please receive the stock before dispatch.",
+    "Next steps",
+    "Check the packing list before loading."
+  ],
+  "table": [
+    [
+      "Item",
+      "Status"
+    ],
+    [
+      "Training",
+      "Pending"
+    ]
+  ],
+  "heading": "Next steps",
+  "heading_style": "Heading 1"
+}

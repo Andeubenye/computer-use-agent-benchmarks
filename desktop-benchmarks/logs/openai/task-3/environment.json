@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-21T23:09:16.972636+00:00",
+  "image": "desktop-additional-benchmark:2026-10-21",
+  "task": 3,
+  "starting_app": "writer",
+  "network": "none",
+  "fixtures_validated": true,
+  "expected_output_exposed": false,
+  "initial_interruption": false,
+  "provenance": "Reconstructed from the user-stated task objectives and counts; exact historical prompts and fixtures were not recovered. Identical frozen version for every agent."
+}

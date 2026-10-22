@@ -1,0 +1,75 @@
+{
+  "task": 4,
+  "outcome": "PASS",
+  "score": 5,
+  "requirements": {
+    "Observed 30 records in Calc and used Writer": true,
+    "All four metrics independently correct": true,
+    "Metrics transferred into a valid Writer document with no placeholders": true,
+    "Separate saved report and unchanged input CSV and template": true,
+    "Reopened saved report and visually verified metrics": true
+  },
+  "core_artifact_correct": true,
+  "details": {
+    "output_exists": true,
+    "valid_docx": true,
+    "paragraphs": [
+      "Sales summary",
+      "Source sales_records.csv",
+      "Total revenue: 1780",
+      "Total units: 90",
+      "Average order value: 59.33",
+      "Highest revenue region: South"
+    ],
+    "tables": [],
+    "all_originals_preserved": true,
+    "independently_recomputed_metrics": {
+      "total_revenue": "1780.00",
+      "total_units": 90,
+      "average_order_value": "59.33",
+      "highest_revenue_region": "South"
+    },
+    "metrics": {
+      "total_revenue": {
+        "value": "1780",
+        "correct": true
+      },
+      "total_units": {
+        "value": "90",
+        "correct": true
+      },
+      "average_order_value": {
+        "value": "59.33",
+        "correct": true
+      },
+      "highest_revenue_region": {
+        "value": "South",
+        "correct": true
+      }
+    }
+  },
+  "gui_observations": {
+    "both_applications_and_records": {
+      "verified": true,
+      "evidence": [
+        "screenshots/claude/task-4/008-screenshot.png",
+        "screenshots/claude/task-4/018-screenshot.png",
+        "screenshots/claude/task-4/019-screenshot.png"
+      ],
+      "explanation": "Calc shows S-001 through S-030 and formula results in column G, then Writer shows the four transferred metrics."
+    },
+    "reopened_and_verified": {
+      "verified": true,
+      "evidence": [
+        "screenshots/claude/task-4/017-screenshot.png",
+        "screenshots/claude/task-4/018-screenshot.png",
+        "screenshots/claude/task-4/019-screenshot.png",
+        "screenshots/claude/task-4/020-screenshot.png",
+        "logs/claude/task-4/events.jsonl"
+      ],
+      "explanation": "Trace actions 94\u2013102 close Writer via Ctrl+W, return to Calc, then Ctrl+O opens sales_summary.docx again. Reopened report shows all four correct metrics."
+    }
+  },
+  "response_used_as_proof": false,
+  "verifier_edits_files": false
+}

@@ -1,0 +1,15 @@
+{
+  "task": "test-3-form",
+  "status": "NOT RUN",
+  "reason": "Pre-billing spending gate: concrete HF cap and end-of-session pause authorization pending",
+  "submitted": false,
+  "attempts": 0,
+  "duration_seconds": null,
+  "actions": null,
+  "requests": 0,
+  "token_usage": null,
+  "new_inference_cost_usd": 0,
+  "hosting_cost_usd": null,
+  "score": null,
+  "prompt_sha256": "1b237d3e106992c3cdc5e1e866b19f7e2d873d04937f6cbd2d58649a67d2f155"
+}

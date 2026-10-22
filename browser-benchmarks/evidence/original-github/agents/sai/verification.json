@@ -1,0 +1,7 @@
+{
+  "verdict": "failed_timeout",
+  "issue_answer_present": false,
+  "answer_accuracy": null,
+  "no_missing_results_filled_by_verifier": true,
+  "reason": "No final issue answer before cancellation; provider terminal turn failed"
+}

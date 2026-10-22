@@ -1,0 +1,128 @@
+{
+  "verified_after_agent_stopped": true,
+  "captured_at_utc": "2026-10-21T00:21:07.559Z",
+  "url": "https://www.google.com/",
+  "title": "Google",
+  "text": "GmailImages\nSign in\nAI Mode\n \nGoogle offered in: Hausa Igbo Èdè Yorùbá Nigerian Pidgin\nNigeria\nAbout\nAdvertising\nBusiness\nHow Search works\nBuild, create, and do more with AI tools from Google\nPrivacy\nTerms\nSettings",
+  "fields": [
+    {
+      "tag": "TEXTAREA",
+      "type": "textarea",
+      "name": "q",
+      "id": "ti6dpd",
+      "value": "",
+      "disabled": false,
+      "readOnly": false,
+      "selectedText": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "submit",
+      "name": "btnK",
+      "id": "",
+      "value": "Google Search",
+      "disabled": false,
+      "readOnly": false,
+      "checked": false,
+      "selectedText": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "submit",
+      "name": "btnI",
+      "id": "",
+      "value": "I'm Feeling Lucky",
+      "disabled": false,
+      "readOnly": false,
+      "checked": false,
+      "selectedText": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "submit",
+      "name": "btnK",
+      "id": "",
+      "value": "Google Search",
+      "disabled": false,
+      "readOnly": false,
+      "checked": false,
+      "selectedText": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "submit",
+      "name": "btnI",
+      "id": "",
+      "value": "I'm Feeling Lucky",
+      "disabled": false,
+      "readOnly": false,
+      "checked": false,
+      "selectedText": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "hidden",
+      "name": "sca_esv",
+      "id": "",
+      "value": "ce771d9c6ef7deea",
+      "disabled": false,
+      "readOnly": false,
+      "checked": false,
+      "selectedText": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "hidden",
+      "name": "sxsrf",
+      "id": "",
+      "value": "APpeQnstBfwZ9akkQmIktwkb9K9uzDf-1w:1792541933538",
+      "disabled": false,
+      "readOnly": false,
+      "checked": false,
+      "selectedText": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "hidden",
+      "name": "source",
+      "id": "",
+      "value": "hp",
+      "disabled": false,
+      "readOnly": false,
+      "checked": false,
+      "selectedText": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "hidden",
+      "name": "ei",
+      "id": "",
+      "value": "7QTYarPQH6eAhbIP68TpwQ8",
+      "disabled": false,
+      "readOnly": false,
+      "checked": false,
+      "selectedText": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "hidden",
+      "name": "iflsig",
+      "id": "",
+      "value": "ABILxe8AAAAAatgS_daGxl_lEL4n9xm291xm4I79prNS",
+      "disabled": false,
+      "readOnly": false,
+      "checked": false,
+      "selectedText": null
+    },
+    {
+      "tag": "TEXTAREA",
+      "type": "textarea",
+      "name": "csi",
+      "id": "",
+      "value": "",
+      "disabled": false,
+      "readOnly": false,
+      "selectedText": null
+    }
+  ]
+}

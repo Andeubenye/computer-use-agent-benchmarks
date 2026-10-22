@@ -1,0 +1,18 @@
+
+> ui-tars-desktop@0.2.3 typecheck <PROJECT_ROOT>/work/UI-TARS-desktop-v0.2.4-2026-10-20/apps/ui-tars
+> npm run typecheck:node && npm run typecheck:web
+
+npm warn Unknown env config "shamefully-hoist". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+npm warn Unknown env config "recursive". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+npm warn Unknown env config "node-linker". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+
+> ui-tars-desktop@0.2.3 typecheck:node
+> tsc --noEmit -p tsconfig.node.json --pretty --composite false
+
+npm warn Unknown env config "shamefully-hoist". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+npm warn Unknown env config "recursive". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+npm warn Unknown env config "node-linker". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+
+> ui-tars-desktop@0.2.3 typecheck:web
+> tsc --noEmit -p tsconfig.web.json --pretty --composite false
+

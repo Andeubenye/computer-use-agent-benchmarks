@@ -1,0 +1,10 @@
+{
+  "requested_at_utc": "2026-10-20T22:30:36.740346+00:00",
+  "status": "pending; not approved",
+  "proposed_additional_hf_cap_usd": 2,
+  "proposed_target_pause_minutes": 55,
+  "endpoint_last_observed": "Running",
+  "endpoint_changes_this_preflight": 0,
+  "new_model_requests": 0,
+  "basis": "Latest user explicitly requests concrete cap approval if reliable spending limit cannot be enforced."
+}

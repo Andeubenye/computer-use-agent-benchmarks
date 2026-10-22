@@ -1,0 +1,17 @@
+{
+  "status": "Form Filled Successfully",
+  "form_fields": {
+    "email": "alex.morgan@example.com",
+    "phone": "+1 202-555-0147",
+    "company": "Northstar Labs",
+    "country": "United States",
+    "message": "This is a benchmark.",
+    "job_title": "Product Manager",
+    "last_name": "Morgan",
+    "first_name": "Alex",
+    "submit_not_pressed": true,
+    "newsletter_unchecked": true,
+    "preferred_contact_method": "Email (checked)"
+  },
+  "filling_notes": "All 8 main form fields were filled and visible. No field failed to complete. The form is displayed with all values populated."
+}

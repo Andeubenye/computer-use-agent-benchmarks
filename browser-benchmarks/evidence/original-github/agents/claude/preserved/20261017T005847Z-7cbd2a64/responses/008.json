@@ -1,0 +1,252 @@
+{
+  "id": "provider-id-40d7e6d58eb6",
+  "content": [
+    {
+      "signature": "CAQS3gYKEAgSGAI4AUIIdGhpbmtpbmcSDMQvenBFsPVRE49LsBoM039V6XapvjnoGHkuIjCKKk8A+HdcLUKLpUZpYyRDShDEYenKutD0KzueYYVSvx7NcRYZk2vqdTdtq0u7WEUq+wWIMyQk87iQZ8sUTfZUPyAnlHww9/gR1bdUT3GOGigehR7oskeAU8NxSczsdBTiDnUPPqDiRW+o6XDTmCugoVNW6mHwMxRM8C352/fQPDy6iza6dUDHa6iN4ouDtJoKqCRSqjZHSykQJFgSLtsIstx60WC/P0bjUsok6ldEHPNdhLMJrIkAHBvGXNgGFURqzGxqEMYA674BBIV7peISKQZG1CgcS+wL3tp/9WWhuVDd6UhH7U2lRzN409Vi0pAqjr6u1l+g/NHmcWPGEcZ47bOeYP+iO3QUa/hW1/y3roSw2zZtJqRF829vawWD2Lii9ntS0NOFsDRWqEKWznVxu0wrLu7S4Cx2hsIpX7GoFPN/fTv0MrMX7LvOXImaOFnApkcEYiAHez25Bq7rpFVWUTs2h8e2NigZNX4Dfu0dvj29tMvYYdvWPD8lS5ZJsZfdIEGcSeUnTEjesBI8jLVnrvRvRVlHD4Fa1Q0cxC7q3fGq3Pne+V577BjCm76/RNa27B+TAUVYkLbuDHBPVdmhojL+7WV4OzxYRdFFBYWZb5lkEM0eU4YBiHzID6ImrEyiescA6rB/97MsnmpFVez4iqSv+TfNRH+B0empS3SkPuhx2vnJqKuC1jWHk98WBTRd2Pe6APvtXxFNPinK7vIizk68ainXAnphf7GlHvJOVoU3ak5i1ir3gkDi4y9fotu7UcEYszWi6cfIQB+ExhLy44TZgN2lw4Gjzgzk2pECL2+C/gxTnMC+zg2+wioCBKFnS3v1H5GSD7MKrFBHV1rLtl6bFyVU2hFGIB5Wu9u+94D2amto0L073AWF1fnJaSGgixR1rjVIY34h6sga1Xe4PcJAhxWRzmnMfrodTmVMiOA1LMeymqfiWmpDMP1pwmdYCIr6wqX6nw7GkmRzffe2CAy+umJcJHHcmgSQbNMNJ2m8nrJ8hbwfW8ru9/Erx96NRm4LtoiGtFT41jlY056vE1kN2uxcV1i17dSM2Lk9InziXxDOM8Ciy+Sf1/6wGAE=",
+      "thinking": "",
+      "type": "thinking"
+    },
+    {
+      "id": "toolu_017whz8xqDPWn8eqCiZ2XAdq",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "coordinate": [
+          700,
+          400
+        ]
+      },
+      "name": "mouse_move",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01KezdZz8xWSUtYjvw9arjVu",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "coordinate": [
+          496,
+          220
+        ]
+      },
+      "name": "mouse_move",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_015r7EM9L88G3pvT6x6tKWk3",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "coordinate": [
+          498,
+          221
+        ]
+      },
+      "name": "mouse_move",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_0132ZVh4x3S5c1DPKBqiStSM",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "duration": 2
+      },
+      "name": "wait",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01NY7ZuDTQ59sc3xvsQ89vQi",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "region": [
+          180,
+          190,
+          800,
+          290
+        ]
+      },
+      "name": "zoom",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01PoXqq2TKtgNBnSHjRT6Fw1",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "coordinate": [
+          700,
+          400
+        ]
+      },
+      "name": "mouse_move",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01Y9RrnAzvLYdVCU4vAVe16P",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "coordinate": [
+          496,
+          266
+        ]
+      },
+      "name": "mouse_move",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01YSfNTV81ydZFNA2gw9cEyp",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "coordinate": [
+          498,
+          267
+        ]
+      },
+      "name": "mouse_move",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01TsgKPdBEvcfmw1YG8JWF79",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "duration": 2
+      },
+      "name": "wait",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01EXEjciGyYejZWVabG1zEUF",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "region": [
+          180,
+          230,
+          800,
+          330
+        ]
+      },
+      "name": "zoom",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01Qg3aDxiQmB5GGRVnKwExYP",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "coordinate": [
+          700,
+          400
+        ]
+      },
+      "name": "mouse_move",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01PVZS89aQZfCmoGFrZdTjZs",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "coordinate": [
+          496,
+          311
+        ]
+      },
+      "name": "mouse_move",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_014ToS618KHerCj5DT8Nf5HA",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "coordinate": [
+          498,
+          312
+        ]
+      },
+      "name": "mouse_move",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_011sXpJgAfVT7iWkTQLWmf4f",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "duration": 2
+      },
+      "name": "wait",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01NsFYJzMGv5TTvME3nNc785",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "region": [
+          180,
+          280,
+          800,
+          380
+        ]
+      },
+      "name": "zoom",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    }
+  ],
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_reason": "tool_use",
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 14261,
+    "output_tokens": 441,
+    "output_tokens_details": {
+      "thinking_tokens": 42
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

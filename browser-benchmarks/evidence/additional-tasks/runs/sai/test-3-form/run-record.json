@@ -1,0 +1,23 @@
+{
+  "agent": "sai",
+  "task": "test-3-form",
+  "submitted": true,
+  "status": "succeeded",
+  "provider_turn_status": "succeeded",
+  "started_at": "2026-10-17T18:20:33.716752+00:00",
+  "agent_wall_seconds": 255.91181241699815,
+  "max_seconds_from_submission": 600,
+  "deadline_fired": false,
+  "turn_id": "id-667198b2c324",
+  "session_id": "id-71dc1af9c730",
+  "actions": 13,
+  "action_unit": "executor calls",
+  "screenshots": 14,
+  "model": "auto; actual routes in events",
+  "cost_usd": null,
+  "free_credit_decrease_usd": 0.02,
+  "cost_basis": "free-account credit delta; provider usage separately retained",
+  "automatic_restarts": 0,
+  "fresh_session": true,
+  "fresh_desktop": false
+}

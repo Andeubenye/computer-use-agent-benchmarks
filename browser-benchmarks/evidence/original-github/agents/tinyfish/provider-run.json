@@ -1,0 +1,109 @@
+{
+  "http_status": 200,
+  "elapsed_seconds": 3.2837605419990723,
+  "body": {
+    "run_id": "id-6b46a07ff490",
+    "status": "COMPLETED",
+    "goal": "Open https://github.com/browser-use/browser-use/issues. Using GitHub's website interface, find the five most recently updated open issues labeled bug. Return each issue's number, title, URL, and last updated date, ordered from most recently updated to least recently updated. Do not use GitHub's API. If fewer than five issues exist, report the number found. Do not log in or make any changes to the repository.",
+    "created_at": "2026-10-16T19:43:04Z",
+    "started_at": "2026-10-16T19:43:07Z",
+    "finished_at": "2026-10-16T19:46:25Z",
+    "num_of_steps": 8,
+    "result": {
+      "result": "1. **Issue #6068**: Bug: agent enables a disabled button with evaluate, places the order, and often reports a plain success\n   - URL: https://github.com/browser-use/browser-use/issues/6068\n   - Last Updated: Oct 16, 2026\n\n2. **Issue #4579**: Bug: CDP connection instability causing indefinite hangs with remote browsers\n   - URL: https://github.com/browser-use/browser-use/issues/4579\n   - Last Updated: Oct 15, 2026\n\n3. **Issue #6065**: Bug: Browser parameter accept_downloads is nonfunctional when running Browser-use locally\n   - URL: https://github.com/browser-use/browser-use/issues/6065\n   - Last Updated: Oct 14, 2026\n\n4. **Issue #4877**: Bug: ...pip dependency conflicts due to strict exact-pins (==) in pyproject.toml\n   - URL: https://github.com/browser-use/browser-use/issues/4877\n   - Last Updated: Oct 14, 2026\n\n5. **Issue #5633**: Bug: AnthropicMessageSerializer drops earlier system messages\n   - URL: https://github.com/browser-use/browser-use/issues/5633\n   - Last Updated: Oct 10, 2026\n\nTotal: 5 issues found, ordered from most recently updated to least recently updated."
+    },
+    "output_schema": null,
+    "profile_attached": false,
+    "profile_id": null,
+    "error": null,
+    "streaming_url": "[REDACTED_CAPABILITY_URL]",
+    "browser_config": {
+      "proxy_enabled": true,
+      "proxy_country_code": "US"
+    },
+    "video_url": null,
+    "steps": [
+      {
+        "id": "id-06a423439031",
+        "timestamp": "2026-10-16T19:43:10Z",
+        "status": "RUNNING",
+        "action": "Visit GitHub issues page for browser-use repository",
+        "screenshot": "[IMAGE_PAYLOAD_OMITTED; see local original]",
+        "html": null,
+        "duration": "33.7s"
+      },
+      {
+        "id": "id-fee089bfaa63",
+        "timestamp": "2026-10-16T19:43:49Z",
+        "status": "RUNNING",
+        "action": "Filter issues to show only bug-labeled issues",
+        "screenshot": "[IMAGE_PAYLOAD_OMITTED; see local original]",
+        "html": null,
+        "duration": "15.3s"
+      },
+      {
+        "id": "id-c6263798be35",
+        "timestamp": "2026-10-16T19:44:08Z",
+        "status": "RUNNING",
+        "action": "Extract bug-labeled open issues with number, title, URL, and last updated date",
+        "screenshot": "[IMAGE_PAYLOAD_OMITTED; see local original]",
+        "html": null,
+        "duration": "10.9s"
+      },
+      {
+        "id": "id-66453e5c20a9",
+        "timestamp": "2026-10-16T19:44:22Z",
+        "status": "RUNNING",
+        "action": "Filter open issues with bug label sorted by most recently updated",
+        "screenshot": "[IMAGE_PAYLOAD_OMITTED; see local original]",
+        "html": null,
+        "duration": "60.7s"
+      },
+      {
+        "id": "id-b072a452fdca",
+        "timestamp": "2026-10-16T19:45:24Z",
+        "status": "RUNNING",
+        "action": "Wait for page to fully load",
+        "screenshot": "[IMAGE_PAYLOAD_OMITTED; see local original]",
+        "html": null,
+        "duration": "25.9s"
+      },
+      {
+        "id": "id-5fe97bfd502a",
+        "timestamp": "2026-10-16T19:45:53Z",
+        "status": "RUNNING",
+        "action": "Extract bug-labeled open issues sorted by most recently updated",
+        "screenshot": "[IMAGE_PAYLOAD_OMITTED; see local original]",
+        "html": null,
+        "duration": "12.5s"
+      },
+      {
+        "id": "id-b7f9c95e59b3",
+        "timestamp": "2026-10-16T19:46:08Z",
+        "status": "RUNNING",
+        "action": "Extract top 5 bug-labeled open issues by most recently updated",
+        "screenshot": "[IMAGE_PAYLOAD_OMITTED; see local original]",
+        "html": null,
+        "duration": "2.2s"
+      },
+      {
+        "id": "id-002ba70728d0",
+        "timestamp": "2026-10-16T19:46:23Z",
+        "status": "RUNNING",
+        "action": "Return the 5 most recently updated bug-labeled open issues",
+        "screenshot": null,
+        "html": null,
+        "duration": "0.0s"
+      },
+      {
+        "id": "id-d8c1d2408452",
+        "timestamp": "2026-10-16T19:46:25Z",
+        "status": "COMPLETED",
+        "action": "Task completed",
+        "screenshot": null,
+        "html": null,
+        "duration": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "http_status": 200,
+  "body": {
+    "sessionId": "id-ee28d2092e89",
+    "status": "running",
+    "events": [],
+    "text": "",
+    "cursor": "eyJ0dXJuIjoxNzkyMjYxNTE2NjA5LCJzZWVuIjpbIjE3OTIyNjE1MzIwMjItdG9vbC1veGc1amZ0bDl3IiwiMTc5MjI2MTUzMzg5Ni1hc3Npc3RhbnQtemZwaDJmM2tzM28iLCIxNzkyMjYxNjQ4NzI0LXRvb2wtaTZ1MGwxdjd2dyIsIjE3OTIyNjE2Mzc5MzUtYXNzaXN0YW50LTNjbW1pZmYxaGt3IiwiMTc5MjI2MTY2NzMyMS10b29sLXQ5dXJ6b3J5NHhkIiwiMTc5MjI2MTY1MzMwNy1hc3Npc3RhbnQtbTV1NGVuMmRxbCIsIjE3OTIyNjE2OTQzNTctdG9vbC03NmplbHcwbTZwaSIsIjE3OTIyNjE2NzU1MDYtYXNzaXN0YW50LTBhbTJmYjlheHJwIiwiMTc5MjI2MTY5ODY3OS1hc3Npc3RhbnQtd2JjZno0bjQ1NCIsIjE3OTIyNjE3NDM2OTAtdG9vbC1hYnpjMnRsanE4diIsIjE3OTIyNjE3NTU2OTAtdG9vbC1hZzc4bDBicDkyIl0sInByb2ciOnsiMTc5MjI2MTY0OTEyNi1yZXN1bHQtcnBzNG1saHEyajgiOjEsIjE3OTIyNjE2Njc3MTEtcmVzdWx0LTJ4MHpiaG1wbnRsIjoxLCIxNzkyMjYxNjk0Nzk0LXJlc3VsdC1nMDgwM3l6OHQ5NyI6MiwiMTc5MjI2MTc0NDA1Ny1yZXN1bHQtZ3d1aTd2M3JqdyI6MiwiMTc5MjI2MTc1NjA2Ni1yZXN1bHQtcTA2MG85a29wOGsiOjZ9fQ",
+    "usage": {
+      "inputTokens": 19020,
+      "outputTokens": 1692,
+      "cacheReadTokens": 234496,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 6,
+      "byModel": {
+        "openrouter-deepseek/deepseek-v4-flash": {
+          "inputTokens": 19020,
+          "outputTokens": 1692,
+          "cacheReadTokens": 234496,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 6
+        }
+      }
+    },
+    "sessionUsage": {
+      "inputTokens": 19020,
+      "outputTokens": 1692,
+      "cacheReadTokens": 234496,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 6,
+      "byModel": {
+        "openrouter-deepseek/deepseek-v4-flash": {
+          "inputTokens": 19020,
+          "outputTokens": 1692,
+          "cacheReadTokens": 234496,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 6
+        }
+      }
+    }
+  }
+}

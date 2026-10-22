@@ -1,0 +1,7 @@
+{"utc": "2026-10-21T00:05:29.455Z", "event": "capture_connected", "browser_pid": 9955, "profile_basename": "puppeteer_dev_chrome_profile-ZMnR5R", "browser_version": "Chrome/155.0.8059.85"}
+{"utc": "2026-10-21T00:05:30.286Z", "event": "screenshot", "file": "screenshots/000-action.png", "action_count_observed": 0, "page_url": "https://en.wikipedia.org/wiki/Alan_Turing", "terminal": false}
+{"utc": "2026-10-21T00:05:44.330Z", "event": "capture_connected", "browser_pid": 9955, "profile_basename": "puppeteer_dev_chrome_profile-ZMnR5R", "browser_version": "Chrome/155.0.8059.85"}
+{"utc": "2026-10-21T00:05:44.530Z", "event": "screenshot", "file": "screenshots/006-action.png", "action_count_observed": 6, "page_url": "https://en.wikipedia.org/wiki/Alan_Turing", "terminal": false}
+{"utc": "2026-10-21T00:07:04.931Z", "event": "screenshot", "file": "screenshots/007-action.png", "action_count_observed": 7, "page_url": "https://en.wikipedia.org/wiki/Alan_Turing", "terminal": false}
+{"utc": "2026-10-21T00:07:07.127Z", "event": "screenshot", "file": "screenshots/007-terminal.png", "action_count_observed": 7, "page_url": "https://en.wikipedia.org/wiki/Alan_Turing", "terminal": true}
+{"utc": "2026-10-21T00:07:07.135Z", "event": "capture_finished"}

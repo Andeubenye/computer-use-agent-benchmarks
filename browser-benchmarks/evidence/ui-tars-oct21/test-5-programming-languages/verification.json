@@ -1,0 +1,17 @@
+{
+  "outcome": "FAIL",
+  "reason": "Terminal request-timeout error; no structured table or five-language factual result returned.",
+  "five_language_articles_visited": false,
+  "year_creator_url_sets_verified": false,
+  "structured_table_returned": false,
+  "factual_accuracy": "Not measured",
+  "final_browser_url": "https://en.wikipedia.org/wiki/List_of_programming_languages#P",
+  "partial_progress": "Reached the Wikipedia programming-language list and attempted to move to its P section.",
+  "verification_data_sent_to_agent": false,
+  "evidence": [
+    "execution-trace.txt",
+    "original-responses.txt",
+    "independent-final-state.json",
+    "screenshots/independent-final.png"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "checks": [
+    "Actual response usage matches reported raw usage and totals",
+    "Only native computer calls, reasoning and messages returned",
+    "10 native calls / 27 actions / 11 screenshot hashes verified",
+    "No run errors or retries; time below deadline",
+    "Deliverable files contain no supplied credential"
+  ],
+  "deliverable_files_scanned": 35,
+  "benchmark_py_sha256": "bc0f8e4f5eb68300c1ef8a6e8b925a519e4bff34465909c8aa7443d7b275f10e"
+}

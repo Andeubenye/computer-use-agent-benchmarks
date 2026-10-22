@@ -1,0 +1,122 @@
+{
+  "http_status": 200,
+  "body": {
+    "turnId": "id-b3b0ef28639b",
+    "trajectory": {
+      "recorded": true,
+      "url": "/v1/agents/turns/id-b3b0ef28639b/trajectory"
+    },
+    "steps": [
+      {
+        "index": 0,
+        "timestamp": "2026-10-17T18:15:37.884Z",
+        "title": "Getting the computer ready to open Wikipedia",
+        "code": "var machine = getMachine((await listMachines())[0].id)\nawait machine.waitAndAcquire()\nvar page = await machine.browser.newtab(\"https://en.wikipedia.org\")\nvar snap = await page.snapshot()\nconsole.log(snap.snapshot.outline())\n",
+        "rationale": "I'll start by opening Wikipedia and visiting each article to collect the information. Let me begin.\n\n",
+        "screenshot": "/v1/agents/turns/id-b3b0ef28639b/trajectory/screenshots/0"
+      },
+      {
+        "index": 1,
+        "timestamp": "2026-10-17T18:15:54.977Z",
+        "title": "Searching for Alan Turing on Wikipedia",
+        "code": "await page.type({ ref: \"e24\", text: \"Alan Turing\", submit: true })\nawait wait({ waitTime: 2 })\nvar snap = await page.snapshot()\nconsole.log(snap.snapshot.outline())\n",
+        "rationale": "The Wikipedia homepage is loaded. Now I'll search for each person. Let me start with Alan Turing.\n\n",
+        "screenshot": "/v1/agents/turns/id-b3b0ef28639b/trajectory/screenshots/1"
+      },
+      {
+        "index": 2,
+        "timestamp": "2026-10-17T18:16:12.321Z",
+        "title": "Searching for Ada Lovelace on Wikipedia",
+        "code": "await page.type({ ref: \"e24\", text: \"Ada Lovelace\", submit: true })\nawait wait({ waitTime: 2 })\nvar snap = await page.snapshot()\nconsole.log(snap.snapshot.outline())\n",
+        "rationale": "I can see Alan Turing's info clearly. Now let me search for Ada Lovelace.\n\n",
+        "screenshot": "/v1/agents/turns/id-b3b0ef28639b/trajectory/screenshots/2"
+      },
+      {
+        "index": 3,
+        "timestamp": "2026-10-17T18:17:00.852Z",
+        "title": "Getting Alan Turing's birth details from his article",
+        "code": "// Navigate to Alan Turing\nawait page.type({ ref: \"e24\", text: \"Alan Turing\", submit: true })\nawait wait({ waitTime: 2 })\nvar snap = await page.snapshot()\n\n// Extract birth info from the infobox\nvar turingBirth = snap.snapshot.grep(\"Born\", { context: 2 })\nconsole.log(turingBirth)\n\nvar turingDied = snap.snapshot.grep(\"Died\", { context: 1 })\nconsole.log(turingDied)\n\n// Get the URL\nvar url = await page.url()\nconsole.log(\"URL: \" + url)\n",
+        "rationale": "Good, I have Ada Lovelace's data. Now let me go back and get Alan Turing's details, then continue with Grace Hopper, Alan Kay, and Margaret Hamilton.\n\n",
+        "screenshot": "/v1/agents/turns/id-b3b0ef28639b/trajectory/screenshots/3"
+      },
+      {
+        "index": 4,
+        "timestamp": "2026-10-17T18:17:16.179Z",
+        "title": "Getting Ada Lovelace's birth details from her article",
+        "code": "await page.type({ ref: \"e24\", text: \"Ada Lovelace\", submit: true })\nawait wait({ waitTime: 2 })\nvar snap = await page.snapshot()\n\nvar lovelaceBorn = snap.snapshot.grep(\"Born\", { context: 2 })\nconsole.log(lovelaceBorn)\nvar lovelaceUrl = await page.url()\nconsole.log(\"URL: \" + lovelaceUrl)\n",
+        "rationale": "I have Alan Turing's data. Let me now collect Ada Lovelace's details.\n\n\n\n",
+        "screenshot": "/v1/agents/turns/id-b3b0ef28639b/trajectory/screenshots/4"
+      },
+      {
+        "index": 5,
+        "timestamp": "2026-10-17T18:17:30.225Z",
+        "title": "Searching for Grace Hopper on Wikipedia",
+        "code": "await page.type({ ref: \"e24\", text: \"Grace Hopper\", submit: true })\nawait wait({ waitTime: 2 })\nvar snap = await page.snapshot()\nvar hopperBorn = snap.snapshot.grep(\"Born\", { context: 2 })\nconsole.log(hopperBorn)\nvar hopperDied = snap.snapshot.grep(\"Died\", { context: 1 })\nconsole.log(hopperDied)\nvar hopperUrl = await page.url()\nconsole.log(\"URL: \" + hopperUrl)\n",
+        "rationale": "Good, I have Ada Lovelace. Now let me get Grace Hopper.\n\n\n\n",
+        "screenshot": "/v1/agents/turns/id-b3b0ef28639b/trajectory/screenshots/5"
+      },
+      {
+        "index": 6,
+        "timestamp": "2026-10-17T18:17:42.765Z",
+        "title": "Searching for Alan Kay on Wikipedia",
+        "code": "await page.type({ ref: \"e24\", text: \"Alan Kay\", submit: true })\nawait wait({ waitTime: 2 })\nvar snap = await page.snapshot()\nvar kayBorn = snap.snapshot.grep(\"Born\", { context: 2 })\nconsole.log(kayBorn)\nvar kayUrl = await page.url()\nconsole.log(\"URL: \" + kayUrl)\n",
+        "rationale": "I have Grace Hopper. Now let me search for Alan Kay.\n\n\n\n",
+        "screenshot": "/v1/agents/turns/id-b3b0ef28639b/trajectory/screenshots/6"
+      },
+      {
+        "index": 7,
+        "timestamp": "2026-10-17T18:17:55.799Z",
+        "title": "Searching for Margaret Hamilton (software engineer) on Wikipedia",
+        "code": "await page.type({ ref: \"e24\", text: \"Margaret Hamilton software engineer\", submit: true })\nawait wait({ waitTime: 2 })\nvar snap = await page.snapshot()\nvar hamiltonBorn = snap.snapshot.grep(\"Born\", { context: 2 })\nconsole.log(hamiltonBorn)\nvar hamiltonUrl = await page.url()\nconsole.log(\"URL: \" + hamiltonUrl)\n",
+        "rationale": "I have Alan Kay. Now let me search for Margaret Hamilton (the software engineer).\n\n\n\n",
+        "screenshot": "/v1/agents/turns/id-b3b0ef28639b/trajectory/screenshots/7"
+      },
+      {
+        "index": 8,
+        "timestamp": "2026-10-17T18:18:18.017Z",
+        "title": "Clicking on Margaret Hamilton (software engineer) result",
+        "code": "// Click on the search result for Margaret Hamilton (software engineer)\nawait page.click({ ref: \"e218\" })\nawait wait({ waitTime: 2 })\nvar snap = await page.snapshot()\nvar hamiltonBorn = snap.snapshot.grep(\"Born\", { context: 2 })\nconsole.log(hamiltonBorn)\nvar hamiltonUrl = await page.url()\nconsole.log(\"URL: \" + hamiltonUrl)\n",
+        "rationale": "The search results page shows Margaret Hamilton (software engineer) as a result. Let me click on it to go to her article.\n\n",
+        "screenshot": "/v1/agents/turns/id-b3b0ef28639b/trajectory/screenshots/8"
+      },
+      {
+        "index": 9,
+        "timestamp": "2026-10-17T18:18:28.893Z",
+        "title": "Finding the correct Margaret Hamilton link in search results",
+        "code": "var snap = await page.snapshot()\n// Look for the Margaret Hamilton (software engineer) link\nvar searchResults = snap.snapshot.grep(\"Margaret Hamilton \\\\(software engineer\\\\)\", { context: 3 })\nconsole.log(searchResults)\n",
+        "rationale": "I see the search results. Let me click on the correct link for Margaret Hamilton (software engineer).\n\n\n\n",
+        "screenshot": "/v1/agents/turns/id-b3b0ef28639b/trajectory/screenshots/9"
+      },
+      {
+        "index": 10,
+        "timestamp": "2026-10-17T18:18:43.247Z",
+        "title": "Clicking Margaret Hamilton (software engineer) link",
+        "code": "await page.click({ ref: \"e196\" })\nawait wait({ waitTime: 2 })\nvar snap = await page.snapshot()\nvar hamiltonBorn = snap.snapshot.grep(\"Born\", { context: 2 })\nconsole.log(hamiltonBorn)\nvar hamiltonUrl = await page.url()\nconsole.log(\"URL: \" + hamiltonUrl)\n",
+        "rationale": "I can see the correct result. Let me click on the Margaret Hamilton (software engineer) link.\n\n\n\n\n\n",
+        "screenshot": "/v1/agents/turns/id-b3b0ef28639b/trajectory/screenshots/10"
+      },
+      {
+        "index": 11,
+        "timestamp": "2026-10-17T18:19:10.533Z",
+        "title": "Getting Alan Kay's birthplace and verifying Alan Turing's birthplace",
+        "code": "// Go to Alan Turing to get full birth details\nawait page.type({ ref: \"e24\", text: \"Alan Turing\", submit: true })\nawait wait({ waitTime: 2 })\nvar snapT = await page.snapshot()\nvar turingFull = snapT.snapshot.grep(\"Born\", { context: 5 })\nconsole.log(\"=== TURING BORN ===\")\nconsole.log(turingFull)\n\n// Now Alan Kay\nawait page.type({ ref: \"e24\", text: \"Alan Kay\", submit: true })\nawait wait({ waitTime: 2 })\nvar snapK = await page.snapshot()\nvar kayFull = snapK.snapshot.grep(\"Born\", { context: 5 })\nconsole.log(\"=== KAY BORN ===\")\nconsole.log(kayFull)\n\n// Also check first paragraph for birthplace\nvar kayPara = snapK.snapshot.grep(\"born\", { context: 1 })\nconsole.log(\"=== KAY PARA ===\")\nconsole.log(kayPara)\n",
+        "rationale": "I have all the URLs and key data. Let me now get the missing birthplaces for Alan Kay and verify some details.\n\n\n\n\n\n",
+        "screenshot": "/v1/agents/turns/id-b3b0ef28639b/trajectory/screenshots/11"
+      },
+      {
+        "index": 12,
+        "timestamp": "2026-10-17T18:19:29.591Z",
+        "title": "Releasing the machine lock",
+        "code": "await machine.release()\nconsole.log(\"Done.\")\n",
+        "rationale": "I have all the information. Let me release the machine and present the results.\n\n",
+        "screenshot": "/v1/agents/turns/id-b3b0ef28639b/trajectory/screenshots/12"
+      },
+      {
+        "index": 13,
+        "final": true,
+        "timestamp": "2026-10-17T18:20:05.446Z",
+        "screenshot": null
+      }
+    ]
+  }
+}

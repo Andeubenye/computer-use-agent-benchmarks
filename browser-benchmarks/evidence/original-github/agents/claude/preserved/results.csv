@@ -1,0 +1,37 @@
+run_id,mode,task_sha256,model_requested,model_returned,tool_version,pricing_verified,sdk_version,python_version,host_platform,success,status,grading,wall_seconds,agent_wall_seconds,grading_seconds,api_seconds,count_seconds,action_seconds,steps,api_attempts,token_count_requests,api_requests,api_retries,computer_actions,successful_actions,screenshots,skipped_actions,input_tokens,output_tokens,cache_creation_input_tokens,cache_read_input_tokens,total_input_tokens,api_cost_usd,uncertain_cost_reserved_usd,billing_uncertain,errors,failed_actions,recovery_attempts,last_stop_reason,error_category,error_http_status,final_answer,answer_matches,page_title_matches,page_url_matches,verified_page_url,required_text_typed,grader_computer_actions,budget_usd,max_steps,max_actions,max_tokens,max_seconds,final_answer_sha256,partial_output
+20261017T000017Z-7972f15e,paid_api,781bf91b20d4cd1a81ceef7c82ccae57470308383f3c33602d2c4e3bb30295ec,claude-sonnet-5-5,claude-sonnet-5-5,computer_toolset_20260801,2026-10-17,1.15.0,3.12.4,Darwin,True,success,answer_title_url_and_search_query,31.514147,29.558108,1.955141,7.727287,3.067835,18.543988,5,5,5,10,0,14,14,4,0,36105,483,0,0,36105,0.077040,0,False,0,0,0,end_turn,,,Alan Turing was born in **1912**. The Wikipedia article gives his birth date as 23 June 1912. I found it by searching Wikipedia's search box and opening the article from the results.,True,True,True,https://en.wikipedia.org/wiki/Alan_Turing,True,4,0.50,20,80,1024,300,17f3890c1bd089d9c8fd8e5388bb99019c7c736d3b132e788f886c1510157317,
+20261017T001240Z-00ae9af7,paid_api,2ec91c6cf5625bba90986c892715fa260b6deab41348098ef5f192ec7fa367f7,claude-sonnet-5-5,claude-sonnet-5-5,computer_toolset_20260801,2026-10-17,1.15.0,3.12.4,Darwin,False,incomplete_max_tokens,exact_answer_and_window_title,63.311995,63.311159,0.0,19.842699,6.924592,36.329722,6,6,6,12,0,28,28,9,0,49585,2174,0,0,49585,0.120910,0,False,0,0,0,max_tokens,,,,False,False,False,,False,0,0.50,20,80,1024,300,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,Hover over each of the first five update dates.
+20261017T004821Z-eba39479,paid_api,d1ad105ba840e0b3bfe512beb0af50808ad308672525204bafffcfa351e9f120,claude-sonnet-5-5,claude-sonnet-5-5,computer_toolset_20260801,2026-10-17,1.15.0,3.12.4,Darwin,False,budget_limit,manual_visible_github,167.296774,167.296774,0.0,45.898278,24.198048,96.821664,15,15,16,31,0,68,68,16,0,193673,3168,0,0,193673,0.419026,0,False,0,0,0,tool_use,,,,False,False,False,,False,0,0.50,20,80,4096,300,,The Enter seems not processed; press again.
+20261017T005847Z-7cbd2a64,paid_api,d1ad105ba840e0b3bfe512beb0af50808ad308672525204bafffcfa351e9f120,claude-sonnet-5-5,claude-sonnet-5-5,computer_toolset_20260801,2026-10-17,1.15.0,3.12.4,Darwin,False,needs_review,manual_visible_github,116.313339,116.31301,0.0,41.240714,11.200643,63.617146,9,9,9,18,0,61,61,17,0,93500,3500,0,0,93500,0.222000,0,False,0,0,0,end_turn,,,"The five most recently updated open issues labeled `bug` in browser-use/browser-use, newest first. I used GitHub's issue search with `is:issue is:open label:bug sort:updated-desc`, which returned 48 results. The dates come from the hover tooltips on each ""Updated"" time, and the times are UTC.
+
+1. **#6068**: ""Bug: agent enables a disabled button with evaluate, places the order, and often reports a plain success""
+   https://github.com/browser-use/browser-use/issues/6068
+   Updated Oct 16, 2026, 8:59 AM UTC.
+2. **#4579**: ""Bug: CDP connection instability causing indefinite hangs with remote browsers""
+   https://github.com/browser-use/browser-use/issues/4579
+   Updated Oct 15, 2026, 6:31 AM UTC.
+3. **#6065**: ""Bug: Browser parameter accept_downloads is nonfunctional when running Browser-use locally""
+   https://github.com/browser-use/browser-use/issues/6065
+   Updated Oct 14, 2026, 3:44 PM UTC.
+4. **#4877**: ""Bug: ...pip dependency conflicts due to strict exact-pins (==) in pyproject.toml""
+   https://github.com/browser-use/browser-use/issues/4877
+   Updated Oct 14, 2026, 6:18 AM UTC.
+5. **#5633**: ""Bug: AnthropicMessageSerializer drops earlier system messages""
+   https://github.com/browser-use/browser-use/issues/5633
+   Updated Oct 10, 2026, 5:54 AM UTC.",False,False,False,,False,0,0.50,20,80,4096,300,3c337db30f1f46e18937e2c74793f7ca7537ce0afb25cb7be2b94cda5d98ea6a,"The five most recently updated open issues labeled `bug` in browser-use/browser-use, newest first. I used GitHub's issue search with `is:issue is:open label:bug sort:updated-desc`, which returned 48 results. The dates come from the hover tooltips on each ""Updated"" time, and the times are UTC.
+
+1. **#6068**: ""Bug: agent enables a disabled button with evaluate, places the order, and often reports a plain success""
+   https://github.com/browser-use/browser-use/issues/6068
+   Updated Oct 16, 2026, 8:59 AM UTC.
+2. **#4579**: ""Bug: CDP connection instability causing indefinite hangs with remote browsers""
+   https://github.com/browser-use/browser-use/issues/4579
+   Updated Oct 15, 2026, 6:31 AM UTC.
+3. **#6065**: ""Bug: Browser parameter accept_downloads is nonfunctional when running Browser-use locally""
+   https://github.com/browser-use/browser-use/issues/6065
+   Updated Oct 14, 2026, 3:44 PM UTC.
+4. **#4877**: ""Bug: ...pip dependency conflicts due to strict exact-pins (==) in pyproject.toml""
+   https://github.com/browser-use/browser-use/issues/4877
+   Updated Oct 14, 2026, 6:18 AM UTC.
+5. **#5633**: ""Bug: AnthropicMessageSerializer drops earlier system messages""
+   https://github.com/browser-use/browser-use/issues/5633
+   Updated Oct 10, 2026, 5:54 AM UTC."

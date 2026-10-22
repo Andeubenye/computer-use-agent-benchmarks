@@ -1,0 +1,11 @@
+order_id,customer,item,quantity,status,notes
+ORD-1001,Avery Lane,Notebook,2,Pending,Standard delivery
+ORD-1002,Jordan Reed,Desk lamp,1,Shipped,Handle with care
+ORD-1003,Casey Park,"Cable, USB-C",3,Pending,Gift packaging
+ORD-1004,Morgan Quinn,Folder,4,Delivered,Leave at reception
+ORD-1005,Riley West,Keyboard,1,Cancelled,Customer cancelled
+ORD-1006,Taylor Gray,Mouse pad,2,Pending,No changes requested
+ORD-1007,Sam Ellis,Pen set,5,Pending,Standard delivery
+ORD-1008,Alex Rowan,Monitor stand,1,Shipped,Fragile
+ORD-1009,Jamie Brooks,Stapler,2,Delivered,Complete
+ORD-1010,Drew Blake,Envelope pack,1,Pending,Standard delivery

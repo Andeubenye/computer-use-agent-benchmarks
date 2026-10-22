@@ -1,0 +1,60 @@
+{
+  "http_status": 200,
+  "body": {
+    "sessionId": "id-ee28d2092e89",
+    "status": "running",
+    "events": [
+      {
+        "type": "reasoning-start",
+        "id": "1792261938520-assistant-et0fj19j786"
+      },
+      {
+        "type": "reasoning-delta",
+        "id": "1792261938520-assistant-et0fj19j786",
+        "delta": "I can see the data. Let me get the issue numbers and full details for each of the first 5 issues.\n\n"
+      },
+      {
+        "type": "reasoning-end",
+        "id": "1792261938520-assistant-et0fj19j786"
+      }
+    ],
+    "text": "",
+    "cursor": "eyJ0dXJuIjoxNzkyMjYxNTE2NjA5LCJzZWVuIjpbIjE3OTIyNjE1MzIwMjItdG9vbC1veGc1amZ0bDl3IiwiMTc5MjI2MTUzMzg5Ni1hc3Npc3RhbnQtemZwaDJmM2tzM28iLCIxNzkyMjYxNjQ4NzI0LXRvb2wtaTZ1MGwxdjd2dyIsIjE3OTIyNjE2Mzc5MzUtYXNzaXN0YW50LTNjbW1pZmYxaGt3IiwiMTc5MjI2MTY2NzMyMS10b29sLXQ5dXJ6b3J5NHhkIiwiMTc5MjI2MTY1MzMwNy1hc3Npc3RhbnQtbTV1NGVuMmRxbCIsIjE3OTIyNjE2OTQzNTctdG9vbC03NmplbHcwbTZwaSIsIjE3OTIyNjE2NzU1MDYtYXNzaXN0YW50LTBhbTJmYjlheHJwIiwiMTc5MjI2MTY5ODY3OS1hc3Npc3RhbnQtd2JjZno0bjQ1NCIsIjE3OTIyNjE3NDM2OTAtdG9vbC1hYnpjMnRsanE4diIsIjE3OTIyNjE3NTU2OTAtdG9vbC1hZzc4bDBicDkyIiwiMTc5MjI2MTc3MTE1NS10b29sLWd1enU5Y2tkNnFyIiwiMTc5MjI2MTc1NzczOS1hc3Npc3RhbnQtaGx1cjhnbnZrbiIsIjE3OTIyNjE3OTQ0MjMtdG9vbC1lczBmemRvcTB4aSIsIjE3OTIyNjE4MjEzNzgtdG9vbC02cHBtMHpoZ2l6biIsIjE3OTIyNjE3OTg0OTYtYXNzaXN0YW50LXE0NmNybmpvNTBhIiwiMTc5MjI2MTg2MzMyMC10b29sLXJ3N3hsaHl5MjJkIiwiMTc5MjI2MTgyODk3MS1hc3Npc3RhbnQteTl6Z2Z3aXk3OGMiLCIxNzkyMjYxODY1NjA2LWFzc2lzdGFudC15dG9pZ2J5Y2tkOSIsIjE3OTIyNjE5MTIzMTEtdG9vbC1rbW84YWl6bzh2ZSIsIjE3OTIyNjE5MzQyMDUtdG9vbC10ZzRldnAxb3BkIiwiMTc5MjI2MTkxNDQ4MS1hc3Npc3RhbnQtaG05NGo2MG0xMmgiLCIxNzkyMjYyMDA3MjY1LXRvb2wtOXkxdnh0NGltNDgiLCIxNzkyMjYxOTM4NTIwLWFzc2lzdGFudC1ldDBmajE5ajc4NiJdLCJwcm9nIjp7IjE3OTIyNjE2NDkxMjYtcmVzdWx0LXJwczRtbGhxMmo4IjoxLCIxNzkyMjYxNjY3NzExLXJlc3VsdC0yeDB6YmhtcG50bCI6MSwiMTc5MjI2MTY5NDc5NC1yZXN1bHQtZzA4MDN5ejh0OTciOjIsIjE3OTIyNjE3NDQwNTctcmVzdWx0LWd3dWk3djNyanciOjIsIjE3OTIyNjE3NTYwNjYtcmVzdWx0LXEwNjBvOWtvcDhrIjo2LCIxNzkyMjYxNzcxNTI4LXJlc3VsdC00aGZiNXM0NHM1MSI6MywiMTc5MjI2MTc5NDc3OC1yZXN1bHQtcWxldWF3ZndkMHAiOjYsIjE3OTIyNjE4MjE4MjgtcmVzdWx0LWp6azY5cWZoMHdvIjo0LCIxNzkyMjYxODYzNzUzLXJlc3VsdC0wbnV5OWQ5Nzg1YSI6MywiMTc5MjI2MTkxMjc3MS1yZXN1bHQtdDI0a3BsaXFuNWQiOjksIjE3OTIyNjE5MzQ2ODEtcmVzdWx0LWZzOHk5MmFnOGRzIjoyfX0",
+    "usage": {
+      "inputTokens": 38791,
+      "outputTokens": 6188,
+      "cacheReadTokens": 527360,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 13,
+      "byModel": {
+        "openrouter-deepseek/deepseek-v4-flash": {
+          "inputTokens": 38791,
+          "outputTokens": 6188,
+          "cacheReadTokens": 527360,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 13
+        }
+      }
+    },
+    "sessionUsage": {
+      "inputTokens": 38791,
+      "outputTokens": 6188,
+      "cacheReadTokens": 527360,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 13,
+      "byModel": {
+        "openrouter-deepseek/deepseek-v4-flash": {
+          "inputTokens": 38791,
+          "outputTokens": 6188,
+          "cacheReadTokens": 527360,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 13
+        }
+      }
+    }
+  }
+}

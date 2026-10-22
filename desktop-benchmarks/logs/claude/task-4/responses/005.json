@@ -1,0 +1,62 @@
+{
+  "model": "claude-sonnet-5-5",
+  "id": "msg_011CgGECYwLxNQZ1iw5Md9cn",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "Empty. Type formulas now."
+    },
+    {
+      "type": "tool_use",
+      "id": "toolu_0177fR4eqjyntrDW8J5o2EtE",
+      "name": "type",
+      "input": {
+        "text": "=SUM(D2:D31)\n=SUM(C2:C31)\n=ROUND(G1/30;2)\n=SUMIF(B2:B31;\"North\";D2:D31)\n=SUMIF(B2:B31;\"South\";D2:D31)\n=SUMIF(B2:B31;\"East\";D2:D31)\n=SUMIF(B2:B31;\"West\";D2:D31)\n=COUNTA(A2:A100)\n"
+      },
+      "toolset_name": "computer",
+      "caller": {
+        "type": "direct"
+      }
+    },
+    {
+      "type": "tool_use",
+      "id": "toolu_01Y22uZj2JRMWGyyGSaM2PoL",
+      "name": "zoom",
+      "input": {
+        "region": [
+          0,
+          140,
+          700,
+          300
+        ]
+      },
+      "toolset_name": "computer",
+      "caller": {
+        "type": "direct"
+      }
+    }
+  ],
+  "container": null,
+  "stop_reason": "tool_use",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 11396,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 259,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

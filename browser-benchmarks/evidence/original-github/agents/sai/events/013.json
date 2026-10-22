@@ -1,0 +1,47 @@
+{
+  "http_status": 200,
+  "elapsed_seconds": 3.090905582997948,
+  "body": {
+    "sessionId": "id-888676afd25a",
+    "status": "running",
+    "events": [],
+    "text": "",
+    "cursor": "eyJ0dXJuIjoxNzkyMjQ4NTcxODg1LCJzZWVuIjpbIjE3OTIyNDg1ODQzMTctdG9vbC02Zjl1cXZrZXViaiIsIjE3OTIyNDg1ODY0NDEtYXNzaXN0YW50LWt6bDU0ZnZ6MDE4IiwiMTc5MjI0ODY0MDY0NS10b29sLTc2bjdxaDJzMG1xIl0sInByb2ciOnt9fQ",
+    "usage": {
+      "inputTokens": 75801,
+      "outputTokens": 274,
+      "cacheReadTokens": 1536,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 2,
+      "byModel": {
+        "openrouter-deepseek/deepseek-v4-flash": {
+          "inputTokens": 75801,
+          "outputTokens": 274,
+          "cacheReadTokens": 1536,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 2
+        }
+      }
+    },
+    "sessionUsage": {
+      "inputTokens": 75801,
+      "outputTokens": 274,
+      "cacheReadTokens": 1536,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 2,
+      "byModel": {
+        "openrouter-deepseek/deepseek-v4-flash": {
+          "inputTokens": 75801,
+          "outputTokens": 274,
+          "cacheReadTokens": 1536,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 2
+        }
+      }
+    }
+  }
+}

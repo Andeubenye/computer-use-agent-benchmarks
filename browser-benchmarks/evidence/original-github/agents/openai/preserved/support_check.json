@@ -1,0 +1,149 @@
+{
+  "documentation_model": "gpt-6.1-sol",
+  "native_tool": "computer",
+  "model_list_ok": true,
+  "selected_model_listed": true,
+  "computer_candidates_listed": [
+    "gpt-5.4",
+    "gpt-6-astra",
+    "gpt-6.1-sol"
+  ],
+  "request_id": "req_04da6593499f4ee5bcbb96593a29c534",
+  "response": {
+    "id": "provider-id-e867ac3ca1cb",
+    "object": "response",
+    "created_at": 1792185297,
+    "status": "completed",
+    "access_programs": null,
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1792185301,
+    "error": null,
+    "frequency_penalty": 0.0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": 512,
+    "max_tool_calls": null,
+    "model": "gpt-6.1-sol",
+    "moderation": null,
+    "output": [
+      {
+        "id": "provider-id-508345d08c07",
+        "type": "computer_call",
+        "status": "completed",
+        "actions": [
+          {
+            "type": "screenshot"
+          }
+        ],
+        "call_id": "provider-id-a81b928a8e96"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0.0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": "24h",
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": {
+      "type": "computer"
+    },
+    "tool_usage": {
+      "image_gen": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 0
+        },
+        "total_tokens": 0
+      },
+      "web_search": {
+        "num_requests": 0
+      }
+    },
+    "tools": [
+      {
+        "type": "computer"
+      }
+    ],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 838,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 50,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 888
+    },
+    "user": null,
+    "metadata": {}
+  },
+  "native_computer_confirmed": true,
+  "estimated_cost": {
+    "label": "ESTIMATE — model token cost, not an invoice",
+    "currency": "USD",
+    "estimated_usd": 0.002176,
+    "source": "https://developers.openai.com/api/docs/pricing",
+    "rates_checked_on": "2026-10-16",
+    "service_tier": "default (Standard)",
+    "per_response": [
+      {
+        "estimated_usd": 0.002176,
+        "rates_per_million_tokens": {
+          "input": 2.0,
+          "cached": 0.1,
+          "cache_write": 2.5,
+          "output": 10.0
+        }
+      }
+    ],
+    "token_totals": {
+      "input_tokens": 838,
+      "cached_input_tokens": 0,
+      "cache_write_tokens": 0,
+      "output_tokens": 50,
+      "reasoning_tokens": 0,
+      "total_tokens": 888
+    },
+    "assumptions": [
+      "Reasoning tokens are included in output, not billed twice.",
+      "Screenshot input is included in API-reported input tokens.",
+      "Excludes local compute, taxes, and any charges for failed requests without usage.",
+      "No separate computer-tool charge added: none itemized for this model in the published rate table."
+    ]
+  },
+  "api_requests": {
+    "models_list": 1,
+    "responses_create": 1
+  },
+  "excluded_from_benchmark_metrics": true,
+  "checked_on": "2026-10-16"
+}

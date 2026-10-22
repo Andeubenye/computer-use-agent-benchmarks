@@ -1,0 +1,1 @@
+{"agent": "claude", "reason": "model_finished", "model_requests": 12, "seconds": 104.52, "cost_estimate_usd": 0.33532399999999996, "uncertain_reserved_usd": 0, "actions": 45, "errors": []}

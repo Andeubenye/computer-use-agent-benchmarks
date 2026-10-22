@@ -1,0 +1,42 @@
+[
+  {
+    "number": 1,
+    "id": "test-1-wikipedia-people",
+    "prompt": "Open Wikipedia and find the birth years of the following five people:\n\n1. Alan Turing\n2. Ada Lovelace\n3. Grace Hopper\n4. Tim Berners-Lee\n5. Margaret Hamilton (computer scientist)\n\nFor each person, provide their full name, birth year, and the direct URL to the Wikipedia article you used.\n\nUse Wikipedia itself to verify your answers. Do not invent missing information.",
+    "sha256": "e64e2e4338c4ac0b112b8ee0c96d978dade4ce6b5267024e98208ee4528a078f",
+    "status": "FAIL",
+    "max_seconds": 600
+  },
+  {
+    "number": 2,
+    "id": "test-2-selenium-form",
+    "prompt": "Open https://www.selenium.dev/selenium/web/web-form.html\n\nComplete the form using the following information:\n\n- Text input: Vera Agiang\n- Password: Benchmark2026!\n- Textarea: Testing UI-TARS computer-use capabilities.\n- Disabled input: Leave unchanged\n- Read-only input: Leave unchanged\n- Dropdown select: Two\n- Dropdown datalist: New York\n- Checked checkbox: Keep checked\n- Default checkbox: Check it\n- Checked radio button: Keep selected\n- Default radio button: Leave unselected\n- Color picker: #ff0000\n- Date picker: 10/21/2026\n- Range slider: 7\n\nDo not submit the form. Stop when all editable fields have been completed.",
+    "sha256": "ef227524c59a9622a777b7ee596bcbb76d83b638067c21991a8aa77915fd6bfc",
+    "status": "FAIL",
+    "max_seconds": 600
+  },
+  {
+    "number": 3,
+    "id": "test-3-vscode-issues",
+    "prompt": "Open https://github.com/microsoft/vscode\n\nNavigate through the website's interface to the Issues section.\n\nFind open issues labeled `bug`.\n\nSort the issues by most recently updated.\n\nIdentify the three most recently updated issues.\n\nFor each issue, report:\n1. Issue number\n2. Exact issue title\n3. Direct GitHub URL\n4. Last updated date\n\nUse the GitHub interface to complete the task. Do not invent issue details.",
+    "sha256": "ba03728944aa40cbb15f0d7ffd36f717b9c9cb9d27a34b5f0bf051c0ab3c2862",
+    "status": "FAIL",
+    "max_seconds": 600
+  },
+  {
+    "number": 4,
+    "id": "test-4-login-recovery",
+    "prompt": "Open https://the-internet.herokuapp.com/login\n\nAttempt to log in using these incorrect credentials:\n\nUsername: incorrect_user\nPassword: wrong_password\n\nObserve the error message.\n\nThen recover by using the correct demo credentials:\n\nUsername: tomsmith\nPassword: SuperSecretPassword!\n\nVerify that login succeeds and report the final result.",
+    "sha256": "5fe9ea639842724cba8ccc63d292b0be9b536be4ec1d1aa16a0eca5b26dc70b2",
+    "status": "FAIL",
+    "max_seconds": 600
+  },
+  {
+    "number": 5,
+    "id": "test-5-programming-languages",
+    "prompt": "Open https://en.wikipedia.org/wiki/List_of_programming_languages\n\nFind these five programming languages:\n\n1. Python\n2. Java\n3. Rust\n4. Go\n5. Ruby\n\nFor each language, navigate to its Wikipedia article and collect:\n\n- Programming language name\n- Year it first appeared\n- Original designer or creator\n- Direct Wikipedia URL\n\nReturn the information in a structured table.\n\nVerify the information against each Wikipedia article. Do not invent missing details.",
+    "sha256": "9ba091e33abdd8d8c00c59f9f73e8eee5a72cfc530c0c1218e07eb9c27efec65",
+    "status": "FAIL",
+    "max_seconds": 600
+  }
+]

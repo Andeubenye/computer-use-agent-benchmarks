@@ -1,0 +1,49 @@
+{
+  "task": 5,
+  "outcome": "PASS",
+  "score": 5,
+  "requirements": {
+    "Identified REC-204 approved source by contents": true,
+    "Dismissed the controlled interruption through GUI": true,
+    "Corrected time and preserved all other text": true,
+    "Separate valid output and all four source documents unchanged": true,
+    "Reopened corrected document and verified ID approval and time": true
+  },
+  "core_artifact_correct": true,
+  "details": {
+    "output_exists": true,
+    "valid_docx": true,
+    "paragraphs": [
+      "Dispatch recovery plan",
+      "Document ID REC-204",
+      "Approval APPROVED",
+      "The dispatch handoff is at 16:30.",
+      "Keep the loading checklist unchanged."
+    ],
+    "tables": [],
+    "all_originals_preserved": true
+  },
+  "gui_observations": {
+    "interruption_dismissed": {
+      "verified": true,
+      "evidence": [
+        "screenshots/claude/task-5/attempt-2/001-screenshot.png",
+        "logs/claude/task-5/attempt-2/events.jsonl",
+        "logs/claude/task-5/attempt-2/interruption-evidence.json"
+      ],
+      "explanation": "Initial synthetic warning is visible. Native action 1 clicks OK. The notice exits with code 0 without harness dismissal."
+    },
+    "reopened_and_verified": {
+      "verified": true,
+      "evidence": [
+        "screenshots/claude/task-5/attempt-2/018-screenshot.png",
+        "screenshots/claude/task-5/attempt-2/019-screenshot.png",
+        "screenshots/claude/task-5/attempt-2/020-screenshot.png",
+        "logs/claude/task-5/attempt-2/events.jsonl"
+      ],
+      "explanation": "Actions 65\u201374 close Writer, reopen the saved file in read-only mode and capture it showing REC-204, APPROVED and 16:30. The model receives this image before its final response 20."
+    }
+  },
+  "response_used_as_proof": false,
+  "verifier_edits_files": false
+}

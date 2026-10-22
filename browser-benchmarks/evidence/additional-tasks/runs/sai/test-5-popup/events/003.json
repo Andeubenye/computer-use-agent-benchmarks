@@ -1,0 +1,40 @@
+{
+  "http_status": 200,
+  "body": {
+    "sessionId": "id-b0ace35c3f25",
+    "status": "running",
+    "events": [
+      {
+        "type": "tool-input-start",
+        "toolCallId": "1792262185994-tool-fcbckalpni",
+        "toolName": "execute"
+      },
+      {
+        "type": "tool-input-available",
+        "toolCallId": "1792262185994-tool-fcbckalpni",
+        "toolName": "execute",
+        "input": {}
+      }
+    ],
+    "text": "",
+    "cursor": "eyJ0dXJuIjoxNzkyMjYyMTY5MTY3LCJzZWVuIjpbIjE3OTIyNjIxODU5OTQtdG9vbC1mY2Jja2FscG5pIl0sInByb2ciOnt9fQ",
+    "usage": {
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 0,
+      "byModel": {}
+    },
+    "sessionUsage": {
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 0,
+      "byModel": {}
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "outcome": "FAIL",
+  "final_answer_present": false,
+  "correct_checks": null,
+  "total_checks": 20,
+  "evidence": [
+    "original-model-responses.txt",
+    "ui-final.txt",
+    "final-screen.png",
+    "application-log-redacted.txt"
+  ],
+  "verification_data_sent_to_agent": false
+}

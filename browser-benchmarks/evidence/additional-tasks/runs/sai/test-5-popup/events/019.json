@@ -1,0 +1,88 @@
+{
+  "http_status": 200,
+  "body": {
+    "sessionId": "id-b0ace35c3f25",
+    "status": "running",
+    "events": [
+      {
+        "type": "reasoning-start",
+        "id": "1792262233882-assistant-69av7mjew64"
+      },
+      {
+        "type": "reasoning-delta",
+        "id": "1792262233882-assistant-69av7mjew64",
+        "delta": "The dropdown options are visible. Let me select \"Standard review\" from the options list.\n\n\n\n"
+      },
+      {
+        "type": "reasoning-end",
+        "id": "1792262233882-assistant-69av7mjew64"
+      },
+      {
+        "type": "tool-input-start",
+        "toolCallId": "1792262242061-tool-rzy8e1jx2hp",
+        "toolName": "execute"
+      },
+      {
+        "type": "tool-input-available",
+        "toolCallId": "1792262242061-tool-rzy8e1jx2hp",
+        "toolName": "execute",
+        "input": {
+          "title": "Clicking Standard review option",
+          "code": "await page.click({ ref: \"e15\" })\nawait wait({ waitTime: 1 })\nvar snap = await page.snapshot()\nconsole.log(snap.snapshot.outline())\n"
+        }
+      },
+      {
+        "type": "data-progress",
+        "data": {
+          "text": "Clicking Standard review option",
+          "tool": "execute"
+        }
+      },
+      {
+        "type": "data-progress",
+        "data": {
+          "text": "[Guardrails] ✅ click: allow (score=0) ref=e15 — score=0",
+          "tool": "execute"
+        }
+      }
+    ],
+    "text": "",
+    "cursor": "eyJ0dXJuIjoxNzkyMjYyMTY5MTY3LCJzZWVuIjpbIjE3OTIyNjIxODU5OTQtdG9vbC1mY2Jja2FscG5pIiwiMTc5MjI2MjE5MzQ0MC1hc3Npc3RhbnQta3pxaWpnYzBzOHMiLCIxNzkyMjYyMjAzMDMwLXRvb2wtc3JpZmlodnZ0M2YiLCIxNzkyMjYyMjE1NjY3LXRvb2wtdHhrYm1rNHkxYzgiLCIxNzkyMjYyMjA1NjU0LWFzc2lzdGFudC14c215c2JoZnN3IiwiMTc5MjI2MjIxODM2MC1hc3Npc3RhbnQtNjR4ZHQza2RhaXIiLCIxNzkyMjYyMjMxMjM3LXRvb2wteDFlODFkYWJkNiIsIjE3OTIyNjIyMzM4ODItYXNzaXN0YW50LTY5YXY3bWpldzY0IiwiMTc5MjI2MjI0MjA2MS10b29sLXJ6eThlMWp4MmhwIl0sInByb2ciOnsiMTc5MjI2MjIwMzU1OC1yZXN1bHQtaXRtbHFvbmIwcWIiOjEsIjE3OTIyNjIyMTYxNzctcmVzdWx0LW4wOTFvdjAzdDVqIjoxLCIxNzkyMjYyMjQyNjA3LXJlc3VsdC1pZG5lMW1xYW90IjoxfX0",
+    "usage": {
+      "inputTokens": 3418,
+      "outputTokens": 936,
+      "cacheReadTokens": 194048,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 5,
+      "byModel": {
+        "openrouter-deepseek/deepseek-v4-flash": {
+          "inputTokens": 3418,
+          "outputTokens": 936,
+          "cacheReadTokens": 194048,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 5
+        }
+      }
+    },
+    "sessionUsage": {
+      "inputTokens": 3418,
+      "outputTokens": 936,
+      "cacheReadTokens": 194048,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 5,
+      "byModel": {
+        "openrouter-deepseek/deepseek-v4-flash": {
+          "inputTokens": 3418,
+          "outputTokens": 936,
+          "cacheReadTokens": 194048,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 5
+        }
+      }
+    }
+  }
+}

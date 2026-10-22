@@ -1,0 +1,22 @@
+{
+  "agent": "tinyfish",
+  "task": "test-5-popup",
+  "submitted": true,
+  "status": "COMPLETED",
+  "client_error": null,
+  "started_at": "2026-10-17T18:20:16.924163+00:00",
+  "agent_wall_seconds": 36.63296162500046,
+  "max_seconds_from_submission": 600,
+  "deadline_fired": false,
+  "run_id": "id-ecb7e899b53f",
+  "actions": 7,
+  "action_unit": "provider steps",
+  "screenshots": 6,
+  "model": null,
+  "model_limitation": "Revision not exposed",
+  "cost_usd": 0.112,
+  "cost_basis": "published $0.016 per reported step; not invoice",
+  "automatic_restarts": 0,
+  "fresh_profile_requested": true,
+  "internal_retries": null
+}

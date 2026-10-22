@@ -1,0 +1,9 @@
+Completed the report with all four metrics:
+- Total revenue: **1,780.00**
+- Total units: **90**
+- Average order value: **59.33**
+- Highest-revenue region: **South** (610.00)
+
+Saved as `/home/agent/Desktop/benchmark/sales_summary.docx`.
+
+Preserved the title and source reference, kept both inputs unchanged, and closed and reopened the saved report to verify all four metrics. No incomplete steps.

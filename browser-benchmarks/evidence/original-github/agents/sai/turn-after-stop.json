@@ -1,0 +1,22 @@
+{
+  "http_status": 200,
+  "elapsed_seconds": 0.6013232920013252,
+  "body": {
+    "turnId": "id-5805f3eef2fb",
+    "sessionId": "id-888676afd25a",
+    "machineId": "free-6WRf2PabNOOC8BV7CIDNKs0ckre2",
+    "status": "failed",
+    "output": null,
+    "reason_code": "agent_error",
+    "raw_answer": "The agent finished without an answer.",
+    "usage": {
+      "inputTokens": 289946,
+      "outputTokens": 9223
+    },
+    "recordTrajectory": true,
+    "trajectory": {
+      "recorded": true,
+      "url": "/v1/agents/turns/id-5805f3eef2fb/trajectory"
+    }
+  }
+}

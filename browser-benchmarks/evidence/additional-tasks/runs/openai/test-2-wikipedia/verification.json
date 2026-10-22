@@ -1,0 +1,11 @@
+{
+  "graded_at_utc": "2026-10-17T18:30:01.964931+00:00",
+  "grader": "Codex evidence audit, separate from evaluated agent",
+  "verification_data_sent_to_agent": false,
+  "outcome": "successful",
+  "correct_checks": 15,
+  "total_checks": 15,
+  "order_correct": true,
+  "reference": "verification/wikipedia-reference.json",
+  "evidence": "Original response matches every reference field; native computer action/screenshot trace records article navigation. Only the computer tool was exposed; no DOM or HTTP tool."
+}

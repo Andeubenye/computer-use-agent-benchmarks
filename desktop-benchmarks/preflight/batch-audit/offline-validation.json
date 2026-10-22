@@ -1,0 +1,31 @@
+{
+  "checks": [
+    {
+      "script": "verification/check_harness.py",
+      "result": {
+        "offline_checks_passed": 5,
+        "checks": [
+          "sleep-inclusive deadline",
+          "cumulative budget reservation",
+          "native Responses action ordering and screenshot continuation",
+          "executor error propagation",
+          "returned cost retained on reservation overrun"
+        ],
+        "provider_requests": 0,
+        "docker_calls": 0,
+        "simulations_are_not_benchmark_results": true
+      }
+    },
+    {
+      "script": "scripts/check_verifier.py",
+      "result": {
+        "offline_verifier_cases_passed": 6,
+        "agent_model_calls": 0,
+        "temporary_files_not_agent_outputs": true
+      }
+    }
+  ],
+  "initial_offline_test_fixture_error": "Mock Runner lacked tag attribute; fixture corrected, no agent or provider request.",
+  "provider_requests": 0,
+  "live_protocol_validation": "BLOCKED \u2014 replacement credentials unavailable"
+}

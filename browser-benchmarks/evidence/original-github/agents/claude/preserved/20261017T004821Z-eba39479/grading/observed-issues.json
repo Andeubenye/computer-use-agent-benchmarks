@@ -1,0 +1,67 @@
+[
+  {
+    "rank": 1,
+    "number": 6068,
+    "title": "Bug: agent enables a disabled button with evaluate, places the order, and often reports a plain success",
+    "url": "https://github.com/browser-use/browser-use/issues/6068",
+    "last_updated": "2026-10-16 08:59 UTC",
+    "precision": "minute_UTC",
+    "relative_label": "15h ago",
+    "source": "independent_visual_grader",
+    "returned_by_claude": false,
+    "link_screenshot": "003-issue-1-link.png",
+    "date_screenshot": "004-issue-1-updated.png"
+  },
+  {
+    "rank": 2,
+    "number": 4579,
+    "title": "Bug: CDP connection instability causing indefinite hangs with remote browsers",
+    "url": "https://github.com/browser-use/browser-use/issues/4579",
+    "last_updated": "2026-10-15 06:31 UTC",
+    "precision": "minute_UTC",
+    "relative_label": "2d ago",
+    "source": "independent_visual_grader",
+    "returned_by_claude": false,
+    "link_screenshot": "005-issue-2-link.png",
+    "date_screenshot": "006-issue-2-updated.png"
+  },
+  {
+    "rank": 3,
+    "number": 6065,
+    "title": "Bug: Browser parameter accept_downloads is nonfunctional when running Browser-use locally",
+    "url": "https://github.com/browser-use/browser-use/issues/6065",
+    "last_updated": "2026-10-14 15:44 UTC",
+    "precision": "minute_UTC",
+    "relative_label": "2d ago",
+    "source": "independent_visual_grader",
+    "returned_by_claude": false,
+    "link_screenshot": "007-issue-3-link.png",
+    "date_screenshot": "008-issue-3-updated.png"
+  },
+  {
+    "rank": 4,
+    "number": 4877,
+    "title": "Bug: ...pip dependency conflicts due to strict exact-pins (==) in pyproject.toml",
+    "url": "https://github.com/browser-use/browser-use/issues/4877",
+    "last_updated": "2026-10-14 06:18 UTC",
+    "precision": "minute_UTC",
+    "relative_label": "3d ago",
+    "source": "independent_visual_grader",
+    "returned_by_claude": false,
+    "link_screenshot": "009-issue-4-link.png",
+    "date_screenshot": "010-issue-4-updated.png"
+  },
+  {
+    "rank": 5,
+    "number": 5633,
+    "title": "Bug: AnthropicMessageSerializer drops earlier system messages",
+    "url": "https://github.com/browser-use/browser-use/issues/5633",
+    "last_updated": "2026-10-10 05:54 UTC",
+    "precision": "minute_UTC",
+    "relative_label": "1w ago",
+    "source": "independent_visual_grader",
+    "returned_by_claude": false,
+    "link_screenshot": "011-issue-5-link.png",
+    "date_screenshot": "012-issue-5-updated.png"
+  }
+]

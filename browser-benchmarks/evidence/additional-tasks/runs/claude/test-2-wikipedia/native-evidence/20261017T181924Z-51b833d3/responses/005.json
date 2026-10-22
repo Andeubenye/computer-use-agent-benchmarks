@@ -1,0 +1,88 @@
+{
+  "id": "provider-id-022c8ea9190d",
+  "content": [
+    {
+      "id": "toolu_01BSEoCYCyYDVDoH5Ua7Zg9R",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "text": "ctrl+l"
+      },
+      "name": "key",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_016Nu6DN589TfcptVu5k8ZUJ",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "text": "en.wikipedia.org/wiki/Ada_Lovelace\n"
+      },
+      "name": "type",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_015HQbXxtPCsQ5JkZif3Hwy7",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "duration": 3
+      },
+      "name": "wait",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01Pdwxq8BZwVeE4UHGBtuMGU",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "coordinate": [
+          840,
+          600
+        ],
+        "scroll_direction": "down",
+        "scroll_amount": 6
+      },
+      "name": "scroll",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01GUoYiWBdf8Tii65ZsUVb3R",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {},
+      "name": "screenshot",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    }
+  ],
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_reason": "tool_use",
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 9885,
+    "output_tokens": 178,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "attempts": [
+    {
+      "attempt": "claude",
+      "task_start_utc": "2026-10-21T19:22:42.151281+00:00",
+      "error_utc": "2026-10-21T19:22:54.600532+00:00",
+      "utc_timestamp_span_seconds": 12.449251,
+      "recorded_monotonic_seconds": 12.712091082998086,
+      "clock_discrepancy_seconds": -0.2628400829980855,
+      "returned_model_values": [
+        "claude-sonnet-5-5"
+      ],
+      "estimated_api_cost_usd": 0.013434
+    },
+    {
+      "attempt": "claude-attempt-2",
+      "task_start_utc": "2026-10-21T20:13:06.968718+00:00",
+      "error_utc": "2026-10-21T20:19:44.508969+00:00",
+      "utc_timestamp_span_seconds": 397.540251,
+      "recorded_monotonic_seconds": 183.17696454100223,
+      "clock_discrepancy_seconds": 214.36328645899778,
+      "returned_model_values": [
+        "claude-sonnet-5-5"
+      ],
+      "estimated_api_cost_usd": 0.273314
+    }
+  ],
+  "interpretation": "Both original clocks are preserved. They disagree materially for attempt 2; cause unverified. Do not present the monotonic duration as reliable wall-clock duration or use for speed ranking. UTC task-start-to-error interval excludes setup and post-run verification. Both observed intervals for attempt 2 are below 10 minutes."
+}

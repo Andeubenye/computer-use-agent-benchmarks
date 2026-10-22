@@ -1,0 +1,63 @@
+{
+  "http_status": 200,
+  "elapsed_seconds": 1.0196075839994592,
+  "body": {
+    "sessionId": "id-888676afd25a",
+    "status": "running",
+    "events": [],
+    "text": "",
+    "cursor": "eyJ0dXJuIjoxNzkyMjQ4NTcxODg1LCJzZWVuIjpbIjE3OTIyNDg1ODQzMTctdG9vbC02Zjl1cXZrZXViaiIsIjE3OTIyNDg1ODY0NDEtYXNzaXN0YW50LWt6bDU0ZnZ6MDE4IiwiMTc5MjI0ODY0MDY0NS10b29sLTc2bjdxaDJzMG1xIiwiMTc5MjI0ODY2NTA0OC10b29sLTI4MGE3OXRxYWZrIiwiMTc5MjI0ODY0NDg1MS1hc3Npc3RhbnQtNGw0ODRwNGF1emUiLCIxNzkyMjQ4NjcyNjM2LXRvb2wtOWJjMDFsMmp1YjUiLCIxNzkyMjQ4NzAwNDc3LXRvb2wtaHN5aTNzNDBqODQiLCIxNzkyMjQ4NjczOTE3LWFzc2lzdGFudC1rY2F5MTAyZjA3aiIsIjE3OTIyNDg3MTQ0NDItdG9vbC1obnZ0M3F6aHJhZiIsIjE3OTIyNDg3MDEzNzItYXNzaXN0YW50LXV4ZjZseTFzaTlmIiwiMTc5MjI0ODcyNDEwMy10b29sLWt2aWZkNzhmNzkiLCIxNzkyMjQ4NzMyMTE0LXRvb2wtMHE4NzlxeHN6OWJtIiwiMTc5MjI0ODc0MzM2Mi10b29sLWhwdWdhYXY0OHluIiwiMTc5MjI0ODc1MzEwMy10b29sLXM3enVjdGM5aG9hIiwiMTc5MjI0ODc2MTA2NC10b29sLTZucnRvM2poZ3NxIiwiMTc5MjI0ODc1NDA1Ni1hc3Npc3RhbnQtaHRiZWdvdW12dm8iLCIxNzkyMjQ4NzY4ODU4LXRvb2wtZjVxMzZ0OTZqayIsIjE3OTIyNDg3ODM4NTktdG9vbC1iYmw0ZHcwb2p5biIsIjE3OTIyNDg3OTI1OTctdG9vbC13cGdhbW9zNHN5IiwiMTc5MjI0ODgxNzQ0MS10b29sLXI4dXhyNmQzYmNxIiwiMTc5MjI0ODgyNzcyMS10b29sLTZnY2k3dTc4emFnIiwiMTc5MjI0ODg1MDc5My10b29sLTdqaDRvb2xxMG5uIiwiMTc5MjI0ODg2NDY3OS10b29sLTNoZnFxbzBpMTlhIiwiMTc5MjI0ODg1MTY5NS1hc3Npc3RhbnQteWJuOHVlb2pyMDkiLCIxNzkyMjQ4ODcxMjcxLWFzc2lzdGFudC1hOW9ma3NxdnJzbiIsIjE3OTIyNDg4OTk3NjEtdG9vbC1paW8wamViYmtvIl0sInByb2ciOnsiMTc5MjI0ODY2NTUwMC1yZXN1bHQtOWs0emltMnh1eCI6MywiMTc5MjI0ODcwMDk0Mi1yZXN1bHQtdTh4M3c0c2dzdSI6MSwiMTc5MjI0ODcxNDg3OC1yZXN1bHQtdHk0amQ2aTd5ZCI6MSwiMTc5MjI0ODcyNDU2NC1yZXN1bHQtdjE0aWc1a29keiI6MSwiMTc5MjI0ODczMjU0Mi1yZXN1bHQtd255eHp1bmo4dWQiOjEsIjE3OTIyNDg3NDM4MDQtcmVzdWx0LXZ1enVzMmh2a2wiOjEsIjE3OTIyNDg3NTM1NTAtcmVzdWx0LW1obmZzanY1ZzciOjIsIjE3OTIyNDg3NjE0ODItcmVzdWx0LWR0dzk2eGx1bHI3IjoxLCIxNzkyMjQ4NzY5Mjg3LXJlc3VsdC11OGQ1OGdoaWt1IjoyLCIxNzkyMjQ4Nzg0MzgwLXJlc3VsdC15NTBmdTZkdHR4cCI6MSwiMTc5MjI0ODgxNzg5OS1yZXN1bHQtN3Zlcm9uOGE5bnIiOjMsIjE3OTIyNDg4MjgxMDgtcmVzdWx0LTJ2YW11eWV1bWhlIjoxLCIxNzkyMjQ4ODUxMjYyLXJlc3VsdC1rem5tdzNjOTFzZiI6MSwiMTc5MjI0ODkwMDE3My1yZXN1bHQtaGxlYjNqODVraCI6MX19",
+    "usage": {
+      "inputTokens": 215971,
+      "outputTokens": 4824,
+      "cacheReadTokens": 611840,
+      "cacheWriteTokens": 0,
+      "costUsd": 0.01,
+      "modelCalls": 20,
+      "byModel": {
+        "vertex-gemini-3-flash-preview": {
+          "inputTokens": 17700,
+          "outputTokens": 4,
+          "cacheReadTokens": 0,
+          "cacheWriteTokens": 0,
+          "costUsd": 0.01,
+          "modelCalls": 1
+        },
+        "openrouter-deepseek/deepseek-v4-flash": {
+          "inputTokens": 198271,
+          "outputTokens": 4820,
+          "cacheReadTokens": 611840,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 19
+        }
+      }
+    },
+    "sessionUsage": {
+      "inputTokens": 215971,
+      "outputTokens": 4824,
+      "cacheReadTokens": 611840,
+      "cacheWriteTokens": 0,
+      "costUsd": 0.01,
+      "modelCalls": 20,
+      "byModel": {
+        "vertex-gemini-3-flash-preview": {
+          "inputTokens": 17700,
+          "outputTokens": 4,
+          "cacheReadTokens": 0,
+          "cacheWriteTokens": 0,
+          "costUsd": 0.01,
+          "modelCalls": 1
+        },
+        "openrouter-deepseek/deepseek-v4-flash": {
+          "inputTokens": 198271,
+          "outputTokens": 4820,
+          "cacheReadTokens": 611840,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 19
+        }
+      }
+    }
+  }
+}

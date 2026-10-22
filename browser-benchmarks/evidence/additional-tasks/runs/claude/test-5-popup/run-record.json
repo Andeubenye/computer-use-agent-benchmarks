@@ -1,0 +1,22 @@
+{
+  "agent": "claude",
+  "task": "test-5-popup",
+  "submitted": true,
+  "status": "needs_review",
+  "agent_wall_seconds": 36.061857,
+  "wall_seconds": 36.061997,
+  "max_seconds_from_submission": 600,
+  "actions": 20,
+  "action_unit": "native computer actions including screenshots/zoom",
+  "screenshots": 6,
+  "model": "claude-sonnet-5-5",
+  "tool_version": "computer_toolset_20260801",
+  "cost_usd": 0.129996,
+  "uncertain_cost_reserved_usd": 0.0,
+  "cost_basis": "recorded tokens × standard model rates; not invoice",
+  "errors": 0,
+  "api_retries": 0,
+  "automatic_restarts": 0,
+  "fresh_desktop": true,
+  "evidence_directory": "runs/claude/test-5-popup/native-evidence/20261017T182627Z-85bb28dc"
+}

@@ -1,0 +1,17 @@
+The five most recently updated open issues labeled `bug` in browser-use/browser-use, newest first. I used GitHub's issue search with `is:issue is:open label:bug sort:updated-desc`, which returned 48 results. The dates come from the hover tooltips on each "Updated" time, and the times are UTC.
+
+1. **#6068**: "Bug: agent enables a disabled button with evaluate, places the order, and often reports a plain success"
+   https://github.com/browser-use/browser-use/issues/6068
+   Updated Oct 16, 2026, 8:59 AM UTC.
+2. **#4579**: "Bug: CDP connection instability causing indefinite hangs with remote browsers"
+   https://github.com/browser-use/browser-use/issues/4579
+   Updated Oct 15, 2026, 6:31 AM UTC.
+3. **#6065**: "Bug: Browser parameter accept_downloads is nonfunctional when running Browser-use locally"
+   https://github.com/browser-use/browser-use/issues/6065
+   Updated Oct 14, 2026, 3:44 PM UTC.
+4. **#4877**: "Bug: ...pip dependency conflicts due to strict exact-pins (==) in pyproject.toml"
+   https://github.com/browser-use/browser-use/issues/4877
+   Updated Oct 14, 2026, 6:18 AM UTC.
+5. **#5633**: "Bug: AnthropicMessageSerializer drops earlier system messages"
+   https://github.com/browser-use/browser-use/issues/5633
+   Updated Oct 10, 2026, 5:54 AM UTC.

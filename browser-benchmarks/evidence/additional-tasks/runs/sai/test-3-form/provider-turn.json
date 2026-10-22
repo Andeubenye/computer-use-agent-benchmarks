@@ -1,0 +1,20 @@
+{
+  "http_status": 200,
+  "body": {
+    "turnId": "id-667198b2c324",
+    "sessionId": "id-71dc1af9c730",
+    "machineId": "free-6WRf2PabNOOC8BV7CIDNKs0ckre2",
+    "status": "succeeded",
+    "output": "All fields have been successfully filled and verified. Here's the summary:\n\n## ✅ Form Completion Report\n\n| Field | Value | Status |\n|---|---|---|\n| **First name** | Alex | ✅ Filled |\n| **Last name** | Morgan | ✅ Filled |\n| **Email** | alex.morgan@example.com | ✅ Filled |\n| **Phone** | +1 202-555-0147 | ✅ Filled |\n| **Company** | Northstar Labs | ✅ Filled |\n| **Job title** | Product Manager | ✅ Filled |\n| **Country** | United States | ✅ Selected from dropdown |\n| **Preferred contact method** | Email (radio) | ✅ Selected |\n| **Message** | This is a benchmark. | ✅ Filled |\n| **Newsletter checkbox** | Unchecked | ✅ As instructed |\n| **Submit button** | Not pressed | ✅ As instructed |\n\n**All fields were completed successfully.** No fields could not be filled. The form is fully populated and visible on screen, and the Submit button was not pressed as required.",
+    "reason_code": null,
+    "usage": {
+      "inputTokens": 46681,
+      "outputTokens": 3764
+    },
+    "recordTrajectory": true,
+    "trajectory": {
+      "recorded": true,
+      "url": "/v1/agents/turns/id-667198b2c324/trajectory"
+    }
+  }
+}

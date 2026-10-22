@@ -1,0 +1,45 @@
+# Computer-use agent benchmarks
+
+Supporting evidence for Vera Agiang’s Manicule article, **“Best Computer Use Agents in 2026: Tested and Compared by Use Case.”** This is a small hands-on case study, not a general agent ranking.
+
+I began with website tasks, then tested native desktop file and application workflows. The original experiment covered six agents. This public edition presents five in scope from that existing work; TinyFish was part of the original browser batch, not a separately conducted replacement test. **TinyFish is a browser agent.**
+
+| Start here | What you can inspect |
+|---|---|
+| [Results](RESULTS.md) | Separate browser and desktop tables; retries and blocks |
+| [Browser tasks](browser-benchmarks/README.md) | Five common tasks, exact prompt variants, scoring, logs and screenshots |
+| [Desktop tasks](desktop-benchmarks/tasks/README.md) | Five tasks, frozen fixtures, expected files, actual artifacts and GUI evidence |
+| [Later UI-TARS suite](browser-benchmarks/tasks/ui-tars-supplement.md) | Five different browser tasks, all interrupted by timeouts |
+| [Methodology](METHODOLOGY.md) | Environment differences and independent verification |
+| [Costs](COSTS.md) | Per-attempt measurements, estimate categories and missing costs |
+| [Limitations](LIMITATIONS.md) | Missing evidence, reconstruction and infrastructure confounds |
+| [Reproducing](REPRODUCING.md) | Offline grading and honest execution prerequisites |
+| [Evidence checks](verification/README.md) | Hashes, prompt integrity, scope, secrets and links |
+
+## Direct task links
+
+| Browser tasks | Desktop tasks |
+|---|---|
+| [GitHub bugs](browser-benchmarks/tasks/github-issues.md) | [CSV editing](desktop-benchmarks/tasks/csv-editing.md) |
+| [Wikipedia](browser-benchmarks/tasks/wikipedia-research.md) | [File organization](desktop-benchmarks/tasks/file-organization.md) |
+| [Form completion](browser-benchmarks/tasks/form-completion.md) | [Document editing](desktop-benchmarks/tasks/document-editing.md) |
+| [GitHub enhancements](browser-benchmarks/tasks/github-navigation.md) | [Sales report](desktop-benchmarks/tasks/cross-application-reporting.md) |
+| [Popup recovery](browser-benchmarks/tasks/error-recovery.md) | [Desktop recovery](desktop-benchmarks/tasks/error-recovery.md) |
+
+## Agents
+
+[Claude](agents/claude.md) · [OpenAI](agents/openai.md) · [Simular Sai](agents/simular-sai.md) · [UI-TARS](agents/ui-tars.md) · [TinyFish — browser only](agents/tinyfish.md)
+
+## What the desktop artifacts establish
+
+| Task | Claude | OpenAI |
+|---|---|---|
+| CSV editing | PARTIAL 4/5 | PASS 5/5 |
+| File organization | PARTIAL 2/5; executor interruption | PASS 5/5 |
+| Document editing | PASS 5/5 | PASS 5/5 |
+| Cross-application reporting | PASS 5/5 | PASS 5/5 |
+| Desktop error recovery | PASS 5/5 on labeled retry; first attempt PARTIAL 4/5 | PASS 5/5 |
+
+OpenAI completed all five desktop checklists. Claude completed document editing, reporting and recovery on a labeled retry; CSV and organization remain partial. These observations include harness interruptions and do not establish general model superiority. Sai’s desktop API route was authorization-blocked; its separate frontend evidence could not be independently recovered. UI-TARS has browser interactions and failures, not a completed desktop workflow.
+
+**No experiments were rerun to assemble this repository.** Earlier private repositories, raw logs and backups remain unchanged. Public copies retain failed attempts and explicitly describe redactions and missing material. No keys, browser profiles or private endpoint URLs are needed to inspect the results.

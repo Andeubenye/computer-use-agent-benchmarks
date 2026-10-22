@@ -1,0 +1,68 @@
+{
+  "model": "claude-sonnet-5-5",
+  "id": "msg_011CgGDvJmrS4en1mdtphJzH",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "thinking",
+      "thinking": "",
+      "signature": "CAQS8gYKEAgTGAI4AUIIdGhpbmtpbmcSDN7rc7rcehB0iTGgkBoMZpJbSuFtdV2JIeg1IjA9LdcyTQFh5DBoULklb+VGA6HD3Wb2juFCKYTVCmmJmwTYZ98en0eC2PT0pV0wyTYqjwabIn3c/BTp3ySDn2Fbzjkno9Eujan6Wt2s4lD5mCRGcEjmGGhAT48TKgfCWj8fMt/npj6fe9E9JIGXivunovu/EA7huMTfxBTuU4mSKJ2rrCa6EyNMCUAV1BdtZ44X4FG09pSltaD6S20K6jcFb6ukGmqkIHjd0T243P5Yw2Vk0A5REslE6kHzZ6lizwNF+uCYd5ZwHhScE/p3J3sDOKnsSdavtFb+WwcJqHFnPwLkklWTsvyYUGISOUt9x7kk60cUmQKz8w/n337Opo+jqdkSKgdPoMozjwOgmyQ2XQOd18DNNc/IV3N2rVmRLUE5iuQuYhNU36K1PAEZ0aUtGuN8SiTjxxuY2rnN/1Yk1c1HgNeN+LdEQP/hF4ybjH1GBTsQL3OWFgoA57brjLLWu1uURTDsxrmUyThGBZXkuBVt2n4pMXz0lnDf/ztcioyMpEUFDG+odsiZ6oNqXjaPlLgq6ntdiKPuFX7I5zmxL17K+gYHcJX8Pgznmiypvr7HzVgKJKkucR26aGrgKVfDubFfQgeG6diIk+EdET1OPrRN7PILlcDW0YtshMAdRNiLq88v/eDBG1B2fR0Bps+g++ceGC3IFmkAo0sdtpppHqSqB04wG87MHSDTtElXI7Ua8RKzX70T2QvD0V6yvv9ICSexU1/fV0nLnRFH6UZ+N3WdItjtwdIX7y0YFHqrW+gm1yWmNvgRCmwvjbPVwrSYYOJfaFZDk218jTO8sa8Fwi1mRCX36/+fbMi9RJxrz3QeigPcq5UfKHk/QVWYe0Cpgl2S1IOJEoTPsHCwKgKKHVg29+g35rGIhiwi3GvBS3cPGSnmWNox+Y1cgkB1th6rU86dh15yGjh1t24yXowWWZph101TvFsni4ui8mLuIt1yABXhojb+dLWoMLEc405xtEVmCrnmCar4S7HY4ejuuoh+KefRury9X2GbmDO9RPqe5pnyp6gCtaU7MHUCQUpHD6y1m5tVlVcUy3XH8NyrR0Pysl3J+YqBIjvzq3L/5xLBCrdv2pc3rC8lXrvansByAj4YAQ=="
+    },
+    {
+      "type": "tool_use",
+      "id": "toolu_01WTzhAqsJHjkws2ZhwWx6iW",
+      "name": "key",
+      "input": {
+        "text": "ctrl+1"
+      },
+      "toolset_name": "computer",
+      "caller": {
+        "type": "direct"
+      }
+    },
+    {
+      "type": "tool_use",
+      "id": "toolu_01AUpMBnbHeNt5mkqvWFijB1",
+      "name": "wait",
+      "input": {
+        "duration": 1
+      },
+      "toolset_name": "computer",
+      "caller": {
+        "type": "direct"
+      }
+    },
+    {
+      "type": "tool_use",
+      "id": "toolu_019YTpBdCgNHTiD7bKMa2NUF",
+      "name": "screenshot",
+      "input": {},
+      "toolset_name": "computer",
+      "caller": {
+        "type": "direct"
+      }
+    }
+  ],
+  "container": null,
+  "stop_reason": "tool_use",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 12553,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 145,
+    "output_tokens_details": {
+      "thinking_tokens": 49
+    },
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

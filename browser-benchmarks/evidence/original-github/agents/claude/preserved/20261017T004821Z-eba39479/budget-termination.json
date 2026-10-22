@@ -1,0 +1,12 @@
+{
+  "status": "budget_limit",
+  "spent_usd": "0.419026",
+  "next_request_reserve_usd": "0.102178",
+  "projected_spend_plus_reserve_usd": "0.521204",
+  "local_budget_usd": "0.50",
+  "next_generation_request_sent": false,
+  "blocked_step": 16,
+  "counted_input_tokens": 22094,
+  "reserve_rule": "ceil(counted_input_tokens * 1.2) + 4096 input tokens, plus full 4096 output-token allowance",
+  "last_provider_stop_reason": "tool_use"
+}

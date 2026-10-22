@@ -1,0 +1,221 @@
+{
+  "created_utc": "2026-10-21T20:30:12.399533+00:00",
+  "purpose": "Integrity inventory of retained original and derived Claude evidence; no source artifacts changed.",
+  "files": [
+    {
+      "path": "logs/claude/configuration.json",
+      "bytes": 1627,
+      "sha256": "954b995b0e992a22ebbd98cb8eb466b1932ba3eaafe92475e8c72444f2217782"
+    },
+    {
+      "path": "logs/claude/count-error.json",
+      "bytes": 349,
+      "sha256": "44d3741e8adc1c9c59509b078cef94f16665cb20534efd6f540790f6f34a2852"
+    },
+    {
+      "path": "logs/claude/events.jsonl",
+      "bytes": 2798,
+      "sha256": "a1841782ddd5bd924f911a80e7f4ca78831678f63ee43d72dc8eacc340619d51"
+    },
+    {
+      "path": "logs/claude/responses/001.json",
+      "bytes": 1885,
+      "sha256": "063b20755008f49d7fc39bdf856e8e0c77a791c25c1a5e26f893bcae450b50a0"
+    },
+    {
+      "path": "logs/claude/run-record.json",
+      "bytes": 1085,
+      "sha256": "87ab532adbe3b185970e172a0fe31ebfacaf7a0466c73a9a4d129a6b85faf83a"
+    },
+    {
+      "path": "logs/claude/submitted-once.json",
+      "bytes": 216,
+      "sha256": "100c4af151901d9566b7d97e24376839e317ca0fc7f1279f101772e133767691"
+    },
+    {
+      "path": "logs/claude-attempt-2/configuration.json",
+      "bytes": 1634,
+      "sha256": "b90a070b3504093a82d4e1a4171dcc000114b63ecbe60df33a96d83873f75e89"
+    },
+    {
+      "path": "logs/claude-attempt-2/count-error.json",
+      "bytes": 53,
+      "sha256": "26ececc95723e2fb196efb8019f6649fd5feff9efcb1915a7541dc9fa89973de"
+    },
+    {
+      "path": "logs/claude-attempt-2/events.jsonl",
+      "bytes": 19552,
+      "sha256": "ca7bc05b7db2eeb465b2c494984ea7faad6d7b63c14be060ac1908738e28d594"
+    },
+    {
+      "path": "logs/claude-attempt-2/gui-observations.json",
+      "bytes": 798,
+      "sha256": "47e88959276f53680e5d11fada9b8cb06d21e83cbf02c283e892a06bce5d7ce3"
+    },
+    {
+      "path": "logs/claude-attempt-2/independent-verification.json",
+      "bytes": 1667,
+      "sha256": "07078e2463eb0035f130e9da4c0f1f2881f5b85ea3438d5c54167d6f2613da3c"
+    },
+    {
+      "path": "logs/claude-attempt-2/original-response.txt",
+      "bytes": 38,
+      "sha256": "70d09fc9b095f0f6417b7fc35287d1fecb884e0a28ea501bc2a453ffdb877f90"
+    },
+    {
+      "path": "logs/claude-attempt-2/responses/001.json",
+      "bytes": 1885,
+      "sha256": "67f2de7c88adc25f29b3a610062bcc7633b1f24b4adac968977bc368687f8c82"
+    },
+    {
+      "path": "logs/claude-attempt-2/responses/002.json",
+      "bytes": 1403,
+      "sha256": "b5e1e5528c549c610708a15a78aa7b7a588cf1aa207e065549c0b7c9af80f6a0"
+    },
+    {
+      "path": "logs/claude-attempt-2/responses/003.json",
+      "bytes": 3186,
+      "sha256": "8cefc96bd28a9e315a3697941ba6ba89b4f79300abefb2ac3e2d3e8250d102ea"
+    },
+    {
+      "path": "logs/claude-attempt-2/responses/004.json",
+      "bytes": 3653,
+      "sha256": "a2616fb9c9e39e3fb096488a4c3a1055f865c567af24b7cc861fbc82f0976a78"
+    },
+    {
+      "path": "logs/claude-attempt-2/responses/005.json",
+      "bytes": 877,
+      "sha256": "8b956428a5007c8e709a54f32a4c500dd697b4b9fbde1c0e3724013519626f42"
+    },
+    {
+      "path": "logs/claude-attempt-2/responses/006.json",
+      "bytes": 1493,
+      "sha256": "059426a1109ec0cf1bb73b77e5ff2d75c5ed5c4188ea92da3121f89be919570d"
+    },
+    {
+      "path": "logs/claude-attempt-2/responses/007.json",
+      "bytes": 2336,
+      "sha256": "3df2d97b3ea9db458c533eed8b608c319b31680cd42ba8cdc6e39ab65346cfcb"
+    },
+    {
+      "path": "logs/claude-attempt-2/responses/008.json",
+      "bytes": 2886,
+      "sha256": "14c668d991451c6cd298eefe596cbc67eda8706f1002985e57e890d3bb161328"
+    },
+    {
+      "path": "logs/claude-attempt-2/responses/009.json",
+      "bytes": 2144,
+      "sha256": "653f8f4de97538701c390e3a4e76675a8a65a46fc0efebdd9cadd418e803764a"
+    },
+    {
+      "path": "logs/claude-attempt-2/responses/010.json",
+      "bytes": 2725,
+      "sha256": "466761af671a717fe26d9fbae0a889b3d53d170e327afa0ce5caf2a0b9877fa3"
+    },
+    {
+      "path": "logs/claude-attempt-2/responses/011.json",
+      "bytes": 2461,
+      "sha256": "be187e3b14002ce32e90583f30f869e454766f9747eb35e5c984a65097918b61"
+    },
+    {
+      "path": "logs/claude-attempt-2/run-record.json",
+      "bytes": 5360,
+      "sha256": "7b5966fde755fd9b29820b99664b3b40168ff8f0348cadfdff24f377ab283a90"
+    },
+    {
+      "path": "logs/claude-attempt-2/submitted-once.json",
+      "bytes": 216,
+      "sha256": "961c3c24acbbc1eb9a9b2807078908446b99fd5bc53d658ed4e85464a1de2e2b"
+    },
+    {
+      "path": "screenshots/claude/001-screenshot.png",
+      "bytes": 52686,
+      "sha256": "cc26a17cd2b22397bb3efae4b48a8de2ac6d00101fe428aaafe0fc2e9f26e5ea"
+    },
+    {
+      "path": "screenshots/claude/002-screenshot.png",
+      "bytes": 68705,
+      "sha256": "64b0488be47cb2483038d2b2277eda3d7ff45e9fceee2f8b1d55e22b23f379b9"
+    },
+    {
+      "path": "screenshots/claude/003-screenshot.png",
+      "bytes": 68705,
+      "sha256": "64b0488be47cb2483038d2b2277eda3d7ff45e9fceee2f8b1d55e22b23f379b9"
+    },
+    {
+      "path": "screenshots/claude-attempt-2/001-screenshot.png",
+      "bytes": 52686,
+      "sha256": "cc26a17cd2b22397bb3efae4b48a8de2ac6d00101fe428aaafe0fc2e9f26e5ea"
+    },
+    {
+      "path": "screenshots/claude-attempt-2/002-screenshot.png",
+      "bytes": 68697,
+      "sha256": "dd704074ac310d6d1fd4ac434403f745da95904d5535033e731edae3acf41225"
+    },
+    {
+      "path": "screenshots/claude-attempt-2/003-screenshot.png",
+      "bytes": 97952,
+      "sha256": "92b3862c3fc865e40e89d3e82edf385e923a5d9a205eee1b1e46b536a87422c8"
+    },
+    {
+      "path": "screenshots/claude-attempt-2/004-screenshot.png",
+      "bytes": 91284,
+      "sha256": "eadace757324d7df74b0d684b38348bcf12da4bae0b7f9d2da0b3d1f4640d2cc"
+    },
+    {
+      "path": "screenshots/claude-attempt-2/005-screenshot.png",
+      "bytes": 107676,
+      "sha256": "b791d8dc8341d6b3a4b8135cefab733f65944c7ece74c6c3c01ef4058774860a"
+    },
+    {
+      "path": "screenshots/claude-attempt-2/006-screenshot.png",
+      "bytes": 107676,
+      "sha256": "b791d8dc8341d6b3a4b8135cefab733f65944c7ece74c6c3c01ef4058774860a"
+    },
+    {
+      "path": "screenshots/claude-attempt-2/007-screenshot.png",
+      "bytes": 91941,
+      "sha256": "7ff8bbb5f3471ab03fadea9bbc3c010382df722d85157a6c61651bf18295e723"
+    },
+    {
+      "path": "screenshots/claude-attempt-2/008-screenshot.png",
+      "bytes": 91678,
+      "sha256": "f7ea2be66691bf4cf0a7ddb52266c0681d121e1bebd243c5ee01b9355e6eab6f"
+    },
+    {
+      "path": "screenshots/claude-attempt-2/009-screenshot.png",
+      "bytes": 97918,
+      "sha256": "f16db00327cfd4f633584027040229da2a97cb00e7fd8e6f1202be5566a9c395"
+    },
+    {
+      "path": "screenshots/claude-attempt-2/010-screenshot.png",
+      "bytes": 105372,
+      "sha256": "8803fa9ffdbb5595f40e0c23b59a574ac4f15653c9cd6df84cdbb44a73a7cab8"
+    },
+    {
+      "path": "screenshots/claude-attempt-2/011-screenshot.png",
+      "bytes": 91200,
+      "sha256": "c1b2fcc9590bc4dead2c417303e8d0e4b8cc14b0198e05f92c2d33c27c82fad0"
+    },
+    {
+      "path": "screenshots/claude-attempt-2/012-screenshot.png",
+      "bytes": 73547,
+      "sha256": "278d96254e3cb6a90eed2c04f2d3c67030cbecf39c7bb0870963827f73bbe856"
+    },
+    {
+      "path": "screenshots/claude-attempt-2/013-screenshot.png",
+      "bytes": 73547,
+      "sha256": "278d96254e3cb6a90eed2c04f2d3c67030cbecf39c7bb0870963827f73bbe856"
+    },
+    {
+      "path": "outputs/claude/orders_corrected.csv",
+      "bytes": 622,
+      "sha256": "118eaa9aec46a75a22f2b8d0bcafebdb0debe47a9d5fb9f3f52d78847d55ee69"
+    },
+    {
+      "path": "outputs/claude/orders_to_fix.csv",
+      "bytes": 620,
+      "sha256": "172c7b251b10ac8992abc0d1badc78a5aa1d996b1796208e5e61f1ba3a62a823"
+    }
+  ]
+}

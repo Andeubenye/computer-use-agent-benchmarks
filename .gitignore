@@ -1,0 +1,19 @@
+# Keep credentials, accounts and runtime state outside publication.
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.sock
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+browser-profile*/
+user-data*/
+
+# Sensitive filenames; the desktop subfolder allowlists reviewed status-only artifacts.
+*credential*
+*secret*

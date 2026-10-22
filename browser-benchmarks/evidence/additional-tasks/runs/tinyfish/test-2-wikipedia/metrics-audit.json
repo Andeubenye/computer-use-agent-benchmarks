@@ -1,0 +1,20 @@
+{
+  "agent": "tinyfish",
+  "task": "test-2-wikipedia",
+  "original_record_preserved": true,
+  "checked_at": "2026-10-17T19:00:04.122892+00:00",
+  "model_revision": null,
+  "model_revision_exposed": false,
+  "provider_reported_steps": 18,
+  "raw_step_records": 19,
+  "browser_configuration": {
+    "proxy_enabled": false,
+    "proxy_country_code": null
+  },
+  "profile_attached": false,
+  "provider_internal_retries": null,
+  "provider_started_at": "2026-10-17T18:14:30Z",
+  "provider_finished_at": "2026-10-17T18:17:28Z",
+  "cost_recomputed_usd": "0.288",
+  "cost_matches": true
+}

@@ -1,0 +1,161 @@
+{
+  "id": "provider-id-12b29d168d0f",
+  "content": [
+    {
+      "text": "Now hover on each \"Updated\" text for tooltips.",
+      "type": "text"
+    },
+    {
+      "id": "toolu_014mrCALmFsuH1rXigqa6U28",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "coordinate": [
+          505,
+          381
+        ]
+      },
+      "name": "mouse_move",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_012ckaKh9pfNJU6xjk35tuNe",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "duration": 2
+      },
+      "name": "wait",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01YRJrmM9tS6HRauws2tgnY5",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "region": [
+          192,
+          340,
+          704,
+          440
+        ]
+      },
+      "name": "zoom",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01UywdgaRjRFF86MhRtw8Ycm",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "coordinate": [
+          505,
+          427
+        ]
+      },
+      "name": "mouse_move",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01TuxsM6JdFR2Wg1o8MSQSpw",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "duration": 2
+      },
+      "name": "wait",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_018HFTBToLzEqoK1CZyWJPYz",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "region": [
+          192,
+          390,
+          704,
+          490
+        ]
+      },
+      "name": "zoom",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_015PHnBM4pmTtsGV8f7Aap4a",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "coordinate": [
+          505,
+          472
+        ]
+      },
+      "name": "mouse_move",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01NUYZYPAmUv5sXiWBZV1yRp",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "duration": 2
+      },
+      "name": "wait",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01RzAwSXaUD7YASXuGSovJ6J",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "region": [
+          192,
+          430,
+          704,
+          530
+        ]
+      },
+      "name": "zoom",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    }
+  ],
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_reason": "tool_use",
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 8817,
+    "output_tokens": 267,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

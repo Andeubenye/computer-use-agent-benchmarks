@@ -1,0 +1,55 @@
+        });
+        // sliding images window to vlm model
+        const vlmParams: InvokeParams = {
+          ...processVlmParams(modelFormat.conversations, modelFormat.images),
+          screenContext: {
+            width,
+            height,
+          },
+          scaleFactor: snapshot.scaleFactor,
+          uiTarsVersion: this.uiTarsVersion,
+          headers: {
+            ...remoteModelHdrs,
+            'X-Session-Id': sessionId,
+          },
+          previousResponseId,
+        };
+        const {
+          prediction,
+          parsedPredictions,
+          costTime,
+          costTokens,
+          responseId,
+        } = await asyncRetry(
+          async (bail) => {
+            try {
+              const result = await model.invoke(vlmParams);
+              return result;
+            } catch (error: unknown) {
+              if (
+                error instanceof Error &&
+                (error?.name === 'APIUserAbortError' ||
+                  error?.message?.includes('aborted'))
+              ) {
+                bail(error as unknown as Error);
+                return {
+                  prediction: '',
+                  parsedPredictions: [],
+                };
+              }
+
+              Object.assign(data, {
+                status: StatusEnum.ERROR,
+                error: this.guiAgentErrorParser(
+                  ErrorStatusEnum.INVOKE_RETRY_ERROR,
+                  error as Error,
+                ),
+              });
+              throw error;
+            }
+          },
+          {
+            retries: retry?.model?.maxRetries ?? 0,
+            minTimeout: 1000 * 30,
+            onRetry: retry?.model?.onRetry,
+          },

@@ -1,0 +1,61 @@
+{
+  "http_status": 200,
+  "elapsed_seconds": 2.2090097079999396,
+  "body": {
+    "sessionId": "id-888676afd25a",
+    "status": "running",
+    "events": [
+      {
+        "type": "reasoning-start",
+        "id": "1792248586441-assistant-kzl54fvz018"
+      },
+      {
+        "type": "reasoning-delta",
+        "id": "1792248586441-assistant-kzl54fvz018",
+        "delta": "Setting up your free cloud workspace — this usually takes under a minute."
+      },
+      {
+        "type": "reasoning-end",
+        "id": "1792248586441-assistant-kzl54fvz018"
+      }
+    ],
+    "text": "",
+    "cursor": "eyJ0dXJuIjoxNzkyMjQ4NTcxODg1LCJzZWVuIjpbIjE3OTIyNDg1ODQzMTctdG9vbC02Zjl1cXZrZXViaiIsIjE3OTIyNDg1ODY0NDEtYXNzaXN0YW50LWt6bDU0ZnZ6MDE4Il0sInByb2ciOnt9fQ",
+    "usage": {
+      "inputTokens": 38571,
+      "outputTokens": 171,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 1,
+      "byModel": {
+        "openrouter-deepseek/deepseek-v4-flash": {
+          "inputTokens": 38571,
+          "outputTokens": 171,
+          "cacheReadTokens": 0,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 1
+        }
+      }
+    },
+    "sessionUsage": {
+      "inputTokens": 38571,
+      "outputTokens": 171,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 1,
+      "byModel": {
+        "openrouter-deepseek/deepseek-v4-flash": {
+          "inputTokens": 38571,
+          "outputTokens": 171,
+          "cacheReadTokens": 0,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 1
+        }
+      }
+    }
+  }
+}

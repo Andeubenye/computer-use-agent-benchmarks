@@ -1,0 +1,130 @@
+{
+  "http_status": 200,
+  "body": {
+    "turnId": "id-667198b2c324",
+    "trajectory": {
+      "recorded": true,
+      "url": "/v1/agents/turns/id-667198b2c324/trajectory"
+    },
+    "steps": [
+      {
+        "index": 0,
+        "timestamp": "2026-10-17T18:20:52.215Z",
+        "title": "Opening the form URL in a new browser tab",
+        "code": "var machine = getMachine((await listMachines())[0].id)\nvar page = await machine.browser.newtab(\"https://manicule-agent-benchmark-oct17.peppyshark33.chatgpt.site/?task=form\")\nawait wait({ waitTime: 2 })\nvar snap = await page.snapshot()\nconsole.log(snap.snapshot.outline())\n",
+        "rationale": "",
+        "screenshot": null
+      },
+      {
+        "index": 1,
+        "timestamp": "2026-10-17T18:21:08.996Z",
+        "title": "Getting your computer ready to open the form",
+        "code": "var machine = getMachine((await listMachines())[0].id)\nawait machine.waitAndAcquire()\nvar page = await machine.browser.newtab(\"https://manicule-agent-benchmark-oct17.peppyshark33.chatgpt.site/?task=form\")\nawait wait({ waitTime: 2 })\nvar snap = await page.snapshot()\nconsole.log(snap.snapshot.outline())\n",
+        "rationale": "",
+        "screenshot": "/v1/agents/turns/id-667198b2c324/trajectory/screenshots/1"
+      },
+      {
+        "index": 2,
+        "timestamp": "2026-10-17T18:21:29.342Z",
+        "title": "Filling First name field",
+        "code": "await page.type({ ref: \"e12\", text: \"Alex\", clear: true })\n",
+        "rationale": "Good, I can see the form clearly. Let me fill in all the fields now.\n\n",
+        "screenshot": "/v1/agents/turns/id-667198b2c324/trajectory/screenshots/2"
+      },
+      {
+        "index": 3,
+        "timestamp": "2026-10-17T18:21:39.355Z",
+        "title": "Filling Last name field",
+        "code": "await page.type({ ref: \"e14\", text: \"Morgan\", clear: true })\n",
+        "rationale": "",
+        "screenshot": "/v1/agents/turns/id-667198b2c324/trajectory/screenshots/3"
+      },
+      {
+        "index": 4,
+        "timestamp": "2026-10-17T18:21:52.641Z",
+        "title": "Filling Email, Phone, Company, Job title fields",
+        "code": "await page.type({ ref: \"e16\", text: \"alex.morgan@example.com\", clear: true })\nawait page.type({ ref: \"e18\", text: \"+1 202-555-0147\", clear: true })\nawait page.type({ ref: \"e20\", text: \"Northstar Labs\", clear: true })\nawait page.type({ ref: \"e22\", text: \"Product Manager\", clear: true })\n",
+        "rationale": "",
+        "screenshot": "/v1/agents/turns/id-667198b2c324/trajectory/screenshots/4"
+      },
+      {
+        "index": 5,
+        "timestamp": "2026-10-17T18:22:07.023Z",
+        "title": "Selecting Country dropdown and Preferred contact method",
+        "code": "// Country is a text input - let's type it\nawait page.type({ ref: \"e24\", text: \"United States\", clear: true })\n// Wait a moment for any autocomplete\nawait wait({ waitTime: 1 })\n",
+        "rationale": "",
+        "screenshot": "/v1/agents/turns/id-667198b2c324/trajectory/screenshots/5"
+      },
+      {
+        "index": 6,
+        "timestamp": "2026-10-17T18:22:16.911Z",
+        "title": "Selecting Email as preferred contact method",
+        "code": "await page.click({ ref: \"e28\" })\n",
+        "rationale": "",
+        "screenshot": "/v1/agents/turns/id-667198b2c324/trajectory/screenshots/6"
+      },
+      {
+        "index": 7,
+        "timestamp": "2026-10-17T18:22:23.936Z",
+        "title": "Filling Message field",
+        "code": "await page.type({ ref: \"e32\", text: \"This is a benchmark.\", clear: true })\n",
+        "rationale": "",
+        "screenshot": "/v1/agents/turns/id-667198b2c324/trajectory/screenshots/7"
+      },
+      {
+        "index": 8,
+        "timestamp": "2026-10-17T18:22:35.003Z",
+        "title": "Verifying all form fields are filled correctly",
+        "code": "var verifySnap = await page.snapshot()\nconsole.log(verifySnap.snapshot.outline())\n",
+        "rationale": "Now let me verify all the entries on screen.\n\n",
+        "screenshot": "/v1/agents/turns/id-667198b2c324/trajectory/screenshots/8"
+      },
+      {
+        "index": 9,
+        "timestamp": "2026-10-17T18:23:01.198Z",
+        "title": "Selecting United States from Country dropdown",
+        "code": "// The country is a select element - use the select API\nawait page.select({ ref: \"e24\", values: [\"United States\"] })\nawait wait({ waitTime: 1 })\n",
+        "rationale": "I can see the Country field is actually a dropdown/select, not a text input. I typed into it, but it needs proper selection. Let me fix that.\n\n",
+        "screenshot": "/v1/agents/turns/id-667198b2c324/trajectory/screenshots/9"
+      },
+      {
+        "index": 10,
+        "timestamp": "2026-10-17T18:23:11.049Z",
+        "title": "Final verification of all form field values",
+        "code": "var finalSnap = await page.snapshot()\nconsole.log(finalSnap.snapshot.outline())\n",
+        "rationale": "",
+        "screenshot": "/v1/agents/turns/id-667198b2c324/trajectory/screenshots/10"
+      },
+      {
+        "index": 11,
+        "timestamp": "2026-10-17T18:23:36.572Z",
+        "title": "Taking a screenshot to verify Country and all fields",
+        "code": "var screenshot = await page.screenshot()\nconsole.log(\"Screenshot taken\")\n",
+        "rationale": "I notice the Country field's value doesn't show inline. Let me take a screenshot to verify visually.\n\n",
+        "screenshot": "/v1/agents/turns/id-667198b2c324/trajectory/screenshots/11"
+      },
+      {
+        "index": 12,
+        "timestamp": "2026-10-17T18:23:42.430Z",
+        "title": "Checking the screenshot for field verification",
+        "code": "",
+        "rationale": "",
+        "screenshot": "/v1/agents/turns/id-667198b2c324/trajectory/screenshots/12"
+      },
+      {
+        "index": 13,
+        "timestamp": "2026-10-17T18:23:56.435Z",
+        "title": "Checking raw accessibility tree for all field values",
+        "code": "var snap = await page.snapshot()\nconsole.log(\"--- Full outline ---\")\nconsole.log(snap.snapshot.outline())\nconsole.log(\"--- Checking Country specifically ---\")\nvar hits = snap.snapshot.grep(\"Country\", { context: 3 })\nconsole.log(hits)\nconsole.log(\"--- Checking United States ---\")\nvar hits2 = snap.snapshot.grep(\"United\", { context: 3 })\nconsole.log(hits2)\n",
+        "rationale": "",
+        "screenshot": "/v1/agents/turns/id-667198b2c324/trajectory/screenshots/13"
+      },
+      {
+        "index": 14,
+        "final": true,
+        "timestamp": "2026-10-17T18:24:47.598Z",
+        "screenshot": "/v1/agents/turns/id-667198b2c324/trajectory/screenshots/14"
+      }
+    ]
+  }
+}

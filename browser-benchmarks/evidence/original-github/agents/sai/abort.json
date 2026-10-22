@@ -1,0 +1,12 @@
+{
+  "reason": "600-second task deadline",
+  "elapsed_seconds": 600.9473973749991,
+  "response": {
+    "http_status": 200,
+    "elapsed_seconds": 0.9437352919994737,
+    "body": {
+      "ok": true,
+      "aborted": true
+    }
+  }
+}

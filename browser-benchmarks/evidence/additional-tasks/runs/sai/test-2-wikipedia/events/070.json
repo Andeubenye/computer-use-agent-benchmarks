@@ -1,0 +1,81 @@
+{
+  "http_status": 200,
+  "body": {
+    "sessionId": "id-d70b1706f18d",
+    "status": "running",
+    "events": [
+      {
+        "type": "reasoning-start",
+        "id": "1792261123313-assistant-h6u0s0d2osu"
+      },
+      {
+        "type": "reasoning-delta",
+        "id": "1792261123313-assistant-h6u0s0d2osu",
+        "delta": "I have all the URLs and key data. Let me now get the missing birthplaces for Alan Kay and verify some details.\n\n\n\n\n\n"
+      },
+      {
+        "type": "reasoning-end",
+        "id": "1792261123313-assistant-h6u0s0d2osu"
+      },
+      {
+        "type": "tool-input-start",
+        "toolCallId": "1792261141576-tool-yq857wvr6mg",
+        "toolName": "execute"
+      },
+      {
+        "type": "tool-input-available",
+        "toolCallId": "1792261141576-tool-yq857wvr6mg",
+        "toolName": "execute",
+        "input": {
+          "title": "Getting Alan Kay's birthplace and verifying Alan Turing's birthplace",
+          "code": "// Go to Alan Turing to get full birth details\nawait page.type({ ref: \"e24\", text: \"Alan Turing\", submit: true })\nawait wait({ waitTime: 2 })\nvar snapT = await page.snapshot()\nvar turingFull = snapT.snapshot.grep(\"Born\", { context: 5 })\nconsole.log(\"=== TURING BORN ===\")\nconsole.log(turingFull)\n\n// Now Alan Kay\nawait page.type({ ref: \"e24\", text: \"Alan Kay\", submit: true })\nawait wait({ waitTime: 2 })\nvar snapK = await page.snapshot()\nvar kayFull = snapK.snapshot.grep(\"Born\", { context: 5 })\nconsole.log(\"=== KAY BORN ===\")\nconsole.log(kayFull)\n\n// Also check first paragraph for birthplace\nvar kayPara = snapK.snapshot.grep(\"born\", { context: 1 })\nconsole.log(\"=== KAY PARA ===\")\nconsole.log(kayPara)\n"
+        }
+      },
+      {
+        "type": "data-progress",
+        "data": {
+          "text": "Getting Alan Kay's birthplace and verifying Alan Turing's birthplace",
+          "tool": "execute"
+        }
+      }
+    ],
+    "text": "",
+    "cursor": "eyJ0dXJuIjoxNzkyMjYwODY5ODU4LCJzZWVuIjpbIjE3OTIyNjA4ODIzMzctdG9vbC13OTcxM2U5YTFtaiIsIjE3OTIyNjA4NzQ1MzEtYXNzaXN0YW50LW9ycWZoZXg4ZDUiLCIxNzkyMjYwODg0NzE1LWFzc2lzdGFudC0yNHJrNmJ3N20ycCIsIjE3OTIyNjA5NDYxMTYtdG9vbC10anY1cDA0djUiLCIxNzkyMjYwOTM3OTUyLWFzc2lzdGFudC13YzE3NjNldzQzbCIsIjE3OTIyNjA5NTUwNTAtYXNzaXN0YW50LXR1YTk5Z3UycGFtIiwiMTc5MjI2MDk2Njg5MC10b29sLW1iZjIxZ3Nsa3hzIiwiMTc5MjI2MDk3MjM4NC1hc3Npc3RhbnQtamV5cmFtN2JocyIsIjE3OTIyNjEwMTI5MDAtdG9vbC05dG13dDV2OWl2dCIsIjE3OTIyNjEwMzA3NzAtdG9vbC1xdWJpdmx0Ym1iOSIsIjE3OTIyNjEwMjA5NDEtYXNzaXN0YW50LTRvejVodHFudngiLCIxNzkyMjYxMDQ0ODUyLXRvb2wtODBmd21zNGswZ3YiLCIxNzkyMjYxMDM2MjM5LWFzc2lzdGFudC04MGJrZGJubnk0aiIsIjE3OTIyNjEwNTAyODktYXNzaXN0YW50LWdiaHZ0eTVqdmo5IiwiMTc5MjI2MTA1NzkzMS10b29sLXUzdWNveWMxOHRsIiwiMTc5MjI2MTA2MjgzMS1hc3Npc3RhbnQteXJza3d2MnhoMyIsIjE3OTIyNjEwNzEwNDItdG9vbC1seXd5Mmd2aXVpIiwiMTc5MjI2MTA5MzkyNC10b29sLXozaWtrM20zdnVpIiwiMTc5MjI2MTA3NTg2My1hc3Npc3RhbnQtZjlxbW1iaXo2YSIsIjE3OTIyNjEwOTgwODMtYXNzaXN0YW50LXE3NnQ0YWEzN2FuIiwiMTc5MjI2MTEwNjkxOS10b29sLWtnaWJjdnJvbjEiLCIxNzkyMjYxMTA4OTU4LWFzc2lzdGFudC11b2ljaXU2ZWRkIiwiMTc5MjI2MTExODQ5NS10b29sLTMxeTZocHYxMzBkIiwiMTc5MjI2MTEyMzMxMy1hc3Npc3RhbnQtaDZ1MHMwZDJvc3UiLCIxNzkyMjYxMTQxNTc2LXRvb2wteXE4NTd3dnI2bWciXSwicHJvZyI6eyIxNzkyMjYwOTQ2NjUyLXJlc3VsdC12NzRoeGJsamt6IjoxLCIxNzkyMjYwOTY3NDY4LXJlc3VsdC14cGgyNXoyMjE0byI6MSwiMTc5MjI2MTAxMzQwMC1yZXN1bHQtdDV0bGZjcmpoZmIiOjQsIjE3OTIyNjEwMzEyNzItcmVzdWx0LTNpbW00eDZsNzd2IjozLCIxNzkyMjYxMDQ1NDc0LXJlc3VsdC04bnVpZThicDlsIjo0LCIxNzkyMjYxMDU4NDI1LXJlc3VsdC1qMmF0bDI1dmZsbSI6MywiMTc5MjI2MTA3MTU1MC1yZXN1bHQtcHI2eGZwczB0a3AiOjMsIjE3OTIyNjEwOTQ0NzQtcmVzdWx0LWV3cXMzdXJ5enZvIjozLCIxNzkyMjYxMTA3NDQzLXJlc3VsdC1ybDd6ZnF4cTNxbyI6MSwiMTc5MjI2MTExOTA2MS1yZXN1bHQtYWl5cXIwd3VqaWYiOjN9fQ",
+    "usage": {
+      "inputTokens": 147502,
+      "outputTokens": 2842,
+      "cacheReadTokens": 365056,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 12,
+      "byModel": {
+        "openrouter-deepseek/deepseek-v4-flash": {
+          "inputTokens": 147502,
+          "outputTokens": 2842,
+          "cacheReadTokens": 365056,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 12
+        }
+      }
+    },
+    "sessionUsage": {
+      "inputTokens": 147502,
+      "outputTokens": 2842,
+      "cacheReadTokens": 365056,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 12,
+      "byModel": {
+        "openrouter-deepseek/deepseek-v4-flash": {
+          "inputTokens": 147502,
+          "outputTokens": 2842,
+          "cacheReadTokens": 365056,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 12
+        }
+      }
+    }
+  }
+}

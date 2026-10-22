@@ -1,0 +1,11 @@
+Open https://github.com/browser-use/browser-use/issues. Using GitHub's website interface, find the five most recently updated open issues labeled bug.
+
+Return each issue's:
+- Issue number
+- Title
+- URL
+- Last updated date
+
+Order the results from most recently updated to least recently updated.
+
+Do not use GitHub's API. If fewer than five issues exist, report the number found. Do not log in or make any changes to the repository. Use only the website interface. Complete the task within 10 minutes; if blocked, report the limitation honestly.

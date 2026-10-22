@@ -1,0 +1,19 @@
+{
+  "agent": "sai",
+  "submitted": false,
+  "outcome": "NOT TESTED",
+  "score": null,
+  "reason": "Official direct-control preflight returned HTTP 403: Not authorized for this machine. Cannot validate desktop setup or independently retrieve CSV outputs through this access; no agent task submitted.",
+  "failure_category": "infrastructure/access",
+  "model": null,
+  "duration_seconds": null,
+  "actions": null,
+  "screenshots": 0,
+  "estimated_api_cost_usd": 0,
+  "agent_generation_requests": 0,
+  "automatic_restarts": 0,
+  "control_lease_open_succeeded": false,
+  "account_after_http_status": 200,
+  "free_credit_balance_after": 1,
+  "new_purchases": 0
+}

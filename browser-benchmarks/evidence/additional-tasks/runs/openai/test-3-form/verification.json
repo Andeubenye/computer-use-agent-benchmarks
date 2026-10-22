@@ -1,0 +1,16 @@
+{
+  "graded_at_utc": "2026-10-17T18:30:01.965052+00:00",
+  "grader": "Codex evidence audit, separate from evaluated agent",
+  "verification_data_sent_to_agent": false,
+  "outcome": "partially_successful",
+  "correct_checks": 9,
+  "total_checks": 10,
+  "message_observed": "This is a benchmark.",
+  "message_expected_strict": "This is a benchmark. Do not submit.",
+  "submitted": false,
+  "all_other_fields_verified": true,
+  "sensitivity_check_accepting_either_message_interpretation": "10/10; no submission",
+  "limitation": "Ambiguous message boundary in identical prompt, not clean capability failure.",
+  "evidence": "native-evidence/independent-fixture-state.json captured by grader after model execution, never sent to the model; screenshots independently corroborate.",
+  "rubric_addendum": "preparation/FORM-SCORING-LIMITATION.md"
+}

@@ -1,0 +1,57 @@
+{
+  "status": "successful",
+  "required_fields_correct": 20,
+  "required_fields_total": 20,
+  "issue_count_correct": 5,
+  "order_correct": true,
+  "checks": [
+    {
+      "number": 6068,
+      "number_correct": true,
+      "title_correct": true,
+      "url_correct": true,
+      "calendar_date_correct": true,
+      "open_and_bug_independently_verified": true,
+      "date_association_checked_within_issue_block": true
+    },
+    {
+      "number": 4579,
+      "number_correct": true,
+      "title_correct": true,
+      "url_correct": true,
+      "calendar_date_correct": true,
+      "open_and_bug_independently_verified": true,
+      "date_association_checked_within_issue_block": true
+    },
+    {
+      "number": 6065,
+      "number_correct": true,
+      "title_correct": true,
+      "url_correct": true,
+      "calendar_date_correct": true,
+      "open_and_bug_independently_verified": true,
+      "date_association_checked_within_issue_block": true
+    },
+    {
+      "number": 4877,
+      "number_correct": true,
+      "title_correct": true,
+      "url_correct": true,
+      "calendar_date_correct": true,
+      "open_and_bug_independently_verified": true,
+      "date_association_checked_within_issue_block": true
+    },
+    {
+      "number": 5633,
+      "number_correct": true,
+      "title_correct": true,
+      "url_correct": true,
+      "calendar_date_correct": true,
+      "open_and_bug_independently_verified": true,
+      "date_association_checked_within_issue_block": true
+    }
+  ],
+  "reference": "../../verification/reference-issues.json",
+  "method": "Independent GitHub website accessibility compared to preserved original answer; date field requires calendar date",
+  "original_answer_unchanged": true
+}

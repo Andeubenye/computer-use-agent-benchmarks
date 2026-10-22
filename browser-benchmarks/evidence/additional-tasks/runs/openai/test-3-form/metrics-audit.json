@@ -1,0 +1,41 @@
+{
+  "agent": "openai",
+  "task": "test-3-form",
+  "original_record_preserved": true,
+  "checked_at": "2026-10-17T19:00:04.039883+00:00",
+  "model_requested": "gpt-6.1-sol",
+  "native_tool": "computer",
+  "native_computer_call_observed": true,
+  "model_generation_requests": 6,
+  "token_count_requests": 6,
+  "api_retries": 0,
+  "usage": {
+    "input_tokens": 45371,
+    "cached_input_tokens": 33264,
+    "cache_write_tokens": 12089,
+    "output_tokens": 445,
+    "reasoning_tokens": 0,
+    "total_tokens": 45816
+  },
+  "browser": {
+    "engine": "Chromium",
+    "version": "156.0.8078.4",
+    "fresh_profile": true,
+    "viewport": [
+      1440,
+      1000
+    ],
+    "timezone": "UTC",
+    "headless": true,
+    "state_preserved_during_run": true
+  },
+  "submitted_at_utc": "2026-10-17T18:28:21.093668+00:00",
+  "software": {
+    "python": "3.12.4 (v3.12.4:8e8a4baf65, Jun  6 2024, 17:33:18) [Clang 13.0.0 (clang-1300.0.29.30)]",
+    "platform": "macOS-15.4.1-arm64-arm-64bit",
+    "openai": "3.32.0",
+    "playwright": "1.64.0"
+  },
+  "cost_recomputed_usd": "0.03803490",
+  "cost_matches": true
+}

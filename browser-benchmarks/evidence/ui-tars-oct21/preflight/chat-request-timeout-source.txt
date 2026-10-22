@@ -1,0 +1,24 @@
+          this.headImageContext,
+        );
+      }
+
+      return {
+        prediction: result?.output_text ?? '',
+        costTime: Date.now() - startTime,
+        costTokens: result?.usage?.total_tokens ?? 0,
+        responseId,
+      };
+    }
+
+    // Use Chat Completions API if not using Response API
+    const result = await openai.chat.completions.create(
+      createCompletionPramsThinkingVp,
+      {
+        ...options,
+        timeout: 1000 * 30,
+        headers,
+      },
+    );
+
+    return {
+      prediction: result.choices?.[0]?.message?.content ?? '',

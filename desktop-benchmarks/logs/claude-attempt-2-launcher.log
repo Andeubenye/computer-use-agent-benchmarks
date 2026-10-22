@@ -1,0 +1,1 @@
+{"agent": "claude", "reason": "execution_error", "model_requests": 11, "seconds": 183.18, "cost_estimate_usd": 0.273314, "uncertain_reserved_usd": 0, "actions": 49, "errors": ["count HTTP None TimeoutError"]}

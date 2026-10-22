@@ -1,0 +1,15 @@
+{
+  "checked_at_utc": "2026-10-21T00:29:36.944187+00:00",
+  "five_exact_prompts": true,
+  "five_single_attempts": true,
+  "five_distinct_browser_profiles": true,
+  "all_runs_within_600_seconds": true,
+  "all_runs_have_original_response_trace_and_independent_state": true,
+  "all_report_links_resolve": true,
+  "recorded_outcomes_match_verification": true,
+  "known_secret_literal_scan_passed": true,
+  "files_scanned": 153,
+  "original_application_unchanged": true,
+  "earlier_reports_overwritten": false,
+  "limitation": "Literal credential scan does not certify every possible encoded representation. Capture gaps and harness logger corrections are disclosed."
+}

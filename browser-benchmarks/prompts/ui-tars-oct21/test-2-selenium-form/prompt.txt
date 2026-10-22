@@ -1,0 +1,20 @@
+Open https://www.selenium.dev/selenium/web/web-form.html
+
+Complete the form using the following information:
+
+- Text input: Vera Agiang
+- Password: Benchmark2026!
+- Textarea: Testing UI-TARS computer-use capabilities.
+- Disabled input: Leave unchanged
+- Read-only input: Leave unchanged
+- Dropdown select: Two
+- Dropdown datalist: New York
+- Checked checkbox: Keep checked
+- Default checkbox: Check it
+- Checked radio button: Keep selected
+- Default radio button: Leave unselected
+- Color picker: #ff0000
+- Date picker: 10/21/2026
+- Range slider: 7
+
+Do not submit the form. Stop when all editable fields have been completed.

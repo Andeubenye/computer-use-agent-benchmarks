@@ -1,0 +1,415 @@
+{
+  "run_id": "openai_run_1",
+  "status": "completed_unverified",
+  "model": "gpt-6.1-sol",
+  "native_tool": "computer",
+  "native_computer_call_observed": true,
+  "started_at": "2026-10-17T18:27:25.392181+00:00",
+  "finished_at": "2026-10-17T18:28:21.083543+00:00",
+  "wall_clock_seconds": 54.705,
+  "api_request_attempts": 8,
+  "responses_succeeded": 8,
+  "model_access_requests": 1,
+  "computer_tool_calls": 7,
+  "computer_actions": 16,
+  "retries": 0,
+  "errors": [],
+  "error": null,
+  "final_output": null,
+  "final_output_text": "I visited all five English Wikipedia articles using the website interface and read their birth information.\n\n| Name | Full birth date | Birthplace as stated in the article | Wikipedia article URL |\n|---|---|---|---|\n| Alan Turing | 23 June 1912 | Maida Vale, London, England | https://en.wikipedia.org/wiki/Alan_Turing |\n| Ada Lovelace | 10 December 1815 | London, England | https://en.wikipedia.org/wiki/Ada_Lovelace |\n| Grace Hopper | December 9, 1906 | New York City, U.S. | https://en.wikipedia.org/wiki/Grace_Hopper |\n| Alan Kay | May 17, 1940 | Springfield, Massachusetts, U.S. | https://en.wikipedia.org/wiki/Alan_Kay |\n| Margaret Hamilton (software engineer) | August 17, 1936 | Paoli, Indiana, U.S. | https://en.wikipedia.org/wiki/Margaret_Hamilton_(software_engineer) |\n\n**Limitations:** No requested birth facts were unavailable, and no access or security blockers were encountered. These results reflect the articles as displayed; I did not independently verify their claims.",
+  "raw_usage": [
+    {
+      "input_tokens": 2892,
+      "input_tokens_details": {
+        "cache_write_tokens": 2889,
+        "cached_tokens": 0
+      },
+      "output_tokens": 18,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 2910
+    },
+    {
+      "input_tokens": 4648,
+      "input_tokens_details": {
+        "cache_write_tokens": 1756,
+        "cached_tokens": 2889
+      },
+      "output_tokens": 26,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 4674
+    },
+    {
+      "input_tokens": 6412,
+      "input_tokens_details": {
+        "cache_write_tokens": 1764,
+        "cached_tokens": 4645
+      },
+      "output_tokens": 42,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 6454
+    },
+    {
+      "input_tokens": 8192,
+      "input_tokens_details": {
+        "cache_write_tokens": 1780,
+        "cached_tokens": 6409
+      },
+      "output_tokens": 74,
+      "output_tokens_details": {
+        "reasoning_tokens": 14
+      },
+      "total_tokens": 8266
+    },
+    {
+      "input_tokens": 10004,
+      "input_tokens_details": {
+        "cache_write_tokens": 1812,
+        "cached_tokens": 8189
+      },
+      "output_tokens": 56,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10060
+    },
+    {
+      "input_tokens": 11798,
+      "input_tokens_details": {
+        "cache_write_tokens": 1794,
+        "cached_tokens": 10001
+      },
+      "output_tokens": 56,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 11854
+    },
+    {
+      "input_tokens": 13592,
+      "input_tokens_details": {
+        "cache_write_tokens": 1794,
+        "cached_tokens": 11795
+      },
+      "output_tokens": 61,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 13653
+    },
+    {
+      "input_tokens": 15391,
+      "input_tokens_details": {
+        "cache_write_tokens": 1799,
+        "cached_tokens": 13589
+      },
+      "output_tokens": 249,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 15640
+    }
+  ],
+  "api_requests": [
+    {
+      "number": 1,
+      "attempt": 1,
+      "started_at": "2026-10-17T18:27:33.930195+00:00",
+      "model": "gpt-6.1-sol",
+      "reserved_usd": 0.059876,
+      "status": "success",
+      "response_id": "provider-id-4fe599a5b7f7",
+      "returned_model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 2892,
+        "input_tokens_details": {
+          "cache_write_tokens": 2889,
+          "cached_tokens": 0
+        },
+        "output_tokens": 18,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 2910
+      }
+    },
+    {
+      "number": 2,
+      "attempt": 1,
+      "started_at": "2026-10-17T18:27:40.085850+00:00",
+      "model": "gpt-6.1-sol",
+      "reserved_usd": 0.065144,
+      "status": "success",
+      "response_id": "provider-id-d3820bff8e85",
+      "returned_model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 4648,
+        "input_tokens_details": {
+          "cache_write_tokens": 1756,
+          "cached_tokens": 2889
+        },
+        "output_tokens": 26,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 4674
+      }
+    },
+    {
+      "number": 3,
+      "attempt": 1,
+      "started_at": "2026-10-17T18:27:44.967309+00:00",
+      "model": "gpt-6.1-sol",
+      "reserved_usd": 0.070436,
+      "status": "success",
+      "response_id": "provider-id-bf3a00eed573",
+      "returned_model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 6412,
+        "input_tokens_details": {
+          "cache_write_tokens": 1764,
+          "cached_tokens": 4645
+        },
+        "output_tokens": 42,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 6454
+      }
+    },
+    {
+      "number": 4,
+      "attempt": 1,
+      "started_at": "2026-10-17T18:27:49.644174+00:00",
+      "model": "gpt-6.1-sol",
+      "reserved_usd": 0.075776,
+      "status": "success",
+      "response_id": "provider-id-be74491a22ce",
+      "returned_model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 8192,
+        "input_tokens_details": {
+          "cache_write_tokens": 1780,
+          "cached_tokens": 6409
+        },
+        "output_tokens": 74,
+        "output_tokens_details": {
+          "reasoning_tokens": 14
+        },
+        "total_tokens": 8266
+      }
+    },
+    {
+      "number": 5,
+      "attempt": 1,
+      "started_at": "2026-10-17T18:27:55.566341+00:00",
+      "model": "gpt-6.1-sol",
+      "reserved_usd": 0.081212,
+      "status": "success",
+      "response_id": "provider-id-f6883e43dd9d",
+      "returned_model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 10004,
+        "input_tokens_details": {
+          "cache_write_tokens": 1812,
+          "cached_tokens": 8189
+        },
+        "output_tokens": 56,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 10060
+      }
+    },
+    {
+      "number": 6,
+      "attempt": 1,
+      "started_at": "2026-10-17T18:28:01.259979+00:00",
+      "model": "gpt-6.1-sol",
+      "reserved_usd": 0.086594,
+      "status": "success",
+      "response_id": "provider-id-f0453462cd4e",
+      "returned_model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 11798,
+        "input_tokens_details": {
+          "cache_write_tokens": 1794,
+          "cached_tokens": 10001
+        },
+        "output_tokens": 56,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 11854
+      }
+    },
+    {
+      "number": 7,
+      "attempt": 1,
+      "started_at": "2026-10-17T18:28:06.498314+00:00",
+      "model": "gpt-6.1-sol",
+      "reserved_usd": 0.091976,
+      "status": "success",
+      "response_id": "provider-id-be3c61d27cdf",
+      "returned_model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 13592,
+        "input_tokens_details": {
+          "cache_write_tokens": 1794,
+          "cached_tokens": 11795
+        },
+        "output_tokens": 61,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 13653
+      }
+    },
+    {
+      "number": 8,
+      "attempt": 1,
+      "started_at": "2026-10-17T18:28:13.263137+00:00",
+      "model": "gpt-6.1-sol",
+      "reserved_usd": 0.097373,
+      "status": "success",
+      "response_id": "provider-id-149ee51c20b9",
+      "returned_model": "gpt-6.1-sol",
+      "usage": {
+        "input_tokens": 15391,
+        "input_tokens_details": {
+          "cache_write_tokens": 1799,
+          "cached_tokens": 13589
+        },
+        "output_tokens": 249,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 15640
+      }
+    }
+  ],
+  "estimated_cost": {
+    "label": "ESTIMATE — model token cost, not an invoice",
+    "currency": "USD",
+    "estimated_usd": 0.0500897,
+    "source": "https://developers.openai.com/api/docs/pricing",
+    "rates_checked_on": "2026-10-16",
+    "service_tier": "default (Standard)",
+    "per_response": [
+      {
+        "estimated_usd": 0.0074085,
+        "rates_per_million_tokens": {
+          "input": 2.0,
+          "cached": 0.1,
+          "cache_write": 2.5,
+          "output": 10.0
+        }
+      },
+      {
+        "estimated_usd": 0.0049448999999999995,
+        "rates_per_million_tokens": {
+          "input": 2.0,
+          "cached": 0.1,
+          "cache_write": 2.5,
+          "output": 10.0
+        }
+      },
+      {
+        "estimated_usd": 0.0053005,
+        "rates_per_million_tokens": {
+          "input": 2.0,
+          "cached": 0.1,
+          "cache_write": 2.5,
+          "output": 10.0
+        }
+      },
+      {
+        "estimated_usd": 0.0058369,
+        "rates_per_million_tokens": {
+          "input": 2.0,
+          "cached": 0.1,
+          "cache_write": 2.5,
+          "output": 10.0
+        }
+      },
+      {
+        "estimated_usd": 0.0059149,
+        "rates_per_million_tokens": {
+          "input": 2.0,
+          "cached": 0.1,
+          "cache_write": 2.5,
+          "output": 10.0
+        }
+      },
+      {
+        "estimated_usd": 0.0060511,
+        "rates_per_million_tokens": {
+          "input": 2.0,
+          "cached": 0.1,
+          "cache_write": 2.5,
+          "output": 10.0
+        }
+      },
+      {
+        "estimated_usd": 0.0062805,
+        "rates_per_million_tokens": {
+          "input": 2.0,
+          "cached": 0.1,
+          "cache_write": 2.5,
+          "output": 10.0
+        }
+      },
+      {
+        "estimated_usd": 0.0083524,
+        "rates_per_million_tokens": {
+          "input": 2.0,
+          "cached": 0.1,
+          "cache_write": 2.5,
+          "output": 10.0
+        }
+      }
+    ],
+    "token_totals": {
+      "input_tokens": 72929,
+      "cached_input_tokens": 57517,
+      "cache_write_tokens": 15388,
+      "output_tokens": 582,
+      "reasoning_tokens": 14,
+      "total_tokens": 73511
+    },
+    "assumptions": [
+      "Reasoning tokens are included in output, not billed twice.",
+      "Screenshot input is included in API-reported input tokens.",
+      "Excludes local compute, taxes, and any charges for failed requests without usage.",
+      "No separate computer-tool charge added: none itemized for this model in the published rate table."
+    ]
+  },
+  "uncertain_cost_reserved_usd": 0,
+  "browser": {
+    "engine": "Chromium",
+    "version": "156.0.8078.4",
+    "fresh_profile": true,
+    "viewport": [
+      1440,
+      1000
+    ],
+    "timezone": "UTC",
+    "headless": true,
+    "state_preserved_during_run": true
+  },
+  "verification": {
+    "status": "pending",
+    "agent_has_access_to_verification_data": false
+  },
+  "sources": {
+    "documentation": "https://developers.openai.com/api/docs/guides/tools-computer-use/",
+    "pricing": "https://developers.openai.com/api/docs/pricing",
+    "sample": "https://github.com/openai/openai-cua-sample-app",
+    "sample_commit": "f2a3dc523ae406f9b704f9a420a05402a63b4522"
+  }
+}

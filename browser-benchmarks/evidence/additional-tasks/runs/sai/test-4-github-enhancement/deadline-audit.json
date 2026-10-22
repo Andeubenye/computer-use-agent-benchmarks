@@ -1,0 +1,10 @@
+{
+  "deadline_seconds": 600,
+  "abort_requested_elapsed_seconds": 600.0023194159949,
+  "abort_ack_saved_elapsed_seconds": 600.7189555168152,
+  "provider_final_trajectory_record_elapsed_seconds": 601.6672871112823,
+  "final_status": "failed",
+  "post_abort_verification": "post-abort-terminal-check.json",
+  "automatic_restart": false,
+  "new_action_submissions_after_deadline_observed": false
+}

@@ -1,0 +1,689 @@
+{
+  "run_id": "openai_run_1",
+  "status": "completed_partial",
+  "model": "gpt-6.1-sol",
+  "native_tool": "computer",
+  "native_computer_call_observed": true,
+  "started_at": "2026-10-16T21:18:41.983685+00:00",
+  "finished_at": "2026-10-16T21:20:20.224622+00:00",
+  "wall_clock_seconds": 97.546,
+  "api_request_attempts": 11,
+  "responses_succeeded": 11,
+  "model_access_requests": 1,
+  "computer_tool_calls": 10,
+  "computer_actions": 27,
+  "retries": 0,
+  "errors": [],
+  "error": null,
+  "final_output": {
+    "issues": [
+      {
+        "number": 6068,
+        "title": "Bug: agent enables a disabled button with evaluate, places the order, and often reports a plain success",
+        "url": "https://github.com/browser-use/browser-use/issues/6068",
+        "last_updated": "12h ago",
+        "last_updated_precision": "relative"
+      },
+      {
+        "number": 4579,
+        "title": "Bug: CDP connection instability causing indefinite hangs with remote browsers",
+        "url": "https://github.com/browser-use/browser-use/issues/4579",
+        "last_updated": "2d ago",
+        "last_updated_precision": "relative"
+      },
+      {
+        "number": 6065,
+        "title": "Bug: Browser parameter accept_downloads is nonfunctional when running Browser-use locally",
+        "url": "https://github.com/browser-use/browser-use/issues/6065",
+        "last_updated": "2d ago",
+        "last_updated_precision": "relative"
+      },
+      {
+        "number": 4877,
+        "title": "Bug: ...pip dependency conflicts due to strict exact-pins (==) in pyproject.toml",
+        "url": "https://github.com/browser-use/browser-use/issues/4877",
+        "last_updated": "3d ago",
+        "last_updated_precision": "relative"
+      },
+      {
+        "number": 5633,
+        "title": "Bug: AnthropicMessageSerializer drops earlier system messages",
+        "url": "https://github.com/browser-use/browser-use/issues/5633",
+        "last_updated": "1w ago",
+        "last_updated_precision": "relative"
+      }
+    ],
+    "count_found": 5,
+    "notes": "Filtered open issues labeled bug and sorted by most recently updated using GitHub's website. The list showed 48 matching open issues; the first five are returned in displayed order. Only relative last-updated dates were visible; hovering did not expose exact dates. These are the Updated values, not creation dates."
+  },
+  "final_output_text": "{\n  \"issues\": [\n    {\n      \"number\": 6068,\n      \"title\": \"Bug: agent enables a disabled button with evaluate, places the order, and often reports a plain success\",\n      \"url\": \"https://github.com/browser-use/browser-use/issues/6068\",\n      \"last_updated\": \"12h ago\",\n      \"last_updated_precision\": \"relative\"\n    },\n    {\n      \"number\": 4579,\n      \"title\": \"Bug: CDP connection instability causing indefinite hangs with remote browsers\",\n      \"url\": \"https://github.com/browser-use/browser-use/issues/4579\",\n      \"last_updated\": \"2d ago\",\n      \"last_updated_precision\": \"relative\"\n    },\n    {\n      \"number\": 6065,\n      \"title\": \"Bug: Browser parameter accept_downloads is nonfunctional when running Browser-use locally\",\n      \"url\": \"https://github.com/browser-use/browser-use/issues/6065\",\n      \"last_updated\": \"2d ago\",\n      \"last_updated_precision\": \"relative\"\n    },\n    {\n      \"number\": 4877,\n      \"title\": \"Bug: ...pip dependency conflicts due to strict exact-pins (==) in pyproject.toml\",\n      \"url\": \"https://github.com/browser-use/browser-use/issues/4877\",\n      \"last_updated\": \"3d ago\",\n      \"last_updated_precision\": \"relative\"\n    },\n    {\n      \"number\": 5633,\n      \"title\": \"Bug: AnthropicMessageSerializer drops earlier system messages\",\n      \"url\": \"https://github.com/browser-use/browser-use/issues/5633\",\n      \"last_updated\": \"1w ago\",\n      \"last_updated_precision\": \"relative\"\n    }\n  ],\n  \"count_found\": 5,\n  \"notes\": \"Filtered open issues labeled bug and sorted by most recently updated using GitHub's website. The list showed 48 matching open issues; the first five are returned in displayed order. Only relative last-updated dates were visible; hovering did not expose exact dates. These are the Updated values, not creation dates.\"\n}",
+  "raw_usage": [
+    {
+      "input_tokens": 3074,
+      "input_tokens_details": {
+        "cache_write_tokens": 3071,
+        "cached_tokens": 0
+      },
+      "output_tokens": 71,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 3145
+    },
+    {
+      "input_tokens": 4883,
+      "input_tokens_details": {
+        "cache_write_tokens": 1809,
+        "cached_tokens": 3071
+      },
+      "output_tokens": 65,
+      "output_tokens_details": {
+        "reasoning_tokens": 21
+      },
+      "total_tokens": 4948
+    },
+    {
+      "input_tokens": 6686,
+      "input_tokens_details": {
+        "cache_write_tokens": 1803,
+        "cached_tokens": 4880
+      },
+      "output_tokens": 91,
+      "output_tokens_details": {
+        "reasoning_tokens": 28
+      },
+      "total_tokens": 6777
+    },
+    {
+      "input_tokens": 8515,
+      "input_tokens_details": {
+        "cache_write_tokens": 1829,
+        "cached_tokens": 6683
+      },
+      "output_tokens": 31,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 8546
+    },
+    {
+      "input_tokens": 10284,
+      "input_tokens_details": {
+        "cache_write_tokens": 1769,
+        "cached_tokens": 8512
+      },
+      "output_tokens": 19,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10303
+    },
+    {
+      "input_tokens": 12041,
+      "input_tokens_details": {
+        "cache_write_tokens": 1757,
+        "cached_tokens": 10281
+      },
+      "output_tokens": 42,
+      "output_tokens_details": {
+        "reasoning_tokens": 16
+      },
+      "total_tokens": 12083
+    },
+    {
+      "input_tokens": 13821,
+      "input_tokens_details": {
+        "cache_write_tokens": 1780,
+        "cached_tokens": 12038
+      },
+      "output_tokens": 35,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 13856
+    },
+    {
+      "input_tokens": 15594,
+      "input_tokens_details": {
+        "cache_write_tokens": 1773,
+        "cached_tokens": 13818
+      },
+      "output_tokens": 59,
+      "output_tokens_details": {
+        "reasoning_tokens": 22
+      },
+      "total_tokens": 15653
+    },
+    {
+      "input_tokens": 17391,
+      "input_tokens_details": {
+        "cache_write_tokens": 1797,
+        "cached_tokens": 15591
+      },
+      "output_tokens": 79,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 17470
+    },
+    {
+      "input_tokens": 19208,
+      "input_tokens_details": {
+        "cache_write_tokens": 1817,
+        "cached_tokens": 17388
+      },
+      "output_tokens": 24,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 19232
+    },
+    {
+      "input_tokens": 20970,
+      "input_tokens_details": {
+        "cache_write_tokens": 1762,
+        "cached_tokens": 19205
+      },
+      "output_tokens": 439,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 21409
+    }
+  ],
+  "api_requests": [
+    {
+      "number": 1,
+      "attempt": 1,
+      "started_at": "2026-10-16T21:18:54.743774+00:00",
+      "previous_response_id": null,
+      "model": "gpt-6.1-sol",
+      "tools": [
+        {
+          "type": "computer"
+        }
+      ],
+      "status": "success",
+      "response_id": "provider-id-c287457e9b39",
+      "request_id": "req_176cfb5ea1b54278bf98254944f10c00",
+      "duration_seconds": 4.526068666000356,
+      "returned_model": "gpt-6.1-sol",
+      "service_tier": "default",
+      "usage": {
+        "input_tokens": 3074,
+        "input_tokens_details": {
+          "cache_write_tokens": 3071,
+          "cached_tokens": 0
+        },
+        "output_tokens": 71,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 3145
+      }
+    },
+    {
+      "number": 2,
+      "attempt": 1,
+      "started_at": "2026-10-16T21:19:00.420840+00:00",
+      "previous_response_id": "provider-id-c287457e9b39",
+      "model": "gpt-6.1-sol",
+      "tools": [
+        {
+          "type": "computer"
+        }
+      ],
+      "status": "success",
+      "response_id": "provider-id-0d31fbcccf47",
+      "request_id": "req_043c21161f984d108d3e07f60de71706",
+      "duration_seconds": 4.617342292000103,
+      "returned_model": "gpt-6.1-sol",
+      "service_tier": "default",
+      "usage": {
+        "input_tokens": 4883,
+        "input_tokens_details": {
+          "cache_write_tokens": 1809,
+          "cached_tokens": 3071
+        },
+        "output_tokens": 65,
+        "output_tokens_details": {
+          "reasoning_tokens": 21
+        },
+        "total_tokens": 4948
+      }
+    },
+    {
+      "number": 3,
+      "attempt": 1,
+      "started_at": "2026-10-16T21:19:06.099581+00:00",
+      "previous_response_id": "provider-id-0d31fbcccf47",
+      "model": "gpt-6.1-sol",
+      "tools": [
+        {
+          "type": "computer"
+        }
+      ],
+      "status": "success",
+      "response_id": "provider-id-4af562162aa1",
+      "request_id": "req_e3e0faa2cefb42bf90093b80f164e864",
+      "duration_seconds": 4.298168125002121,
+      "returned_model": "gpt-6.1-sol",
+      "service_tier": "default",
+      "usage": {
+        "input_tokens": 6686,
+        "input_tokens_details": {
+          "cache_write_tokens": 1803,
+          "cached_tokens": 4880
+        },
+        "output_tokens": 91,
+        "output_tokens_details": {
+          "reasoning_tokens": 28
+        },
+        "total_tokens": 6777
+      }
+    },
+    {
+      "number": 4,
+      "attempt": 1,
+      "started_at": "2026-10-16T21:19:11.549800+00:00",
+      "previous_response_id": "provider-id-4af562162aa1",
+      "model": "gpt-6.1-sol",
+      "tools": [
+        {
+          "type": "computer"
+        }
+      ],
+      "status": "success",
+      "response_id": "provider-id-2e5f26a2c9c6",
+      "request_id": "req_c74ab093dbee4e5d9d53213e407f5c45",
+      "duration_seconds": 3.2758189579981263,
+      "returned_model": "gpt-6.1-sol",
+      "service_tier": "default",
+      "usage": {
+        "input_tokens": 8515,
+        "input_tokens_details": {
+          "cache_write_tokens": 1829,
+          "cached_tokens": 6683
+        },
+        "output_tokens": 31,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 8546
+      }
+    },
+    {
+      "number": 5,
+      "attempt": 1,
+      "started_at": "2026-10-16T21:19:17.900929+00:00",
+      "previous_response_id": "provider-id-2e5f26a2c9c6",
+      "model": "gpt-6.1-sol",
+      "tools": [
+        {
+          "type": "computer"
+        }
+      ],
+      "status": "success",
+      "response_id": "provider-id-372dc9870354",
+      "request_id": "req_88bed81891d941acbe0230d668bc2b11",
+      "duration_seconds": 2.2352910410008917,
+      "returned_model": "gpt-6.1-sol",
+      "service_tier": "default",
+      "usage": {
+        "input_tokens": 10284,
+        "input_tokens_details": {
+          "cache_write_tokens": 1769,
+          "cached_tokens": 8512
+        },
+        "output_tokens": 19,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 10303
+      }
+    },
+    {
+      "number": 6,
+      "attempt": 1,
+      "started_at": "2026-10-16T21:19:23.323403+00:00",
+      "previous_response_id": "provider-id-372dc9870354",
+      "model": "gpt-6.1-sol",
+      "tools": [
+        {
+          "type": "computer"
+        }
+      ],
+      "status": "success",
+      "response_id": "provider-id-9f599c575cab",
+      "request_id": "req_74987122c63a4bf98059c5e151a22085",
+      "duration_seconds": 5.0198184170003515,
+      "returned_model": "gpt-6.1-sol",
+      "service_tier": "default",
+      "usage": {
+        "input_tokens": 12041,
+        "input_tokens_details": {
+          "cache_write_tokens": 1757,
+          "cached_tokens": 10281
+        },
+        "output_tokens": 42,
+        "output_tokens_details": {
+          "reasoning_tokens": 16
+        },
+        "total_tokens": 12083
+      }
+    },
+    {
+      "number": 7,
+      "attempt": 1,
+      "started_at": "2026-10-16T21:19:29.387344+00:00",
+      "previous_response_id": "provider-id-9f599c575cab",
+      "model": "gpt-6.1-sol",
+      "tools": [
+        {
+          "type": "computer"
+        }
+      ],
+      "status": "success",
+      "response_id": "provider-id-f28dbd649326",
+      "request_id": "req_96ffe89bb2674ad0b1ad25d3e4e24250",
+      "duration_seconds": 2.8405584590000217,
+      "returned_model": "gpt-6.1-sol",
+      "service_tier": "default",
+      "usage": {
+        "input_tokens": 13821,
+        "input_tokens_details": {
+          "cache_write_tokens": 1780,
+          "cached_tokens": 12038
+        },
+        "output_tokens": 35,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 13856
+      }
+    },
+    {
+      "number": 8,
+      "attempt": 1,
+      "started_at": "2026-10-16T21:19:37.279519+00:00",
+      "previous_response_id": "provider-id-f28dbd649326",
+      "model": "gpt-6.1-sol",
+      "tools": [
+        {
+          "type": "computer"
+        }
+      ],
+      "status": "success",
+      "response_id": "provider-id-d983ae04f559",
+      "request_id": "req_86033d142f5047f3a9acee6c0d67cfda",
+      "duration_seconds": 5.813691415998619,
+      "returned_model": "gpt-6.1-sol",
+      "service_tier": "default",
+      "usage": {
+        "input_tokens": 15594,
+        "input_tokens_details": {
+          "cache_write_tokens": 1773,
+          "cached_tokens": 13818
+        },
+        "output_tokens": 59,
+        "output_tokens_details": {
+          "reasoning_tokens": 22
+        },
+        "total_tokens": 15653
+      }
+    },
+    {
+      "number": 9,
+      "attempt": 1,
+      "started_at": "2026-10-16T21:19:48.252444+00:00",
+      "previous_response_id": "provider-id-d983ae04f559",
+      "model": "gpt-6.1-sol",
+      "tools": [
+        {
+          "type": "computer"
+        }
+      ],
+      "status": "success",
+      "response_id": "provider-id-3a00e59d09fe",
+      "request_id": "req_9e22cbea363f4c42a47f807e7cf506da",
+      "duration_seconds": 6.162919625003269,
+      "returned_model": "gpt-6.1-sol",
+      "service_tier": "default",
+      "usage": {
+        "input_tokens": 17391,
+        "input_tokens_details": {
+          "cache_write_tokens": 1797,
+          "cached_tokens": 15591
+        },
+        "output_tokens": 79,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 17470
+      }
+    },
+    {
+      "number": 10,
+      "attempt": 1,
+      "started_at": "2026-10-16T21:20:01.693774+00:00",
+      "previous_response_id": "provider-id-3a00e59d09fe",
+      "model": "gpt-6.1-sol",
+      "tools": [
+        {
+          "type": "computer"
+        }
+      ],
+      "status": "success",
+      "response_id": "provider-id-fea5bfe975a1",
+      "request_id": "req_8523953f0b334c75abb0489dbd4f7865",
+      "duration_seconds": 5.212216957999772,
+      "returned_model": "gpt-6.1-sol",
+      "service_tier": "default",
+      "usage": {
+        "input_tokens": 19208,
+        "input_tokens_details": {
+          "cache_write_tokens": 1817,
+          "cached_tokens": 17388
+        },
+        "output_tokens": 24,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 19232
+      }
+    },
+    {
+      "number": 11,
+      "attempt": 1,
+      "started_at": "2026-10-16T21:20:08.002093+00:00",
+      "previous_response_id": "provider-id-fea5bfe975a1",
+      "model": "gpt-6.1-sol",
+      "tools": [
+        {
+          "type": "computer"
+        }
+      ],
+      "status": "success",
+      "response_id": "provider-id-05264e20bfbe",
+      "request_id": "req_112cd43cf2084337a8278766b7184476",
+      "duration_seconds": 11.52389845899961,
+      "returned_model": "gpt-6.1-sol",
+      "service_tier": "default",
+      "usage": {
+        "input_tokens": 20970,
+        "input_tokens_details": {
+          "cache_write_tokens": 1762,
+          "cached_tokens": 19205
+        },
+        "output_tokens": 439,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 21409
+      }
+    }
+  ],
+  "estimated_cost": {
+    "label": "ESTIMATE — model token cost, not an invoice",
+    "currency": "USD",
+    "estimated_usd": 0.0731802,
+    "source": "https://developers.openai.com/api/docs/pricing",
+    "rates_checked_on": "2026-10-16",
+    "service_tier": "default (Standard)",
+    "per_response": [
+      {
+        "estimated_usd": 0.0083935,
+        "rates_per_million_tokens": {
+          "input": 2.0,
+          "cached": 0.1,
+          "cache_write": 2.5,
+          "output": 10.0
+        }
+      },
+      {
+        "estimated_usd": 0.0054856,
+        "rates_per_million_tokens": {
+          "input": 2.0,
+          "cached": 0.1,
+          "cache_write": 2.5,
+          "output": 10.0
+        }
+      },
+      {
+        "estimated_usd": 0.0059115,
+        "rates_per_million_tokens": {
+          "input": 2.0,
+          "cached": 0.1,
+          "cache_write": 2.5,
+          "output": 10.0
+        }
+      },
+      {
+        "estimated_usd": 0.0055568,
+        "rates_per_million_tokens": {
+          "input": 2.0,
+          "cached": 0.1,
+          "cache_write": 2.5,
+          "output": 10.0
+        }
+      },
+      {
+        "estimated_usd": 0.0054697,
+        "rates_per_million_tokens": {
+          "input": 2.0,
+          "cached": 0.1,
+          "cache_write": 2.5,
+          "output": 10.0
+        }
+      },
+      {
+        "estimated_usd": 0.0058466,
+        "rates_per_million_tokens": {
+          "input": 2.0,
+          "cached": 0.1,
+          "cache_write": 2.5,
+          "output": 10.0
+        }
+      },
+      {
+        "estimated_usd": 0.0060098,
+        "rates_per_million_tokens": {
+          "input": 2.0,
+          "cached": 0.1,
+          "cache_write": 2.5,
+          "output": 10.0
+        }
+      },
+      {
+        "estimated_usd": 0.0064103,
+        "rates_per_million_tokens": {
+          "input": 2.0,
+          "cached": 0.1,
+          "cache_write": 2.5,
+          "output": 10.0
+        }
+      },
+      {
+        "estimated_usd": 0.0068476000000000006,
+        "rates_per_million_tokens": {
+          "input": 2.0,
+          "cached": 0.1,
+          "cache_write": 2.5,
+          "output": 10.0
+        }
+      },
+      {
+        "estimated_usd": 0.0065273,
+        "rates_per_million_tokens": {
+          "input": 2.0,
+          "cached": 0.1,
+          "cache_write": 2.5,
+          "output": 10.0
+        }
+      },
+      {
+        "estimated_usd": 0.0107215,
+        "rates_per_million_tokens": {
+          "input": 2.0,
+          "cached": 0.1,
+          "cache_write": 2.5,
+          "output": 10.0
+        }
+      }
+    ],
+    "token_totals": {
+      "input_tokens": 132467,
+      "cached_input_tokens": 111467,
+      "cache_write_tokens": 20967,
+      "output_tokens": 955,
+      "reasoning_tokens": 87,
+      "total_tokens": 133422
+    },
+    "assumptions": [
+      "Reasoning tokens are included in output, not billed twice.",
+      "Screenshot input is included in API-reported input tokens.",
+      "Excludes local compute, taxes, and any charges for failed requests without usage.",
+      "No separate computer-tool charge added: none itemized for this model in the published rate table."
+    ]
+  },
+  "browser": {
+    "engine": "Chromium",
+    "version": "156.0.8078.4",
+    "fresh_profile": true,
+    "viewport": [
+      1440,
+      1000
+    ],
+    "timezone": "UTC",
+    "headless": false,
+    "state_preserved_during_run": true
+  },
+  "verification": {
+    "status": "partial",
+    "strict_task_success": false,
+    "assessed_at": "2026-10-16T21:22:18.553946+00:00",
+    "checks": {
+      "top_five_numbers": true,
+      "titles": true,
+      "urls": true,
+      "ordering": true,
+      "open_state": true,
+      "bug_label": true,
+      "relative_update_labels": true,
+      "calendar_dates_returned_by_agent": false
+    },
+    "finding": "All five issues and their order are correct. Agent returned relative update labels, not calendar dates. Calendar timestamps shown here are independent verification data, not agent output.",
+    "agent_has_access_to_verification_data": false,
+    "agent_process_finished_before_verification": true,
+    "report_path": "verification.json"
+  },
+  "sources": {
+    "documentation": "https://developers.openai.com/api/docs/guides/tools-computer-use/",
+    "pricing": "https://developers.openai.com/api/docs/pricing",
+    "sample": "https://github.com/openai/openai-cua-sample-app",
+    "sample_commit": "f2a3dc523ae406f9b704f9a420a05402a63b4522"
+  },
+  "agent_execution_status": "completed",
+  "total_api_request_attempts": 12,
+  "cost_excluding_capability_probe": true
+}

@@ -1,0 +1,29 @@
+{
+  "id": "provider-id-051699b37aa2",
+  "content": [
+    {
+      "text": "I filled in every requested field on the form, and none of them failed. I verified each entry on screen, and the form is still open and unsubmitted.\n\n- **First name:** Alex\n- **Last name:** Morgan\n- **Email:** alex.morgan@example.com\n- **Phone:** +1 202-555-0147\n- **Company:** Northstar Labs\n- **Job title:** Product Manager\n- **Country:** United States, chosen from the dropdown\n- **Preferred contact method:** Email, selected\n- **Message:** \"This is a benchmark. Do not submit.\"\n- **Newsletter:** left unchecked\n\nI did not press Submit, and the page still shows \"Not submitted.\"",
+      "type": "text"
+    }
+  ],
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 14292,
+    "output_tokens": 223,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

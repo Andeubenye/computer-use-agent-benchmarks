@@ -1,0 +1,75 @@
+{
+  "http_status": 200,
+  "body": {
+    "sessionId": "id-71dc1af9c730",
+    "status": "running",
+    "events": [
+      {
+        "type": "tool-input-start",
+        "toolCallId": "1792261324558-tool-bitgr5dq2jg",
+        "toolName": "execute"
+      },
+      {
+        "type": "tool-input-available",
+        "toolCallId": "1792261324558-tool-bitgr5dq2jg",
+        "toolName": "execute",
+        "input": {
+          "title": "Selecting Country dropdown and Preferred contact method",
+          "code": "// Country is a text input - let's type it\nawait page.type({ ref: \"e24\", text: \"United States\", clear: true })\n// Wait a moment for any autocomplete\nawait wait({ waitTime: 1 })\n"
+        }
+      },
+      {
+        "type": "data-progress",
+        "data": {
+          "text": "Selecting Country dropdown and Preferred contact method",
+          "tool": "execute"
+        }
+      },
+      {
+        "type": "data-progress",
+        "data": {
+          "text": "[Guardrails] ✅ type: allow (score=0) text=\"United States\" — fast_path: safe_type",
+          "tool": "execute"
+        }
+      }
+    ],
+    "text": "",
+    "cursor": "eyJ0dXJuIjoxNzkyMjYxMjM0ODY1LCJzZWVuIjpbIjE3OTIyNjEyNDk5OTAtdG9vbC12ODZxNnNrdXptOSIsImVycjoxNzkyMjYxMjUwNTE1LXJlc3VsdC1uNnZzMnJubXpuIiwiMTc5MjI2MTI2NDExMC10b29sLXRhMzR4bWl6aWtzIiwiMTc5MjI2MTI4Nzk2MC10b29sLWEwdWRiYzRrbGp2IiwiMTc5MjI2MTI2OTA5MS1hc3Npc3RhbnQtanNpcXRmZjQweGQiLCIxNzkyMjYxMjk3OTA3LXRvb2wtYWwxaDQxMGNqc2EiLCIxNzkyMjYxMzExMDY4LXRvb2wtbWxiZ3cyMjVsYyIsIjE3OTIyNjEzMjQ1NTgtdG9vbC1iaXRncjVkcTJqZyJdLCJwcm9nIjp7IjE3OTIyNjEyODg1MTYtcmVzdWx0LWFrbmd2OGd4Nm9pIjoxLCIxNzkyMjYxMjk4NDMwLXJlc3VsdC0xeXUybDIzaWFobiI6MSwiMTc5MjI2MTMxMTYwNS1yZXN1bHQtaDR6M3NtaW9mY28iOjQsIjE3OTIyNjEzMjUxOTktcmVzdWx0LXluMml6cTJuNTNpIjoxfX0",
+    "usage": {
+      "inputTokens": 39736,
+      "outputTokens": 1347,
+      "cacheReadTokens": 196608,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 6,
+      "byModel": {
+        "openrouter-deepseek/deepseek-v4-flash": {
+          "inputTokens": 39736,
+          "outputTokens": 1347,
+          "cacheReadTokens": 196608,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 6
+        }
+      }
+    },
+    "sessionUsage": {
+      "inputTokens": 39736,
+      "outputTokens": 1347,
+      "cacheReadTokens": 196608,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 6,
+      "byModel": {
+        "openrouter-deepseek/deepseek-v4-flash": {
+          "inputTokens": 39736,
+          "outputTokens": 1347,
+          "cacheReadTokens": 196608,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 6
+        }
+      }
+    }
+  }
+}

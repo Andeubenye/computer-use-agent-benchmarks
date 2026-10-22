@@ -1,0 +1,54 @@
+{
+  "http_status": 200,
+  "body": {
+    "sessionId": "id-d70b1706f18d",
+    "status": "running",
+    "events": [
+      {
+        "type": "data-progress",
+        "data": {
+          "text": "URL: https://en.wikipedia.org/wiki/Ada_Lovelace",
+          "tool": "execute"
+        }
+      }
+    ],
+    "text": "",
+    "cursor": "eyJ0dXJuIjoxNzkyMjYwODY5ODU4LCJzZWVuIjpbIjE3OTIyNjA4ODIzMzctdG9vbC13OTcxM2U5YTFtaiIsIjE3OTIyNjA4NzQ1MzEtYXNzaXN0YW50LW9ycWZoZXg4ZDUiLCIxNzkyMjYwODg0NzE1LWFzc2lzdGFudC0yNHJrNmJ3N20ycCIsIjE3OTIyNjA5NDYxMTYtdG9vbC10anY1cDA0djUiLCIxNzkyMjYwOTM3OTUyLWFzc2lzdGFudC13YzE3NjNldzQzbCIsIjE3OTIyNjA5NTUwNTAtYXNzaXN0YW50LXR1YTk5Z3UycGFtIiwiMTc5MjI2MDk2Njg5MC10b29sLW1iZjIxZ3Nsa3hzIiwiMTc5MjI2MDk3MjM4NC1hc3Npc3RhbnQtamV5cmFtN2JocyIsIjE3OTIyNjEwMTI5MDAtdG9vbC05dG13dDV2OWl2dCIsIjE3OTIyNjEwMzA3NzAtdG9vbC1xdWJpdmx0Ym1iOSIsIjE3OTIyNjEwMjA5NDEtYXNzaXN0YW50LTRvejVodHFudngiXSwicHJvZyI6eyIxNzkyMjYwOTQ2NjUyLXJlc3VsdC12NzRoeGJsamt6IjoxLCIxNzkyMjYwOTY3NDY4LXJlc3VsdC14cGgyNXoyMjE0byI6MSwiMTc5MjI2MTAxMzQwMC1yZXN1bHQtdDV0bGZjcmpoZmIiOjQsIjE3OTIyNjEwMzEyNzItcmVzdWx0LTNpbW00eDZsNzd2IjozfX0",
+    "usage": {
+      "inputTokens": 97456,
+      "outputTokens": 1182,
+      "cacheReadTokens": 116480,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 5,
+      "byModel": {
+        "openrouter-deepseek/deepseek-v4-flash": {
+          "inputTokens": 97456,
+          "outputTokens": 1182,
+          "cacheReadTokens": 116480,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 5
+        }
+      }
+    },
+    "sessionUsage": {
+      "inputTokens": 97456,
+      "outputTokens": 1182,
+      "cacheReadTokens": 116480,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 5,
+      "byModel": {
+        "openrouter-deepseek/deepseek-v4-flash": {
+          "inputTokens": 97456,
+          "outputTokens": 1182,
+          "cacheReadTokens": 116480,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 5
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1 @@
+Verification references are separate from UI-TARS inputs. The GitHub references are historical, dated October 17, and must NOT score a new October 20 run. Obtain fresh website-only references after each actual run. Wikipedia and fixture references are retained with the original provenance; confirm fixture availability and final visible state after execution.

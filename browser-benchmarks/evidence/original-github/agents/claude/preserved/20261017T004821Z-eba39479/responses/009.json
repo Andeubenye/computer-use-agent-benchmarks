@@ -1,0 +1,91 @@
+{
+  "id": "provider-id-5a397845e6e1",
+  "content": [
+    {
+      "signature": "CAQS7QkKEAgSGAI4AUIIdGhpbmtpbmcSDBXR67IgDxuAqfrmTxoM8PC+NKYAJjFJaB7FIjDNne33tO//kKOjjgU164AIooHPPPPZE2EuUCrjW3RSYHdyWRRhM2Ce2sS3Y32fP3Uqignsw7NA/Vv6X4aYcQ/YLuiwbvhFp/rYTANQfY+NEIHjFO9hUCyX4mZVJdobaLoJj56G4H2T6iSXz51do1W8RLA+P51BWrDc6+dVSZvpFIunAG0z96cpNft5fW8dlG2ICKNiUWRXCFZ0/yuv/+enhuFS463eCrZv/3XKqtctNspf5LbuVy/Bd+QpMiMpWw2Vr4XawwWpDus85p/8IFdF18fkcahAfFk076NoxzBi/HZmTDOV0IhlIvhA2J5jKiHoo0ocCYpzin9QgIeZ8jzFgxYVgXAtEZlD9CGvchGn2VjNiuQ4n8Uc6T2aXaD2TARRrdSIgOc6gyGATtkWMck7EuEw+MaUK7lAt3+48lN/C6kCUNrJvDkT+eFUAO41n8+Recl8MY6zCww1Xhpwfsgg/wPrZFHMMRQ3PJ+V7nMVmIbWvdeA+5ZuUH6j/PGkm8TgtDava7OgH6PX4vO/K364QGlsagpWVQpFbisXOl1Tkq5yHVOwMcxIOhXsIyof30LaV9BmoFAuqgVzVsMx9I4cueqAFL6klNT6W4D0HBiNv74oD/ZMSTs/reCF7BwlmFZgoeFCYFquLY/SfsD98J6C4sP9Isyen1nwOrlAVkmAYe4b2Tin5w2RXxLxhXhd9bBPou9D6nwL9r+g+gKb85kJRd+AOXliX2q43KxwTqT7GVXC5KWD0gqchEQSsa0wAQ8257v00Xn924NyGos6N93iXYrkwe5TMx5q67nbcKhTu4rKEz+GhNx2oCaNwVHXsfrCaIAS4byrHQvJE2pOLN0WW97T/YTpsLeD0/BHAzPD8gAT7l/qrspa7gAKzA8Fw7YAy92hd9xx7nYzghFEb2UJj9/KxCCuZGnNcY47SyRqR9NP+8kayYycLHeGQLLtyx+0DuRBx0dB30iGqxNaZqB7iYq11CkeR6cbbec6DBTIR8L7GqWKzDahYNVMJ4BtwnBXsA+UWgCgylNQf9/6VT4Yx12OcJO6LNKd+0xofVeCqK2FNnE0k0lDyYgI2RYPXH6Z4Sla2wi3Q6o4xepjaIQ1rA11rHjKmOiYIEDrJ5ec0Cjztus8ef2zx7Pc4sfdc0dAlMvwFVRC39zrogQRdj9/hp0k+qN8kzvCk8HRk40iBAfjn+82DHdKm9M/94WMXeRMKdithqh9JwrSozKih9gkypGnKQD0dwGS9zzYB19/Br7i0X2fsat9O5N+i6YoprNu594aENzKoZ310MyTHIqLm20sq2sPQwQuHaovf9NYQKhLP4vpOvVgs+SkhcOKeBn8ot/qB7wsr5s57LbkGjonumtiXFeEK12ugm56jBnNATT4QoEVYJjZ9b4dsOxGWgDLQ8Ci//CwUDH9l7z9Wsw0uwmMnpgrZhAJYrdgBpnvR2nP3TAktMB215p7BLrbH5yxIxQ+nU3mTIbl8jW360IKdQyT90zWgjdVauiWME+qYDZdGGFq7PAY7qNmy4UookqCJgTrKywM845JTifwfZqjR4Bor7gzlyTczG89ATeW1uOqW/pNFoMEiR8roM1FbPUUO8MXjptN06qZJ+PcGAE=",
+      "thinking": "",
+      "type": "thinking"
+    },
+    {
+      "id": "toolu_01Bq1u4huQBGjznwNaFkTdqR",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "coordinate": [
+          450,
+          329
+        ]
+      },
+      "name": "left_click",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01DbE3SXD9nC6fqWcS1D6DCe",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "duration": 4
+      },
+      "name": "wait",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01MNbs1o78uMKAep9MNVeAJ1",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "text": "End"
+      },
+      "name": "key",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01EHvweDWxGKuVvkcZJ1Zgab",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "duration": 2
+      },
+      "name": "wait",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01WZJfxhNQNu8gmYrdNPRXos",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {},
+      "name": "screenshot",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    }
+  ],
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_reason": "tool_use",
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 14034,
+    "output_tokens": 324,
+    "output_tokens_details": {
+      "thinking_tokens": 194
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

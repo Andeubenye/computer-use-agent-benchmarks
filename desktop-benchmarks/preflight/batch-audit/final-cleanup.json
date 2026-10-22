@@ -1,0 +1,13 @@
+{
+  "utc": "2026-10-22T10:32:02.118215+00:00",
+  "all_benchmark_containers_stopped_before_vm_shutdown": true,
+  "colima_claude_benchmark_stopped_verified": true,
+  "ram_broker_identified_before_signal": true,
+  "ram_broker_stopped": true,
+  "credential_socket_absent": true,
+  "no_credential_values_saved": true,
+  "exposed_keys_rotation_confirmed": false,
+  "hf_or_ui_tars_operated": false,
+  "new_provider_requests_after_final_run": 0,
+  "ram_broker_process_absent_verified": true
+}

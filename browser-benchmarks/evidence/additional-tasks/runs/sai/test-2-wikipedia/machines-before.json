@@ -1,0 +1,15 @@
+{
+  "http_status": 200,
+  "body": {
+    "machines": [
+      {
+        "machineId": "free-6WRf2PabNOOC8BV7CIDNKs0ckre2",
+        "name": "Sai cloud computer (free)",
+        "updatedAt": 0,
+        "canWake": false,
+        "kind": "cloud",
+        "online": false
+      }
+    ]
+  }
+}

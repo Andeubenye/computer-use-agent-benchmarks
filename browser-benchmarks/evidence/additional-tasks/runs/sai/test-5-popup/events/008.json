@@ -1,0 +1,88 @@
+{
+  "http_status": 200,
+  "body": {
+    "sessionId": "id-b0ace35c3f25",
+    "status": "running",
+    "events": [
+      {
+        "type": "reasoning-start",
+        "id": "1792262193440-assistant-kzqijgc0s8s"
+      },
+      {
+        "type": "reasoning-delta",
+        "id": "1792262193440-assistant-kzqijgc0s8s",
+        "delta": "I can see the page. Let me dismiss the announcement first.\n\n"
+      },
+      {
+        "type": "reasoning-end",
+        "id": "1792262193440-assistant-kzqijgc0s8s"
+      },
+      {
+        "type": "tool-input-start",
+        "toolCallId": "1792262203030-tool-srifihvvt3f",
+        "toolName": "execute"
+      },
+      {
+        "type": "tool-input-available",
+        "toolCallId": "1792262203030-tool-srifihvvt3f",
+        "toolName": "execute",
+        "input": {
+          "title": "Dismissing the announcement popup",
+          "code": "await page.click({ ref: \"e24\" })\nawait wait({ waitTime: 1 })\nvar snap = await page.snapshot()\nconsole.log(snap.snapshot.outline())\n"
+        }
+      },
+      {
+        "type": "data-progress",
+        "data": {
+          "text": "Dismissing the announcement popup",
+          "tool": "execute"
+        }
+      },
+      {
+        "type": "data-progress",
+        "data": {
+          "text": "[Guardrails] ✅ click: allow (score=0) ref=e24 — score=0",
+          "tool": "execute"
+        }
+      }
+    ],
+    "text": "",
+    "cursor": "eyJ0dXJuIjoxNzkyMjYyMTY5MTY3LCJzZWVuIjpbIjE3OTIyNjIxODU5OTQtdG9vbC1mY2Jja2FscG5pIiwiMTc5MjI2MjE5MzQ0MC1hc3Npc3RhbnQta3pxaWpnYzBzOHMiLCIxNzkyMjYyMjAzMDMwLXRvb2wtc3JpZmlodnZ0M2YiXSwicHJvZyI6eyIxNzkyMjYyMjAzNTU4LXJlc3VsdC1pdG1scW9uYjBxYiI6MX19",
+    "usage": {
+      "inputTokens": 1006,
+      "outputTokens": 371,
+      "cacheReadTokens": 76800,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 2,
+      "byModel": {
+        "openrouter-deepseek/deepseek-v4-flash": {
+          "inputTokens": 1006,
+          "outputTokens": 371,
+          "cacheReadTokens": 76800,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 2
+        }
+      }
+    },
+    "sessionUsage": {
+      "inputTokens": 1006,
+      "outputTokens": 371,
+      "cacheReadTokens": 76800,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 2,
+      "byModel": {
+        "openrouter-deepseek/deepseek-v4-flash": {
+          "inputTokens": 1006,
+          "outputTokens": 371,
+          "cacheReadTokens": 76800,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 2
+        }
+      }
+    }
+  }
+}

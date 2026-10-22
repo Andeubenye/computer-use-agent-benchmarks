@@ -1,0 +1,7 @@
+{"utc": "2026-10-21T00:18:55.729Z", "event": "capture_connected", "browser_pid": 18093, "profile_basename": "puppeteer_dev_chrome_profile-FnK6ho", "browser_version": "Chrome/155.0.8059.85"}
+{"utc": "2026-10-21T00:18:55.893Z", "event": "screenshot", "file": "screenshots/000-action.png", "action_count_observed": 0, "page_url": "https://www.google.com/", "terminal": false}
+{"utc": "2026-10-21T00:19:01.034Z", "event": "screenshot", "file": "screenshots/001-action.png", "action_count_observed": 1, "page_url": "https://www.google.com/", "terminal": false}
+{"utc": "2026-10-21T00:19:11.190Z", "event": "screenshot", "file": "screenshots/002-action.png", "action_count_observed": 2, "page_url": "https://www.google.com/", "terminal": false}
+{"utc": "2026-10-21T00:20:46.465Z", "event": "screenshot", "file": "screenshots/003-action.png", "action_count_observed": 3, "page_url": "https://www.google.com/", "terminal": false}
+{"utc": "2026-10-21T00:20:48.541Z", "event": "screenshot", "file": "screenshots/003-terminal.png", "action_count_observed": 3, "page_url": "https://www.google.com/", "terminal": true}
+{"utc": "2026-10-21T00:20:48.546Z", "event": "capture_finished"}

@@ -1,0 +1,12 @@
+{
+  "model": "claude-sonnet-5-5",
+  "system": "You control an isolated Linux desktop at 1024 x 768 pixels. The task folder is /home/agent/Desktop/benchmark. Use only the native computer tool for task work. Open, inspect, edit, save and verify through graphical desktop applications. No terminal, browser, shell, code, scripts, macros, filesystem tools, network or programmatic editing. Spreadsheet formulas entered in the spreadsheet GUI are allowed for calculations. End each action batch with a screenshot and observe the result before proceeding. Expected outputs and grader references are not available. Do not inspect unrelated files, sign in, change settings or install software. If blocked, stop and describe the blocker. You have ten minutes from submission.",
+  "prompt": "Open sales_records.csv in LibreOffice Calc and inspect all 30 sales records. Calculate four metrics: total revenue, total units, average order value (total revenue divided by 30, rounded to two decimal places), and the region with the highest total revenue. Use spreadsheet GUI calculations as needed. Open report_template.docx in LibreOffice Writer and replace its four [fill] placeholders with the calculated metrics, preserving the title and source reference. Save the completed report as sales_summary.docx in the same folder, keeping both inputs unchanged. Close and reopen sales_summary.docx to verify all four reported metrics. Use only desktop graphical applications, mouse and keyboard. Do not use a browser, terminal, scripts, macros, programmatic file tools, or the network. Spreadsheet formulas entered through the GUI are allowed for calculations. Report what you changed, the output location, and any incomplete steps.",
+  "task_timeout_seconds": 600,
+  "budget_usd": 1.25,
+  "output_token_cap": 2048,
+  "api_retries": 0,
+  "computer_tool": "computer_toolset_20260801",
+  "execution_environment": "Linux / LibreOffice / Xvfb 1024x768 / network none",
+  "expected_output_exposed": false
+}

@@ -1,0 +1,52 @@
+{
+  "id": "provider-id-ce07080d5555",
+  "content": [
+    {
+      "id": "toolu_017ziqtUFKW8F33P3FfdxX6j",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "coordinate": [
+          840,
+          600
+        ],
+        "scroll_direction": "down",
+        "scroll_amount": 6
+      },
+      "name": "scroll",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01QYfFzrsTYSGtVR4jyDSAC9",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {},
+      "name": "screenshot",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    }
+  ],
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_reason": "tool_use",
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 12394,
+    "output_tokens": 103,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

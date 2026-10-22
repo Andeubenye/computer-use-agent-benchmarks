@@ -1,0 +1,14 @@
+Browser tab: 2, Title: "Manicule browser benchmark", URL: "https://manicule-agent-benchmark-oct17.peppyshark33.chatgpt.site/?task=form&run=fixture-qa".
+The following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+~					12 text field (settable) First name, Value: Alex
+~					15 text field (settable) Last name, Value: Morgan
+~					18 text field (settable) Email, Value: <redacted>
+~					21 text field (settable) Phone, Value: <redacted>
+~					24 text field (settable) Company, Value: Northstar Labs
+~					27 text field (settable) Job title, Value: Product Manager
+~					30 pop up button (collapsed, settable) Country, Value: United States, Secondary Actions: Expand
+~							32 Select a country
+~							36 (selected) United States
+~					39 radio button (settable, integer) Description: Email, Value: 1
+~					43 text entry area (settable) Message, Value: This is a benchmark. Do not submit.
+The focused UI element is 39 radio button (settable, integer) Description: Email, Value: 1

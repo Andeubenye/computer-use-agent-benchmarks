@@ -1,0 +1,20 @@
+{
+  "errors": [
+    {
+      "phase": "observe-running-task",
+      "error": "Computer Use server error -10005: noWindowsAvailable",
+      "interpretation": "App hides its main window while running; this observation alone does not prove failure."
+    },
+    {
+      "phase": "after-task1 / export / prepare-task2",
+      "error": "Computer Use server error -10005: noWindowsAvailable",
+      "observations": "Native app state and screenshot remained readable intermittently; New Chat clicks did not establish a clean second state, and coordinate input returned noWindowsAvailable. Rebinding the existing window did not make further input reliable.",
+      "interpretation": "Controller/environment blocker, not proof that UI-TARS model cannot perform remaining tasks."
+    }
+  ],
+  "benchmark_restarts": 0,
+  "application_restarts": 0,
+  "source_changes": 0,
+  "permission_changes": 0,
+  "substitute_task_execution": false
+}

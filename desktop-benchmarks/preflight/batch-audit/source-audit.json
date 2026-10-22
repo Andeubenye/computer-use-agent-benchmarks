@@ -1,0 +1,22 @@
+{
+  "checked_utc": "2026-10-21T23:20:58.125922+00:00",
+  "csv_original_prompt_sha256": "409633c43e51d6dec788410a90874c4375246d32e41548c56e8af7fa731bf439",
+  "original_grader_sha256": "9b7b983534d2006389a2f469f6cdf380a0e6f3656399dcdfaf79e32a8f2e0f18",
+  "task_requirements_changed_during_attempts": false,
+  "click_modifier_fix_applies_to_later_processes_only": true,
+  "csv_and_organization_actions_have_pre_fix_adapter_confound": true,
+  "native_action_helper_unchanged": true,
+  "source_files": {
+    "scripts/run_additional.py": "8c6556f8386b1a416d8f8d6cc4955d037a3e266b1748506fed4c600fae16e640",
+    "scripts/check_verifier.py": "d3eef3cf8eaffee53321d3fe7a732c2a5caf99db40eab605931aeaa8027d31eb",
+    "scripts/prepare_inputs.py": "823cbd10887222aa6206c89c18549cd9a25fa35cf84755d4e2b55f4ddde57056",
+    "scripts/native_action.py": "9602806a5b43f6a522f7fb7282b5a9e26426b6c58716f347e906a08093b270b7",
+    "scripts/verify_result.py": "9b7b983534d2006389a2f469f6cdf380a0e6f3656399dcdfaf79e32a8f2e0f18",
+    "scripts/run_native.py": "4b593384973d9e917147a8d0c71c4d1591d57248f3ed3eca563ebaa03b763c9a",
+    "scripts/common.py": "fa071e273fc31ad6e162c91808167d52fd5577e6118cf8a9ce8d65b7345a09f3",
+    "scripts/preflight_credentials.py": "26ee99c6077c021802c8984e9d2d07041418239d3eb8c61fa43d1885f6a24421",
+    "scripts/run_remaining_batch.py": "51e4b63287539fc7e249bcd25d499e765bb40781c5e488fd7687ac430557ca5e",
+    "scripts/prepare_additional.py": "3c51f75cd1b5bc27698d12089ad3be8cad9bcb1b15985ea11ea9d978c3634320",
+    "scripts/build_reports.py": "41eb874f4f34c92d608a6b78b6c72663ce8c93f9fb9562566ca67f42065f5697"
+  }
+}

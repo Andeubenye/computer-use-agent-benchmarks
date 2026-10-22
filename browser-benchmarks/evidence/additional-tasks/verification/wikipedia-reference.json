@@ -1,0 +1,37 @@
+{
+  "checked_on": "2026-10-17",
+  "method": "independent Wikipedia webpage inspection through web tool; not an evaluated agent run",
+  "never_send_to_agents": true,
+  "people": [
+    {
+      "name": "Alan Turing",
+      "birth_date": "1912-06-23",
+      "birthplace": "Maida Vale, London, England",
+      "url": "https://en.wikipedia.org/wiki/Alan_Turing"
+    },
+    {
+      "name": "Ada Lovelace",
+      "birth_date": "1815-12-10",
+      "birthplace": "London, England",
+      "url": "https://en.wikipedia.org/wiki/Ada_Lovelace"
+    },
+    {
+      "name": "Grace Hopper",
+      "birth_date": "1906-12-09",
+      "birthplace": "New York City, U.S.",
+      "url": "https://en.wikipedia.org/wiki/Grace_Hopper"
+    },
+    {
+      "name": "Alan Kay",
+      "birth_date": "1940-05-17",
+      "birthplace": "Springfield, Massachusetts, U.S.",
+      "url": "https://en.wikipedia.org/wiki/Alan_Kay"
+    },
+    {
+      "name": "Margaret Hamilton (software engineer)",
+      "birth_date": "1936-08-17",
+      "birthplace": "Paoli, Indiana, U.S.",
+      "url": "https://en.wikipedia.org/wiki/Margaret_Hamilton_(software_engineer)"
+    }
+  ]
+}

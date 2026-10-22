@@ -1,0 +1,21 @@
+{
+  "interruption_dismissed": {
+    "verified": true,
+    "evidence": [
+      "screenshots/openai/task-5/001-screenshot.png",
+      "logs/openai/task-5/events.jsonl",
+      "logs/openai/task-5/interruption-evidence.json"
+    ],
+    "explanation": "Initial warning is visible. The model requests an OK click, and the notice exits with code 0 before the container is stopped; harness did not dismiss it."
+  },
+  "reopened_and_verified": {
+    "verified": true,
+    "evidence": [
+      "screenshots/openai/task-5/014-screenshot.png",
+      "screenshots/openai/task-5/015-screenshot.png",
+      "screenshots/openai/task-5/016-screenshot.png",
+      "logs/openai/task-5/events.jsonl"
+    ],
+    "explanation": "After Ctrl+W, actions 28\u201331 reopen recovery_plan_corrected.docx. Reopened approved REC-204 with 16:30 is shown and followed by a successful final model response."
+  }
+}

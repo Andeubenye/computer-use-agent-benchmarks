@@ -1,0 +1,41 @@
+{
+  "issues": [
+    {
+      "number": 6068,
+      "title": "Bug: agent enables a disabled button with evaluate, places the order, and often reports a plain success",
+      "url": "https://github.com/browser-use/browser-use/issues/6068",
+      "last_updated": "12h ago",
+      "last_updated_precision": "relative"
+    },
+    {
+      "number": 4579,
+      "title": "Bug: CDP connection instability causing indefinite hangs with remote browsers",
+      "url": "https://github.com/browser-use/browser-use/issues/4579",
+      "last_updated": "2d ago",
+      "last_updated_precision": "relative"
+    },
+    {
+      "number": 6065,
+      "title": "Bug: Browser parameter accept_downloads is nonfunctional when running Browser-use locally",
+      "url": "https://github.com/browser-use/browser-use/issues/6065",
+      "last_updated": "2d ago",
+      "last_updated_precision": "relative"
+    },
+    {
+      "number": 4877,
+      "title": "Bug: ...pip dependency conflicts due to strict exact-pins (==) in pyproject.toml",
+      "url": "https://github.com/browser-use/browser-use/issues/4877",
+      "last_updated": "3d ago",
+      "last_updated_precision": "relative"
+    },
+    {
+      "number": 5633,
+      "title": "Bug: AnthropicMessageSerializer drops earlier system messages",
+      "url": "https://github.com/browser-use/browser-use/issues/5633",
+      "last_updated": "1w ago",
+      "last_updated_precision": "relative"
+    }
+  ],
+  "count_found": 5,
+  "notes": "Filtered open issues labeled bug and sorted by most recently updated using GitHub's website. The list showed 48 matching open issues; the first five are returned in displayed order. Only relative last-updated dates were visible; hovering did not expose exact dates. These are the Updated values, not creation dates."
+}

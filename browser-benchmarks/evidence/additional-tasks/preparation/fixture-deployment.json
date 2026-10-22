@@ -1,0 +1,29 @@
+{
+  "project_id": "appgprj_6ad3b676c9908191bd9f67a7abc63d9e",
+  "version_id": "appgprj_6ad3b676c9908191bd9f67a7abc63d9e~appgver_9c6e6543e9f48191be59bc9fb23c2267",
+  "commit_sha": "b16e0fac2cb399629e7011808a854c53e2880efb",
+  "archive": {
+    "archive_format": "tar",
+    "sediment_file_id": "file_00000000daec8210a6ca634afcc2a4b1",
+    "content_hash": "sha256:40a83eca514c0805261998b72d7e59f37a965e58b14b8191f32c2b47012a49f1",
+    "size_bytes": 10240,
+    "file_count": 2
+  },
+  "access": "public",
+  "deployment": {
+    "id": "appgdep_6ad3b6f357e08191a717afeb25dfd9d3",
+    "project_id": "appgprj_6ad3b676c9908191bd9f67a7abc63d9e",
+    "title": "Manicule synthetic browser benchmarks",
+    "version_id": "appgprj_6ad3b676c9908191bd9f67a7abc63d9e~appgver_9c6e6543e9f48191be59bc9fb23c2267",
+    "type": "publish",
+    "status": "succeeded",
+    "url": "https://manicule-agent-benchmark-oct17.peppyshark33.chatgpt.site",
+    "has_mcp": false,
+    "screenshot_asset_pointer": null,
+    "provider_deployment_id": "site---6ad3b676c9908191bd9f67a7abc63d9e",
+    "failure_message": null,
+    "env_set_revision": 0,
+    "updated_at": "2026-10-17T17:57:18.209630+00:00"
+  },
+  "credential_included": false
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "path": "/Applications/UI TARS.app/Contents/Info.plist",
+    "sha256_matches_baseline": true
+  },
+  {
+    "path": "/Applications/UI TARS.app/Contents/MacOS/UI-TARS",
+    "sha256_matches_baseline": true
+  },
+  {
+    "path": "/Applications/UI TARS.app/Contents/Resources/app.asar",
+    "sha256_matches_baseline": true
+  }
+]

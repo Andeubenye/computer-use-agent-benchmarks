@@ -1,0 +1,25 @@
+{
+  "id": "github-browser-use-recent-open-bugs-v2",
+  "prompt": "Open https://github.com/browser-use/browser-use/issues. Using GitHub's website interface, find the five most recently updated open issues labeled bug. Return each issue's number, title, URL, and last updated date, ordered from most recently updated to least recently updated. Do not use GitHub's API. If fewer than five issues exist, report the number found. Do not log in or make any changes to the repository.",
+  "evaluation": "manual_visible_github",
+  "record_public_evidence": true,
+  "evaluation_guidance": {
+    "version": "github-calendar-dates-v1",
+    "visibility": "grader_only_not_sent_to_model",
+    "required_checks": [
+      "final_answer_complete",
+      "top_five_or_all_if_fewer",
+      "numbers_match_visible_issues",
+      "titles_match_visible_issues",
+      "urls_match_visible_links",
+      "all_open_and_bug_labeled",
+      "actual_calendar_update_dates",
+      "update_dates_match_visible_tooltips",
+      "ordered_by_updated_desc",
+      "read_only_native_interface"
+    ],
+    "calendar_date_rule": "The agent's final answer must contain an actual calendar last-updated date for every issue (for example YYYY-MM-DD or an unambiguous month/day/year). A visible timestamp with a calendar date is acceptable; retain timezone and precision when present. Relative labels alone, such as yesterday, 3 days ago, or 1w ago, fail strict success even when issue selection is correct. Never fill missing agent dates with grader observations. Do not confuse creation dates with update dates.",
+    "visual_verification": "After the agent stops, independently verify current open bug filtering, descending update order, issue numbers/titles/URLs and update dates using GitHub's visible interface and screenshot evidence. Use native input only; do not use DOM, GitHub API or direct HTTP retrieval. Record any changes to the public list between agent and grader; mark unresolved facts as needing review. No expected issues are provided to the agent.",
+    "strict_success": "Requires normal end_turn, a complete final answer, and every required check verified true from visible evidence. An incomplete response is never success. Grading actions, screenshots, elapsed time and metadata reads remain separate from agent measurements."
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "status": "failure",
+  "success": false,
+  "agent_completed_normally": false,
+  "checks": {
+    "final_answer_complete": false,
+    "top_five_or_all_if_fewer": false,
+    "numbers_match_visible_issues": false,
+    "titles_match_visible_issues": false,
+    "urls_match_visible_links": false,
+    "all_open_and_bug_labeled": false,
+    "actual_calendar_update_dates": false,
+    "update_dates_match_visible_tooltips": false,
+    "ordered_by_updated_desc": false,
+    "read_only_native_interface": true
+  },
+  "rubric": {
+    "version": "github-calendar-dates-v1",
+    "visibility": "grader_only_not_sent_to_model",
+    "required_checks": [
+      "final_answer_complete",
+      "top_five_or_all_if_fewer",
+      "numbers_match_visible_issues",
+      "titles_match_visible_issues",
+      "urls_match_visible_links",
+      "all_open_and_bug_labeled",
+      "actual_calendar_update_dates",
+      "update_dates_match_visible_tooltips",
+      "ordered_by_updated_desc",
+      "read_only_native_interface"
+    ],
+    "calendar_date_rule": "The agent's final answer must contain an actual calendar last-updated date for every issue (for example YYYY-MM-DD or an unambiguous month/day/year). A visible timestamp with a calendar date is acceptable; retain timezone and precision when present. Relative labels alone, such as yesterday, 3 days ago, or 1w ago, fail strict success even when issue selection is correct. Never fill missing agent dates with grader observations. Do not confuse creation dates with update dates.",
+    "visual_verification": "After the agent stops, independently verify current open bug filtering, descending update order, issue numbers/titles/URLs and update dates using GitHub's visible interface and screenshot evidence. Use native input only; do not use DOM, GitHub API or direct HTTP retrieval. Record any changes to the public list between agent and grader; mark unresolved facts as needing review. No expected issues are provided to the agent.",
+    "strict_success": "Requires normal end_turn, a complete final answer, and every required check verified true from visible evidence. An incomplete response is never success. Grading actions, screenshots, elapsed time and metadata reads remain separate from agent measurements."
+  },
+  "review": {
+    "checks": {
+      "final_answer_complete": false,
+      "top_five_or_all_if_fewer": false,
+      "numbers_match_visible_issues": false,
+      "titles_match_visible_issues": false,
+      "urls_match_visible_links": false,
+      "all_open_and_bug_labeled": false,
+      "actual_calendar_update_dates": false,
+      "update_dates_match_visible_tooltips": false,
+      "ordered_by_updated_desc": false,
+      "read_only_native_interface": true
+    },
+    "screenshots": [
+      "001-post-agent.png",
+      "002-filtered-list.png",
+      "003-issue-1-link.png",
+      "004-issue-1-updated.png",
+      "005-issue-2-link.png",
+      "006-issue-2-updated.png",
+      "007-issue-3-link.png",
+      "008-issue-3-updated.png",
+      "009-issue-4-link.png",
+      "010-issue-4-updated.png",
+      "011-issue-5-link.png",
+      "012-issue-5-updated.png"
+    ],
+    "notes": "Strict failure: no final answer or returned issue records. All result-field checks are unmet because the agent did not return an answer; this does not mean that the observed visible issue records were incorrect. Independent visual observations below are grader findings and must not replace missing agent output.",
+    "agent_final_answer": "",
+    "agent_returned_issue_count": 0,
+    "agent_partial_progress": {
+      "correct_visible_filter": true,
+      "five_issues_visible": true,
+      "visited_issue_pages": [
+        6068,
+        4579,
+        6065
+      ],
+      "final_agent_page": "https://github.com/browser-use/browser-use/issues/6065"
+    },
+    "criteria_unmet_without_final_answer": [
+      "final_answer_complete",
+      "top_five_or_all_if_fewer",
+      "numbers_match_visible_issues",
+      "titles_match_visible_issues",
+      "urls_match_visible_links",
+      "all_open_and_bug_labeled",
+      "actual_calendar_update_dates",
+      "update_dates_match_visible_tooltips",
+      "ordered_by_updated_desc"
+    ],
+    "grader_observations": [
+      {
+        "rank": 1,
+        "number": 6068,
+        "title": "Bug: agent enables a disabled button with evaluate, places the order, and often reports a plain success",
+        "url": "https://github.com/browser-use/browser-use/issues/6068",
+        "last_updated": "2026-10-16 08:59 UTC",
+        "precision": "minute_UTC",
+        "relative_label": "15h ago",
+        "source": "independent_visual_grader",
+        "returned_by_claude": false,
+        "link_screenshot": "003-issue-1-link.png",
+        "date_screenshot": "004-issue-1-updated.png"
+      },
+      {
+        "rank": 2,
+        "number": 4579,
+        "title": "Bug: CDP connection instability causing indefinite hangs with remote browsers",
+        "url": "https://github.com/browser-use/browser-use/issues/4579",
+        "last_updated": "2026-10-15 06:31 UTC",
+        "precision": "minute_UTC",
+        "relative_label": "2d ago",
+        "source": "independent_visual_grader",
+        "returned_by_claude": false,
+        "link_screenshot": "005-issue-2-link.png",
+        "date_screenshot": "006-issue-2-updated.png"
+      },
+      {
+        "rank": 3,
+        "number": 6065,
+        "title": "Bug: Browser parameter accept_downloads is nonfunctional when running Browser-use locally",
+        "url": "https://github.com/browser-use/browser-use/issues/6065",
+        "last_updated": "2026-10-14 15:44 UTC",
+        "precision": "minute_UTC",
+        "relative_label": "2d ago",
+        "source": "independent_visual_grader",
+        "returned_by_claude": false,
+        "link_screenshot": "007-issue-3-link.png",
+        "date_screenshot": "008-issue-3-updated.png"
+      },
+      {
+        "rank": 4,
+        "number": 4877,
+        "title": "Bug: ...pip dependency conflicts due to strict exact-pins (==) in pyproject.toml",
+        "url": "https://github.com/browser-use/browser-use/issues/4877",
+        "last_updated": "2026-10-14 06:18 UTC",
+        "precision": "minute_UTC",
+        "relative_label": "3d ago",
+        "source": "independent_visual_grader",
+        "returned_by_claude": false,
+        "link_screenshot": "009-issue-4-link.png",
+        "date_screenshot": "010-issue-4-updated.png"
+      },
+      {
+        "rank": 5,
+        "number": 5633,
+        "title": "Bug: AnthropicMessageSerializer drops earlier system messages",
+        "url": "https://github.com/browser-use/browser-use/issues/5633",
+        "last_updated": "2026-10-10 05:54 UTC",
+        "precision": "minute_UTC",
+        "relative_label": "1w ago",
+        "source": "independent_visual_grader",
+        "returned_by_claude": false,
+        "link_screenshot": "011-issue-5-link.png",
+        "date_screenshot": "012-issue-5-updated.png"
+      }
+    ],
+    "visible_match_count": 48,
+    "ordering_verified": "Visible query is:issue is:open label:bug sort:updated-desc and descending tooltip timestamps; link URL targets observed in native Firefox status bar.",
+    "public_list_changed_during_grading": false,
+    "precision_limit": "Tooltip dates show UTC to the minute; no second precision claimed.",
+    "api_calls_for_grading": 0
+  }
+}

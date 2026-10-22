@@ -1,0 +1,20 @@
+{
+  "interruption_dismissed": {
+    "verified": true,
+    "evidence": [
+      "screenshots/claude/task-5/001-screenshot.png",
+      "logs/claude/task-5/events.jsonl",
+      "logs/claude/task-5/interruption-evidence.json"
+    ],
+    "explanation": "Initial warning is visible. The model requests an OK click, and the notice exits with code 0 before the container is stopped; harness did not dismiss it."
+  },
+  "reopened_and_verified": {
+    "verified": false,
+    "evidence": [
+      "screenshots/claude/task-5/024-screenshot.png",
+      "screenshots/claude/task-5/025-screenshot.png",
+      "logs/claude/task-5/events.jsonl"
+    ],
+    "explanation": "Reopened correct file is visible, but the next model request was blocked by the local reservation guard before the model could observe that screenshot and verify it. No final completion response."
+  }
+}

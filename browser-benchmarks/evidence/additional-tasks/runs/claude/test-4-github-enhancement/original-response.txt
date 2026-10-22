@@ -1,0 +1,14 @@
+I opened the issues list on GitHub with the filter `is:issue state:open label:enhancement sort:updated-desc`. GitHub showed 25 open issues, and the search box displayed the filter. The first five are below. The updated dates come from the hover tooltips on each "Updated …" text, and all are in UTC.
+
+| # | Issue | Title | URL | Last updated (tooltip) | Relative |
+|---|---|---|---|---|---|
+| 1 | #6119 | Feature Request: Pre-execution guardrails and security middleware for subshell/CLI actions | https://github.com/browser-use/browser-use/issues/6119 | Oct 17, 2026, 5:07 PM UTC | 1h ago |
+| 2 | #6109 | [Feature]: Outbound Web Bot Auth signing for navigated requests | https://github.com/browser-use/browser-use/issues/6109 | Oct 16, 2026, 7:13 PM UTC | 1d ago |
+| 3 | #6031 | Known-answer false-success regression cases (403 block, disabled click, 6 more) | https://github.com/browser-use/browser-use/issues/6031 | Oct 16, 2026, 6:13 PM UTC | 1d ago |
+| 4 | #4798 | Feature Request: Support agent.pause() within tool calls | https://github.com/browser-use/browser-use/issues/4798 | Oct 16, 2026, 9:48 AM UTC | 1d ago |
+| 5 | #5057 | Feature Request: RFC: Standardized Evaluation/Benchmarking Harness for LLM Tool Calling | https://github.com/browser-use/browser-use/issues/5057 | Oct 15, 2026, 6:58 PM UTC | 2d ago |
+
+- **Dates:** These are last-updated dates, not creation dates. The tooltips on #6109, #6031 and #4798 were each read once and not cross-checked against a second hover.
+- **URLs:** I built them from the issue numbers shown in the list (the `browser-use/browser-use#NNNN` labels). I did not open each issue page.
+
+I made no changes to the repository and did not log in.

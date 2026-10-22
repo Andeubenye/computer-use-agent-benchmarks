@@ -1,0 +1,622 @@
+Browser tab: 1, Title: "Issues · browser-use/browser-use · GitHub", URL: "https://github.com/browser-use/browser-use/issues?q=is%3Aissue+is%3Aopen+label%3Abug+sort%3Aupdated-desc".
+0 AXWebArea Issues · browser-use/browser-use · GitHub, URL: github.com/browser-use/browser-use/issues?q=is%3Aissue+is%3Aopen+label%3Abug+sort%3Aupdated-desc
+	1 container
+		2 link Description: Skip to content, Value: github.com/browser-use/browser-use/issues?q=is%3Aissue+is%3Aopen+label%3Abug+sort%3Aupdated-desc#start-of-content
+		459 container
+			460 heading Navigation Menu, Value: 2
+				461 text Navigation Menu
+			462 button (collapsed) Description: Toggle navigation, Secondary Actions: Expand
+			463 link Description: Homepage, Value: github.com/
+			464 link Description: Sign in, Value: github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fbrowser-use%2Fbrowser-use%2Fissues
+			465 pop up button Appearance settings
+	10 container js-repo-pjax-container
+		11 container Global navigation menu
+			12 container Breadcrumbs
+				13 content list
+					14 container
+						15 link Description: browser-use, Value: github.com/browser-use
+					16 link Description: browser-use, Value: github.com/browser-use/browser-use
+			17 heading Repository navigation, Value: 2
+				18 text Repository navigation
+			19 container Repository
+				20 content list
+					21 link Description: Code, Value: github.com/browser-use/browser-use
+					22 link Description: Issues  (180), Value: github.com/browser-use/browser-use/issues
+					23 link Description: Pull requests  (385), Value: github.com/browser-use/browser-use/pulls
+					24 link Description: Discussions, Value: github.com/browser-use/browser-use/discussions
+				29 pop up button (collapsed) More items, Secondary Actions: Expand
+		30 container
+			31 button Issues
+				32 heading Issues, Value: 1
+					33 text Issues
+			34 container types-collapsed-button-description
+				35 text Change the  issues  type filter
+			36 link Description: New issue, Value: github.com/login?return_to=https://github.com/browser-use/browser-use/issues
+			37 container Issues
+				38 container Description: Search issues, ID: issues-index-filter
+					39 text Search issues
+					40 container
+						41 combo box (collapsed, settable) Search issues, Value: is:issue is:open label:bug sort:updated-desc, ID: issues-index-filter-input, Secondary Actions: Expand
+						42 button Clear filter
+						43 button Search
+			44 heading Issues, Value: 2
+				45 text Issues
+			46 container
+				466 heading 48 results, Value: 3
+					467 text 48 results
+				50 toolbar Issue list controls
+					51 pop up button (collapsed) Description: Filter by author, Secondary Actions: Expand
+					52 pop up button (collapsed) Description: Filter by labels, Secondary Actions: Expand
+					468 pop up button (collapsed) Description: Filter by projects, Secondary Actions: Expand
+					53 pop up button (collapsed) More Issue list controls, Secondary Actions: Expand
+				54 content list Issues display density
+					55 checkbox Comfortable display density, Value: 1
+					56 checkbox Compact display density, Value: 0
+			57 content list Issues
+				469 container Bug: agent enables a disabled button with evaluate, places the order, and often reports a plain success. More information available below.
+					470 container
+						471 heading Value: 4, Bug: agent enables a disabled button with evaluate, places the order, and often reports a plain success
+							472 link Value: github.com/browser-use/browser-use/issues/6068, Description: Bug: agent enables a disabled button with evaluate, places the order, and often reports a plain success
+						473 button Filter by label bug
+					474 text Unread
+					475 image Open
+					476 text browser-use/browser-use#6068
+					477 text · 
+					478 button Filter by author yotambraun
+						479 text Filter by author
+						480 text yotambraun
+					481 text opened
+					482 container Oct 14, 2026, 19:45 GMT+1
+						483 text 2d ago
+					484 text · 
+					485 text Updated 
+					486 container Oct 16, 2026, 09:59 GMT+1
+						487 text 12h ago
+					488 pop up button (collapsed) Description: 2 linked pull requests, Secondary Actions: Expand
+					489 image 4 comments
+					490 text 4
+				491 container Bug: CDP connection instability causing indefinite hangs with remote browsers. More information available below.
+					492 container
+						493 heading Bug: CDP connection instability causing indefinite hangs with remote browsers, Value: 4
+							494 link Description: Bug: CDP connection instability causing indefinite hangs with remote browsers, Value: github.com/browser-use/browser-use/issues/4579
+						495 button Filter by label bug
+					496 text Unread
+					497 image Open
+					498 text browser-use/browser-use#4579
+					499 text · 
+					500 button Filter by author MrLeit
+						501 text Filter by author
+						502 text MrLeit
+					503 text opened
+					504 container Mar 31, 2026, 20:57 GMT+1
+						505 text on Mar 31
+					506 text · 
+					507 text Updated 
+					508 container Oct 15, 2026, 07:31 GMT+1
+						509 text 2d ago
+					510 pop up button (collapsed) Description: 3 linked pull requests, Secondary Actions: Expand
+					511 image 10 comments
+					512 text 10
+				513 container Bug: Browser parameter accept_downloads is nonfunctional when running Browser-use locally. More information available below.
+					514 container
+						515 heading Bug: Browser parameter accept_downloads is nonfunctional when running Browser-use locally, Value: 4
+							516 link Description: Bug: Browser parameter accept_downloads is nonfunctional when running Browser-use locally, Value: github.com/browser-use/browser-use/issues/6065
+						517 button Filter by label bug
+					518 text Unread
+					519 image Open
+					520 text browser-use/browser-use#6065
+					521 text · 
+					522 button Filter by author Oktayey
+						523 text Filter by author
+						524 text Oktayey
+					525 text opened
+					526 container Oct 14, 2026, 16:44 GMT+1
+						527 text 2d ago
+					528 text · 
+					529 text Updated 
+					530 container Oct 14, 2026, 16:44 GMT+1
+						531 text 2d ago
+					532 link Value: github.com/browser-use/browser-use/pull/6067, Description: 1 linked pull request browser-use/browser-use#6067: fix(downloads): respect BrowserProfile.accept_downloads, Open
+				533 container Bug: ...pip dependency conflicts due to strict exact-pins (==) in pyproject.toml. More information available below.
+					534 container
+						535 heading Bug: ...pip dependency conflicts due to strict exact-pins (==) in pyproject.toml, Value: 4
+							536 link Description: Bug: ...pip dependency conflicts due to strict exact-pins (==) in pyproject.toml, Value: github.com/browser-use/browser-use/issues/4877
+						537 button Filter by label bug
+					538 text Unread
+					539 image Open
+					540 text browser-use/browser-use#4877
+					541 text · 
+					542 button Filter by author Ito-69
+						543 text Filter by author
+						544 text Ito-69
+					545 text opened
+					546 container May 21, 2026, 11:04 GMT+1
+						547 text on May 21
+					548 text · 
+					549 text Updated 
+					550 container Oct 14, 2026, 07:18 GMT+1
+						551 text 3d ago
+					552 link Value: github.com/browser-use/browser-use/pull/4882, Description: 1 linked pull request browser-use/browser-use#4882: fix(packaging): relax stable runtime dependency pins, Closed
+					553 image 4 comments
+					554 text 4
+				555 container Bug: AnthropicMessageSerializer drops earlier system messages. More information available below.
+					556 container
+						557 heading Bug: AnthropicMessageSerializer drops earlier system messages, Value: 4
+							558 link Description: Bug: AnthropicMessageSerializer drops earlier system messages, Value: github.com/browser-use/browser-use/issues/5633
+						559 button Filter by label bug
+					560 text Unread
+					561 image Open
+					562 text browser-use/browser-use#5633
+					563 text · 
+					564 button Filter by author mufanI
+						565 text Filter by author
+						566 text mufanI
+					567 text opened
+					568 container Sep 1, 2026, 04:53 GMT+1
+						569 text on Sep 1
+					570 text · 
+					571 text Updated 
+					572 container Oct 10, 2026, 06:54 GMT+1
+						573 text 1w ago
+					574 pop up button (collapsed) Description: 5 linked pull requests, Secondary Actions: Expand
+					575 image 4 comments
+					576 text 4
+				577 container [Bug]: CDP RareBooleanData stackingContexts indexing bug and missing device_pixel_ratio coordinate scaling. More information available below.
+					578 container
+						579 heading Value: 4, [Bug]: CDP RareBooleanData stackingContexts indexing bug and missing device_pixel_ratio coordinate scaling
+							580 link Value: github.com/browser-use/browser-use/issues/5988, Description: [Bug]: CDP RareBooleanData stackingContexts indexing bug and missing device_pixel_ratio coordinate scaling
+						581 button Filter by label bug
+					582 text Unread
+					583 image Open
+					584 text browser-use/browser-use#5988
+					585 text · 
+					586 button Filter by author CodeItAlone
+						587 text Filter by author
+						588 text CodeItAlone
+					589 text opened
+					590 container Oct 3, 2026, 21:19 GMT+1
+						591 text 2w ago
+					592 text · 
+					593 text Updated 
+					594 container Oct 3, 2026, 21:19 GMT+1
+						595 text 2w ago
+					596 link Value: github.com/browser-use/browser-use/pull/5989, Description: 1 linked pull request browser-use/browser-use#5989: fix(dom): correct CDP RareBooleanData stackingContexts lookup and scale rects by device pixel ratio, Open
+				597 container [Bug]: Dataclass Rect.__post_init__ silently ignores inverted bounds and calculate_paint_order permits non-positive dimensions. More information available below.
+					598 container
+						599 heading Value: 4, [Bug]: Dataclass Rect.__post_init__ silently ignores inverted bounds and calculate_paint_order permits non-positive dimensions
+							600 link Value: github.com/browser-use/browser-use/issues/5987, Description: [Bug]: Dataclass Rect.__post_init__ silently ignores inverted bounds and calculate_paint_order permits non-positive dimensions
+						601 button Filter by label bug
+					602 text Unread
+					603 image Open
+					604 text browser-use/browser-use#5987
+					605 text · 
+					606 button Filter by author CodeItAlone
+						607 text Filter by author
+						608 text CodeItAlone
+					609 text opened
+					610 container Oct 3, 2026, 21:15 GMT+1
+						611 text 2w ago
+					612 text · 
+					613 text Updated 
+					614 container Oct 3, 2026, 21:15 GMT+1
+						615 text 2w ago
+					616 pop up button (collapsed) Description: 2 linked pull requests, Secondary Actions: Expand
+				617 container Bug: Executing the script using deepseek resulted in an error. More information available below.
+					618 container
+						619 heading Bug: Executing the script using deepseek resulted in an error., Value: 4
+							620 link Description: Bug: Executing the script using deepseek resulted in an error., Value: github.com/browser-use/browser-use/issues/4327
+						621 button Filter by label bug
+					622 text Unread
+					623 image Open
+					624 text browser-use/browser-use#4327
+					625 text · 
+					626 button Filter by author 0x22E09-8
+						627 text Filter by author
+						628 text 0x22E09-8
+					629 text opened
+					630 container Mar 11, 2026, 11:31 GMT+1
+						631 text on Mar 11
+					632 text · 
+					633 text Updated 
+					634 container Oct 2, 2026, 18:10 GMT+1
+						635 text 2w ago
+					636 link Value: github.com/browser-use/browser-use/pull/4382, Description: 1 linked pull request browser-use/browser-use#4382: fix(llm): auto-enable fallback schema config for DeepSeek models, Closed
+					637 image 6 comments
+					638 text 6
+				639 container Bug: user-agent shadow roots are reported as SHADOW(open) in the serialized page state. More information available below.
+					640 container
+						641 heading Bug: user-agent shadow roots are reported as SHADOW(open) in the serialized page state, Value: 4
+							642 link Description: Bug: user-agent shadow roots are reported as SHADOW(open) in the serialized page state, Value: github.com/browser-use/browser-use/issues/5817
+						643 button Filter by label bug
+					644 text Unread
+					645 image Open
+					646 text browser-use/browser-use#5817
+					647 text · 
+					648 button Filter by author nina-mir
+						649 text Filter by author
+						650 text nina-mir
+					651 text opened
+					652 container Sep 16, 2026, 00:48 GMT+1
+						653 text on Sep 16
+					654 text · 
+					655 text Updated 
+					656 container Sep 28, 2026, 21:00 GMT+1
+						657 text 3w ago
+					658 link Value: github.com/browser-use/browser-use/pull/5942, Description: 1 linked pull request browser-use/browser-use#5942: fix(dom): exclude user-agent shadow roots from serialized state, Open
+					659 image 3 comments
+					660 text 3
+				661 container Bug: GIF text leaves Unicode escapes encoded when the same string contains emoji or CJK text. More information available below.
+					662 container
+						663 heading Bug: GIF text leaves Unicode escapes encoded when the same string contains emoji or CJK text, Value: 4
+							664 link Description: Bug: GIF text leaves Unicode escapes encoded when the same string contains emoji or CJK text, Value: github.com/browser-use/browser-use/issues/5638
+						665 button Filter by label bug
+					666 text Unread
+					667 image Open
+					668 text browser-use/browser-use#5638
+					669 text · 
+					670 button Filter by author yifanxiong272
+						671 text Filter by author
+						672 text yifanxiong272
+					673 text opened
+					674 container Sep 1, 2026, 05:53 GMT+1
+						675 text on Sep 1
+					676 text · 
+					677 text Updated 
+					678 container Sep 25, 2026, 08:29 GMT+1
+						679 text 3w ago
+					680 pop up button (collapsed) Description: 4 linked pull requests, Secondary Actions: Expand
+					681 image 1 comments
+					682 text 1
+				683 container Bug: Screenshot blob in tool result poisons conversation context → API 400 on all subsequent turns. More information available below.
+					684 container
+						685 heading Bug: Screenshot blob in tool result poisons conversation context → API 400 on all subsequent turns, Value: 4
+							686 link Description: Bug: Screenshot blob in tool result poisons conversation context → API 400 on all subsequent turns, Value: github.com/browser-use/browser-use/issues/4742
+						687 button Filter by label bug
+					688 text Unread
+					689 image Open
+					690 text browser-use/browser-use#4742
+					691 text · 
+					692 button Filter by author hellosimplerick
+						693 text Filter by author
+						694 text hellosimplerick
+					695 text opened
+					696 container Apr 25, 2026, 15:42 GMT+1
+						697 text on Apr 25
+					698 text · 
+					699 text Updated 
+					700 container Sep 24, 2026, 16:36 GMT+1
+						701 text 3w ago
+					702 pop up button (collapsed) Description: 4 linked pull requests, Secondary Actions: Expand
+					703 image 15 comments
+					704 text 15
+				705 container Intermittent CDP WebSocket connection drops during cloud browser sessions. More information available below.
+					706 container
+						707 heading Intermittent CDP WebSocket connection drops during cloud browser sessions, Value: 4
+							708 link Description: Intermittent CDP WebSocket connection drops during cloud browser sessions, Value: github.com/browser-use/browser-use/issues/4688
+						709 button Filter by label bug
+					710 text Unread
+					711 image Open
+					712 text browser-use/browser-use#4688
+					713 text · 
+					714 button Filter by author lavish619
+						715 text Filter by author
+						716 text lavish619
+					717 text opened
+					718 container Apr 15, 2026, 16:42 GMT+1
+						719 text on Apr 15
+					720 text · 
+					721 text Updated 
+					722 container Sep 24, 2026, 16:36 GMT+1
+						723 text 3w ago
+					724 link Value: github.com/browser-use/browser-use/pull/4793, Description: 1 linked pull request browser-use/browser-use#4793: fix(browser): retry cookie export after cdp timeout, Closed
+					725 image 8 comments
+					726 text 8
+				727 container Bug: schema cleanup removes fields named default, minItems, or min_items. More information available below.
+					728 container
+						729 heading Bug: schema cleanup removes fields named default, minItems, or min_items, Value: 4
+							730 link Description: Bug: schema cleanup removes fields named default, minItems, or min_items, Value: github.com/browser-use/browser-use/issues/5829
+						731 button Filter by label bug
+					732 text Unread
+					733 image Open
+					734 text browser-use/browser-use#5829
+					735 text · 
+					736 button Filter by author dafyy321-pixel
+						737 text Filter by author
+						738 text dafyy321-pixel
+					739 text opened
+					740 container Sep 17, 2026, 09:16 GMT+1
+						741 text 1mo ago
+					742 text · 
+					743 text Updated 
+					744 container Sep 18, 2026, 23:16 GMT+1
+						745 text 1mo ago
+					746 link Value: github.com/browser-use/browser-use/pull/5893, Description: 1 linked pull request browser-use/browser-use#5893: fix(schema): keep user fields named after stripped keywords in remove passes, Open
+					747 image 1 comments
+					748 text 1
+				749 container Bug: HTMLSerializer drops visible code elements when their IDs contain data or state. More information available below.
+					750 container
+						751 heading Bug: HTMLSerializer drops visible code elements when their IDs contain data or state, Value: 4
+							752 link Description: Bug: HTMLSerializer drops visible code elements when their IDs contain data or state, Value: github.com/browser-use/browser-use/issues/5629
+						753 button Filter by label bug
+					754 text Unread
+					755 image Open
+					756 text browser-use/browser-use#5629
+					757 text · 
+					758 button Filter by author yifanxiong272
+						759 text Filter by author
+						760 text yifanxiong272
+					761 text opened
+					762 container Sep 1, 2026, 03:46 GMT+1
+						763 text on Sep 1
+					764 text · 
+					765 text Updated 
+					766 container Sep 18, 2026, 13:17 GMT+1
+						767 text 1mo ago
+					768 pop up button (collapsed) Description: 2 linked pull requests, Secondary Actions: Expand
+					769 image 3 comments
+					770 text 3
+				771 container Bug: Depreciated syntax used to list development dependencies in pyproject.toml. More information available below.
+					772 container
+						773 heading Bug: Depreciated syntax used to list development dependencies in pyproject.toml, Value: 4
+							774 link Description: Bug: Depreciated syntax used to list development dependencies in pyproject.toml, Value: github.com/browser-use/browser-use/issues/5831
+						775 button Filter by label bug
+					776 text Unread
+					777 image Open
+					778 text browser-use/browser-use#5831
+					779 text · 
+					780 button Filter by author Lucky-Lodhi2004
+						781 text Filter by author
+						782 text Lucky-Lodhi2004
+					783 text opened
+					784 container Sep 17, 2026, 10:18 GMT+1
+						785 text 1mo ago
+					786 text · 
+					787 text Updated 
+					788 container Sep 17, 2026, 14:15 GMT+1
+						789 text 1mo ago
+					790 pop up button (collapsed) Description: 2 linked pull requests, Secondary Actions: Expand
+					791 image 1 comments
+					792 text 1
+				793 container Bug: evaluate hides JavaScript exception details behind "Uncaught". More information available below.
+					794 container
+						795 heading Bug: evaluate hides JavaScript exception details behind "Uncaught", Value: 4
+							796 link Description: Bug: evaluate hides JavaScript exception details behind "Uncaught", Value: github.com/browser-use/browser-use/issues/5749
+						797 button Filter by label bug
+					798 text Unread
+					799 image Open
+					800 text browser-use/browser-use#5749
+					801 text · 
+					802 button Filter by author blgbr0
+						803 text Filter by author
+						804 text blgbr0
+					805 text opened
+					806 container Sep 9, 2026, 10:35 GMT+1
+						807 text on Sep 9
+					808 text · 
+					809 text Updated 
+					810 container Sep 13, 2026, 10:22 GMT+1
+						811 text on Sep 13
+					812 pop up button (collapsed) Description: 2 linked pull requests, Secondary Actions: Expand
+					813 image 1 comments
+					814 text 1
+				815 container Bug: ...Performance degradation during long-running agent tasks due to repeated DOM serialization, browser state fetching, and growing message history. More information available below.
+					816 container
+						817 heading Value: 4, Bug: ...Performance degradation during long-running agent tasks due to repeated DOM serialization, browser state fetching, and growing message history
+							818 link Value: github.com/browser-use/browser-use/issues/5747, Description: Bug: ...Performance degradation during long-running agent tasks due to repeated DOM serialization, browser state fetching, and growing message history
+						819 button Filter by label bug
+					820 text Unread
+					821 image Open
+					822 text browser-use/browser-use#5747
+					823 text · 
+					824 button Filter by author benjamin920102
+						825 text Filter by author
+						826 text benjamin920102
+					827 text opened
+					828 container Sep 9, 2026, 09:16 GMT+1
+						829 text on Sep 9
+					830 text · 
+					831 text Updated 
+					832 container Sep 10, 2026, 21:19 GMT+1
+						833 text on Sep 10
+					834 image 3 comments
+					835 text 3
+				836 container Bug: ...browser-use can't use tab list command. More information available below.
+					837 container
+						838 heading Bug: ...browser-use can't use tab list command, Value: 4
+							839 link Description: Bug: ...browser-use can't use tab list command, Value: github.com/browser-use/browser-use/issues/4790
+						840 button Filter by label bug
+					841 text Unread
+					842 image Open
+					843 text browser-use/browser-use#4790
+					844 text · 
+					845 button Filter by author joy3mao
+						846 text Filter by author
+						847 text joy3mao
+					848 text opened
+					849 container May 6, 2026, 10:21 GMT+1
+						850 text on May 6
+					851 text · 
+					852 text Updated 
+					853 container Sep 7, 2026, 19:06 GMT+1
+						854 text on Sep 7
+					855 pop up button (collapsed) Description: 2 linked pull requests, Secondary Actions: Expand
+					856 image 4 comments
+					857 text 4
+				858 container Bug: send_keys applies the Enter-specific delay to text containing enter. More information available below.
+					859 container
+						860 heading Bug: send_keys applies the Enter-specific delay to text containing enter, Value: 4
+							861 link Description: Bug: send_keys applies the Enter-specific delay to text containing enter, Value: github.com/browser-use/browser-use/issues/5573
+						862 button Filter by label bug
+					863 text Unread
+					864 image Open
+					865 text browser-use/browser-use#5573
+					866 text · 
+					867 button Filter by author yifanxiong272
+						868 text Filter by author
+						869 text yifanxiong272
+					870 text opened
+					871 container Aug 28, 2026, 02:36 GMT+1
+						872 text on Aug 28
+					873 text · 
+					874 text Updated 
+					875 container Sep 7, 2026, 15:14 GMT+1
+						876 text on Sep 7
+					877 pop up button (collapsed) Description: 7 linked pull requests, Secondary Actions: Expand
+					878 image 1 comments
+					879 text 1
+				880 container Bug: sensitive_data is never redacted from the built-in input_text action in saved history. More information available below.
+					881 container
+						882 heading Bug: sensitive_data is never redacted from the built-in input_text action in saved history, Value: 4
+							883 link Description: Bug: sensitive_data is never redacted from the built-in input_text action in saved history, Value: github.com/browser-use/browser-use/issues/5679
+						884 button Filter by label bug
+					885 text Unread
+					886 image Open
+					887 text browser-use/browser-use#5679
+					888 text · 
+					889 button Filter by author Mohil-Ahuja
+						890 text Filter by author
+						891 text Mohil-Ahuja
+					892 text opened
+					893 container Sep 5, 2026, 09:46 GMT+1
+						894 text on Sep 5
+					895 text · 
+					896 text Updated 
+					897 container Sep 7, 2026, 15:07 GMT+1
+						898 text on Sep 7
+					899 pop up button (collapsed) Description: 3 linked pull requests, Secondary Actions: Expand
+					900 image 1 comments
+					901 text 1
+				902 container Extension over browser-use to automate task in the current opened chrome instance?. More information available below.
+					903 container
+						904 heading Extension over browser-use to automate task in the current opened chrome instance?, Value: 4
+							905 link Description: Extension over browser-use to automate task in the current opened chrome instance?, Value: github.com/browser-use/browser-use/issues/4709
+						906 button Filter by label bug
+					907 text Unread
+					908 image Open
+					909 text browser-use/browser-use#4709
+					910 text · 
+					911 button Filter by author badarkhannn
+						912 text Filter by author
+						913 text badarkhannn
+					914 text opened
+					915 container Apr 20, 2026, 12:34 GMT+1
+						916 text on Apr 20
+					917 text · 
+					918 text Updated 
+					919 container Sep 7, 2026, 12:37 GMT+1
+						920 text on Sep 7
+					921 link Value: github.com/browser-use/browser-use/pull/5620, Description: 1 linked pull request browser-use/browser-use#5620: fix(browser): report unsupported subprocess event loop, Open
+					922 image 6 comments
+					923 text 6
+				924 container Bug: variable detection classifies company_name and organization_name fields as generic names. More information available below.
+					925 container
+						926 heading Bug: variable detection classifies company_name and organization_name fields as generic names, Value: 4
+							927 link Description: Bug: variable detection classifies company_name and organization_name fields as generic names, Value: github.com/browser-use/browser-use/issues/5635
+						928 button Filter by label bug
+					929 text Unread
+					930 image Open
+					931 text browser-use/browser-use#5635
+					932 text · 
+					933 button Filter by author yifanxiong272
+						934 text Filter by author
+						935 text yifanxiong272
+					936 text opened
+					937 container Sep 1, 2026, 05:15 GMT+1
+						938 text on Sep 1
+					939 text · 
+					940 text Updated 
+					941 container Sep 1, 2026, 10:28 GMT+1
+						942 text on Sep 1
+					943 pop up button (collapsed) Description: 4 linked pull requests, Secondary Actions: Expand
+					944 image 1 comments
+					945 text 1
+				946 container Bug: Sensitive placeholders inside tuple action parameters are not replaced. More information available below.
+					947 container
+						948 heading Bug: Sensitive placeholders inside tuple action parameters are not replaced, Value: 4
+							949 link Description: Bug: Sensitive placeholders inside tuple action parameters are not replaced, Value: github.com/browser-use/browser-use/issues/5568
+						950 button Filter by label bug
+					951 text Unread
+					952 image Open
+					953 text browser-use/browser-use#5568
+					954 text · 
+					955 button Filter by author yifanxiong272
+						956 text Filter by author
+						957 text yifanxiong272
+					958 text opened
+					959 container Aug 28, 2026, 01:44 GMT+1
+						960 text on Aug 28
+					961 text · 
+					962 text Updated 
+					963 container Aug 28, 2026, 02:17 GMT+1
+						964 text on Aug 28
+					965 pop up button (collapsed) Description: 2 linked pull requests, Secondary Actions: Expand
+					966 image 1 comments
+					967 text 1
+				968 container bubus library EventBus capacity error — Cross-Loop Bug (service.py). More information available below.
+					969 container
+						970 heading bubus library EventBus capacity error — Cross-Loop Bug (service.py), Value: 4
+							971 link Description: bubus library EventBus capacity error — Cross-Loop Bug (service.py), Value: github.com/browser-use/browser-use/issues/5509
+						972 button Filter by label bug
+					973 text Unread
+					974 image Open
+					975 text browser-use/browser-use#5509
+					976 text · 
+					977 button Filter by author beyzaaydin
+						978 text Filter by author
+						979 text beyzaaydin
+					980 text opened
+					981 container Aug 21, 2026, 10:00 GMT+1
+						982 text on Aug 21
+					983 text · 
+					984 text Updated 
+					985 container Aug 27, 2026, 11:42 GMT+1
+						986 text on Aug 27
+					987 pop up button (collapsed) Description: 3 linked pull requests, Secondary Actions: Expand
+					988 image 1 comments
+					989 text 1
+				990 container Question: New Chrom versions and extensions. More information available below.
+					991 container
+						992 heading Question: New Chrom versions and extensions, Value: 4
+							993 link Description: Question: New Chrom versions and extensions, Value: github.com/browser-use/browser-use/issues/4803
+						994 button Filter by label bug
+					995 text Unread
+					996 image Open
+					997 text browser-use/browser-use#4803
+					998 text · 
+					999 button Filter by author ekmekovski
+						1000 text Filter by author
+						1001 text ekmekovski
+					1002 text opened
+					1003 container May 8, 2026, 13:45 GMT+1
+						1004 text on May 8
+					1005 text · 
+					1006 text Updated 
+					1007 container Aug 27, 2026, 11:39 GMT+1
+						1008 text on Aug 27
+					1009 image 3 comments
+					1010 text 3
+			430 container Pagination
+				431 container
+					432 link Description: Page 1, Value: github.com/browser-use/browser-use/issues?q=is%3Aissue+is%3Aopen+label%3Abug+sort%3Aupdated-desc
+					433 link Description: Page 2, Value: github.com/browser-use/browser-use/issues?q=is%3Aissue+is%3Aopen+label%3Abug+sort%3Aupdated-desc&page=2
+					440 link Description: Next Page, Value: github.com/browser-use/browser-use/issues?q=is%3Aissue+is%3Aopen+label%3Abug+sort%3Aupdated-desc&page=2
+	441 container
+		442 heading Footer, Value: 2
+			443 text Footer
+		444 link Description: GitHub Homepage, Value: github.com/
+		445 text © 2026 GitHub, Inc.
+		446 container Footer
+			447 heading Footer navigation, Value: 3, ID: sr-footer-heading
+				448 text Footer navigation
+			449 content list Footer navigation
+				450 link Description: Terms, Value: docs.github.com/site-policy/github-terms/github-terms-of-service
+				451 link Description: Privacy, Value: docs.github.com/site-policy/privacy-policies/github-privacy-statement
+				452 link Description: Security, Value: github.com/security
+				453 link Description: Status, Value: githubstatus.com/
+				454 link Description: Community, Value: github.community/
+				455 link Description: Docs, Value: docs.github.com/
+				456 link Description: Contact, Value: support.github.com/?tags=dotcom-footer
+				457 button Manage cookies
+				458 button Do not share my personal information
+
+The focused UI element is 41 combo box (collapsed, settable) Search issues, Value: is:issue is:open label:bug sort:updated-desc, ID: issues-index-filter-input, Secondary Actions: Expand

@@ -1,0 +1,85 @@
+{
+  "model": "claude-sonnet-5-5",
+  "id": "msg_011CgH5kNNhRJ73oXNb5T6f4",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "text",
+      "text": "Open the first one (read-only would be safer)."
+    },
+    {
+      "type": "tool_use",
+      "id": "toolu_01PKcKURZU38VAyz9EjnueeC",
+      "name": "left_click",
+      "input": {
+        "coordinate": [
+          183,
+          556
+        ]
+      },
+      "toolset_name": "computer",
+      "caller": {
+        "type": "direct"
+      }
+    },
+    {
+      "type": "tool_use",
+      "id": "toolu_01DdodSKgiJXBwGPC4E98WtL",
+      "name": "double_click",
+      "input": {
+        "coordinate": [
+          400,
+          271
+        ]
+      },
+      "toolset_name": "computer",
+      "caller": {
+        "type": "direct"
+      }
+    },
+    {
+      "type": "tool_use",
+      "id": "toolu_01QXB8WAis38og7jThnukU4J",
+      "name": "wait",
+      "input": {
+        "duration": 4
+      },
+      "toolset_name": "computer",
+      "caller": {
+        "type": "direct"
+      }
+    },
+    {
+      "type": "tool_use",
+      "id": "toolu_01RiVsY4aMAtZRfEoudydBvj",
+      "name": "screenshot",
+      "input": {},
+      "toolset_name": "computer",
+      "caller": {
+        "type": "direct"
+      }
+    }
+  ],
+  "container": null,
+  "stop_reason": "tool_use",
+  "stop_sequence": null,
+  "stop_details": null,
+  "usage": {
+    "input_tokens": 12291,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 136,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+  },
+  "diagnostics": null
+}

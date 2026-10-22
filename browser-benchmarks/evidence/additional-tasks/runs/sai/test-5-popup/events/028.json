@@ -1,0 +1,89 @@
+{
+  "http_status": 200,
+  "body": {
+    "sessionId": "id-b0ace35c3f25",
+    "status": "running",
+    "events": [
+      {
+        "type": "tool-input-start",
+        "toolCallId": "1792262266574-tool-bktqh0ix6k",
+        "toolName": "execute"
+      },
+      {
+        "type": "tool-input-available",
+        "toolCallId": "1792262266574-tool-bktqh0ix6k",
+        "toolName": "execute",
+        "input": {
+          "title": "Trying to select Standard review via the input element",
+          "code": "// Try clicking the dropdown input again to see options, then pick Standard review\nawait page.click({ ref: \"e16\" })\nawait wait({ waitTime: 0.5 })\n// Now try clicking the Standard review option\nawait page.click({ ref: \"e15\" })\nawait wait({ waitTime: 0.5 })\nvar snap = await page.snapshot()\nconsole.log(snap.snapshot.outline())\n"
+        }
+      },
+      {
+        "type": "data-progress",
+        "data": {
+          "text": "Trying to select Standard review via the input element",
+          "tool": "execute"
+        }
+      },
+      {
+        "type": "data-progress",
+        "data": {
+          "text": "[Guardrails] ✅ click: allow (score=0) ref=e16 — score=0",
+          "tool": "execute"
+        }
+      },
+      {
+        "type": "data-progress",
+        "data": {
+          "text": "⏱ [free plan] About 3 min of computer time left today. Wrap up: finish or save state, summarize for the user, and release the machine before time runs out.",
+          "tool": "execute"
+        }
+      },
+      {
+        "type": "data-progress",
+        "data": {
+          "text": "[Guardrails] ✅ click: allow (score=0) ref=e15 — score=0",
+          "tool": "execute"
+        }
+      }
+    ],
+    "text": "",
+    "cursor": "eyJ0dXJuIjoxNzkyMjYyMTY5MTY3LCJzZWVuIjpbIjE3OTIyNjIxODU5OTQtdG9vbC1mY2Jja2FscG5pIiwiMTc5MjI2MjE5MzQ0MC1hc3Npc3RhbnQta3pxaWpnYzBzOHMiLCIxNzkyMjYyMjAzMDMwLXRvb2wtc3JpZmlodnZ0M2YiLCIxNzkyMjYyMjE1NjY3LXRvb2wtdHhrYm1rNHkxYzgiLCIxNzkyMjYyMjA1NjU0LWFzc2lzdGFudC14c215c2JoZnN3IiwiMTc5MjI2MjIxODM2MC1hc3Npc3RhbnQtNjR4ZHQza2RhaXIiLCIxNzkyMjYyMjMxMjM3LXRvb2wteDFlODFkYWJkNiIsIjE3OTIyNjIyMzM4ODItYXNzaXN0YW50LTY5YXY3bWpldzY0IiwiMTc5MjI2MjI0MjA2MS10b29sLXJ6eThlMWp4MmhwIiwiMTc5MjI2MjI2NjU3NC10b29sLWJrdHFoMGl4NmsiXSwicHJvZyI6eyIxNzkyMjYyMjAzNTU4LXJlc3VsdC1pdG1scW9uYjBxYiI6MSwiMTc5MjI2MjIxNjE3Ny1yZXN1bHQtbjA5MW92MDN0NWoiOjEsIjE3OTIyNjIyNDI2MDctcmVzdWx0LWlkbmUxbXFhb3QiOjEsIjE3OTIyNjIyNjcwNjQtcmVzdWx0LWFzOTNuNnl3MzBnIjozfX0",
+    "usage": {
+      "inputTokens": 4149,
+      "outputTokens": 1219,
+      "cacheReadTokens": 233984,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 6,
+      "byModel": {
+        "openrouter-deepseek/deepseek-v4-flash": {
+          "inputTokens": 4149,
+          "outputTokens": 1219,
+          "cacheReadTokens": 233984,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 6
+        }
+      }
+    },
+    "sessionUsage": {
+      "inputTokens": 4149,
+      "outputTokens": 1219,
+      "cacheReadTokens": 233984,
+      "cacheWriteTokens": 0,
+      "costUsd": 0,
+      "modelCalls": 6,
+      "byModel": {
+        "openrouter-deepseek/deepseek-v4-flash": {
+          "inputTokens": 4149,
+          "outputTokens": 1219,
+          "cacheReadTokens": 233984,
+          "cacheWriteTokens": 0,
+          "costUsd": 0,
+          "modelCalls": 6
+        }
+      }
+    }
+  }
+}

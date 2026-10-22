@@ -1,0 +1,11 @@
+{
+  "outcome": "BLOCKED \u2014 harness protocol failure",
+  "score": null,
+  "submitted": true,
+  "corrected_file_collected": false,
+  "reason": "Tool-result protocol error HTTP 400 invalidated continuation; retain the paid first response, five actions, error and cost as a separate infrastructure attempt.",
+  "evidence": [
+    "logs/claude/count-error.json",
+    "logs/claude/events.jsonl"
+  ]
+}

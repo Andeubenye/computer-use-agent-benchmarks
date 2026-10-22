@@ -1,0 +1,37 @@
+{
+  "outcome": "PASS",
+  "score": 5,
+  "checks": {
+    "opened_in_spreadsheet": true,
+    "both_status_corrections": true,
+    "other_values_and_row_order_preserved": true,
+    "separate_corrected_csv_and_original_preserved": true,
+    "reopened_saved_file_and_verified": true
+  },
+  "parsed_output_exactly_matches_expected": true,
+  "original_sha256": "172c7b251b10ac8992abc0d1badc78a5aa1d996b1796208e5e61f1ba3a62a823",
+  "expected_original_sha256": "172c7b251b10ac8992abc0d1badc78a5aa1d996b1796208e5e61f1ba3a62a823",
+  "corrected_sha256": "118eaa9aec46a75a22f2b8d0bcafebdb0debe47a9d5fb9f3f52d78847d55ee69",
+  "gui_observations": {
+    "opened_csv_in_spreadsheet": {
+      "verified": true,
+      "evidence": [
+        "screenshots/openai/012-screenshot.png"
+      ],
+      "explanation": "Source orders_to_fix.csv visible in Calc during the editing workflow."
+    },
+    "reopened_saved_csv_and_verified": {
+      "verified": true,
+      "evidence": [
+        "screenshots/openai/021-screenshot.png",
+        "screenshots/openai/024-screenshot.png",
+        "screenshots/openai/025-screenshot.png",
+        "logs/openai/events.jsonl"
+      ],
+      "explanation": "After closing, corrected CSV import dialog is shown, then the reopened orders_corrected.csv sheet with both Pending values visible. No reviewer GUI intervention."
+    }
+  },
+  "agent_response_used_as_proof": false,
+  "verifier_edits_files": false,
+  "csv_formatting_note": "Compare parsed values, not quoting or line endings; original file must remain byte-identical."
+}

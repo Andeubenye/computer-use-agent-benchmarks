@@ -1,0 +1,20 @@
+{
+  "source": "Existing desktop-computer-use-benchmark package",
+  "local_originals_modified": false,
+  "excluded_private_metadata": [
+    "preflight/batch-audit/publication.json",
+    "preflight/credentials.json",
+    "preflight/sai-machines.json"
+  ],
+  "redacted_text_files": [
+    "preflight/cleanup.json"
+  ],
+  "redactions": "Local home paths and private Sai inventory identifiers only. No task outputs or screenshots altered. All raw local evidence retained.",
+  "files_copied": 793,
+  "new_repository_created": false,
+  "archived_documentation_links_qualified": [
+    "docs/openai-computer-use.md",
+    "docs/openai-desktop-drivers.md"
+  ],
+  "link_change": "Resolve official documentation root-relative /llms.txt links against the original official domain. Local downloaded originals preserved."
+}

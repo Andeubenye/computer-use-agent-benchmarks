@@ -1,0 +1,33 @@
+{
+  "recorded_at_utc": "2026-10-21T00:02:46.451170+00:00",
+  "date_local": "2026-10-21",
+  "hardware": "Apple M1, 8 GB RAM",
+  "macos": "15.4.1",
+  "electron": "34.1.1",
+  "model": "ByteDance-Seed/UI-TARS-1.5-7B",
+  "source_tag": "v0.2.4",
+  "commit": "0ee87301a6db754c5f67909e5fbbcf05233abad9",
+  "operator": "Local Browser Operator",
+  "provider": "Hugging Face for UI-TARS-1.5",
+  "responses_api": false,
+  "output_tokens": 2048,
+  "context_user_reported": 32768,
+  "max_agent_loops": 100,
+  "loop_interval_ms": 1000,
+  "endpoint_rate_usd_per_hour_previously_observed": 1.8,
+  "model_revision_previously_exposed": "683d002dd99d8f95104d31e70391a39348857f4e",
+  "actual_session_invoice_cost": "Not measured",
+  "endpoint_changes_allowed": false,
+  "browser_download_policy_source": "deny",
+  "permissions_startup": "Accessibility and Screen Recording authorized; Chrome available",
+  "browser_flags_existing": "Includes --no-sandbox and --disable-web-security; no changes made; public benchmark pages only",
+  "model_permissions_changed": false,
+  "script_role": "timing, logging, screenshots, independent verification; no benchmark navigation or answer generation",
+  "macos_measured": "15.4.1",
+  "cpu_measured": "Apple M1",
+  "ram_bytes_measured": 8589934592,
+  "compiled_sha256": {
+    "dist/main/main.js": "9cd33bd142e4ffd7d7bebaa1075687cb00db5317fe3c4daeb0638a82a0283592",
+    "dist/preload/index.js": "4a3c60711fa7af456ca6f07025e90ffd4c73485c64f8d1310690960cb77b858d"
+  }
+}

@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.env
+.env.*
+*credentials*.sock
+
+# Reviewed status metadata and scanner source only; no key material.
+!logs/resume-2026-10-22/credential-check.json
+!preflight/batch-audit/authorized-credential-preflight.json
+!preflight/batch-audit/credential-availability.json
+!preflight/batch-audit/credential-reauthorization.json
+!preflight/batch-audit/secret-scan.json
+!preflight/credential-shutdown.json
+!scripts/preflight_credentials.py
+!verification/scan_secrets.py

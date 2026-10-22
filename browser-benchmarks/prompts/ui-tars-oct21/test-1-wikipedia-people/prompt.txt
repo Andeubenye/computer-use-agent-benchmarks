@@ -1,0 +1,11 @@
+Open Wikipedia and find the birth years of the following five people:
+
+1. Alan Turing
+2. Ada Lovelace
+3. Grace Hopper
+4. Tim Berners-Lee
+5. Margaret Hamilton (computer scientist)
+
+For each person, provide their full name, birth year, and the direct URL to the Wikipedia article you used.
+
+Use Wikipedia itself to verify your answers. Do not invent missing information.

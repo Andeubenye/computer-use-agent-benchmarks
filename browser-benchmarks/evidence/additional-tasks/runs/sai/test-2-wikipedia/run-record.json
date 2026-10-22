@@ -1,0 +1,23 @@
+{
+  "agent": "sai",
+  "task": "test-2-wikipedia",
+  "submitted": true,
+  "status": "succeeded",
+  "provider_turn_status": "succeeded",
+  "started_at": "2026-10-17T18:14:28.643012+00:00",
+  "agent_wall_seconds": 338.77661158400224,
+  "max_seconds_from_submission": 600,
+  "deadline_fired": false,
+  "turn_id": "id-b3b0ef28639b",
+  "session_id": "id-d70b1706f18d",
+  "actions": 13,
+  "action_unit": "executor calls",
+  "screenshots": 13,
+  "model": "auto; actual routes in events",
+  "cost_usd": null,
+  "free_credit_decrease_usd": 0.02,
+  "cost_basis": "free-account credit delta; provider usage separately retained",
+  "automatic_restarts": 0,
+  "fresh_session": true,
+  "fresh_desktop": false
+}

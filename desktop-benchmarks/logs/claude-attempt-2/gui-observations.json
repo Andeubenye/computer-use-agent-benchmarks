@@ -1,0 +1,19 @@
+{
+  "opened_csv_in_spreadsheet": {
+    "verified": true,
+    "evidence": [
+      "screenshots/claude-attempt-2/004-screenshot.png"
+    ],
+    "explanation": "Visual review: LibreOffice Calc title is orders_to_fix.csv and both original Pendng values are visible."
+  },
+  "reopened_saved_csv_and_verified": {
+    "verified": false,
+    "evidence": [
+      "screenshots/claude-attempt-2/011-screenshot.png",
+      "screenshots/claude-attempt-2/012-screenshot.png",
+      "screenshots/claude-attempt-2/013-screenshot.png",
+      "logs/claude-attempt-2/events.jsonl"
+    ],
+    "explanation": "Saved sheet is shown before closing; final screenshots show the Open dialog with corrected path entered. No subsequent reopened sheet or verification response was captured. Reviewer did not click Open."
+  }
+}

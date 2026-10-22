@@ -1,0 +1,8 @@
+{
+  "agent": "sai",
+  "task": "test-5-popup",
+  "status": "blocked",
+  "submitted": false,
+  "reason": "prior run access/cleanup uncertainty; no troubleshooting or restart",
+  "cost_usd": 0
+}
