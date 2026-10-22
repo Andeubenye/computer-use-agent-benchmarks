@@ -42,3 +42,7 @@ UI-TARS did not submit this task in the common batch. Its later five tasks used 
 ## TinyFish follow-up — 22 October 2026
 
 [Three independently executed reruns](../reruns/tinyfish-form-2026-10-22/README.md) reused this exact prompt and rubric. Each confirms 8/10 fields, with one strict message mismatch and one checkbox unverified; the alternative message interpretation confirms 9 with one still unverified. Original visible omissions did not recur. All original outcomes above remain unchanged.
+
+## Clarified prompt configuration
+
+[Exact clarified prompt and six actual attempts](../reruns/clarified-form-2026-10-22/README.md). Claude: PASS 10/10 three times. TinyFish: two partials with nine confirmed fields/one unverified, plus one budget-stopped failure. Original prompt text, ambiguous-message sensitivity and all earlier outcomes above remain unchanged.

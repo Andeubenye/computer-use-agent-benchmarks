@@ -1,0 +1,10 @@
+{
+  "agent": "tinyfish",
+  "task": "clarified-form",
+  "status": "failed_submission",
+  "submitted": true,
+  "reason": "submission_rejected_or_uncertain",
+  "cost_usd": null,
+  "reserved_uncertain_usd": 2.4,
+  "automatic_restarts": 0
+}

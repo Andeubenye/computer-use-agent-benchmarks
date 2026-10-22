@@ -1,0 +1,9 @@
+{
+  "http_status": 403,
+  "body": {
+    "error": {
+      "code": "FORBIDDEN",
+      "message": "Your account is not enabled for custom max steps yet. Join the beta program at /beta, then retry."
+    }
+  }
+}

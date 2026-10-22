@@ -1,0 +1,22 @@
+{
+  "agent": "tinyfish",
+  "task": "clarified-form",
+  "submitted": true,
+  "status": "CANCELLED",
+  "client_error": null,
+  "started_at": "2026-10-22T15:26:28.769302+00:00",
+  "agent_wall_seconds": 253.39859020800213,
+  "max_seconds_from_submission": 600,
+  "deadline_fired": false,
+  "run_id": "opaque-id-0029",
+  "actions": 0,
+  "action_unit": "provider steps",
+  "screenshots": 24,
+  "model": null,
+  "model_limitation": "Revision not exposed",
+  "cost_usd": 0.0,
+  "cost_basis": "published $0.016 per reported step; not invoice",
+  "automatic_restarts": 0,
+  "fresh_profile_requested": true,
+  "internal_retries": null
+}

@@ -1,0 +1,8 @@
+{
+  "delta_usd": 0.0,
+  "currency": "USD",
+  "auto_reload_state": "unconfigured",
+  "pending_top_up_present": false,
+  "absolute_balances_omitted": true,
+  "basis": "Observed account delta, not invoice; external concurrent use cannot be excluded"
+}

@@ -54,3 +54,7 @@ This publication assembly made no model request, hosted-fixture deployment, endp
 ## Later TinyFish form reruns — 22 October 2026
 
 Three real hosted-agent attempts reused the exact original prompt, field rubric, hosted fixture and 600-second limit. Separate sessions requested no attached profile/vault. Extra read-only captures improved observability but did not expose live input properties; newsletter state remains unverified. No Claude rerun or task intervention occurred. Original cohorts and grades are retained. [Full follow-up methodology](browser-benchmarks/reruns/tinyfish-form-2026-10-22/METHODOLOGY.md), including capture, timer, message-ambiguity and cost differences.
+
+## Clarified prompt, separate six-run configuration
+
+The [clarified form experiment](browser-benchmarks/reruns/clarified-form-2026-10-22/METHODOLOGY.md) preserves the original fixture/rubric and provider model/browser configurations, while changing the exact shared user prompt to specify both message sentences and whole-form verification. Three actual runs per agent used 600-second maxima and a new below-$2 spending constraint. Budget guards, one pre-agent optional-field rejection, one cancelled run, and three post-model capture timeouts are explicit. No actual agent was restarted or helped with form entries. Missing checked-property evidence remains unavailable. Historical and clarified configurations are not pooled.

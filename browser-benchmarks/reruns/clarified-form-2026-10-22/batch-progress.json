@@ -1,0 +1,73 @@
+{
+  "utc": "2026-10-22T15:24:40.637630+00:00",
+  "last_finished": "claude-3",
+  "ledger": {
+    "cap_usd": 2,
+    "allocated_maximum_usd": 1.95,
+    "no_purchases_or_topups": true,
+    "entries": {
+      "tinyfish-1": {
+        "allocation_usd": 0.32,
+        "charged_or_reserved_usd": 0.0,
+        "state": "finished",
+        "started_at": "2026-10-22T15:20:41.378822+00:00",
+        "cost_usd": 0.0,
+        "uncertain_reserved_usd": 0.0,
+        "cost_basis": "definitive pre-run submission rejection; no created agent run",
+        "finished_at": "2026-10-22T15:20:43.787233+00:00"
+      },
+      "claude-1": {
+        "allocation_usd": 0.33,
+        "charged_or_reserved_usd": 0.33,
+        "state": "finished",
+        "started_at": "2026-10-22T15:20:45.435288+00:00",
+        "cost_usd": 0.0,
+        "uncertain_reserved_usd": 0.33,
+        "cost_basis": "uncertain generation: full allocation retained",
+        "finished_at": "2026-10-22T15:21:58.948551+00:00"
+      },
+      "tinyfish-2": {
+        "allocation_usd": 0.32,
+        "charged_or_reserved_usd": 0.0,
+        "state": "finished",
+        "started_at": "2026-10-22T15:21:59.317118+00:00",
+        "cost_usd": 0.0,
+        "uncertain_reserved_usd": 0.0,
+        "cost_basis": "no request",
+        "finished_at": "2026-10-22T15:21:59.318170+00:00"
+      },
+      "claude-2": {
+        "allocation_usd": 0.33,
+        "charged_or_reserved_usd": 0.33,
+        "state": "finished",
+        "started_at": "2026-10-22T15:21:59.318717+00:00",
+        "cost_usd": 0.0,
+        "uncertain_reserved_usd": 0.33,
+        "cost_basis": "uncertain generation: full allocation retained",
+        "finished_at": "2026-10-22T15:23:17.212486+00:00"
+      },
+      "tinyfish-3": {
+        "allocation_usd": 0.32,
+        "charged_or_reserved_usd": 0.0,
+        "state": "finished",
+        "started_at": "2026-10-22T15:23:17.711656+00:00",
+        "cost_usd": 0.0,
+        "uncertain_reserved_usd": 0.0,
+        "cost_basis": "no request",
+        "finished_at": "2026-10-22T15:23:17.716101+00:00"
+      },
+      "claude-3": {
+        "allocation_usd": 0.33,
+        "charged_or_reserved_usd": 0.33,
+        "state": "finished",
+        "started_at": "2026-10-22T15:23:17.717416+00:00",
+        "cost_usd": 0.0,
+        "uncertain_reserved_usd": 0.33,
+        "cost_basis": "uncertain generation: full allocation retained",
+        "finished_at": "2026-10-22T15:24:40.225048+00:00"
+      }
+    },
+    "committed_or_reserved_usd": 0.99,
+    "remaining_usd": 1.01
+  }
+}

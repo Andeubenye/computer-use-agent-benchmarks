@@ -1,0 +1,131 @@
+"""Six explicit clarified-prompt attempts. Existing agent loops; no task decisions here."""
+from pathlib import Path
+from decimal import Decimal
+import argparse,ast,datetime,hashlib,json,os,socket,subprocess,sys,time,urllib.parse,logging
+HERE=Path(__file__).resolve().parent;ROOT=HERE.parents[1];OUT=HERE/'clarified-form-2026-10-22-private'
+CLAUDE=ROOT.parent/'set-up-a-working-benchmark-for/outputs/claude-computer-benchmark'
+logging.disable(logging.CRITICAL)
+def now():return datetime.datetime.now(datetime.timezone.utc).isoformat()
+def dump(p,x):p.parent.mkdir(parents=True,exist_ok=True);p.write_text(json.dumps(x,indent=2,ensure_ascii=False)+'\n')
+def credential(sock,name):
+ s=socket.socket(socket.AF_UNIX,socket.SOCK_STREAM)
+ try:s.connect(sock);s.sendall(name.encode());return s.recv(16384).decode()
+ finally:s.close()
+def main(sock):
+ marker=OUT/'batch-started.json'
+ if marker.exists():raise SystemExit('Existing batch marker; no automatic benchmark restart')
+ prompt=(OUT/'clarified-prompt.txt').read_text();digest=hashlib.sha256(prompt.encode()).hexdigest()
+ assert digest=='310e61b597776240557a2aed3e5bcbbdaf93a36c26c7c94e52b65d0b576b3007'
+ keys={a:credential(sock,a) for a in ('tinyfish','claude')};assert all(keys.values())
+ ns={'__file__':str(HERE/'common.py'),'KEYS':keys}
+ tree=ast.parse((HERE/'common.py').read_text());tree.body=[n for n in tree.body if not(isinstance(n,ast.Assign) and any(isinstance(t,ast.Name) and t.id=='KEYS' for t in n.targets))];exec(compile(tree,str(HERE/'common.py'),'exec'),ns)
+ api0=ns['api'];save=ns['save'];redact=ns['redact'];original_tasks=ns['TASKS'];ns['TASKS']={'clarified-form':{'prompt':prompt,'start_url':'https://manicule-agent-benchmark-oct17.peppyshark33.chatgpt.site/?task=form'}}
+ coretree=ast.parse((HERE/'cloud_batch.py').read_text());nodes=[n for n in coretree.body if isinstance(n,ast.FunctionDef) and n.name in ('tiny','submit_marker')];exec(compile(ast.fix_missing_locations(ast.Module(body=nodes,type_ignores=[])),str(HERE/'cloud_batch.py'),'exec'),ns)
+ allocations={f'{a}-{n}':Decimal('.32' if a=='tinyfish' else '.33') for n in (1,2,3) for a in ('tinyfish','claude')}
+ ledger={'cap_usd':2,'allocated_maximum_usd':1.95,'no_purchases_or_topups':True,'entries':{k:{'allocation_usd':float(v),'charged_or_reserved_usd':0,'state':'pending'} for k,v in allocations.items()}}
+ active={};tiny_access=True
+ def persist():
+  total=sum(Decimal(str(v['charged_or_reserved_usd'])) for v in ledger['entries'].values());assert total<2
+  ledger.update(committed_or_reserved_usd=float(total),remaining_usd=float(2-total));dump(OUT/'budget-ledger.json',ledger)
+ def begin(agent,n):
+  f=OUT/agent/f'attempt-{n}';f.mkdir(parents=True,exist_ok=False);key=f'{agent}-{n}';active.update(folder=f,key=key,allocation=allocations[key]);e=ledger['entries'][key];e.update(state='active',charged_or_reserved_usd=float(allocations[key]),started_at=now());persist()
+  (f/'task-prompt.txt').write_text(prompt);save(f/'configuration.json',{'agent':agent,'attempt':n,'prompt_sha256':digest,'max_seconds':600,'allocation_usd':float(allocations[key]),'automatic_benchmark_restarts':0,'agent_receives_only_exact_clarified_user_prompt':True,'expected_answers_or_verifier_observations_sent_to_agent':False,'safety_change':'20-step server spending limit for TinyFish; $0.33 request-reservation guard for Claude; models/browser profiles unchanged'})
+  return f
+ def finish(amount,basis,uncertain=0):
+  e=ledger['entries'][active['key']];amount=Decimal(str(amount));uncertain=Decimal(str(uncertain));assert amount+uncertain<=active['allocation'], 'Provider charge exceeds reserved run allocation; stop entire batch'
+  e.update(state='finished',charged_or_reserved_usd=float(amount+uncertain),cost_usd=float(amount),uncertain_reserved_usd=float(uncertain),cost_basis=basis,finished_at=now());persist()
+ def claim(a,t,reserve):return active['folder']
+ def tiny_ledger(unused,amount,basis):
+  f=active['folder'];r=json.loads((f/'submission.json').read_text()) if (f/'submission.json').exists() else {}
+  if r.get('http_status') in (400,401,402,403,422) and not (r.get('body') or {}).get('run_id'):finish(0,'definitive pre-run submission rejection; no created agent run');return True,None
+  if amount>float(active['allocation']):finish(0,'uncertain request; retain full run allocation',active['allocation'])
+  else:finish(amount,basis)
+  return True,None
+ def api(a,path,payload=None,**kw):
+  if path=='/v1/automation/run-async':
+   payload=dict(payload);assert payload['goal']==prompt
+   payload['agent_config']=dict(payload['agent_config'],max_steps=20)
+   payload['proxy_config']={'enabled':False};payload['capture_config']={'screenshots':True,'html':True,'snapshots':True,'elements':True}
+   save(active['folder']/'actual-submission-payload.json',payload)
+  return api0(a,path,payload,**kw)
+ ns.update(api=api,claim=claim,ledger=tiny_ledger)
+ def wallet():
+  response=api0('tinyfish','/v1/wallet');b=response.get('body') or {}
+  if response.get('http_status')!=200:return {'http_status':response.get('http_status')}
+  return {'http_status':200,'available_balance':b.get('available_balance'),'currency':b.get('currency'),'auto_reload_state':(b.get('auto_reload') or {}).get('state'),'pending_top_up_present':bool(b.get('pending_top_up'))}
+ def tiny_run(n):
+  nonlocal tiny_access
+  f=begin('tinyfish',n)
+  if not tiny_access:
+   save(f/'run-record.json',{'agent':'tinyfish','attempt':n,'submitted':False,'status':'blocked','reason':'Earlier definitive provider/spending-limit rejection; no resubmission','cost_usd':0});finish(0,'no request');return
+  before=wallet();assert before.get('auto_reload_state') in ('unconfigured','disabled') and float(before.get('available_balance',0))>=.32
+  ns['tiny']('clarified-form');after=wallet();save(f/'wallet-observation-private.json',{'before':before,'after':after});save(f/'wallet-observation.json',{'delta_usd':round(float(before['available_balance'])-float(after['available_balance']),8),'currency':'USD','auto_reload_state':after['auto_reload_state'],'pending_top_up_present':after['pending_top_up_present'],'absolute_balances_omitted':True,'basis':'Observed account delta, not invoice; external concurrent use cannot be excluded'})
+  runfile=f/'provider-run.json'
+  if not runfile.exists():
+   tiny_access=False;return
+  run=json.loads(runfile.read_text());assert run['status'] in ('COMPLETED','FAILED','CANCELLED'), 'Stop unconfirmed: no next run'
+  captures=[]
+  for step in run.get('steps',[]):
+   if not(step.get('html') and step.get('id')):continue
+   path='/v1/runs/'+urllib.parse.quote(run['run_id'],safe='')+'/steps/'+urllib.parse.quote(step['id'],safe='')+'/html'
+   r=api0('tinyfish',path,binary=True)
+   if r.get('http_status')==200 and isinstance(r.get('body'),bytes):
+    p=f/'html-captures'/f'{len(captures):03d}.html';p.parent.mkdir(exist_ok=True);p.write_bytes(r['body']);captures.append({'step_id':step['id'],'file':str(p.relative_to(f)),'after_terminal':True})
+  save(f/'capture-index.json',{'html':captures,'post_run_only':True,'verification_data_sent_to_agent':False,'post_terminal_browser_control':'No supported live control/screenshot capture endpoint exposed; retained all provider frames'})
+ def claude_run(n):
+  f=begin('claude',n);sys.path.insert(0,str(CLAUDE));os.environ['DOCKER_CONTEXT']='colima-claude-benchmark'
+  import anthropic
+  from benchmark import core,desktop
+  core.SYSTEM=core.SYSTEM.replace("user's read-only public-web task","user's public-web or synthetic benchmark task")
+  started=False;row=None;submitted=False
+  try:
+   # The original named browser-benchmark container is absent before the batch.
+   # Every iteration creates and removes only this disposable benchmark container.
+   desktop.start();started=True;d=desktop.Desktop();d.ready();d.claim()
+   limits=core.Limits(Decimal('.33'),60,300,4096,600);rec=core.Recorder(f/'native-evidence')
+   spec={'id':'clarified-form','prompt':prompt,'record_public_evidence':True,'evaluation':'manual_batch'}
+   save(f/'submitted-once.json',{'submitted_at':now(),'model':core.MODEL,'tool':core.TOOL_VERSION});submitted=True
+   with anthropic.Anthropic(api_key=keys['claude'],max_retries=0,timeout=60,base_url='https://api.anthropic.com') as client:row=core.run(client,d,spec,limits,rec)
+   if row is None:row=json.loads((rec.directory/'summary.json').read_text())
+   # Only screenshots and viewport scrolling AFTER the model has stopped.
+   ver=[]
+   for label,action,args in [('independent-agent-final','screenshot',{}),('independent-scroll-upper','scroll',{'coordinate':[1000,400],'scroll_direction':'up','scroll_amount':20}),('independent-upper','screenshot',{}),('independent-scroll-lower','scroll',{'coordinate':[1000,400],'scroll_direction':'down','scroll_amount':20}),('independent-lower','screenshot',{})]:
+    pic=d.execute(action,args,timeout=15);image=rec.screenshot(pic['content'],label) if action=='screenshot' and not pic.get('is_error') else None;ver.append({'label':label,'action':action,'args':args,'is_error':pic.get('is_error'),'image':image,'after_agent_stop':True,'provided_to_agent':False})
+   save(f/'independent-capture-log.json',{'actions':ver,'agent_field_edits':0,'submission_actions':0})
+   # Browser-local fixture record, read only through SQLite. No browser debugging or task edits.
+   reader='''import pathlib,sqlite3,json,base64
+out=[]
+for f in pathlib.Path('/home/agent').rglob('data.sqlite'):
+ if '/ls/' not in str(f):continue
+ try:
+  c=sqlite3.connect('file:'+str(f)+'?mode=ro',uri=True);c.execute('PRAGMA query_only=ON');cols=[x[1] for x in c.execute('pragma table_info(data)')];rows=[]
+  for row in c.execute('select * from data'):
+   z=dict(zip(cols,row));rows.append({k:({'base64':base64.b64encode(v).decode()} if isinstance(v,bytes) else v) for k,v in z.items()})
+  out.append({'file':str(f.relative_to('/home/agent')),'columns':cols,'rows':rows});c.close()
+ except Exception as e:out.append({'error':type(e).__name__})
+print(json.dumps({'read_only':True,'after_agent_stop':True,'provided_to_agent':False,'sources':out}))'''
+   try:
+    snapshot=desktop.docker('exec',desktop.CONTAINER,'python','-c',reader,timeout=15);save(f/'independent-local-storage-raw.json',json.loads(snapshot))
+   except Exception as e:save(f/'independent-local-storage-error.json',{'category':type(e).__name__})
+   cost=float(row.get('api_cost_usd',0));uncertain=float(row.get('uncertain_cost_reserved_usd',0));(f/'original-response.txt').write_text(redact(row.get('final_answer','')))
+   save(f/'run-record.json',{'agent':'claude','attempt':n,'task':'clarified-form','submitted':True,'status':row.get('status'),'agent_wall_seconds':row.get('agent_wall_seconds'),'wall_seconds':row.get('wall_seconds'),'max_seconds_from_submission':600,'actions':row.get('computer_actions'),'action_unit':'native computer actions including screenshots/zoom','screenshots':row.get('screenshots'),'additional_independent_screenshots':sum(bool(v['image']) for v in ver),'model':row.get('model_returned') or core.MODEL,'tool_version':core.TOOL_VERSION,'cost_usd':cost,'uncertain_cost_reserved_usd':uncertain,'cost_basis':'recorded tokens x unchanged standard model rates; not invoice','errors':row.get('errors'),'api_retries':row.get('api_retries'),'automatic_restarts':0,'fresh_desktop':True,'evidence_directory':str(rec.directory.relative_to(f))})
+   finish(cost,'recorded token estimate plus any uncertain reservation',uncertain)
+  except Exception as e:
+   save(f/'run-record.json',{'agent':'claude','attempt':n,'submitted':submitted,'status':'failed' if submitted else 'blocked','reason':type(e).__name__,'cost_usd':None if submitted else 0,'automatic_restarts':0})
+   finish(0,'uncertain generation: full allocation retained' if submitted else 'no generation request',active['allocation'] if submitted else 0)
+  finally:
+   if started:
+    try:desktop.stop()
+    except Exception as e:save(f/'cleanup-error.json',{'category':type(e).__name__});raise
+ # Account balance is private; credit settings are never modified.
+ initial=wallet();assert initial['http_status']==200 and initial['auto_reload_state'] in ('unconfigured','disabled')
+ save(OUT/'batch-started.json',{'utc':now(),'exact_prompt_sha256':digest,'planned_order':['tinyfish-1','claude-1','tinyfish-2','claude-2','tinyfish-3','claude-3'],'max_seconds_each':600,'cap_usd':2,'allocated_maximum_usd':1.95,'automatic_benchmark_restarts':0,'no_purchases_or_topups':True})
+ persist()
+ try:
+  for n in (1,2,3):
+   for name,fn in (('tinyfish',tiny_run),('claude',claude_run)):
+    fn(n);r=json.loads((active['folder']/'run-record.json').read_text());dump(OUT/'batch-progress.json',{'utc':now(),'last_finished':f'{name}-{n}','ledger':ledger});print(json.dumps({'finished':f'{name}-{n}','status':r.get('status'),'seconds':r.get('agent_wall_seconds'),'cost_usd':r.get('cost_usd'),'actions':r.get('actions')}),flush=True)
+ finally:
+  save(OUT/'batch-status.json',{'utc':now(),'ledger':ledger,'no_automatic_restarts':True});keys.clear()
+if __name__=='__main__':
+ parser=argparse.ArgumentParser();parser.add_argument('--socket',required=True);args=parser.parse_args();main(args.socket)

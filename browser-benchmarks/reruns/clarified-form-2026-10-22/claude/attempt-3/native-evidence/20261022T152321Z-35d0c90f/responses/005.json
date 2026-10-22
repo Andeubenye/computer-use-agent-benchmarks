@@ -1,0 +1,213 @@
+{
+  "id": "msg_011CgHWKELiCLyo5ULjm5UYm",
+  "content": [
+    {
+      "text": "Tab typing didn't work as expected (tabs inserted as text). I'll fill each field by clicking.",
+      "type": "text"
+    },
+    {
+      "id": "toolu_01WT3GBYX35gwUsmQom4RVpB",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "coordinate": [
+          300,
+          440
+        ]
+      },
+      "name": "triple_click",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01JFF9MVrs4uA2qvPJubxyoo",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "text": "ctrl+a"
+      },
+      "name": "key",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01KaJt5bP87EXFtdVxFrw7ms",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "text": "Alex"
+      },
+      "name": "type",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01GJj6c3KEF2Ys18zuPEbcY4",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "coordinate": [
+          722,
+          440
+        ]
+      },
+      "name": "left_click",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01GtKDq8P2JAwkBGfZmpzKPB",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "text": "Morgan"
+      },
+      "name": "type",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_013YnrrSkZc8S6aeoLxRw4nV",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "coordinate": [
+          300,
+          532
+        ]
+      },
+      "name": "left_click",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_011Ae3LC6WWB44gj52dtfu4e",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "text": "alex.morgan@example.com"
+      },
+      "name": "type",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_014NCPfzTZaSAT3BEtFnHpEi",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "coordinate": [
+          722,
+          532
+        ]
+      },
+      "name": "left_click",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_016wzMke57Yo3m524H7hAfHb",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "text": "+1 202-555-0147"
+      },
+      "name": "type",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01NSNnPf1emshu1Cx3oiKuo6",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "coordinate": [
+          300,
+          624
+        ]
+      },
+      "name": "left_click",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01MH94mZx8TeT9fhZgq67agm",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "text": "Northstar Labs"
+      },
+      "name": "type",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01AnJn8wsuQ22sUQnh7SzcE3",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "coordinate": [
+          722,
+          624
+        ]
+      },
+      "name": "left_click",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01NVZXNRLfAB8sYQZU3fNVqX",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "text": "Product Manager"
+      },
+      "name": "type",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01BCQCKALgEGKGdp4QaSTFfz",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {},
+      "name": "screenshot",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    }
+  ],
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_reason": "tool_use",
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 10313,
+    "output_tokens": 375,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

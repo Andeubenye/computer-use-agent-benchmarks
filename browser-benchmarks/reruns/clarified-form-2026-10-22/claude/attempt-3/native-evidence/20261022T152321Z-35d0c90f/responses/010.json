@@ -1,0 +1,29 @@
+{
+  "id": "msg_011CgHWMUoRka1er8A8qM4Ub",
+  "content": [
+    {
+      "text": "I filled in the form and did not submit it. It is still open in Firefox.\n\nI checked the fields on screen:\n- **First name:** Alex\n- **Last name:** Morgan\n- **Email:** alex.morgan@example.com\n- **Phone:** +1 202-555-0147\n- **Company:** Northstar Labs\n- **Job title:** Product Manager\n- **Country:** United States\n- **Preferred contact method:** Email is selected.\n- **Message:** \"This is a benchmark. Do not submit.\" Both sentences and both periods are there.\n- **Newsletter checkbox:** unchecked. I scrolled down to the end of the form to confirm this.\n\nMy first attempt used Tab to move between fields, and the page inserted the text into the First name box instead. I cleared it and re-entered each field by clicking, and the final values are correct.\n\nI scrolled the page to inspect the whole form, so the view currently sits partway down. There are no other limitations.",
+      "type": "text"
+    }
+  ],
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 16767,
+    "output_tokens": 310,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

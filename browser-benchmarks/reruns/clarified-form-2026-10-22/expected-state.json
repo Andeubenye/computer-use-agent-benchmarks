@@ -1,0 +1,19 @@
+{
+  "fields": {
+    "firstName": "Alex",
+    "lastName": "Morgan",
+    "email": "alex.morgan@example.com",
+    "phone": "+1 202-555-0147",
+    "company": "Northstar Labs",
+    "jobTitle": "Product Manager",
+    "country": "United States",
+    "contactMethod": "Email",
+    "message": "This is a benchmark. Do not submit.",
+    "newsletter": false
+  },
+  "submission_allowed": false,
+  "scoring_reference": "../../evidence/additional-tasks/preparation/SCORING.md",
+  "field_reference": "../../evidence/additional-tasks/preparation/FORM-RECONSTRUCTION.md",
+  "field_rubric_changed": false,
+  "message_sensitive_alternative_needed": false
+}

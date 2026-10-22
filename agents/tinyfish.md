@@ -11,3 +11,7 @@ Original responses, configuration, screenshots, failed attempts and verification
 ## Separate form follow-up — 22 October 2026
 
 [Three new actual browser runs](../browser-benchmarks/reruns/tinyfish-form-2026-10-22/README.md) each confirmed eight correct fields, resolving the original job-title/country/contact omissions. All used the shorter ambiguous message; newsletter state remained unverified. Strict outcome stays PARTIAL, with 9 confirmed under the alternative message reading. New mean client time 93.05 s; costs $0.224/$0.192/$0.208, $0.624 total. No verified full pass or advantage over the original Claude form result was established. Model revision was not exposed. These reruns do not revise the original common-task cohort.
+
+## Clarified prompt — separate configuration
+
+[Three clarified runs](../browser-benchmarks/reruns/clarified-form-2026-10-22/README.md): two provider completions with nine confirmed correct controls and newsletter unverified; one spending-watchdog cancellation after observed form clearing/refilling, last capture only Alex. The complete message was observed, resolving that visible mismatch in completed runs. No verified 10/10 was established. Completed partials averaged 95.65 client seconds and $0.200; cancelled-run charge is unresolved. This does not overwrite the earlier results or establish an inherent checkbox limitation.

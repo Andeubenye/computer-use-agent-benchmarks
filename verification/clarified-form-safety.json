@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-22",
+  "phase": "Clarified form pre-commit exact-value scan",
+  "known_secret_values_loaded_in_memory": 2,
+  "credential_values_printed_or_written": false,
+  "files_scanned": 2556,
+  "decompressed_document_members_scanned": 581,
+  "git_history_blobs_scanned": 1873,
+  "matched_paths": [],
+  "passed": true,
+  "new_model_requests": 0,
+  "scope": "Exact current TinyFish/Claude key literals plus separate package-wide pattern scan. Earlier credential audits retained."
+}

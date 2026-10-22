@@ -19,3 +19,7 @@
 ## Form follow-up limitation
 
 [Three TinyFish reruns](browser-benchmarks/reruns/tinyfish-form-2026-10-22/README.md) improved the visible result to eight correct controls but never captured the newsletter. Serialized HTML did not retain live form properties. The message has an already disclosed alternative reading. These limits prevent a verified full pass without proving that every unverified state was wrong. Three new attempts and one historical Claude reference do not support a general reliability ranking; dates, capture options, browsers and timer boundaries differ.
+
+## Clarified form configuration limitations
+
+[Clarified results](browser-benchmarks/reruns/clarified-form-2026-10-22/README.md) contain a budget-cancelled TinyFish run, persistent missing TinyFish checkbox state, Claude post-run capture timeouts with usable prior screenshots, an unresolved cancelled-run charge, nonrandom provider order and different native/hosted timer boundaries. The changed prompt also adds verification instructions, so it does not isolate the message boundary as a causal factor. Nine confirmed TinyFish fields do not establish a wrong checkbox or a full pass. No general agent ranking follows from this sample.

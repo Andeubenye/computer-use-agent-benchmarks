@@ -1,0 +1,15 @@
+{
+  "observed_at_utc": "2026-10-22T15:34:34.924251+00:00",
+  "tinyfish_observed_total_credit_delta_usd": 0.4,
+  "completed_run_tariff_sum_usd": 0.4,
+  "cancelled_run_status_rechecked": "CANCELLED",
+  "cancelled_run_reported_num_of_steps": 0,
+  "cancelled_run_recorded_trace_entries": 24,
+  "cancelled_run_observed_incremental_debit_usd": 0.0,
+  "cancelled_run_cost_reservation_usd": 0.465,
+  "invoice_reconciled": false,
+  "no_topups_or_settings_changes": true,
+  "auto_reload_state": "unconfigured",
+  "pending_top_up_present": false,
+  "account_absolute_balances_omitted": true
+}

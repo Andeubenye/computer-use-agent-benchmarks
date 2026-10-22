@@ -1,0 +1,29 @@
+{
+  "id": "msg_011CgHWFMWDAS6H1gVRtTb6w",
+  "content": [
+    {
+      "text": "I filled in the form and did not submit it. The page still reads \"Not submitted.\"\n\nOn screen, I checked:\n- **Name and contact:** First name Alex, last name Morgan, email alex.morgan@example.com, phone +1 202-555-0147.\n- **Professional details:** Company Northstar Labs, job title Product Manager, country United States, and the Email contact method selected.\n- **Message:** \"This is a benchmark. Do not submit.\" Both sentences and both periods are in the Message field.\n- **Newsletter:** The checkbox is unchecked.\n\nMy first attempt used Tab to move between fields, and Tab didn't move focus. It dumped all the text into the First name field. I cleared that field and re-entered each value by clicking into it, then confirmed the final values on screen.\n\nThe first-name and last-name fields are scrolled just out of view in the current window. I saw them correctly filled before scrolling down.",
+      "type": "text"
+    }
+  ],
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 15556,
+    "output_tokens": 296,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

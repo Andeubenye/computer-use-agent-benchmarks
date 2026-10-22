@@ -1,0 +1,68 @@
+{
+  "id": "msg_011CgHW9CKdtWKE1UqWkdMaE",
+  "content": [
+    {
+      "text": "Let me scroll up to verify the top fields too.",
+      "type": "text"
+    },
+    {
+      "id": "toolu_015RWY6TzvJhChFBWgGDLFE9",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "coordinate": [
+          512,
+          400
+        ],
+        "scroll_direction": "up",
+        "scroll_amount": 3
+      },
+      "name": "scroll",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_016zsHbkQJ5LbbxMSrES6PvE",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "duration": 1
+      },
+      "name": "wait",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01BHrEYYqvJCxieNrvZD2664",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {},
+      "name": "screenshot",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    }
+  ],
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_reason": "tool_use",
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 11886,
+    "output_tokens": 136,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

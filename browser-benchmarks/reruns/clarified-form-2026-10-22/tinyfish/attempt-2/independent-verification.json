@@ -1,0 +1,35 @@
+{
+  "outcome": "failed",
+  "correct_checks_confirmed": 1,
+  "total_checks": 10,
+  "correct_fields_confirmed": [
+    "firstName"
+  ],
+  "incorrect_fields_confirmed": [
+    "lastName",
+    "email",
+    "phone",
+    "company",
+    "jobTitle",
+    "country",
+    "contactMethod"
+  ],
+  "unverified_fields": [
+    "message",
+    "newsletter"
+  ],
+  "workflow_completion_verified": false,
+  "message_exact_final": null,
+  "newsletter_state": "unverified",
+  "provider_claim": null,
+  "false_visible_field_value_claim": null,
+  "success_claim_independently_verified": null,
+  "agent_final_response_available": false,
+  "budget_stopped": true,
+  "budget_stop_caveat": "Runtime limited by spending watchdog, not 600-second timeout; this is a budget-censored workflow failure, not an unrestricted 600-second failure.",
+  "non_submission": "No submission attempt captured; final HTML says Not submitted.",
+  "verification_data_sent_to_agent": false,
+  "observations": "gui-observations.json",
+  "final_screenshot": "screenshots/screenshot-023.jpg",
+  "grade_note": "Only first name correct in last capture; seven visible controls missing/default. Message and newsletter off-screen. Earlier exact message and nine-field state were lost when form cleared; cause not exposed."
+}

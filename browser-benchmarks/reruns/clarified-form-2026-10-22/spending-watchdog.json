@@ -1,0 +1,146 @@
+{
+  "events": [
+    {
+      "utc": "2026-10-22T15:30:13.407811+00:00",
+      "attempt": 1,
+      "status": "COMPLETED",
+      "live_steps": 14,
+      "terminal_num_steps": 13
+    },
+    {
+      "utc": "2026-10-22T15:30:14.602655+00:00",
+      "attempt": 2,
+      "status": "RUNNING",
+      "live_steps": 23,
+      "terminal_num_steps": null
+    },
+    {
+      "utc": "2026-10-22T15:30:15.641808+00:00",
+      "attempt": 2,
+      "kind": "budget_cancel",
+      "live_steps": 23,
+      "cancel_status": 200
+    },
+    {
+      "utc": "2026-10-22T15:30:18.290597+00:00",
+      "attempt": 2,
+      "kind": "budget_cancel",
+      "live_steps": 23,
+      "cancel_status": 200
+    },
+    {
+      "utc": "2026-10-22T15:30:20.868854+00:00",
+      "attempt": 2,
+      "kind": "budget_cancel",
+      "live_steps": 23,
+      "cancel_status": 200
+    },
+    {
+      "utc": "2026-10-22T15:30:23.351334+00:00",
+      "attempt": 2,
+      "kind": "budget_cancel",
+      "live_steps": 23,
+      "cancel_status": 200
+    },
+    {
+      "utc": "2026-10-22T15:30:25.969198+00:00",
+      "attempt": 2,
+      "kind": "budget_cancel",
+      "live_steps": 23,
+      "cancel_status": 200
+    },
+    {
+      "utc": "2026-10-22T15:30:28.647302+00:00",
+      "attempt": 2,
+      "kind": "budget_cancel",
+      "live_steps": 23,
+      "cancel_status": 200
+    },
+    {
+      "utc": "2026-10-22T15:30:31.106804+00:00",
+      "attempt": 2,
+      "kind": "budget_cancel",
+      "live_steps": 23,
+      "cancel_status": 200
+    },
+    {
+      "utc": "2026-10-22T15:30:33.754532+00:00",
+      "attempt": 2,
+      "kind": "budget_cancel",
+      "live_steps": 23,
+      "cancel_status": 200
+    },
+    {
+      "utc": "2026-10-22T15:30:36.396589+00:00",
+      "attempt": 2,
+      "kind": "budget_cancel",
+      "live_steps": 23,
+      "cancel_status": 200
+    },
+    {
+      "utc": "2026-10-22T15:30:38.977844+00:00",
+      "attempt": 2,
+      "kind": "budget_cancel",
+      "live_steps": 23,
+      "cancel_status": 200
+    },
+    {
+      "utc": "2026-10-22T15:30:41.451894+00:00",
+      "attempt": 2,
+      "kind": "budget_cancel",
+      "live_steps": 23,
+      "cancel_status": 200
+    },
+    {
+      "utc": "2026-10-22T15:30:43.061416+00:00",
+      "attempt": 2,
+      "status": "CANCELLED",
+      "live_steps": 24,
+      "terminal_num_steps": 0
+    },
+    {
+      "utc": "2026-10-22T15:31:28.805799+00:00",
+      "attempt": 3,
+      "status": "PENDING",
+      "live_steps": 0,
+      "terminal_num_steps": null
+    },
+    {
+      "utc": "2026-10-22T15:31:59.652644+00:00",
+      "attempt": 3,
+      "status": "RUNNING",
+      "live_steps": 3,
+      "terminal_num_steps": null
+    },
+    {
+      "utc": "2026-10-22T15:32:30.499047+00:00",
+      "attempt": 3,
+      "status": "RUNNING",
+      "live_steps": 9,
+      "terminal_num_steps": null
+    },
+    {
+      "utc": "2026-10-22T15:33:01.786582+00:00",
+      "attempt": 3,
+      "status": "RUNNING",
+      "live_steps": 11,
+      "terminal_num_steps": null
+    },
+    {
+      "utc": "2026-10-22T15:33:33.190497+00:00",
+      "attempt": 3,
+      "status": "COMPLETED",
+      "live_steps": 13,
+      "terminal_num_steps": 12
+    }
+  ],
+  "terminal_attempts": [
+    1,
+    2,
+    3
+  ],
+  "threshold": 19,
+  "live_counter": "max(num_of_steps or 0, length of returned steps); aggregate field is null until terminal",
+  "task_actions": 0,
+  "new_agent_submissions": 0
+}

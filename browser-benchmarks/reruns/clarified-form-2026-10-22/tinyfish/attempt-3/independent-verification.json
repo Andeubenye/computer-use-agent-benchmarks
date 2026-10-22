@@ -1,0 +1,34 @@
+{
+  "outcome": "partially_successful",
+  "correct_checks_confirmed": 9,
+  "total_checks": 10,
+  "correct_fields_confirmed": [
+    "firstName",
+    "lastName",
+    "email",
+    "phone",
+    "company",
+    "jobTitle",
+    "country",
+    "contactMethod",
+    "message"
+  ],
+  "incorrect_fields_confirmed": [],
+  "unverified_fields": [
+    "newsletter"
+  ],
+  "workflow_completion_verified": false,
+  "message_exact_final": true,
+  "newsletter_state": "unverified",
+  "provider_claim": "Full success and newsletter unchecked claimed; unchecked state not independently substantiated",
+  "false_visible_field_value_claim": false,
+  "success_claim_independently_verified": false,
+  "agent_final_response_available": true,
+  "budget_stopped": false,
+  "budget_stop_caveat": null,
+  "non_submission": "No submission attempt captured; final HTML says Not submitted.",
+  "verification_data_sent_to_agent": false,
+  "observations": "gui-observations.json",
+  "final_screenshot": "screenshots/screenshot-010.jpg",
+  "grade_note": "Nine visible values correct, including full exact message; no captured checkbox state. Do not infer unchecked from claim or absent checked HTML attribute."
+}

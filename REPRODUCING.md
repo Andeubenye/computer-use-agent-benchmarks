@@ -66,3 +66,13 @@ python3 browser-benchmarks/reruns/tinyfish-form-2026-10-22/verify_followup.py
 ```
 
 No rerun is needed to inspect these results. Provider access and new spending authorization would be needed for further paid execution.
+
+## Clarified form configuration
+
+[Six completed/stopped agent attempts](browser-benchmarks/reruns/clarified-form-2026-10-22/README.md), their exact shared prompt, all returned images/HTML, original responses, native token usage and infrastructure errors are separately retained. Regrade saved independent observations and integrity/cost checks offline:
+
+```sh
+python3 browser-benchmarks/reruns/clarified-form-2026-10-22/verify_clarified.py
+```
+
+The executed-source archive records private original-adapter dependencies and is not presented as a standalone turnkey runner. Inspection/regrading makes no provider requests and requires no keys. Further paid execution needs its own authorization.

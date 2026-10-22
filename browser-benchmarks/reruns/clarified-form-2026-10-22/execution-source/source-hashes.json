@@ -1,0 +1,11 @@
+{
+  "initial_wrapper_sha256": "647b3988f4fd3d010384efb69a5b118348bcf1669b077ddf207fa5e5b0cea605",
+  "supported_wrapper_sha256": "44a1a4b18d2fada9ad2008f8beedcd90921673ac9d1b964427a5143401bf1137",
+  "corrected_watchdog_sha256": "65353fe11487f01509d19897990ecf0d24fa4a4ab4561d342069a5e007dcd984",
+  "original_tinyfish_adapter_module_sha256": "d91c52b4d95d6d9fbdd447b930e4077c32846acfb21a9057e80183433317f643",
+  "claude_core_sha256": "e199f2e1654972dff0c6964ad01e69b7b7f6497f922d232f19ef185bd3e7d3f8",
+  "claude_executor_sha256": "9602806a5b43f6a522f7fb7282b5a9e26426b6c58716f347e906a08093b270b7",
+  "archive_only": true,
+  "original_helpers_not_standalone_public_runners": true,
+  "original_claude_provider_model_tool_executor_unmodified": true
+}

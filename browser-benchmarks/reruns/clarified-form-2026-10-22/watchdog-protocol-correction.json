@@ -1,0 +1,8 @@
+{
+  "initial_watchdog_stopped_before_monitoring": true,
+  "reason": "Provider stored goal echo differs from submitted prompt; comparing echoed goal was unsuitable as an ownership check",
+  "repair": "Verify run_id against the id from this exact attempt submission instead",
+  "new_agent_requests": 0,
+  "agent_restarts": 0,
+  "watchdog_only_restart": 1
+}

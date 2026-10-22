@@ -1,0 +1,20 @@
+{
+  "agent": "tinyfish",
+  "attempt": 3,
+  "max_seconds": 600,
+  "browser_profile": "lite",
+  "use_profile": false,
+  "use_vault": false,
+  "proxy_enabled": false,
+  "model_revision": null,
+  "prompt_sha256": "310e61b597776240557a2aed3e5bcbbdaf93a36c26c7c94e52b65d0b576b3007",
+  "custom_beta_max_steps_requested": false,
+  "default_server_step_limit": 150,
+  "client_status_poll_seconds": 1,
+  "budget_cancel_at_reported_steps": 19,
+  "in_flight_steps_reserved": 10,
+  "allocation_usd": 0.465,
+  "automatic_benchmark_restarts": 0,
+  "prior_rejection": "../../infrastructure-rejections/tinyfish-before-run-1/submission.json",
+  "expected_answers_or_verification_data_sent_to_agent": false
+}

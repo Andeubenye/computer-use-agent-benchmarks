@@ -1,0 +1,38 @@
+"""Spending watchdog only: GET run metadata, cancel owned run at live step threshold.
+No agent submissions or task interactions. Needed because num_of_steps is null while running.
+"""
+from pathlib import Path
+import argparse,socket,json,urllib.request,urllib.error,time,datetime,hashlib
+ROOT=Path(__file__).resolve().parent/'clarified-form-2026-10-22-private'
+def now():return datetime.datetime.now(datetime.timezone.utc).isoformat()
+def main(sock):
+ s=socket.socket(socket.AF_UNIX,socket.SOCK_STREAM);s.connect(sock);s.sendall(b'tinyfish');key=s.recv(16384).decode();s.close()
+ config=json.loads((ROOT/'supported-tinyfish-started.json').read_text());limit=config['cancel_at_steps'];terminal=set();last={};events=[];started=time.monotonic()
+ def api(path,data=None):
+  r=urllib.request.Request('https://agent.tinyfish.ai'+path,headers={'X-API-Key':key,'Accept':'application/json','Content-Type':'application/json'},data=json.dumps(data).encode() if data is not None else None)
+  try:
+   with urllib.request.urlopen(r,timeout=10) as f:return {'http_status':f.status,'body':json.load(f)}
+  except urllib.error.HTTPError as e:return {'http_status':e.code}
+  except Exception as e:return {'http_status':None,'category':type(e).__name__}
+ def persist():(ROOT/'spending-watchdog.json').write_text(json.dumps({'events':events,'terminal_attempts':sorted(terminal),'threshold':limit,'live_counter':'max(num_of_steps or 0, length of returned steps); aggregate field is null until terminal','task_actions':0,'new_agent_submissions':0},indent=2)+'\n')
+ while len(terminal)<3 and time.monotonic()-started<1850:
+  for n in (1,2,3):
+   f=ROOT/'tinyfish'/f'attempt-{n}'/'submission.json'
+   if n in terminal or not f.exists():continue
+   run=json.loads(f.read_text()).get('body',{}).get('run_id')
+   if not run:continue
+   r=api('/v1/runs/'+run);b=r.get('body') or {}
+   if r['http_status']!=200:
+    # If monitoring is unavailable, stop the owned in-flight task rather than continue unmonitored.
+    cancel=api('/v1/runs/'+run+'/cancel',{});events.append({'utc':now(),'attempt':n,'kind':'monitoring_error_cancel','read_status':r['http_status'],'cancel_status':cancel['http_status']});persist();continue
+   assert b['run_id']==run, 'Only this batch-owned run may be monitored/cancelled'
+   status=b['status'];steps=max(b.get('num_of_steps') or 0,len(b.get('steps') or []));state=(status,steps)
+   if state!=last.get(n):events.append({'utc':now(),'attempt':n,'status':status,'live_steps':steps,'terminal_num_steps':b.get('num_of_steps')});last[n]=state;persist()
+   if status in ('COMPLETED','FAILED','CANCELLED'):
+    terminal.add(n);persist()
+   elif steps>=limit:
+    cancel=api('/v1/runs/'+run+'/cancel',{});events.append({'utc':now(),'attempt':n,'kind':'budget_cancel','live_steps':steps,'cancel_status':cancel['http_status']});persist()
+  time.sleep(.5)
+ persist();key=None;print(json.dumps({'watchdog_finished':True,'terminal_attempts':sorted(terminal),'budget_cancellations':sum(e.get('kind')=='budget_cancel' for e in events),'monitoring_error_cancellations':sum(e.get('kind')=='monitoring_error_cancel' for e in events)}))
+if __name__=='__main__':
+ p=argparse.ArgumentParser();p.add_argument('--socket',required=True);main(p.parse_args().socket)

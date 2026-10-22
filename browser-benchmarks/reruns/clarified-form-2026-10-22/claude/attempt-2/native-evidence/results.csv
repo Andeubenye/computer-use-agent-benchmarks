@@ -1,0 +1,22 @@
+run_id,mode,task_sha256,model_requested,model_returned,tool_version,pricing_verified,sdk_version,python_version,host_platform,success,status,grading,wall_seconds,agent_wall_seconds,grading_seconds,api_seconds,count_seconds,action_seconds,steps,api_attempts,token_count_requests,api_requests,api_retries,computer_actions,successful_actions,screenshots,skipped_actions,input_tokens,output_tokens,cache_creation_input_tokens,cache_read_input_tokens,total_input_tokens,api_cost_usd,uncertain_cost_reserved_usd,billing_uncertain,errors,failed_actions,recovery_attempts,last_stop_reason,error_category,error_http_status,final_answer,partial_output,answer_matches,page_title_matches,page_url_matches,verified_page_url,required_text_typed,grader_computer_actions,budget_usd,max_steps,max_actions,max_tokens,max_seconds,final_answer_sha256
+20261022T152202Z-b7ce3a14,paid_api,19970307d83e518b423efe3d2c6a6ac25e12791fbab2615a36c1a5dd4ea954dc,claude-sonnet-5-5,claude-sonnet-5-5,computer_toolset_20260801,2026-10-17,1.15.0,3.12.4,Darwin,False,needs_review,manual_review_required,56.146883,56.146568,0.0,19.605316,5.491217,30.726747,9,9,9,18,0,38,38,8,0,93918,1572,0,0,93918,0.203556,0,False,0,0,0,end_turn,,,"I filled in the form and did not submit it. The page still reads ""Not submitted.""
+
+On screen, I checked:
+- **Name and contact:** First name Alex, last name Morgan, email alex.morgan@example.com, phone +1 202-555-0147.
+- **Professional details:** Company Northstar Labs, job title Product Manager, country United States, and the Email contact method selected.
+- **Message:** ""This is a benchmark. Do not submit."" Both sentences and both periods are in the Message field.
+- **Newsletter:** The checkbox is unchecked.
+
+My first attempt used Tab to move between fields, and Tab didn't move focus. It dumped all the text into the First name field. I cleared that field and re-entered each value by clicking into it, then confirmed the final values on screen.
+
+The first-name and last-name fields are scrolled just out of view in the current window. I saw them correctly filled before scrolling down.","I filled in the form and did not submit it. The page still reads ""Not submitted.""
+
+On screen, I checked:
+- **Name and contact:** First name Alex, last name Morgan, email alex.morgan@example.com, phone +1 202-555-0147.
+- **Professional details:** Company Northstar Labs, job title Product Manager, country United States, and the Email contact method selected.
+- **Message:** ""This is a benchmark. Do not submit."" Both sentences and both periods are in the Message field.
+- **Newsletter:** The checkbox is unchecked.
+
+My first attempt used Tab to move between fields, and Tab didn't move focus. It dumped all the text into the First name field. I cleared that field and re-entered each value by clicking into it, then confirmed the final values on screen.
+
+The first-name and last-name fields are scrolled just out of view in the current window. I saw them correctly filled before scrolling down.",False,False,False,,False,0,0.33,60,300,4096,600,d476194e2bd466f690dec9e4deeb44f23993dbeaecc6bc3650938a2af973db8e

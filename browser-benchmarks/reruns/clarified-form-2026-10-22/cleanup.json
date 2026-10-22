@@ -1,0 +1,8 @@
+{
+  "ram_credential_broker_stopped": true,
+  "socket_removed": true,
+  "credentials_saved_to_disk": false,
+  "local_benchmark_vm_status": "Stopped",
+  "all_six_agents_stopped": true,
+  "new_inference_requests_after_six_runs": 0
+}

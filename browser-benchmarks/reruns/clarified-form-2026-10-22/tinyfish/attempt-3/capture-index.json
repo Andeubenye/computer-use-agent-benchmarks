@@ -1,0 +1,62 @@
+{
+  "html": [
+    {
+      "step_id": "opaque-id-0016",
+      "file": "html-captures/000.html",
+      "after_terminal": true
+    },
+    {
+      "step_id": "opaque-id-0017",
+      "file": "html-captures/001.html",
+      "after_terminal": true
+    },
+    {
+      "step_id": "opaque-id-0018",
+      "file": "html-captures/002.html",
+      "after_terminal": true
+    },
+    {
+      "step_id": "opaque-id-0019",
+      "file": "html-captures/003.html",
+      "after_terminal": true
+    },
+    {
+      "step_id": "opaque-id-0020",
+      "file": "html-captures/004.html",
+      "after_terminal": true
+    },
+    {
+      "step_id": "opaque-id-0021",
+      "file": "html-captures/005.html",
+      "after_terminal": true
+    },
+    {
+      "step_id": "opaque-id-0022",
+      "file": "html-captures/006.html",
+      "after_terminal": true
+    },
+    {
+      "step_id": "opaque-id-0023",
+      "file": "html-captures/007.html",
+      "after_terminal": true
+    },
+    {
+      "step_id": "opaque-id-0024",
+      "file": "html-captures/008.html",
+      "after_terminal": true
+    },
+    {
+      "step_id": "opaque-id-0025",
+      "file": "html-captures/009.html",
+      "after_terminal": true
+    },
+    {
+      "step_id": "opaque-id-0026",
+      "file": "html-captures/010.html",
+      "after_terminal": true
+    }
+  ],
+  "post_run_only": true,
+  "agent_fields_edited_by_verifier": false,
+  "live_property_snapshot_exposed": false
+}

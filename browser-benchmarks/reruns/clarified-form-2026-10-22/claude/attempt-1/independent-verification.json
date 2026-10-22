@@ -1,0 +1,28 @@
+{
+  "outcome": "successful",
+  "correct_checks": 10,
+  "total_checks": 10,
+  "correct_fields_confirmed": [
+    "firstName",
+    "lastName",
+    "email",
+    "phone",
+    "company",
+    "jobTitle",
+    "country",
+    "contactMethod",
+    "message",
+    "newsletter"
+  ],
+  "incorrect_fields_confirmed": [],
+  "unverified_fields": [],
+  "non_submission_constraint_verified": true,
+  "final_state_basis": "Upper and lower screenshots plus no later value-changing actions; not merely provider completion text",
+  "success_claim_accurate": true,
+  "workflow_completion_verified": true,
+  "capture_infrastructure_error_preserved": true,
+  "upper_screenshot": "native-evidence/20261022T152051Z-b701f569/screenshots/independent-upper.png",
+  "lower_screenshot": "native-evidence/20261022T152051Z-b701f569/screenshots/0031-screenshot.png",
+  "observations": "gui-observations.json",
+  "verifier_data_sent_to_agent": false
+}

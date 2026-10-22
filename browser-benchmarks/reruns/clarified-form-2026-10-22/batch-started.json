@@ -1,0 +1,17 @@
+{
+  "utc": "2026-10-22T15:20:41.375697+00:00",
+  "exact_prompt_sha256": "310e61b597776240557a2aed3e5bcbbdaf93a36c26c7c94e52b65d0b576b3007",
+  "planned_order": [
+    "tinyfish-1",
+    "claude-1",
+    "tinyfish-2",
+    "claude-2",
+    "tinyfish-3",
+    "claude-3"
+  ],
+  "max_seconds_each": 600,
+  "cap_usd": 2,
+  "allocated_maximum_usd": 1.95,
+  "automatic_benchmark_restarts": 0,
+  "no_purchases_or_topups": true
+}

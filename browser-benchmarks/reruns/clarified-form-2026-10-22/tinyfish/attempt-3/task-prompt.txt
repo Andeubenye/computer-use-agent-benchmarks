@@ -1,0 +1,52 @@
+Open this synthetic benchmark form:
+
+https://manicule-agent-benchmark-oct17.peppyshark33.chatgpt.site/?task=form
+
+Complete the form with the following information:
+
+**Personal details**
+
+- First name: Alex
+- Last name: Morgan
+- Email: alex.morgan@example.com
+- Phone: +1 202-555-0147
+
+**Professional details**
+
+- Company: Northstar Labs
+- Job title: Product Manager
+- Country: United States
+- Preferred contact method: Email
+
+**Message field**
+
+Enter the following exact text into the Message field:
+
+"This is a benchmark. Do not submit."
+
+Both sentences belong inside the Message field. Include both periods. Do not shorten, summarize, or omit any part of the text.
+
+**Newsletter checkbox**
+
+Leave the newsletter subscription checkbox UNCHECKED.
+
+Scroll if necessary to locate the checkbox and confirm its state.
+
+**Verification requirements**
+
+Before finishing:
+
+1. Verify that all eight personal and professional fields contain the requested information.
+2. Confirm that the Message field contains both sentences exactly as written.
+3. Confirm that the newsletter checkbox is unchecked.
+4. Navigate or scroll as needed to inspect the entire form.
+5. Do not press Submit or otherwise submit the form.
+6. Leave the completed form visible.
+
+Use the website interface and your actual computer-use tools. Do not perform the task using direct HTTP requests, DOM manipulation, browser automation scripts, or website APIs.
+
+Do not log in, make purchases, or modify unrelated websites.
+
+You have a maximum of 600 seconds.
+
+Report whether you completed the task and identify any limitations.

@@ -1,0 +1,76 @@
+{
+  "utc": "2026-10-22T15:33:55.256215+00:00",
+  "ledger": {
+    "cap_usd": 2,
+    "allocated_maximum_usd": 1.95,
+    "no_purchases_or_topups": true,
+    "entries": {
+      "tinyfish-1": {
+        "state": "finished",
+        "allocation_usd": 0.465,
+        "charged_or_reserved_usd": 0.208,
+        "cancel_at_reported_steps": 19,
+        "in_flight_steps_reserved": 10,
+        "cost_usd": 0.208,
+        "cost_basis": "TinyFish steps × published rate",
+        "finished_at": "2026-10-22T15:26:07.098362+00:00"
+      },
+      "claude-1": {
+        "allocation_usd": 0.33,
+        "charged_or_reserved_usd": 0.142128,
+        "state": "finished",
+        "started_at": "2026-10-22T15:20:45.435288+00:00",
+        "cost_usd": 0.142128,
+        "uncertain_reserved_usd": 0.0,
+        "cost_basis": "uncertain generation: full allocation retained",
+        "finished_at": "2026-10-22T15:21:58.948551+00:00",
+        "basis": "reconciled saved native summary/raw usage, no new model call"
+      },
+      "tinyfish-2": {
+        "state": "finished",
+        "allocation_usd": 0.465,
+        "charged_or_reserved_usd": 0.0,
+        "cancel_at_reported_steps": 19,
+        "in_flight_steps_reserved": 10,
+        "cost_usd": 0.0,
+        "cost_basis": "TinyFish steps × published rate",
+        "finished_at": "2026-10-22T15:30:46.682067+00:00"
+      },
+      "claude-2": {
+        "allocation_usd": 0.33,
+        "charged_or_reserved_usd": 0.203556,
+        "state": "finished",
+        "started_at": "2026-10-22T15:21:59.318717+00:00",
+        "cost_usd": 0.203556,
+        "uncertain_reserved_usd": 0.0,
+        "cost_basis": "uncertain generation: full allocation retained",
+        "finished_at": "2026-10-22T15:23:17.212486+00:00",
+        "basis": "reconciled saved native summary/raw usage, no new model call"
+      },
+      "tinyfish-3": {
+        "state": "finished",
+        "allocation_usd": 0.465,
+        "charged_or_reserved_usd": 0.192,
+        "cancel_at_reported_steps": 19,
+        "in_flight_steps_reserved": 10,
+        "cost_usd": 0.192,
+        "cost_basis": "TinyFish steps × published rate",
+        "finished_at": "2026-10-22T15:33:36.437096+00:00"
+      },
+      "claude-3": {
+        "allocation_usd": 0.33,
+        "charged_or_reserved_usd": 0.238684,
+        "state": "finished",
+        "started_at": "2026-10-22T15:23:17.717416+00:00",
+        "cost_usd": 0.238684,
+        "uncertain_reserved_usd": 0.0,
+        "cost_basis": "uncertain generation: full allocation retained",
+        "finished_at": "2026-10-22T15:24:40.225048+00:00",
+        "basis": "reconciled saved native summary/raw usage, no new model call"
+      }
+    },
+    "committed_or_reserved_usd": 0.984368,
+    "remaining_usd": 1.015632
+  },
+  "automatic_agent_restarts": 0
+}

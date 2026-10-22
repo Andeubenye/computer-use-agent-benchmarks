@@ -1,0 +1,9 @@
+{
+  "kind": "No TinyFish agent created in these preliminary slots",
+  "actual_http_rejections": 1,
+  "never_submitted_slots": 2,
+  "http_status": 403,
+  "reason": "Optional custom max_steps is beta-gated. No beta joined or security bypass; unsupported optional field omitted for normal supported API.",
+  "credit_debit_usd": 0,
+  "legacy_reserved_uncertain_usd_2_4_in_raw_record_is_not_actual_reservation": "Legacy adapter fallback; definitive 403 and zero wallet delta were reconciled as zero. No created benchmark run was retried."
+}

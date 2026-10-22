@@ -1,0 +1,127 @@
+{
+  "html": [
+    {
+      "step_id": "opaque-id-0030",
+      "file": "html-captures/000.html",
+      "after_terminal": true
+    },
+    {
+      "step_id": "opaque-id-0031",
+      "file": "html-captures/001.html",
+      "after_terminal": true
+    },
+    {
+      "step_id": "opaque-id-0032",
+      "file": "html-captures/002.html",
+      "after_terminal": true
+    },
+    {
+      "step_id": "opaque-id-0033",
+      "file": "html-captures/003.html",
+      "after_terminal": true
+    },
+    {
+      "step_id": "opaque-id-0034",
+      "file": "html-captures/004.html",
+      "after_terminal": true
+    },
+    {
+      "step_id": "opaque-id-0035",
+      "file": "html-captures/005.html",
+      "after_terminal": true
+    },
+    {
+      "step_id": "opaque-id-0036",
+      "file": "html-captures/006.html",
+      "after_terminal": true
+    },
+    {
+      "step_id": "opaque-id-0037",
+      "file": "html-captures/007.html",
+      "after_terminal": true
+    },
+    {
+      "step_id": "opaque-id-0038",
+      "file": "html-captures/008.html",
+      "after_terminal": true
+    },
+    {
+      "step_id": "opaque-id-0039",
+      "file": "html-captures/009.html",
+      "after_terminal": true
+    },
+    {
+      "step_id": "opaque-id-0040",
+      "file": "html-captures/010.html",
+      "after_terminal": true
+    },
+    {
+      "step_id": "opaque-id-0041",
+      "file": "html-captures/011.html",
+      "after_terminal": true
+    },
+    {
+      "step_id": "opaque-id-0042",
+      "file": "html-captures/012.html",
+      "after_terminal": true
+    },
+    {
+      "step_id": "opaque-id-0043",
+      "file": "html-captures/013.html",
+      "after_terminal": true
+    },
+    {
+      "step_id": "opaque-id-0044",
+      "file": "html-captures/014.html",
+      "after_terminal": true
+    },
+    {
+      "step_id": "opaque-id-0045",
+      "file": "html-captures/015.html",
+      "after_terminal": true
+    },
+    {
+      "step_id": "opaque-id-0046",
+      "file": "html-captures/016.html",
+      "after_terminal": true
+    },
+    {
+      "step_id": "opaque-id-0047",
+      "file": "html-captures/017.html",
+      "after_terminal": true
+    },
+    {
+      "step_id": "opaque-id-0048",
+      "file": "html-captures/018.html",
+      "after_terminal": true
+    },
+    {
+      "step_id": "opaque-id-0049",
+      "file": "html-captures/019.html",
+      "after_terminal": true
+    },
+    {
+      "step_id": "opaque-id-0050",
+      "file": "html-captures/020.html",
+      "after_terminal": true
+    },
+    {
+      "step_id": "opaque-id-0051",
+      "file": "html-captures/021.html",
+      "after_terminal": true
+    },
+    {
+      "step_id": "opaque-id-0052",
+      "file": "html-captures/022.html",
+      "after_terminal": true
+    },
+    {
+      "step_id": "opaque-id-0053",
+      "file": "html-captures/023.html",
+      "after_terminal": true
+    }
+  ],
+  "post_run_only": true,
+  "agent_fields_edited_by_verifier": false,
+  "live_property_snapshot_exposed": false
+}

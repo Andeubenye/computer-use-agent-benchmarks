@@ -1,0 +1,8 @@
+{
+  "agent": "tinyfish",
+  "attempt": 2,
+  "submitted": false,
+  "status": "blocked",
+  "reason": "Earlier definitive provider/spending-limit rejection; no resubmission",
+  "cost_usd": 0
+}

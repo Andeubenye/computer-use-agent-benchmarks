@@ -113,5 +113,40 @@
     "file": "browser-benchmarks/reruns/tinyfish-form-2026-10-22/attempt-4/task-prompt.txt",
     "sha256": "1b237d3e106992c3cdc5e1e866b19f7e2d873d04937f6cbd2d58649a67d2f155",
     "cohort": "TinyFish form follow-up, exact original prompt"
+  },
+  {
+    "file": "browser-benchmarks/reruns/clarified-form-2026-10-22/clarified-prompt.txt",
+    "sha256": "310e61b597776240557a2aed3e5bcbbdaf93a36c26c7c94e52b65d0b576b3007",
+    "configuration": "clarified form, exact shared user prompt"
+  },
+  {
+    "file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-1/task-prompt.txt",
+    "sha256": "310e61b597776240557a2aed3e5bcbbdaf93a36c26c7c94e52b65d0b576b3007",
+    "configuration": "clarified form, exact shared user prompt"
+  },
+  {
+    "file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-2/task-prompt.txt",
+    "sha256": "310e61b597776240557a2aed3e5bcbbdaf93a36c26c7c94e52b65d0b576b3007",
+    "configuration": "clarified form, exact shared user prompt"
+  },
+  {
+    "file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-3/task-prompt.txt",
+    "sha256": "310e61b597776240557a2aed3e5bcbbdaf93a36c26c7c94e52b65d0b576b3007",
+    "configuration": "clarified form, exact shared user prompt"
+  },
+  {
+    "file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-1/task-prompt.txt",
+    "sha256": "310e61b597776240557a2aed3e5bcbbdaf93a36c26c7c94e52b65d0b576b3007",
+    "configuration": "clarified form, exact shared user prompt"
+  },
+  {
+    "file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-2/task-prompt.txt",
+    "sha256": "310e61b597776240557a2aed3e5bcbbdaf93a36c26c7c94e52b65d0b576b3007",
+    "configuration": "clarified form, exact shared user prompt"
+  },
+  {
+    "file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-3/task-prompt.txt",
+    "sha256": "310e61b597776240557a2aed3e5bcbbdaf93a36c26c7c94e52b65d0b576b3007",
+    "configuration": "clarified form, exact shared user prompt"
   }
 ]

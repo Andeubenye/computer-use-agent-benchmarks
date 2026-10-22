@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-22T15:24:58.471206+00:00",
+  "explanation": "Optional beta-only custom max_steps rejected before any TinyFish run existed. Normal supported API retains original server config; local cancellation guard monitors reported steps. No beta enrollment or restriction bypass. No created agent run retried.",
+  "claude_reconciled_cost_usd": 0.584368,
+  "allocated_each_tinyfish_usd": 0.465,
+  "maximum_allocated_batch_usd": 1.979368,
+  "cancel_at_steps": 19,
+  "in_flight_step_reserve": 10,
+  "cap_usd": 2
+}

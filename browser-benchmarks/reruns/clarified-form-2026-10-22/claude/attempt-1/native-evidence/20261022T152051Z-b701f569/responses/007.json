@@ -1,0 +1,29 @@
+{
+  "id": "msg_011CgHW9b8M9B1QMh5qiq28C",
+  "content": [
+    {
+      "text": "I filled in the form and did not submit it. The page still showed \"Not submitted.\" when I checked.\n\nI checked every field on screen:\n- **Personal details:** First name is Alex, last name is Morgan, email is alex.morgan@example.com, and phone is +1 202-555-0147.\n- **Professional details:** Company is Northstar Labs, job title is Product Manager, country is United States, and preferred contact method is Email.\n- **Message:** It reads \"This is a benchmark. Do not submit.\" with both sentences and both periods.\n- **Newsletter checkbox:** It is unchecked.\n\nThe form is still open in the browser, scrolled to the top. The Message field and newsletter checkbox are just below the visible area. I saw both while checking, and scrolling down shows them. I found no limitations.",
+      "type": "text"
+    }
+  ],
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 13122,
+    "output_tokens": 259,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

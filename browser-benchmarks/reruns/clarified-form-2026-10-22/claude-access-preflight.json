@@ -1,0 +1,8 @@
+{
+  "model_get_status": 200,
+  "model_id": "claude-sonnet-5-5",
+  "count_tokens_status": 200,
+  "input_tokens": 567,
+  "generation_requests": 0,
+  "account_credit_balance": "not exposed by standard model/count-token APIs; no inference made to infer balance"
+}

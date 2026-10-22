@@ -1,0 +1,11 @@
+I filled in the form and did not submit it. The page still reads "Not submitted."
+
+On screen, I checked:
+- **Name and contact:** First name Alex, last name Morgan, email alex.morgan@example.com, phone +1 202-555-0147.
+- **Professional details:** Company Northstar Labs, job title Product Manager, country United States, and the Email contact method selected.
+- **Message:** "This is a benchmark. Do not submit." Both sentences and both periods are in the Message field.
+- **Newsletter:** The checkbox is unchecked.
+
+My first attempt used Tab to move between fields, and Tab didn't move focus. It dumped all the text into the First name field. I cleared that field and re-entered each value by clicking into it, then confirmed the final values on screen.
+
+The first-name and last-name fields are scrolled just out of view in the current window. I saw them correctly filled before scrolling down.

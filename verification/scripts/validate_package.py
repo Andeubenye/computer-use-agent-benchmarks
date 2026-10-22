@@ -62,6 +62,13 @@ followup_module=importlib.util.module_from_spec(spec);spec.loader.exec_module(fo
 followup=followup_module.verify()
 for error in followup['errors']:errors.append('TinyFish follow-up: '+error)
 
+# Clarified prompt is a distinct six-run configuration, never pooled with originals.
+clarified_path=ROOT/'browser-benchmarks/reruns/clarified-form-2026-10-22/verify_clarified.py'
+clarified_spec=importlib.util.spec_from_file_location('clarified_form',clarified_path)
+clarified_module=importlib.util.module_from_spec(clarified_spec);clarified_spec.loader.exec_module(clarified_module)
+clarified=clarified_module.verify()
+for error in clarified['errors']:errors.append('Clarified form: '+error)
+
 # Independent read-only artifact checks; these modules contain no provider execution.
 DESKTOP=ROOT/'desktop-benchmarks'
 sys.path.insert(0,str(DESKTOP/'scripts'));sys.path.insert(0,str(DESKTOP/'verification'))
@@ -122,5 +129,5 @@ if (ROOT/'.git').is_dir():
             end=data.index(b'\n',offset);head=data[offset:end].split();size=int(head[2]);start=end+1;body=data[start:start+size];offset=start+size+1
             if head[1]==b'blob':scan(body,'Git history blob '+head[0].decode());history_blobs+=1
 
-print(json.dumps({'passed':not errors,'benchmark_requests':0,'tasks_documented':15,'scoped_browser_common_runs':16,'browser_record_rows':len(browser),'tinyfish_form_followup_runs':followup['new_runs'],'tinyfish_form_followup_cost_usd':followup['cost_usd'],'desktop_attempts':attempts,'desktop_artifact_regrades':regrades,'desktop_estimated_cost_usd':str(total),'exact_prompt_records':len(prompts),'internal_links_checked':links,'files_scanned':files,'decompressed_document_members_scanned':archives,'git_history_blobs_scanned':history_blobs,'errors':errors},indent=2))
+print(json.dumps({'passed':not errors,'benchmark_requests':0,'tasks_documented':15,'scoped_browser_common_runs':16,'browser_record_rows':len(browser),'tinyfish_form_followup_runs':followup['new_runs'],'tinyfish_form_followup_cost_usd':followup['cost_usd'],'clarified_form_runs':clarified['new_actual_agent_runs'],'clarified_form_budget_with_uncertainty_usd':clarified['budget_accounted_usd'],'desktop_attempts':attempts,'desktop_artifact_regrades':regrades,'desktop_estimated_cost_usd':str(total),'exact_prompt_records':len(prompts),'internal_links_checked':links,'files_scanned':files,'decompressed_document_members_scanned':archives,'git_history_blobs_scanned':history_blobs,'errors':errors},indent=2))
 sys.exit(bool(errors))

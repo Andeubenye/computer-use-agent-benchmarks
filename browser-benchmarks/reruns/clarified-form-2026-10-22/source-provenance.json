@@ -1,0 +1,1811 @@
+{
+  "scope": "Six actual new agent attempts, preliminary no-run rejection and monitoring/capture errors; earlier cohorts untouched. Raw source retained privately. No private full wallet copied. Contact sheets are review derivatives, not published agent captures.",
+  "files": [
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/batch-progress.json",
+      "source_sha256": "2fc2d514b6e6505487af6d952936d6ff37115654a93533c3e5529d484acac5c9",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/batch-progress.json",
+      "public_sha256": "2fc2d514b6e6505487af6d952936d6ff37115654a93533c3e5529d484acac5c9",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/batch-started.json",
+      "source_sha256": "42de3ed496abb426fb99066ec01cb82b42360e704be971324f38f223b76ca963",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/batch-started.json",
+      "public_sha256": "42de3ed496abb426fb99066ec01cb82b42360e704be971324f38f223b76ca963",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/batch-status.json",
+      "source_sha256": "8f2fa27b35e2003315d9a682be32e670b21cbdc59c0b9e260a9c4a900dbe9609",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/batch-status.json",
+      "public_sha256": "8f2fa27b35e2003315d9a682be32e670b21cbdc59c0b9e260a9c4a900dbe9609",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/budget-ledger.json",
+      "source_sha256": "56ae08bbb53c1803f4143c54f0024d591e8b24c084b6bf337907d8ca9e7b0277",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/budget-ledger.json",
+      "public_sha256": "56ae08bbb53c1803f4143c54f0024d591e8b24c084b6bf337907d8ca9e7b0277",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/clarified-prompt.txt",
+      "source_sha256": "310e61b597776240557a2aed3e5bcbbdaf93a36c26c7c94e52b65d0b576b3007",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/clarified-prompt.txt",
+      "public_sha256": "310e61b597776240557a2aed3e5bcbbdaf93a36c26c7c94e52b65d0b576b3007",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-1/configuration.json",
+      "source_sha256": "b3ba2439aa97b038e8458a0b31b292f68a7cd51097d687186e98283c30e06038",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-1/configuration.json",
+      "public_sha256": "b3ba2439aa97b038e8458a0b31b292f68a7cd51097d687186e98283c30e06038",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-1/gui-observations.json",
+      "source_sha256": "da9352845088a046573a5c408ace93bbeec6a04306940fe2071744017f3e46f1",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-1/gui-observations.json",
+      "public_sha256": "da9352845088a046573a5c408ace93bbeec6a04306940fe2071744017f3e46f1",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-1/independent-verification.json",
+      "source_sha256": "4d37176f218457591bf18b2d216298838988b8dd8b8e99bbe4ff7783b7d44bfe",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-1/independent-verification.json",
+      "public_sha256": "4d37176f218457591bf18b2d216298838988b8dd8b8e99bbe4ff7783b7d44bfe",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-1/native-evidence/20261022T152051Z-b701f569/configuration.json",
+      "source_sha256": "85efd4f4aa7b5b6d402355311a287168178ad8943e33baa5ae988a317dbc780e",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-1/native-evidence/20261022T152051Z-b701f569/configuration.json",
+      "public_sha256": "85efd4f4aa7b5b6d402355311a287168178ad8943e33baa5ae988a317dbc780e",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-1/native-evidence/20261022T152051Z-b701f569/events.jsonl",
+      "source_sha256": "20c31a5866f8d16c11624aeb93a5e9356d63bbc923583a3d3eaa67a1714c00b3",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-1/native-evidence/20261022T152051Z-b701f569/events.jsonl",
+      "public_sha256": "20c31a5866f8d16c11624aeb93a5e9356d63bbc923583a3d3eaa67a1714c00b3",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-1/native-evidence/20261022T152051Z-b701f569/responses/001.json",
+      "source_sha256": "f327f420c70fe32b9528a269775beea03a467b2b6ddaa0f0e7020ed61b3c7e0b",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-1/native-evidence/20261022T152051Z-b701f569/responses/001.json",
+      "public_sha256": "f327f420c70fe32b9528a269775beea03a467b2b6ddaa0f0e7020ed61b3c7e0b",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-1/native-evidence/20261022T152051Z-b701f569/responses/002.json",
+      "source_sha256": "2a8d0325196547cc1c5803a0200b27792ee140fbee7733d013f4aa7103bbd7e6",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-1/native-evidence/20261022T152051Z-b701f569/responses/002.json",
+      "public_sha256": "2a8d0325196547cc1c5803a0200b27792ee140fbee7733d013f4aa7103bbd7e6",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-1/native-evidence/20261022T152051Z-b701f569/responses/003.json",
+      "source_sha256": "35b83dfad248c58fa6d9657500475168a885beef84785aed9206fa1901abd3ca",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-1/native-evidence/20261022T152051Z-b701f569/responses/003.json",
+      "public_sha256": "35b83dfad248c58fa6d9657500475168a885beef84785aed9206fa1901abd3ca",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-1/native-evidence/20261022T152051Z-b701f569/responses/004.json",
+      "source_sha256": "f259526b930896a900feb45e0f2ec41c5eefc505656aebb47bc3558949063509",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-1/native-evidence/20261022T152051Z-b701f569/responses/004.json",
+      "public_sha256": "f259526b930896a900feb45e0f2ec41c5eefc505656aebb47bc3558949063509",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-1/native-evidence/20261022T152051Z-b701f569/responses/005.json",
+      "source_sha256": "7aa8c88077d5afe528842cce6f7ac92dfd7160450f194328705ba0c5f0de7d8e",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-1/native-evidence/20261022T152051Z-b701f569/responses/005.json",
+      "public_sha256": "7aa8c88077d5afe528842cce6f7ac92dfd7160450f194328705ba0c5f0de7d8e",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-1/native-evidence/20261022T152051Z-b701f569/responses/006.json",
+      "source_sha256": "2e2fc9a7a3ca406157598727ca17a45a5f49a0addb6023e66bf6b3d6f30b5a36",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-1/native-evidence/20261022T152051Z-b701f569/responses/006.json",
+      "public_sha256": "2e2fc9a7a3ca406157598727ca17a45a5f49a0addb6023e66bf6b3d6f30b5a36",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-1/native-evidence/20261022T152051Z-b701f569/responses/007.json",
+      "source_sha256": "3b766d248c4457d47c51f33c67f9e35a67970721126ff2c3fe9ecc2d58749af4",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-1/native-evidence/20261022T152051Z-b701f569/responses/007.json",
+      "public_sha256": "3b766d248c4457d47c51f33c67f9e35a67970721126ff2c3fe9ecc2d58749af4",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-1/native-evidence/20261022T152051Z-b701f569/screenshots/0004-screenshot.png",
+      "source_sha256": "4f7c94421d3bab601452bf30bcdb92bc389cd69b3af6373066d6bf3c62d4370f",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-1/native-evidence/20261022T152051Z-b701f569/screenshots/0004-screenshot.png",
+      "public_sha256": "4f7c94421d3bab601452bf30bcdb92bc389cd69b3af6373066d6bf3c62d4370f",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-1/native-evidence/20261022T152051Z-b701f569/screenshots/0007-screenshot.png",
+      "source_sha256": "da956a57137aa723e038f494f6fcb77787b329eda6750d65c54b7564b07d1b1b",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-1/native-evidence/20261022T152051Z-b701f569/screenshots/0007-screenshot.png",
+      "public_sha256": "da956a57137aa723e038f494f6fcb77787b329eda6750d65c54b7564b07d1b1b",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-1/native-evidence/20261022T152051Z-b701f569/screenshots/0023-screenshot.png",
+      "source_sha256": "a53ed20b54576c8ff7efde3da90bb3f22ec78ffaca29124aa7a5807f25d16d84",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-1/native-evidence/20261022T152051Z-b701f569/screenshots/0023-screenshot.png",
+      "public_sha256": "a53ed20b54576c8ff7efde3da90bb3f22ec78ffaca29124aa7a5807f25d16d84",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-1/native-evidence/20261022T152051Z-b701f569/screenshots/0027-screenshot.png",
+      "source_sha256": "c137325bb8719980b5c505af4b27c1a43656671ae0bac4e046827629b210c466",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-1/native-evidence/20261022T152051Z-b701f569/screenshots/0027-screenshot.png",
+      "public_sha256": "c137325bb8719980b5c505af4b27c1a43656671ae0bac4e046827629b210c466",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-1/native-evidence/20261022T152051Z-b701f569/screenshots/0031-screenshot.png",
+      "source_sha256": "8eff286a8d6d888ca801db7350a20194a053b3f690f9305c12f23946f9855390",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-1/native-evidence/20261022T152051Z-b701f569/screenshots/0031-screenshot.png",
+      "public_sha256": "8eff286a8d6d888ca801db7350a20194a053b3f690f9305c12f23946f9855390",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-1/native-evidence/20261022T152051Z-b701f569/screenshots/0034-screenshot.png",
+      "source_sha256": "b0bd70908e1e9254d5b6cf72065aaaf058b26ef4c86d30191a7c33a65cadd781",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-1/native-evidence/20261022T152051Z-b701f569/screenshots/0034-screenshot.png",
+      "public_sha256": "b0bd70908e1e9254d5b6cf72065aaaf058b26ef4c86d30191a7c33a65cadd781",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-1/native-evidence/20261022T152051Z-b701f569/screenshots/independent-agent-final.png",
+      "source_sha256": "b0bd70908e1e9254d5b6cf72065aaaf058b26ef4c86d30191a7c33a65cadd781",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-1/native-evidence/20261022T152051Z-b701f569/screenshots/independent-agent-final.png",
+      "public_sha256": "b0bd70908e1e9254d5b6cf72065aaaf058b26ef4c86d30191a7c33a65cadd781",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-1/native-evidence/20261022T152051Z-b701f569/screenshots/independent-upper.png",
+      "source_sha256": "1fe823f87b31ab9635789306184cc2ebb83cc3a61b28d69ee560789b054f5175",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-1/native-evidence/20261022T152051Z-b701f569/screenshots/independent-upper.png",
+      "public_sha256": "1fe823f87b31ab9635789306184cc2ebb83cc3a61b28d69ee560789b054f5175",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-1/native-evidence/20261022T152051Z-b701f569/summary.json",
+      "source_sha256": "21ff6f7ff1e9818364589b7d18492ac95b0ddb4c2da987dfbcc79f55dc578c2b",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-1/native-evidence/20261022T152051Z-b701f569/summary.json",
+      "public_sha256": "21ff6f7ff1e9818364589b7d18492ac95b0ddb4c2da987dfbcc79f55dc578c2b",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-1/native-evidence/20261022T152051Z-b701f569/task.json",
+      "source_sha256": "20735efb93cce6bc546c2b4008b9b7f44049f465caa4296991db990233c34866",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-1/native-evidence/20261022T152051Z-b701f569/task.json",
+      "public_sha256": "20735efb93cce6bc546c2b4008b9b7f44049f465caa4296991db990233c34866",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-1/native-evidence/results.csv",
+      "source_sha256": "8ed36f05d1c304946c8d10315168cfe09297e483a20c2735b3248c16310e4e42",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-1/native-evidence/results.csv",
+      "public_sha256": "8ed36f05d1c304946c8d10315168cfe09297e483a20c2735b3248c16310e4e42",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-1/original-response.txt",
+      "source_sha256": "034b304086710ec92989b6264d4a8d60d303edcf38d8cdb395c0826bf53f5f5f",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-1/original-response.txt",
+      "public_sha256": "034b304086710ec92989b6264d4a8d60d303edcf38d8cdb395c0826bf53f5f5f",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-1/postrun-wrapper-error-record.json",
+      "source_sha256": "3501a55fee2526e638b1a5c924ff780c0d7add4ccbe62c0c33e1350f81dc31cf",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-1/postrun-wrapper-error-record.json",
+      "public_sha256": "3501a55fee2526e638b1a5c924ff780c0d7add4ccbe62c0c33e1350f81dc31cf",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-1/run-record.json",
+      "source_sha256": "853445c775a4d1d184cec4cdfa61a12cd93975fc9baf57e603d2554aa79f7675",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-1/run-record.json",
+      "public_sha256": "853445c775a4d1d184cec4cdfa61a12cd93975fc9baf57e603d2554aa79f7675",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-1/submitted-once.json",
+      "source_sha256": "7917963f6bf60ccc73c35d359d79f91df6f2d2f357462b5e0b0cfb2bec031897",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-1/submitted-once.json",
+      "public_sha256": "7917963f6bf60ccc73c35d359d79f91df6f2d2f357462b5e0b0cfb2bec031897",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-1/task-prompt.txt",
+      "source_sha256": "310e61b597776240557a2aed3e5bcbbdaf93a36c26c7c94e52b65d0b576b3007",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-1/task-prompt.txt",
+      "public_sha256": "310e61b597776240557a2aed3e5bcbbdaf93a36c26c7c94e52b65d0b576b3007",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-2/configuration.json",
+      "source_sha256": "27a1cbf9ea111f332d7af8487805db94683a7f567de8c28c4f29e0ea36e35b26",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-2/configuration.json",
+      "public_sha256": "27a1cbf9ea111f332d7af8487805db94683a7f567de8c28c4f29e0ea36e35b26",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-2/gui-observations.json",
+      "source_sha256": "851b3c7522b5d778810cb084fc6282fea1de1fcf66834bb9669ec7db406549dc",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-2/gui-observations.json",
+      "public_sha256": "851b3c7522b5d778810cb084fc6282fea1de1fcf66834bb9669ec7db406549dc",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-2/independent-verification.json",
+      "source_sha256": "88a06c63c89afd2a59608b0464b2fe0fb182ac1f2e69e5c7caf07dc7b3b82886",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-2/independent-verification.json",
+      "public_sha256": "88a06c63c89afd2a59608b0464b2fe0fb182ac1f2e69e5c7caf07dc7b3b82886",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-2/native-evidence/20261022T152202Z-b7ce3a14/configuration.json",
+      "source_sha256": "85efd4f4aa7b5b6d402355311a287168178ad8943e33baa5ae988a317dbc780e",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-2/native-evidence/20261022T152202Z-b7ce3a14/configuration.json",
+      "public_sha256": "85efd4f4aa7b5b6d402355311a287168178ad8943e33baa5ae988a317dbc780e",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-2/native-evidence/20261022T152202Z-b7ce3a14/events.jsonl",
+      "source_sha256": "53c4866de35d8c310ec4b30ee15d4d2bb7f8a2e8691dab0d1527bfe4faaecb02",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-2/native-evidence/20261022T152202Z-b7ce3a14/events.jsonl",
+      "public_sha256": "53c4866de35d8c310ec4b30ee15d4d2bb7f8a2e8691dab0d1527bfe4faaecb02",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-2/native-evidence/20261022T152202Z-b7ce3a14/responses/001.json",
+      "source_sha256": "3bb031beb69643420d1be75636b8cb515c3d249aadac287f81c5408f9cb04098",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-2/native-evidence/20261022T152202Z-b7ce3a14/responses/001.json",
+      "public_sha256": "3bb031beb69643420d1be75636b8cb515c3d249aadac287f81c5408f9cb04098",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-2/native-evidence/20261022T152202Z-b7ce3a14/responses/002.json",
+      "source_sha256": "a05a284ac7fb64351005cc4c3778701f6d34fa3a89287bec42699adbde87aad3",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-2/native-evidence/20261022T152202Z-b7ce3a14/responses/002.json",
+      "public_sha256": "a05a284ac7fb64351005cc4c3778701f6d34fa3a89287bec42699adbde87aad3",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-2/native-evidence/20261022T152202Z-b7ce3a14/responses/003.json",
+      "source_sha256": "0eb1ff892290c4d6ae420b12227b1ca102398f7f066d844a0896c1be8fbb4d68",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-2/native-evidence/20261022T152202Z-b7ce3a14/responses/003.json",
+      "public_sha256": "0eb1ff892290c4d6ae420b12227b1ca102398f7f066d844a0896c1be8fbb4d68",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-2/native-evidence/20261022T152202Z-b7ce3a14/responses/004.json",
+      "source_sha256": "befb0bc22d0f2c840413d3a044a7cda22ba70c6f7424b1e20712901415ca8ce4",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-2/native-evidence/20261022T152202Z-b7ce3a14/responses/004.json",
+      "public_sha256": "befb0bc22d0f2c840413d3a044a7cda22ba70c6f7424b1e20712901415ca8ce4",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-2/native-evidence/20261022T152202Z-b7ce3a14/responses/005.json",
+      "source_sha256": "d1202fac0ed2a722054675c4a5bc5bfc14da7a2705f503101e1012e21ce671fd",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-2/native-evidence/20261022T152202Z-b7ce3a14/responses/005.json",
+      "public_sha256": "d1202fac0ed2a722054675c4a5bc5bfc14da7a2705f503101e1012e21ce671fd",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-2/native-evidence/20261022T152202Z-b7ce3a14/responses/006.json",
+      "source_sha256": "2ebf52e458ba03c480920df050417c7d9746b9cf0dccc6d0fb6d6af608227f73",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-2/native-evidence/20261022T152202Z-b7ce3a14/responses/006.json",
+      "public_sha256": "2ebf52e458ba03c480920df050417c7d9746b9cf0dccc6d0fb6d6af608227f73",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-2/native-evidence/20261022T152202Z-b7ce3a14/responses/007.json",
+      "source_sha256": "9b718f026043ba6d42edaa337b36c4c81701a53c213e761bc9b76358a335497f",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-2/native-evidence/20261022T152202Z-b7ce3a14/responses/007.json",
+      "public_sha256": "9b718f026043ba6d42edaa337b36c4c81701a53c213e761bc9b76358a335497f",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-2/native-evidence/20261022T152202Z-b7ce3a14/responses/008.json",
+      "source_sha256": "31513f7fecac8d7a332fba544b02ab69551b5200f960d4b0b04661c8acf5c769",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-2/native-evidence/20261022T152202Z-b7ce3a14/responses/008.json",
+      "public_sha256": "31513f7fecac8d7a332fba544b02ab69551b5200f960d4b0b04661c8acf5c769",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-2/native-evidence/20261022T152202Z-b7ce3a14/responses/009.json",
+      "source_sha256": "cd6da081e5267b2f03d907f86b4c2350f8f9a5a33e0c711b23a23095f09450d8",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-2/native-evidence/20261022T152202Z-b7ce3a14/responses/009.json",
+      "public_sha256": "cd6da081e5267b2f03d907f86b4c2350f8f9a5a33e0c711b23a23095f09450d8",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-2/native-evidence/20261022T152202Z-b7ce3a14/screenshots/0004-screenshot.png",
+      "source_sha256": "4f7c94421d3bab601452bf30bcdb92bc389cd69b3af6373066d6bf3c62d4370f",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-2/native-evidence/20261022T152202Z-b7ce3a14/screenshots/0004-screenshot.png",
+      "public_sha256": "4f7c94421d3bab601452bf30bcdb92bc389cd69b3af6373066d6bf3c62d4370f",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-2/native-evidence/20261022T152202Z-b7ce3a14/screenshots/0007-screenshot.png",
+      "source_sha256": "4d07d84f7c6f6314d055c8d5988d3395990531defdb11c77f48a44b199666fc0",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-2/native-evidence/20261022T152202Z-b7ce3a14/screenshots/0007-screenshot.png",
+      "public_sha256": "4d07d84f7c6f6314d055c8d5988d3395990531defdb11c77f48a44b199666fc0",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-2/native-evidence/20261022T152202Z-b7ce3a14/screenshots/0012-screenshot.png",
+      "source_sha256": "bd01481d3c828c03e9271fd7274f86e069053ea462529271bd632e7d57bd893c",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-2/native-evidence/20261022T152202Z-b7ce3a14/screenshots/0012-screenshot.png",
+      "public_sha256": "bd01481d3c828c03e9271fd7274f86e069053ea462529271bd632e7d57bd893c",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-2/native-evidence/20261022T152202Z-b7ce3a14/screenshots/0014-screenshot.png",
+      "source_sha256": "b017275384a7f7a7de92a7ced59f4e5524b7f57d6c161941c755644aefbde8dd",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-2/native-evidence/20261022T152202Z-b7ce3a14/screenshots/0014-screenshot.png",
+      "public_sha256": "b017275384a7f7a7de92a7ced59f4e5524b7f57d6c161941c755644aefbde8dd",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-2/native-evidence/20261022T152202Z-b7ce3a14/screenshots/0028-screenshot.png",
+      "source_sha256": "01c4ae948533d7b89f412f71c8371d11826ec7c11bd80f174918e9340fcc3e50",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-2/native-evidence/20261022T152202Z-b7ce3a14/screenshots/0028-screenshot.png",
+      "public_sha256": "01c4ae948533d7b89f412f71c8371d11826ec7c11bd80f174918e9340fcc3e50",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-2/native-evidence/20261022T152202Z-b7ce3a14/screenshots/0030-screenshot.png",
+      "source_sha256": "87587bad0dfad438bf1346dda938c976fbba7154a7359b31c067a9bf5a95d59b",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-2/native-evidence/20261022T152202Z-b7ce3a14/screenshots/0030-screenshot.png",
+      "public_sha256": "87587bad0dfad438bf1346dda938c976fbba7154a7359b31c067a9bf5a95d59b",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-2/native-evidence/20261022T152202Z-b7ce3a14/screenshots/0035-screenshot.png",
+      "source_sha256": "ae35810cee61b9b7f512eb3145172a269368c6b4a1cd2c108c26d79a51d38ec7",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-2/native-evidence/20261022T152202Z-b7ce3a14/screenshots/0035-screenshot.png",
+      "public_sha256": "ae35810cee61b9b7f512eb3145172a269368c6b4a1cd2c108c26d79a51d38ec7",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-2/native-evidence/20261022T152202Z-b7ce3a14/screenshots/0038-screenshot.png",
+      "source_sha256": "1b39722b2f3d68bed6e078f30d2a2e24eb9975a99dfe8f4dd5fbb332ad876ff0",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-2/native-evidence/20261022T152202Z-b7ce3a14/screenshots/0038-screenshot.png",
+      "public_sha256": "1b39722b2f3d68bed6e078f30d2a2e24eb9975a99dfe8f4dd5fbb332ad876ff0",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-2/native-evidence/20261022T152202Z-b7ce3a14/screenshots/independent-agent-final.png",
+      "source_sha256": "1b39722b2f3d68bed6e078f30d2a2e24eb9975a99dfe8f4dd5fbb332ad876ff0",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-2/native-evidence/20261022T152202Z-b7ce3a14/screenshots/independent-agent-final.png",
+      "public_sha256": "1b39722b2f3d68bed6e078f30d2a2e24eb9975a99dfe8f4dd5fbb332ad876ff0",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-2/native-evidence/20261022T152202Z-b7ce3a14/screenshots/independent-upper.png",
+      "source_sha256": "1fe823f87b31ab9635789306184cc2ebb83cc3a61b28d69ee560789b054f5175",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-2/native-evidence/20261022T152202Z-b7ce3a14/screenshots/independent-upper.png",
+      "public_sha256": "1fe823f87b31ab9635789306184cc2ebb83cc3a61b28d69ee560789b054f5175",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-2/native-evidence/20261022T152202Z-b7ce3a14/summary.json",
+      "source_sha256": "212e6aa7ced1ccbfc73bbaf59bd342031b6ff55ccb192f0bc864d926fa3d322d",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-2/native-evidence/20261022T152202Z-b7ce3a14/summary.json",
+      "public_sha256": "212e6aa7ced1ccbfc73bbaf59bd342031b6ff55ccb192f0bc864d926fa3d322d",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-2/native-evidence/20261022T152202Z-b7ce3a14/task.json",
+      "source_sha256": "20735efb93cce6bc546c2b4008b9b7f44049f465caa4296991db990233c34866",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-2/native-evidence/20261022T152202Z-b7ce3a14/task.json",
+      "public_sha256": "20735efb93cce6bc546c2b4008b9b7f44049f465caa4296991db990233c34866",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-2/native-evidence/results.csv",
+      "source_sha256": "a7d17cc878af27fa65e4d0ffb08d8290ef114f8ae120cf40c4d0cd148f408ea7",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-2/native-evidence/results.csv",
+      "public_sha256": "a7d17cc878af27fa65e4d0ffb08d8290ef114f8ae120cf40c4d0cd148f408ea7",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-2/original-response.txt",
+      "source_sha256": "d476194e2bd466f690dec9e4deeb44f23993dbeaecc6bc3650938a2af973db8e",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-2/original-response.txt",
+      "public_sha256": "d476194e2bd466f690dec9e4deeb44f23993dbeaecc6bc3650938a2af973db8e",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-2/postrun-wrapper-error-record.json",
+      "source_sha256": "a2d51028276b282b2f950e7dcbc9e7e32f3f52f316dd1906892101afa2bae26a",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-2/postrun-wrapper-error-record.json",
+      "public_sha256": "a2d51028276b282b2f950e7dcbc9e7e32f3f52f316dd1906892101afa2bae26a",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-2/run-record.json",
+      "source_sha256": "9634e802f64a0d97fded78d74f9a677c459a53716d614a94f65467b2dce16e0c",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-2/run-record.json",
+      "public_sha256": "9634e802f64a0d97fded78d74f9a677c459a53716d614a94f65467b2dce16e0c",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-2/submitted-once.json",
+      "source_sha256": "393beed114c5b08ee29ea777cbb6dbe39633eaca19da1a81ac63b2a06b6c6ef6",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-2/submitted-once.json",
+      "public_sha256": "393beed114c5b08ee29ea777cbb6dbe39633eaca19da1a81ac63b2a06b6c6ef6",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-2/task-prompt.txt",
+      "source_sha256": "310e61b597776240557a2aed3e5bcbbdaf93a36c26c7c94e52b65d0b576b3007",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-2/task-prompt.txt",
+      "public_sha256": "310e61b597776240557a2aed3e5bcbbdaf93a36c26c7c94e52b65d0b576b3007",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-3/configuration.json",
+      "source_sha256": "bddcb12138301c9f21d0566f733eecda790dc10e41c7e5886da1b4e202c019e0",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-3/configuration.json",
+      "public_sha256": "bddcb12138301c9f21d0566f733eecda790dc10e41c7e5886da1b4e202c019e0",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-3/gui-observations.json",
+      "source_sha256": "aca1eff4d962c636a2fd40ee183610cd51bb045728bac3bb3eef093adbe8c07a",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-3/gui-observations.json",
+      "public_sha256": "aca1eff4d962c636a2fd40ee183610cd51bb045728bac3bb3eef093adbe8c07a",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-3/independent-verification.json",
+      "source_sha256": "f6d9cc319075bf076cdbfc096efbb54c89f755e42967a733c80f3536b8fcf91a",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-3/independent-verification.json",
+      "public_sha256": "f6d9cc319075bf076cdbfc096efbb54c89f755e42967a733c80f3536b8fcf91a",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-3/native-evidence/20261022T152321Z-35d0c90f/configuration.json",
+      "source_sha256": "85efd4f4aa7b5b6d402355311a287168178ad8943e33baa5ae988a317dbc780e",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-3/native-evidence/20261022T152321Z-35d0c90f/configuration.json",
+      "public_sha256": "85efd4f4aa7b5b6d402355311a287168178ad8943e33baa5ae988a317dbc780e",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-3/native-evidence/20261022T152321Z-35d0c90f/events.jsonl",
+      "source_sha256": "14aeb91feb8c49f347304563e3a546f0a595cf8b425323909d62628dec08fad1",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-3/native-evidence/20261022T152321Z-35d0c90f/events.jsonl",
+      "public_sha256": "14aeb91feb8c49f347304563e3a546f0a595cf8b425323909d62628dec08fad1",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-3/native-evidence/20261022T152321Z-35d0c90f/responses/001.json",
+      "source_sha256": "afd10eb7cf732dcebaa13b364cf2746207760cc32bf1dd1de3b6b29815dd5502",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-3/native-evidence/20261022T152321Z-35d0c90f/responses/001.json",
+      "public_sha256": "afd10eb7cf732dcebaa13b364cf2746207760cc32bf1dd1de3b6b29815dd5502",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-3/native-evidence/20261022T152321Z-35d0c90f/responses/002.json",
+      "source_sha256": "67df50c316874d5c07364e107aa8f7d54b6e40c7712aa8e340ed35117878e3cd",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-3/native-evidence/20261022T152321Z-35d0c90f/responses/002.json",
+      "public_sha256": "67df50c316874d5c07364e107aa8f7d54b6e40c7712aa8e340ed35117878e3cd",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-3/native-evidence/20261022T152321Z-35d0c90f/responses/003.json",
+      "source_sha256": "e8a91906de582e4ad7042fa9f1a373efd464ce1badaee96d95969b53cdc37c50",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-3/native-evidence/20261022T152321Z-35d0c90f/responses/003.json",
+      "public_sha256": "e8a91906de582e4ad7042fa9f1a373efd464ce1badaee96d95969b53cdc37c50",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-3/native-evidence/20261022T152321Z-35d0c90f/responses/004.json",
+      "source_sha256": "20213831f48dbd570e094c5c29603192c341d208b90d7ba9dc07f018d135c1e5",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-3/native-evidence/20261022T152321Z-35d0c90f/responses/004.json",
+      "public_sha256": "20213831f48dbd570e094c5c29603192c341d208b90d7ba9dc07f018d135c1e5",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-3/native-evidence/20261022T152321Z-35d0c90f/responses/005.json",
+      "source_sha256": "2ad5ba3f57164a60345cabd39d94c4436726fd5f4eee89404c1bfa28b96f9da1",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-3/native-evidence/20261022T152321Z-35d0c90f/responses/005.json",
+      "public_sha256": "2ad5ba3f57164a60345cabd39d94c4436726fd5f4eee89404c1bfa28b96f9da1",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-3/native-evidence/20261022T152321Z-35d0c90f/responses/006.json",
+      "source_sha256": "e1dc232f7628397999a343dae0dba93b7b5725267eab664fa90fcbc1a6e04868",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-3/native-evidence/20261022T152321Z-35d0c90f/responses/006.json",
+      "public_sha256": "e1dc232f7628397999a343dae0dba93b7b5725267eab664fa90fcbc1a6e04868",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-3/native-evidence/20261022T152321Z-35d0c90f/responses/007.json",
+      "source_sha256": "34016d4a87b09a4812181014d823da28ec28103f1d545eb4a4463a724145f708",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-3/native-evidence/20261022T152321Z-35d0c90f/responses/007.json",
+      "public_sha256": "34016d4a87b09a4812181014d823da28ec28103f1d545eb4a4463a724145f708",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-3/native-evidence/20261022T152321Z-35d0c90f/responses/008.json",
+      "source_sha256": "0ec18270294d25820f2b6557d0a3b00ca184490df09853f836d71b9bfb16e42c",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-3/native-evidence/20261022T152321Z-35d0c90f/responses/008.json",
+      "public_sha256": "0ec18270294d25820f2b6557d0a3b00ca184490df09853f836d71b9bfb16e42c",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-3/native-evidence/20261022T152321Z-35d0c90f/responses/009.json",
+      "source_sha256": "b9505bba6c91ae74e312e8cdf497592f2354d555ef05088b3804786a74e80a0a",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-3/native-evidence/20261022T152321Z-35d0c90f/responses/009.json",
+      "public_sha256": "b9505bba6c91ae74e312e8cdf497592f2354d555ef05088b3804786a74e80a0a",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-3/native-evidence/20261022T152321Z-35d0c90f/responses/010.json",
+      "source_sha256": "06c19e950d4c53e5314d745c1dec831b1fc53e29f00362af98de7a265a069ba1",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-3/native-evidence/20261022T152321Z-35d0c90f/responses/010.json",
+      "public_sha256": "06c19e950d4c53e5314d745c1dec831b1fc53e29f00362af98de7a265a069ba1",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-3/native-evidence/20261022T152321Z-35d0c90f/screenshots/0004-screenshot.png",
+      "source_sha256": "4f7c94421d3bab601452bf30bcdb92bc389cd69b3af6373066d6bf3c62d4370f",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-3/native-evidence/20261022T152321Z-35d0c90f/screenshots/0004-screenshot.png",
+      "public_sha256": "4f7c94421d3bab601452bf30bcdb92bc389cd69b3af6373066d6bf3c62d4370f",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-3/native-evidence/20261022T152321Z-35d0c90f/screenshots/0007-screenshot.png",
+      "source_sha256": "4d07d84f7c6f6314d055c8d5988d3395990531defdb11c77f48a44b199666fc0",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-3/native-evidence/20261022T152321Z-35d0c90f/screenshots/0007-screenshot.png",
+      "public_sha256": "4d07d84f7c6f6314d055c8d5988d3395990531defdb11c77f48a44b199666fc0",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-3/native-evidence/20261022T152321Z-35d0c90f/screenshots/0012-screenshot.png",
+      "source_sha256": "bd01481d3c828c03e9271fd7274f86e069053ea462529271bd632e7d57bd893c",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-3/native-evidence/20261022T152321Z-35d0c90f/screenshots/0012-screenshot.png",
+      "public_sha256": "bd01481d3c828c03e9271fd7274f86e069053ea462529271bd632e7d57bd893c",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-3/native-evidence/20261022T152321Z-35d0c90f/screenshots/0014-screenshot.png",
+      "source_sha256": "42775299131361344f7aa4e34050e2932d00b8ed6485f3ad8c4e94a7ca6875b9",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-3/native-evidence/20261022T152321Z-35d0c90f/screenshots/0014-screenshot.png",
+      "public_sha256": "42775299131361344f7aa4e34050e2932d00b8ed6485f3ad8c4e94a7ca6875b9",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-3/native-evidence/20261022T152321Z-35d0c90f/screenshots/0028-screenshot.png",
+      "source_sha256": "a0b1a35a82820b640f953f191652156f91af8da65d21411c44cfdc2a761b248c",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-3/native-evidence/20261022T152321Z-35d0c90f/screenshots/0028-screenshot.png",
+      "public_sha256": "a0b1a35a82820b640f953f191652156f91af8da65d21411c44cfdc2a761b248c",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-3/native-evidence/20261022T152321Z-35d0c90f/screenshots/0031-screenshot.png",
+      "source_sha256": "a53ed20b54576c8ff7efde3da90bb3f22ec78ffaca29124aa7a5807f25d16d84",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-3/native-evidence/20261022T152321Z-35d0c90f/screenshots/0031-screenshot.png",
+      "public_sha256": "a53ed20b54576c8ff7efde3da90bb3f22ec78ffaca29124aa7a5807f25d16d84",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-3/native-evidence/20261022T152321Z-35d0c90f/screenshots/0034-screenshot.png",
+      "source_sha256": "d52ceceada1b5a6327bc15eff81cb68bc4f871157df0f4bb495a91ad012754c7",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-3/native-evidence/20261022T152321Z-35d0c90f/screenshots/0034-screenshot.png",
+      "public_sha256": "d52ceceada1b5a6327bc15eff81cb68bc4f871157df0f4bb495a91ad012754c7",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-3/native-evidence/20261022T152321Z-35d0c90f/screenshots/0037-screenshot.png",
+      "source_sha256": "fbf384785d172d2579f14aee9d8d702e1b2cfc9f396128d68a0dc344d86e1311",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-3/native-evidence/20261022T152321Z-35d0c90f/screenshots/0037-screenshot.png",
+      "public_sha256": "fbf384785d172d2579f14aee9d8d702e1b2cfc9f396128d68a0dc344d86e1311",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-3/native-evidence/20261022T152321Z-35d0c90f/screenshots/0039-screenshot.png",
+      "source_sha256": "e96ff5190280079e093f020b80567ecfc8839398c4b79d31c0542a2886e56cbd",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-3/native-evidence/20261022T152321Z-35d0c90f/screenshots/0039-screenshot.png",
+      "public_sha256": "e96ff5190280079e093f020b80567ecfc8839398c4b79d31c0542a2886e56cbd",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-3/native-evidence/20261022T152321Z-35d0c90f/screenshots/independent-agent-final.png",
+      "source_sha256": "26a7dc84e778c35e3e552157b430a8f46dfade178bcc648aec72bfd347fc117b",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-3/native-evidence/20261022T152321Z-35d0c90f/screenshots/independent-agent-final.png",
+      "public_sha256": "26a7dc84e778c35e3e552157b430a8f46dfade178bcc648aec72bfd347fc117b",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-3/native-evidence/20261022T152321Z-35d0c90f/screenshots/independent-upper.png",
+      "source_sha256": "1fe823f87b31ab9635789306184cc2ebb83cc3a61b28d69ee560789b054f5175",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-3/native-evidence/20261022T152321Z-35d0c90f/screenshots/independent-upper.png",
+      "public_sha256": "1fe823f87b31ab9635789306184cc2ebb83cc3a61b28d69ee560789b054f5175",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-3/native-evidence/20261022T152321Z-35d0c90f/summary.json",
+      "source_sha256": "9a0ce9be67c79f80ca49d03eed6e231a4e3d4d74d874276952a45d7977ea8fe5",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-3/native-evidence/20261022T152321Z-35d0c90f/summary.json",
+      "public_sha256": "9a0ce9be67c79f80ca49d03eed6e231a4e3d4d74d874276952a45d7977ea8fe5",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-3/native-evidence/20261022T152321Z-35d0c90f/task.json",
+      "source_sha256": "20735efb93cce6bc546c2b4008b9b7f44049f465caa4296991db990233c34866",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-3/native-evidence/20261022T152321Z-35d0c90f/task.json",
+      "public_sha256": "20735efb93cce6bc546c2b4008b9b7f44049f465caa4296991db990233c34866",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-3/native-evidence/results.csv",
+      "source_sha256": "c9f294060363f29d97e205860a83c9d7a9a58faea29f4dd56de158dbf144088f",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-3/native-evidence/results.csv",
+      "public_sha256": "c9f294060363f29d97e205860a83c9d7a9a58faea29f4dd56de158dbf144088f",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-3/original-response.txt",
+      "source_sha256": "c27faa4afb27493d09a346f11cfbe8c84c79653105f61640cae5b59c2b2e60eb",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-3/original-response.txt",
+      "public_sha256": "c27faa4afb27493d09a346f11cfbe8c84c79653105f61640cae5b59c2b2e60eb",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-3/postrun-wrapper-error-record.json",
+      "source_sha256": "7c1e01db4ab8ffd26b68ca4432e80cbc37bb8f96d1833221823a589db89824b4",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-3/postrun-wrapper-error-record.json",
+      "public_sha256": "7c1e01db4ab8ffd26b68ca4432e80cbc37bb8f96d1833221823a589db89824b4",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-3/run-record.json",
+      "source_sha256": "c7c67c92b877bc66528e24a1f1dbcfafbd128cc44f8ad3116acce1cce85ba812",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-3/run-record.json",
+      "public_sha256": "c7c67c92b877bc66528e24a1f1dbcfafbd128cc44f8ad3116acce1cce85ba812",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-3/submitted-once.json",
+      "source_sha256": "44d5b0cad427ac2de4009f6c62d8caf0a0d925af1f080e5c933c3c80e63b920d",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-3/submitted-once.json",
+      "public_sha256": "44d5b0cad427ac2de4009f6c62d8caf0a0d925af1f080e5c933c3c80e63b920d",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude/attempt-3/task-prompt.txt",
+      "source_sha256": "310e61b597776240557a2aed3e5bcbbdaf93a36c26c7c94e52b65d0b576b3007",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude/attempt-3/task-prompt.txt",
+      "public_sha256": "310e61b597776240557a2aed3e5bcbbdaf93a36c26c7c94e52b65d0b576b3007",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/claude-access-preflight.json",
+      "source_sha256": "3471c18ba48a2a504a5453fdd965e6207aca3bcb7ea8b71dcbaa7797e8221164",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/claude-access-preflight.json",
+      "public_sha256": "3471c18ba48a2a504a5453fdd965e6207aca3bcb7ea8b71dcbaa7797e8221164",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/execution-source/initial-executed-wrapper.py.txt",
+      "source_sha256": "647b3988f4fd3d010384efb69a5b118348bcf1669b077ddf207fa5e5b0cea605",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/execution-source/initial-executed-wrapper.py.txt",
+      "public_sha256": "647b3988f4fd3d010384efb69a5b118348bcf1669b077ddf207fa5e5b0cea605",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/execution-source/initial-watchdog.py.txt",
+      "source_sha256": "553644a4b509dd68880984a8313a635c766ed81a83aa48994ecebbb9cc365fcf",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/execution-source/initial-watchdog.py.txt",
+      "public_sha256": "553644a4b509dd68880984a8313a635c766ed81a83aa48994ecebbb9cc365fcf",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/execution-source/supported-tinyfish-adapter.py.txt",
+      "source_sha256": "78849f4d5d4cdbe6d9c28e09dfcd049872d067262c777850b28d5f1ace8e88eb",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/execution-source/supported-tinyfish-adapter.py.txt",
+      "public_sha256": "78849f4d5d4cdbe6d9c28e09dfcd049872d067262c777850b28d5f1ace8e88eb",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/final-billing-observation.json",
+      "source_sha256": "f400c53ea3efe9359d0adba5aaf4b99de360cfc0f482e95cb11ba06eddc4d35d",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/final-billing-observation.json",
+      "public_sha256": "f400c53ea3efe9359d0adba5aaf4b99de360cfc0f482e95cb11ba06eddc4d35d",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/infrastructure-rejections/README.json",
+      "source_sha256": "fa092bcebb6b195e6716cf16daf37ab869d55fbc1637e3a5b61efc8db7e0ace6",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/infrastructure-rejections/README.json",
+      "public_sha256": "fa092bcebb6b195e6716cf16daf37ab869d55fbc1637e3a5b61efc8db7e0ace6",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/infrastructure-rejections/tinyfish-before-run-1/actual-submission-payload.json",
+      "source_sha256": "bdb104fb4d9868bae12b362ca8f1ec33f1131228a2769f1cfcd028d5050d8ecd",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/infrastructure-rejections/tinyfish-before-run-1/actual-submission-payload.json",
+      "public_sha256": "bdb104fb4d9868bae12b362ca8f1ec33f1131228a2769f1cfcd028d5050d8ecd",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/infrastructure-rejections/tinyfish-before-run-1/configuration.json",
+      "source_sha256": "ccdcfbc2b05c1a2fc7eda9c9ea7c1f2bb75b31dbf0847bd37e03603bd22f82b2",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/infrastructure-rejections/tinyfish-before-run-1/configuration.json",
+      "public_sha256": "ccdcfbc2b05c1a2fc7eda9c9ea7c1f2bb75b31dbf0847bd37e03603bd22f82b2",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/infrastructure-rejections/tinyfish-before-run-1/run-record.json",
+      "source_sha256": "f9a7d693679a1f5bd5b362bd49c0fb7e190be096c5fb8bc3d8bdbb21312b562d",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/infrastructure-rejections/tinyfish-before-run-1/run-record.json",
+      "public_sha256": "f9a7d693679a1f5bd5b362bd49c0fb7e190be096c5fb8bc3d8bdbb21312b562d",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/infrastructure-rejections/tinyfish-before-run-1/submission.json",
+      "source_sha256": "95a479d648a38753c3c81606eb9385c7921bedcb1b79be5f8d82671e1cfb9340",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/infrastructure-rejections/tinyfish-before-run-1/submission.json",
+      "public_sha256": "95a479d648a38753c3c81606eb9385c7921bedcb1b79be5f8d82671e1cfb9340",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/infrastructure-rejections/tinyfish-before-run-1/submitted-once.json",
+      "source_sha256": "b2eaa1e5f6f39dd7e3ebed9a3a25f6e0b431edd2e78f98512358b2ad2d26fe9e",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/infrastructure-rejections/tinyfish-before-run-1/submitted-once.json",
+      "public_sha256": "b2eaa1e5f6f39dd7e3ebed9a3a25f6e0b431edd2e78f98512358b2ad2d26fe9e",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/infrastructure-rejections/tinyfish-before-run-1/task-prompt.txt",
+      "source_sha256": "310e61b597776240557a2aed3e5bcbbdaf93a36c26c7c94e52b65d0b576b3007",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/infrastructure-rejections/tinyfish-before-run-1/task-prompt.txt",
+      "public_sha256": "310e61b597776240557a2aed3e5bcbbdaf93a36c26c7c94e52b65d0b576b3007",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/infrastructure-rejections/tinyfish-before-run-1/wallet-observation.json",
+      "source_sha256": "ecacdf20596cf2d52c5612d9dd76245365f61e6391371a6460cffcca07f3ec57",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/infrastructure-rejections/tinyfish-before-run-1/wallet-observation.json",
+      "public_sha256": "ecacdf20596cf2d52c5612d9dd76245365f61e6391371a6460cffcca07f3ec57",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/infrastructure-rejections/tinyfish-before-run-2/configuration.json",
+      "source_sha256": "9c700b117d727ba8501049ac836e3e3f75ec1a1d3a53acafca994e0962a9278a",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/infrastructure-rejections/tinyfish-before-run-2/configuration.json",
+      "public_sha256": "9c700b117d727ba8501049ac836e3e3f75ec1a1d3a53acafca994e0962a9278a",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/infrastructure-rejections/tinyfish-before-run-2/run-record.json",
+      "source_sha256": "cd9bf517e1a6c50f2c693c0e66d200be77733ed69f37065460a57285bb9a81bc",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/infrastructure-rejections/tinyfish-before-run-2/run-record.json",
+      "public_sha256": "cd9bf517e1a6c50f2c693c0e66d200be77733ed69f37065460a57285bb9a81bc",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/infrastructure-rejections/tinyfish-before-run-2/task-prompt.txt",
+      "source_sha256": "310e61b597776240557a2aed3e5bcbbdaf93a36c26c7c94e52b65d0b576b3007",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/infrastructure-rejections/tinyfish-before-run-2/task-prompt.txt",
+      "public_sha256": "310e61b597776240557a2aed3e5bcbbdaf93a36c26c7c94e52b65d0b576b3007",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/infrastructure-rejections/tinyfish-before-run-3/configuration.json",
+      "source_sha256": "087811baf04e5f43ab569f804686e85d53fea53a9fa8cfab34d76b38397cca16",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/infrastructure-rejections/tinyfish-before-run-3/configuration.json",
+      "public_sha256": "087811baf04e5f43ab569f804686e85d53fea53a9fa8cfab34d76b38397cca16",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/infrastructure-rejections/tinyfish-before-run-3/run-record.json",
+      "source_sha256": "dfd06cbf83579dc9c71011311d61b1326ff8d6deded4637758bab2424b6c8903",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/infrastructure-rejections/tinyfish-before-run-3/run-record.json",
+      "public_sha256": "dfd06cbf83579dc9c71011311d61b1326ff8d6deded4637758bab2424b6c8903",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/infrastructure-rejections/tinyfish-before-run-3/task-prompt.txt",
+      "source_sha256": "310e61b597776240557a2aed3e5bcbbdaf93a36c26c7c94e52b65d0b576b3007",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/infrastructure-rejections/tinyfish-before-run-3/task-prompt.txt",
+      "public_sha256": "310e61b597776240557a2aed3e5bcbbdaf93a36c26c7c94e52b65d0b576b3007",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/reconciled-budget.json",
+      "source_sha256": "3eb4c86c00b4f47c585ec935d04952c584256e44107a039aba7d8444dca5a118",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/reconciled-budget.json",
+      "public_sha256": "3eb4c86c00b4f47c585ec935d04952c584256e44107a039aba7d8444dca5a118",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/spending-watchdog.json",
+      "source_sha256": "ddb578dd7379eea84af259ef09c819dbe1eb0bb5d17680a58f1ed1a3c0b29643",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/spending-watchdog.json",
+      "public_sha256": "ddb578dd7379eea84af259ef09c819dbe1eb0bb5d17680a58f1ed1a3c0b29643",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/supported-tinyfish-started.json",
+      "source_sha256": "90b7bdc7654c07ad8d406a408cd4b92546c82559ce9140934c74c8ea38cbdb09",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/supported-tinyfish-started.json",
+      "public_sha256": "90b7bdc7654c07ad8d406a408cd4b92546c82559ce9140934c74c8ea38cbdb09",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/supported-tinyfish-status.json",
+      "source_sha256": "2582f23cf62d25c6e434c47d55c71f7eb661c83f8fb273c92d6c5674755e6038",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/supported-tinyfish-status.json",
+      "public_sha256": "2582f23cf62d25c6e434c47d55c71f7eb661c83f8fb273c92d6c5674755e6038",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-1/actual-submission-payload.json",
+      "source_sha256": "81a2a21a06bee6a22f05dbe2a1d0ea90cde306270966aba8abeaad8ee4a0bf87",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-1/actual-submission-payload.json",
+      "public_sha256": "81a2a21a06bee6a22f05dbe2a1d0ea90cde306270966aba8abeaad8ee4a0bf87",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-1/capture-index.json",
+      "source_sha256": "b6fbf52ab79de8213daf2febd322e35b819ebfc1b6ab7ab1e1db1440b942965a",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-1/capture-index.json",
+      "public_sha256": "8288b4ea95a3ab11f879f1c6fe1a2edfc1c33f8cf05ec59d3bebdaf65527f6c7",
+      "transformation": "opaque IDs / capability links / host home prefix redacted; task content and usage retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-1/configuration.json",
+      "source_sha256": "4af92d2995a6818b4b02172faa0bb92c002bb6f49d40927cc125cc8a1d018e68",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-1/configuration.json",
+      "public_sha256": "4af92d2995a6818b4b02172faa0bb92c002bb6f49d40927cc125cc8a1d018e68",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-1/gui-observations.json",
+      "source_sha256": "3bb2f82482941a84874b3b8ffe56cf482db548988368ef7837b0d490f572dbd4",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-1/gui-observations.json",
+      "public_sha256": "3bb2f82482941a84874b3b8ffe56cf482db548988368ef7837b0d490f572dbd4",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-1/html-captures/000.html",
+      "source_sha256": "53b10e8cd2550c2e0ebfd92016c8e9af5a29032b7b5a0c560984291d465dedb0",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-1/html-captures/000.html",
+      "public_sha256": "5485d505b4d9a7a1288224819f2e5b001da31bc3fc7cb90e477162133a840731",
+      "transformation": "opaque IDs / capability links / host home prefix redacted; task content and usage retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-1/html-captures/001.html",
+      "source_sha256": "f1d5916317eb6b88f8e4264fb9f9996499b38e05824156a1f8cd4f18cbd4b57c",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-1/html-captures/001.html",
+      "public_sha256": "ec7001c299b056d21737fc3bad03f29c3a79a5f5669a8a7f0e2a6ea84ad0afdb",
+      "transformation": "opaque IDs / capability links / host home prefix redacted; task content and usage retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-1/html-captures/002.html",
+      "source_sha256": "97890e53a3c56ee99b5c27111de336d7788b4eadce441da5c6b0a8b631c06533",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-1/html-captures/002.html",
+      "public_sha256": "92418f7ac6e58d7136c919ed3c651599756ea4590a2bee79a675f21f04ab3a59",
+      "transformation": "opaque IDs / capability links / host home prefix redacted; task content and usage retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-1/html-captures/003.html",
+      "source_sha256": "17e842915297b68d4f15b42946b6c22e2cc390a2ee79da0c0cf3e6db5ff2af01",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-1/html-captures/003.html",
+      "public_sha256": "8af3470da6b8086630c9bc682191c6694b66ff31bd3133264f79d8014e1207b1",
+      "transformation": "opaque IDs / capability links / host home prefix redacted; task content and usage retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-1/html-captures/004.html",
+      "source_sha256": "018a8569af6357b137681c851ab51225e1f2150e92466a95367a0d817f8077a5",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-1/html-captures/004.html",
+      "public_sha256": "b308809cbc4fa7affc3abf81eccd572842c873395ba42809a7d0f3161c960623",
+      "transformation": "opaque IDs / capability links / host home prefix redacted; task content and usage retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-1/html-captures/005.html",
+      "source_sha256": "9e558389c7ba7fb4c1f5ca0739e6042726b69fc987dc5a02e40f4aa441754a29",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-1/html-captures/005.html",
+      "public_sha256": "81974b76db74cee337777f48a35598a559838000b1611edc9a30e76bbdace2a7",
+      "transformation": "opaque IDs / capability links / host home prefix redacted; task content and usage retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-1/html-captures/006.html",
+      "source_sha256": "e6ab1e678d5993c85ccdf2dee1c22139b1f36175b40e11703f50cd029f2b9013",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-1/html-captures/006.html",
+      "public_sha256": "9ab09a6349a91ba1829ea02d47436691af1613f5da30d21a5c63a0f06f560ccf",
+      "transformation": "opaque IDs / capability links / host home prefix redacted; task content and usage retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-1/html-captures/007.html",
+      "source_sha256": "1499420f7a22576a146bbf2d4da701f19e606e99ccc5e499951630863323a264",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-1/html-captures/007.html",
+      "public_sha256": "fa3908e0e3508195838387b8cc2db9d58fb0972dc4b6a8d088d2169c1eebb92b",
+      "transformation": "opaque IDs / capability links / host home prefix redacted; task content and usage retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-1/html-captures/008.html",
+      "source_sha256": "36e9b8c55cfc0ce85a7d6f08b9d425c72bdcd25781c49a9bb07ecb5773ec9d02",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-1/html-captures/008.html",
+      "public_sha256": "afd897afe0dbff5d915aa4f6171a7de917574b058f0c38ae170546d2e2dce5e8",
+      "transformation": "opaque IDs / capability links / host home prefix redacted; task content and usage retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-1/html-captures/009.html",
+      "source_sha256": "142153d50d53d3a68521ea9e929d00c6c8349cb8cfe339da5ca8f29e4be12b88",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-1/html-captures/009.html",
+      "public_sha256": "6ed1e91e14d1791ea9e456cd91cd4e692cfa0366e73f66cc9ceae9d9c488c550",
+      "transformation": "opaque IDs / capability links / host home prefix redacted; task content and usage retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-1/html-captures/010.html",
+      "source_sha256": "142153d50d53d3a68521ea9e929d00c6c8349cb8cfe339da5ca8f29e4be12b88",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-1/html-captures/010.html",
+      "public_sha256": "6ed1e91e14d1791ea9e456cd91cd4e692cfa0366e73f66cc9ceae9d9c488c550",
+      "transformation": "opaque IDs / capability links / host home prefix redacted; task content and usage retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-1/html-captures/011.html",
+      "source_sha256": "142153d50d53d3a68521ea9e929d00c6c8349cb8cfe339da5ca8f29e4be12b88",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-1/html-captures/011.html",
+      "public_sha256": "6ed1e91e14d1791ea9e456cd91cd4e692cfa0366e73f66cc9ceae9d9c488c550",
+      "transformation": "opaque IDs / capability links / host home prefix redacted; task content and usage retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-1/independent-verification.json",
+      "source_sha256": "eadb0ce7abd7bcd05bf445ce34e3b2299e45e364690689d65a45498af4d5f751",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-1/independent-verification.json",
+      "public_sha256": "eadb0ce7abd7bcd05bf445ce34e3b2299e45e364690689d65a45498af4d5f751",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-1/original-response.txt",
+      "source_sha256": "242450eb3c0803737a67e1ad414280a3b2df03d9bfbcbf91c33726b6ebc60d05",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-1/original-response.txt",
+      "public_sha256": "242450eb3c0803737a67e1ad414280a3b2df03d9bfbcbf91c33726b6ebc60d05",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-1/polls.json",
+      "source_sha256": "7dc69596fae53eba622363d130a2f45fa10dca151caa4fc6b486a8f98f9da55d",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-1/polls.json",
+      "public_sha256": "7dc69596fae53eba622363d130a2f45fa10dca151caa4fc6b486a8f98f9da55d",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-1/provider-run.json",
+      "source_sha256": "f4ad1f20e7232b10495db1e516bee2f510e2ba6a5e2268f884502edeb4ecd08d",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-1/provider-run.json",
+      "public_sha256": "abd2bb25434d8fbbee5bc07539347f106a8f1a286db077557aa692a501251dce",
+      "transformation": "opaque IDs / capability links / host home prefix redacted; task content and usage retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-1/run-record.json",
+      "source_sha256": "ef0cb241ae496f44c38f08c1f46ddcf3fb11c9eac019e1c1eaea394b4f06371e",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-1/run-record.json",
+      "public_sha256": "cdef3f313b2a5959e0d20f0b06174fd8e3e1af94ca96e99e9c42e0906f3eba70",
+      "transformation": "opaque IDs / capability links / host home prefix redacted; task content and usage retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-1/screenshots/screenshot-000.jpg",
+      "source_sha256": "ba231f8e10539661dbc8225331e55ae32820ac92c9557dc46473441b07bfc8e6",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-1/screenshots/screenshot-000.jpg",
+      "public_sha256": "ba231f8e10539661dbc8225331e55ae32820ac92c9557dc46473441b07bfc8e6",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-1/screenshots/screenshot-001.jpg",
+      "source_sha256": "5211283f63347ec0a31f94fdd495335fd37ae95123ebb7b046a599925078ccb5",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-1/screenshots/screenshot-001.jpg",
+      "public_sha256": "5211283f63347ec0a31f94fdd495335fd37ae95123ebb7b046a599925078ccb5",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-1/screenshots/screenshot-002.jpg",
+      "source_sha256": "831c6501334666a89be5744525ae8a31eb63ca822cb3611636eaaaf762464aa9",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-1/screenshots/screenshot-002.jpg",
+      "public_sha256": "831c6501334666a89be5744525ae8a31eb63ca822cb3611636eaaaf762464aa9",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-1/screenshots/screenshot-003.jpg",
+      "source_sha256": "a5016867d53115cf3effb1b66d35d9f7713025b33c2a76039cd06279d6020b7f",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-1/screenshots/screenshot-003.jpg",
+      "public_sha256": "a5016867d53115cf3effb1b66d35d9f7713025b33c2a76039cd06279d6020b7f",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-1/screenshots/screenshot-004.jpg",
+      "source_sha256": "32395dd38968c3633b619f8e5d4e0a4b9e3a2dd097580c887bcf060c2151efdc",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-1/screenshots/screenshot-004.jpg",
+      "public_sha256": "32395dd38968c3633b619f8e5d4e0a4b9e3a2dd097580c887bcf060c2151efdc",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-1/screenshots/screenshot-005.jpg",
+      "source_sha256": "e69498f6752e11c4241384d048beb1cfdbe845cf594fc8f210256c93a979d488",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-1/screenshots/screenshot-005.jpg",
+      "public_sha256": "e69498f6752e11c4241384d048beb1cfdbe845cf594fc8f210256c93a979d488",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-1/screenshots/screenshot-006.jpg",
+      "source_sha256": "348c0989b56542d2dc3db0bc4035a39f6e6c77b42b9854c3046b90aea9e2f668",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-1/screenshots/screenshot-006.jpg",
+      "public_sha256": "348c0989b56542d2dc3db0bc4035a39f6e6c77b42b9854c3046b90aea9e2f668",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-1/screenshots/screenshot-007.jpg",
+      "source_sha256": "6ede7122c639dd9d50728e4fd81b7f0a4aa2c35f80824c232ac72dedfee7340c",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-1/screenshots/screenshot-007.jpg",
+      "public_sha256": "6ede7122c639dd9d50728e4fd81b7f0a4aa2c35f80824c232ac72dedfee7340c",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-1/screenshots/screenshot-008.jpg",
+      "source_sha256": "3975ce34f25cfc5334df5d5281cc39e12850a44859c46a0a655054baab2356c3",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-1/screenshots/screenshot-008.jpg",
+      "public_sha256": "3975ce34f25cfc5334df5d5281cc39e12850a44859c46a0a655054baab2356c3",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-1/screenshots/screenshot-009.jpg",
+      "source_sha256": "cfd4ad41452f2489be5ca5085658fdbdf6653832ba6aace051929c6d506c553f",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-1/screenshots/screenshot-009.jpg",
+      "public_sha256": "cfd4ad41452f2489be5ca5085658fdbdf6653832ba6aace051929c6d506c553f",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-1/screenshots/screenshot-010.jpg",
+      "source_sha256": "cfd4ad41452f2489be5ca5085658fdbdf6653832ba6aace051929c6d506c553f",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-1/screenshots/screenshot-010.jpg",
+      "public_sha256": "cfd4ad41452f2489be5ca5085658fdbdf6653832ba6aace051929c6d506c553f",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-1/screenshots/screenshot-011.jpg",
+      "source_sha256": "cfd4ad41452f2489be5ca5085658fdbdf6653832ba6aace051929c6d506c553f",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-1/screenshots/screenshot-011.jpg",
+      "public_sha256": "cfd4ad41452f2489be5ca5085658fdbdf6653832ba6aace051929c6d506c553f",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-1/submission.json",
+      "source_sha256": "9b08c95285bc3d7e8a8a1f3956378e89df8c95613cca723417a4f2ac4dccffd6",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-1/submission.json",
+      "public_sha256": "9a7b1f8eb808df62a3afb315de5853cf3c3ea47ccce8292fbad53c44fd142087",
+      "transformation": "opaque IDs / capability links / host home prefix redacted; task content and usage retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-1/submitted-once.json",
+      "source_sha256": "486b8960a8a62d67acc3a6150b0cc33e04a4c387dd3534b2383d73fd313e612d",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-1/submitted-once.json",
+      "public_sha256": "486b8960a8a62d67acc3a6150b0cc33e04a4c387dd3534b2383d73fd313e612d",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-1/task-prompt.txt",
+      "source_sha256": "310e61b597776240557a2aed3e5bcbbdaf93a36c26c7c94e52b65d0b576b3007",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-1/task-prompt.txt",
+      "public_sha256": "310e61b597776240557a2aed3e5bcbbdaf93a36c26c7c94e52b65d0b576b3007",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-1/wallet-observation.json",
+      "source_sha256": "89426edcc76348f31b675d2b969dfc6b1d5bf0d89387aac21c8183fc7929a21f",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-1/wallet-observation.json",
+      "public_sha256": "89426edcc76348f31b675d2b969dfc6b1d5bf0d89387aac21c8183fc7929a21f",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-2/actual-submission-payload.json",
+      "source_sha256": "81a2a21a06bee6a22f05dbe2a1d0ea90cde306270966aba8abeaad8ee4a0bf87",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-2/actual-submission-payload.json",
+      "public_sha256": "81a2a21a06bee6a22f05dbe2a1d0ea90cde306270966aba8abeaad8ee4a0bf87",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-2/capture-index.json",
+      "source_sha256": "2fec1964954ec7d4af4ac603c0c7217c210d3883f7ad1c3035f547d24818a196",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-2/capture-index.json",
+      "public_sha256": "9dde3a27622abb6f5c215f1671ca716a6f50ac77280ff3f016c5d667684d641a",
+      "transformation": "opaque IDs / capability links / host home prefix redacted; task content and usage retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-2/configuration.json",
+      "source_sha256": "99d3a4587089a241cd95a0dce3506957662c802787692cef19049aa412b2e1a4",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-2/configuration.json",
+      "public_sha256": "99d3a4587089a241cd95a0dce3506957662c802787692cef19049aa412b2e1a4",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-2/cost-and-stop-audit.json",
+      "source_sha256": "4481b9b97b2d1b23267d505c73d125859a039068fd33bca99918f4132e144341",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-2/cost-and-stop-audit.json",
+      "public_sha256": "4481b9b97b2d1b23267d505c73d125859a039068fd33bca99918f4132e144341",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-2/gui-observations.json",
+      "source_sha256": "50f184bd40eec05fe7d071391159818e94b46b941ee894319f7a5a394a6c507a",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-2/gui-observations.json",
+      "public_sha256": "50f184bd40eec05fe7d071391159818e94b46b941ee894319f7a5a394a6c507a",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-2/html-captures/000.html",
+      "source_sha256": "d333ba899727f507b930aa9359367eb3424d54712334c6f1cb8b06ad52a269a6",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-2/html-captures/000.html",
+      "public_sha256": "eb9c2471417589d140df2ebd63dfdc96fd713d89ef1ad49eba89a9df31d7f505",
+      "transformation": "opaque IDs / capability links / host home prefix redacted; task content and usage retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-2/html-captures/001.html",
+      "source_sha256": "9b1911c0cab83f90869082a7abaa2432c059f2a4ab948f0b1915d10e8a960f50",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-2/html-captures/001.html",
+      "public_sha256": "107cb8108137efb571aebc9ee473fd4f739e999de81ffce5a84a5c13a1855d3b",
+      "transformation": "opaque IDs / capability links / host home prefix redacted; task content and usage retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-2/html-captures/002.html",
+      "source_sha256": "32217a3ad703c3ba1897dd5ba9904e4c6f9cf7a5d86021d73d783206330e165d",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-2/html-captures/002.html",
+      "public_sha256": "9d6202a89d21924250b72ccf1cfc2307c8e27d4d23ca13bda6ddef9024483773",
+      "transformation": "opaque IDs / capability links / host home prefix redacted; task content and usage retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-2/html-captures/003.html",
+      "source_sha256": "8ccada1ec35cbeed8f2771c2e573eee69233b87a3b591f3c19c6785f93b58e3d",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-2/html-captures/003.html",
+      "public_sha256": "0f5402006c155f4524ba9e12395b9415e647e217ee4a20ea38ac0db404ffc260",
+      "transformation": "opaque IDs / capability links / host home prefix redacted; task content and usage retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-2/html-captures/004.html",
+      "source_sha256": "452ebec51014c4b764b61dd6819c09920ffe58c650718648a1fb4ac1d79070e9",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-2/html-captures/004.html",
+      "public_sha256": "0fab6381955b81ff76b6889497429b2553520fb6454dc4a2048c45dc34b3b235",
+      "transformation": "opaque IDs / capability links / host home prefix redacted; task content and usage retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-2/html-captures/005.html",
+      "source_sha256": "e18b8da75be9686fc8a4d33593fa59d4b6d2e55de9cf3e1aac7467a61b764688",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-2/html-captures/005.html",
+      "public_sha256": "6948d438b0c743d9b9edcd877518932a9231d0de55e7233692126fa38047b709",
+      "transformation": "opaque IDs / capability links / host home prefix redacted; task content and usage retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-2/html-captures/006.html",
+      "source_sha256": "8fd936232460b91cc93e90921f1379ea033276c23a70d5dadc7c31804bbd415a",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-2/html-captures/006.html",
+      "public_sha256": "a6ebc0717d8caf5f4737b6deabc577fbee1fa2fd4ef7d1b1351e80c6ba641df1",
+      "transformation": "opaque IDs / capability links / host home prefix redacted; task content and usage retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-2/html-captures/007.html",
+      "source_sha256": "7b7131b81d843b2c3d5dec2dbefb499b700855e3dac62d25356682e18553ca8b",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-2/html-captures/007.html",
+      "public_sha256": "a05318de593987abf3c341691bb0650023f5e6696dffdf67f51fdb8bf4412b3e",
+      "transformation": "opaque IDs / capability links / host home prefix redacted; task content and usage retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-2/html-captures/008.html",
+      "source_sha256": "1e58f59b26a421959a8e70c8c98472fd0fe3b758adcd455e55f0fb9e5b8d4022",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-2/html-captures/008.html",
+      "public_sha256": "6d7df95cc6cbbcb4a815a0a8d22ff40eb95215927f2052361b4d2066c3cc178c",
+      "transformation": "opaque IDs / capability links / host home prefix redacted; task content and usage retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-2/html-captures/009.html",
+      "source_sha256": "78a370eece82147661ec99795ca57b1d9bed2cb58fa69389551b11ed26a562ac",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-2/html-captures/009.html",
+      "public_sha256": "d778a92ce16632d5ae226abaa68c54ca4a5d0d1203cbc8e623e71a9ca41a4477",
+      "transformation": "opaque IDs / capability links / host home prefix redacted; task content and usage retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-2/html-captures/010.html",
+      "source_sha256": "2e2edcf945fabc3dbbac3e44ecee6d32a6e0b5b1745ae207d8c71c1d28cfb470",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-2/html-captures/010.html",
+      "public_sha256": "a55daadcb6c2f3cf73ad83034af9ed59dd5ab76a3ae3aa9229506a21cf32560e",
+      "transformation": "opaque IDs / capability links / host home prefix redacted; task content and usage retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-2/html-captures/011.html",
+      "source_sha256": "2e2edcf945fabc3dbbac3e44ecee6d32a6e0b5b1745ae207d8c71c1d28cfb470",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-2/html-captures/011.html",
+      "public_sha256": "a55daadcb6c2f3cf73ad83034af9ed59dd5ab76a3ae3aa9229506a21cf32560e",
+      "transformation": "opaque IDs / capability links / host home prefix redacted; task content and usage retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-2/html-captures/012.html",
+      "source_sha256": "5a3e8e57dbaec775942d1cfb90f09362568563990c826eaeb8eced836147284a",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-2/html-captures/012.html",
+      "public_sha256": "f95cfd441d017dc5507d387013e6da400efed7b9b2baa784bb6329af7aa3e6ee",
+      "transformation": "opaque IDs / capability links / host home prefix redacted; task content and usage retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-2/html-captures/013.html",
+      "source_sha256": "827cac1def00672b349997567fb2637a83b2fb8cf07e9d95c62a12f5d88f7cc4",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-2/html-captures/013.html",
+      "public_sha256": "8d7190810fcd997e10db2aa59c7809111b33019d097b63a969088ecb39be8ac1",
+      "transformation": "opaque IDs / capability links / host home prefix redacted; task content and usage retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-2/html-captures/014.html",
+      "source_sha256": "c04536f6aca503344c42016427c0ae3191f6be31f8ef43821019f546c0e4d4b3",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-2/html-captures/014.html",
+      "public_sha256": "c7be8f736e099b7b5c3eefe9ee48df30e5117f9cab57501e03aefbe793eb9b03",
+      "transformation": "opaque IDs / capability links / host home prefix redacted; task content and usage retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-2/html-captures/015.html",
+      "source_sha256": "6264980ab8b1177d644e04a7dc9594a2d74aaff31ca2f52291e05201c6a362f2",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-2/html-captures/015.html",
+      "public_sha256": "d90c897546c9d87c608d71ed0f5b450facd3e7926e9723219e1dae3663ac4434",
+      "transformation": "opaque IDs / capability links / host home prefix redacted; task content and usage retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-2/html-captures/016.html",
+      "source_sha256": "7e308d6ca41c68ab7c95b22353f8c3ab8c899fed805a7910fc438fa82dc10648",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-2/html-captures/016.html",
+      "public_sha256": "1f3dc45471f5ff2956cd3e46e869e986f4cc39daf9f8c4f88c230ca7feca77e0",
+      "transformation": "opaque IDs / capability links / host home prefix redacted; task content and usage retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-2/html-captures/017.html",
+      "source_sha256": "977ae038338a3329d78278aa2e309c4d4003309792c5ecbf3d912e295d251157",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-2/html-captures/017.html",
+      "public_sha256": "c674a723b2cefb57c07817cd66b24172659bc6922e64ad1fc7aefa373599e8c0",
+      "transformation": "opaque IDs / capability links / host home prefix redacted; task content and usage retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-2/html-captures/018.html",
+      "source_sha256": "96dc6ac54d5e7e779f4dd061ab75cb6087403e5632ab5076d98606e0c4939812",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-2/html-captures/018.html",
+      "public_sha256": "a7913495e41b62172bd8e06dd9a0d711e07a525a778c105be3ec53fc80407c0b",
+      "transformation": "opaque IDs / capability links / host home prefix redacted; task content and usage retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-2/html-captures/019.html",
+      "source_sha256": "866f41110ceaadc3bf4291669183f0713fbea165fa730acc3ef08f7b927a01f6",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-2/html-captures/019.html",
+      "public_sha256": "211b7451557e165240246f0f671b94589b829076f298366949f8f33c7a5cb6a1",
+      "transformation": "opaque IDs / capability links / host home prefix redacted; task content and usage retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-2/html-captures/020.html",
+      "source_sha256": "5af44edb1bef62df746f52825f23845a57956d872b0db95bb1600673f3fc8c72",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-2/html-captures/020.html",
+      "public_sha256": "01e2d3d54f5aabe26b83a461c3c3e7e6cf0c829a80c565184d70f458d2d6089f",
+      "transformation": "opaque IDs / capability links / host home prefix redacted; task content and usage retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-2/html-captures/021.html",
+      "source_sha256": "bb98b4fd674b0e5437326746d176d264bc7739da87c1e1a5dff39caeae6cd3b4",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-2/html-captures/021.html",
+      "public_sha256": "d5813b3abd34bc8529cbc4de1cdb38e4ef7743a3fadba03a15ce8ae4d75804d7",
+      "transformation": "opaque IDs / capability links / host home prefix redacted; task content and usage retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-2/html-captures/022.html",
+      "source_sha256": "16d3e3f24d9c25bd119745cc0bfe8ae2a76ed05a315ffef2609e0af91e5bd008",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-2/html-captures/022.html",
+      "public_sha256": "756a93abe9275571450573cc1241f3d0085c1cd5e2df32750d624ea933e3b401",
+      "transformation": "opaque IDs / capability links / host home prefix redacted; task content and usage retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-2/html-captures/023.html",
+      "source_sha256": "15ccff78b64fc9aecbeb9c5d54c4d742dfb45cdf96a6c412e29f707f002f5801",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-2/html-captures/023.html",
+      "public_sha256": "358d5b37ff9bc359a8f5d5b7cf54b86ebe04f7d7f9bb53994112ceb9299fbb30",
+      "transformation": "opaque IDs / capability links / host home prefix redacted; task content and usage retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-2/independent-progress-observation.json",
+      "source_sha256": "bc5230414827ff25ba19303b1ab916949e950df69d9e813316fc2a87e6e3684e",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-2/independent-progress-observation.json",
+      "public_sha256": "bc5230414827ff25ba19303b1ab916949e950df69d9e813316fc2a87e6e3684e",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-2/independent-verification.json",
+      "source_sha256": "2c5180820a3a00526bcb27b12fb73370b63ff8dd44dbab5e43a7f03ac5c0da2e",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-2/independent-verification.json",
+      "public_sha256": "2c5180820a3a00526bcb27b12fb73370b63ff8dd44dbab5e43a7f03ac5c0da2e",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-2/original-response.txt",
+      "source_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-2/original-response.txt",
+      "public_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-2/polls.json",
+      "source_sha256": "ce279db0d2ce83ac59515795b5c7fc369ae0a876e101f6930fac1cb371105481",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-2/polls.json",
+      "public_sha256": "ce279db0d2ce83ac59515795b5c7fc369ae0a876e101f6930fac1cb371105481",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-2/provider-run.json",
+      "source_sha256": "3dc8cd872a9f22c2ff9e502ca4cd994dcf874256ba639b7c6682c7c5b7ddbdd1",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-2/provider-run.json",
+      "public_sha256": "6485b706c175c6cd51b59612bed267d9d0066b50002c1195d5dcbdd964422608",
+      "transformation": "opaque IDs / capability links / host home prefix redacted; task content and usage retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-2/run-record.json",
+      "source_sha256": "b039deea99e6ca365e4e8a8268c934f17cfce32c843ce50160dae5288359c11e",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-2/run-record.json",
+      "public_sha256": "ad09e6adfcd492783b954ffb5f11cccfb9b1e326b938a8f3b7e54e5b4f250c0c",
+      "transformation": "opaque IDs / capability links / host home prefix redacted; task content and usage retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-2/screenshots/screenshot-000.jpg",
+      "source_sha256": "ba231f8e10539661dbc8225331e55ae32820ac92c9557dc46473441b07bfc8e6",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-2/screenshots/screenshot-000.jpg",
+      "public_sha256": "ba231f8e10539661dbc8225331e55ae32820ac92c9557dc46473441b07bfc8e6",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-2/screenshots/screenshot-001.jpg",
+      "source_sha256": "5211283f63347ec0a31f94fdd495335fd37ae95123ebb7b046a599925078ccb5",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-2/screenshots/screenshot-001.jpg",
+      "public_sha256": "5211283f63347ec0a31f94fdd495335fd37ae95123ebb7b046a599925078ccb5",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-2/screenshots/screenshot-002.jpg",
+      "source_sha256": "831c6501334666a89be5744525ae8a31eb63ca822cb3611636eaaaf762464aa9",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-2/screenshots/screenshot-002.jpg",
+      "public_sha256": "831c6501334666a89be5744525ae8a31eb63ca822cb3611636eaaaf762464aa9",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-2/screenshots/screenshot-003.jpg",
+      "source_sha256": "a5016867d53115cf3effb1b66d35d9f7713025b33c2a76039cd06279d6020b7f",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-2/screenshots/screenshot-003.jpg",
+      "public_sha256": "a5016867d53115cf3effb1b66d35d9f7713025b33c2a76039cd06279d6020b7f",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-2/screenshots/screenshot-004.jpg",
+      "source_sha256": "32395dd38968c3633b619f8e5d4e0a4b9e3a2dd097580c887bcf060c2151efdc",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-2/screenshots/screenshot-004.jpg",
+      "public_sha256": "32395dd38968c3633b619f8e5d4e0a4b9e3a2dd097580c887bcf060c2151efdc",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-2/screenshots/screenshot-005.jpg",
+      "source_sha256": "e69498f6752e11c4241384d048beb1cfdbe845cf594fc8f210256c93a979d488",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-2/screenshots/screenshot-005.jpg",
+      "public_sha256": "e69498f6752e11c4241384d048beb1cfdbe845cf594fc8f210256c93a979d488",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-2/screenshots/screenshot-006.jpg",
+      "source_sha256": "348c0989b56542d2dc3db0bc4035a39f6e6c77b42b9854c3046b90aea9e2f668",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-2/screenshots/screenshot-006.jpg",
+      "public_sha256": "348c0989b56542d2dc3db0bc4035a39f6e6c77b42b9854c3046b90aea9e2f668",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-2/screenshots/screenshot-007.jpg",
+      "source_sha256": "6ede7122c639dd9d50728e4fd81b7f0a4aa2c35f80824c232ac72dedfee7340c",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-2/screenshots/screenshot-007.jpg",
+      "public_sha256": "6ede7122c639dd9d50728e4fd81b7f0a4aa2c35f80824c232ac72dedfee7340c",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-2/screenshots/screenshot-008.jpg",
+      "source_sha256": "3975ce34f25cfc5334df5d5281cc39e12850a44859c46a0a655054baab2356c3",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-2/screenshots/screenshot-008.jpg",
+      "public_sha256": "3975ce34f25cfc5334df5d5281cc39e12850a44859c46a0a655054baab2356c3",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-2/screenshots/screenshot-009.jpg",
+      "source_sha256": "cfd4ad41452f2489be5ca5085658fdbdf6653832ba6aace051929c6d506c553f",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-2/screenshots/screenshot-009.jpg",
+      "public_sha256": "cfd4ad41452f2489be5ca5085658fdbdf6653832ba6aace051929c6d506c553f",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-2/screenshots/screenshot-010.jpg",
+      "source_sha256": "cfd4ad41452f2489be5ca5085658fdbdf6653832ba6aace051929c6d506c553f",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-2/screenshots/screenshot-010.jpg",
+      "public_sha256": "cfd4ad41452f2489be5ca5085658fdbdf6653832ba6aace051929c6d506c553f",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-2/screenshots/screenshot-011.jpg",
+      "source_sha256": "cfd4ad41452f2489be5ca5085658fdbdf6653832ba6aace051929c6d506c553f",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-2/screenshots/screenshot-011.jpg",
+      "public_sha256": "cfd4ad41452f2489be5ca5085658fdbdf6653832ba6aace051929c6d506c553f",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-2/screenshots/screenshot-012.jpg",
+      "source_sha256": "ba231f8e10539661dbc8225331e55ae32820ac92c9557dc46473441b07bfc8e6",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-2/screenshots/screenshot-012.jpg",
+      "public_sha256": "ba231f8e10539661dbc8225331e55ae32820ac92c9557dc46473441b07bfc8e6",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-2/screenshots/screenshot-013.jpg",
+      "source_sha256": "5211283f63347ec0a31f94fdd495335fd37ae95123ebb7b046a599925078ccb5",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-2/screenshots/screenshot-013.jpg",
+      "public_sha256": "5211283f63347ec0a31f94fdd495335fd37ae95123ebb7b046a599925078ccb5",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-2/screenshots/screenshot-014.jpg",
+      "source_sha256": "831c6501334666a89be5744525ae8a31eb63ca822cb3611636eaaaf762464aa9",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-2/screenshots/screenshot-014.jpg",
+      "public_sha256": "831c6501334666a89be5744525ae8a31eb63ca822cb3611636eaaaf762464aa9",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-2/screenshots/screenshot-015.jpg",
+      "source_sha256": "a5016867d53115cf3effb1b66d35d9f7713025b33c2a76039cd06279d6020b7f",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-2/screenshots/screenshot-015.jpg",
+      "public_sha256": "a5016867d53115cf3effb1b66d35d9f7713025b33c2a76039cd06279d6020b7f",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-2/screenshots/screenshot-016.jpg",
+      "source_sha256": "32395dd38968c3633b619f8e5d4e0a4b9e3a2dd097580c887bcf060c2151efdc",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-2/screenshots/screenshot-016.jpg",
+      "public_sha256": "32395dd38968c3633b619f8e5d4e0a4b9e3a2dd097580c887bcf060c2151efdc",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-2/screenshots/screenshot-017.jpg",
+      "source_sha256": "e69498f6752e11c4241384d048beb1cfdbe845cf594fc8f210256c93a979d488",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-2/screenshots/screenshot-017.jpg",
+      "public_sha256": "e69498f6752e11c4241384d048beb1cfdbe845cf594fc8f210256c93a979d488",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-2/screenshots/screenshot-018.jpg",
+      "source_sha256": "348c0989b56542d2dc3db0bc4035a39f6e6c77b42b9854c3046b90aea9e2f668",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-2/screenshots/screenshot-018.jpg",
+      "public_sha256": "348c0989b56542d2dc3db0bc4035a39f6e6c77b42b9854c3046b90aea9e2f668",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-2/screenshots/screenshot-019.jpg",
+      "source_sha256": "6ede7122c639dd9d50728e4fd81b7f0a4aa2c35f80824c232ac72dedfee7340c",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-2/screenshots/screenshot-019.jpg",
+      "public_sha256": "6ede7122c639dd9d50728e4fd81b7f0a4aa2c35f80824c232ac72dedfee7340c",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-2/screenshots/screenshot-020.jpg",
+      "source_sha256": "3975ce34f25cfc5334df5d5281cc39e12850a44859c46a0a655054baab2356c3",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-2/screenshots/screenshot-020.jpg",
+      "public_sha256": "3975ce34f25cfc5334df5d5281cc39e12850a44859c46a0a655054baab2356c3",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-2/screenshots/screenshot-021.jpg",
+      "source_sha256": "cfd4ad41452f2489be5ca5085658fdbdf6653832ba6aace051929c6d506c553f",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-2/screenshots/screenshot-021.jpg",
+      "public_sha256": "cfd4ad41452f2489be5ca5085658fdbdf6653832ba6aace051929c6d506c553f",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-2/screenshots/screenshot-022.jpg",
+      "source_sha256": "ba231f8e10539661dbc8225331e55ae32820ac92c9557dc46473441b07bfc8e6",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-2/screenshots/screenshot-022.jpg",
+      "public_sha256": "ba231f8e10539661dbc8225331e55ae32820ac92c9557dc46473441b07bfc8e6",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-2/screenshots/screenshot-023.jpg",
+      "source_sha256": "5211283f63347ec0a31f94fdd495335fd37ae95123ebb7b046a599925078ccb5",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-2/screenshots/screenshot-023.jpg",
+      "public_sha256": "5211283f63347ec0a31f94fdd495335fd37ae95123ebb7b046a599925078ccb5",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-2/submission.json",
+      "source_sha256": "6d891ca6324c6befa95d990c48d2d41eb44b42f6872d1d647c2c6e5502a7e5d6",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-2/submission.json",
+      "public_sha256": "61828d54a6faae42db39789888eaeace36e14fc3a03e5b802d89553a16cf7e7f",
+      "transformation": "opaque IDs / capability links / host home prefix redacted; task content and usage retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-2/submitted-once.json",
+      "source_sha256": "72b3747a970839ef67bc3715ea4fd10e6c4c3a4ae509f6bae6141fdfe9d1d827",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-2/submitted-once.json",
+      "public_sha256": "72b3747a970839ef67bc3715ea4fd10e6c4c3a4ae509f6bae6141fdfe9d1d827",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-2/task-prompt.txt",
+      "source_sha256": "310e61b597776240557a2aed3e5bcbbdaf93a36c26c7c94e52b65d0b576b3007",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-2/task-prompt.txt",
+      "public_sha256": "310e61b597776240557a2aed3e5bcbbdaf93a36c26c7c94e52b65d0b576b3007",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-2/wallet-observation.json",
+      "source_sha256": "1da97d7b2cebdde443fb66cf1312131cafbeb959dcf53ae266e637a8b7315ffd",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-2/wallet-observation.json",
+      "public_sha256": "1da97d7b2cebdde443fb66cf1312131cafbeb959dcf53ae266e637a8b7315ffd",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-3/actual-submission-payload.json",
+      "source_sha256": "81a2a21a06bee6a22f05dbe2a1d0ea90cde306270966aba8abeaad8ee4a0bf87",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-3/actual-submission-payload.json",
+      "public_sha256": "81a2a21a06bee6a22f05dbe2a1d0ea90cde306270966aba8abeaad8ee4a0bf87",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-3/capture-index.json",
+      "source_sha256": "26bed2d2a9bf572311bda2396866494e90abf6a9338c82b08694abbfb9b37cc6",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-3/capture-index.json",
+      "public_sha256": "057be2906e448217a3a7549061489ab6950659437b26281e90f13299ff767556",
+      "transformation": "opaque IDs / capability links / host home prefix redacted; task content and usage retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-3/configuration.json",
+      "source_sha256": "ccc7a3445e62585bcc90ee6af1b78d32b40ace4cff7a5874215ea809d9a1c8c5",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-3/configuration.json",
+      "public_sha256": "ccc7a3445e62585bcc90ee6af1b78d32b40ace4cff7a5874215ea809d9a1c8c5",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-3/gui-observations.json",
+      "source_sha256": "94ee4e12be747a5ee582ba205c2ae2952628c6efda42a5187afeaa6add10b6cc",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-3/gui-observations.json",
+      "public_sha256": "94ee4e12be747a5ee582ba205c2ae2952628c6efda42a5187afeaa6add10b6cc",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-3/html-captures/000.html",
+      "source_sha256": "46b29dc6a8516d851325d2ef3e27195816fbe276e6e90b773999334b489e98ca",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-3/html-captures/000.html",
+      "public_sha256": "2e2f283a5e85fad458d1338e8716b8eee0215123968cea4843cacfd6b2cf4e3e",
+      "transformation": "opaque IDs / capability links / host home prefix redacted; task content and usage retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-3/html-captures/001.html",
+      "source_sha256": "d7dd802579541450a4d5d609ad08d93e082bfb806836c38eb1e7d3c67f96f9c4",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-3/html-captures/001.html",
+      "public_sha256": "c4d34e02f73ca9d020eb98fb33a8f9f2ebbd6d371f5af5f33e92cb33e1eed301",
+      "transformation": "opaque IDs / capability links / host home prefix redacted; task content and usage retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-3/html-captures/002.html",
+      "source_sha256": "3256107896bd4f6b1ee46e13e9ebe4394523e17a595076dea930ca79920c759e",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-3/html-captures/002.html",
+      "public_sha256": "dc5c75780480fda358859adeca47d739053fe619833929d1ac61a463cfab5628",
+      "transformation": "opaque IDs / capability links / host home prefix redacted; task content and usage retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-3/html-captures/003.html",
+      "source_sha256": "c2f294b8c6e1a6a7dbc114df583a133e0937ca735b914448e2e45424e9c26152",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-3/html-captures/003.html",
+      "public_sha256": "4af115661b0f0760f40319a4e5ac36d687ff854c331ae058e0df60a16905ee94",
+      "transformation": "opaque IDs / capability links / host home prefix redacted; task content and usage retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-3/html-captures/004.html",
+      "source_sha256": "6793be02ff8d35d18a206c8f1d2996e92318b703d2029a73a0ae73f904171b95",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-3/html-captures/004.html",
+      "public_sha256": "61cf48ddd5e3fe63fe45529e28b665653a9839239974cb6aa0649cfd46896588",
+      "transformation": "opaque IDs / capability links / host home prefix redacted; task content and usage retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-3/html-captures/005.html",
+      "source_sha256": "2ede1d1992f24858866c01b509a680a5cc9d30ede44ad0eb1c4c565b0c7890aa",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-3/html-captures/005.html",
+      "public_sha256": "db67d82d15c2d53c8208eb110052004d02090aebf1088135659a43e6a33b1751",
+      "transformation": "opaque IDs / capability links / host home prefix redacted; task content and usage retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-3/html-captures/006.html",
+      "source_sha256": "503de24aff9702e5f6e26669b8aad917cc9e786a6762d5eb67b1c7b7a4e2c192",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-3/html-captures/006.html",
+      "public_sha256": "782c52851ba5dcb662826077395a1b3812046629eaaeb37530fcd166a8ef9d45",
+      "transformation": "opaque IDs / capability links / host home prefix redacted; task content and usage retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-3/html-captures/007.html",
+      "source_sha256": "61cf9c11ac22c686843d7d0673cca695d8abff22b3802b329135d8a94a87d0ae",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-3/html-captures/007.html",
+      "public_sha256": "a546ebcd0046c97a8873f3a59499ee4d3d7bc10cbf87817cca9eafb8cd1a2789",
+      "transformation": "opaque IDs / capability links / host home prefix redacted; task content and usage retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-3/html-captures/008.html",
+      "source_sha256": "a3c16161a7080df513ae6d6ccb3051535bd75d0fa9af2ead3899c9e66c7bc91a",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-3/html-captures/008.html",
+      "public_sha256": "8227c9506763b50c9aa6c1b9f23148395258adb9bcc9bddcdf3decbbe12f9ed1",
+      "transformation": "opaque IDs / capability links / host home prefix redacted; task content and usage retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-3/html-captures/009.html",
+      "source_sha256": "3356e082999d0b0c8a08fa3f0d31e60f9e7c02abfbc439a7ef784716ba0a22b3",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-3/html-captures/009.html",
+      "public_sha256": "838578d98293d7a94cc00c3d3b771c91f0ec0a42963798e28479d8e188f09d2f",
+      "transformation": "opaque IDs / capability links / host home prefix redacted; task content and usage retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-3/html-captures/010.html",
+      "source_sha256": "3356e082999d0b0c8a08fa3f0d31e60f9e7c02abfbc439a7ef784716ba0a22b3",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-3/html-captures/010.html",
+      "public_sha256": "838578d98293d7a94cc00c3d3b771c91f0ec0a42963798e28479d8e188f09d2f",
+      "transformation": "opaque IDs / capability links / host home prefix redacted; task content and usage retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-3/independent-verification.json",
+      "source_sha256": "abcc0d7a3d3b232e097ac6e04842219a48ddfb7a038e4c21649f464b7801d378",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-3/independent-verification.json",
+      "public_sha256": "abcc0d7a3d3b232e097ac6e04842219a48ddfb7a038e4c21649f464b7801d378",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-3/original-response.txt",
+      "source_sha256": "d75f2aafa38f33857f3e64c12fe6b44d831374b37b92057f2d6fdce312f32b8a",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-3/original-response.txt",
+      "public_sha256": "d75f2aafa38f33857f3e64c12fe6b44d831374b37b92057f2d6fdce312f32b8a",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-3/polls.json",
+      "source_sha256": "5c33d79777a7a6697bd2d1283bd324edc66f0b9cff6c4f9fc566364a77e29ce3",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-3/polls.json",
+      "public_sha256": "5c33d79777a7a6697bd2d1283bd324edc66f0b9cff6c4f9fc566364a77e29ce3",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-3/provider-run.json",
+      "source_sha256": "9e6e22f38de4eb0a95a465679ff1a49e563025d3143804376ad85085d3d6157d",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-3/provider-run.json",
+      "public_sha256": "c499318b034863d462be5d61060854d27472dec3a2d2ab834b4dbd4b51ece0a1",
+      "transformation": "opaque IDs / capability links / host home prefix redacted; task content and usage retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-3/run-record.json",
+      "source_sha256": "55c5e2cf94df7661d0d4e77c2101f8e42bdc34009bfcc60503d28e913b3fd901",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-3/run-record.json",
+      "public_sha256": "491dddecd786f00efa95cdd32ca59a3ca6c053634642d12bad1c9a9cccb16a86",
+      "transformation": "opaque IDs / capability links / host home prefix redacted; task content and usage retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-3/screenshots/screenshot-000.jpg",
+      "source_sha256": "ba231f8e10539661dbc8225331e55ae32820ac92c9557dc46473441b07bfc8e6",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-3/screenshots/screenshot-000.jpg",
+      "public_sha256": "ba231f8e10539661dbc8225331e55ae32820ac92c9557dc46473441b07bfc8e6",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-3/screenshots/screenshot-001.jpg",
+      "source_sha256": "5211283f63347ec0a31f94fdd495335fd37ae95123ebb7b046a599925078ccb5",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-3/screenshots/screenshot-001.jpg",
+      "public_sha256": "5211283f63347ec0a31f94fdd495335fd37ae95123ebb7b046a599925078ccb5",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-3/screenshots/screenshot-002.jpg",
+      "source_sha256": "831c6501334666a89be5744525ae8a31eb63ca822cb3611636eaaaf762464aa9",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-3/screenshots/screenshot-002.jpg",
+      "public_sha256": "831c6501334666a89be5744525ae8a31eb63ca822cb3611636eaaaf762464aa9",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-3/screenshots/screenshot-003.jpg",
+      "source_sha256": "a5016867d53115cf3effb1b66d35d9f7713025b33c2a76039cd06279d6020b7f",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-3/screenshots/screenshot-003.jpg",
+      "public_sha256": "a5016867d53115cf3effb1b66d35d9f7713025b33c2a76039cd06279d6020b7f",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-3/screenshots/screenshot-004.jpg",
+      "source_sha256": "32395dd38968c3633b619f8e5d4e0a4b9e3a2dd097580c887bcf060c2151efdc",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-3/screenshots/screenshot-004.jpg",
+      "public_sha256": "32395dd38968c3633b619f8e5d4e0a4b9e3a2dd097580c887bcf060c2151efdc",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-3/screenshots/screenshot-005.jpg",
+      "source_sha256": "e69498f6752e11c4241384d048beb1cfdbe845cf594fc8f210256c93a979d488",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-3/screenshots/screenshot-005.jpg",
+      "public_sha256": "e69498f6752e11c4241384d048beb1cfdbe845cf594fc8f210256c93a979d488",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-3/screenshots/screenshot-006.jpg",
+      "source_sha256": "348c0989b56542d2dc3db0bc4035a39f6e6c77b42b9854c3046b90aea9e2f668",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-3/screenshots/screenshot-006.jpg",
+      "public_sha256": "348c0989b56542d2dc3db0bc4035a39f6e6c77b42b9854c3046b90aea9e2f668",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-3/screenshots/screenshot-007.jpg",
+      "source_sha256": "6ede7122c639dd9d50728e4fd81b7f0a4aa2c35f80824c232ac72dedfee7340c",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-3/screenshots/screenshot-007.jpg",
+      "public_sha256": "6ede7122c639dd9d50728e4fd81b7f0a4aa2c35f80824c232ac72dedfee7340c",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-3/screenshots/screenshot-008.jpg",
+      "source_sha256": "3975ce34f25cfc5334df5d5281cc39e12850a44859c46a0a655054baab2356c3",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-3/screenshots/screenshot-008.jpg",
+      "public_sha256": "3975ce34f25cfc5334df5d5281cc39e12850a44859c46a0a655054baab2356c3",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-3/screenshots/screenshot-009.jpg",
+      "source_sha256": "cfd4ad41452f2489be5ca5085658fdbdf6653832ba6aace051929c6d506c553f",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-3/screenshots/screenshot-009.jpg",
+      "public_sha256": "cfd4ad41452f2489be5ca5085658fdbdf6653832ba6aace051929c6d506c553f",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-3/screenshots/screenshot-010.jpg",
+      "source_sha256": "cfd4ad41452f2489be5ca5085658fdbdf6653832ba6aace051929c6d506c553f",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-3/screenshots/screenshot-010.jpg",
+      "public_sha256": "cfd4ad41452f2489be5ca5085658fdbdf6653832ba6aace051929c6d506c553f",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-3/submission.json",
+      "source_sha256": "49b10d653fa10d0d51575c85ead9e9141e6a6db733f56b9eea12c3b251e8f993",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-3/submission.json",
+      "public_sha256": "2a9192ca2a7fd6a89b3e10a7285447d06abfde927df1a98160f9512ff54e373e",
+      "transformation": "opaque IDs / capability links / host home prefix redacted; task content and usage retained"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-3/submitted-once.json",
+      "source_sha256": "43ad5fe1fd0faadb774db61d74831eaf9296bdc56100891723f39039e4ad41d6",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-3/submitted-once.json",
+      "public_sha256": "43ad5fe1fd0faadb774db61d74831eaf9296bdc56100891723f39039e4ad41d6",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-3/task-prompt.txt",
+      "source_sha256": "310e61b597776240557a2aed3e5bcbbdaf93a36c26c7c94e52b65d0b576b3007",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-3/task-prompt.txt",
+      "public_sha256": "310e61b597776240557a2aed3e5bcbbdaf93a36c26c7c94e52b65d0b576b3007",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/tinyfish/attempt-3/wallet-observation.json",
+      "source_sha256": "44896b18f4c5c18a7be915c295e81c0c8e7eb3baec37c737c6fa40b61fd4d95a",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-3/wallet-observation.json",
+      "public_sha256": "44896b18f4c5c18a7be915c295e81c0c8e7eb3baec37c737c6fa40b61fd4d95a",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "work/manicule-batch-2-5/clarified-form-2026-10-22-private/watchdog-protocol-correction.json",
+      "source_sha256": "a2bb9a09524ef8989943a5c43df55e6d1bb3356925a8de4ed6313d8186929314",
+      "public_file": "browser-benchmarks/reruns/clarified-form-2026-10-22/watchdog-protocol-correction.json",
+      "public_sha256": "a2bb9a09524ef8989943a5c43df55e6d1bb3356925a8de4ed6313d8186929314",
+      "transformation": "byte-identical"
+    }
+  ]
+}

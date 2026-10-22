@@ -11,3 +11,7 @@ Sanitized logs, original responses and configurations stay adjacent within agent
 ## TinyFish form follow-up — 22 October 2026
 
 [Offline follow-up grader](../browser-benchmarks/reruns/tinyfish-form-2026-10-22/verify_followup.py) checks three separate attempts, exact prompts, independent observations, retained captures and cost deltas without provider requests. It regrades manually reviewed screenshot observations; it is not automated image recognition. [Current-key exact-value audit](tinyfish-followup-safety.json) and [visual review](tinyfish-followup-review.json) supplement the preserved earlier audits. Package validation now includes this separate cohort while retaining historical browser and desktop checks.
+
+## Clarified form configuration
+
+[Six-run audit](../browser-benchmarks/reruns/clarified-form-2026-10-22/verify_clarified.py) checks exact shared prompts, independently reviewed final observations, 26 raw Claude generations, TinyFish cancelled-counter discrepancies, uncertainty-adjusted spending, and copied artifacts. It does not execute agents or recognize image content automatically. [Visual review](clarified-form-review.json) and [credential-value scan](clarified-form-safety.json) document publication checks. Earlier ambiguous-prompt records and desktop checks remain separate and unchanged.

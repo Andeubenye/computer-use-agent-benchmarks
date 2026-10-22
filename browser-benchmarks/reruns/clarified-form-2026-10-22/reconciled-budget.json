@@ -1,0 +1,22 @@
+{
+  "cap_usd": 2,
+  "known_claude_token_estimate_usd": 0.584368,
+  "observed_tinyfish_credit_debit_usd": 0.4,
+  "known_combined_estimate_and_debit_usd": 0.984368,
+  "cancelled_run_uncertain_reservation_usd": 0.465,
+  "accounted_total_including_uncertainty_usd": 1.449368,
+  "remaining_after_uncertainty_usd": 0.550632,
+  "cancelled_run_invoice_cost_usd": null,
+  "cancelled_run_reported_billing_steps": 0,
+  "cancelled_run_recorded_activity_steps": 24,
+  "cancelled_run_tariff_scenario_usd": 0.384,
+  "tariff_scenario_is_verified_bill": false,
+  "observed_cancelled_incremental_credit_debit_usd": 0,
+  "one_cancelled_agent_run": true,
+  "cancellation_http_requests": 11,
+  "cancellation_requests_are_not_agent_restarts": true,
+  "native_postrun_capture_errors_not_model_reruns": 3,
+  "new_agent_requests_after_six_runs": 0,
+  "no_purchases_or_topups": true,
+  "invoice_reconciliation_available": false
+}

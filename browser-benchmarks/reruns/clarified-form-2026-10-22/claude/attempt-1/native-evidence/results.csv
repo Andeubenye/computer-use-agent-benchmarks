@@ -1,0 +1,18 @@
+run_id,mode,task_sha256,model_requested,model_returned,tool_version,pricing_verified,sdk_version,python_version,host_platform,success,status,grading,wall_seconds,agent_wall_seconds,grading_seconds,api_seconds,count_seconds,action_seconds,steps,api_attempts,token_count_requests,api_requests,api_retries,computer_actions,successful_actions,screenshots,skipped_actions,input_tokens,output_tokens,cache_creation_input_tokens,cache_read_input_tokens,total_input_tokens,api_cost_usd,uncertain_cost_reserved_usd,billing_uncertain,errors,failed_actions,recovery_attempts,last_stop_reason,error_category,error_http_status,final_answer,partial_output,answer_matches,page_title_matches,page_url_matches,verified_page_url,required_text_typed,grader_computer_actions,budget_usd,max_steps,max_actions,max_tokens,max_seconds,final_answer_sha256
+20261022T152051Z-b701f569,paid_api,19970307d83e518b423efe3d2c6a6ac25e12791fbab2615a36c1a5dd4ea954dc,claude-sonnet-5-5,claude-sonnet-5-5,computer_toolset_20260801,2026-10-17,1.15.0,3.12.4,Darwin,False,needs_review,manual_review_required,49.574538,49.572988,0.0,16.857439,4.202439,28.270132,7,7,7,14,0,34,34,6,0,64689,1275,0,0,64689,0.142128,0,False,0,0,0,end_turn,,,"I filled in the form and did not submit it. The page still showed ""Not submitted."" when I checked.
+
+I checked every field on screen:
+- **Personal details:** First name is Alex, last name is Morgan, email is alex.morgan@example.com, and phone is +1 202-555-0147.
+- **Professional details:** Company is Northstar Labs, job title is Product Manager, country is United States, and preferred contact method is Email.
+- **Message:** It reads ""This is a benchmark. Do not submit."" with both sentences and both periods.
+- **Newsletter checkbox:** It is unchecked.
+
+The form is still open in the browser, scrolled to the top. The Message field and newsletter checkbox are just below the visible area. I saw both while checking, and scrolling down shows them. I found no limitations.","I filled in the form and did not submit it. The page still showed ""Not submitted."" when I checked.
+
+I checked every field on screen:
+- **Personal details:** First name is Alex, last name is Morgan, email is alex.morgan@example.com, and phone is +1 202-555-0147.
+- **Professional details:** Company is Northstar Labs, job title is Product Manager, country is United States, and preferred contact method is Email.
+- **Message:** It reads ""This is a benchmark. Do not submit."" with both sentences and both periods.
+- **Newsletter checkbox:** It is unchecked.
+
+The form is still open in the browser, scrolled to the top. The Message field and newsletter checkbox are just below the visible area. I saw both while checking, and scrolling down shows them. I found no limitations.",False,False,False,,False,0,0.33,60,300,4096,600,034b304086710ec92989b6264d4a8d60d303edcf38d8cdb395c0826bf53f5f5f

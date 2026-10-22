@@ -35,3 +35,7 @@ Sai’s original CSV/API eligibility record and four further desktop slots are N
 ## Separate TinyFish form follow-up — 22 October 2026
 
 Three new TinyFish attempts each reached PARTIAL: **8 confirmed correct, 1 strict message mismatch, 1 unverified /10**. The reasonable shorter-message sensitivity gives 9 confirmed with 1 still unverified. The original three visible omissions did not recur. No new fully verified pass was established; Claude's original 10/10 is unchanged. New mean client time 93.05 s; total new cost $0.624. [Five-attempt table and evidence](browser-benchmarks/reruns/tinyfish-form-2026-10-22/README.md). These three follow-up runs are separate from the historical 16-run common cohort and do not alter its counts.
+
+## Separate clarified form configuration — 22 October 2026
+
+[Six actual new runs](browser-benchmarks/reruns/clarified-form-2026-10-22/README.md): Claude PASS 10/10 ×3; TinyFish PARTIAL 9 confirmed +1 unverified ×2, plus one budget-stopped FAIL with 1 correct, 7 incorrect, 2 unverified in the last capture. Full messages were observed in both TinyFish completions and intermediate stages of the cancelled run, but checkbox evidence remained missing. These are not merged into historical common-task or earlier-prompt success counts. All source attempts and capture/monitoring errors remain available.

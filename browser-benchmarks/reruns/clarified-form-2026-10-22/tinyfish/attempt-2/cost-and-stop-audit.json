@@ -1,0 +1,21 @@
+{
+  "raw_run_record_unchanged": true,
+  "provider_status": "CANCELLED",
+  "raw_num_of_steps": 0,
+  "raw_reported_cost_usd": 0,
+  "observed_wallet_delta_usd": 0,
+  "inference_that_run_was_free": false,
+  "trace_entries_with_actions_and_images": 24,
+  "all_entries_have_status_running": true,
+  "tariff_scenario_usd": 0.384,
+  "uncertain_cost_reservation_usd": 0.465,
+  "client_watchdog_threshold": 19,
+  "first_observed_cancel_step_count": 23,
+  "final_trace_count": 24,
+  "cancel_http_request_count": 11,
+  "external_watchdog_cancelled": true,
+  "internal_num_of_steps_watchdog_triggered": false,
+  "benchmark_restarts": 0,
+  "internal_provider_retries": null,
+  "cost_note": "Provider reports zero billing steps and account debit remains zero as of final observation, despite 24 recorded activity entries. Not invoice-reconciled; retain reservation and do not call cancelled execution free."
+}

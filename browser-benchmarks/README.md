@@ -14,3 +14,7 @@ The original experiments included six agents. This public archive presents the f
 ## Dated follow-up
 
 [Three TinyFish form reruns — 22 October 2026](reruns/tinyfish-form-2026-10-22/README.md), compared against the unchanged original Claude result. This is a separately reported browser cohort, not a desktop evaluation or a rewrite of the original additional-task totals.
+
+## Clarified prompt follow-up
+
+[Clarified form: TinyFish ×3 and Claude ×3](reruns/clarified-form-2026-10-22/README.md) is a separate configuration with an unchanged field rubric, an exact clarified shared prompt, 600-second ceilings and a below-$2 additional budget. Historical counts above remain unchanged.

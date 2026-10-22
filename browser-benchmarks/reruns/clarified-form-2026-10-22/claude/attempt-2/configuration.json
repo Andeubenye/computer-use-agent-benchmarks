@@ -1,0 +1,11 @@
+{
+  "agent": "claude",
+  "attempt": 2,
+  "prompt_sha256": "310e61b597776240557a2aed3e5bcbbdaf93a36c26c7c94e52b65d0b576b3007",
+  "max_seconds": 600,
+  "allocation_usd": 0.33,
+  "automatic_benchmark_restarts": 0,
+  "agent_receives_only_exact_clarified_user_prompt": true,
+  "expected_answers_or_verifier_observations_sent_to_agent": false,
+  "safety_change": "20-step server spending limit for TinyFish; $0.33 request-reservation guard for Claude; models/browser profiles unchanged"
+}

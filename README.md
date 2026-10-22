@@ -47,3 +47,7 @@ OpenAI completed all five desktop checklists. Claude completed document editing,
 ## Form follow-up — 22 October 2026
 
 [Three TinyFish reruns against the original Claude form result](browser-benchmarks/reruns/tinyfish-form-2026-10-22/README.md): eight confirmed correct fields per rerun, one strict message mismatch, one unverified checkbox. The original packaging statement above refers to repository assembly; these are explicitly authorized later executions, not replacement results.
+
+## Clarified form experiment — 22 October 2026
+
+[Three fresh TinyFish and three fresh Claude runs](browser-benchmarks/reruns/clarified-form-2026-10-22/README.md) use the exact clarified prompt and unchanged ten-field rubric. Claude: three verified 10/10; TinyFish: two partial nine-confirmed results and one budget-stopped failure. Earlier prompt configurations remain separate. [Article-ready interpretation](browser-benchmarks/reruns/clarified-form-2026-10-22/ARTICLE-READY.md).

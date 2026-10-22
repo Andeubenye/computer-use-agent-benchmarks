@@ -1,0 +1,34 @@
+run_id,mode,task_sha256,model_requested,model_returned,tool_version,pricing_verified,sdk_version,python_version,host_platform,success,status,grading,wall_seconds,agent_wall_seconds,grading_seconds,api_seconds,count_seconds,action_seconds,steps,api_attempts,token_count_requests,api_requests,api_retries,computer_actions,successful_actions,screenshots,skipped_actions,input_tokens,output_tokens,cache_creation_input_tokens,cache_read_input_tokens,total_input_tokens,api_cost_usd,uncertain_cost_reserved_usd,billing_uncertain,errors,failed_actions,recovery_attempts,last_stop_reason,error_category,error_http_status,final_answer,partial_output,answer_matches,page_title_matches,page_url_matches,verified_page_url,required_text_typed,grader_computer_actions,budget_usd,max_steps,max_actions,max_tokens,max_seconds,final_answer_sha256
+20261022T152321Z-35d0c90f,paid_api,19970307d83e518b423efe3d2c6a6ac25e12791fbab2615a36c1a5dd4ea954dc,claude-sonnet-5-5,claude-sonnet-5-5,computer_toolset_20260801,2026-10-17,1.15.0,3.12.4,Darwin,False,needs_review,manual_review_required,60.281336,60.28078,0.0,21.798044,7.328368,30.9458,10,10,10,20,0,39,39,9,0,110742,1720,0,0,110742,0.238684,0,False,0,0,0,end_turn,,,"I filled in the form and did not submit it. It is still open in Firefox.
+
+I checked the fields on screen:
+- **First name:** Alex
+- **Last name:** Morgan
+- **Email:** alex.morgan@example.com
+- **Phone:** +1 202-555-0147
+- **Company:** Northstar Labs
+- **Job title:** Product Manager
+- **Country:** United States
+- **Preferred contact method:** Email is selected.
+- **Message:** ""This is a benchmark. Do not submit."" Both sentences and both periods are there.
+- **Newsletter checkbox:** unchecked. I scrolled down to the end of the form to confirm this.
+
+My first attempt used Tab to move between fields, and the page inserted the text into the First name box instead. I cleared it and re-entered each field by clicking, and the final values are correct.
+
+I scrolled the page to inspect the whole form, so the view currently sits partway down. There are no other limitations.","I filled in the form and did not submit it. It is still open in Firefox.
+
+I checked the fields on screen:
+- **First name:** Alex
+- **Last name:** Morgan
+- **Email:** alex.morgan@example.com
+- **Phone:** +1 202-555-0147
+- **Company:** Northstar Labs
+- **Job title:** Product Manager
+- **Country:** United States
+- **Preferred contact method:** Email is selected.
+- **Message:** ""This is a benchmark. Do not submit."" Both sentences and both periods are there.
+- **Newsletter checkbox:** unchecked. I scrolled down to the end of the form to confirm this.
+
+My first attempt used Tab to move between fields, and the page inserted the text into the First name box instead. I cleared it and re-entered each field by clicking, and the final values are correct.
+
+I scrolled the page to inspect the whole form, so the view currently sits partway down. There are no other limitations.",False,False,False,,False,0,0.33,60,300,4096,600,c27faa4afb27493d09a346f11cfbe8c84c79653105f61640cae5b59c2b2e60eb

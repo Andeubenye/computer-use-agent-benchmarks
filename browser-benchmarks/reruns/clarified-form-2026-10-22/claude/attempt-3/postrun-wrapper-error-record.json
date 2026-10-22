@@ -1,0 +1,9 @@
+{
+  "agent": "claude",
+  "attempt": 3,
+  "submitted": true,
+  "status": "failed",
+  "reason": "TimeoutExpired",
+  "cost_usd": null,
+  "automatic_restarts": 0
+}

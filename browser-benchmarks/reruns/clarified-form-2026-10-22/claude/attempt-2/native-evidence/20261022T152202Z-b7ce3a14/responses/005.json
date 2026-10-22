@@ -1,0 +1,214 @@
+{
+  "id": "msg_011CgHWDHXYFEWVLBALguSYX",
+  "content": [
+    {
+      "signature": "CAQS9QUKEAgTGAI4AUIIdGhpbmtpbmcSDItxfbaalUTqDNYN9hoMYY1zv3+CAiXgg8yPIjCXcCAPrN9haMIHSUC+edP+5BCnsn9c5MXxUUJ1WBCwm1DT1ktvPg+ffrBCs9tpcZQqkgXwvLZ6m+1BipeDoprv8TxHPxSLFo0c6Yp+JRB8efxTWkZvpZ0DMdMWsB3jZT/mW0NFz9v1ioQW28gnfeGD7/HupbWQIM29PKOrTEHmW69DvPJqZ7kLT45xV8GuivUTiIzHvFnOuGbT57eSP2mbI5GpH5wXHvgEKSPW4G4CxBQRBsg9FYaSDCSuWQ1rsjAk+ZMSlhQhhcRLdkYR83pf1/s8TJ277QscOT+ja67HkXvvj57gSmFhS3QYsOSVAkHcvqP0Jbka0Uovyybm8NkiUrDTmYnKFPGP12Qhm3W7d0Tgh+JIHfGM6mm4ACShVB0OUOpk+jgY6+vnGSbmk3PcRVGdkjxeyYy4ze+uK6a3UWbBWtBnkcSzMw6Xp4giT8fiPGw4Yi/YWwvjRVNAec21LP1FWNIzujSe/CrDkcYYloQmfHnFrOzCzzvHfbg9KB9YOtC0BEU2+Tnf33yUi31VltsnGq/0RPRW6fjHocTU52bifzFp844mdxSizM2SAL9K/hjpcedBBhispV6JaBWQxS3ZXBkyPfCt/QP8kfMfj/n4JDsLgV9GypGTNSY7lbUNkNLiEQK5QpfD58QBEC0XaJ5KerdYgrITGp79tN0dxliem6yQOcinT59odYD+oFX/TOmNCl63Am4WJR7uS2jVFfORIKlsj3hhm5nPXD1ibDNXtCq2vtW9GZ4341Qg6R0DQjBaxXN3Yh67Hip1/qROS+t4kPBzZb4ZEOPdDNQ/gV2r65TnKrnjiRQl3BT+ToxzZ2vZDRaCyIUsKQTMDwpOXUpjAn5k17wB+Q+zbtWriYy0xlcdTc9LsP/83o86MEFK64c3D4D+GYSmhGZ2KtW0RH82CVPac+B3J21bj7aAre5PQ3AJGAE=",
+      "thinking": "",
+      "type": "thinking"
+    },
+    {
+      "id": "toolu_01LL1TPzr45AJpNDoCDTznNL",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "coordinate": [
+          300,
+          440
+        ]
+      },
+      "name": "left_click",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01XHmUXvTRABoYXEphg8Y59x",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "text": "ctrl+a"
+      },
+      "name": "key",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01HoySGgcbXDBXbAZD4y8Vtb",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "text": "Alex"
+      },
+      "name": "type",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01GzodDzWQatfmuFEKgMWeTv",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "coordinate": [
+          722,
+          440
+        ]
+      },
+      "name": "left_click",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01FRXtwxaxbSyRScjtMXuB18",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "text": "Morgan"
+      },
+      "name": "type",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01E4Pk6K9TcRCn6nKcQW8oqM",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "coordinate": [
+          300,
+          532
+        ]
+      },
+      "name": "left_click",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_0156b6itUpwx6YgD3jFLVDW8",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "text": "alex.morgan@example.com"
+      },
+      "name": "type",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_0193tS9ntxqxDqGpinbTVqRd",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "coordinate": [
+          722,
+          532
+        ]
+      },
+      "name": "left_click",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01W1aoXitwuRhTvFWermidE6",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "text": "+1 202-555-0147"
+      },
+      "name": "type",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_011UKGCJPubtXxJX552gYKb3",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "coordinate": [
+          300,
+          624
+        ]
+      },
+      "name": "left_click",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01WNqcs6MPikZWtMerYnDPVq",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "text": "Northstar Labs"
+      },
+      "name": "type",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01E3CYft2wjBTfJLtqStRDyz",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "coordinate": [
+          722,
+          624
+        ]
+      },
+      "name": "left_click",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01XE93bBLarBiEMhNcMe9dxL",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "text": "Product Manager"
+      },
+      "name": "type",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01HNuC4tuxTxLaxDHYvkGBZ1",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {},
+      "name": "screenshot",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    }
+  ],
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_reason": "tool_use",
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 10297,
+    "output_tokens": 364,
+    "output_tokens_details": {
+      "thinking_tokens": 24
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "reviewer": "Codex independent post-terminal screenshot/trace audit",
+  "date": "2026-10-22",
+  "fields": {
+    "firstName": "Alex",
+    "lastName": "",
+    "email": "",
+    "phone": "",
+    "company": "",
+    "jobTitle": "",
+    "country": "Select a country",
+    "contactMethod": null,
+    "message": null,
+    "newsletter": null
+  },
+  "explicitly_unselected_fields": [
+    "contactMethod"
+  ],
+  "unverified_fields": [
+    "message",
+    "newsletter"
+  ],
+  "upper_screenshot": "screenshots/screenshot-023.jpg",
+  "last_available_screenshot": "screenshots/screenshot-023.jpg",
+  "lower_screenshot": null,
+  "all_screenshots_reviewed": [
+    "screenshots/screenshot-000.jpg",
+    "screenshots/screenshot-001.jpg",
+    "screenshots/screenshot-002.jpg",
+    "screenshots/screenshot-003.jpg",
+    "screenshots/screenshot-004.jpg",
+    "screenshots/screenshot-005.jpg",
+    "screenshots/screenshot-006.jpg",
+    "screenshots/screenshot-007.jpg",
+    "screenshots/screenshot-008.jpg",
+    "screenshots/screenshot-009.jpg",
+    "screenshots/screenshot-010.jpg",
+    "screenshots/screenshot-011.jpg",
+    "screenshots/screenshot-012.jpg",
+    "screenshots/screenshot-013.jpg",
+    "screenshots/screenshot-014.jpg",
+    "screenshots/screenshot-015.jpg",
+    "screenshots/screenshot-016.jpg",
+    "screenshots/screenshot-017.jpg",
+    "screenshots/screenshot-018.jpg",
+    "screenshots/screenshot-019.jpg",
+    "screenshots/screenshot-020.jpg",
+    "screenshots/screenshot-021.jpg",
+    "screenshots/screenshot-022.jpg",
+    "screenshots/screenshot-023.jpg"
+  ],
+  "newsletter_visible_in_any_capture": false,
+  "newsletter_checked_property_snapshot_available": false,
+  "html_limitation": "Serialized HTML omits live text value/radio checked properties; absent newsletter checked attribute is not an independent unchecked observation. No supported live post-terminal browser/DOM-property endpoint returned.",
+  "final_status_html": "html-captures/023.html",
+  "final_status_text": "Not submitted.",
+  "submission_action_observed": false,
+  "submission_caveat": "No submission action captured. Resets in attempt 2 limit retrospective inference from its final status alone.",
+  "agent_response_used_as_field_evidence": false,
+  "verification_data_sent_to_agent": false,
+  "message_exact_at_final": null,
+  "form_clearing_events_observed": 2,
+  "reset_evidence": [
+    "screenshots/screenshot-011.jpg",
+    "screenshots/screenshot-012.jpg",
+    "screenshots/screenshot-021.jpg",
+    "screenshots/screenshot-022.jpg"
+  ],
+  "field_state_scoring_basis": "Final captured state; best intermediate state is not substituted",
+  "upper_and_lower_postrun_capture_limit": "All available provider frames retrieved after stop; no separate live screenshot API exposed. Upper final state captured, lower checkbox view unavailable."
+}

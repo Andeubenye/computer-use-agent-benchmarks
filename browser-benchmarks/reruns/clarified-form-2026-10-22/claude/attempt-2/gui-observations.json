@@ -1,0 +1,41 @@
+{
+  "reviewer": "Codex independent visual/trace audit after agent stopped",
+  "date": "2026-10-22",
+  "fields": {
+    "firstName": "Alex",
+    "lastName": "Morgan",
+    "email": "alex.morgan@example.com",
+    "phone": "+1 202-555-0147",
+    "company": "Northstar Labs",
+    "jobTitle": "Product Manager",
+    "country": "United States",
+    "contactMethod": "Email",
+    "message": "This is a benchmark. Do not submit.",
+    "newsletter": false
+  },
+  "upper_screenshot": "native-evidence/20261022T152202Z-b7ce3a14/screenshots/independent-upper.png",
+  "lower_screenshot": "native-evidence/20261022T152202Z-b7ce3a14/screenshots/0038-screenshot.png",
+  "all_screenshots_reviewed": [
+    "native-evidence/20261022T152202Z-b7ce3a14/screenshots/0004-screenshot.png",
+    "native-evidence/20261022T152202Z-b7ce3a14/screenshots/0007-screenshot.png",
+    "native-evidence/20261022T152202Z-b7ce3a14/screenshots/0012-screenshot.png",
+    "native-evidence/20261022T152202Z-b7ce3a14/screenshots/0014-screenshot.png",
+    "native-evidence/20261022T152202Z-b7ce3a14/screenshots/0028-screenshot.png",
+    "native-evidence/20261022T152202Z-b7ce3a14/screenshots/0030-screenshot.png",
+    "native-evidence/20261022T152202Z-b7ce3a14/screenshots/0035-screenshot.png",
+    "native-evidence/20261022T152202Z-b7ce3a14/screenshots/0038-screenshot.png",
+    "native-evidence/20261022T152202Z-b7ce3a14/screenshots/independent-agent-final.png",
+    "native-evidence/20261022T152202Z-b7ce3a14/screenshots/independent-upper.png"
+  ],
+  "newsletter_state_observed": "unchecked",
+  "message_exact_match": true,
+  "submission_status_visible": "Not submitted.",
+  "submission_action_in_trace": false,
+  "field_mutations_after_last_lower_capture": false,
+  "agent_received_verification_data": false,
+  "live_dom_snapshot_available": false,
+  "live_dom_snapshot_limitation": "Post-run collector timed out during viewport scrolling before its read-only browser-local-storage reader. No live checked-property snapshot collected. Visible checkbox, exact message, upper controls and subsequent trace independently inspected.",
+  "postrun_capture_error": "TimeoutExpired",
+  "postrun_capture_error_did_not_restart_agent": true,
+  "agent_final_text_used_as_sole_evidence": false
+}

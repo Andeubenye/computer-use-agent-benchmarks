@@ -1,0 +1,94 @@
+{
+  "id": "msg_011CgHWJTqnbUtUgvGzDcbvr",
+  "content": [
+    {
+      "id": "toolu_01WMj92MbwrSg4C1ZAcVwyLa",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "coordinate": [
+          300,
+          440
+        ]
+      },
+      "name": "left_click",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01Ro9vDXHMg8DcV2RueQJWAo",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "text": "Alex\tMorgan\talex.morgan@example.com\t+1 202-555-0147\tNorthstar Labs\tProduct Manager"
+      },
+      "name": "type",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_019eHtJXkkToKxeYaNSkSUaF",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "coordinate": [
+          547,
+          706
+        ]
+      },
+      "name": "left_click",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_019bHmseJQAprTREEThNYF6v",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "coordinate": [
+          512,
+          500
+        ],
+        "scroll_direction": "down",
+        "scroll_amount": 5
+      },
+      "name": "scroll",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01P35U1tLZ1piYVJgZTqRRrb",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {},
+      "name": "screenshot",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    }
+  ],
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_reason": "tool_use",
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 7757,
+    "output_tokens": 212,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

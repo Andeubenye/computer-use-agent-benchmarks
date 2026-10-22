@@ -1,0 +1,92 @@
+"""Supported TinyFish async runs after a rejected optional beta-only step cap.
+No created TinyFish agent is retried. No beta enrollment, settings change or task edits.
+"""
+from pathlib import Path
+from decimal import Decimal,ROUND_DOWN
+import argparse,ast,datetime,hashlib,json,socket,urllib.parse
+HERE=Path(__file__).resolve().parent;OUT=HERE/'clarified-form-2026-10-22-private'
+def dump(p,x):p.parent.mkdir(parents=True,exist_ok=True);p.write_text(json.dumps(x,indent=2,ensure_ascii=False)+'\n')
+def load(p):return json.loads(p.read_text())
+def now():return datetime.datetime.now(datetime.timezone.utc).isoformat()
+def main(sock):
+ if (OUT/'supported-tinyfish-started.json').exists():raise SystemExit('Existing marker; refuse benchmark restart')
+ # Reconcile only completed native attempts, preserving any wrapper capture failure.
+ ledger=load(OUT/'budget-ledger.json');native_total=Decimal(0)
+ for n in (1,2,3):
+  f=OUT/'claude'/f'attempt-{n}';summaries=list((f/'native-evidence').glob('*/summary.json'));assert len(summaries)==1,'Claude attempt not complete'
+  summary_path=summaries[0];x=load(summary_path);cost=Decimal(x['api_cost_usd']);uncertain=Decimal(x['uncertain_cost_reserved_usd']);native_total+=cost+uncertain
+  old=load(f/'run-record.json')
+  if old.get('status')=='failed' and old.get('cost_usd') is None:
+   dump(f/'postrun-wrapper-error-record.json',old)
+   record={'agent':'claude','attempt':n,'task':'clarified-form','submitted':True,'status':x['status'],'agent_wall_seconds':x['agent_wall_seconds'],'wall_seconds':x['wall_seconds'],'max_seconds_from_submission':600,'actions':x['computer_actions'],'action_unit':'native computer actions including screenshots/zoom','screenshots':x['screenshots'],'additional_independent_screenshots':len(list(summary_path.parent.glob('screenshots/independent-*.png'))),'model':x['model_returned'] or x['model_requested'],'tool_version':x['tool_version'],'cost_usd':float(cost),'uncertain_cost_reserved_usd':float(uncertain),'cost_basis':'raw native summary token estimate, not invoice','errors':x['errors'],'api_retries':x['api_retries'],'automatic_restarts':0,'fresh_desktop':True,'evidence_directory':str(summary_path.parent.relative_to(f)),'postrun_capture_error':old['reason'],'audit_note':'Model run finished before wrapper capture timeout; model cost/output recovered from unchanged native summary. Original wrapper error preserved, no model rerun.'}
+   dump(f/'run-record.json',record);(f/'original-response.txt').write_text(x['final_answer'])
+  entry=ledger['entries'][f'claude-{n}'];entry.update(state='finished',charged_or_reserved_usd=float(cost+uncertain),cost_usd=float(cost),uncertain_reserved_usd=float(uncertain),basis='reconciled saved native summary/raw usage, no new model call')
+ # All old TinyFish requests were either definitively rejected before agent creation or never sent.
+ rejection=OUT/'infrastructure-rejections';rejection.mkdir(exist_ok=True)
+ for n in (1,2,3):
+  f=OUT/'tinyfish'/f'attempt-{n}';assert f.exists() and not (f/'provider-run.json').exists()
+  if (f/'submission.json').exists():
+   response=load(f/'submission.json');assert response['http_status']==403 and not response['body'].get('run_id')
+   assert load(f/'wallet-observation.json')['delta_usd']==0
+  f.rename(rejection/f'tinyfish-before-run-{n}')
+ allocation=((Decimal('1.98')-native_total)/3).quantize(Decimal('.001'),rounding=ROUND_DOWN)
+ # Reserve ten further steps beyond cancellation threshold for in-flight progress.
+ cancel_at=int(allocation/Decimal('.016'))-10
+ if cancel_at<15:raise SystemExit('Insufficient remaining balance for three conservatively monitored attempts')
+ assert native_total+allocation*3<2
+ s=socket.socket(socket.AF_UNIX,socket.SOCK_STREAM);s.connect(sock);s.sendall(b'tinyfish');key=s.recv(16384).decode();s.close();assert key
+ ns={'__file__':str(HERE/'common.py'),'KEYS':{'tinyfish':key}}
+ tree=ast.parse((HERE/'common.py').read_text());tree.body=[n for n in tree.body if not(isinstance(n,ast.Assign) and any(isinstance(t,ast.Name) and t.id=='KEYS' for t in n.targets))];exec(compile(tree,str(HERE/'common.py'),'exec'),ns)
+ api0=ns['api'];save=ns['save'];prompt=(OUT/'clarified-prompt.txt').read_text();assert hashlib.sha256(prompt.encode()).hexdigest()=='310e61b597776240557a2aed3e5bcbbdaf93a36c26c7c94e52b65d0b576b3007'
+ ns['TASKS']={'clarified-form':{'prompt':prompt,'start_url':'https://manicule-agent-benchmark-oct17.peppyshark33.chatgpt.site/?task=form'}}
+ source=(HERE/'cloud_batch.py').read_text();tree=ast.parse(source);parts=[ast.get_source_segment(source,n) for n in tree.body if isinstance(n,ast.FunctionDef) and n.name in ('tiny','submit_marker')]
+ adapter='\n\n'.join(parts).replace('time.sleep(min(4,','time.sleep(min(1,')
+ exec(compile(adapter,str(HERE/'cloud_batch.py'),'exec'),ns);(OUT/'execution-source/supported-tinyfish-adapter.py.txt').write_text(adapter+'\n')
+ active={}
+ def persist():
+  total=sum(Decimal(str(e['charged_or_reserved_usd'])) for e in ledger['entries'].values());assert total<2
+  ledger.update(committed_or_reserved_usd=float(total),remaining_usd=float(2-total));dump(OUT/'budget-ledger.json',ledger)
+ def claim(a,t,reserve):
+  n=active['n'];f=OUT/'tinyfish'/f'attempt-{n}';f.mkdir(parents=True,exist_ok=False);active.update(folder=f,cancelled=False)
+  ledger['entries'][f'tinyfish-{n}']={'state':'active','allocation_usd':float(allocation),'charged_or_reserved_usd':float(allocation),'cancel_at_reported_steps':cancel_at,'in_flight_steps_reserved':10};persist();(f/'task-prompt.txt').write_text(prompt)
+  save(f/'configuration.json',{'agent':'tinyfish','attempt':n,'max_seconds':600,'browser_profile':'lite','use_profile':False,'use_vault':False,'proxy_enabled':False,'model_revision':None,'prompt_sha256':hashlib.sha256(prompt.encode()).hexdigest(),'custom_beta_max_steps_requested':False,'default_server_step_limit':150,'client_status_poll_seconds':1,'budget_cancel_at_reported_steps':cancel_at,'in_flight_steps_reserved':10,'allocation_usd':float(allocation),'automatic_benchmark_restarts':0,'prior_rejection':'../../infrastructure-rejections/tinyfish-before-run-1/submission.json','expected_answers_or_verification_data_sent_to_agent':False});return f
+ def finish(unused,amount,basis):
+  f=active['folder'];entry=ledger['entries'][f"tinyfish-{active['n']}"]
+  uncertain='uncertain' in basis.lower()
+  if uncertain:amount=float(allocation)
+  entry.update(state='finished',cost_usd=None if uncertain else amount,charged_or_reserved_usd=amount,cost_basis=basis,finished_at=now());persist()
+  if Decimal(str(amount))>allocation:raise RuntimeError('Observed usage exceeded run reserve; stop further execution')
+  return True,None
+ def api(a,path,payload=None,**kw):
+  if path=='/v1/automation/run-async':
+   payload=dict(payload);assert payload['goal']==prompt
+   payload['proxy_config']={'enabled':False};payload['capture_config']={'screenshots':True,'html':True,'snapshots':True,'elements':True};save(active['folder']/'actual-submission-payload.json',payload)
+  response=api0(a,path,payload,**kw)
+  if path.startswith('/v1/runs/') and '?' not in path and path.count('/')==3 and response.get('http_status')==200:
+   body=response['body'];steps=body.get('num_of_steps') or 0;status=body.get('status')
+   if status in ('PENDING','RUNNING') and steps>=cancel_at and not active.get('cancelled'):
+    active['cancelled']=True;cancel=api0(a,path+'/cancel',{});save(active['folder']/'budget-cancel.json',{'at_reported_steps':steps,'guard_threshold':cancel_at,'response':cancel,'remaining_in_flight_step_reserve':10,'at':now()})
+  return response
+ ns.update(claim=claim,ledger=finish,api=api)
+ def wallet():
+  r=api0('tinyfish','/v1/wallet');assert r['http_status']==200;b=r['body'];assert (b.get('auto_reload') or {}).get('state') in ('unconfigured','disabled');return b
+ dump(OUT/'supported-tinyfish-started.json',{'utc':now(),'explanation':'Optional beta-only custom max_steps rejected before any TinyFish run existed. Normal supported API retains original server config; local cancellation guard monitors reported steps. No beta enrollment or restriction bypass. No created agent run retried.','claude_reconciled_cost_usd':float(native_total),'allocated_each_tinyfish_usd':float(allocation),'maximum_allocated_batch_usd':float(native_total+allocation*3),'cancel_at_steps':cancel_at,'in_flight_step_reserve':10,'cap_usd':2})
+ persist()
+ try:
+  for n in (1,2,3):
+   active['n']=n;before=wallet();assert Decimal(before['available_balance'])>=allocation
+   ns['tiny']('clarified-form');f=active['folder'];after=wallet();delta=Decimal(before['available_balance'])-Decimal(after['available_balance'])
+   save(f/'wallet-observation.json',{'delta_usd':float(delta),'currency':'USD','account_absolute_balances_omitted':True,'auto_reload_state':(after.get('auto_reload') or {}).get('state'),'pending_top_up_present':bool(after.get('pending_top_up')),'basis':'Observed account delta, not invoice; unrelated concurrent activity cannot be excluded'})
+   record=load(f/'run-record.json');assert Decimal(str(record['cost_usd']))==delta and delta<=allocation
+   run=load(f/'provider-run.json');assert run['status'] in ('COMPLETED','FAILED','CANCELLED'),'Stop unconfirmed; no next run'
+   captures=[]
+   for step in run.get('steps',[]):
+    if not(step.get('html') and step.get('id')):continue
+    path='/v1/runs/'+urllib.parse.quote(run['run_id'],safe='')+'/steps/'+urllib.parse.quote(step['id'],safe='')+'/html';r=api0('tinyfish',path,binary=True)
+    if r.get('http_status')==200 and isinstance(r.get('body'),bytes):
+     target=f/'html-captures'/f'{len(captures):03d}.html';target.parent.mkdir(exist_ok=True);target.write_bytes(r['body']);captures.append({'step_id':step['id'],'file':str(target.relative_to(f)),'after_terminal':True})
+   save(f/'capture-index.json',{'html':captures,'post_run_only':True,'agent_fields_edited_by_verifier':False,'live_property_snapshot_exposed':False})
+   print(json.dumps({'tinyfish_finished':n,'status':record['status'],'seconds':record['agent_wall_seconds'],'provider_steps':record['actions'],'cost_usd':record['cost_usd'],'budget_cancelled':active['cancelled']}),flush=True)
+ finally:save(OUT/'supported-tinyfish-status.json',{'utc':now(),'ledger':ledger,'automatic_agent_restarts':0});ns['KEYS'].clear();key=None
+if __name__=='__main__':
+ p=argparse.ArgumentParser();p.add_argument('--socket',required=True);main(p.parse_args().socket)
