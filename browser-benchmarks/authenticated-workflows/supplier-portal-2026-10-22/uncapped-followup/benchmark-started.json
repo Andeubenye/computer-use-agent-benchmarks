@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-22T19:41:37.453253+00:00",
+  "max_seconds_each": 600,
+  "new_attempts_each": 3,
+  "order": "TinyFish 4,5,6 then Claude 4,5,6",
+  "no_automatic_benchmark_restarts": true,
+  "custom_spending_limit_usd": null,
+  "exact_task_wording_template_sha256": "59ba27d438a7a5f76cc689641c6693d83d8ce37fb34116367225e808a91890ad",
+  "cookies_or_passwords_in_prompts": false
+}

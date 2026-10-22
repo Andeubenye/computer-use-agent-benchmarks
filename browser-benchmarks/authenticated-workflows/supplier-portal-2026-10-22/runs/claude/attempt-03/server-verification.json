@@ -1,0 +1,132 @@
+{
+  "record": {
+    "id": "SUP-C003",
+    "batch_id": "auth-2026-10-22",
+    "pair_index": 3,
+    "cohort": "claude",
+    "name": "Synthetic Supplier 03",
+    "status": "Reviewed",
+    "notes": "Reviewed supplier documentation for batch 03. No changes requested.",
+    "version": 1,
+    "confirmation_id": "CNF-BA032AB7216D411B",
+    "updated_at": "2026-10-22T17:07:10.193Z",
+    "updated_session_hash": "session-claude"
+  },
+  "record_audit": [
+    {
+      "event_id": "0031f37e-4b48-471b-bd0d-48e734646eae",
+      "at": "2026-10-22T17:06:18.950Z",
+      "kind": "admin_reset",
+      "record_id": "SUP-C003",
+      "session_hash": null,
+      "details": "{}"
+    },
+    {
+      "event_id": "93b7b666-21c1-4a2e-b12d-d3eff55df670",
+      "at": "2026-10-22T17:06:53.411Z",
+      "kind": "authenticated_view",
+      "record_id": "SUP-C003",
+      "session_hash": "session-claude",
+      "details": "{\"path\":\"/supplier/SUP-C003\"}"
+    },
+    {
+      "event_id": "200fa060-34f8-4e85-880d-19267c497397",
+      "at": "2026-10-22T17:07:09.873Z",
+      "kind": "authenticated_view",
+      "record_id": "SUP-C003",
+      "session_hash": "session-claude",
+      "details": "{\"path\":\"/supplier/SUP-C003\"}"
+    },
+    {
+      "event_id": "d65b1e70-0042-4981-a4fb-c2035555f051",
+      "at": "2026-10-22T17:07:10.193Z",
+      "kind": "supplier_saved",
+      "record_id": "SUP-C003",
+      "session_hash": "session-claude",
+      "details": "{\"confirmation_id\":\"CNF-BA032AB7216D411B\",\"from_status\":\"Pending\",\"to_status\":\"Reviewed\",\"notes_sha256\":\"1d87814f7be30fc623aaacd1b1206b60a826a54880da1f218dcad70c707ab44e\",\"version\":1}"
+    },
+    {
+      "event_id": "eb56c00a-9d32-4196-aeb4-5786dd2d9bad",
+      "at": "2026-10-22T17:07:10.839Z",
+      "kind": "authenticated_view",
+      "record_id": "SUP-C003",
+      "session_hash": "session-claude",
+      "details": "{\"path\":\"/supplier/SUP-C003\"}"
+    }
+  ],
+  "events_during_attempt": [
+    {
+      "event_id": "0031f37e-4b48-471b-bd0d-48e734646eae",
+      "at": "2026-10-22T17:06:18.950Z",
+      "kind": "admin_reset",
+      "record_id": "SUP-C003",
+      "session_hash": null,
+      "details": "{}"
+    },
+    {
+      "event_id": "38e94aaa-7828-48fc-b5a5-8da03687851b",
+      "at": "2026-10-22T17:06:34.050Z",
+      "kind": "authenticated_view",
+      "record_id": null,
+      "session_hash": "session-claude",
+      "details": "{\"path\":\"/dashboard\"}"
+    },
+    {
+      "event_id": "93b7b666-21c1-4a2e-b12d-d3eff55df670",
+      "at": "2026-10-22T17:06:53.411Z",
+      "kind": "authenticated_view",
+      "record_id": "SUP-C003",
+      "session_hash": "session-claude",
+      "details": "{\"path\":\"/supplier/SUP-C003\"}"
+    },
+    {
+      "event_id": "200fa060-34f8-4e85-880d-19267c497397",
+      "at": "2026-10-22T17:07:09.873Z",
+      "kind": "authenticated_view",
+      "record_id": "SUP-C003",
+      "session_hash": "session-claude",
+      "details": "{\"path\":\"/supplier/SUP-C003\"}"
+    },
+    {
+      "event_id": "d65b1e70-0042-4981-a4fb-c2035555f051",
+      "at": "2026-10-22T17:07:10.193Z",
+      "kind": "supplier_saved",
+      "record_id": "SUP-C003",
+      "session_hash": "session-claude",
+      "details": "{\"confirmation_id\":\"CNF-BA032AB7216D411B\",\"from_status\":\"Pending\",\"to_status\":\"Reviewed\",\"notes_sha256\":\"1d87814f7be30fc623aaacd1b1206b60a826a54880da1f218dcad70c707ab44e\",\"version\":1}"
+    },
+    {
+      "event_id": "eb56c00a-9d32-4196-aeb4-5786dd2d9bad",
+      "at": "2026-10-22T17:07:10.839Z",
+      "kind": "authenticated_view",
+      "record_id": "SUP-C003",
+      "session_hash": "session-claude",
+      "details": "{\"path\":\"/supplier/SUP-C003\"}"
+    }
+  ],
+  "server_time": "2026-10-22T17:07:20.022Z",
+  "independent_owner_api_used_only_after_agent_stop": true,
+  "expected_note": "Reviewed supplier documentation for batch 03. No changes requested.",
+  "expected_setup_session_hash": "session-claude",
+  "agent_claim_parsed_from_original_response_only": {
+    "record_id": "SUP-C003",
+    "final_status": "Reviewed",
+    "confirmation_id": "CNF-BA032AB7216D411B"
+  },
+  "other_supplier_save_ids": [],
+  "checks": {
+    "authentication_succeeded": true,
+    "setup_session_reused": true,
+    "correct_supplier_viewed": true,
+    "exact_status_and_note_saved": true,
+    "valid_server_confirmation": true,
+    "returned_fields_match_server": true,
+    "no_other_supplier_saved": true,
+    "agent_completed_within_limits": true,
+    "gui_evidence_retained": true
+  },
+  "workflow_success_verified": true,
+  "outcome": "successful",
+  "model_success_message_not_used_as_server_proof": true,
+  "verification_data_sent_to_agent": false
+}

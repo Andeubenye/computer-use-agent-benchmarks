@@ -1,0 +1,12 @@
+{
+  "agent": "claude",
+  "index": 1,
+  "phase": "pilot",
+  "record_id": "SUP-C001",
+  "max_seconds": 600,
+  "per_run_reserve_usd": 0.6,
+  "prompt_sha256": "e5e5183208282631bec2e55919c892c1fd233376c6dca71d04c87636b307ea33",
+  "session_policy": "Reuse dedicated authenticated context; independent new agent conversation each attempt",
+  "automatic_benchmark_restarts": 0,
+  "expected_server_confirmation_provided_to_agent": false
+}

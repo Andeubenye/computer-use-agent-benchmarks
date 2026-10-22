@@ -1,0 +1,32 @@
+--- original-core.py
++++ uncapped-core.py
+@@ -100,8 +100,6 @@
+     max_seconds: int = 300
+ 
+     def validate(self):
+-        if not self.budget_usd.is_finite() or not Decimal("0") < self.budget_usd <= Decimal("100"):
+-            raise ValueError("budget must be finite and between $0 and $100")
+         for value in (self.max_steps, self.max_actions, self.max_tokens, self.max_seconds):
+             if type(value) is not int or value <= 0:
+                 raise ValueError("limits must be positive integers")
+@@ -316,9 +314,6 @@
+                 reserved_usd=str(reservation),
+                 spent_usd=str(spent),
+             )
+-            if spent + reservation > limits.budget_usd:
+-                row["status"] = "budget_limit"
+-                break
+             remaining = limits.max_seconds - (time.monotonic() - started)
+             if remaining <= 0:
+                 row["status"] = "time_limit"
+@@ -383,10 +378,6 @@
+             )
+             if response.model != MODEL:
+                 row["status"] = "unexpected_model"
+-                break
+-            if call_cost > reservation or spent > limits.budget_usd:
+-                row["status"] = "budget_reservation_exceeded"
+-                row["errors"] += 1
+                 break
+             content = [block.model_dump(exclude_none=True) for block in response.content]
+             if task.get("record_public_evidence"):

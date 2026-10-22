@@ -1,0 +1,7 @@
+I changed SUP-C002 from Pending to Reviewed, entered the exact note, and saved. The record page then showed "Changes saved successfully" and listed the new status, the note and the confirmation ID.
+
+```json
+{"record_id": "SUP-C002", "final_status": "Reviewed", "confirmation_id": "CNF-DFA04320860C4D5E"}
+```
+
+The saved note reads "Reviewed supplier documentation for batch 02. No changes requested." I didn't touch any other supplier record.

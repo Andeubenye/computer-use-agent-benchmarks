@@ -1,0 +1,70 @@
+{
+  "working_operational_ceiling_usd": 10,
+  "user_authorization": "User approved any amount of existing provider usage and requested notice when top-up is needed; no automatic topups/purchases",
+  "prior_experiment_reservation_usd_not_released": 0.465,
+  "setup_uncertainty_reserve_usd": 0.02,
+  "entries": {
+    "tinyfish-01": {
+      "state": "finished",
+      "allocation_usd": 0.6,
+      "charged_or_reserved_usd": 0.6,
+      "started_at": "2026-10-22T16:50:40.576601+00:00",
+      "cost_usd": 0.0,
+      "uncertain_reserved_usd": 0.6,
+      "basis": "Cancelled/uncertain provider counter; full reservation retained",
+      "finished_at": "2026-10-22T16:55:41.596969+00:00"
+    },
+    "claude-01": {
+      "state": "finished",
+      "allocation_usd": 0.6,
+      "charged_or_reserved_usd": 0.188832,
+      "started_at": "2026-10-22T16:55:47.301092+00:00",
+      "cost_usd": 0.188832,
+      "uncertain_reserved_usd": 0.0,
+      "basis": "model token estimate plus uncertainty",
+      "finished_at": "2026-10-22T16:56:43.922935+00:00"
+    },
+    "claude-02": {
+      "state": "finished",
+      "allocation_usd": 0.6,
+      "charged_or_reserved_usd": 0.300618,
+      "started_at": "2026-10-22T16:56:47.863813+00:00",
+      "cost_usd": 0.300618,
+      "uncertain_reserved_usd": 0.0,
+      "basis": "model token estimate plus uncertainty",
+      "finished_at": "2026-10-22T16:58:17.521767+00:00"
+    },
+    "tinyfish-02": {
+      "state": "finished",
+      "allocation_usd": 0.6,
+      "charged_or_reserved_usd": 0.352,
+      "started_at": "2026-10-22T16:58:21.901687+00:00",
+      "cost_usd": 0.352,
+      "uncertain_reserved_usd": 0.0,
+      "basis": "TinyFish steps × published rate",
+      "finished_at": "2026-10-22T17:02:44.503870+00:00"
+    },
+    "tinyfish-03": {
+      "state": "finished",
+      "allocation_usd": 0.6,
+      "charged_or_reserved_usd": 0.6,
+      "started_at": "2026-10-22T17:02:49.780104+00:00",
+      "cost_usd": 0.0,
+      "uncertain_reserved_usd": 0.6,
+      "basis": "Cancelled/uncertain provider counter; full reservation retained",
+      "finished_at": "2026-10-22T17:06:10.640386+00:00"
+    },
+    "claude-03": {
+      "state": "finished",
+      "allocation_usd": 0.6,
+      "charged_or_reserved_usd": 0.26238,
+      "started_at": "2026-10-22T17:06:15.404550+00:00",
+      "cost_usd": 0.26238,
+      "uncertain_reserved_usd": 0.0,
+      "basis": "model token estimate plus uncertainty",
+      "finished_at": "2026-10-22T17:07:17.777072+00:00"
+    }
+  },
+  "accounted_usd": 2.32383,
+  "working_ceiling_remaining_usd": 7.67617
+}

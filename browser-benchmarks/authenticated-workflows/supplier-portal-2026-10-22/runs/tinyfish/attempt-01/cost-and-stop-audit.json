@@ -1,0 +1,15 @@
+{
+  "budget_censored": true,
+  "budget_guard_chosen_by_harness_not_user_ceiling": true,
+  "per_run_reserve_usd": 0.6,
+  "cancel_threshold_live_entries": 26,
+  "observed_entries_at_cancel": 27,
+  "raw_reported_cost_usd": 0.0,
+  "comparison_cost_usd": null,
+  "retained_uncertain_reservation_usd": 0.6,
+  "treat_as_free": false,
+  "time_limit_reached": false,
+  "agent_would_have_completed_without_cancel": "UNKNOWN",
+  "saved_data_correct": false,
+  "full_workflow_completed": false
+}

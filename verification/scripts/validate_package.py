@@ -69,6 +69,13 @@ clarified_module=importlib.util.module_from_spec(clarified_spec);clarified_spec.
 clarified=clarified_module.verify()
 for error in clarified['errors']:errors.append('Clarified form: '+error)
 
+# Authenticated-workflow pilots and explicitly amended additional runs are separate.
+authenticated_path=ROOT/'browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/verify_complete_experiment.py'
+authenticated_spec=importlib.util.spec_from_file_location('authenticated_supplier',authenticated_path)
+authenticated_module=importlib.util.module_from_spec(authenticated_spec);authenticated_spec.loader.exec_module(authenticated_module)
+authenticated=authenticated_module.verify()
+for error in authenticated['errors']:errors.append('Authenticated workflows: '+error)
+
 # Independent read-only artifact checks; these modules contain no provider execution.
 DESKTOP=ROOT/'desktop-benchmarks'
 sys.path.insert(0,str(DESKTOP/'scripts'));sys.path.insert(0,str(DESKTOP/'verification'))
@@ -129,5 +136,5 @@ if (ROOT/'.git').is_dir():
             end=data.index(b'\n',offset);head=data[offset:end].split();size=int(head[2]);start=end+1;body=data[start:start+size];offset=start+size+1
             if head[1]==b'blob':scan(body,'Git history blob '+head[0].decode());history_blobs+=1
 
-print(json.dumps({'passed':not errors,'benchmark_requests':0,'tasks_documented':15,'scoped_browser_common_runs':16,'browser_record_rows':len(browser),'tinyfish_form_followup_runs':followup['new_runs'],'tinyfish_form_followup_cost_usd':followup['cost_usd'],'clarified_form_runs':clarified['new_actual_agent_runs'],'clarified_form_budget_with_uncertainty_usd':clarified['budget_accounted_usd'],'desktop_attempts':attempts,'desktop_artifact_regrades':regrades,'desktop_estimated_cost_usd':str(total),'exact_prompt_records':len(prompts),'internal_links_checked':links,'files_scanned':files,'decompressed_document_members_scanned':archives,'git_history_blobs_scanned':history_blobs,'errors':errors},indent=2))
+print(json.dumps({'passed':not errors,'benchmark_requests':0,'tasks_documented':16,'historical_task_definitions':15,'new_authenticated_task_definitions':1,'scoped_browser_common_runs':16,'browser_record_rows':len(browser),'tinyfish_form_followup_runs':followup['new_runs'],'tinyfish_form_followup_cost_usd':followup['cost_usd'],'clarified_form_runs':clarified['new_actual_agent_runs'],'clarified_form_budget_with_uncertainty_usd':clarified['budget_accounted_usd'],'authenticated_workflow_attempts':authenticated['actual_agent_runs'],'authenticated_new_uncapped_runs':authenticated['new_actual_agent_runs'],'desktop_attempts':attempts,'desktop_artifact_regrades':regrades,'desktop_estimated_cost_usd':str(total),'exact_prompt_records':len(prompts),'internal_links_checked':links,'files_scanned':files,'decompressed_document_members_scanned':archives,'git_history_blobs_scanned':history_blobs,'errors':errors},indent=2))
 sys.exit(bool(errors))

@@ -1,0 +1,26 @@
+{
+  "record": {
+    "id": "SUP-C006",
+    "batch_id": "auth-2026-10-22",
+    "pair_index": 6,
+    "cohort": "claude",
+    "name": "Synthetic Supplier 06",
+    "status": "Pending",
+    "notes": "",
+    "version": 0,
+    "confirmation_id": null,
+    "updated_at": null,
+    "updated_session_hash": null
+  },
+  "audit": [
+    {
+      "event_id": "9a8e0edb-4991-4270-8388-48526b45f482",
+      "at": "2026-10-22T19:54:04.896Z",
+      "kind": "admin_reset",
+      "record_id": "SUP-C006",
+      "session_hash": null,
+      "details": "{}"
+    }
+  ],
+  "server_time": "2026-10-22T19:54:06.837Z"
+}

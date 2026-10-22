@@ -1,0 +1,62 @@
+{
+  "id": "msg_011CgHruCzP7dUbNdKMrBqR8",
+  "content": [
+    {
+      "id": "toolu_01DpcZ4dTnL8qTLxZgwnwXeV",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "coordinate": [
+          156,
+          690
+        ]
+      },
+      "name": "left_click",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01EDZpnjpdxaNZdofiT95q8G",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "duration": 2
+      },
+      "name": "wait",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01Bom5Z1fjPDvn7Ju9jK1oRX",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {},
+      "name": "screenshot",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    }
+  ],
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_reason": "tool_use",
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 13424,
+    "output_tokens": 98,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "agent": "tinyfish",
+  "index": 6,
+  "phase": "uncapped_followup",
+  "record_id": "SUP-T006",
+  "max_seconds": 600,
+  "per_run_limit_usd": null,
+  "cumulative_limit_usd": null,
+  "prompt_sha256": "d9ae7939ce805c94e1943fb993b9c8f53ce3df4c7f2b8557142cc00a126ceaa5",
+  "session_policy": "Reuse dedicated authenticated context; independent new agent conversation each attempt",
+  "automatic_benchmark_restarts": 0,
+  "expected_server_confirmation_provided_to_agent": false
+}

@@ -1,0 +1,10 @@
+{
+  "recorded_trace_entries": 27,
+  "provider_billing_steps": 26,
+  "profile_attached": true,
+  "browser_config": {
+    "proxy_enabled": false,
+    "proxy_country_code": null
+  },
+  "internal_provider_retries": null
+}

@@ -1,0 +1,36 @@
+{
+  "started_at_utc": "2026-10-22T16:42:29.043710+00:00",
+  "operation": "Dedicated profile setup, not scored workflow",
+  "profile_id": "profile-tinyfish-dedicated",
+  "browser_profile_for_scored_runs": "lite",
+  "password_in_agent_goal": false,
+  "cookies_written_to_evidence": false,
+  "vault_enabled": false,
+  "synthetic_account_only": true,
+  "setup_http_status": 201,
+  "setup_session_created": true,
+  "login_confirmed": true,
+  "server_session_hash": "session-tinyfish",
+  "save_http_status": 200,
+  "save_result": {
+    "domains_updated": [
+      "chatgpt.site"
+    ],
+    "domains_failed": [],
+    "cookie_count": 3,
+    "pages_captured": 1,
+    "target_reads_skipped": 0,
+    "domains_skipped": {
+      "cookies_skipped": [],
+      "local_storage_skipped": [],
+      "session_storage_skipped": [],
+      "blob_too_large": []
+    }
+  },
+  "profile_saved": true,
+  "finished_at_utc": "2026-10-22T16:42:51.659232+00:00",
+  "setup_wall_seconds": 22.615459499997087,
+  "observed_credit_delta_usd": 0.0,
+  "cost_basis": "Account delta during dedicated browser setup; Browser tariff $0.002/min; not invoice",
+  "browser_session_urls_retained_in_public_evidence": false
+}

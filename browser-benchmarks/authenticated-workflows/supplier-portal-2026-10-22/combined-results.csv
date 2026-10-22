@@ -1,0 +1,13 @@
+agent,attempt,phase,record_id,full_workflow_completed,data_saved,budget_censored,agent_seconds,display_actions,display_action_unit,screenshots,comparison_cost_usd,uncertain_reserved_usd,evidence
+tinyfish,1,pilot,SUP-T001,False,False,True,285.2478826660081,27,recorded activity entries (billing counter 0 is unreliable),27,,0.6,runs/tinyfish/attempt-01
+claude,1,pilot,SUP-C001,True,True,False,47.618448,24,native computer actions including screenshots/zoom,9,0.188832,0.0,runs/claude/attempt-01
+claude,2,pilot,SUP-C002,True,True,False,82.394401,33,native computer actions including screenshots/zoom,12,0.300618,0.0,runs/claude/attempt-02
+tinyfish,2,pilot,SUP-T002,True,True,False,251.3285965420073,22,billed provider steps,21,0.352,0.0,runs/tinyfish/attempt-02
+tinyfish,3,pilot,SUP-T003,False,True,True,188.62781366700074,27,recorded activity entries (billing counter 0 is unreliable),27,,0.6,runs/tinyfish/attempt-03
+claude,3,pilot,SUP-C003,True,True,False,54.895455,30,native computer actions including screenshots/zoom,11,0.26238,0.0,runs/claude/attempt-03
+tinyfish,4,uncapped_followup,SUP-T004,True,True,False,158.14413016701292,26,provider steps,25,0.416,0,uncapped-followup/runs/tinyfish/attempt-04
+tinyfish,5,uncapped_followup,SUP-T005,True,True,False,253.19722912499856,26,provider steps,25,0.416,0,uncapped-followup/runs/tinyfish/attempt-05
+tinyfish,6,uncapped_followup,SUP-T006,True,True,False,126.61059479200048,18,provider steps,17,0.288,0,uncapped-followup/runs/tinyfish/attempt-06
+claude,4,uncapped_followup,SUP-C004,True,True,False,74.692866,30,native computer actions including screenshots/zoom,11,0.260754,0,uncapped-followup/runs/claude/attempt-04
+claude,5,uncapped_followup,SUP-C005,True,True,False,59.672632,28,native computer actions including screenshots/zoom,10,0.223442,0,uncapped-followup/runs/claude/attempt-05
+claude,6,uncapped_followup,SUP-C006,True,True,False,67.812622,31,native computer actions including screenshots/zoom,11,0.262146,0,uncapped-followup/runs/claude/attempt-06

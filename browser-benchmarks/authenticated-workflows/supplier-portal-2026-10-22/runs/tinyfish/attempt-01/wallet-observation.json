@@ -1,0 +1,6 @@
+{
+  "delta_usd": 0.0,
+  "auto_reload_state": "unconfigured",
+  "absolute_account_balances_omitted": true,
+  "attribution": "Sequential observed account delta; not invoice; unrelated account activity cannot be ruled out"
+}

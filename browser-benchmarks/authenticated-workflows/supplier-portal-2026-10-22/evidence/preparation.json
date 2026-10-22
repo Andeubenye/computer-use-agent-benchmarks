@@ -1,0 +1,22 @@
+{
+  "experiment_started_at_utc": "2026-10-22T16:19:36+00:00",
+  "authorization": "User: any amount tbh, just tell me when I have to top up; existing credit only, no automatic topups/purchases",
+  "initial_pilot_estimate_usd": [
+    1.5,
+    2.5
+  ],
+  "initial_ten_each_estimate_usd": [
+    4,
+    5
+  ],
+  "working_ceiling_usd": 10,
+  "working_ceiling_is_agent_operational_guard_not_new_user_ceiling": true,
+  "prior_cancelled_run_reservation_usd_preserved": 0.465,
+  "planned_pilots_per_agent": 3,
+  "extension_target_total_per_agent": 10,
+  "extension_requires_all_pilots_verified_success": true,
+  "max_seconds_each": 600,
+  "vault_connections": 0,
+  "vault_recovery": "NOT TESTED unless a dedicated credential is securely connected through an existing supported manager",
+  "setup_secret_schema_error": "Unused synthetic admin value echoed by connector validation; discarded/replaced before any deployment. Provider API keys never printed. Subsequent errors logged by status/path only."
+}

@@ -1,0 +1,7 @@
+{
+  "utc": "2026-10-22T19:30:56.508766+00:00",
+  "owned_container_removed": true,
+  "colima_stop_exit_code": 0,
+  "colima_status_exit_code": 1,
+  "colima_status_text": "time=\"2026-10-22T20:31:01+01:00\" level=fatal msg=\"colima [profile=claude-benchmark] is not running\"\n"
+}

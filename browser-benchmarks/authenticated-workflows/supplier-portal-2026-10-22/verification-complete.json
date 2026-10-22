@@ -1,0 +1,59 @@
+{
+  "passed": true,
+  "provider_requests": 0,
+  "actual_agent_runs": 12,
+  "new_actual_agent_runs": 6,
+  "new_full_workflows": 6,
+  "new_correct_saves": 6,
+  "new_run_images": 99,
+  "new_setup_images": 2,
+  "new_claude_generations_audited": 32,
+  "new_known_api_estimates_usd": "1.866342",
+  "old_known_api_estimates_usd": "1.103830",
+  "unresolved_pilot_accounting_reserve_usd": "1.20",
+  "new_grades": [
+    {
+      "agent": "tinyfish",
+      "attempt": 4,
+      "full_workflow": true,
+      "correct_save": true,
+      "session_reused": true
+    },
+    {
+      "agent": "tinyfish",
+      "attempt": 5,
+      "full_workflow": true,
+      "correct_save": true,
+      "session_reused": true
+    },
+    {
+      "agent": "tinyfish",
+      "attempt": 6,
+      "full_workflow": true,
+      "correct_save": true,
+      "session_reused": true
+    },
+    {
+      "agent": "claude",
+      "attempt": 4,
+      "full_workflow": true,
+      "correct_save": true,
+      "session_reused": true
+    },
+    {
+      "agent": "claude",
+      "attempt": 5,
+      "full_workflow": true,
+      "correct_save": true,
+      "session_reused": true
+    },
+    {
+      "agent": "claude",
+      "attempt": 6,
+      "full_workflow": true,
+      "correct_save": true,
+      "session_reused": true
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,139 @@
+{
+  "batch_id": "auth-2026-10-22",
+  "records": [
+    {
+      "id": "SUP-C001",
+      "batch_id": "auth-2026-10-22",
+      "pair_index": 1,
+      "cohort": "claude"
+    },
+    {
+      "id": "SUP-T001",
+      "batch_id": "auth-2026-10-22",
+      "pair_index": 1,
+      "cohort": "tinyfish"
+    },
+    {
+      "id": "SUP-C002",
+      "batch_id": "auth-2026-10-22",
+      "pair_index": 2,
+      "cohort": "claude"
+    },
+    {
+      "id": "SUP-T002",
+      "batch_id": "auth-2026-10-22",
+      "pair_index": 2,
+      "cohort": "tinyfish"
+    },
+    {
+      "id": "SUP-C003",
+      "batch_id": "auth-2026-10-22",
+      "pair_index": 3,
+      "cohort": "claude"
+    },
+    {
+      "id": "SUP-T003",
+      "batch_id": "auth-2026-10-22",
+      "pair_index": 3,
+      "cohort": "tinyfish"
+    },
+    {
+      "id": "SUP-C004",
+      "batch_id": "auth-2026-10-22",
+      "pair_index": 4,
+      "cohort": "claude"
+    },
+    {
+      "id": "SUP-T004",
+      "batch_id": "auth-2026-10-22",
+      "pair_index": 4,
+      "cohort": "tinyfish"
+    },
+    {
+      "id": "SUP-C005",
+      "batch_id": "auth-2026-10-22",
+      "pair_index": 5,
+      "cohort": "claude"
+    },
+    {
+      "id": "SUP-T005",
+      "batch_id": "auth-2026-10-22",
+      "pair_index": 5,
+      "cohort": "tinyfish"
+    },
+    {
+      "id": "SUP-C006",
+      "batch_id": "auth-2026-10-22",
+      "pair_index": 6,
+      "cohort": "claude"
+    },
+    {
+      "id": "SUP-T006",
+      "batch_id": "auth-2026-10-22",
+      "pair_index": 6,
+      "cohort": "tinyfish"
+    },
+    {
+      "id": "SUP-C007",
+      "batch_id": "auth-2026-10-22",
+      "pair_index": 7,
+      "cohort": "claude"
+    },
+    {
+      "id": "SUP-T007",
+      "batch_id": "auth-2026-10-22",
+      "pair_index": 7,
+      "cohort": "tinyfish"
+    },
+    {
+      "id": "SUP-C008",
+      "batch_id": "auth-2026-10-22",
+      "pair_index": 8,
+      "cohort": "claude"
+    },
+    {
+      "id": "SUP-T008",
+      "batch_id": "auth-2026-10-22",
+      "pair_index": 8,
+      "cohort": "tinyfish"
+    },
+    {
+      "id": "SUP-C009",
+      "batch_id": "auth-2026-10-22",
+      "pair_index": 9,
+      "cohort": "claude"
+    },
+    {
+      "id": "SUP-T009",
+      "batch_id": "auth-2026-10-22",
+      "pair_index": 9,
+      "cohort": "tinyfish"
+    },
+    {
+      "id": "SUP-C010",
+      "batch_id": "auth-2026-10-22",
+      "pair_index": 10,
+      "cohort": "claude"
+    },
+    {
+      "id": "SUP-T010",
+      "batch_id": "auth-2026-10-22",
+      "pair_index": 10,
+      "cohort": "tinyfish"
+    }
+  ],
+  "notes_by_pair": {
+    "1": "Reviewed supplier documentation for batch 01. No changes requested.",
+    "2": "Reviewed supplier documentation for batch 02. No changes requested.",
+    "3": "Reviewed supplier documentation for batch 03. No changes requested.",
+    "4": "Reviewed supplier documentation for batch 04. No changes requested.",
+    "5": "Reviewed supplier documentation for batch 05. No changes requested.",
+    "6": "Reviewed supplier documentation for batch 06. No changes requested.",
+    "7": "Reviewed supplier documentation for batch 07. No changes requested.",
+    "8": "Reviewed supplier documentation for batch 08. No changes requested.",
+    "9": "Reviewed supplier documentation for batch 09. No changes requested.",
+    "10": "Reviewed supplier documentation for batch 10. No changes requested."
+  },
+  "expected_status": "Reviewed",
+  "confirmation_id": "generated server-side at save; never predetermined or fed to agent"
+}

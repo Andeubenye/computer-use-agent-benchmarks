@@ -1,0 +1,26 @@
+{
+  "record": {
+    "id": "SUP-T004",
+    "batch_id": "auth-2026-10-22",
+    "pair_index": 4,
+    "cohort": "tinyfish",
+    "name": "Synthetic Supplier 04",
+    "status": "Pending",
+    "notes": "",
+    "version": 0,
+    "confirmation_id": null,
+    "updated_at": null,
+    "updated_session_hash": null
+  },
+  "audit": [
+    {
+      "event_id": "0c09dbb6-49b4-4cbd-a896-3f261e2843f3",
+      "at": "2026-10-22T19:41:41.083Z",
+      "kind": "admin_reset",
+      "record_id": "SUP-T004",
+      "session_hash": null,
+      "details": "{}"
+    }
+  ],
+  "server_time": "2026-10-22T19:41:43.085Z"
+}

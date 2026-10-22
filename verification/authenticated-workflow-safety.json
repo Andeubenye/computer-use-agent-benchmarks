@@ -1,0 +1,13 @@
+{
+  "utc": "2026-10-22T19:58:12.066559+00:00",
+  "passed": true,
+  "exact_secret_values_checked": 8,
+  "credential_values_written_to_report": false,
+  "files_scanned": 3101,
+  "decompressed_members_scanned": 581,
+  "history_blobs_scanned": 2087,
+  "matches": [],
+  "screenshots_reviewed_separately": true,
+  "cookie_storage_and_private_profile_dumps_published": false,
+  "new_provider_requests": 0
+}

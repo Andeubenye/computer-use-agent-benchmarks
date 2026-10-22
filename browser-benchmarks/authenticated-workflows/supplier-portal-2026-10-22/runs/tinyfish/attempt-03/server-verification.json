@@ -1,0 +1,216 @@
+{
+  "record": {
+    "id": "SUP-T003",
+    "batch_id": "auth-2026-10-22",
+    "pair_index": 3,
+    "cohort": "tinyfish",
+    "name": "Synthetic Supplier 03",
+    "status": "Reviewed",
+    "notes": "Reviewed supplier documentation for batch 03. No changes requested.",
+    "version": 2,
+    "confirmation_id": "CNF-48B34272732C4983",
+    "updated_at": "2026-10-22T17:05:32.670Z",
+    "updated_session_hash": "session-tinyfish"
+  },
+  "record_audit": [
+    {
+      "event_id": "40af7e73-4de1-4391-94cb-b178bad3e5b4",
+      "at": "2026-10-22T17:02:53.047Z",
+      "kind": "admin_reset",
+      "record_id": "SUP-T003",
+      "session_hash": null,
+      "details": "{}"
+    },
+    {
+      "event_id": "bf8e10e9-5d9d-4283-b822-4bc4b5584869",
+      "at": "2026-10-22T17:05:00.210Z",
+      "kind": "authenticated_view",
+      "record_id": "SUP-T003",
+      "session_hash": "session-tinyfish",
+      "details": "{\"path\":\"/supplier/SUP-T003\"}"
+    },
+    {
+      "event_id": "24547703-1a4d-452c-aec1-51d994a2d39c",
+      "at": "2026-10-22T17:05:28.453Z",
+      "kind": "authenticated_view",
+      "record_id": "SUP-T003",
+      "session_hash": "session-tinyfish",
+      "details": "{\"path\":\"/supplier/SUP-T003\"}"
+    },
+    {
+      "event_id": "95ea830f-ff5a-43f6-9b45-2935d8bc3900",
+      "at": "2026-10-22T17:05:28.608Z",
+      "kind": "supplier_saved",
+      "record_id": "SUP-T003",
+      "session_hash": "session-tinyfish",
+      "details": "{\"confirmation_id\":\"CNF-9BE2B9FBE13A418E\",\"from_status\":\"Pending\",\"to_status\":\"Reviewed\",\"notes_sha256\":\"1d87814f7be30fc623aaacd1b1206b60a826a54880da1f218dcad70c707ab44e\",\"version\":1}"
+    },
+    {
+      "event_id": "edce45e9-1f52-4957-a96f-edb60aca2005",
+      "at": "2026-10-22T17:05:28.857Z",
+      "kind": "authenticated_view",
+      "record_id": "SUP-T003",
+      "session_hash": "session-tinyfish",
+      "details": "{\"path\":\"/supplier/SUP-T003\"}"
+    },
+    {
+      "event_id": "2e44ecb3-f648-44f8-8ff6-14d4616bc608",
+      "at": "2026-10-22T17:05:32.516Z",
+      "kind": "authenticated_view",
+      "record_id": "SUP-T003",
+      "session_hash": "session-tinyfish",
+      "details": "{\"path\":\"/supplier/SUP-T003\"}"
+    },
+    {
+      "event_id": "daea8d2c-e8f0-49bb-ba60-99616fda0e07",
+      "at": "2026-10-22T17:05:32.670Z",
+      "kind": "supplier_saved",
+      "record_id": "SUP-T003",
+      "session_hash": "session-tinyfish",
+      "details": "{\"confirmation_id\":\"CNF-48B34272732C4983\",\"from_status\":\"Reviewed\",\"to_status\":\"Reviewed\",\"notes_sha256\":\"1d87814f7be30fc623aaacd1b1206b60a826a54880da1f218dcad70c707ab44e\",\"version\":2}"
+    },
+    {
+      "event_id": "7ed5d86e-e5e7-4918-8788-7738f9305d49",
+      "at": "2026-10-22T17:05:32.919Z",
+      "kind": "authenticated_view",
+      "record_id": "SUP-T003",
+      "session_hash": "session-tinyfish",
+      "details": "{\"path\":\"/supplier/SUP-T003\"}"
+    }
+  ],
+  "events_during_attempt": [
+    {
+      "event_id": "40af7e73-4de1-4391-94cb-b178bad3e5b4",
+      "at": "2026-10-22T17:02:53.047Z",
+      "kind": "admin_reset",
+      "record_id": "SUP-T003",
+      "session_hash": null,
+      "details": "{}"
+    },
+    {
+      "event_id": "fc7bb4ef-7e95-4eb0-989c-4d4e3b3b1f86",
+      "at": "2026-10-22T17:03:04.139Z",
+      "kind": "authenticated_view",
+      "record_id": null,
+      "session_hash": "session-tinyfish",
+      "details": "{\"path\":\"/dashboard\"}"
+    },
+    {
+      "event_id": "e69ca82f-c15d-41b4-b1fd-b42a711b4f2c",
+      "at": "2026-10-22T17:03:08.372Z",
+      "kind": "authenticated_view",
+      "record_id": null,
+      "session_hash": "session-tinyfish",
+      "details": "{\"path\":\"/dashboard\"}"
+    },
+    {
+      "event_id": "4e68a1b5-a01e-4fb9-abfa-e46216a20d94",
+      "at": "2026-10-22T17:03:28.348Z",
+      "kind": "authenticated_view",
+      "record_id": null,
+      "session_hash": "session-tinyfish",
+      "details": "{\"path\":\"/dashboard\"}"
+    },
+    {
+      "event_id": "d64b27bb-9df3-4fce-ade6-c938f4bf6d86",
+      "at": "2026-10-22T17:03:34.378Z",
+      "kind": "authenticated_view",
+      "record_id": null,
+      "session_hash": "session-tinyfish",
+      "details": "{\"path\":\"/dashboard\"}"
+    },
+    {
+      "event_id": "584eaa28-08ca-464c-b7b1-a32f90688c95",
+      "at": "2026-10-22T17:03:43.185Z",
+      "kind": "authenticated_view",
+      "record_id": null,
+      "session_hash": "session-tinyfish",
+      "details": "{\"path\":\"/dashboard\"}"
+    },
+    {
+      "event_id": "59f49fb4-9575-469f-8ff4-bc05477ae0a2",
+      "at": "2026-10-22T17:03:53.281Z",
+      "kind": "authenticated_view",
+      "record_id": null,
+      "session_hash": "session-tinyfish",
+      "details": "{\"path\":\"/dashboard\"}"
+    },
+    {
+      "event_id": "bf8e10e9-5d9d-4283-b822-4bc4b5584869",
+      "at": "2026-10-22T17:05:00.210Z",
+      "kind": "authenticated_view",
+      "record_id": "SUP-T003",
+      "session_hash": "session-tinyfish",
+      "details": "{\"path\":\"/supplier/SUP-T003\"}"
+    },
+    {
+      "event_id": "24547703-1a4d-452c-aec1-51d994a2d39c",
+      "at": "2026-10-22T17:05:28.453Z",
+      "kind": "authenticated_view",
+      "record_id": "SUP-T003",
+      "session_hash": "session-tinyfish",
+      "details": "{\"path\":\"/supplier/SUP-T003\"}"
+    },
+    {
+      "event_id": "95ea830f-ff5a-43f6-9b45-2935d8bc3900",
+      "at": "2026-10-22T17:05:28.608Z",
+      "kind": "supplier_saved",
+      "record_id": "SUP-T003",
+      "session_hash": "session-tinyfish",
+      "details": "{\"confirmation_id\":\"CNF-9BE2B9FBE13A418E\",\"from_status\":\"Pending\",\"to_status\":\"Reviewed\",\"notes_sha256\":\"1d87814f7be30fc623aaacd1b1206b60a826a54880da1f218dcad70c707ab44e\",\"version\":1}"
+    },
+    {
+      "event_id": "edce45e9-1f52-4957-a96f-edb60aca2005",
+      "at": "2026-10-22T17:05:28.857Z",
+      "kind": "authenticated_view",
+      "record_id": "SUP-T003",
+      "session_hash": "session-tinyfish",
+      "details": "{\"path\":\"/supplier/SUP-T003\"}"
+    },
+    {
+      "event_id": "2e44ecb3-f648-44f8-8ff6-14d4616bc608",
+      "at": "2026-10-22T17:05:32.516Z",
+      "kind": "authenticated_view",
+      "record_id": "SUP-T003",
+      "session_hash": "session-tinyfish",
+      "details": "{\"path\":\"/supplier/SUP-T003\"}"
+    },
+    {
+      "event_id": "daea8d2c-e8f0-49bb-ba60-99616fda0e07",
+      "at": "2026-10-22T17:05:32.670Z",
+      "kind": "supplier_saved",
+      "record_id": "SUP-T003",
+      "session_hash": "session-tinyfish",
+      "details": "{\"confirmation_id\":\"CNF-48B34272732C4983\",\"from_status\":\"Reviewed\",\"to_status\":\"Reviewed\",\"notes_sha256\":\"1d87814f7be30fc623aaacd1b1206b60a826a54880da1f218dcad70c707ab44e\",\"version\":2}"
+    },
+    {
+      "event_id": "7ed5d86e-e5e7-4918-8788-7738f9305d49",
+      "at": "2026-10-22T17:05:32.919Z",
+      "kind": "authenticated_view",
+      "record_id": "SUP-T003",
+      "session_hash": "session-tinyfish",
+      "details": "{\"path\":\"/supplier/SUP-T003\"}"
+    }
+  ],
+  "server_time": "2026-10-22T17:06:13.922Z",
+  "independent_owner_api_used_only_after_agent_stop": true,
+  "expected_note": "Reviewed supplier documentation for batch 03. No changes requested.",
+  "expected_setup_session_hash": "session-tinyfish",
+  "agent_claim_parsed_from_original_response_only": null,
+  "other_supplier_save_ids": [],
+  "checks": {
+    "authentication_succeeded": true,
+    "setup_session_reused": true,
+    "correct_supplier_viewed": true,
+    "exact_status_and_note_saved": true,
+    "valid_server_confirmation": true,
+    "returned_fields_match_server": false,
+    "no_other_supplier_saved": true,
+    "agent_completed_within_limits": false,
+    "gui_evidence_retained": true
+  },
+  "workflow_success_verified": false,
+  "outcome": "partially_successful",
+  "model_success_message_not_used_as_server_proof": true,
+  "verification_data_sent_to_agent": false
+}

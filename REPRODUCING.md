@@ -76,3 +76,7 @@ python3 browser-benchmarks/reruns/clarified-form-2026-10-22/verify_clarified.py
 ```
 
 The executed-source archive records private original-adapter dependencies and is not presented as a standalone turnkey runner. Inspection/regrading makes no provider requests and requires no keys. Further paid execution needs its own authorization.
+
+## Authenticated supplier workflows — 22 October 2026
+
+New uncapped supplier workflows: TinyFish **3/3**, Claude **3/3**; both reused login. Earlier three pilots each remain separate, including two TinyFish budget-censored attempts. [Twelve attempts and verification](browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/README.md) · [Article-ready findings](browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/ARTICLE-READY.md). This is a new authenticated browser cohort, not a replacement for earlier browser or desktop results. Run `python browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/verify_complete_experiment.py` for read-only server-snapshot/response/token replay. It makes no agent or live website requests.

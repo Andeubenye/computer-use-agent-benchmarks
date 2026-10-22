@@ -1,0 +1,14 @@
+run_id,mode,task_sha256,model_requested,model_returned,tool_version,pricing_verified,sdk_version,python_version,host_platform,success,status,grading,wall_seconds,agent_wall_seconds,grading_seconds,api_seconds,count_seconds,action_seconds,steps,api_attempts,token_count_requests,api_requests,api_retries,computer_actions,successful_actions,screenshots,skipped_actions,input_tokens,output_tokens,cache_creation_input_tokens,cache_read_input_tokens,total_input_tokens,api_cost_usd,uncertain_cost_reserved_usd,billing_uncertain,errors,failed_actions,recovery_attempts,last_stop_reason,error_category,error_http_status,final_answer,partial_output,answer_matches,page_title_matches,page_url_matches,verified_page_url,required_text_typed,grader_computer_actions,budget_usd,max_steps,max_actions,max_tokens,max_seconds,final_answer_sha256
+20261022T165653Z-649d81cc,paid_api,d036c769c001fe965527c0b2313f9ef715c8c6ab0063f38a77ec9415eec2f17b,claude-sonnet-5-5,claude-sonnet-5-5,computer_toolset_20260801,2026-10-17,1.15.0,3.12.4,Darwin,False,needs_review,manual_review_required,82.394984,82.394401,0.0,39.222476,7.552073,35.308991,12,12,12,24,0,33,33,11,0,143184,1425,0,0,143184,0.300618,0,False,0,0,0,end_turn,,,"I changed SUP-C002 from Pending to Reviewed, entered the exact note, and saved. The record page then showed ""Changes saved successfully"" and listed the new status, the note and the confirmation ID.
+
+```json
+{""record_id"": ""SUP-C002"", ""final_status"": ""Reviewed"", ""confirmation_id"": ""CNF-DFA04320860C4D5E""}
+```
+
+The saved note reads ""Reviewed supplier documentation for batch 02. No changes requested."" I didn't touch any other supplier record.","I changed SUP-C002 from Pending to Reviewed, entered the exact note, and saved. The record page then showed ""Changes saved successfully"" and listed the new status, the note and the confirmation ID.
+
+```json
+{""record_id"": ""SUP-C002"", ""final_status"": ""Reviewed"", ""confirmation_id"": ""CNF-DFA04320860C4D5E""}
+```
+
+The saved note reads ""Reviewed supplier documentation for batch 02. No changes requested."" I didn't touch any other supplier record.",False,False,False,,False,0,0.6,60,300,4096,600,f302d34e9239cf4778d24682c199d0fcedaa90ded0e700512efaea4940500b72

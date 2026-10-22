@@ -1,0 +1,13 @@
+{
+  "agent": "claude",
+  "index": 5,
+  "phase": "uncapped_followup",
+  "record_id": "SUP-C005",
+  "max_seconds": 600,
+  "per_run_limit_usd": null,
+  "cumulative_limit_usd": null,
+  "prompt_sha256": "04e90a9852cd85251624a8934f8b92d473a112785fa7ddd8dc1b8a2a9a71f732",
+  "session_policy": "Reuse dedicated authenticated context; independent new agent conversation each attempt",
+  "automatic_benchmark_restarts": 0,
+  "expected_server_confirmation_provided_to_agent": false
+}

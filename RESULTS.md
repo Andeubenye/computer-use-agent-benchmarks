@@ -39,3 +39,7 @@ Three new TinyFish attempts each reached PARTIAL: **8 confirmed correct, 1 stric
 ## Separate clarified form configuration — 22 October 2026
 
 [Six actual new runs](browser-benchmarks/reruns/clarified-form-2026-10-22/README.md): Claude PASS 10/10 ×3; TinyFish PARTIAL 9 confirmed +1 unverified ×2, plus one budget-stopped FAIL with 1 correct, 7 incorrect, 2 unverified in the last capture. Full messages were observed in both TinyFish completions and intermediate stages of the cancelled run, but checkbox evidence remained missing. These are not merged into historical common-task or earlier-prompt success counts. All source attempts and capture/monitoring errors remain available.
+
+## Authenticated supplier workflows — 22 October 2026
+
+New uncapped supplier workflows: TinyFish **3/3**, Claude **3/3**; both reused login. Earlier three pilots each remain separate, including two TinyFish budget-censored attempts. [Twelve attempts and verification](browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/README.md) · [Article-ready findings](browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/ARTICLE-READY.md). This is a new authenticated browser cohort, not a replacement for earlier browser or desktop results.

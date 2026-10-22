@@ -1,0 +1,7 @@
+SUP-C003 is now Reviewed, and the portal showed "Changes saved successfully." The saved record on screen also shows the exact note ("Reviewed supplier documentation for batch 03. No changes requested.") and the same confirmation ID.
+
+```json
+{"record_id": "SUP-C003", "final_status": "Reviewed", "confirmation_id": "CNF-BA032AB7216D411B"}
+```
+
+I didn't touch any other supplier record. The dashboard search box didn't filter the list, so I opened SUP-C003 directly from the records table.

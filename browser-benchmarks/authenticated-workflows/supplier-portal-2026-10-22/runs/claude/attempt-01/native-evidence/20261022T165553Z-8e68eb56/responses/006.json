@@ -1,0 +1,84 @@
+{
+  "id": "msg_011CgHdP6fHEaBjFsCaZnRF9",
+  "content": [
+    {
+      "id": "toolu_018a7z6FqSerJB3LcxMJ9har",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "coordinate": [
+          125,
+          530
+        ]
+      },
+      "name": "left_click",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01BPNEbJzS8qSTBH6VogWhj8",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "coordinate": [
+          511,
+          590
+        ]
+      },
+      "name": "left_click",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01WaneGTGGQUogck5hjh5WTx",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "text": "Reviewed supplier documentation for batch 01. No changes requested."
+      },
+      "name": "type",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_0121rWp1Tzv9CbH1e1qsn5cC",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "region": [
+          0,
+          300,
+          1024,
+          768
+        ]
+      },
+      "name": "zoom",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    }
+  ],
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_reason": "tool_use",
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 11304,
+    "output_tokens": 156,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-22T16:50:40.575052+00:00",
+  "max_seconds_each": 600,
+  "pilot_pairs": 3,
+  "extension_target_total_pairs": 10,
+  "no_automatic_benchmark_restarts": true,
+  "working_ceiling_usd": 10,
+  "exact_task_wording_template_sha256": "59ba27d438a7a5f76cc689641c6693d83d8ce37fb34116367225e808a91890ad",
+  "cookies_or_passwords_in_prompts": false
+}

@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-22T19:57:19.036406+00:00",
+  "first_collection_exit_code": 1,
+  "first_collection_stage": "Audit fetched; complete all-record owner-API snapshot not written",
+  "first_error_details": "stderr was suppressed by collector; exact HTTP/error category unavailable",
+  "repair": "One read-only collection retry with unchanged client and same owner credentials",
+  "retry_exit_code": 0,
+  "agent_benchmark_restarts": 0,
+  "all_verification_snapshots_collected": true,
+  "session_revocations_verified": true
+}

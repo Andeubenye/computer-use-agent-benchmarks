@@ -1,0 +1,8 @@
+{
+  "utc": "2026-10-22T19:40:33.811380+00:00",
+  "phase": "unscored profile setup",
+  "error": "ModuleNotFoundError: playwright",
+  "cause": "Default interpreter used instead of existing Playwright venv",
+  "repair": "Use already installed Playwright virtual environment; no install, model request or task restart",
+  "provider_requests_before_error": 0
+}

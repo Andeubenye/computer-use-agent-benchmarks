@@ -1,0 +1,29 @@
+{
+  "id": "msg_011CgHeCpHP6QUfWW9YFZ7x5",
+  "content": [
+    {
+      "text": "SUP-C003 is now Reviewed, and the portal showed \"Changes saved successfully.\" The saved record on screen also shows the exact note (\"Reviewed supplier documentation for batch 03. No changes requested.\") and the same confirmation ID.\n\n```json\n{\"record_id\": \"SUP-C003\", \"final_status\": \"Reviewed\", \"confirmation_id\": \"CNF-BA032AB7216D411B\"}\n```\n\nI didn't touch any other supplier record. The dashboard search box didn't filter the list, so I opened SUP-C003 directly from the records table.",
+      "type": "text"
+    }
+  ],
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 16902,
+    "output_tokens": 187,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

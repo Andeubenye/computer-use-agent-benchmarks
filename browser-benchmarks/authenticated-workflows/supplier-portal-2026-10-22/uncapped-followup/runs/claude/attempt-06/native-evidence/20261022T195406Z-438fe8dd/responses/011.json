@@ -1,0 +1,29 @@
+{
+  "id": "msg_011CgHs1dUT9a4e2LHTmhX5B",
+  "content": [
+    {
+      "text": "I changed SUP-C006 from Pending to Reviewed, entered the note, and saved. The portal showed \"Changes saved successfully\" with a confirmation ID. The saved record on screen now shows status Reviewed, the exact note, and the same confirmation ID. I didn't touch any other supplier record.\n\n```json\n{\"record_id\": \"SUP-C006\", \"final_status\": \"Reviewed\", \"confirmation_id\": \"CNF-3F07A4D964DB4E0C\"}\n```",
+      "type": "text"
+    }
+  ],
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 16908,
+    "output_tokens": 161,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

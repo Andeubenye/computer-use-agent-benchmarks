@@ -1,0 +1,882 @@
+{
+  "SUP-C001": {
+    "record": {
+      "id": "SUP-C001",
+      "batch_id": "auth-2026-10-22",
+      "pair_index": 1,
+      "cohort": "claude",
+      "name": "Synthetic Supplier 01",
+      "status": "Reviewed",
+      "notes": "Reviewed supplier documentation for batch 01. No changes requested.",
+      "version": 1,
+      "confirmation_id": "CNF-3E7A66CBDB6246BE",
+      "updated_at": "2026-10-22T16:56:35.979Z",
+      "updated_session_hash": "session-claude"
+    },
+    "audit": [
+      {
+        "event_id": "0daf7697-bb97-405e-8b6d-083f3478af22",
+        "at": "2026-10-22T16:55:51.035Z",
+        "kind": "admin_reset",
+        "record_id": "SUP-C001",
+        "session_hash": null,
+        "details": "{}"
+      },
+      {
+        "event_id": "64b4ac85-70a0-4274-9f74-e97cee5210a9",
+        "at": "2026-10-22T16:56:14.777Z",
+        "kind": "authenticated_view",
+        "record_id": "SUP-C001",
+        "session_hash": "session-claude",
+        "details": "{\"path\":\"/supplier/SUP-C001\"}"
+      },
+      {
+        "event_id": "7b0d9c39-7cf1-4378-841b-760cb86176eb",
+        "at": "2026-10-22T16:56:35.613Z",
+        "kind": "authenticated_view",
+        "record_id": "SUP-C001",
+        "session_hash": "session-claude",
+        "details": "{\"path\":\"/supplier/SUP-C001\"}"
+      },
+      {
+        "event_id": "c6723960-28f4-4dc6-823f-f7395aa02fb0",
+        "at": "2026-10-22T16:56:35.979Z",
+        "kind": "supplier_saved",
+        "record_id": "SUP-C001",
+        "session_hash": "session-claude",
+        "details": "{\"confirmation_id\":\"CNF-3E7A66CBDB6246BE\",\"from_status\":\"Pending\",\"to_status\":\"Reviewed\",\"notes_sha256\":\"cf1e7634724c5c7fa6e3df842716c67510e515d309fbf5a815b9a93243fcafd8\",\"version\":1}"
+      },
+      {
+        "event_id": "5aece280-3e93-4856-9aeb-dca2d218e9f6",
+        "at": "2026-10-22T16:56:36.648Z",
+        "kind": "authenticated_view",
+        "record_id": "SUP-C001",
+        "session_hash": "session-claude",
+        "details": "{\"path\":\"/supplier/SUP-C001\"}"
+      }
+    ],
+    "server_time": "2026-10-22T19:56:09.936Z"
+  },
+  "SUP-C002": {
+    "record": {
+      "id": "SUP-C002",
+      "batch_id": "auth-2026-10-22",
+      "pair_index": 2,
+      "cohort": "claude",
+      "name": "Synthetic Supplier 02",
+      "status": "Reviewed",
+      "notes": "Reviewed supplier documentation for batch 02. No changes requested.",
+      "version": 1,
+      "confirmation_id": "CNF-DFA04320860C4D5E",
+      "updated_at": "2026-10-22T16:57:56.534Z",
+      "updated_session_hash": "session-claude"
+    },
+    "audit": [
+      {
+        "event_id": "c92952d0-f103-45d4-aa76-e7e8a99b94a5",
+        "at": "2026-10-22T16:56:51.353Z",
+        "kind": "admin_reset",
+        "record_id": "SUP-C002",
+        "session_hash": null,
+        "details": "{}"
+      },
+      {
+        "event_id": "b5502dff-8bdd-472c-81e8-bc40971c9891",
+        "at": "2026-10-22T16:57:28.898Z",
+        "kind": "authenticated_view",
+        "record_id": "SUP-C002",
+        "session_hash": "session-claude",
+        "details": "{\"path\":\"/supplier/SUP-C002\"}"
+      },
+      {
+        "event_id": "a0dcad9c-19ad-45ab-9d40-4d2d82151fee",
+        "at": "2026-10-22T16:57:56.161Z",
+        "kind": "authenticated_view",
+        "record_id": "SUP-C002",
+        "session_hash": "session-claude",
+        "details": "{\"path\":\"/supplier/SUP-C002\"}"
+      },
+      {
+        "event_id": "4f395529-de5e-453f-a53a-9ec037a2773c",
+        "at": "2026-10-22T16:57:56.534Z",
+        "kind": "supplier_saved",
+        "record_id": "SUP-C002",
+        "session_hash": "session-claude",
+        "details": "{\"confirmation_id\":\"CNF-DFA04320860C4D5E\",\"from_status\":\"Pending\",\"to_status\":\"Reviewed\",\"notes_sha256\":\"2d5ffb180ffc04189038df46e25e0b2658f532b7c27af3edc5874639674a2c52\",\"version\":1}"
+      },
+      {
+        "event_id": "63ff9bcd-a5d4-42ab-ae10-5bddf2a89362",
+        "at": "2026-10-22T16:57:57.367Z",
+        "kind": "authenticated_view",
+        "record_id": "SUP-C002",
+        "session_hash": "session-claude",
+        "details": "{\"path\":\"/supplier/SUP-C002\"}"
+      }
+    ],
+    "server_time": "2026-10-22T19:56:11.844Z"
+  },
+  "SUP-C003": {
+    "record": {
+      "id": "SUP-C003",
+      "batch_id": "auth-2026-10-22",
+      "pair_index": 3,
+      "cohort": "claude",
+      "name": "Synthetic Supplier 03",
+      "status": "Reviewed",
+      "notes": "Reviewed supplier documentation for batch 03. No changes requested.",
+      "version": 1,
+      "confirmation_id": "CNF-BA032AB7216D411B",
+      "updated_at": "2026-10-22T17:07:10.193Z",
+      "updated_session_hash": "session-claude"
+    },
+    "audit": [
+      {
+        "event_id": "0031f37e-4b48-471b-bd0d-48e734646eae",
+        "at": "2026-10-22T17:06:18.950Z",
+        "kind": "admin_reset",
+        "record_id": "SUP-C003",
+        "session_hash": null,
+        "details": "{}"
+      },
+      {
+        "event_id": "93b7b666-21c1-4a2e-b12d-d3eff55df670",
+        "at": "2026-10-22T17:06:53.411Z",
+        "kind": "authenticated_view",
+        "record_id": "SUP-C003",
+        "session_hash": "session-claude",
+        "details": "{\"path\":\"/supplier/SUP-C003\"}"
+      },
+      {
+        "event_id": "200fa060-34f8-4e85-880d-19267c497397",
+        "at": "2026-10-22T17:07:09.873Z",
+        "kind": "authenticated_view",
+        "record_id": "SUP-C003",
+        "session_hash": "session-claude",
+        "details": "{\"path\":\"/supplier/SUP-C003\"}"
+      },
+      {
+        "event_id": "d65b1e70-0042-4981-a4fb-c2035555f051",
+        "at": "2026-10-22T17:07:10.193Z",
+        "kind": "supplier_saved",
+        "record_id": "SUP-C003",
+        "session_hash": "session-claude",
+        "details": "{\"confirmation_id\":\"CNF-BA032AB7216D411B\",\"from_status\":\"Pending\",\"to_status\":\"Reviewed\",\"notes_sha256\":\"1d87814f7be30fc623aaacd1b1206b60a826a54880da1f218dcad70c707ab44e\",\"version\":1}"
+      },
+      {
+        "event_id": "eb56c00a-9d32-4196-aeb4-5786dd2d9bad",
+        "at": "2026-10-22T17:07:10.839Z",
+        "kind": "authenticated_view",
+        "record_id": "SUP-C003",
+        "session_hash": "session-claude",
+        "details": "{\"path\":\"/supplier/SUP-C003\"}"
+      }
+    ],
+    "server_time": "2026-10-22T19:56:13.686Z"
+  },
+  "SUP-C004": {
+    "record": {
+      "id": "SUP-C004",
+      "batch_id": "auth-2026-10-22",
+      "pair_index": 4,
+      "cohort": "claude",
+      "name": "Synthetic Supplier 04",
+      "status": "Reviewed",
+      "notes": "Reviewed supplier documentation for batch 04. No changes requested.",
+      "version": 1,
+      "confirmation_id": "CNF-08CDB30C58C14C1C",
+      "updated_at": "2026-10-22T19:52:33.986Z",
+      "updated_session_hash": "session-claude-followup"
+    },
+    "audit": [
+      {
+        "event_id": "e7f768ca-cd5e-4b6e-b30f-7630e3162e9c",
+        "at": "2026-10-22T19:51:24.689Z",
+        "kind": "admin_reset",
+        "record_id": "SUP-C004",
+        "session_hash": null,
+        "details": "{}"
+      },
+      {
+        "event_id": "674dd2b4-54ce-40f2-97bc-7c51a9df4688",
+        "at": "2026-10-22T19:52:09.638Z",
+        "kind": "authenticated_view",
+        "record_id": "SUP-C004",
+        "session_hash": "session-claude-followup",
+        "details": "{\"path\":\"/supplier/SUP-C004\"}"
+      },
+      {
+        "event_id": "0ea675dd-c802-4759-b5ee-cf49ffa413fa",
+        "at": "2026-10-22T19:52:33.634Z",
+        "kind": "authenticated_view",
+        "record_id": "SUP-C004",
+        "session_hash": "session-claude-followup",
+        "details": "{\"path\":\"/supplier/SUP-C004\"}"
+      },
+      {
+        "event_id": "026eab6d-0191-4288-8f5e-57acade38b8a",
+        "at": "2026-10-22T19:52:33.986Z",
+        "kind": "supplier_saved",
+        "record_id": "SUP-C004",
+        "session_hash": "session-claude-followup",
+        "details": "{\"confirmation_id\":\"CNF-08CDB30C58C14C1C\",\"from_status\":\"Pending\",\"to_status\":\"Reviewed\",\"notes_sha256\":\"4d0163c2b1856897250108589a3f9a0875cebdd6feec7956ca49c218fe62160e\",\"version\":1}"
+      },
+      {
+        "event_id": "73163ee3-2ce4-4708-bdc1-c89df4a57d07",
+        "at": "2026-10-22T19:52:34.598Z",
+        "kind": "authenticated_view",
+        "record_id": "SUP-C004",
+        "session_hash": "session-claude-followup",
+        "details": "{\"path\":\"/supplier/SUP-C004\"}"
+      }
+    ],
+    "server_time": "2026-10-22T19:56:15.585Z"
+  },
+  "SUP-C005": {
+    "record": {
+      "id": "SUP-C005",
+      "batch_id": "auth-2026-10-22",
+      "pair_index": 5,
+      "cohort": "claude",
+      "name": "Synthetic Supplier 05",
+      "status": "Reviewed",
+      "notes": "Reviewed supplier documentation for batch 05. No changes requested.",
+      "version": 1,
+      "confirmation_id": "CNF-DFCD05BFDBDC427F",
+      "updated_at": "2026-10-22T19:53:48.604Z",
+      "updated_session_hash": "session-claude-followup"
+    },
+    "audit": [
+      {
+        "event_id": "7e5e54f7-1b08-4a96-b076-a4a16655a283",
+        "at": "2026-10-22T19:52:52.420Z",
+        "kind": "admin_reset",
+        "record_id": "SUP-C005",
+        "session_hash": null,
+        "details": "{}"
+      },
+      {
+        "event_id": "0fa45dc2-8504-4945-86f8-8297d3f88bf1",
+        "at": "2026-10-22T19:53:26.676Z",
+        "kind": "authenticated_view",
+        "record_id": "SUP-C005",
+        "session_hash": "session-claude-followup",
+        "details": "{\"path\":\"/supplier/SUP-C005\"}"
+      },
+      {
+        "event_id": "a1e87062-b753-4884-8208-ba329c75cd6b",
+        "at": "2026-10-22T19:53:48.250Z",
+        "kind": "authenticated_view",
+        "record_id": "SUP-C005",
+        "session_hash": "session-claude-followup",
+        "details": "{\"path\":\"/supplier/SUP-C005\"}"
+      },
+      {
+        "event_id": "ee40afef-e6bf-40f1-a393-2b1627143924",
+        "at": "2026-10-22T19:53:48.604Z",
+        "kind": "supplier_saved",
+        "record_id": "SUP-C005",
+        "session_hash": "session-claude-followup",
+        "details": "{\"confirmation_id\":\"CNF-DFCD05BFDBDC427F\",\"from_status\":\"Pending\",\"to_status\":\"Reviewed\",\"notes_sha256\":\"1f4b157905369e6762c942a3af21731321d2a74a6945b4854556891b804c2e2c\",\"version\":1}"
+      },
+      {
+        "event_id": "eaa6067f-0d5c-47a0-97e3-9a281b5ef787",
+        "at": "2026-10-22T19:53:49.174Z",
+        "kind": "authenticated_view",
+        "record_id": "SUP-C005",
+        "session_hash": "session-claude-followup",
+        "details": "{\"path\":\"/supplier/SUP-C005\"}"
+      }
+    ],
+    "server_time": "2026-10-22T19:56:17.313Z"
+  },
+  "SUP-C006": {
+    "record": {
+      "id": "SUP-C006",
+      "batch_id": "auth-2026-10-22",
+      "pair_index": 6,
+      "cohort": "claude",
+      "name": "Synthetic Supplier 06",
+      "status": "Reviewed",
+      "notes": "Reviewed supplier documentation for batch 06. No changes requested.",
+      "version": 1,
+      "confirmation_id": "CNF-3F07A4D964DB4E0C",
+      "updated_at": "2026-10-22T19:55:05.061Z",
+      "updated_session_hash": "session-claude-followup"
+    },
+    "audit": [
+      {
+        "event_id": "9a8e0edb-4991-4270-8388-48526b45f482",
+        "at": "2026-10-22T19:54:04.896Z",
+        "kind": "admin_reset",
+        "record_id": "SUP-C006",
+        "session_hash": null,
+        "details": "{}"
+      },
+      {
+        "event_id": "73b6f1b3-f810-4197-ac0d-9297cf2f1867",
+        "at": "2026-10-22T19:54:42.030Z",
+        "kind": "authenticated_view",
+        "record_id": "SUP-C006",
+        "session_hash": "session-claude-followup",
+        "details": "{\"path\":\"/supplier/SUP-C006\"}"
+      },
+      {
+        "event_id": "1e46672e-a8f1-4679-bb80-569d2d5b459a",
+        "at": "2026-10-22T19:55:04.706Z",
+        "kind": "authenticated_view",
+        "record_id": "SUP-C006",
+        "session_hash": "session-claude-followup",
+        "details": "{\"path\":\"/supplier/SUP-C006\"}"
+      },
+      {
+        "event_id": "652dddcd-31a6-44c5-81d6-aa1ab272b193",
+        "at": "2026-10-22T19:55:05.061Z",
+        "kind": "supplier_saved",
+        "record_id": "SUP-C006",
+        "session_hash": "session-claude-followup",
+        "details": "{\"confirmation_id\":\"CNF-3F07A4D964DB4E0C\",\"from_status\":\"Pending\",\"to_status\":\"Reviewed\",\"notes_sha256\":\"3a4ae2c26047d5892c6d19a20223943e0ceb46285f50ccd80984b37c5d50b883\",\"version\":1}"
+      },
+      {
+        "event_id": "8e41f849-c280-4bdc-ab74-e1a48ff77bc0",
+        "at": "2026-10-22T19:55:05.652Z",
+        "kind": "authenticated_view",
+        "record_id": "SUP-C006",
+        "session_hash": "session-claude-followup",
+        "details": "{\"path\":\"/supplier/SUP-C006\"}"
+      }
+    ],
+    "server_time": "2026-10-22T19:56:19.168Z"
+  },
+  "SUP-C007": {
+    "record": {
+      "id": "SUP-C007",
+      "batch_id": "auth-2026-10-22",
+      "pair_index": 7,
+      "cohort": "claude",
+      "name": "Synthetic Supplier 07",
+      "status": "Pending",
+      "notes": "",
+      "version": 0,
+      "confirmation_id": null,
+      "updated_at": null,
+      "updated_session_hash": null
+    },
+    "audit": [],
+    "server_time": "2026-10-22T19:56:21.283Z"
+  },
+  "SUP-C008": {
+    "record": {
+      "id": "SUP-C008",
+      "batch_id": "auth-2026-10-22",
+      "pair_index": 8,
+      "cohort": "claude",
+      "name": "Synthetic Supplier 08",
+      "status": "Pending",
+      "notes": "",
+      "version": 0,
+      "confirmation_id": null,
+      "updated_at": null,
+      "updated_session_hash": null
+    },
+    "audit": [],
+    "server_time": "2026-10-22T19:56:23.130Z"
+  },
+  "SUP-C009": {
+    "record": {
+      "id": "SUP-C009",
+      "batch_id": "auth-2026-10-22",
+      "pair_index": 9,
+      "cohort": "claude",
+      "name": "Synthetic Supplier 09",
+      "status": "Pending",
+      "notes": "",
+      "version": 0,
+      "confirmation_id": null,
+      "updated_at": null,
+      "updated_session_hash": null
+    },
+    "audit": [],
+    "server_time": "2026-10-22T19:56:25.099Z"
+  },
+  "SUP-C010": {
+    "record": {
+      "id": "SUP-C010",
+      "batch_id": "auth-2026-10-22",
+      "pair_index": 10,
+      "cohort": "claude",
+      "name": "Synthetic Supplier 10",
+      "status": "Pending",
+      "notes": "",
+      "version": 0,
+      "confirmation_id": null,
+      "updated_at": null,
+      "updated_session_hash": null
+    },
+    "audit": [],
+    "server_time": "2026-10-22T19:56:27.167Z"
+  },
+  "SUP-T001": {
+    "record": {
+      "id": "SUP-T001",
+      "batch_id": "auth-2026-10-22",
+      "pair_index": 1,
+      "cohort": "tinyfish",
+      "name": "Synthetic Supplier 01",
+      "status": "Pending",
+      "notes": "",
+      "version": 0,
+      "confirmation_id": null,
+      "updated_at": null,
+      "updated_session_hash": null
+    },
+    "audit": [
+      {
+        "event_id": "efc74e92-71f4-43e1-a5a6-b0c454ef5455",
+        "at": "2026-10-22T16:50:44.079Z",
+        "kind": "admin_reset",
+        "record_id": "SUP-T001",
+        "session_hash": null,
+        "details": "{}"
+      },
+      {
+        "event_id": "7fd04a6f-d758-416d-b746-52a9e745b23b",
+        "at": "2026-10-22T16:54:46.260Z",
+        "kind": "authenticated_view",
+        "record_id": "SUP-T001",
+        "session_hash": "session-tinyfish",
+        "details": "{\"path\":\"/supplier/SUP-T001\"}"
+      }
+    ],
+    "server_time": "2026-10-22T19:56:28.885Z"
+  },
+  "SUP-T002": {
+    "record": {
+      "id": "SUP-T002",
+      "batch_id": "auth-2026-10-22",
+      "pair_index": 2,
+      "cohort": "tinyfish",
+      "name": "Synthetic Supplier 02",
+      "status": "Reviewed",
+      "notes": "Reviewed supplier documentation for batch 02. No changes requested.",
+      "version": 2,
+      "confirmation_id": "CNF-55032CDA4EAE4B58",
+      "updated_at": "2026-10-22T17:02:02.278Z",
+      "updated_session_hash": "session-tinyfish"
+    },
+    "audit": [
+      {
+        "event_id": "13457884-4c01-4724-9147-5b1cf72b619c",
+        "at": "2026-10-22T16:58:25.332Z",
+        "kind": "admin_reset",
+        "record_id": "SUP-T002",
+        "session_hash": null,
+        "details": "{}"
+      },
+      {
+        "event_id": "ff8b994d-ab49-448c-a3f2-d4f0b3b385d9",
+        "at": "2026-10-22T17:01:26.439Z",
+        "kind": "authenticated_view",
+        "record_id": "SUP-T002",
+        "session_hash": "session-tinyfish",
+        "details": "{\"path\":\"/supplier/SUP-T002\"}"
+      },
+      {
+        "event_id": "d6560b1c-bc54-4f73-bc50-d9d54d168b66",
+        "at": "2026-10-22T17:01:54.438Z",
+        "kind": "authenticated_view",
+        "record_id": "SUP-T002",
+        "session_hash": "session-tinyfish",
+        "details": "{\"path\":\"/supplier/SUP-T002\"}"
+      },
+      {
+        "event_id": "20ba2d3f-a73c-4c84-9894-afbc954627ce",
+        "at": "2026-10-22T17:01:54.635Z",
+        "kind": "supplier_saved",
+        "record_id": "SUP-T002",
+        "session_hash": "session-tinyfish",
+        "details": "{\"confirmation_id\":\"CNF-B3ED58C89A6C487C\",\"from_status\":\"Pending\",\"to_status\":\"Reviewed\",\"notes_sha256\":\"2d5ffb180ffc04189038df46e25e0b2658f532b7c27af3edc5874639674a2c52\",\"version\":1}"
+      },
+      {
+        "event_id": "b477d731-97d8-4419-83b1-e28af87d20d9",
+        "at": "2026-10-22T17:01:55.154Z",
+        "kind": "authenticated_view",
+        "record_id": "SUP-T002",
+        "session_hash": "session-tinyfish",
+        "details": "{\"path\":\"/supplier/SUP-T002\"}"
+      },
+      {
+        "event_id": "21e09c28-a189-40ad-a5de-738b49cd52ce",
+        "at": "2026-10-22T17:02:02.107Z",
+        "kind": "authenticated_view",
+        "record_id": "SUP-T002",
+        "session_hash": "session-tinyfish",
+        "details": "{\"path\":\"/supplier/SUP-T002\"}"
+      },
+      {
+        "event_id": "51a39b46-d411-4381-9a82-9c47837a826d",
+        "at": "2026-10-22T17:02:02.278Z",
+        "kind": "supplier_saved",
+        "record_id": "SUP-T002",
+        "session_hash": "session-tinyfish",
+        "details": "{\"confirmation_id\":\"CNF-55032CDA4EAE4B58\",\"from_status\":\"Reviewed\",\"to_status\":\"Reviewed\",\"notes_sha256\":\"2d5ffb180ffc04189038df46e25e0b2658f532b7c27af3edc5874639674a2c52\",\"version\":2}"
+      },
+      {
+        "event_id": "6611d148-59bf-43d4-b948-3662b938adb2",
+        "at": "2026-10-22T17:02:02.684Z",
+        "kind": "authenticated_view",
+        "record_id": "SUP-T002",
+        "session_hash": "session-tinyfish",
+        "details": "{\"path\":\"/supplier/SUP-T002\"}"
+      }
+    ],
+    "server_time": "2026-10-22T19:56:30.864Z"
+  },
+  "SUP-T003": {
+    "record": {
+      "id": "SUP-T003",
+      "batch_id": "auth-2026-10-22",
+      "pair_index": 3,
+      "cohort": "tinyfish",
+      "name": "Synthetic Supplier 03",
+      "status": "Reviewed",
+      "notes": "Reviewed supplier documentation for batch 03. No changes requested.",
+      "version": 2,
+      "confirmation_id": "CNF-48B34272732C4983",
+      "updated_at": "2026-10-22T17:05:32.670Z",
+      "updated_session_hash": "session-tinyfish"
+    },
+    "audit": [
+      {
+        "event_id": "40af7e73-4de1-4391-94cb-b178bad3e5b4",
+        "at": "2026-10-22T17:02:53.047Z",
+        "kind": "admin_reset",
+        "record_id": "SUP-T003",
+        "session_hash": null,
+        "details": "{}"
+      },
+      {
+        "event_id": "bf8e10e9-5d9d-4283-b822-4bc4b5584869",
+        "at": "2026-10-22T17:05:00.210Z",
+        "kind": "authenticated_view",
+        "record_id": "SUP-T003",
+        "session_hash": "session-tinyfish",
+        "details": "{\"path\":\"/supplier/SUP-T003\"}"
+      },
+      {
+        "event_id": "24547703-1a4d-452c-aec1-51d994a2d39c",
+        "at": "2026-10-22T17:05:28.453Z",
+        "kind": "authenticated_view",
+        "record_id": "SUP-T003",
+        "session_hash": "session-tinyfish",
+        "details": "{\"path\":\"/supplier/SUP-T003\"}"
+      },
+      {
+        "event_id": "95ea830f-ff5a-43f6-9b45-2935d8bc3900",
+        "at": "2026-10-22T17:05:28.608Z",
+        "kind": "supplier_saved",
+        "record_id": "SUP-T003",
+        "session_hash": "session-tinyfish",
+        "details": "{\"confirmation_id\":\"CNF-9BE2B9FBE13A418E\",\"from_status\":\"Pending\",\"to_status\":\"Reviewed\",\"notes_sha256\":\"1d87814f7be30fc623aaacd1b1206b60a826a54880da1f218dcad70c707ab44e\",\"version\":1}"
+      },
+      {
+        "event_id": "edce45e9-1f52-4957-a96f-edb60aca2005",
+        "at": "2026-10-22T17:05:28.857Z",
+        "kind": "authenticated_view",
+        "record_id": "SUP-T003",
+        "session_hash": "session-tinyfish",
+        "details": "{\"path\":\"/supplier/SUP-T003\"}"
+      },
+      {
+        "event_id": "2e44ecb3-f648-44f8-8ff6-14d4616bc608",
+        "at": "2026-10-22T17:05:32.516Z",
+        "kind": "authenticated_view",
+        "record_id": "SUP-T003",
+        "session_hash": "session-tinyfish",
+        "details": "{\"path\":\"/supplier/SUP-T003\"}"
+      },
+      {
+        "event_id": "daea8d2c-e8f0-49bb-ba60-99616fda0e07",
+        "at": "2026-10-22T17:05:32.670Z",
+        "kind": "supplier_saved",
+        "record_id": "SUP-T003",
+        "session_hash": "session-tinyfish",
+        "details": "{\"confirmation_id\":\"CNF-48B34272732C4983\",\"from_status\":\"Reviewed\",\"to_status\":\"Reviewed\",\"notes_sha256\":\"1d87814f7be30fc623aaacd1b1206b60a826a54880da1f218dcad70c707ab44e\",\"version\":2}"
+      },
+      {
+        "event_id": "7ed5d86e-e5e7-4918-8788-7738f9305d49",
+        "at": "2026-10-22T17:05:32.919Z",
+        "kind": "authenticated_view",
+        "record_id": "SUP-T003",
+        "session_hash": "session-tinyfish",
+        "details": "{\"path\":\"/supplier/SUP-T003\"}"
+      }
+    ],
+    "server_time": "2026-10-22T19:56:32.599Z"
+  },
+  "SUP-T004": {
+    "record": {
+      "id": "SUP-T004",
+      "batch_id": "auth-2026-10-22",
+      "pair_index": 4,
+      "cohort": "tinyfish",
+      "name": "Synthetic Supplier 04",
+      "status": "Reviewed",
+      "notes": "Reviewed supplier documentation for batch 04. No changes requested.",
+      "version": 2,
+      "confirmation_id": "CNF-560DC5FE09F2443B",
+      "updated_at": "2026-10-22T19:44:01.643Z",
+      "updated_session_hash": "session-tinyfish-followup"
+    },
+    "audit": [
+      {
+        "event_id": "0c09dbb6-49b4-4cbd-a896-3f261e2843f3",
+        "at": "2026-10-22T19:41:41.083Z",
+        "kind": "admin_reset",
+        "record_id": "SUP-T004",
+        "session_hash": null,
+        "details": "{}"
+      },
+      {
+        "event_id": "f27764ab-685f-48a7-9f8c-17152a8059df",
+        "at": "2026-10-22T19:43:47.442Z",
+        "kind": "authenticated_view",
+        "record_id": "SUP-T004",
+        "session_hash": "session-tinyfish-followup",
+        "details": "{\"path\":\"/supplier/SUP-T004\"}"
+      },
+      {
+        "event_id": "e65da481-264c-48b9-a4be-2f9ec94811f0",
+        "at": "2026-10-22T19:43:57.015Z",
+        "kind": "authenticated_view",
+        "record_id": "SUP-T004",
+        "session_hash": "session-tinyfish-followup",
+        "details": "{\"path\":\"/supplier/SUP-T004\"}"
+      },
+      {
+        "event_id": "c6097b1c-a82d-4597-8fb0-75dc93bf5dd0",
+        "at": "2026-10-22T19:43:57.176Z",
+        "kind": "supplier_saved",
+        "record_id": "SUP-T004",
+        "session_hash": "session-tinyfish-followup",
+        "details": "{\"confirmation_id\":\"CNF-6642AB348396426D\",\"from_status\":\"Pending\",\"to_status\":\"Reviewed\",\"notes_sha256\":\"4d0163c2b1856897250108589a3f9a0875cebdd6feec7956ca49c218fe62160e\",\"version\":1}"
+      },
+      {
+        "event_id": "5a9cf566-7b59-4134-9cb6-2466ce657fe8",
+        "at": "2026-10-22T19:43:57.387Z",
+        "kind": "authenticated_view",
+        "record_id": "SUP-T004",
+        "session_hash": "session-tinyfish-followup",
+        "details": "{\"path\":\"/supplier/SUP-T004\"}"
+      },
+      {
+        "event_id": "abbf7d61-fc64-4608-9215-c7436740cd56",
+        "at": "2026-10-22T19:44:00.816Z",
+        "kind": "authenticated_view",
+        "record_id": "SUP-T004",
+        "session_hash": "session-tinyfish-followup",
+        "details": "{\"path\":\"/supplier/SUP-T004\"}"
+      },
+      {
+        "event_id": "fa421001-c302-4c35-8003-878ba7c7d39c",
+        "at": "2026-10-22T19:44:01.643Z",
+        "kind": "supplier_saved",
+        "record_id": "SUP-T004",
+        "session_hash": "session-tinyfish-followup",
+        "details": "{\"confirmation_id\":\"CNF-560DC5FE09F2443B\",\"from_status\":\"Reviewed\",\"to_status\":\"Reviewed\",\"notes_sha256\":\"4d0163c2b1856897250108589a3f9a0875cebdd6feec7956ca49c218fe62160e\",\"version\":2}"
+      },
+      {
+        "event_id": "4ce7955a-651a-4c9a-a5ae-183018d9cc59",
+        "at": "2026-10-22T19:44:01.903Z",
+        "kind": "authenticated_view",
+        "record_id": "SUP-T004",
+        "session_hash": "session-tinyfish-followup",
+        "details": "{\"path\":\"/supplier/SUP-T004\"}"
+      }
+    ],
+    "server_time": "2026-10-22T19:56:34.274Z"
+  },
+  "SUP-T005": {
+    "record": {
+      "id": "SUP-T005",
+      "batch_id": "auth-2026-10-22",
+      "pair_index": 5,
+      "cohort": "tinyfish",
+      "name": "Synthetic Supplier 05",
+      "status": "Reviewed",
+      "notes": "Reviewed supplier documentation for batch 05. No changes requested.",
+      "version": 1,
+      "confirmation_id": "CNF-599B3E449EA2416D",
+      "updated_at": "2026-10-22T19:47:38.122Z",
+      "updated_session_hash": "session-tinyfish-followup"
+    },
+    "audit": [
+      {
+        "event_id": "45a57e11-93ea-4955-8e3d-3235a70b6a38",
+        "at": "2026-10-22T19:44:34.076Z",
+        "kind": "admin_reset",
+        "record_id": "SUP-T005",
+        "session_hash": null,
+        "details": "{}"
+      },
+      {
+        "event_id": "153b7919-ca67-482f-b9d2-0b96f68556ea",
+        "at": "2026-10-22T19:47:16.943Z",
+        "kind": "authenticated_view",
+        "record_id": "SUP-T005",
+        "session_hash": "session-tinyfish-followup",
+        "details": "{\"path\":\"/supplier/SUP-T005\"}"
+      },
+      {
+        "event_id": "83e74f3e-cace-4dcb-b9ee-c18c2a1d529f",
+        "at": "2026-10-22T19:47:37.958Z",
+        "kind": "authenticated_view",
+        "record_id": "SUP-T005",
+        "session_hash": "session-tinyfish-followup",
+        "details": "{\"path\":\"/supplier/SUP-T005\"}"
+      },
+      {
+        "event_id": "47e0269e-ed50-442a-b502-4dcc5eb490fa",
+        "at": "2026-10-22T19:47:38.122Z",
+        "kind": "supplier_saved",
+        "record_id": "SUP-T005",
+        "session_hash": "session-tinyfish-followup",
+        "details": "{\"confirmation_id\":\"CNF-599B3E449EA2416D\",\"from_status\":\"Pending\",\"to_status\":\"Reviewed\",\"notes_sha256\":\"1f4b157905369e6762c942a3af21731321d2a74a6945b4854556891b804c2e2c\",\"version\":1}"
+      },
+      {
+        "event_id": "f457b51e-5dce-41c4-ac2e-31c980f9b928",
+        "at": "2026-10-22T19:47:38.369Z",
+        "kind": "authenticated_view",
+        "record_id": "SUP-T005",
+        "session_hash": "session-tinyfish-followup",
+        "details": "{\"path\":\"/supplier/SUP-T005\"}"
+      }
+    ],
+    "server_time": "2026-10-22T19:56:36.079Z"
+  },
+  "SUP-T006": {
+    "record": {
+      "id": "SUP-T006",
+      "batch_id": "auth-2026-10-22",
+      "pair_index": 6,
+      "cohort": "tinyfish",
+      "name": "Synthetic Supplier 06",
+      "status": "Reviewed",
+      "notes": "Reviewed supplier documentation for batch 06. No changes requested.",
+      "version": 1,
+      "confirmation_id": "CNF-0CABDEB82B4F4121",
+      "updated_at": "2026-10-22T19:50:36.424Z",
+      "updated_session_hash": "session-tinyfish-followup"
+    },
+    "audit": [
+      {
+        "event_id": "cbb37278-d02f-4a75-b4bb-c0e84e34e7a2",
+        "at": "2026-10-22T19:49:03.057Z",
+        "kind": "admin_reset",
+        "record_id": "SUP-T006",
+        "session_hash": null,
+        "details": "{}"
+      },
+      {
+        "event_id": "c251279c-48ad-452e-80ab-d85ead78546d",
+        "at": "2026-10-22T19:50:11.368Z",
+        "kind": "authenticated_view",
+        "record_id": "SUP-T006",
+        "session_hash": "session-tinyfish-followup",
+        "details": "{\"path\":\"/supplier/SUP-T006\"}"
+      },
+      {
+        "event_id": "5f97500b-4b79-472a-adbe-87d9095d7b0a",
+        "at": "2026-10-22T19:50:36.270Z",
+        "kind": "authenticated_view",
+        "record_id": "SUP-T006",
+        "session_hash": "session-tinyfish-followup",
+        "details": "{\"path\":\"/supplier/SUP-T006\"}"
+      },
+      {
+        "event_id": "59ec94cd-d48a-40d5-97ba-d658586136dd",
+        "at": "2026-10-22T19:50:36.424Z",
+        "kind": "supplier_saved",
+        "record_id": "SUP-T006",
+        "session_hash": "session-tinyfish-followup",
+        "details": "{\"confirmation_id\":\"CNF-0CABDEB82B4F4121\",\"from_status\":\"Pending\",\"to_status\":\"Reviewed\",\"notes_sha256\":\"3a4ae2c26047d5892c6d19a20223943e0ceb46285f50ccd80984b37c5d50b883\",\"version\":1}"
+      },
+      {
+        "event_id": "1b64ba6f-d095-4b69-8e85-74a0e8c5d95d",
+        "at": "2026-10-22T19:50:36.704Z",
+        "kind": "authenticated_view",
+        "record_id": "SUP-T006",
+        "session_hash": "session-tinyfish-followup",
+        "details": "{\"path\":\"/supplier/SUP-T006\"}"
+      }
+    ],
+    "server_time": "2026-10-22T19:56:37.859Z"
+  },
+  "SUP-T007": {
+    "record": {
+      "id": "SUP-T007",
+      "batch_id": "auth-2026-10-22",
+      "pair_index": 7,
+      "cohort": "tinyfish",
+      "name": "Synthetic Supplier 07",
+      "status": "Pending",
+      "notes": "",
+      "version": 0,
+      "confirmation_id": null,
+      "updated_at": null,
+      "updated_session_hash": null
+    },
+    "audit": [],
+    "server_time": "2026-10-22T19:56:39.558Z"
+  },
+  "SUP-T008": {
+    "record": {
+      "id": "SUP-T008",
+      "batch_id": "auth-2026-10-22",
+      "pair_index": 8,
+      "cohort": "tinyfish",
+      "name": "Synthetic Supplier 08",
+      "status": "Pending",
+      "notes": "",
+      "version": 0,
+      "confirmation_id": null,
+      "updated_at": null,
+      "updated_session_hash": null
+    },
+    "audit": [],
+    "server_time": "2026-10-22T19:56:41.274Z"
+  },
+  "SUP-T009": {
+    "record": {
+      "id": "SUP-T009",
+      "batch_id": "auth-2026-10-22",
+      "pair_index": 9,
+      "cohort": "tinyfish",
+      "name": "Synthetic Supplier 09",
+      "status": "Pending",
+      "notes": "",
+      "version": 0,
+      "confirmation_id": null,
+      "updated_at": null,
+      "updated_session_hash": null
+    },
+    "audit": [],
+    "server_time": "2026-10-22T19:56:43.297Z"
+  },
+  "SUP-T010": {
+    "record": {
+      "id": "SUP-T010",
+      "batch_id": "auth-2026-10-22",
+      "pair_index": 10,
+      "cohort": "tinyfish",
+      "name": "Synthetic Supplier 10",
+      "status": "Pending",
+      "notes": "",
+      "version": 0,
+      "confirmation_id": null,
+      "updated_at": null,
+      "updated_session_hash": null
+    },
+    "audit": [],
+    "server_time": "2026-10-22T19:56:45.004Z"
+  }
+}

@@ -51,3 +51,7 @@ OpenAI completed all five desktop checklists. Claude completed document editing,
 ## Clarified form experiment — 22 October 2026
 
 [Three fresh TinyFish and three fresh Claude runs](browser-benchmarks/reruns/clarified-form-2026-10-22/README.md) use the exact clarified prompt and unchanged ten-field rubric. Claude: three verified 10/10; TinyFish: two partial nine-confirmed results and one budget-stopped failure. Earlier prompt configurations remain separate. [Article-ready interpretation](browser-benchmarks/reruns/clarified-form-2026-10-22/ARTICLE-READY.md).
+
+## Authenticated supplier workflows — 22 October 2026
+
+New uncapped supplier workflows: TinyFish **3/3**, Claude **3/3**; both reused login. Earlier three pilots each remain separate, including two TinyFish budget-censored attempts. [Twelve attempts and verification](browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/README.md) · [Article-ready findings](browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/ARTICLE-READY.md). This is a new authenticated browser cohort, not a replacement for earlier browser or desktop results.

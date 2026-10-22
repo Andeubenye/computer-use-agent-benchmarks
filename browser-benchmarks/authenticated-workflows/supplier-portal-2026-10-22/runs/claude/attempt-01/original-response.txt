@@ -1,0 +1,5 @@
+SUP-C001 is now saved as Reviewed with the note "Reviewed supplier documentation for batch 01. No changes requested." After saving, the portal showed "Changes saved successfully" and the saved record displayed the new status, the note and the confirmation ID. I changed no other supplier record.
+
+```json
+{"record_id": "SUP-C001", "final_status": "Reviewed", "confirmation_id": "CNF-3E7A66CBDB6246BE"}
+```

@@ -1,0 +1,91 @@
+{
+  "started_at_utc": "2026-10-22T19:40:47.600043+00:00",
+  "mode": "Non-scored native GUI session setup",
+  "image_rebuilt": false,
+  "persistent_context_supported": true,
+  "password_sent_to_agent": false,
+  "provider_generation_requests": 0,
+  "setup_actions": [
+    {
+      "action": "key",
+      "seconds": 0.4850391249929089,
+      "is_error": false,
+      "typed_value_redacted": false
+    },
+    {
+      "action": "type",
+      "seconds": 0.4406239590025507,
+      "is_error": false,
+      "typed_value_redacted": true
+    },
+    {
+      "action": "key",
+      "seconds": 0.4432100419944618,
+      "is_error": false,
+      "typed_value_redacted": false
+    },
+    {
+      "action": "key",
+      "seconds": 0.6854102919896832,
+      "is_error": false,
+      "typed_value_redacted": false
+    },
+    {
+      "action": "type",
+      "seconds": 0.4823424999922281,
+      "is_error": false,
+      "typed_value_redacted": true
+    },
+    {
+      "action": "key",
+      "seconds": 0.570913790987106,
+      "is_error": false,
+      "typed_value_redacted": false
+    },
+    {
+      "action": "type",
+      "seconds": 1.278747292002663,
+      "is_error": false,
+      "typed_value_redacted": true
+    },
+    {
+      "action": "key",
+      "seconds": 0.7610647919937037,
+      "is_error": false,
+      "typed_value_redacted": false
+    },
+    {
+      "action": "key",
+      "seconds": 0.6528939169947989,
+      "is_error": false,
+      "typed_value_redacted": false
+    },
+    {
+      "action": "key",
+      "seconds": 0.5027039160049753,
+      "is_error": false,
+      "typed_value_redacted": false
+    },
+    {
+      "action": "screenshot",
+      "seconds": 0.40538395900512114,
+      "is_error": false,
+      "typed_value_redacted": false
+    }
+  ],
+  "password_value_or_cookie_saved_to_evidence": false,
+  "login_confirmed": true,
+  "server_session_hash": "session-claude-followup",
+  "native_environment": {
+    "container_id": "0d6f212d1028938a236fa4132188b73262f83a09799558ae05dfc5da834193c8",
+    "image_id": "sha256:195fda83d17d253dbb5d122583fd7d58cdfb13971e16f6fd7c1f73840b07f55d",
+    "resolution": "1024x768",
+    "architecture": "arm64",
+    "browser_version": "Mozilla Firefox 153.5.0esr"
+  },
+  "container_left_running_for_sequential_benchmarks": true,
+  "finished_at_utc": "2026-10-22T19:41:08.767851+00:00",
+  "setup_wall_seconds": 21.163800041002105,
+  "local_infrastructure_cost_usd": null,
+  "local_infrastructure_cost_note": "Existing Mac/Colima resources; electricity and previous setup unpriced"
+}

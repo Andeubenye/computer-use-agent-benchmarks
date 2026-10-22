@@ -1,0 +1,10 @@
+run_id,mode,task_sha256,model_requested,model_returned,tool_version,pricing_verified,sdk_version,python_version,host_platform,success,status,grading,wall_seconds,agent_wall_seconds,grading_seconds,api_seconds,count_seconds,action_seconds,steps,api_attempts,token_count_requests,api_requests,api_retries,computer_actions,successful_actions,screenshots,skipped_actions,input_tokens,output_tokens,cache_creation_input_tokens,cache_read_input_tokens,total_input_tokens,api_cost_usd,uncertain_cost_reserved_usd,billing_uncertain,errors,failed_actions,recovery_attempts,last_stop_reason,error_category,error_http_status,final_answer,partial_output,answer_matches,page_title_matches,page_url_matches,verified_page_url,required_text_typed,grader_computer_actions,budget_usd,max_steps,max_actions,max_tokens,max_seconds,final_answer_sha256
+20261022T195406Z-438fe8dd,paid_api,d83b4eb567d7b290cc92e2a8aa5b44cefabc0d53a11675ac7f4279145e3d8e6c,claude-sonnet-5-5,claude-sonnet-5-5,computer_toolset_20260801,2026-10-17,1.15.0,3.12.4,Darwin,False,needs_review,manual_review_required,67.812676,67.812622,0.0,30.697096,5.871314,30.998596,11,11,11,22,0,31,31,10,0,124593,1296,0,0,124593,0.262146,0,False,0,0,0,end_turn,,,"I changed SUP-C006 from Pending to Reviewed, entered the note, and saved. The portal showed ""Changes saved successfully"" with a confirmation ID. The saved record on screen now shows status Reviewed, the exact note, and the same confirmation ID. I didn't touch any other supplier record.
+
+```json
+{""record_id"": ""SUP-C006"", ""final_status"": ""Reviewed"", ""confirmation_id"": ""CNF-3F07A4D964DB4E0C""}
+```","I changed SUP-C006 from Pending to Reviewed, entered the note, and saved. The portal showed ""Changes saved successfully"" with a confirmation ID. The saved record on screen now shows status Reviewed, the exact note, and the same confirmation ID. I didn't touch any other supplier record.
+
+```json
+{""record_id"": ""SUP-C006"", ""final_status"": ""Reviewed"", ""confirmation_id"": ""CNF-3F07A4D964DB4E0C""}
+```",False,False,False,,False,0,Infinity,60,300,4096,600,fac4c5fed0acf64c9ee3f867d31b1c386b45760d7f4007a8d893f465938e01b0

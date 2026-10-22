@@ -1,0 +1,29 @@
+{
+  "id": "msg_011CgHrpWREsgKyp5tijrkUC",
+  "content": [
+    {
+      "text": "SUP-C004 is now saved as Reviewed, with the note \"Reviewed supplier documentation for batch 04. No changes requested.\" After saving, the record page showed the new status, the note, and the same confirmation ID as \"Last confirmation ID\". I didn't change any other supplier record.\n\n```json\n{\"record_id\": \"SUP-C004\", \"final_status\": \"Reviewed\", \"confirmation_id\": \"CNF-08CDB30C58C14C1C\"}\n```",
+      "type": "text"
+    }
+  ],
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 16954,
+    "output_tokens": 154,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

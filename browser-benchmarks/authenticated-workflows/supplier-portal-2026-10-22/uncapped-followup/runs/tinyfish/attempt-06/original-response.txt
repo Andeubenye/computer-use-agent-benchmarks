@@ -1,0 +1,5 @@
+{
+  "record_id": "SUP-T006",
+  "final_status": "Reviewed",
+  "confirmation_id": "CNF-0CABDEB82B4F4121"
+}

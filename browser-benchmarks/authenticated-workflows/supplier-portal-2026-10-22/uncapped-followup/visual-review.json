@@ -1,0 +1,15 @@
+{
+  "all_run_images_reviewed": 99,
+  "setup_images_reviewed": 2,
+  "method": "All six run image sequences inspected in contact sheets; TinyFish final states also at native resolution. Server records, save receipts and original responses independently compared. No automated image recognition.",
+  "observations": {
+    "tinyfish-04": "Exact saved data/returned receipt agree. Two Save events retained, latest receipt returned.",
+    "tinyfish-05": "Exact saved data/returned receipt agree. One Save.",
+    "tinyfish-06": "Exact saved data/returned receipt agree. One Save.",
+    "claude-04": "Exact saved data, zoomed confirmation, original answer and independent final capture agree.",
+    "claude-05": "Exact saved data, zoomed confirmation, original answer and independent final capture agree.",
+    "claude-06": "Exact saved data, zoomed confirmation, original answer and independent final capture agree."
+  },
+  "images_altered": false,
+  "credentials_or_personal_data_visible": false
+}

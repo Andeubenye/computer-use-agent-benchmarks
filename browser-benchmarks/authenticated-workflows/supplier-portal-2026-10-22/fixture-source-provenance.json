@@ -1,0 +1,42 @@
+{
+  "files": [
+    {
+      "source": "work/authenticated-workflow-2026-10-22/worker/index.js",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/fixture/worker/index.js",
+      "sha256": "d0988527fdb179071d999cdb40856f40945b6c569dfc845aca24c1eca26e524f",
+      "role": "Deployed fixture source, no runtime secret values"
+    },
+    {
+      "source": "work/authenticated-workflow-2026-10-22/drizzle/0000_supplier_fixture.sql",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/fixture/drizzle/0000_supplier_fixture.sql",
+      "sha256": "6a16749abccf0d303200526acf5e41e67550ec1c1c0d3ea6e0612b8910be0bda",
+      "role": "Deployed fixture source, no runtime secret values"
+    },
+    {
+      "source": "work/authenticated-workflow-2026-10-22/drizzle/meta/_journal.json",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/fixture/drizzle/meta/_journal.json",
+      "sha256": "b155a4d285dacb0cfcca69b020aff2faa0346374a002c9e4334503fef10c7c87",
+      "role": "Deployed fixture source, no runtime secret values"
+    },
+    {
+      "source": "work/authenticated-workflow-2026-10-22/scripts/build.sh",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/fixture/scripts/build.sh",
+      "sha256": "6b9f6f660adf83f70f651f7450d53a0fab82419273d68889ce56546f66556ed6",
+      "role": "Deployed fixture source, no runtime secret values"
+    },
+    {
+      "source": "work/authenticated-workflow-2026-10-22/scripts/validate-artifact.mjs",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/fixture/scripts/validate-artifact.mjs",
+      "sha256": "39d9df53ac2461962466d5965c5f4d06f08024ceca40605952d8b753b88d41fd",
+      "role": "Deployed fixture source, no runtime secret values"
+    },
+    {
+      "source": "work/authenticated-workflow-2026-10-22/package.json",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/fixture/package.json",
+      "sha256": "5314513e9a77e1bf5602ae4db24ef674bbaf6e6dbc9a006eccd852b33b66f5a5",
+      "role": "Deployed fixture source, no runtime secret values"
+    }
+  ],
+  "hosting_template_is_not_executed_manifest": true,
+  "runtime_secrets_and_deployment_credentials_excluded": true
+}

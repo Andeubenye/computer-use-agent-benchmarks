@@ -1,0 +1,2087 @@
+{
+  "files": [
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/PREREGISTERED-PLAN.md",
+      "source_sha256": "42fe63e7440355d7d0706ca4e0c1a4b64f3716ef8e7c0e113602d252b6e33a9d",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/PREREGISTERED-PLAN.md",
+      "public_sha256": "42fe63e7440355d7d0706ca4e0c1a4b64f3716ef8e7c0e113602d252b6e33a9d",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/task-template.txt",
+      "source_sha256": "59ba27d438a7a5f76cc689641c6693d83d8ce37fb34116367225e808a91890ad",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/task-template.txt",
+      "public_sha256": "59ba27d438a7a5f76cc689641c6693d83d8ce37fb34116367225e808a91890ad",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/fixtures.json",
+      "source_sha256": "9c317b27ea274bce7506f35d426674fe6d97112e5be136e421f670f73f2f2d8c",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/fixtures.json",
+      "public_sha256": "9c317b27ea274bce7506f35d426674fe6d97112e5be136e421f670f73f2f2d8c",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/preparation.json",
+      "source_sha256": "ee8841c1667bfc2099c4d76c993ff065bae3422c9a94b5dc93b0fa1f5b6407e2",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/evidence/preparation.json",
+      "public_sha256": "ee8841c1667bfc2099c4d76c993ff065bae3422c9a94b5dc93b0fa1f5b6407e2",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/fixture-qa.json",
+      "source_sha256": "eafb498f44f97fd94fdfe213b230457798f5e21049fb5f1ce8c322a985d34b45",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/fixture-qa.json",
+      "public_sha256": "eafb498f44f97fd94fdfe213b230457798f5e21049fb5f1ce8c322a985d34b45",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/fixture-qa-attempt-1-error.json",
+      "source_sha256": "85748c7fca6306269a49b12a3f7e1f8ec2758b0bd4ca7e2e1c202914c542e0b1",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/fixture-qa-attempt-1-error.json",
+      "public_sha256": "85748c7fca6306269a49b12a3f7e1f8ec2758b0bd4ca7e2e1c202914c542e0b1",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/tinyfish-profile-setup.json",
+      "source_sha256": "c8267eef12171644730147524dead383ba1b4578c04e6790ca0276fc5c2ef868",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/setup/tinyfish-profile-setup.json",
+      "public_sha256": "1e8dccebcc759967ef239d769904ddc85d58d5ac2b5317d9add6661df41c25d7",
+      "byte_identical": false,
+      "redaction_note": "Consistent session/profile pseudonyms, private host paths or control URLs only"
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/claude-context-setup.json",
+      "source_sha256": "5e79eea0f490032f57904983416424930a6a3bca55edbb8156935e9614f46abb",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/setup/claude-context-setup.json",
+      "public_sha256": "a4b1b0b0cda1b90acc6cd7975c0eba206cb014a0d25c2fbda33d239d08765065",
+      "byte_identical": false,
+      "redaction_note": "Consistent session/profile pseudonyms, private host paths or control URLs only"
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/tinyfish-setup-authenticated.png",
+      "source_sha256": "4d5d5ff2fa643c7c052e9eadd19b96980ea961212c016e0010df087a7c40bbad",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/setup/tinyfish-setup-authenticated.png",
+      "public_sha256": "4d5d5ff2fa643c7c052e9eadd19b96980ea961212c016e0010df087a7c40bbad",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/claude-setup-authenticated.png",
+      "source_sha256": "8aa86ed58554ff6d60b0712419ef4e4d6834e1586c80d23af7bab9adbe82c494",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/setup/claude-setup-authenticated.png",
+      "public_sha256": "8aa86ed58554ff6d60b0712419ef4e4d6834e1586c80d23af7bab9adbe82c494",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/benchmark-started.json",
+      "source_sha256": "04528e684f97d2764147e3ce32c8fcdc65823dd1154e264f5baad988c9e3344a",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/evidence/benchmark-started.json",
+      "public_sha256": "04528e684f97d2764147e3ce32c8fcdc65823dd1154e264f5baad988c9e3344a",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/benchmark-status.json",
+      "source_sha256": "9d7c9b9ee296d5083b863913d8bb778545f1954578a68b73c14a054e281766a8",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/evidence/benchmark-status.json",
+      "public_sha256": "e94b7692098deb14ad81d6709029829f9ddd3d4243f4fea88c9f9a368b3f8114",
+      "byte_identical": false,
+      "redaction_note": "Consistent session/profile pseudonyms, private host paths or control URLs only"
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/budget-ledger.json",
+      "source_sha256": "91b745d636527a414119c2925578c508cbe8efd5c2541be0f1d56cb123fc46cf",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/evidence/budget-ledger.json",
+      "public_sha256": "91b745d636527a414119c2925578c508cbe8efd5c2541be0f1d56cb123fc46cf",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/pilot-gate.json",
+      "source_sha256": "d4b5a0d4e73c0c1a23b5d8e66e9d9674d33b28ce38642fda687f3eb27588c49b",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/evidence/pilot-gate.json",
+      "public_sha256": "d4b5a0d4e73c0c1a23b5d8e66e9d9674d33b28ce38642fda687f3eb27588c49b",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/final-audit.json",
+      "source_sha256": "d6b43452da116c9cbb03c85f58cd7328d1f2a828d6a03a6c2709957974a8bc6c",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/evidence/final-audit.json",
+      "public_sha256": "33e80758b0659c7619d589253c5a74f8ec659d9c9ade01cdf11ba78bcf17d3a4",
+      "byte_identical": false,
+      "redaction_note": "Consistent session/profile pseudonyms, private host paths or control URLs only"
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/final-server-records.json",
+      "source_sha256": "0693a422add5c48c85cad483ade02bb401cfe176d88a7136147df6ae511e4c62",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/evidence/final-server-records.json",
+      "public_sha256": "c12fcf65097d7763575d286ca43242f981a05c1294cd5c7163c4d44c3a246da1",
+      "byte_identical": false,
+      "redaction_note": "Consistent session/profile pseudonyms, private host paths or control URLs only"
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/final-native-suppliers.json",
+      "source_sha256": "f7d9d94decb9e0ad603fffd25ab7bb57fc46505507c555cf41cafe768738a7b3",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/evidence/final-native-suppliers.json",
+      "public_sha256": "00c28279e044520b20cfe1a1e3bb9c5db63029b05a38f711405657d63c9a9261",
+      "byte_identical": false,
+      "redaction_note": "Consistent session/profile pseudonyms, private host paths or control URLs only"
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/sessions-before-cleanup.json",
+      "source_sha256": "ba465f7208948c007dde4d9481e417b8a75ca2c554d1a93e3e11034ecdfe06f2",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/evidence/sessions-before-cleanup.json",
+      "public_sha256": "d79f3cef8337c1842384387569355b9943af68c11fa6936d4051794bc8e2d650",
+      "byte_identical": false,
+      "redaction_note": "Consistent session/profile pseudonyms, private host paths or control URLs only"
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/sessions-after-cleanup.json",
+      "source_sha256": "d4a46915ae4ce0398db9617d90a7d4062bf9c584d975f65cabbaa87dd28fe08a",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/evidence/sessions-after-cleanup.json",
+      "public_sha256": "9cbc7c9c6609745d3c8e774d1602753ced94db2d6100aedfac103688d628dad7",
+      "byte_identical": false,
+      "redaction_note": "Consistent session/profile pseudonyms, private host paths or control URLs only"
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/session-cleanup.json",
+      "source_sha256": "6c5a80b7aa43646818aa983ace00719195777099f4b02731bf18000f72fe1978",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/evidence/session-cleanup.json",
+      "public_sha256": "6c5a80b7aa43646818aa983ace00719195777099f4b02731bf18000f72fe1978",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/infrastructure-cleanup.json",
+      "source_sha256": "04e57f1afbfc4a354d1a4d079819820bfe4cddd321d99abc747234818dacdf26",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/evidence/infrastructure-cleanup.json",
+      "public_sha256": "04e57f1afbfc4a354d1a4d079819820bfe4cddd321d99abc747234818dacdf26",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-01/baseline-server-record.json",
+      "source_sha256": "3ca92bc0f8e8527d1204900dbb1a45fc2c9202f3dc5f97bbacf53104b210f8a7",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-01/baseline-server-record.json",
+      "public_sha256": "3ca92bc0f8e8527d1204900dbb1a45fc2c9202f3dc5f97bbacf53104b210f8a7",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-01/configuration.json",
+      "source_sha256": "f322458099c32f782648e49c891813c14457a9167ef215b7e2dc18801641f250",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-01/configuration.json",
+      "public_sha256": "f322458099c32f782648e49c891813c14457a9167ef215b7e2dc18801641f250",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-01/environment-reset.json",
+      "source_sha256": "4fd0d73b6915e425d4be4367e1286a8c55652227fecefa283532f8ede54d350b",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-01/environment-reset.json",
+      "public_sha256": "4fd0d73b6915e425d4be4367e1286a8c55652227fecefa283532f8ede54d350b",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-01/full-wrapper-timing.json",
+      "source_sha256": "12b67cc8eec538680a73efe43c1d69e2c695d6844b91b7fb58c7687bae4bd611",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-01/full-wrapper-timing.json",
+      "public_sha256": "12b67cc8eec538680a73efe43c1d69e2c695d6844b91b7fb58c7687bae4bd611",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-01/independent-capture.json",
+      "source_sha256": "fa9a8cc85d27983a56b9fa141b0f6b33a87fa692e80460bfec8e316dfb09bc93",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-01/independent-capture.json",
+      "public_sha256": "fa9a8cc85d27983a56b9fa141b0f6b33a87fa692e80460bfec8e316dfb09bc93",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-01/native-evidence/20261022T165553Z-8e68eb56/configuration.json",
+      "source_sha256": "6b054c1716e37fef95a50cd13edc40a768e6924503a31932648a425ab469da6c",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-01/native-evidence/20261022T165553Z-8e68eb56/configuration.json",
+      "public_sha256": "6b054c1716e37fef95a50cd13edc40a768e6924503a31932648a425ab469da6c",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-01/native-evidence/20261022T165553Z-8e68eb56/events.jsonl",
+      "source_sha256": "f992514676d0e1e9c713cfe56d08afbee6746cadfc60724c811edd90d1ed8378",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-01/native-evidence/20261022T165553Z-8e68eb56/events.jsonl",
+      "public_sha256": "f992514676d0e1e9c713cfe56d08afbee6746cadfc60724c811edd90d1ed8378",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-01/native-evidence/20261022T165553Z-8e68eb56/responses/001.json",
+      "source_sha256": "609a219b86912129a87b3530e6a84dbbf1639f0f11569578a21687788c2c7974",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-01/native-evidence/20261022T165553Z-8e68eb56/responses/001.json",
+      "public_sha256": "609a219b86912129a87b3530e6a84dbbf1639f0f11569578a21687788c2c7974",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-01/native-evidence/20261022T165553Z-8e68eb56/responses/002.json",
+      "source_sha256": "8805c17086cab7dcfd96c835815d3842ee7cb9fb4d578d199f693d1ff1ed7d5e",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-01/native-evidence/20261022T165553Z-8e68eb56/responses/002.json",
+      "public_sha256": "8805c17086cab7dcfd96c835815d3842ee7cb9fb4d578d199f693d1ff1ed7d5e",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-01/native-evidence/20261022T165553Z-8e68eb56/responses/003.json",
+      "source_sha256": "b603b0aced8934b8a333e3bef5c522825611658394750dca64991dc57fb7ef6d",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-01/native-evidence/20261022T165553Z-8e68eb56/responses/003.json",
+      "public_sha256": "b603b0aced8934b8a333e3bef5c522825611658394750dca64991dc57fb7ef6d",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-01/native-evidence/20261022T165553Z-8e68eb56/responses/004.json",
+      "source_sha256": "e7a95e5bbc5643102a7e880cbbcbab896b755bad5fcbace0c06561ff8c464259",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-01/native-evidence/20261022T165553Z-8e68eb56/responses/004.json",
+      "public_sha256": "e7a95e5bbc5643102a7e880cbbcbab896b755bad5fcbace0c06561ff8c464259",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-01/native-evidence/20261022T165553Z-8e68eb56/responses/005.json",
+      "source_sha256": "4cb7471bee8417bc2e522aa8006f59e2a8b172f900612822a4c76b74c7de6b43",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-01/native-evidence/20261022T165553Z-8e68eb56/responses/005.json",
+      "public_sha256": "4cb7471bee8417bc2e522aa8006f59e2a8b172f900612822a4c76b74c7de6b43",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-01/native-evidence/20261022T165553Z-8e68eb56/responses/006.json",
+      "source_sha256": "150995dd25f84df2ab9189572ab9eb5679ef837228aca5ed08a9b211d1726967",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-01/native-evidence/20261022T165553Z-8e68eb56/responses/006.json",
+      "public_sha256": "150995dd25f84df2ab9189572ab9eb5679ef837228aca5ed08a9b211d1726967",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-01/native-evidence/20261022T165553Z-8e68eb56/responses/007.json",
+      "source_sha256": "f0870617b508790ce0ddece52350c33c74d7478599c8acedfdb07ede67c0def9",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-01/native-evidence/20261022T165553Z-8e68eb56/responses/007.json",
+      "public_sha256": "f0870617b508790ce0ddece52350c33c74d7478599c8acedfdb07ede67c0def9",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-01/native-evidence/20261022T165553Z-8e68eb56/responses/008.json",
+      "source_sha256": "4363126f4258be32fa34ff67ba77058efa3ac1f80685903735473bd48a6563aa",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-01/native-evidence/20261022T165553Z-8e68eb56/responses/008.json",
+      "public_sha256": "4363126f4258be32fa34ff67ba77058efa3ac1f80685903735473bd48a6563aa",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-01/native-evidence/20261022T165553Z-8e68eb56/responses/009.json",
+      "source_sha256": "e5b28bcddc9191463cb6fce8f7d903e258ffc0bed226f350c8887d0ec5b9eb8b",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-01/native-evidence/20261022T165553Z-8e68eb56/responses/009.json",
+      "public_sha256": "e5b28bcddc9191463cb6fce8f7d903e258ffc0bed226f350c8887d0ec5b9eb8b",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-01/native-evidence/20261022T165553Z-8e68eb56/screenshots/0004-screenshot.png",
+      "source_sha256": "43401138b1b2673dcd75542102b8e32a09110e11162d1e5b1282d5e5a6822d67",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-01/native-evidence/20261022T165553Z-8e68eb56/screenshots/0004-screenshot.png",
+      "public_sha256": "43401138b1b2673dcd75542102b8e32a09110e11162d1e5b1282d5e5a6822d67",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-01/native-evidence/20261022T165553Z-8e68eb56/screenshots/0007-screenshot.png",
+      "source_sha256": "9807b05737143d89669e10c36fc8c25b367ecbe216072118b60333ac1251319b",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-01/native-evidence/20261022T165553Z-8e68eb56/screenshots/0007-screenshot.png",
+      "public_sha256": "9807b05737143d89669e10c36fc8c25b367ecbe216072118b60333ac1251319b",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-01/native-evidence/20261022T165553Z-8e68eb56/screenshots/0010-screenshot.png",
+      "source_sha256": "40e322a0d42d82e42920d4108347200e5fab3aa71a8c3d198dc3a5bcf01f73e9",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-01/native-evidence/20261022T165553Z-8e68eb56/screenshots/0010-screenshot.png",
+      "public_sha256": "40e322a0d42d82e42920d4108347200e5fab3aa71a8c3d198dc3a5bcf01f73e9",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-01/native-evidence/20261022T165553Z-8e68eb56/screenshots/0013-screenshot.png",
+      "source_sha256": "69bead29c43d2e862ffa953bae342503c9fb6cd06632f295d02501f49465507b",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-01/native-evidence/20261022T165553Z-8e68eb56/screenshots/0013-screenshot.png",
+      "public_sha256": "69bead29c43d2e862ffa953bae342503c9fb6cd06632f295d02501f49465507b",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-01/native-evidence/20261022T165553Z-8e68eb56/screenshots/0016-screenshot.png",
+      "source_sha256": "1008c6646942f4f990d79732d8e94f25cac5f253c513f7821200b1b935bbd58f",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-01/native-evidence/20261022T165553Z-8e68eb56/screenshots/0016-screenshot.png",
+      "public_sha256": "1008c6646942f4f990d79732d8e94f25cac5f253c513f7821200b1b935bbd58f",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-01/native-evidence/20261022T165553Z-8e68eb56/screenshots/0020-zoom.png",
+      "source_sha256": "22a8dee2a1bc86ad9c4ca2629dc6aff19fa224b0f1debdac923dd90d3a1f51db",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-01/native-evidence/20261022T165553Z-8e68eb56/screenshots/0020-zoom.png",
+      "public_sha256": "22a8dee2a1bc86ad9c4ca2629dc6aff19fa224b0f1debdac923dd90d3a1f51db",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-01/native-evidence/20261022T165553Z-8e68eb56/screenshots/0023-screenshot.png",
+      "source_sha256": "29ea288560835a5ea825f021216ffa595ea955057e44ee657e82d89aefdfc31f",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-01/native-evidence/20261022T165553Z-8e68eb56/screenshots/0023-screenshot.png",
+      "public_sha256": "29ea288560835a5ea825f021216ffa595ea955057e44ee657e82d89aefdfc31f",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-01/native-evidence/20261022T165553Z-8e68eb56/screenshots/0024-zoom.png",
+      "source_sha256": "612ecdf874c5d7fd3df4d70d7e7d7b219aa7dea288e78df45cd2a33aaff52ce2",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-01/native-evidence/20261022T165553Z-8e68eb56/screenshots/0024-zoom.png",
+      "public_sha256": "612ecdf874c5d7fd3df4d70d7e7d7b219aa7dea288e78df45cd2a33aaff52ce2",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-01/native-evidence/20261022T165553Z-8e68eb56/screenshots/independent-final.png",
+      "source_sha256": "47afc42e9dfaac4bc470c50d2f0e241ce0bdbd336d143e63a4228a246f1ceb6d",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-01/native-evidence/20261022T165553Z-8e68eb56/screenshots/independent-final.png",
+      "public_sha256": "47afc42e9dfaac4bc470c50d2f0e241ce0bdbd336d143e63a4228a246f1ceb6d",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-01/native-evidence/20261022T165553Z-8e68eb56/summary.json",
+      "source_sha256": "9b97d06a69b371dad72cdab14d747b7de0be073c1c04705a4202a941a4ad6f6b",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-01/native-evidence/20261022T165553Z-8e68eb56/summary.json",
+      "public_sha256": "9b97d06a69b371dad72cdab14d747b7de0be073c1c04705a4202a941a4ad6f6b",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-01/native-evidence/20261022T165553Z-8e68eb56/task.json",
+      "source_sha256": "0a1c2088d0a0455c9903caa1c90ee8e068044eee26790c6c781f4a8385615704",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-01/native-evidence/20261022T165553Z-8e68eb56/task.json",
+      "public_sha256": "0a1c2088d0a0455c9903caa1c90ee8e068044eee26790c6c781f4a8385615704",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-01/native-evidence/results.csv",
+      "source_sha256": "30a70f701759c2d6b29d11bc4d3a7a1a01cf0b707d4f572080c177559508fef4",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-01/native-evidence/results.csv",
+      "public_sha256": "30a70f701759c2d6b29d11bc4d3a7a1a01cf0b707d4f572080c177559508fef4",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-01/original-response.txt",
+      "source_sha256": "23b61838dca119783f2f2aeeb49bc2122de79ab01ed8e52e1c7b62807d756b3f",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-01/original-response.txt",
+      "public_sha256": "23b61838dca119783f2f2aeeb49bc2122de79ab01ed8e52e1c7b62807d756b3f",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-01/run-record.json",
+      "source_sha256": "3ca8fa1d2365939e6e686f7f9cb0686cd0d9c60212b32a3d196b506d139639e4",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-01/run-record.json",
+      "public_sha256": "3ca8fa1d2365939e6e686f7f9cb0686cd0d9c60212b32a3d196b506d139639e4",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-01/server-verification.json",
+      "source_sha256": "f1f9612328715c32adc6b4e60351d7e673b28c1f828e4854fe3c2de6c6203910",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-01/server-verification.json",
+      "public_sha256": "c151e337e0fc4992ddc23ca8b4b7f28a573cc14feb99e22ca2c200cd8526c385",
+      "byte_identical": false,
+      "redaction_note": "Consistent session/profile pseudonyms, private host paths or control URLs only"
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-01/submitted-once.json",
+      "source_sha256": "6ae63e960873116f60ea6eb2319f121012e9984cd586c847c1cbda16f41ee6df",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-01/submitted-once.json",
+      "public_sha256": "6ae63e960873116f60ea6eb2319f121012e9984cd586c847c1cbda16f41ee6df",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-01/task-prompt.txt",
+      "source_sha256": "e5e5183208282631bec2e55919c892c1fd233376c6dca71d04c87636b307ea33",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-01/task-prompt.txt",
+      "public_sha256": "e5e5183208282631bec2e55919c892c1fd233376c6dca71d04c87636b307ea33",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-02/baseline-server-record.json",
+      "source_sha256": "304aa49cb900db797c98d367b00d791f1a5f850c1946f4bf9f375ae39f2edb71",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-02/baseline-server-record.json",
+      "public_sha256": "304aa49cb900db797c98d367b00d791f1a5f850c1946f4bf9f375ae39f2edb71",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-02/configuration.json",
+      "source_sha256": "08d1390b0527bbe4e0370dc4c8fd1cf5b31e3f4771ae61ec72ac70e09e81bdff",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-02/configuration.json",
+      "public_sha256": "08d1390b0527bbe4e0370dc4c8fd1cf5b31e3f4771ae61ec72ac70e09e81bdff",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-02/environment-reset.json",
+      "source_sha256": "bfad29c045d1a682606c946f8ceaec8d340367235c1cd2f1ff22a50d0e653f6d",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-02/environment-reset.json",
+      "public_sha256": "bfad29c045d1a682606c946f8ceaec8d340367235c1cd2f1ff22a50d0e653f6d",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-02/full-wrapper-timing.json",
+      "source_sha256": "ded7ee6113b9a60468342b07a4e8b3507d0c1a2cb665eb83c7eb3046c4b8d116",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-02/full-wrapper-timing.json",
+      "public_sha256": "ded7ee6113b9a60468342b07a4e8b3507d0c1a2cb665eb83c7eb3046c4b8d116",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-02/independent-capture.json",
+      "source_sha256": "9f78d0bafa371badb615d35e435b660027a2d801774cbd81120906dff61570a0",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-02/independent-capture.json",
+      "public_sha256": "9f78d0bafa371badb615d35e435b660027a2d801774cbd81120906dff61570a0",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-02/native-evidence/20261022T165653Z-649d81cc/configuration.json",
+      "source_sha256": "6b054c1716e37fef95a50cd13edc40a768e6924503a31932648a425ab469da6c",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-02/native-evidence/20261022T165653Z-649d81cc/configuration.json",
+      "public_sha256": "6b054c1716e37fef95a50cd13edc40a768e6924503a31932648a425ab469da6c",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-02/native-evidence/20261022T165653Z-649d81cc/events.jsonl",
+      "source_sha256": "00a2bdd4b302e1f06c3d81dd50e39945cfc324552ec05a0dc59c37ea9450e8fb",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-02/native-evidence/20261022T165653Z-649d81cc/events.jsonl",
+      "public_sha256": "00a2bdd4b302e1f06c3d81dd50e39945cfc324552ec05a0dc59c37ea9450e8fb",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-02/native-evidence/20261022T165653Z-649d81cc/responses/001.json",
+      "source_sha256": "680a28bba8bfcaaf24610a060b7fe396f3cf6a079e94126f2346bc54c6b6367b",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-02/native-evidence/20261022T165653Z-649d81cc/responses/001.json",
+      "public_sha256": "680a28bba8bfcaaf24610a060b7fe396f3cf6a079e94126f2346bc54c6b6367b",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-02/native-evidence/20261022T165653Z-649d81cc/responses/002.json",
+      "source_sha256": "7d79b5578e03457384660bba740d6e221ac85ef78b18b36c4adcfae81f2449e8",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-02/native-evidence/20261022T165653Z-649d81cc/responses/002.json",
+      "public_sha256": "7d79b5578e03457384660bba740d6e221ac85ef78b18b36c4adcfae81f2449e8",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-02/native-evidence/20261022T165653Z-649d81cc/responses/003.json",
+      "source_sha256": "8f1bfd836cc7bba8fd5cfe001855b1ad9bd6b7f38a7d1ae122c3af6f539f237d",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-02/native-evidence/20261022T165653Z-649d81cc/responses/003.json",
+      "public_sha256": "8f1bfd836cc7bba8fd5cfe001855b1ad9bd6b7f38a7d1ae122c3af6f539f237d",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-02/native-evidence/20261022T165653Z-649d81cc/responses/004.json",
+      "source_sha256": "991e166502ea33dbd7de2af2355524ae1cc994ab3a56f67976095bc0bfa5daaf",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-02/native-evidence/20261022T165653Z-649d81cc/responses/004.json",
+      "public_sha256": "991e166502ea33dbd7de2af2355524ae1cc994ab3a56f67976095bc0bfa5daaf",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-02/native-evidence/20261022T165653Z-649d81cc/responses/005.json",
+      "source_sha256": "2c978287ba40dbd98805d0412bba4e1f4e8d67c08de53b3621f69dfd97fd0bc4",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-02/native-evidence/20261022T165653Z-649d81cc/responses/005.json",
+      "public_sha256": "2c978287ba40dbd98805d0412bba4e1f4e8d67c08de53b3621f69dfd97fd0bc4",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-02/native-evidence/20261022T165653Z-649d81cc/responses/006.json",
+      "source_sha256": "800fb93eb39f22ee9871ae795e5083f180a3f844b00b85424ba42684186964c9",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-02/native-evidence/20261022T165653Z-649d81cc/responses/006.json",
+      "public_sha256": "800fb93eb39f22ee9871ae795e5083f180a3f844b00b85424ba42684186964c9",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-02/native-evidence/20261022T165653Z-649d81cc/responses/007.json",
+      "source_sha256": "0dd39caf7abc725b54afeca78fcceedd22d6aad16ff516ad127c950d4ae3a9b7",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-02/native-evidence/20261022T165653Z-649d81cc/responses/007.json",
+      "public_sha256": "0dd39caf7abc725b54afeca78fcceedd22d6aad16ff516ad127c950d4ae3a9b7",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-02/native-evidence/20261022T165653Z-649d81cc/responses/008.json",
+      "source_sha256": "b841f55ef3b25ef3d145f6b69b29fdb7360820df4dd2f3306d3cb9d544d408a0",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-02/native-evidence/20261022T165653Z-649d81cc/responses/008.json",
+      "public_sha256": "b841f55ef3b25ef3d145f6b69b29fdb7360820df4dd2f3306d3cb9d544d408a0",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-02/native-evidence/20261022T165653Z-649d81cc/responses/009.json",
+      "source_sha256": "a4b25d86c22b496a672271d466fff04842a415ab6b027fcd4eea2ff42d7447a8",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-02/native-evidence/20261022T165653Z-649d81cc/responses/009.json",
+      "public_sha256": "a4b25d86c22b496a672271d466fff04842a415ab6b027fcd4eea2ff42d7447a8",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-02/native-evidence/20261022T165653Z-649d81cc/responses/010.json",
+      "source_sha256": "62400f107ac07d1c24529fc68f9136b1ef7d076c679e270c40e62160632588e5",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-02/native-evidence/20261022T165653Z-649d81cc/responses/010.json",
+      "public_sha256": "62400f107ac07d1c24529fc68f9136b1ef7d076c679e270c40e62160632588e5",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-02/native-evidence/20261022T165653Z-649d81cc/responses/011.json",
+      "source_sha256": "edbc94ca52940363ebd95efd5770bb6e4cf9c2e82999b157fe289262d0b69bd1",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-02/native-evidence/20261022T165653Z-649d81cc/responses/011.json",
+      "public_sha256": "edbc94ca52940363ebd95efd5770bb6e4cf9c2e82999b157fe289262d0b69bd1",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-02/native-evidence/20261022T165653Z-649d81cc/responses/012.json",
+      "source_sha256": "98b5377a5d488b091d2a63e180adbae3e99a0bc129efb62ef9bf1c036c8e8f5f",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-02/native-evidence/20261022T165653Z-649d81cc/responses/012.json",
+      "public_sha256": "98b5377a5d488b091d2a63e180adbae3e99a0bc129efb62ef9bf1c036c8e8f5f",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-02/native-evidence/20261022T165653Z-649d81cc/screenshots/0004-screenshot.png",
+      "source_sha256": "43401138b1b2673dcd75542102b8e32a09110e11162d1e5b1282d5e5a6822d67",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-02/native-evidence/20261022T165653Z-649d81cc/screenshots/0004-screenshot.png",
+      "public_sha256": "43401138b1b2673dcd75542102b8e32a09110e11162d1e5b1282d5e5a6822d67",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-02/native-evidence/20261022T165653Z-649d81cc/screenshots/0007-screenshot.png",
+      "source_sha256": "00b28088018272827db78d2a0fd6b913fac9567705a42333357e51bad964cd39",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-02/native-evidence/20261022T165653Z-649d81cc/screenshots/0007-screenshot.png",
+      "public_sha256": "00b28088018272827db78d2a0fd6b913fac9567705a42333357e51bad964cd39",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-02/native-evidence/20261022T165653Z-649d81cc/screenshots/0012-screenshot.png",
+      "source_sha256": "a03bfeb3366362082cf3cbc6ad5e665b3e2b482c8ce87bee1fba1195780b4247",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-02/native-evidence/20261022T165653Z-649d81cc/screenshots/0012-screenshot.png",
+      "public_sha256": "a03bfeb3366362082cf3cbc6ad5e665b3e2b482c8ce87bee1fba1195780b4247",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-02/native-evidence/20261022T165653Z-649d81cc/screenshots/0014-screenshot.png",
+      "source_sha256": "2672d05340151e371c667e803a5ff1c0b83e44a9b784bd6f075a7e792d302f52",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-02/native-evidence/20261022T165653Z-649d81cc/screenshots/0014-screenshot.png",
+      "public_sha256": "2672d05340151e371c667e803a5ff1c0b83e44a9b784bd6f075a7e792d302f52",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-02/native-evidence/20261022T165653Z-649d81cc/screenshots/0017-screenshot.png",
+      "source_sha256": "b5da10bb15656620c36779355b44891acf7a39ef0b5b9da8bc6f2f1153ef6253",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-02/native-evidence/20261022T165653Z-649d81cc/screenshots/0017-screenshot.png",
+      "public_sha256": "b5da10bb15656620c36779355b44891acf7a39ef0b5b9da8bc6f2f1153ef6253",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-02/native-evidence/20261022T165653Z-649d81cc/screenshots/0019-screenshot.png",
+      "source_sha256": "5ee7c05d6f011122fbce9f1e819b4d8ead636928f1f1d615e0ecf85fa3326881",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-02/native-evidence/20261022T165653Z-649d81cc/screenshots/0019-screenshot.png",
+      "public_sha256": "5ee7c05d6f011122fbce9f1e819b4d8ead636928f1f1d615e0ecf85fa3326881",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-02/native-evidence/20261022T165653Z-649d81cc/screenshots/0022-screenshot.png",
+      "source_sha256": "8ec2de892f6d40544347ea90711b402e517e80b4c238afc0f4109d2701810ea4",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-02/native-evidence/20261022T165653Z-649d81cc/screenshots/0022-screenshot.png",
+      "public_sha256": "8ec2de892f6d40544347ea90711b402e517e80b4c238afc0f4109d2701810ea4",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-02/native-evidence/20261022T165653Z-649d81cc/screenshots/0026-screenshot.png",
+      "source_sha256": "951d8ef4d994501ee437a94b4c1f81f69a46e8668677c2a27e20c84d26f17c25",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-02/native-evidence/20261022T165653Z-649d81cc/screenshots/0026-screenshot.png",
+      "public_sha256": "951d8ef4d994501ee437a94b4c1f81f69a46e8668677c2a27e20c84d26f17c25",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-02/native-evidence/20261022T165653Z-649d81cc/screenshots/0029-screenshot.png",
+      "source_sha256": "78939df80dc093c6813ac40c3dad539245015d1caa6ce19451bb22c7645aa248",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-02/native-evidence/20261022T165653Z-649d81cc/screenshots/0029-screenshot.png",
+      "public_sha256": "78939df80dc093c6813ac40c3dad539245015d1caa6ce19451bb22c7645aa248",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-02/native-evidence/20261022T165653Z-649d81cc/screenshots/0032-screenshot.png",
+      "source_sha256": "92f28d55ed8c016d18a07285465a798a6eba7268400e32c66b7c8fdb71b7c96a",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-02/native-evidence/20261022T165653Z-649d81cc/screenshots/0032-screenshot.png",
+      "public_sha256": "92f28d55ed8c016d18a07285465a798a6eba7268400e32c66b7c8fdb71b7c96a",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-02/native-evidence/20261022T165653Z-649d81cc/screenshots/0033-zoom.png",
+      "source_sha256": "6a98bb42418972abdf39f79461b2b6b6e87f09e4c5beed33facf247685367c98",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-02/native-evidence/20261022T165653Z-649d81cc/screenshots/0033-zoom.png",
+      "public_sha256": "6a98bb42418972abdf39f79461b2b6b6e87f09e4c5beed33facf247685367c98",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-02/native-evidence/20261022T165653Z-649d81cc/screenshots/independent-final.png",
+      "source_sha256": "92f28d55ed8c016d18a07285465a798a6eba7268400e32c66b7c8fdb71b7c96a",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-02/native-evidence/20261022T165653Z-649d81cc/screenshots/independent-final.png",
+      "public_sha256": "92f28d55ed8c016d18a07285465a798a6eba7268400e32c66b7c8fdb71b7c96a",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-02/native-evidence/20261022T165653Z-649d81cc/summary.json",
+      "source_sha256": "d321111d6d19c0280dc9b1aa76bbdcb4e5cadf0185dd36b5e2f6b4d43fef335d",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-02/native-evidence/20261022T165653Z-649d81cc/summary.json",
+      "public_sha256": "d321111d6d19c0280dc9b1aa76bbdcb4e5cadf0185dd36b5e2f6b4d43fef335d",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-02/native-evidence/20261022T165653Z-649d81cc/task.json",
+      "source_sha256": "7fa80727f0d740a36b91f724c4604935e95bd0ff2e77cd5bccb8447c4de3c50c",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-02/native-evidence/20261022T165653Z-649d81cc/task.json",
+      "public_sha256": "7fa80727f0d740a36b91f724c4604935e95bd0ff2e77cd5bccb8447c4de3c50c",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-02/native-evidence/results.csv",
+      "source_sha256": "0cb4c45485d913741d2e1f134170ca92785a93ea1d83770ff1f0fbc791be3d61",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-02/native-evidence/results.csv",
+      "public_sha256": "0cb4c45485d913741d2e1f134170ca92785a93ea1d83770ff1f0fbc791be3d61",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-02/original-response.txt",
+      "source_sha256": "f302d34e9239cf4778d24682c199d0fcedaa90ded0e700512efaea4940500b72",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-02/original-response.txt",
+      "public_sha256": "f302d34e9239cf4778d24682c199d0fcedaa90ded0e700512efaea4940500b72",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-02/run-record.json",
+      "source_sha256": "3e3fb60dcd2ef5da2edfac0cc1789769b099c749b96aa798788a67d9ed327c74",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-02/run-record.json",
+      "public_sha256": "3e3fb60dcd2ef5da2edfac0cc1789769b099c749b96aa798788a67d9ed327c74",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-02/server-verification.json",
+      "source_sha256": "1c76a82ca93aa917aa2f16179f54729f4edbf9e9fed850523814df0d31518077",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-02/server-verification.json",
+      "public_sha256": "93001a09c5a59428d169dc94e1894d0f2bd12301de4f779f493d80763bb0182f",
+      "byte_identical": false,
+      "redaction_note": "Consistent session/profile pseudonyms, private host paths or control URLs only"
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-02/submitted-once.json",
+      "source_sha256": "c46dc7c849a18561c56d486b1ac9b1c33819b97a8749931907a7940c16e5edd6",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-02/submitted-once.json",
+      "public_sha256": "c46dc7c849a18561c56d486b1ac9b1c33819b97a8749931907a7940c16e5edd6",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-02/task-prompt.txt",
+      "source_sha256": "fe96941c11dfe27e013bd7f95b2323649cdcc113538652b5892bf38e28841906",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-02/task-prompt.txt",
+      "public_sha256": "fe96941c11dfe27e013bd7f95b2323649cdcc113538652b5892bf38e28841906",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-03/baseline-server-record.json",
+      "source_sha256": "6a600c8ff6423da39dc391eb65990b1db911e7b3b41f843e0d9e9ec8747f7dbd",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-03/baseline-server-record.json",
+      "public_sha256": "6a600c8ff6423da39dc391eb65990b1db911e7b3b41f843e0d9e9ec8747f7dbd",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-03/configuration.json",
+      "source_sha256": "07572fdc7e0db6906da365d886d92d076d6a778a95906db54dc0281e856a8d46",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-03/configuration.json",
+      "public_sha256": "07572fdc7e0db6906da365d886d92d076d6a778a95906db54dc0281e856a8d46",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-03/environment-reset.json",
+      "source_sha256": "46da309591c096fb2b7bba82ca9c73b6eb828c0a948631d49155eee744119242",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-03/environment-reset.json",
+      "public_sha256": "46da309591c096fb2b7bba82ca9c73b6eb828c0a948631d49155eee744119242",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-03/full-wrapper-timing.json",
+      "source_sha256": "5d6e2806e1edf23d4ff00f5428e518587566b7db41f2c6f1201ae2b0f65ebece",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-03/full-wrapper-timing.json",
+      "public_sha256": "5d6e2806e1edf23d4ff00f5428e518587566b7db41f2c6f1201ae2b0f65ebece",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-03/independent-capture.json",
+      "source_sha256": "f89ab7f7d0a9c8caf75d65bc237405f6d34128f517420088c9b527c5fc069df2",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-03/independent-capture.json",
+      "public_sha256": "f89ab7f7d0a9c8caf75d65bc237405f6d34128f517420088c9b527c5fc069df2",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-03/native-evidence/20261022T170620Z-5f4eadb1/configuration.json",
+      "source_sha256": "6b054c1716e37fef95a50cd13edc40a768e6924503a31932648a425ab469da6c",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-03/native-evidence/20261022T170620Z-5f4eadb1/configuration.json",
+      "public_sha256": "6b054c1716e37fef95a50cd13edc40a768e6924503a31932648a425ab469da6c",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-03/native-evidence/20261022T170620Z-5f4eadb1/events.jsonl",
+      "source_sha256": "73456876aae3d0e32fb7350998ec5d3f02e30ffe98ca2cc7a15c0448c7f52b81",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-03/native-evidence/20261022T170620Z-5f4eadb1/events.jsonl",
+      "public_sha256": "73456876aae3d0e32fb7350998ec5d3f02e30ffe98ca2cc7a15c0448c7f52b81",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-03/native-evidence/20261022T170620Z-5f4eadb1/responses/001.json",
+      "source_sha256": "b298b18d6d766728f3df0128b96b7b54b49880b5244f6a9ae0c6cae11315b95f",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-03/native-evidence/20261022T170620Z-5f4eadb1/responses/001.json",
+      "public_sha256": "b298b18d6d766728f3df0128b96b7b54b49880b5244f6a9ae0c6cae11315b95f",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-03/native-evidence/20261022T170620Z-5f4eadb1/responses/002.json",
+      "source_sha256": "dce00b20c7932b8914c1abc16b4cd6e535c91ffef4ba2925f6e17844a2b8153e",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-03/native-evidence/20261022T170620Z-5f4eadb1/responses/002.json",
+      "public_sha256": "dce00b20c7932b8914c1abc16b4cd6e535c91ffef4ba2925f6e17844a2b8153e",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-03/native-evidence/20261022T170620Z-5f4eadb1/responses/003.json",
+      "source_sha256": "cedb42c825c4238383d09a9b77861562bf1818f29370f8a63c1df1007291308f",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-03/native-evidence/20261022T170620Z-5f4eadb1/responses/003.json",
+      "public_sha256": "cedb42c825c4238383d09a9b77861562bf1818f29370f8a63c1df1007291308f",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-03/native-evidence/20261022T170620Z-5f4eadb1/responses/004.json",
+      "source_sha256": "16265f68b885012f79be823bd4cb0844627f57fd29d94333bdfb6e3a95307f74",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-03/native-evidence/20261022T170620Z-5f4eadb1/responses/004.json",
+      "public_sha256": "16265f68b885012f79be823bd4cb0844627f57fd29d94333bdfb6e3a95307f74",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-03/native-evidence/20261022T170620Z-5f4eadb1/responses/005.json",
+      "source_sha256": "fb36d3a19d0c63fbfa3aded0bfb8c01ca23c872462e541134342b9c706e4204a",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-03/native-evidence/20261022T170620Z-5f4eadb1/responses/005.json",
+      "public_sha256": "fb36d3a19d0c63fbfa3aded0bfb8c01ca23c872462e541134342b9c706e4204a",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-03/native-evidence/20261022T170620Z-5f4eadb1/responses/006.json",
+      "source_sha256": "de9ecbf83356da1c01f2b8ee985f031cb3759628661e48b0cd82a5d98cc4fc34",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-03/native-evidence/20261022T170620Z-5f4eadb1/responses/006.json",
+      "public_sha256": "de9ecbf83356da1c01f2b8ee985f031cb3759628661e48b0cd82a5d98cc4fc34",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-03/native-evidence/20261022T170620Z-5f4eadb1/responses/007.json",
+      "source_sha256": "c1cba6694dde5b997e694e284e7a7b691fd91eaecf708ba58cb4f7be13c6b2dd",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-03/native-evidence/20261022T170620Z-5f4eadb1/responses/007.json",
+      "public_sha256": "c1cba6694dde5b997e694e284e7a7b691fd91eaecf708ba58cb4f7be13c6b2dd",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-03/native-evidence/20261022T170620Z-5f4eadb1/responses/008.json",
+      "source_sha256": "18a242ffe39284aafc8fc455ef0e51eab117e07f355d9d61209f6bb030131408",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-03/native-evidence/20261022T170620Z-5f4eadb1/responses/008.json",
+      "public_sha256": "18a242ffe39284aafc8fc455ef0e51eab117e07f355d9d61209f6bb030131408",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-03/native-evidence/20261022T170620Z-5f4eadb1/responses/009.json",
+      "source_sha256": "006971f78830a5b5840ea7ee32dcd02d6ccdca89ef29526f79641361cb1f474f",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-03/native-evidence/20261022T170620Z-5f4eadb1/responses/009.json",
+      "public_sha256": "006971f78830a5b5840ea7ee32dcd02d6ccdca89ef29526f79641361cb1f474f",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-03/native-evidence/20261022T170620Z-5f4eadb1/responses/010.json",
+      "source_sha256": "92666a4ac45d683d80eac0306f76a15ce132f2d9c79362820855ba994d989296",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-03/native-evidence/20261022T170620Z-5f4eadb1/responses/010.json",
+      "public_sha256": "92666a4ac45d683d80eac0306f76a15ce132f2d9c79362820855ba994d989296",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-03/native-evidence/20261022T170620Z-5f4eadb1/responses/011.json",
+      "source_sha256": "880ec522dba523b2bab7caa5431f99ec58816223007384a90c6607a2bd13aa1b",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-03/native-evidence/20261022T170620Z-5f4eadb1/responses/011.json",
+      "public_sha256": "880ec522dba523b2bab7caa5431f99ec58816223007384a90c6607a2bd13aa1b",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-03/native-evidence/20261022T170620Z-5f4eadb1/screenshots/0004-screenshot.png",
+      "source_sha256": "43401138b1b2673dcd75542102b8e32a09110e11162d1e5b1282d5e5a6822d67",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-03/native-evidence/20261022T170620Z-5f4eadb1/screenshots/0004-screenshot.png",
+      "public_sha256": "43401138b1b2673dcd75542102b8e32a09110e11162d1e5b1282d5e5a6822d67",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-03/native-evidence/20261022T170620Z-5f4eadb1/screenshots/0007-screenshot.png",
+      "source_sha256": "00b28088018272827db78d2a0fd6b913fac9567705a42333357e51bad964cd39",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-03/native-evidence/20261022T170620Z-5f4eadb1/screenshots/0007-screenshot.png",
+      "public_sha256": "00b28088018272827db78d2a0fd6b913fac9567705a42333357e51bad964cd39",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-03/native-evidence/20261022T170620Z-5f4eadb1/screenshots/0012-screenshot.png",
+      "source_sha256": "a03bfeb3366362082cf3cbc6ad5e665b3e2b482c8ce87bee1fba1195780b4247",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-03/native-evidence/20261022T170620Z-5f4eadb1/screenshots/0012-screenshot.png",
+      "public_sha256": "a03bfeb3366362082cf3cbc6ad5e665b3e2b482c8ce87bee1fba1195780b4247",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-03/native-evidence/20261022T170620Z-5f4eadb1/screenshots/0014-screenshot.png",
+      "source_sha256": "cdc4933e896636c8093bf96c650ae691693b8d86ebecdcf62774ab7c15d67ab9",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-03/native-evidence/20261022T170620Z-5f4eadb1/screenshots/0014-screenshot.png",
+      "public_sha256": "cdc4933e896636c8093bf96c650ae691693b8d86ebecdcf62774ab7c15d67ab9",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-03/native-evidence/20261022T170620Z-5f4eadb1/screenshots/0017-screenshot.png",
+      "source_sha256": "0fc6a9d565ea9d8d15a7005375e889fe3d153a4b5e13d3521b2747595e369478",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-03/native-evidence/20261022T170620Z-5f4eadb1/screenshots/0017-screenshot.png",
+      "public_sha256": "0fc6a9d565ea9d8d15a7005375e889fe3d153a4b5e13d3521b2747595e369478",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-03/native-evidence/20261022T170620Z-5f4eadb1/screenshots/0019-screenshot.png",
+      "source_sha256": "41acf843cf4c06e77c3c95e80cd5612d231d4db965f977e3d66d992603499c9a",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-03/native-evidence/20261022T170620Z-5f4eadb1/screenshots/0019-screenshot.png",
+      "public_sha256": "41acf843cf4c06e77c3c95e80cd5612d231d4db965f977e3d66d992603499c9a",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-03/native-evidence/20261022T170620Z-5f4eadb1/screenshots/0022-screenshot.png",
+      "source_sha256": "9ac55ed80015291a9c5dcfa379b6d77b35a490425bca5aa8ac00b910affb0092",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-03/native-evidence/20261022T170620Z-5f4eadb1/screenshots/0022-screenshot.png",
+      "public_sha256": "9ac55ed80015291a9c5dcfa379b6d77b35a490425bca5aa8ac00b910affb0092",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-03/native-evidence/20261022T170620Z-5f4eadb1/screenshots/0026-screenshot.png",
+      "source_sha256": "bfb5f813b3e9512a8fb7ac676cf107cc859eb0577dddc0e2adbcd3b9d9d23e52",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-03/native-evidence/20261022T170620Z-5f4eadb1/screenshots/0026-screenshot.png",
+      "public_sha256": "bfb5f813b3e9512a8fb7ac676cf107cc859eb0577dddc0e2adbcd3b9d9d23e52",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-03/native-evidence/20261022T170620Z-5f4eadb1/screenshots/0029-screenshot.png",
+      "source_sha256": "0a70fc1ee4b32c89020e8a44668f934ca78f48e4c28fc698b1757324ecd58d40",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-03/native-evidence/20261022T170620Z-5f4eadb1/screenshots/0029-screenshot.png",
+      "public_sha256": "0a70fc1ee4b32c89020e8a44668f934ca78f48e4c28fc698b1757324ecd58d40",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-03/native-evidence/20261022T170620Z-5f4eadb1/screenshots/0030-zoom.png",
+      "source_sha256": "4d6455a0acac02a39c3b74b93f6652eba9f38055d5553862a1dfe032091b3c96",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-03/native-evidence/20261022T170620Z-5f4eadb1/screenshots/0030-zoom.png",
+      "public_sha256": "4d6455a0acac02a39c3b74b93f6652eba9f38055d5553862a1dfe032091b3c96",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-03/native-evidence/20261022T170620Z-5f4eadb1/screenshots/independent-final.png",
+      "source_sha256": "45efcc138734cadbad35ce7b829d2ddfa33f349dac710cf383199a2e98e49f83",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-03/native-evidence/20261022T170620Z-5f4eadb1/screenshots/independent-final.png",
+      "public_sha256": "45efcc138734cadbad35ce7b829d2ddfa33f349dac710cf383199a2e98e49f83",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-03/native-evidence/20261022T170620Z-5f4eadb1/summary.json",
+      "source_sha256": "3722fa95c2c616256d9cfe428f47200359e25ea8650cac859f55886ec73d618e",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-03/native-evidence/20261022T170620Z-5f4eadb1/summary.json",
+      "public_sha256": "3722fa95c2c616256d9cfe428f47200359e25ea8650cac859f55886ec73d618e",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-03/native-evidence/20261022T170620Z-5f4eadb1/task.json",
+      "source_sha256": "1e50f7298e7ab6deadbbe8daf70263f3a98f6833f4e6148108abb26beb2742c0",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-03/native-evidence/20261022T170620Z-5f4eadb1/task.json",
+      "public_sha256": "1e50f7298e7ab6deadbbe8daf70263f3a98f6833f4e6148108abb26beb2742c0",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-03/native-evidence/results.csv",
+      "source_sha256": "140e0c9a93c56babe9af11ef96d856e5b9f34e6dba1077f66a50f682953332b9",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-03/native-evidence/results.csv",
+      "public_sha256": "140e0c9a93c56babe9af11ef96d856e5b9f34e6dba1077f66a50f682953332b9",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-03/original-response.txt",
+      "source_sha256": "2588e3d863b2164aa72e5ec7ae4c2f2a55a5d55c2b0a37e73721f8119f31dfb3",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-03/original-response.txt",
+      "public_sha256": "2588e3d863b2164aa72e5ec7ae4c2f2a55a5d55c2b0a37e73721f8119f31dfb3",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-03/run-record.json",
+      "source_sha256": "d0f003b50d19e9dfd52e2c65bebfdcaee7875ef0537588548216042891ad0f84",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-03/run-record.json",
+      "public_sha256": "d0f003b50d19e9dfd52e2c65bebfdcaee7875ef0537588548216042891ad0f84",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-03/server-verification.json",
+      "source_sha256": "fc10839ef2550057819914972814568f03f23112c5671df0afea51a464875792",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-03/server-verification.json",
+      "public_sha256": "4da7c43b87d22ae82a4699b43033053a6425e62a70f15c8b6da968cad9c38e9b",
+      "byte_identical": false,
+      "redaction_note": "Consistent session/profile pseudonyms, private host paths or control URLs only"
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-03/submitted-once.json",
+      "source_sha256": "3b4c09db03d968733ac72a9b4d30c93d2fa25ff2942619e725dfcfb041bcf1ed",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-03/submitted-once.json",
+      "public_sha256": "3b4c09db03d968733ac72a9b4d30c93d2fa25ff2942619e725dfcfb041bcf1ed",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/claude/attempt-03/task-prompt.txt",
+      "source_sha256": "1970d7ffc646d7e9d4d989c1612858cf8f8b632feda290b56c35f9389bb41d6e",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-03/task-prompt.txt",
+      "public_sha256": "1970d7ffc646d7e9d4d989c1612858cf8f8b632feda290b56c35f9389bb41d6e",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-01/activity-summary.json",
+      "source_sha256": "e91636b157cb07e09d945711ddc65b3627920d5237847dc3a78efa70e00cac3b",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-01/activity-summary.json",
+      "public_sha256": "e91636b157cb07e09d945711ddc65b3627920d5237847dc3a78efa70e00cac3b",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-01/actual-submission-payload.json",
+      "source_sha256": "dfc85b05426ee58774a46cd8a9f3072773390c6b52fa5c5b9e2157cf3a37c8d1",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-01/actual-submission-payload.json",
+      "public_sha256": "643d6b20fe5e63ddbd19a345fe1d6092af2a3f1f5b2949164b2cd55fe1a34c12",
+      "byte_identical": false,
+      "redaction_note": "Consistent session/profile pseudonyms, private host paths or control URLs only"
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-01/baseline-server-record.json",
+      "source_sha256": "6d983ca3975ef810c570fa8688ffa78f1da32e5cff74e269e38ba53c9102f46d",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-01/baseline-server-record.json",
+      "public_sha256": "6d983ca3975ef810c570fa8688ffa78f1da32e5cff74e269e38ba53c9102f46d",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-01/budget-cancel.json",
+      "source_sha256": "345a1cf4e7a83f7111c3af98ca01b5ee79f9705dd847bf6628859bea5ec63480",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-01/budget-cancel.json",
+      "public_sha256": "345a1cf4e7a83f7111c3af98ca01b5ee79f9705dd847bf6628859bea5ec63480",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-01/configuration.json",
+      "source_sha256": "8a588883a5f611b26fdafd216a0c0b01e35d14be01860b0d85c45ffbc00e8986",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-01/configuration.json",
+      "public_sha256": "8a588883a5f611b26fdafd216a0c0b01e35d14be01860b0d85c45ffbc00e8986",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-01/full-wrapper-timing.json",
+      "source_sha256": "3acc0cf14f327f5de7dc4e1bda1bd238ecd7f73dfd3b76800e13e880d36556bf",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-01/full-wrapper-timing.json",
+      "public_sha256": "3acc0cf14f327f5de7dc4e1bda1bd238ecd7f73dfd3b76800e13e880d36556bf",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-01/original-response.txt",
+      "source_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-01/original-response.txt",
+      "public_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-01/polls.json",
+      "source_sha256": "dff3277ff3f0193e1863ae903b6c08c9b93bffdf95c1cbfc640172b174761940",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-01/polls.json",
+      "public_sha256": "dff3277ff3f0193e1863ae903b6c08c9b93bffdf95c1cbfc640172b174761940",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-01/provider-run.json",
+      "source_sha256": "f5aa5b72f512bbb6f5f15f40de22ef2989ccd92ee26ddc626490af996c11c978",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-01/provider-run.json",
+      "public_sha256": "c0a32b4f9dc0192c17ffa1d5b91d9fd545fffbc312dfafde5cc30061c73a9cd0",
+      "byte_identical": false,
+      "redaction_note": "Consistent session/profile pseudonyms, private host paths or control URLs only"
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-01/run-record.json",
+      "source_sha256": "5073ce019bc0046976b85980343136f8f9a1115c8ca7f48ffd19f06609dd6e35",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-01/run-record.json",
+      "public_sha256": "9f96f08320348bb3e83f2e22f71cb7801d9564865719f9932954f7a7abba51ed",
+      "byte_identical": false,
+      "redaction_note": "Consistent session/profile pseudonyms, private host paths or control URLs only"
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-01/screenshots/screenshot-000.jpg",
+      "source_sha256": "98c81c37882c3950606329b5579dd5dfe3382c443d4ba359187658f04f34cc47",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-01/screenshots/screenshot-000.jpg",
+      "public_sha256": "98c81c37882c3950606329b5579dd5dfe3382c443d4ba359187658f04f34cc47",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-01/screenshots/screenshot-001.jpg",
+      "source_sha256": "8c0a538b7614ebd65783d7a3e2bd328e64c88483833ce94509c192484ea82ffc",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-01/screenshots/screenshot-001.jpg",
+      "public_sha256": "8c0a538b7614ebd65783d7a3e2bd328e64c88483833ce94509c192484ea82ffc",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-01/screenshots/screenshot-002.jpg",
+      "source_sha256": "c0b5965aaef78d75c160e494f582b07168a70630715cf9cd59a141177fd5f2c4",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-01/screenshots/screenshot-002.jpg",
+      "public_sha256": "c0b5965aaef78d75c160e494f582b07168a70630715cf9cd59a141177fd5f2c4",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-01/screenshots/screenshot-003.jpg",
+      "source_sha256": "167d8c2992f71960e1d099fd708ba35de4f8f24873aa3613fa0a94ff080b70a6",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-01/screenshots/screenshot-003.jpg",
+      "public_sha256": "167d8c2992f71960e1d099fd708ba35de4f8f24873aa3613fa0a94ff080b70a6",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-01/screenshots/screenshot-004.jpg",
+      "source_sha256": "167d8c2992f71960e1d099fd708ba35de4f8f24873aa3613fa0a94ff080b70a6",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-01/screenshots/screenshot-004.jpg",
+      "public_sha256": "167d8c2992f71960e1d099fd708ba35de4f8f24873aa3613fa0a94ff080b70a6",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-01/screenshots/screenshot-005.jpg",
+      "source_sha256": "167d8c2992f71960e1d099fd708ba35de4f8f24873aa3613fa0a94ff080b70a6",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-01/screenshots/screenshot-005.jpg",
+      "public_sha256": "167d8c2992f71960e1d099fd708ba35de4f8f24873aa3613fa0a94ff080b70a6",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-01/screenshots/screenshot-006.jpg",
+      "source_sha256": "167d8c2992f71960e1d099fd708ba35de4f8f24873aa3613fa0a94ff080b70a6",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-01/screenshots/screenshot-006.jpg",
+      "public_sha256": "167d8c2992f71960e1d099fd708ba35de4f8f24873aa3613fa0a94ff080b70a6",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-01/screenshots/screenshot-007.jpg",
+      "source_sha256": "c0b5965aaef78d75c160e494f582b07168a70630715cf9cd59a141177fd5f2c4",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-01/screenshots/screenshot-007.jpg",
+      "public_sha256": "c0b5965aaef78d75c160e494f582b07168a70630715cf9cd59a141177fd5f2c4",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-01/screenshots/screenshot-008.jpg",
+      "source_sha256": "c0b5965aaef78d75c160e494f582b07168a70630715cf9cd59a141177fd5f2c4",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-01/screenshots/screenshot-008.jpg",
+      "public_sha256": "c0b5965aaef78d75c160e494f582b07168a70630715cf9cd59a141177fd5f2c4",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-01/screenshots/screenshot-009.jpg",
+      "source_sha256": "c0b5965aaef78d75c160e494f582b07168a70630715cf9cd59a141177fd5f2c4",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-01/screenshots/screenshot-009.jpg",
+      "public_sha256": "c0b5965aaef78d75c160e494f582b07168a70630715cf9cd59a141177fd5f2c4",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-01/screenshots/screenshot-010.jpg",
+      "source_sha256": "c0b5965aaef78d75c160e494f582b07168a70630715cf9cd59a141177fd5f2c4",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-01/screenshots/screenshot-010.jpg",
+      "public_sha256": "c0b5965aaef78d75c160e494f582b07168a70630715cf9cd59a141177fd5f2c4",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-01/screenshots/screenshot-011.jpg",
+      "source_sha256": "c0b5965aaef78d75c160e494f582b07168a70630715cf9cd59a141177fd5f2c4",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-01/screenshots/screenshot-011.jpg",
+      "public_sha256": "c0b5965aaef78d75c160e494f582b07168a70630715cf9cd59a141177fd5f2c4",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-01/screenshots/screenshot-012.jpg",
+      "source_sha256": "c0b5965aaef78d75c160e494f582b07168a70630715cf9cd59a141177fd5f2c4",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-01/screenshots/screenshot-012.jpg",
+      "public_sha256": "c0b5965aaef78d75c160e494f582b07168a70630715cf9cd59a141177fd5f2c4",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-01/screenshots/screenshot-013.jpg",
+      "source_sha256": "c0b5965aaef78d75c160e494f582b07168a70630715cf9cd59a141177fd5f2c4",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-01/screenshots/screenshot-013.jpg",
+      "public_sha256": "c0b5965aaef78d75c160e494f582b07168a70630715cf9cd59a141177fd5f2c4",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-01/screenshots/screenshot-014.jpg",
+      "source_sha256": "c0b5965aaef78d75c160e494f582b07168a70630715cf9cd59a141177fd5f2c4",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-01/screenshots/screenshot-014.jpg",
+      "public_sha256": "c0b5965aaef78d75c160e494f582b07168a70630715cf9cd59a141177fd5f2c4",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-01/screenshots/screenshot-015.jpg",
+      "source_sha256": "c0b5965aaef78d75c160e494f582b07168a70630715cf9cd59a141177fd5f2c4",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-01/screenshots/screenshot-015.jpg",
+      "public_sha256": "c0b5965aaef78d75c160e494f582b07168a70630715cf9cd59a141177fd5f2c4",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-01/screenshots/screenshot-016.jpg",
+      "source_sha256": "c0b5965aaef78d75c160e494f582b07168a70630715cf9cd59a141177fd5f2c4",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-01/screenshots/screenshot-016.jpg",
+      "public_sha256": "c0b5965aaef78d75c160e494f582b07168a70630715cf9cd59a141177fd5f2c4",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-01/screenshots/screenshot-017.jpg",
+      "source_sha256": "c0b5965aaef78d75c160e494f582b07168a70630715cf9cd59a141177fd5f2c4",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-01/screenshots/screenshot-017.jpg",
+      "public_sha256": "c0b5965aaef78d75c160e494f582b07168a70630715cf9cd59a141177fd5f2c4",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-01/screenshots/screenshot-018.jpg",
+      "source_sha256": "c0b5965aaef78d75c160e494f582b07168a70630715cf9cd59a141177fd5f2c4",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-01/screenshots/screenshot-018.jpg",
+      "public_sha256": "c0b5965aaef78d75c160e494f582b07168a70630715cf9cd59a141177fd5f2c4",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-01/screenshots/screenshot-019.jpg",
+      "source_sha256": "c0b5965aaef78d75c160e494f582b07168a70630715cf9cd59a141177fd5f2c4",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-01/screenshots/screenshot-019.jpg",
+      "public_sha256": "c0b5965aaef78d75c160e494f582b07168a70630715cf9cd59a141177fd5f2c4",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-01/screenshots/screenshot-020.jpg",
+      "source_sha256": "c0b5965aaef78d75c160e494f582b07168a70630715cf9cd59a141177fd5f2c4",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-01/screenshots/screenshot-020.jpg",
+      "public_sha256": "c0b5965aaef78d75c160e494f582b07168a70630715cf9cd59a141177fd5f2c4",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-01/screenshots/screenshot-021.jpg",
+      "source_sha256": "c0b5965aaef78d75c160e494f582b07168a70630715cf9cd59a141177fd5f2c4",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-01/screenshots/screenshot-021.jpg",
+      "public_sha256": "c0b5965aaef78d75c160e494f582b07168a70630715cf9cd59a141177fd5f2c4",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-01/screenshots/screenshot-022.jpg",
+      "source_sha256": "c0b5965aaef78d75c160e494f582b07168a70630715cf9cd59a141177fd5f2c4",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-01/screenshots/screenshot-022.jpg",
+      "public_sha256": "c0b5965aaef78d75c160e494f582b07168a70630715cf9cd59a141177fd5f2c4",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-01/screenshots/screenshot-023.jpg",
+      "source_sha256": "c0b5965aaef78d75c160e494f582b07168a70630715cf9cd59a141177fd5f2c4",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-01/screenshots/screenshot-023.jpg",
+      "public_sha256": "c0b5965aaef78d75c160e494f582b07168a70630715cf9cd59a141177fd5f2c4",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-01/screenshots/screenshot-024.jpg",
+      "source_sha256": "cacfe474268b66b820b1f46ff4952f14f8155744144bd789a2e19eac4c3d49f6",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-01/screenshots/screenshot-024.jpg",
+      "public_sha256": "cacfe474268b66b820b1f46ff4952f14f8155744144bd789a2e19eac4c3d49f6",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-01/screenshots/screenshot-025.jpg",
+      "source_sha256": "aa30f988a51af9294121ac1ff0439d39ae5e52bd532cc781efa788068ebd4d5d",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-01/screenshots/screenshot-025.jpg",
+      "public_sha256": "aa30f988a51af9294121ac1ff0439d39ae5e52bd532cc781efa788068ebd4d5d",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-01/screenshots/screenshot-026.jpg",
+      "source_sha256": "f49c7a4dab819f2ee4f06f82fe1e6e839c3e4f12d107c5735745aa47be4a857c",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-01/screenshots/screenshot-026.jpg",
+      "public_sha256": "f49c7a4dab819f2ee4f06f82fe1e6e839c3e4f12d107c5735745aa47be4a857c",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-01/server-verification.json",
+      "source_sha256": "6ad7aba7c092e845116e491a591225eead92576d2cb060ae28f7a0029eae5ff7",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-01/server-verification.json",
+      "public_sha256": "0d0f13d34366bd2a1c422ceb3c4d9a71ebb4f6c12982399566c120a261c0a4c6",
+      "byte_identical": false,
+      "redaction_note": "Consistent session/profile pseudonyms, private host paths or control URLs only"
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-01/submission.json",
+      "source_sha256": "19aab3174174d05e92f9709d73860e22235c4ebcc8bac50ffa75bb19c53cd10c",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-01/submission.json",
+      "public_sha256": "19aab3174174d05e92f9709d73860e22235c4ebcc8bac50ffa75bb19c53cd10c",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-01/submitted-once.json",
+      "source_sha256": "57e364b856b6c315b8477b747905dff92789750a70a31d94b2a20444018463ae",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-01/submitted-once.json",
+      "public_sha256": "57e364b856b6c315b8477b747905dff92789750a70a31d94b2a20444018463ae",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-01/task-prompt.txt",
+      "source_sha256": "8e1f74ff833d04df46ec34ad5a52a12874cc9a05f245f2ca1b060d0993590612",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-01/task-prompt.txt",
+      "public_sha256": "8e1f74ff833d04df46ec34ad5a52a12874cc9a05f245f2ca1b060d0993590612",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-01/wallet-observation.json",
+      "source_sha256": "694e7be62c53e7b3e0432805fcc16c3bf0d5839785a27c5985c23a89dbb79f1e",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-01/wallet-observation.json",
+      "public_sha256": "694e7be62c53e7b3e0432805fcc16c3bf0d5839785a27c5985c23a89dbb79f1e",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-02/activity-summary.json",
+      "source_sha256": "9d467cc9b089271779042a903e5cf157fed0f2f9ffc3656b6651a6c115395275",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-02/activity-summary.json",
+      "public_sha256": "9d467cc9b089271779042a903e5cf157fed0f2f9ffc3656b6651a6c115395275",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-02/actual-submission-payload.json",
+      "source_sha256": "db60446135ded9260c7b33aaa163584056dd6bf606035cc7fa8e652add5a0f26",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-02/actual-submission-payload.json",
+      "public_sha256": "0a4983ac135d55f32662a200bd729cfece9eb92fab8a003819ca7d63619d7c7d",
+      "byte_identical": false,
+      "redaction_note": "Consistent session/profile pseudonyms, private host paths or control URLs only"
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-02/baseline-server-record.json",
+      "source_sha256": "3cecf16f1ea44b503375bd64fb97cac1a50f362a6b589a1a31476ac10172cbc8",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-02/baseline-server-record.json",
+      "public_sha256": "3cecf16f1ea44b503375bd64fb97cac1a50f362a6b589a1a31476ac10172cbc8",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-02/configuration.json",
+      "source_sha256": "3e89a025d20c6a7b77293061dae96778fac234969221f5a35f82d757cb8157b2",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-02/configuration.json",
+      "public_sha256": "3e89a025d20c6a7b77293061dae96778fac234969221f5a35f82d757cb8157b2",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-02/full-wrapper-timing.json",
+      "source_sha256": "9ef6fa5cfbd957d288f7585638acddd410e0684a802505f6cc6382283a548711",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-02/full-wrapper-timing.json",
+      "public_sha256": "9ef6fa5cfbd957d288f7585638acddd410e0684a802505f6cc6382283a548711",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-02/original-response.txt",
+      "source_sha256": "13687007d649e72f16c2134d110d0fa1e04eb6ff8ae6e95de4b342fac17c3ace",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-02/original-response.txt",
+      "public_sha256": "13687007d649e72f16c2134d110d0fa1e04eb6ff8ae6e95de4b342fac17c3ace",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-02/polls.json",
+      "source_sha256": "17988721ea2590ef50297e8f77f6ea1a40f0d600693b9ba985e0b8ea5594198a",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-02/polls.json",
+      "public_sha256": "17988721ea2590ef50297e8f77f6ea1a40f0d600693b9ba985e0b8ea5594198a",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-02/provider-run.json",
+      "source_sha256": "e95a9b528aeb2c3230e4ac29a3ad00151cd3018b4bfea9203c5760515cdd6dea",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-02/provider-run.json",
+      "public_sha256": "d9479c35ea81864929eaef0b8d1c9c99e3c388fc1f086c47bf3c00c1a3988df7",
+      "byte_identical": false,
+      "redaction_note": "Consistent session/profile pseudonyms, private host paths or control URLs only"
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-02/run-record.json",
+      "source_sha256": "be12542e0262e08b29d9afe9753aa2add80a0ee6f072b05f4e61a0a7382ce75e",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-02/run-record.json",
+      "public_sha256": "cee9cbb62b86eb3fc5d6f000eb7b9cf09e0ed20969cc88e4b0bede2f3f83961a",
+      "byte_identical": false,
+      "redaction_note": "Consistent session/profile pseudonyms, private host paths or control URLs only"
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-02/screenshots/screenshot-000.jpg",
+      "source_sha256": "f76cecb72304735d9798c7b9fd800452c0aba744d54d1c66ec5357dda19c64e3",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-02/screenshots/screenshot-000.jpg",
+      "public_sha256": "f76cecb72304735d9798c7b9fd800452c0aba744d54d1c66ec5357dda19c64e3",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-02/screenshots/screenshot-001.jpg",
+      "source_sha256": "7a29ae5c2b2b2d6f373b49ff92ac9b5b7d187105f900ea7a34de44cd2685c62a",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-02/screenshots/screenshot-001.jpg",
+      "public_sha256": "7a29ae5c2b2b2d6f373b49ff92ac9b5b7d187105f900ea7a34de44cd2685c62a",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-02/screenshots/screenshot-002.jpg",
+      "source_sha256": "7f484117e931931df75d2d462a89e9f6748c123ef0947d88a5f4ea38a7e53a92",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-02/screenshots/screenshot-002.jpg",
+      "public_sha256": "7f484117e931931df75d2d462a89e9f6748c123ef0947d88a5f4ea38a7e53a92",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-02/screenshots/screenshot-003.jpg",
+      "source_sha256": "bea52978e091f45497d966a34d3a5f7f80de62ba29dd168a2773dbb11bf66585",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-02/screenshots/screenshot-003.jpg",
+      "public_sha256": "bea52978e091f45497d966a34d3a5f7f80de62ba29dd168a2773dbb11bf66585",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-02/screenshots/screenshot-004.jpg",
+      "source_sha256": "bea52978e091f45497d966a34d3a5f7f80de62ba29dd168a2773dbb11bf66585",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-02/screenshots/screenshot-004.jpg",
+      "public_sha256": "bea52978e091f45497d966a34d3a5f7f80de62ba29dd168a2773dbb11bf66585",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-02/screenshots/screenshot-005.jpg",
+      "source_sha256": "bea52978e091f45497d966a34d3a5f7f80de62ba29dd168a2773dbb11bf66585",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-02/screenshots/screenshot-005.jpg",
+      "public_sha256": "bea52978e091f45497d966a34d3a5f7f80de62ba29dd168a2773dbb11bf66585",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-02/screenshots/screenshot-006.jpg",
+      "source_sha256": "c66800ca22aa1333960e2e837844367fd095a8f8d997443351517cb765ecbe7f",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-02/screenshots/screenshot-006.jpg",
+      "public_sha256": "c66800ca22aa1333960e2e837844367fd095a8f8d997443351517cb765ecbe7f",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-02/screenshots/screenshot-007.jpg",
+      "source_sha256": "c66800ca22aa1333960e2e837844367fd095a8f8d997443351517cb765ecbe7f",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-02/screenshots/screenshot-007.jpg",
+      "public_sha256": "c66800ca22aa1333960e2e837844367fd095a8f8d997443351517cb765ecbe7f",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-02/screenshots/screenshot-008.jpg",
+      "source_sha256": "c66800ca22aa1333960e2e837844367fd095a8f8d997443351517cb765ecbe7f",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-02/screenshots/screenshot-008.jpg",
+      "public_sha256": "c66800ca22aa1333960e2e837844367fd095a8f8d997443351517cb765ecbe7f",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-02/screenshots/screenshot-009.jpg",
+      "source_sha256": "c66800ca22aa1333960e2e837844367fd095a8f8d997443351517cb765ecbe7f",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-02/screenshots/screenshot-009.jpg",
+      "public_sha256": "c66800ca22aa1333960e2e837844367fd095a8f8d997443351517cb765ecbe7f",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-02/screenshots/screenshot-010.jpg",
+      "source_sha256": "c66800ca22aa1333960e2e837844367fd095a8f8d997443351517cb765ecbe7f",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-02/screenshots/screenshot-010.jpg",
+      "public_sha256": "c66800ca22aa1333960e2e837844367fd095a8f8d997443351517cb765ecbe7f",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-02/screenshots/screenshot-011.jpg",
+      "source_sha256": "c66800ca22aa1333960e2e837844367fd095a8f8d997443351517cb765ecbe7f",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-02/screenshots/screenshot-011.jpg",
+      "public_sha256": "c66800ca22aa1333960e2e837844367fd095a8f8d997443351517cb765ecbe7f",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-02/screenshots/screenshot-012.jpg",
+      "source_sha256": "c66800ca22aa1333960e2e837844367fd095a8f8d997443351517cb765ecbe7f",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-02/screenshots/screenshot-012.jpg",
+      "public_sha256": "c66800ca22aa1333960e2e837844367fd095a8f8d997443351517cb765ecbe7f",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-02/screenshots/screenshot-013.jpg",
+      "source_sha256": "c66800ca22aa1333960e2e837844367fd095a8f8d997443351517cb765ecbe7f",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-02/screenshots/screenshot-013.jpg",
+      "public_sha256": "c66800ca22aa1333960e2e837844367fd095a8f8d997443351517cb765ecbe7f",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-02/screenshots/screenshot-014.jpg",
+      "source_sha256": "c66800ca22aa1333960e2e837844367fd095a8f8d997443351517cb765ecbe7f",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-02/screenshots/screenshot-014.jpg",
+      "public_sha256": "c66800ca22aa1333960e2e837844367fd095a8f8d997443351517cb765ecbe7f",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-02/screenshots/screenshot-015.jpg",
+      "source_sha256": "c8dbee24abce7f9f570f59a6f6f7a39d3541b69628de1a5fb8cb53efcde1d931",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-02/screenshots/screenshot-015.jpg",
+      "public_sha256": "c8dbee24abce7f9f570f59a6f6f7a39d3541b69628de1a5fb8cb53efcde1d931",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-02/screenshots/screenshot-016.jpg",
+      "source_sha256": "3de8b1f3ef3cb95e82c3a9b7c447273917ef0e1925d806e397335ab5cc6ec90b",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-02/screenshots/screenshot-016.jpg",
+      "public_sha256": "3de8b1f3ef3cb95e82c3a9b7c447273917ef0e1925d806e397335ab5cc6ec90b",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-02/screenshots/screenshot-017.jpg",
+      "source_sha256": "301a15617612343d4879d010c73dbc59879e1747d9076f14b473e1bbd7ba4bb1",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-02/screenshots/screenshot-017.jpg",
+      "public_sha256": "301a15617612343d4879d010c73dbc59879e1747d9076f14b473e1bbd7ba4bb1",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-02/screenshots/screenshot-018.jpg",
+      "source_sha256": "c6a496bdc2298f6abbcdf31d602c93d07af8cfa0589bfe4e48f3fd467067633c",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-02/screenshots/screenshot-018.jpg",
+      "public_sha256": "c6a496bdc2298f6abbcdf31d602c93d07af8cfa0589bfe4e48f3fd467067633c",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-02/screenshots/screenshot-019.jpg",
+      "source_sha256": "47fc8b93aa0515ecfbafa19d3bd03e3a09dc7c1477b42e269851614f8f6457d9",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-02/screenshots/screenshot-019.jpg",
+      "public_sha256": "47fc8b93aa0515ecfbafa19d3bd03e3a09dc7c1477b42e269851614f8f6457d9",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-02/screenshots/screenshot-020.jpg",
+      "source_sha256": "47fc8b93aa0515ecfbafa19d3bd03e3a09dc7c1477b42e269851614f8f6457d9",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-02/screenshots/screenshot-020.jpg",
+      "public_sha256": "47fc8b93aa0515ecfbafa19d3bd03e3a09dc7c1477b42e269851614f8f6457d9",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-02/server-verification.json",
+      "source_sha256": "2fca2905a07566372094ee2ab9b2a08c199dba99d584c76ddec28a4620983988",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-02/server-verification.json",
+      "public_sha256": "b4fa8aaa46a10c8371e18c0d94f90f91ed85c9807ac9ac5e5e6ebf20be854829",
+      "byte_identical": false,
+      "redaction_note": "Consistent session/profile pseudonyms, private host paths or control URLs only"
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-02/submission.json",
+      "source_sha256": "ca50830b6bb791d2537fb2505a78c3130a90964f822e2e6d6ebdda1f2e3eabfb",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-02/submission.json",
+      "public_sha256": "ca50830b6bb791d2537fb2505a78c3130a90964f822e2e6d6ebdda1f2e3eabfb",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-02/submitted-once.json",
+      "source_sha256": "10a2a05154bae92ed32b2d926dbd7ebd379e4781c67bae117abb49ceac282ee4",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-02/submitted-once.json",
+      "public_sha256": "10a2a05154bae92ed32b2d926dbd7ebd379e4781c67bae117abb49ceac282ee4",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-02/task-prompt.txt",
+      "source_sha256": "fee96ccf74d2cfa2d15ac21f504c62838c0c0e763ffd9ed3808ac85a63d622d3",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-02/task-prompt.txt",
+      "public_sha256": "fee96ccf74d2cfa2d15ac21f504c62838c0c0e763ffd9ed3808ac85a63d622d3",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-02/wallet-observation.json",
+      "source_sha256": "19d21b2f960250df36f78115b00f86f09133494d4aa040e6edddeb0f48d83d1e",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-02/wallet-observation.json",
+      "public_sha256": "19d21b2f960250df36f78115b00f86f09133494d4aa040e6edddeb0f48d83d1e",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-03/activity-summary.json",
+      "source_sha256": "e91636b157cb07e09d945711ddc65b3627920d5237847dc3a78efa70e00cac3b",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-03/activity-summary.json",
+      "public_sha256": "e91636b157cb07e09d945711ddc65b3627920d5237847dc3a78efa70e00cac3b",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-03/actual-submission-payload.json",
+      "source_sha256": "50f10bdb5768a7b6e045daac72b174eb60c1c0b675f50a4d27f61ba38bd3f8d2",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-03/actual-submission-payload.json",
+      "public_sha256": "2f29d456d6ca090d803d97e148cd5da9b956ea274368a1566c63f22810ed5d2a",
+      "byte_identical": false,
+      "redaction_note": "Consistent session/profile pseudonyms, private host paths or control URLs only"
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-03/baseline-server-record.json",
+      "source_sha256": "8a806ca5629d7f9865334f1a3441df58dc300f215b98762054483e489844a33d",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-03/baseline-server-record.json",
+      "public_sha256": "8a806ca5629d7f9865334f1a3441df58dc300f215b98762054483e489844a33d",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-03/budget-cancel.json",
+      "source_sha256": "5ac42941aa488a172ac276a3ce09efe0fab8b5e930192eb7953cd72a7c3e92c0",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-03/budget-cancel.json",
+      "public_sha256": "5ac42941aa488a172ac276a3ce09efe0fab8b5e930192eb7953cd72a7c3e92c0",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-03/configuration.json",
+      "source_sha256": "84b1dbe91f59a935e81e1a44e960ab48ac74a414ca6d2809e089dabde6f69347",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-03/configuration.json",
+      "public_sha256": "84b1dbe91f59a935e81e1a44e960ab48ac74a414ca6d2809e089dabde6f69347",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-03/full-wrapper-timing.json",
+      "source_sha256": "32d362da18da5eb05c911d998674df04b056895f0795287262207949cfda88a8",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-03/full-wrapper-timing.json",
+      "public_sha256": "32d362da18da5eb05c911d998674df04b056895f0795287262207949cfda88a8",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-03/original-response.txt",
+      "source_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-03/original-response.txt",
+      "public_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-03/polls.json",
+      "source_sha256": "828bd06965382d4f71ce631f44af4c6661f024383c7aea50fe4395073d2dd475",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-03/polls.json",
+      "public_sha256": "828bd06965382d4f71ce631f44af4c6661f024383c7aea50fe4395073d2dd475",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-03/provider-run.json",
+      "source_sha256": "8851dfa4516f0ae747d47de99b88210153f609cedbddc9de730b55d4538ecd01",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-03/provider-run.json",
+      "public_sha256": "c0e69d65b7530a31b91bf11208afcb26d45633d00046d42fbc69832ed80ab92d",
+      "byte_identical": false,
+      "redaction_note": "Consistent session/profile pseudonyms, private host paths or control URLs only"
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-03/run-record.json",
+      "source_sha256": "6682364ddf16ffecdf631eaea57340b879e364eeedb2e486cb6ae0595d4a31f0",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-03/run-record.json",
+      "public_sha256": "28ecc6f5799ba2164d158a042707ac02fdab1a0b5e10aa95b1e10aa315f0f1ca",
+      "byte_identical": false,
+      "redaction_note": "Consistent session/profile pseudonyms, private host paths or control URLs only"
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-03/screenshots/screenshot-000.jpg",
+      "source_sha256": "bf5118a33517477453d5d7630567996764760bb03d8a2adff04ffe1d6bf64592",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-03/screenshots/screenshot-000.jpg",
+      "public_sha256": "bf5118a33517477453d5d7630567996764760bb03d8a2adff04ffe1d6bf64592",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-03/screenshots/screenshot-001.jpg",
+      "source_sha256": "7a29ae5c2b2b2d6f373b49ff92ac9b5b7d187105f900ea7a34de44cd2685c62a",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-03/screenshots/screenshot-001.jpg",
+      "public_sha256": "7a29ae5c2b2b2d6f373b49ff92ac9b5b7d187105f900ea7a34de44cd2685c62a",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-03/screenshots/screenshot-002.jpg",
+      "source_sha256": "eadfa70a24bc010449719231618dfd4350afbcd447f0982f4ed19abe609121d8",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-03/screenshots/screenshot-002.jpg",
+      "public_sha256": "eadfa70a24bc010449719231618dfd4350afbcd447f0982f4ed19abe609121d8",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-03/screenshots/screenshot-003.jpg",
+      "source_sha256": "62f0671448903e758ddd4ae80d497af9a5ee72051cdcc26d73eabcce5445cea0",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-03/screenshots/screenshot-003.jpg",
+      "public_sha256": "62f0671448903e758ddd4ae80d497af9a5ee72051cdcc26d73eabcce5445cea0",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-03/screenshots/screenshot-004.jpg",
+      "source_sha256": "813f2942ef48d718989448446e162b1259a72079829f45a769f3a7bd15ee953a",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-03/screenshots/screenshot-004.jpg",
+      "public_sha256": "813f2942ef48d718989448446e162b1259a72079829f45a769f3a7bd15ee953a",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-03/screenshots/screenshot-005.jpg",
+      "source_sha256": "813f2942ef48d718989448446e162b1259a72079829f45a769f3a7bd15ee953a",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-03/screenshots/screenshot-005.jpg",
+      "public_sha256": "813f2942ef48d718989448446e162b1259a72079829f45a769f3a7bd15ee953a",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-03/screenshots/screenshot-006.jpg",
+      "source_sha256": "813f2942ef48d718989448446e162b1259a72079829f45a769f3a7bd15ee953a",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-03/screenshots/screenshot-006.jpg",
+      "public_sha256": "813f2942ef48d718989448446e162b1259a72079829f45a769f3a7bd15ee953a",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-03/screenshots/screenshot-007.jpg",
+      "source_sha256": "813f2942ef48d718989448446e162b1259a72079829f45a769f3a7bd15ee953a",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-03/screenshots/screenshot-007.jpg",
+      "public_sha256": "813f2942ef48d718989448446e162b1259a72079829f45a769f3a7bd15ee953a",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-03/screenshots/screenshot-008.jpg",
+      "source_sha256": "813f2942ef48d718989448446e162b1259a72079829f45a769f3a7bd15ee953a",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-03/screenshots/screenshot-008.jpg",
+      "public_sha256": "813f2942ef48d718989448446e162b1259a72079829f45a769f3a7bd15ee953a",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-03/screenshots/screenshot-009.jpg",
+      "source_sha256": "813f2942ef48d718989448446e162b1259a72079829f45a769f3a7bd15ee953a",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-03/screenshots/screenshot-009.jpg",
+      "public_sha256": "813f2942ef48d718989448446e162b1259a72079829f45a769f3a7bd15ee953a",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-03/screenshots/screenshot-010.jpg",
+      "source_sha256": "813f2942ef48d718989448446e162b1259a72079829f45a769f3a7bd15ee953a",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-03/screenshots/screenshot-010.jpg",
+      "public_sha256": "813f2942ef48d718989448446e162b1259a72079829f45a769f3a7bd15ee953a",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-03/screenshots/screenshot-011.jpg",
+      "source_sha256": "813f2942ef48d718989448446e162b1259a72079829f45a769f3a7bd15ee953a",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-03/screenshots/screenshot-011.jpg",
+      "public_sha256": "813f2942ef48d718989448446e162b1259a72079829f45a769f3a7bd15ee953a",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-03/screenshots/screenshot-012.jpg",
+      "source_sha256": "813f2942ef48d718989448446e162b1259a72079829f45a769f3a7bd15ee953a",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-03/screenshots/screenshot-012.jpg",
+      "public_sha256": "813f2942ef48d718989448446e162b1259a72079829f45a769f3a7bd15ee953a",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-03/screenshots/screenshot-013.jpg",
+      "source_sha256": "813f2942ef48d718989448446e162b1259a72079829f45a769f3a7bd15ee953a",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-03/screenshots/screenshot-013.jpg",
+      "public_sha256": "813f2942ef48d718989448446e162b1259a72079829f45a769f3a7bd15ee953a",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-03/screenshots/screenshot-014.jpg",
+      "source_sha256": "813f2942ef48d718989448446e162b1259a72079829f45a769f3a7bd15ee953a",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-03/screenshots/screenshot-014.jpg",
+      "public_sha256": "813f2942ef48d718989448446e162b1259a72079829f45a769f3a7bd15ee953a",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-03/screenshots/screenshot-015.jpg",
+      "source_sha256": "813f2942ef48d718989448446e162b1259a72079829f45a769f3a7bd15ee953a",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-03/screenshots/screenshot-015.jpg",
+      "public_sha256": "813f2942ef48d718989448446e162b1259a72079829f45a769f3a7bd15ee953a",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-03/screenshots/screenshot-016.jpg",
+      "source_sha256": "8a168431bd5c4753b7949fbc772ce100cb896b3268a3ca94da11721b38607995",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-03/screenshots/screenshot-016.jpg",
+      "public_sha256": "8a168431bd5c4753b7949fbc772ce100cb896b3268a3ca94da11721b38607995",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-03/screenshots/screenshot-017.jpg",
+      "source_sha256": "8a168431bd5c4753b7949fbc772ce100cb896b3268a3ca94da11721b38607995",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-03/screenshots/screenshot-017.jpg",
+      "public_sha256": "8a168431bd5c4753b7949fbc772ce100cb896b3268a3ca94da11721b38607995",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-03/screenshots/screenshot-018.jpg",
+      "source_sha256": "8a168431bd5c4753b7949fbc772ce100cb896b3268a3ca94da11721b38607995",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-03/screenshots/screenshot-018.jpg",
+      "public_sha256": "8a168431bd5c4753b7949fbc772ce100cb896b3268a3ca94da11721b38607995",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-03/screenshots/screenshot-019.jpg",
+      "source_sha256": "8a168431bd5c4753b7949fbc772ce100cb896b3268a3ca94da11721b38607995",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-03/screenshots/screenshot-019.jpg",
+      "public_sha256": "8a168431bd5c4753b7949fbc772ce100cb896b3268a3ca94da11721b38607995",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-03/screenshots/screenshot-020.jpg",
+      "source_sha256": "8a168431bd5c4753b7949fbc772ce100cb896b3268a3ca94da11721b38607995",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-03/screenshots/screenshot-020.jpg",
+      "public_sha256": "8a168431bd5c4753b7949fbc772ce100cb896b3268a3ca94da11721b38607995",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-03/screenshots/screenshot-021.jpg",
+      "source_sha256": "8a168431bd5c4753b7949fbc772ce100cb896b3268a3ca94da11721b38607995",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-03/screenshots/screenshot-021.jpg",
+      "public_sha256": "8a168431bd5c4753b7949fbc772ce100cb896b3268a3ca94da11721b38607995",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-03/screenshots/screenshot-022.jpg",
+      "source_sha256": "9b188f7faf9e8f5ac5b4ba6351db7502b4efb4019899252aca75835e59bc505f",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-03/screenshots/screenshot-022.jpg",
+      "public_sha256": "9b188f7faf9e8f5ac5b4ba6351db7502b4efb4019899252aca75835e59bc505f",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-03/screenshots/screenshot-023.jpg",
+      "source_sha256": "fb1c202e45ef5ebc7bdbf711ee6fffbfb452adea34dc8eb1bc521f6aa9e45e8d",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-03/screenshots/screenshot-023.jpg",
+      "public_sha256": "fb1c202e45ef5ebc7bdbf711ee6fffbfb452adea34dc8eb1bc521f6aa9e45e8d",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-03/screenshots/screenshot-024.jpg",
+      "source_sha256": "aefec1fd24716c08b4ccdb5595cb2beb65df74f9d2889b69ad352e260a8eaabd",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-03/screenshots/screenshot-024.jpg",
+      "public_sha256": "aefec1fd24716c08b4ccdb5595cb2beb65df74f9d2889b69ad352e260a8eaabd",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-03/screenshots/screenshot-025.jpg",
+      "source_sha256": "73b97700acb4c247bc07a679f5815e991a7f60d6579e205df178f69b6c016aaf",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-03/screenshots/screenshot-025.jpg",
+      "public_sha256": "73b97700acb4c247bc07a679f5815e991a7f60d6579e205df178f69b6c016aaf",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-03/screenshots/screenshot-026.jpg",
+      "source_sha256": "a3c6fea3754409d02e0513091fcd1f00e752f42f99fab57360c842f2f774110e",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-03/screenshots/screenshot-026.jpg",
+      "public_sha256": "a3c6fea3754409d02e0513091fcd1f00e752f42f99fab57360c842f2f774110e",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-03/server-verification.json",
+      "source_sha256": "0c8081db06f8844aee60a40c1b2bc8d1afcfa77c9af88f13e6e37e5a5b9a585e",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-03/server-verification.json",
+      "public_sha256": "39d629cf8c9f00d53913e51bcbeba458b82bfc174ab7311aa0a50b10072fc0b2",
+      "byte_identical": false,
+      "redaction_note": "Consistent session/profile pseudonyms, private host paths or control URLs only"
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-03/submission.json",
+      "source_sha256": "3aeefc001331f4e055a5b6b44fe21a0f892c4033c7372ad72d05e9c422bd5703",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-03/submission.json",
+      "public_sha256": "3aeefc001331f4e055a5b6b44fe21a0f892c4033c7372ad72d05e9c422bd5703",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-03/submitted-once.json",
+      "source_sha256": "4f99bdb77dace94f5777fc5278eec41469a01a982ecf3679707e845bb8578ae5",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-03/submitted-once.json",
+      "public_sha256": "4f99bdb77dace94f5777fc5278eec41469a01a982ecf3679707e845bb8578ae5",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-03/task-prompt.txt",
+      "source_sha256": "3e8e6f5b454bcf67c9529780fb3c92f5a1c2393b3ebedfadf32c5952d44ab456",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-03/task-prompt.txt",
+      "public_sha256": "3e8e6f5b454bcf67c9529780fb3c92f5a1c2393b3ebedfadf32c5952d44ab456",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/runs/tinyfish/attempt-03/wallet-observation.json",
+      "source_sha256": "694e7be62c53e7b3e0432805fcc16c3bf0d5839785a27c5985c23a89dbb79f1e",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-03/wallet-observation.json",
+      "public_sha256": "694e7be62c53e7b3e0432805fcc16c3bf0d5839785a27c5985c23a89dbb79f1e",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/fixture_client.py",
+      "source_sha256": "3e78c09e61de14b95c316aa4252d75fbd19b552c0664154a5795199d995e0e98",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/harness/executed-source/fixture_client.py",
+      "public_sha256": "3e78c09e61de14b95c316aa4252d75fbd19b552c0664154a5795199d995e0e98",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/validate_fixture.py",
+      "source_sha256": "cccfadba9950efafff8243d39d2056dcf45d86c44e28550dab2eaad8afbc85a1",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/harness/executed-source/validate_fixture.py",
+      "public_sha256": "cccfadba9950efafff8243d39d2056dcf45d86c44e28550dab2eaad8afbc85a1",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/setup_tinyfish_profile.py",
+      "source_sha256": "b778286c979314028f7dfd376c0de34653d0c317f6e0c5c0ee47ec8b8215d18f",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/harness/executed-source/setup_tinyfish_profile.py",
+      "public_sha256": "b778286c979314028f7dfd376c0de34653d0c317f6e0c5c0ee47ec8b8215d18f",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/setup_claude_context.py",
+      "source_sha256": "ab17efa8b1b8ce72d94181e8ac9ce4676648bb96fd5d722477d3dc8d579ecd74",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/harness/executed-source/setup_claude_context.py",
+      "public_sha256": "ab17efa8b1b8ce72d94181e8ac9ce4676648bb96fd5d722477d3dc8d579ecd74",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/run_workflows.py",
+      "source_sha256": "2583e0ede27a7bb7d0591036ea372b4d8afa67938662e21d7bbc1a51ad3dbe7d",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/harness/executed-source/run_workflows.py",
+      "public_sha256": "2583e0ede27a7bb7d0591036ea372b4d8afa67938662e21d7bbc1a51ad3dbe7d",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/authenticated-workflow-2026-10-22-private/finish_evidence.py",
+      "source_sha256": "fbab11aa923b8d8a3918c1db9b0037b29cfe6a229594741e32b49624dda493ef",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/harness/executed-source/finish_evidence.py",
+      "public_sha256": "fbab11aa923b8d8a3918c1db9b0037b29cfe6a229594741e32b49624dda493ef",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/manicule-batch-2-5/common.py",
+      "source_sha256": "1945fcd3dbf503caec96add8f47baaca6b98845a87836f5f574ba57675144c8a",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/harness/executed-source/common-original.py",
+      "public_sha256": "1945fcd3dbf503caec96add8f47baaca6b98845a87836f5f574ba57675144c8a",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "../set-up-a-working-benchmark-for/outputs/claude-computer-benchmark/benchmark/core.py",
+      "source_sha256": "e199f2e1654972dff0c6964ad01e69b7b7f6497f922d232f19ef185bd3e7d3f8",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/harness/executed-source/claude/core.py",
+      "public_sha256": "e199f2e1654972dff0c6964ad01e69b7b7f6497f922d232f19ef185bd3e7d3f8",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "../set-up-a-working-benchmark-for/outputs/claude-computer-benchmark/benchmark/desktop.py",
+      "source_sha256": "11e937ae56b04604c018393b5bf282352093f7bf4bfe936e02bde0d710833128",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/harness/executed-source/claude/desktop.py",
+      "public_sha256": "11e937ae56b04604c018393b5bf282352093f7bf4bfe936e02bde0d710833128",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "../set-up-a-working-benchmark-for/outputs/claude-computer-benchmark/desktop/action.py",
+      "source_sha256": "9602806a5b43f6a522f7fb7282b5a9e26426b6c58716f347e906a08093b270b7",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/harness/executed-source/claude/native-action.py",
+      "public_sha256": "9602806a5b43f6a522f7fb7282b5a9e26426b6c58716f347e906a08093b270b7",
+      "byte_identical": true,
+      "redaction_note": null
+    },
+    {
+      "source_file": "work/desktop-benchmark-private/credential-broker.py",
+      "source_sha256": "875644df39ec5258dddc648a2bbb3ae7c8bcb638c31940bd7b3c630e696b0501",
+      "public_file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/harness/executed-source/credential-broker.py",
+      "public_sha256": "875644df39ec5258dddc648a2bbb3ae7c8bcb638c31940bd7b3c630e696b0501",
+      "byte_identical": true,
+      "redaction_note": null
+    }
+  ],
+  "public_image_count": 109,
+  "original_response_files_byte_identical": true,
+  "redactions": "Real credentials/cookies never collected. Only session hashes, profile handles and host paths/control URLs consistently sanitized where present. Source digest permits private-original integrity checks."
+}

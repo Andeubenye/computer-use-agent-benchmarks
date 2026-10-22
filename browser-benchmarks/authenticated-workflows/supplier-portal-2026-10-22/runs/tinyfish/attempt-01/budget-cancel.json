@@ -1,0 +1,14 @@
+{
+  "threshold": 26,
+  "observed_live_steps": 27,
+  "response": {
+    "http_status": 200,
+    "body": {
+      "run_id": "cb78d332-5c5f-4a44-bd5c-f164ccad3644",
+      "status": "CANCELLED",
+      "cancelled_at": "2026-10-22T16:55:01.993Z",
+      "message": null
+    }
+  },
+  "at": "2026-10-22T16:55:01.946431+00:00"
+}

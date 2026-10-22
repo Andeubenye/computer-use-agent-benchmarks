@@ -1,0 +1,5 @@
+I changed SUP-C006 from Pending to Reviewed, entered the note, and saved. The portal showed "Changes saved successfully" with a confirmation ID. The saved record on screen now shows status Reviewed, the exact note, and the same confirmation ID. I didn't touch any other supplier record.
+
+```json
+{"record_id": "SUP-C006", "final_status": "Reviewed", "confirmation_id": "CNF-3F07A4D964DB4E0C"}
+```

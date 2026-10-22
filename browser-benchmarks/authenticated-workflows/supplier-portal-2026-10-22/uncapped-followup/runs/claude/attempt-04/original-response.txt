@@ -1,0 +1,5 @@
+SUP-C004 is now saved as Reviewed, with the note "Reviewed supplier documentation for batch 04. No changes requested." After saving, the record page showed the new status, the note, and the same confirmation ID as "Last confirmation ID". I didn't change any other supplier record.
+
+```json
+{"record_id": "SUP-C004", "final_status": "Reviewed", "confirmation_id": "CNF-08CDB30C58C14C1C"}
+```

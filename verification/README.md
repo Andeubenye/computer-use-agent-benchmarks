@@ -15,3 +15,7 @@ Sanitized logs, original responses and configurations stay adjacent within agent
 ## Clarified form configuration
 
 [Six-run audit](../browser-benchmarks/reruns/clarified-form-2026-10-22/verify_clarified.py) checks exact shared prompts, independently reviewed final observations, 26 raw Claude generations, TinyFish cancelled-counter discrepancies, uncertainty-adjusted spending, and copied artifacts. It does not execute agents or recognize image content automatically. [Visual review](clarified-form-review.json) and [credential-value scan](clarified-form-safety.json) document publication checks. Earlier ambiguous-prompt records and desktop checks remain separate and unchanged.
+
+## Authenticated supplier workflows — 22 October 2026
+
+A separate twelve-attempt experiment retains three pilots and three additional uncapped attempts per provider. [Results, setup, costs and evidence](../browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/README.md) · [Offline verifier](../browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/verify_complete_experiment.py). Earlier benchmark evidence is unchanged.

@@ -1,0 +1,14 @@
+run_id,mode,task_sha256,model_requested,model_returned,tool_version,pricing_verified,sdk_version,python_version,host_platform,success,status,grading,wall_seconds,agent_wall_seconds,grading_seconds,api_seconds,count_seconds,action_seconds,steps,api_attempts,token_count_requests,api_requests,api_retries,computer_actions,successful_actions,screenshots,skipped_actions,input_tokens,output_tokens,cache_creation_input_tokens,cache_read_input_tokens,total_input_tokens,api_cost_usd,uncertain_cost_reserved_usd,billing_uncertain,errors,failed_actions,recovery_attempts,last_stop_reason,error_category,error_http_status,final_answer,partial_output,answer_matches,page_title_matches,page_url_matches,verified_page_url,required_text_typed,grader_computer_actions,budget_usd,max_steps,max_actions,max_tokens,max_seconds,final_answer_sha256
+20261022T170620Z-5f4eadb1,paid_api,1a324d58e3cc58f508345cc79c0490096b16c4253ef27def7f51895d532828a2,claude-sonnet-5-5,claude-sonnet-5-5,computer_toolset_20260801,2026-10-17,1.15.0,3.12.4,Darwin,False,needs_review,manual_review_required,54.896535,54.895455,0.0,19.567476,6.520157,28.56765,11,11,11,22,0,30,30,10,0,124550,1328,0,0,124550,0.262380,0,False,0,0,0,end_turn,,,"SUP-C003 is now Reviewed, and the portal showed ""Changes saved successfully."" The saved record on screen also shows the exact note (""Reviewed supplier documentation for batch 03. No changes requested."") and the same confirmation ID.
+
+```json
+{""record_id"": ""SUP-C003"", ""final_status"": ""Reviewed"", ""confirmation_id"": ""CNF-BA032AB7216D411B""}
+```
+
+I didn't touch any other supplier record. The dashboard search box didn't filter the list, so I opened SUP-C003 directly from the records table.","SUP-C003 is now Reviewed, and the portal showed ""Changes saved successfully."" The saved record on screen also shows the exact note (""Reviewed supplier documentation for batch 03. No changes requested."") and the same confirmation ID.
+
+```json
+{""record_id"": ""SUP-C003"", ""final_status"": ""Reviewed"", ""confirmation_id"": ""CNF-BA032AB7216D411B""}
+```
+
+I didn't touch any other supplier record. The dashboard search box didn't filter the list, so I opened SUP-C003 directly from the records table.",False,False,False,,False,0,0.6,60,300,4096,600,2588e3d863b2164aa72e5ec7ae4c2f2a55a5d55c2b0a37e73721f8119f31dfb3

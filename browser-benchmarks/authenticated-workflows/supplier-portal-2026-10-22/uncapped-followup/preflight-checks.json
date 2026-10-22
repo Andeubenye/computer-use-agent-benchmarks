@@ -1,0 +1,19 @@
+{
+  "utc": "2026-10-22T19:41:36.543530+00:00",
+  "paid_runs_started_once": true,
+  "source_files": {
+    "AMENDMENT.md": "e7cb2c5d4e424e1a25eeef25e83e824b4be31f3b7b82b9ede1bfb252edacf478",
+    "run_workflows.py": "29d84bd2489c3910e371fde21557d2dd387a371220c2166b3deab4593eb7502c",
+    "uncapped_core.py": "398c9c7615b1f5ecdace1121caef2b1d12db4971c9d60247aa09f0a9919ed74c",
+    "core-spending-guard-removal.diff": "34e62fe72d4eba3094e8a11cca3f7e635a90895986d73198ff19581c0f8c5c3f"
+  },
+  "tests_passed": [
+    "source compiles",
+    "three spending guard branches removed from Claude core",
+    "TinyFish cancellation threshold absent",
+    "no cumulative admission threshold",
+    "TinyFish all three then Claude all three",
+    "both synthetic authenticated contexts ready"
+  ],
+  "inference_calls_for_preflight": 0
+}

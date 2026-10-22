@@ -1,0 +1,56 @@
+{
+  "id": "msg_011CgHdSvi78TeEc7rEzrqG2",
+  "content": [
+    {
+      "text": "Search didn't filter apparently. Scroll up a bit to find C002.",
+      "type": "text"
+    },
+    {
+      "id": "toolu_014hE7nWLg1A6Sxa1xFygSq4",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {
+        "coordinate": [
+          511,
+          400
+        ],
+        "scroll_direction": "up",
+        "scroll_amount": 5
+      },
+      "name": "scroll",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    },
+    {
+      "id": "toolu_01UHYoKqH2UDnjzjraUg3DJ2",
+      "caller": {
+        "type": "direct"
+      },
+      "input": {},
+      "name": "screenshot",
+      "type": "tool_use",
+      "toolset_name": "computer"
+    }
+  ],
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_reason": "tool_use",
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 8977,
+    "output_tokens": 128,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

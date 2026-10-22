@@ -1,0 +1,7 @@
+agent,attempt,record_id,full_workflow_completed,data_saved,budget_censored,agent_seconds,display_actions,display_action_unit,screenshots,comparison_cost_usd,uncertain_reserved_usd
+tinyfish,1,SUP-T001,False,False,True,285.2478826660081,27,recorded activity entries (billing counter 0 is unreliable),27,,0.6
+claude,1,SUP-C001,True,True,False,47.618448,24,native computer actions including screenshots/zoom,9,0.188832,0.0
+claude,2,SUP-C002,True,True,False,82.394401,33,native computer actions including screenshots/zoom,12,0.300618,0.0
+tinyfish,2,SUP-T002,True,True,False,251.3285965420073,22,billed provider steps,21,0.352,0.0
+tinyfish,3,SUP-T003,False,True,True,188.62781366700074,27,recorded activity entries (billing counter 0 is unreliable),27,,0.6
+claude,3,SUP-C003,True,True,False,54.895455,30,native computer actions including screenshots/zoom,11,0.26238,0.0

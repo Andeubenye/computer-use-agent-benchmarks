@@ -1,0 +1,7 @@
+{
+  "utc": "2026-10-22T17:07:21.614514+00:00",
+  "six_pilots_verified_success": false,
+  "extension_authorized_by_user_if_pilots_succeed": true,
+  "proceed": false,
+  "reason": "At least one incomplete/failed/blocked pilot; no extension"
+}

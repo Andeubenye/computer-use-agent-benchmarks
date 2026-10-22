@@ -1,0 +1,71 @@
+{
+  "custom_spending_limit_usd": null,
+  "custom_per_run_limit_usd": null,
+  "user_authorization": "User approved any amount of existing provider usage and requested notice when top-up is needed; no automatic topups/purchases",
+  "prior_experiment_reservation_usd_not_released": 0.465,
+  "setup_cost_observation_separate": true,
+  "entries": {
+    "tinyfish-04": {
+      "state": "finished",
+      "allocation_usd": null,
+      "started_at": "2026-10-22T19:41:37.456821+00:00",
+      "cost_usd": 0.416,
+      "uncertain_cost_reserved_usd": 0.0,
+      "billing_uncertain": false,
+      "basis": "TinyFish steps × published rate",
+      "finished_at": "2026-10-22T19:44:25.273002+00:00"
+    },
+    "tinyfish-05": {
+      "state": "finished",
+      "allocation_usd": null,
+      "started_at": "2026-10-22T19:44:30.557956+00:00",
+      "cost_usd": 0.416,
+      "uncertain_cost_reserved_usd": 0.0,
+      "billing_uncertain": false,
+      "basis": "TinyFish steps × published rate",
+      "finished_at": "2026-10-22T19:48:54.198576+00:00"
+    },
+    "tinyfish-06": {
+      "state": "finished",
+      "allocation_usd": null,
+      "started_at": "2026-10-22T19:48:59.569521+00:00",
+      "cost_usd": 0.288,
+      "uncertain_cost_reserved_usd": 0.0,
+      "billing_uncertain": false,
+      "basis": "TinyFish steps × published rate",
+      "finished_at": "2026-10-22T19:51:15.648767+00:00"
+    },
+    "claude-04": {
+      "state": "finished",
+      "allocation_usd": null,
+      "started_at": "2026-10-22T19:51:21.136699+00:00",
+      "cost_usd": 0.260754,
+      "uncertain_cost_reserved_usd": 0.0,
+      "billing_uncertain": false,
+      "basis": "model token estimate plus uncertainty",
+      "finished_at": "2026-10-22T19:52:44.856885+00:00"
+    },
+    "claude-05": {
+      "state": "finished",
+      "allocation_usd": null,
+      "started_at": "2026-10-22T19:52:49.033044+00:00",
+      "cost_usd": 0.223442,
+      "uncertain_cost_reserved_usd": 0.0,
+      "billing_uncertain": false,
+      "basis": "model token estimate plus uncertainty",
+      "finished_at": "2026-10-22T19:53:56.845220+00:00"
+    },
+    "claude-06": {
+      "state": "finished",
+      "allocation_usd": null,
+      "started_at": "2026-10-22T19:54:01.040972+00:00",
+      "cost_usd": 0.262146,
+      "uncertain_cost_reserved_usd": 0.0,
+      "billing_uncertain": false,
+      "basis": "model token estimate plus uncertainty",
+      "finished_at": "2026-10-22T19:55:16.167089+00:00"
+    }
+  },
+  "recorded_api_estimate_usd": 1.866342,
+  "uncertain_entry_count": 0
+}

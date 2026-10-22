@@ -1,0 +1,7 @@
+# Executed source snapshots
+
+These files preserve the actual integrations reused for the experiment, with private host paths sanitized. They are provenance artifacts, not a one-command launcher with embedded credentials. The original TinyFish function is extracted from the prior adapter; the wrapper injects keys in RAM and overrides its profile payload. The legacy defaults in that function are not the actual request: use each `actual-submission-payload.json` as evidence.
+
+`run_workflows.py` shows exactly which baseline/reset, native about:blank reset, task submission, cost checks, captures and post-stop verification were performed. Only the evaluated models decide supplier GUI interactions. `fixture_client.py` is the owner verifier/setup client, never supplied as an agent tool. `setup_tinyfish_profile.py` uses the documented profile setup session for login only; it does not perform a scored supplier update. `setup_claude_context.py` performs the equivalent native GUI login before timing.
+
+The new batch's core copy and exact diff are under `../uncapped-followup/`. A reproducer needs their own provider access, a separately authorized HTTPS fixture/D1 deployment, fresh synthetic credentials in a RAM broker, and the documented Linux image/native controller. Never insert API keys into goals or source. Do not execute these source snapshots as a replay: that would submit new paid tasks and mutate records. Run the adjacent offline verifiers for evidence-only checking.

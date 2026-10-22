@@ -148,5 +148,70 @@
     "file": "browser-benchmarks/reruns/clarified-form-2026-10-22/tinyfish/attempt-3/task-prompt.txt",
     "sha256": "310e61b597776240557a2aed3e5bcbbdaf93a36c26c7c94e52b65d0b576b3007",
     "configuration": "clarified form, exact shared user prompt"
+  },
+  {
+    "file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/task-template.txt",
+    "sha256": "59ba27d438a7a5f76cc689641c6693d83d8ce37fb34116367225e808a91890ad",
+    "cohort": "authenticated-supplier-workflows; preserve phases"
+  },
+  {
+    "file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-01/task-prompt.txt",
+    "sha256": "e5e5183208282631bec2e55919c892c1fd233376c6dca71d04c87636b307ea33",
+    "cohort": "authenticated-supplier-workflows; preserve phases"
+  },
+  {
+    "file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-02/task-prompt.txt",
+    "sha256": "fe96941c11dfe27e013bd7f95b2323649cdcc113538652b5892bf38e28841906",
+    "cohort": "authenticated-supplier-workflows; preserve phases"
+  },
+  {
+    "file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/claude/attempt-03/task-prompt.txt",
+    "sha256": "1970d7ffc646d7e9d4d989c1612858cf8f8b632feda290b56c35f9389bb41d6e",
+    "cohort": "authenticated-supplier-workflows; preserve phases"
+  },
+  {
+    "file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-01/task-prompt.txt",
+    "sha256": "8e1f74ff833d04df46ec34ad5a52a12874cc9a05f245f2ca1b060d0993590612",
+    "cohort": "authenticated-supplier-workflows; preserve phases"
+  },
+  {
+    "file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-02/task-prompt.txt",
+    "sha256": "fee96ccf74d2cfa2d15ac21f504c62838c0c0e763ffd9ed3808ac85a63d622d3",
+    "cohort": "authenticated-supplier-workflows; preserve phases"
+  },
+  {
+    "file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/runs/tinyfish/attempt-03/task-prompt.txt",
+    "sha256": "3e8e6f5b454bcf67c9529780fb3c92f5a1c2393b3ebedfadf32c5952d44ab456",
+    "cohort": "authenticated-supplier-workflows; preserve phases"
+  },
+  {
+    "file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/uncapped-followup/runs/claude/attempt-04/task-prompt.txt",
+    "sha256": "3eb92b600a336a1989114583f30f61d44ba532d9e6bb1a8b2822792887a1e516",
+    "cohort": "authenticated-supplier-workflows; preserve phases"
+  },
+  {
+    "file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/uncapped-followup/runs/claude/attempt-05/task-prompt.txt",
+    "sha256": "04e90a9852cd85251624a8934f8b92d473a112785fa7ddd8dc1b8a2a9a71f732",
+    "cohort": "authenticated-supplier-workflows; preserve phases"
+  },
+  {
+    "file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/uncapped-followup/runs/claude/attempt-06/task-prompt.txt",
+    "sha256": "0098478e16e69e89de81ad2c40d1c62096cf7dd88bc455dd489eeb945c201fc9",
+    "cohort": "authenticated-supplier-workflows; preserve phases"
+  },
+  {
+    "file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/uncapped-followup/runs/tinyfish/attempt-04/task-prompt.txt",
+    "sha256": "2c0ce331f3526125996a683967cf594716102492aff53f5c64fc6cfe0d0d4c6a",
+    "cohort": "authenticated-supplier-workflows; preserve phases"
+  },
+  {
+    "file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/uncapped-followup/runs/tinyfish/attempt-05/task-prompt.txt",
+    "sha256": "d5a2d0dd0866b8263f8aa6a378b9260886ce57a1402dd08dc1d8200821246510",
+    "cohort": "authenticated-supplier-workflows; preserve phases"
+  },
+  {
+    "file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/uncapped-followup/runs/tinyfish/attempt-06/task-prompt.txt",
+    "sha256": "d9ae7939ce805c94e1943fb993b9c8f53ce3df4c7f2b8557142cc00a126ceaa5",
+    "cohort": "authenticated-supplier-workflows; preserve phases"
   }
 ]

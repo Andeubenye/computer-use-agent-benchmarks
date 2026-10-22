@@ -23,3 +23,7 @@
 ## Clarified form configuration limitations
 
 [Clarified results](browser-benchmarks/reruns/clarified-form-2026-10-22/README.md) contain a budget-cancelled TinyFish run, persistent missing TinyFish checkbox state, Claude post-run capture timeouts with usable prior screenshots, an unresolved cancelled-run charge, nonrandom provider order and different native/hosted timer boundaries. The changed prompt also adds verification instructions, so it does not isolate the message boundary as a causal factor. Nine confirmed TinyFish fields do not establish a wrong checkbox or a full pass. No general agent ranking follows from this sample.
+
+## Authenticated supplier workflows — 22 October 2026
+
+New uncapped supplier workflows: TinyFish **3/3**, Claude **3/3**; both reused login. Earlier three pilots each remain separate, including two TinyFish budget-censored attempts. [Twelve attempts and verification](browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/README.md) · [Article-ready findings](browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/ARTICLE-READY.md). This is a new authenticated browser cohort, not a replacement for earlier browser or desktop results. Censored pilots cannot establish unrestricted failures; three uncapped attempts each cannot estimate general reliability. Vault and agent login recovery remain NOT TESTED. Model/browser runtimes and timing/action units differ.

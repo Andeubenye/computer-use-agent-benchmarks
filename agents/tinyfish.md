@@ -15,3 +15,7 @@ Original responses, configuration, screenshots, failed attempts and verification
 ## Clarified prompt — separate configuration
 
 [Three clarified runs](../browser-benchmarks/reruns/clarified-form-2026-10-22/README.md): two provider completions with nine confirmed correct controls and newsletter unverified; one spending-watchdog cancellation after observed form clearing/refilling, last capture only Alex. The complete message was observed, resolving that visible mismatch in completed runs. No verified 10/10 was established. Completed partials averaged 95.65 client seconds and $0.200; cancelled-run charge is unresolved. This does not overwrite the earlier results or establish an inherent checkbox limitation.
+
+## Authenticated supplier workflows — 22 October 2026
+
+A separate twelve-attempt experiment retains three pilots and three additional uncapped attempts per provider. [Results, setup, costs and evidence](../browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/README.md) · [Offline verifier](../browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/verify_complete_experiment.py). Earlier benchmark evidence is unchanged.

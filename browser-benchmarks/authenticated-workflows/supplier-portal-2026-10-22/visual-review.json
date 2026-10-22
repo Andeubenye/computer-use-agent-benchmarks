@@ -1,0 +1,15 @@
+{
+  "all_run_images_reviewed": 107,
+  "setup_images_reviewed": 2,
+  "review_method": "All frames inspected in contact sheets; final TinyFish censored states inspected at original resolution; earlier successful final states checked with server truth. No automated image recognition.",
+  "observations": {
+    "tinyfish-01": "Repeated filtered dashboard/link activity; final frame has Reviewed and review text in editable controls, but saved record still Pending/empty. No Save audit.",
+    "tinyfish-02": "Final frames show Reviewed, exact note and confirmation; original response matches server. Audit retains two saves and the returned latest receipt.",
+    "tinyfish-03": "Final frames show successful save; audit proves two saves (Pending→Reviewed, then Reviewed→Reviewed). Cancellation leaves no final agent response.",
+    "claude-01": "Saved exact values and visible receipt; final response matches.",
+    "claude-02": "Saved exact values and visible receipt; final response matches.",
+    "claude-03": "Saved exact values and visible receipt; zoom and independent final capture agree."
+  },
+  "credentials_or_personal_data_visible": false,
+  "images_altered": false
+}

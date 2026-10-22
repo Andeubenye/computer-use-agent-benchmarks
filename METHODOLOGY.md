@@ -58,3 +58,7 @@ Three real hosted-agent attempts reused the exact original prompt, field rubric,
 ## Clarified prompt, separate six-run configuration
 
 The [clarified form experiment](browser-benchmarks/reruns/clarified-form-2026-10-22/METHODOLOGY.md) preserves the original fixture/rubric and provider model/browser configurations, while changing the exact shared user prompt to specify both message sentences and whole-form verification. Three actual runs per agent used 600-second maxima and a new below-$2 spending constraint. Budget guards, one pre-agent optional-field rejection, one cancelled run, and three post-model capture timeouts are explicit. No actual agent was restarted or helped with form entries. Missing checked-property evidence remains unavailable. Historical and clarified configurations are not pooled.
+
+## Authenticated supplier workflows — 22 October 2026
+
+New uncapped supplier workflows: TinyFish **3/3**, Claude **3/3**; both reused login. Earlier three pilots each remain separate, including two TinyFish budget-censored attempts. [Twelve attempts and verification](browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/README.md) · [Article-ready findings](browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/ARTICLE-READY.md). This is a new authenticated browser cohort, not a replacement for earlier browser or desktop results.

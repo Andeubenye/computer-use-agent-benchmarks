@@ -1,0 +1,19 @@
+{
+  "original_source_sha256": "e199f2e1654972dff0c6964ad01e69b7b7f6497f922d232f19ef185bd3e7d3f8",
+  "new_source_sha256": "398c9c7615b1f5ecdace1121caef2b1d12db4971c9d60247aa09f0a9919ed74c",
+  "removed_only_three_budget_ifs": [
+    [
+      103,
+      104
+    ],
+    [
+      319,
+      321
+    ],
+    [
+      387,
+      390
+    ]
+  ],
+  "no_provider_requests_during_patch": true
+}
