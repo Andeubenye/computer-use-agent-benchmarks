@@ -1,0 +1,15 @@
+{
+  "utc": "2026-10-22T21:43:23.346736+00:00",
+  "profile_creation_seconds": 0.9726438749930821,
+  "profile_created": true,
+  "synthetic_account_only": true,
+  "vault_enabled": false,
+  "max_agent_seconds": 600,
+  "custom_spending_cap_usd": null,
+  "previous_tests_rerun": false,
+  "portal_source_rebuilt": false,
+  "temporary_synthetic_password_hash_configuration": true,
+  "original_hash_to_restore_after_test": true,
+  "profile_id": "profile-durability-dedicated",
+  "provider_requests_so_far": "Read-only wallet, profile create; no Web Agent run or Claude generation"
+}

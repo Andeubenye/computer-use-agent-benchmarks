@@ -1,0 +1,13 @@
+{
+  "images_reviewed_at_source_resolution": 13,
+  "setup_images": 3,
+  "agent_frames": 8,
+  "independent_final_frames": 2,
+  "reviewed_states": [
+    "TinyFish setup and restored dashboard",
+    "Claude original authenticated setup, new-tab navigation, unauthenticated redirect",
+    "Claude persistent setup, new-tab restart, restored dashboard"
+  ],
+  "credentials_visible": false,
+  "images_edited": false
+}

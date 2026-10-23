@@ -1,0 +1,13 @@
+{
+  "observed_at": "2026-10-22T23:22:59.688067+00:00",
+  "completed_paid_runs_not_repeated": [
+    "tinyfish",
+    "claude-existing"
+  ],
+  "persistent_paid_submission_before_interruption": false,
+  "controller_process_unavailable": true,
+  "colima_observed_stopped": true,
+  "root_cause": "UNKNOWN; process/RAM state unavailable after execution-environment interruption",
+  "repair": "Restart existing VM; only resume unsubmitted persistent configuration; new synthetic setup password because RAM was lost",
+  "prior_empty_checkpoint_preserved": true
+}

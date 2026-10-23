@@ -1,0 +1,11 @@
+{
+  "colima_profile": "claude-benchmark",
+  "original_status": "Stopped",
+  "final_status": "Stopped",
+  "owned_execution_containers_removed": true,
+  "only_experiment_named_volume_removed": true,
+  "three_new_server_sessions_revoked": true,
+  "no_new_endpoint_or_image_created": true,
+  "tinyfish_dedicated_profile_retained_without_live_setup_client": true,
+  "prior_stopped_containers_not_pruned": true
+}

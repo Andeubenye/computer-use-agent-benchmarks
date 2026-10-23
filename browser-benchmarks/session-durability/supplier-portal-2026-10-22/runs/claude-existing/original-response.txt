@@ -1,0 +1,10 @@
+The browser isn't authenticated. Opening the dashboard URL redirected to a sign-in page, so I stopped there. I didn't enter credentials or submit anything.
+
+```json
+{
+  "authenticated": false,
+  "sign_in_heading": "Sign in to supplier review",
+  "redirected_url_path": "/login?expired=1",
+  "notice_shown": "Your session has expired. Sign in again."
+}
+```

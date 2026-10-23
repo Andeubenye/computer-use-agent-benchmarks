@@ -1,0 +1,34 @@
+{
+  "configuration": "claude-existing",
+  "started_at": "2026-10-22T22:30:50.672524+00:00",
+  "image_rebuilt": false,
+  "original_implementation_modified": false,
+  "persistent_profile": false,
+  "custom_spending_limit": null,
+  "initial_runtime_start_seconds": 4.2959706249966985,
+  "shutdown": {
+    "seconds": 25.890863416992943,
+    "graceful_firefox_quit_requested": true,
+    "quit_action_error": false,
+    "exited_without_forced_timeout": false,
+    "container_removed": true,
+    "container_id": "076a9e363c9b8254b8185e901e243763d8f03e5ef3b11942b6aabddb0df80284",
+    "mounts": []
+  },
+  "new_runtime_start_seconds": 3.2478533329995116,
+  "new_identity": {
+    "container_id": "10bf65374fc7db62d97c64e41427c0dc4311b86db6eb43abcf0e0c3b8261c85f",
+    "image_id": "sha256:195fda83d17d253dbb5d122583fd7d58cdfb13971e16f6fd7c1f73840b07f55d",
+    "resolution": "1024x768",
+    "architecture": "arm64",
+    "browser_version": "Mozilla Firefox 153.5.0esr"
+  },
+  "old_container_id": "076a9e363c9b8254b8185e901e243763d8f03e5ef3b11942b6aabddb0df80284",
+  "new_container_id_differs": true,
+  "new_container_mounts": [],
+  "restoration_seconds_from_restart_to_browser_ready": 3.4233377080090577,
+  "server_setup_session_valid_before_agent": true,
+  "final_owned_container_removed": true,
+  "total_setup_agent_and_collection_seconds": 77.98606070899405,
+  "finished_at": "2026-10-22T22:32:08.657752+00:00"
+}

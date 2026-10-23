@@ -1,0 +1,20 @@
+run_id,mode,task_sha256,model_requested,model_returned,tool_version,pricing_verified,sdk_version,python_version,host_platform,success,status,grading,wall_seconds,agent_wall_seconds,grading_seconds,api_seconds,count_seconds,action_seconds,steps,api_attempts,token_count_requests,api_requests,api_retries,computer_actions,successful_actions,screenshots,skipped_actions,input_tokens,output_tokens,cache_creation_input_tokens,cache_read_input_tokens,total_input_tokens,api_cost_usd,uncertain_cost_reserved_usd,billing_uncertain,errors,failed_actions,recovery_attempts,last_stop_reason,error_category,error_http_status,final_answer,partial_output,answer_matches,page_title_matches,page_url_matches,verified_page_url,required_text_typed,grader_computer_actions,budget_usd,max_steps,max_actions,max_tokens,max_seconds,final_answer_sha256
+20261022T223143Z-9e60191d,paid_api,cb3114be3cb2a75bee7297b3df10a057528e414fd10b7b16e3fd4c3adcf91421,claude-sonnet-5-5,claude-sonnet-5-5,computer_toolset_20260801,2026-10-17,1.15.0,3.12.4,Darwin,False,needs_review,manual_review_required,22.026891,22.026807,0.0,10.236412,1.98916,9.567709,4,4,4,8,0,8,8,3,0,26991,460,0,0,26991,0.058582,0,False,0,0,0,end_turn,,,"The browser isn't authenticated. Opening the dashboard URL redirected to a sign-in page, so I stopped there. I didn't enter credentials or submit anything.
+
+```json
+{
+  ""authenticated"": false,
+  ""sign_in_heading"": ""Sign in to supplier review"",
+  ""redirected_url_path"": ""/login?expired=1"",
+  ""notice_shown"": ""Your session has expired. Sign in again.""
+}
+```","The browser isn't authenticated. Opening the dashboard URL redirected to a sign-in page, so I stopped there. I didn't enter credentials or submit anything.
+
+```json
+{
+  ""authenticated"": false,
+  ""sign_in_heading"": ""Sign in to supplier review"",
+  ""redirected_url_path"": ""/login?expired=1"",
+  ""notice_shown"": ""Your session has expired. Sign in again.""
+}
+```",False,False,False,,False,0,Infinity,60,300,4096,600,1ab74f67b4ee47121e3d684731310a6bf06314b77c3ca03093c4ffb78b8eb819

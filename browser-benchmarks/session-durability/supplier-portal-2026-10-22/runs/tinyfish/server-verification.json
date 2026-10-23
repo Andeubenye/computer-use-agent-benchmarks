@@ -1,0 +1,33 @@
+{
+  "events_during_run": [
+    {
+      "event_id": "567458c5-29e8-4b18-b103-2e40b86a8bf8",
+      "at": "2026-10-22T21:44:36.089Z",
+      "kind": "authenticated_view",
+      "record_id": null,
+      "session_hash": "session-durability-tinyfish",
+      "details": "{\"path\":\"/dashboard\"}"
+    }
+  ],
+  "setup_session_hash": "session-durability-tinyfish",
+  "setup_session_still_valid": {
+    "token_hash": "session-durability-tinyfish",
+    "username": "benchmark-buyer",
+    "created_at": "2026-10-22T21:44:03.255Z",
+    "expires_at": "2026-10-22T23:44:03.255Z",
+    "revoked": 0
+  },
+  "authentication_restored": true,
+  "new_login_during_agent_task": false,
+  "supplier_saved_during_agent_task": false,
+  "profile_attached": true,
+  "agent_result": {
+    "page_heading": "Supplier dashboard",
+    "authenticated": true,
+    "supplier_record_id": "SUP-C001",
+    "signed_in_account_label": "Benchmark Buyer"
+  },
+  "provider_status": "COMPLETED",
+  "original_response_preserved": true,
+  "verification_sent_to_agent": false
+}

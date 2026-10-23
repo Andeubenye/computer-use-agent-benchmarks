@@ -1,0 +1,25 @@
+{
+  "utc": "2026-10-22T23:26:14.235627+00:00",
+  "post_test_revocation_only": true,
+  "expired_session_reauthentication_tested": false,
+  "sessions": [
+    {
+      "session_hash": "session-durability-tinyfish",
+      "response": {
+        "expired": true
+      }
+    },
+    {
+      "session_hash": "session-durability-claude-existing",
+      "response": {
+        "expired": true
+      }
+    },
+    {
+      "session_hash": "session-durability-claude-persistent",
+      "response": {
+        "expired": true
+      }
+    }
+  ]
+}

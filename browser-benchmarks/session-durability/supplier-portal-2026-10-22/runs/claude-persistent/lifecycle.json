@@ -1,0 +1,56 @@
+{
+  "configuration": "claude-persistent",
+  "started_at": "2026-10-22T23:24:42.159550+00:00",
+  "image_rebuilt": false,
+  "original_implementation_modified": false,
+  "persistent_profile": true,
+  "custom_spending_limit": null,
+  "initial_runtime_start_seconds": 3.4012107500000184,
+  "shutdown": {
+    "seconds": 25.716223208000088,
+    "graceful_firefox_quit_requested": true,
+    "quit_action_error": false,
+    "exited_without_forced_timeout": false,
+    "container_removed": true,
+    "container_id": "3f25027d6646954733a990e9cf85c651c52cb8d143006c134d6415fe8aff62f9",
+    "mounts": [
+      {
+        "Type": "volume",
+        "Name": "manicule-durability-firefox-20261022",
+        "Source": "/var/lib/docker/volumes/manicule-durability-firefox-20261022/_data",
+        "Destination": "/home/agent/profile",
+        "Driver": "local",
+        "Mode": "z",
+        "RW": true,
+        "Propagation": ""
+      }
+    ]
+  },
+  "new_runtime_start_seconds": 2.097241707999956,
+  "new_identity": {
+    "container_id": "c19f9612c2ee346d0f9854e369922460f1c00d8d2d3a6e1f940394cf0b241ae6",
+    "image_id": "sha256:195fda83d17d253dbb5d122583fd7d58cdfb13971e16f6fd7c1f73840b07f55d",
+    "resolution": "1024x768",
+    "architecture": "arm64",
+    "browser_version": "Mozilla Firefox 153.5.0esr"
+  },
+  "old_container_id": "3f25027d6646954733a990e9cf85c651c52cb8d143006c134d6415fe8aff62f9",
+  "new_container_id_differs": true,
+  "new_container_mounts": [
+    {
+      "Type": "volume",
+      "Name": "manicule-durability-firefox-20261022",
+      "Source": "/var/lib/docker/volumes/manicule-durability-firefox-20261022/_data",
+      "Destination": "/home/agent/profile",
+      "Driver": "local",
+      "Mode": "z",
+      "RW": true,
+      "Propagation": ""
+    }
+  ],
+  "restoration_seconds_from_restart_to_browser_ready": 2.285916332999932,
+  "server_setup_session_valid_before_agent": true,
+  "final_owned_container_removed": true,
+  "total_setup_agent_and_collection_seconds": 71.98993166699995,
+  "finished_at": "2026-10-22T23:25:54.149491+00:00"
+}

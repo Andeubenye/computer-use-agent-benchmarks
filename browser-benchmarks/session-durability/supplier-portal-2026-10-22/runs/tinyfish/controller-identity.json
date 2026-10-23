@@ -1,0 +1,11 @@
+{
+  "pid": 13283,
+  "started_at": "2026-10-22T21:44:30.310003+00:00",
+  "setup_process_pid": 13108,
+  "setup_process_exited_before_this_controller": true,
+  "local_portal_password_supplied": false,
+  "cookies_or_browser_files_supplied": false,
+  "new_controller_process": true,
+  "vault_enabled": false,
+  "custom_spending_limit": null
+}

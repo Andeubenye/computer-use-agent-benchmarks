@@ -1,0 +1,9 @@
+{
+  "correction_to": "targeted-repair-record.json",
+  "record_preserved": true,
+  "inherited_fields_explanation": "controller_process_unavailable and colima_observed_stopped describe the earlier interrupted checkpoint, not the runtime state at this later repair",
+  "runtime_at_targeted_repair": "Running; the persistent-only controller had returned a pre-submission CalledProcessError and cleaned its owned container",
+  "targeted_repair": "Remove only newly created experiment volume; confirmed bounded ownership helper succeeded; start clean named volume/container with same unchanged image",
+  "exact_failure_cause": "UNKNOWN: stderr suppressed by original exception collector",
+  "paid_agent_restarts": 0
+}

@@ -1,0 +1,12 @@
+{
+  "sha256": {
+    "PLAN.md": "6570ef127866ea9a4f5e0198ea9d5f4d8d1b43460dcaa7bdb36a3fadc150af43",
+    "task-prompt.txt": "a6fedc62dfba68a73301dfb5e22448988f4e1af6c160a568d4c6ca5c6b08e411",
+    "run_tinyfish.py": "9141baa25088c8d2e52f432a6d993805d51eec7056f292ba9ca79e54e201ffcd",
+    "run_claude_cases.py": "cddf31d37ccaf5aad3d165b4c5f747e42812325ac37e3816fedc4ba596077aa4",
+    "persistent_runtime.py": "df893bb4f4c83995528a41a6fe49d1b3be9fc83530a30f05dfe26ebcf733e26d"
+  },
+  "original_benchmark_sources_modified": false,
+  "no_cost_watchdog": true,
+  "max_agent_seconds": 600
+}

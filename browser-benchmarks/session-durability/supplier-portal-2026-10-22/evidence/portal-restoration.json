@@ -1,0 +1,11 @@
+{
+  "original_password_hash_and_metadata_restored": true,
+  "other_environment_entries_unchanged": true,
+  "environment_revision": 5,
+  "deployment_status": "succeeded",
+  "deployment_id": "appgdep_6ada9b9358a4819181d53701afc32021",
+  "version_id": "appgprj_6ada38177fa48191adc8d146f657ca6b~appgver_49860c09d86c8191bebaca8c4db13b5d",
+  "portal_source_rebuilt": false,
+  "synthetic_password_rotations_during_experiment": 3,
+  "credential_values_retained": false
+}

@@ -213,5 +213,21 @@
     "file": "browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/uncapped-followup/runs/tinyfish/attempt-06/task-prompt.txt",
     "sha256": "d9ae7939ce805c94e1943fb993b9c8f53ce3df4c7f2b8557142cc00a126ceaa5",
     "cohort": "authenticated-supplier-workflows; preserve phases"
+  },
+  {
+    "file": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/task-prompt.txt",
+    "sha256": "a6fedc62dfba68a73301dfb5e22448988f4e1af6c160a568d4c6ca5c6b08e411"
+  },
+  {
+    "file": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/runs/tinyfish/task-prompt.txt",
+    "sha256": "a6fedc62dfba68a73301dfb5e22448988f4e1af6c160a568d4c6ca5c6b08e411"
+  },
+  {
+    "file": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/runs/claude-existing/task-prompt.txt",
+    "sha256": "a6fedc62dfba68a73301dfb5e22448988f4e1af6c160a568d4c6ca5c6b08e411"
+  },
+  {
+    "file": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/runs/claude-persistent/task-prompt.txt",
+    "sha256": "a6fedc62dfba68a73301dfb5e22448988f4e1af6c160a568d4c6ca5c6b08e411"
   }
 ]

@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "checks": 142,
+  "actual_new_agent_runs": 3,
+  "diagnostic_tasks_correct": 3,
+  "authentication_restored_configurations": 2,
+  "screenshots": 13,
+  "total_new_agent_api_estimate_usd": "0.165142",
+  "benchmark_requests": 0,
+  "errors": []
+}

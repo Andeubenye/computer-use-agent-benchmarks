@@ -1,0 +1,594 @@
+{
+  "files": [
+    {
+      "private_source": "work/session-durability-2026-10-22-private/tinyfish/actual-submission-payload.json",
+      "source_sha256": "70b90213a3f6eda53b616c36e1622f19e5b349b46fd0a44dbdffa6cfc57489ba",
+      "public_file": "runs/tinyfish/actual-submission-payload.json",
+      "public_sha256": "583463223648593782911a094141f7ff15b64e6f2f46e5ff848d51977c9e36a4",
+      "byte_identical": false
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/tinyfish/controller-identity.json",
+      "source_sha256": "3f364916d7013d7b129942abb693023dfc166197ae054954368360c966a64b53",
+      "public_file": "runs/tinyfish/controller-identity.json",
+      "public_sha256": "3f364916d7013d7b129942abb693023dfc166197ae054954368360c966a64b53",
+      "byte_identical": true
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/tinyfish/original-response.txt",
+      "source_sha256": "36427282758083d023611d7bdb2c0f128f92fe956497580f9231e1e3d5aea1ce",
+      "public_file": "runs/tinyfish/original-response.txt",
+      "public_sha256": "36427282758083d023611d7bdb2c0f128f92fe956497580f9231e1e3d5aea1ce",
+      "byte_identical": true
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/tinyfish/polls.json",
+      "source_sha256": "10c8dc0b44c29bb11691b3a014c2426ac0d6b2b401f11f87547e9a52ce757c4e",
+      "public_file": "runs/tinyfish/polls.json",
+      "public_sha256": "10c8dc0b44c29bb11691b3a014c2426ac0d6b2b401f11f87547e9a52ce757c4e",
+      "byte_identical": true
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/tinyfish/provider-run.json",
+      "source_sha256": "64290be30bc9c75b2af773a4e41d5de24366eaefc0c7558c46fe8c21d279029c",
+      "public_file": "runs/tinyfish/provider-run.json",
+      "public_sha256": "f6439cb036284d9f105ada3ede624e97ccc3a14c1fcc8658fe3b54a650671315",
+      "byte_identical": false
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/tinyfish/run-record.json",
+      "source_sha256": "1bd752e603e51d2d90769a2d98c51c85da480fe1a803e7968d1b3ab32ea0455d",
+      "public_file": "runs/tinyfish/run-record.json",
+      "public_sha256": "1bd752e603e51d2d90769a2d98c51c85da480fe1a803e7968d1b3ab32ea0455d",
+      "byte_identical": true
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/tinyfish/screenshots/screenshot-000.jpg",
+      "source_sha256": "bf5118a33517477453d5d7630567996764760bb03d8a2adff04ffe1d6bf64592",
+      "public_file": "runs/tinyfish/screenshots/screenshot-000.jpg",
+      "public_sha256": "bf5118a33517477453d5d7630567996764760bb03d8a2adff04ffe1d6bf64592",
+      "byte_identical": true
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/tinyfish/screenshots/screenshot-001.jpg",
+      "source_sha256": "bf5118a33517477453d5d7630567996764760bb03d8a2adff04ffe1d6bf64592",
+      "public_file": "runs/tinyfish/screenshots/screenshot-001.jpg",
+      "public_sha256": "bf5118a33517477453d5d7630567996764760bb03d8a2adff04ffe1d6bf64592",
+      "byte_identical": true
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/tinyfish/server-verification.json",
+      "source_sha256": "e5348d1f9b5699dbf6ca3997ee3391eacfd94b9bdfba80e0307b20fae32df8c8",
+      "public_file": "runs/tinyfish/server-verification.json",
+      "public_sha256": "6a4731ed77fb9c2967db0c293caf9d5b9cf9bf6e52adb2c7a8dd85a1431205a4",
+      "byte_identical": false
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/tinyfish/submission.json",
+      "source_sha256": "87e32f756e2bc0fa561d4c1f3c97ffaa5590730d90dfa6fae2b365272b164b09",
+      "public_file": "runs/tinyfish/submission.json",
+      "public_sha256": "87e32f756e2bc0fa561d4c1f3c97ffaa5590730d90dfa6fae2b365272b164b09",
+      "byte_identical": true
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/tinyfish/submitted-once.json",
+      "source_sha256": "b9ee1780bf075aca90efe1badebc85d9684f56acd91ad564366b5f6e00f01704",
+      "public_file": "runs/tinyfish/submitted-once.json",
+      "public_sha256": "b9ee1780bf075aca90efe1badebc85d9684f56acd91ad564366b5f6e00f01704",
+      "byte_identical": true
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/tinyfish/task-prompt.txt",
+      "source_sha256": "a6fedc62dfba68a73301dfb5e22448988f4e1af6c160a568d4c6ca5c6b08e411",
+      "public_file": "runs/tinyfish/task-prompt.txt",
+      "public_sha256": "a6fedc62dfba68a73301dfb5e22448988f4e1af6c160a568d4c6ca5c6b08e411",
+      "byte_identical": true
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/claude-existing/authenticated-before-shutdown.png",
+      "source_sha256": "8ffd02de5f268a35cc39cf3e3d3eabb434bb1be9b1c32b35a45e28bd57b71e51",
+      "public_file": "runs/claude-existing/authenticated-before-shutdown.png",
+      "public_sha256": "8ffd02de5f268a35cc39cf3e3d3eabb434bb1be9b1c32b35a45e28bd57b71e51",
+      "byte_identical": true
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/claude-existing/independent-final.png",
+      "source_sha256": "08dd23ecd5bd74a6727f2dfeeb5f92c944061485f13a30921b21118bbdbdc1f2",
+      "public_file": "runs/claude-existing/independent-final.png",
+      "public_sha256": "08dd23ecd5bd74a6727f2dfeeb5f92c944061485f13a30921b21118bbdbdc1f2",
+      "byte_identical": true
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/claude-existing/lifecycle.json",
+      "source_sha256": "bf032430f30f3a5d5154f7d66e25a6627835cddc58848b2ea2c023a01062b9a7",
+      "public_file": "runs/claude-existing/lifecycle.json",
+      "public_sha256": "bf032430f30f3a5d5154f7d66e25a6627835cddc58848b2ea2c023a01062b9a7",
+      "byte_identical": true
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/claude-existing/native-evidence/20261022T223143Z-9e60191d/configuration.json",
+      "source_sha256": "11fa5ff50e6448661a8b5dfa6bad9f04a74138d521e01a32feaa57bd882939b8",
+      "public_file": "runs/claude-existing/native-evidence/20261022T223143Z-9e60191d/configuration.json",
+      "public_sha256": "11fa5ff50e6448661a8b5dfa6bad9f04a74138d521e01a32feaa57bd882939b8",
+      "byte_identical": true
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/claude-existing/native-evidence/20261022T223143Z-9e60191d/events.jsonl",
+      "source_sha256": "76196b5032610d18c82aeefeadc069c9262e5766e52c7ea8c72e5d916962459a",
+      "public_file": "runs/claude-existing/native-evidence/20261022T223143Z-9e60191d/events.jsonl",
+      "public_sha256": "76196b5032610d18c82aeefeadc069c9262e5766e52c7ea8c72e5d916962459a",
+      "byte_identical": true
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/claude-existing/native-evidence/20261022T223143Z-9e60191d/responses/001.json",
+      "source_sha256": "8c9709ee45a77a2f4579eee3420736f9444da1e979149afa96f06c6529949fc9",
+      "public_file": "runs/claude-existing/native-evidence/20261022T223143Z-9e60191d/responses/001.json",
+      "public_sha256": "8c9709ee45a77a2f4579eee3420736f9444da1e979149afa96f06c6529949fc9",
+      "byte_identical": true
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/claude-existing/native-evidence/20261022T223143Z-9e60191d/responses/002.json",
+      "source_sha256": "97a7ced72de77b03abcf62ce5bc6cb2d0b34685b2b62826fc880e8231479c334",
+      "public_file": "runs/claude-existing/native-evidence/20261022T223143Z-9e60191d/responses/002.json",
+      "public_sha256": "97a7ced72de77b03abcf62ce5bc6cb2d0b34685b2b62826fc880e8231479c334",
+      "byte_identical": true
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/claude-existing/native-evidence/20261022T223143Z-9e60191d/responses/003.json",
+      "source_sha256": "18c8aa0cdbbe99053f19c422a15a8c3e0947bc0883d18b6cfda6f83dbba53a8b",
+      "public_file": "runs/claude-existing/native-evidence/20261022T223143Z-9e60191d/responses/003.json",
+      "public_sha256": "18c8aa0cdbbe99053f19c422a15a8c3e0947bc0883d18b6cfda6f83dbba53a8b",
+      "byte_identical": true
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/claude-existing/native-evidence/20261022T223143Z-9e60191d/responses/004.json",
+      "source_sha256": "44300cb53b8e380c3f46668059faf88f7ed014bd920fe743aa9edc1493f126ce",
+      "public_file": "runs/claude-existing/native-evidence/20261022T223143Z-9e60191d/responses/004.json",
+      "public_sha256": "44300cb53b8e380c3f46668059faf88f7ed014bd920fe743aa9edc1493f126ce",
+      "byte_identical": true
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/claude-existing/native-evidence/20261022T223143Z-9e60191d/screenshots/0001-screenshot.png",
+      "source_sha256": "2332b0fb3479bbc0e560a89155cc2d1bdd93201db9d175aedcebca1ca8b09031",
+      "public_file": "runs/claude-existing/native-evidence/20261022T223143Z-9e60191d/screenshots/0001-screenshot.png",
+      "public_sha256": "2332b0fb3479bbc0e560a89155cc2d1bdd93201db9d175aedcebca1ca8b09031",
+      "byte_identical": true
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/claude-existing/native-evidence/20261022T223143Z-9e60191d/screenshots/0005-screenshot.png",
+      "source_sha256": "7fbe4bf969076cda8e5c66ec6c5232193fdf3c2b466b5619c18cad9a72429213",
+      "public_file": "runs/claude-existing/native-evidence/20261022T223143Z-9e60191d/screenshots/0005-screenshot.png",
+      "public_sha256": "7fbe4bf969076cda8e5c66ec6c5232193fdf3c2b466b5619c18cad9a72429213",
+      "byte_identical": true
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/claude-existing/native-evidence/20261022T223143Z-9e60191d/screenshots/0008-screenshot.png",
+      "source_sha256": "08dd23ecd5bd74a6727f2dfeeb5f92c944061485f13a30921b21118bbdbdc1f2",
+      "public_file": "runs/claude-existing/native-evidence/20261022T223143Z-9e60191d/screenshots/0008-screenshot.png",
+      "public_sha256": "08dd23ecd5bd74a6727f2dfeeb5f92c944061485f13a30921b21118bbdbdc1f2",
+      "byte_identical": true
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/claude-existing/native-evidence/20261022T223143Z-9e60191d/summary.json",
+      "source_sha256": "5c9a06f659d82d6d7bb56eaf0ff249a26dc2a68cd8682c06b17729588ca3a018",
+      "public_file": "runs/claude-existing/native-evidence/20261022T223143Z-9e60191d/summary.json",
+      "public_sha256": "5c9a06f659d82d6d7bb56eaf0ff249a26dc2a68cd8682c06b17729588ca3a018",
+      "byte_identical": true
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/claude-existing/native-evidence/20261022T223143Z-9e60191d/task.json",
+      "source_sha256": "a32c3b67aae1503541c25c9fd63918bfe8966da563949027d54f2bbb162197d9",
+      "public_file": "runs/claude-existing/native-evidence/20261022T223143Z-9e60191d/task.json",
+      "public_sha256": "a32c3b67aae1503541c25c9fd63918bfe8966da563949027d54f2bbb162197d9",
+      "byte_identical": true
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/claude-existing/native-evidence/results.csv",
+      "source_sha256": "c1594d8ee46a5329c65f06d8045905c17f16ca254ffa8f9f327b910815744eee",
+      "public_file": "runs/claude-existing/native-evidence/results.csv",
+      "public_sha256": "c1594d8ee46a5329c65f06d8045905c17f16ca254ffa8f9f327b910815744eee",
+      "byte_identical": true
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/claude-existing/original-response.txt",
+      "source_sha256": "1ab74f67b4ee47121e3d684731310a6bf06314b77c3ca03093c4ffb78b8eb819",
+      "public_file": "runs/claude-existing/original-response.txt",
+      "public_sha256": "1ab74f67b4ee47121e3d684731310a6bf06314b77c3ca03093c4ffb78b8eb819",
+      "byte_identical": true
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/claude-existing/run-record.json",
+      "source_sha256": "5c9a06f659d82d6d7bb56eaf0ff249a26dc2a68cd8682c06b17729588ca3a018",
+      "public_file": "runs/claude-existing/run-record.json",
+      "public_sha256": "5c9a06f659d82d6d7bb56eaf0ff249a26dc2a68cd8682c06b17729588ca3a018",
+      "byte_identical": true
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/claude-existing/server-verification.json",
+      "source_sha256": "921bc4221b69d6bc54863cc2774827c0ca7ebd21c3ee604ed6ac4a16b069c416",
+      "public_file": "runs/claude-existing/server-verification.json",
+      "public_sha256": "8682a9c0f2f9e25e6150a406347f1fe666a27a8bc1f0d1eecb4b3dd0a0d48506",
+      "byte_identical": false
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/claude-existing/setup.json",
+      "source_sha256": "0422160a2ddc6227cb350e946b47d5069e50a2288fa510b51eb6d8d36ca28cd1",
+      "public_file": "runs/claude-existing/setup.json",
+      "public_sha256": "eb45f8932a6c5883114557fb523e3d54bfb0b47cda9dcc8b9ea6677321f74568",
+      "byte_identical": false
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/claude-existing/submitted-once.json",
+      "source_sha256": "bea579b24befd24671c83e4c0c4439377f562d151604233f5cfc17e29b1f45ee",
+      "public_file": "runs/claude-existing/submitted-once.json",
+      "public_sha256": "bea579b24befd24671c83e4c0c4439377f562d151604233f5cfc17e29b1f45ee",
+      "byte_identical": true
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/claude-existing/task-prompt.txt",
+      "source_sha256": "a6fedc62dfba68a73301dfb5e22448988f4e1af6c160a568d4c6ca5c6b08e411",
+      "public_file": "runs/claude-existing/task-prompt.txt",
+      "public_sha256": "a6fedc62dfba68a73301dfb5e22448988f4e1af6c160a568d4c6ca5c6b08e411",
+      "byte_identical": true
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/claude-persistent/authenticated-before-shutdown.png",
+      "source_sha256": "8ffd02de5f268a35cc39cf3e3d3eabb434bb1be9b1c32b35a45e28bd57b71e51",
+      "public_file": "runs/claude-persistent/authenticated-before-shutdown.png",
+      "public_sha256": "8ffd02de5f268a35cc39cf3e3d3eabb434bb1be9b1c32b35a45e28bd57b71e51",
+      "byte_identical": true
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/claude-persistent/independent-final.png",
+      "source_sha256": "00b28088018272827db78d2a0fd6b913fac9567705a42333357e51bad964cd39",
+      "public_file": "runs/claude-persistent/independent-final.png",
+      "public_sha256": "00b28088018272827db78d2a0fd6b913fac9567705a42333357e51bad964cd39",
+      "byte_identical": true
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/claude-persistent/lifecycle.json",
+      "source_sha256": "1d3853891278ea15013702c0fe63abce27308fc80f45342f87c05bcc5e6ccb3d",
+      "public_file": "runs/claude-persistent/lifecycle.json",
+      "public_sha256": "1d3853891278ea15013702c0fe63abce27308fc80f45342f87c05bcc5e6ccb3d",
+      "byte_identical": true
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/claude-persistent/native-evidence/20261022T232530Z-ee7af7c0/configuration.json",
+      "source_sha256": "11fa5ff50e6448661a8b5dfa6bad9f04a74138d521e01a32feaa57bd882939b8",
+      "public_file": "runs/claude-persistent/native-evidence/20261022T232530Z-ee7af7c0/configuration.json",
+      "public_sha256": "11fa5ff50e6448661a8b5dfa6bad9f04a74138d521e01a32feaa57bd882939b8",
+      "byte_identical": true
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/claude-persistent/native-evidence/20261022T232530Z-ee7af7c0/events.jsonl",
+      "source_sha256": "3952e01a001d00eafb09e2a5afb11bcf9a64300928ebfc10051877e612fb3a58",
+      "public_file": "runs/claude-persistent/native-evidence/20261022T232530Z-ee7af7c0/events.jsonl",
+      "public_sha256": "3952e01a001d00eafb09e2a5afb11bcf9a64300928ebfc10051877e612fb3a58",
+      "byte_identical": true
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/claude-persistent/native-evidence/20261022T232530Z-ee7af7c0/responses/001.json",
+      "source_sha256": "734f0174796d4269356139a667f257a3a09dfd9d088e79af6586b5115adb460a",
+      "public_file": "runs/claude-persistent/native-evidence/20261022T232530Z-ee7af7c0/responses/001.json",
+      "public_sha256": "734f0174796d4269356139a667f257a3a09dfd9d088e79af6586b5115adb460a",
+      "byte_identical": true
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/claude-persistent/native-evidence/20261022T232530Z-ee7af7c0/responses/002.json",
+      "source_sha256": "887a6f0f6ef886bc0f1a24d8fc5d5fa64c778d061c9ce36cf94edb2d86c5e752",
+      "public_file": "runs/claude-persistent/native-evidence/20261022T232530Z-ee7af7c0/responses/002.json",
+      "public_sha256": "887a6f0f6ef886bc0f1a24d8fc5d5fa64c778d061c9ce36cf94edb2d86c5e752",
+      "byte_identical": true
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/claude-persistent/native-evidence/20261022T232530Z-ee7af7c0/responses/003.json",
+      "source_sha256": "551dd391076bff25df45dcca2e3e0dbe0a4917c92fd38cda6b4f853c58e2d4be",
+      "public_file": "runs/claude-persistent/native-evidence/20261022T232530Z-ee7af7c0/responses/003.json",
+      "public_sha256": "551dd391076bff25df45dcca2e3e0dbe0a4917c92fd38cda6b4f853c58e2d4be",
+      "byte_identical": true
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/claude-persistent/native-evidence/20261022T232530Z-ee7af7c0/responses/004.json",
+      "source_sha256": "56eed64b6a00935e20ea109e907f9d4b93c9f4558cf37604a37e3902301d629b",
+      "public_file": "runs/claude-persistent/native-evidence/20261022T232530Z-ee7af7c0/responses/004.json",
+      "public_sha256": "56eed64b6a00935e20ea109e907f9d4b93c9f4558cf37604a37e3902301d629b",
+      "byte_identical": true
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/claude-persistent/native-evidence/20261022T232530Z-ee7af7c0/screenshots/0001-screenshot.png",
+      "source_sha256": "01111e29699676c077468543d4f2fb63bf6557440c3ae36d6761f79b1eb5369b",
+      "public_file": "runs/claude-persistent/native-evidence/20261022T232530Z-ee7af7c0/screenshots/0001-screenshot.png",
+      "public_sha256": "01111e29699676c077468543d4f2fb63bf6557440c3ae36d6761f79b1eb5369b",
+      "byte_identical": true
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/claude-persistent/native-evidence/20261022T232530Z-ee7af7c0/screenshots/0005-screenshot.png",
+      "source_sha256": "0c655d5f1b9b50ea1e5c58880e7eee4d28b222bed7c31a5e6f8a29f0a3fdf9a6",
+      "public_file": "runs/claude-persistent/native-evidence/20261022T232530Z-ee7af7c0/screenshots/0005-screenshot.png",
+      "public_sha256": "0c655d5f1b9b50ea1e5c58880e7eee4d28b222bed7c31a5e6f8a29f0a3fdf9a6",
+      "byte_identical": true
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/claude-persistent/native-evidence/20261022T232530Z-ee7af7c0/screenshots/0008-screenshot.png",
+      "source_sha256": "00b28088018272827db78d2a0fd6b913fac9567705a42333357e51bad964cd39",
+      "public_file": "runs/claude-persistent/native-evidence/20261022T232530Z-ee7af7c0/screenshots/0008-screenshot.png",
+      "public_sha256": "00b28088018272827db78d2a0fd6b913fac9567705a42333357e51bad964cd39",
+      "byte_identical": true
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/claude-persistent/native-evidence/20261022T232530Z-ee7af7c0/summary.json",
+      "source_sha256": "776e373fe2f04d0e468fb3595f27bc6b6567cc38ecfd4b712f86b506b911b016",
+      "public_file": "runs/claude-persistent/native-evidence/20261022T232530Z-ee7af7c0/summary.json",
+      "public_sha256": "776e373fe2f04d0e468fb3595f27bc6b6567cc38ecfd4b712f86b506b911b016",
+      "byte_identical": true
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/claude-persistent/native-evidence/20261022T232530Z-ee7af7c0/task.json",
+      "source_sha256": "a32c3b67aae1503541c25c9fd63918bfe8966da563949027d54f2bbb162197d9",
+      "public_file": "runs/claude-persistent/native-evidence/20261022T232530Z-ee7af7c0/task.json",
+      "public_sha256": "a32c3b67aae1503541c25c9fd63918bfe8966da563949027d54f2bbb162197d9",
+      "byte_identical": true
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/claude-persistent/native-evidence/results.csv",
+      "source_sha256": "5ff3708bffa3f834a9690357c0576f802eb8e041e0de73427b6f818392288550",
+      "public_file": "runs/claude-persistent/native-evidence/results.csv",
+      "public_sha256": "5ff3708bffa3f834a9690357c0576f802eb8e041e0de73427b6f818392288550",
+      "byte_identical": true
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/claude-persistent/original-response.txt",
+      "source_sha256": "f0a4afe81f46c8b92b19d45f3a8b09ede2c9b6173e95c14930f3db6f7bbc66f6",
+      "public_file": "runs/claude-persistent/original-response.txt",
+      "public_sha256": "f0a4afe81f46c8b92b19d45f3a8b09ede2c9b6173e95c14930f3db6f7bbc66f6",
+      "byte_identical": true
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/claude-persistent/run-record.json",
+      "source_sha256": "776e373fe2f04d0e468fb3595f27bc6b6567cc38ecfd4b712f86b506b911b016",
+      "public_file": "runs/claude-persistent/run-record.json",
+      "public_sha256": "776e373fe2f04d0e468fb3595f27bc6b6567cc38ecfd4b712f86b506b911b016",
+      "byte_identical": true
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/claude-persistent/server-verification.json",
+      "source_sha256": "c8506601d44067de8856c19e7ef694b8fe24ff83de238baf1859394ee6ad56f3",
+      "public_file": "runs/claude-persistent/server-verification.json",
+      "public_sha256": "17fb6a969d4df665ec657742162ad21fa7bbc81cba578f97d4fc4111dfbdbce6",
+      "byte_identical": false
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/claude-persistent/setup.json",
+      "source_sha256": "4dda0cb9bcdf749d21dcb7931b64bacd16712f0b2bbe10634dd31073a60a5620",
+      "public_file": "runs/claude-persistent/setup.json",
+      "public_sha256": "761acf052ab3b04f32d7a98dc25f1de2623b8dd941287daf765ac231e3a23078",
+      "byte_identical": false
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/claude-persistent/submitted-once.json",
+      "source_sha256": "8f6b23ce5db0f285a25f04321ea773e410367aaf668b3afc769bf33bec8168bc",
+      "public_file": "runs/claude-persistent/submitted-once.json",
+      "public_sha256": "8f6b23ce5db0f285a25f04321ea773e410367aaf668b3afc769bf33bec8168bc",
+      "byte_identical": true
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/claude-persistent/task-prompt.txt",
+      "source_sha256": "a6fedc62dfba68a73301dfb5e22448988f4e1af6c160a568d4c6ca5c6b08e411",
+      "public_file": "runs/claude-persistent/task-prompt.txt",
+      "public_sha256": "a6fedc62dfba68a73301dfb5e22448988f4e1af6c160a568d4c6ca5c6b08e411",
+      "byte_identical": true
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/PLAN.md",
+      "source_sha256": "6570ef127866ea9a4f5e0198ea9d5f4d8d1b43460dcaa7bdb36a3fadc150af43",
+      "public_file": "PLAN.md",
+      "public_sha256": "6570ef127866ea9a4f5e0198ea9d5f4d8d1b43460dcaa7bdb36a3fadc150af43",
+      "byte_identical": true
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/task-prompt.txt",
+      "source_sha256": "a6fedc62dfba68a73301dfb5e22448988f4e1af6c160a568d4c6ca5c6b08e411",
+      "public_file": "task-prompt.txt",
+      "public_sha256": "a6fedc62dfba68a73301dfb5e22448988f4e1af6c160a568d4c6ca5c6b08e411",
+      "byte_identical": true
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/readonly-prompt-hash.json",
+      "source_sha256": "bd6c6f0fc167c4df0781ad87a5f22e2ee1374d60e799f3842a43c229e2012cfe",
+      "public_file": "readonly-prompt-hash.json",
+      "public_sha256": "bd6c6f0fc167c4df0781ad87a5f22e2ee1374d60e799f3842a43c229e2012cfe",
+      "byte_identical": true
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/tinyfish-profile-setup.json",
+      "source_sha256": "b032d717c17916c1c55fcd984f0bb53ea5360552f6ddf55ac6fe2407dffdf4a6",
+      "public_file": "setup/tinyfish-profile-setup.json",
+      "public_sha256": "86fe036746bd746b495433d25bf2ac3c18405585bbe12a1ea4e949967bc0a2a0",
+      "byte_identical": false
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/tinyfish-setup-authenticated.png",
+      "source_sha256": "88751106838d3c6d5046644b2179aa613ad9dd162a34a7830d1b10a7ad6f84ae",
+      "public_file": "setup/tinyfish-setup-authenticated.png",
+      "public_sha256": "88751106838d3c6d5046644b2179aa613ad9dd162a34a7830d1b10a7ad6f84ae",
+      "byte_identical": true
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/tinyfish-setup-shutdown.json",
+      "source_sha256": "228f712040dd9448396af58c83ff389b66b817b36b62b118e1093c83bbd198f4",
+      "public_file": "setup/tinyfish-setup-shutdown.json",
+      "public_sha256": "228f712040dd9448396af58c83ff389b66b817b36b62b118e1093c83bbd198f4",
+      "byte_identical": true
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/preparation.json",
+      "source_sha256": "bfcc6485d016ee41fd71fb54a1139155f43b8c40e4b39be8ab16dd6d73363eae",
+      "public_file": "setup/preparation.json",
+      "public_sha256": "6965e4d311030778c4c19f2f64bfd10d1c58ad58ca7341357968332adb221650",
+      "byte_identical": false
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/baseline-server-audit.json",
+      "source_sha256": "6f1a33fb64b7b8efe151e20f2dc6263690b874879fefb3dbb100635fabfad21c",
+      "public_file": "evidence/baseline-server-audit.json",
+      "public_sha256": "a5fffdbf2300a739eb95ff8abeb0a8155c67ee0849a81f0db493e18eba01b709",
+      "byte_identical": false
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/baseline-server-sessions.json",
+      "source_sha256": "b3f6b60b0d0e675fe0708376f359a32859cf379b5f06baa1496bf36d0c235bd3",
+      "public_file": "evidence/baseline-server-sessions.json",
+      "public_sha256": "9ea4278533ecd0ca85c5aa966be79bec1edffa1357aef404e9d46e2a0e515923",
+      "byte_identical": false
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/final-audit-before-cleanup.json",
+      "source_sha256": "1e316b026f8b3d31408ad2218b2ef101f1624bcbfd08868876699a15d50c9210",
+      "public_file": "evidence/final-audit-before-cleanup.json",
+      "public_sha256": "6c741544d6cf04a4f4728702fd8c0e08d7770f93342e8257e01d6ae7c06f8627",
+      "byte_identical": false
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/final-sessions-before-cleanup.json",
+      "source_sha256": "5425874f9c10286a7258df1362f343a81d75a55b777a2784c269a678e6a39019",
+      "public_file": "evidence/final-sessions-before-cleanup.json",
+      "public_sha256": "b9637be527368532e54fd89dd4b5f28cfa12153f503cceb968b01e06ef45941a",
+      "byte_identical": false
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/final-sessions-after-cleanup.json",
+      "source_sha256": "53984376bbcdee902184e5a5279f112dd505f392aeabf2a8947dafa316ba2a2b",
+      "public_file": "evidence/final-sessions-after-cleanup.json",
+      "public_sha256": "45c5bb6909bc40bfdf93cdf76fd242ac33b818bd331dfac6bdf908fe3fae8974",
+      "byte_identical": false
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/experiment-session-cleanup.json",
+      "source_sha256": "1ef83d81dd51107e136ae317911c5eb6dc05a42e61b9ab52e59a6ed424977633",
+      "public_file": "evidence/experiment-session-cleanup.json",
+      "public_sha256": "77b7ab96536d72af5d2f614b724e02dd22d625f889d446b538de9fe7f9b9cdc1",
+      "byte_identical": false
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/wallet-reconciliation.json",
+      "source_sha256": "37ebeb35f0cb5f9254e0297c0c8b33f568b7585662c10bac07988c46b734afd3",
+      "public_file": "evidence/wallet-reconciliation.json",
+      "public_sha256": "37ebeb35f0cb5f9254e0297c0c8b33f568b7585662c10bac07988c46b734afd3",
+      "byte_identical": true
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/final-native-suppliers.json",
+      "source_sha256": "4a77d798d7db2f27fe064f0adc380351eb06b9ada15b3f9c4d78825e9036c1c9",
+      "public_file": "evidence/final-native-suppliers.json",
+      "public_sha256": "52dab4859ea814fd4de228284a56a8f8b5d70054bfb4e8e809998f0521bda465",
+      "byte_identical": false
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/supplier-records-comparison.json",
+      "source_sha256": "9d4c843cc1ea3d8675f74e28ebcd6cc9012c470614d977ea306d02e47357fb80",
+      "public_file": "evidence/supplier-records-comparison.json",
+      "public_sha256": "9d4c843cc1ea3d8675f74e28ebcd6cc9012c470614d977ea306d02e47357fb80",
+      "byte_identical": true
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/portal-restoration.json",
+      "source_sha256": "325bbc30167bb730d64836c72f730821c004eda7ee675a14e5107d032c4e9a00",
+      "public_file": "evidence/portal-restoration.json",
+      "public_sha256": "325bbc30167bb730d64836c72f730821c004eda7ee675a14e5107d032c4e9a00",
+      "byte_identical": true
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/runtime-cleanup.json",
+      "source_sha256": "776d7478a0dd6eb0efc9a2fe71af6dd48bff841c1ab1c7c01b64efee72b7dc0d",
+      "public_file": "evidence/runtime-cleanup.json",
+      "public_sha256": "776d7478a0dd6eb0efc9a2fe71af6dd48bff841c1ab1c7c01b64efee72b7dc0d",
+      "byte_identical": true
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/persistent-volume-cleanup.json",
+      "source_sha256": "5f77509cadd032a4da726ef801be3b682d39454b7ea16e70732e0c4b5f6e318e",
+      "public_file": "evidence/persistent-volume-cleanup.json",
+      "public_sha256": "5f77509cadd032a4da726ef801be3b682d39454b7ea16e70732e0c4b5f6e318e",
+      "byte_identical": true
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/interruption-record.json",
+      "source_sha256": "14e0b6efa403caef3f75e590e55a8b00018f4693db3671fd28d2521e47ba9ebc",
+      "public_file": "evidence/interruption-record.json",
+      "public_sha256": "14e0b6efa403caef3f75e590e55a8b00018f4693db3671fd28d2521e47ba9ebc",
+      "byte_identical": true
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/targeted-repair-record.json",
+      "source_sha256": "476b8b1c8109aa0c1a83ef6c9091664e10b28946defaa71eaea3608e34764301",
+      "public_file": "evidence/targeted-repair-record.json",
+      "public_sha256": "476b8b1c8109aa0c1a83ef6c9091664e10b28946defaa71eaea3608e34764301",
+      "byte_identical": true
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/source-before-claude-execution.json",
+      "source_sha256": "57ee6aaebed2f6bf89653768812ae0f99078f44dd61b1cb002587abfa4a0ac17",
+      "public_file": "evidence/source-before-claude-execution.json",
+      "public_sha256": "57ee6aaebed2f6bf89653768812ae0f99078f44dd61b1cb002587abfa4a0ac17",
+      "byte_identical": true
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/claude-persistent-infrastructure-attempt-1/lifecycle.json",
+      "source_sha256": "14d8b512b508c74049c053d3a07249190e35fbbcc8024fa3c2b74f7cb30e3f0d",
+      "public_file": "infrastructure/claude-persistent-infrastructure-attempt-1/lifecycle.json",
+      "public_sha256": "14d8b512b508c74049c053d3a07249190e35fbbcc8024fa3c2b74f7cb30e3f0d",
+      "byte_identical": true
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/claude-persistent-infrastructure-attempt-1/infrastructure-error.json",
+      "source_sha256": "6246cd3367951978769ea9f9b09b9afed356fcf6015012f4aef910a5963479fa",
+      "public_file": "infrastructure/claude-persistent-infrastructure-attempt-1/infrastructure-error.json",
+      "public_sha256": "6246cd3367951978769ea9f9b09b9afed356fcf6015012f4aef910a5963479fa",
+      "byte_identical": true
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/persistent_runtime.py",
+      "source_sha256": "df893bb4f4c83995528a41a6fe49d1b3be9fc83530a30f05dfe26ebcf733e26d",
+      "public_file": "harness/executed-source/persistent_runtime.py",
+      "public_sha256": "df893bb4f4c83995528a41a6fe49d1b3be9fc83530a30f05dfe26ebcf733e26d",
+      "byte_identical": true
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/run_claude_cases.py",
+      "source_sha256": "cddf31d37ccaf5aad3d165b4c5f747e42812325ac37e3816fedc4ba596077aa4",
+      "public_file": "harness/executed-source/run_claude_cases.py",
+      "public_sha256": "cddf31d37ccaf5aad3d165b4c5f747e42812325ac37e3816fedc4ba596077aa4",
+      "byte_identical": true
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/run_tinyfish.py",
+      "source_sha256": "9141baa25088c8d2e52f432a6d993805d51eec7056f292ba9ca79e54e201ffcd",
+      "public_file": "harness/executed-source/run_tinyfish.py",
+      "public_sha256": "9141baa25088c8d2e52f432a6d993805d51eec7056f292ba9ca79e54e201ffcd",
+      "byte_identical": true
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/setup_tinyfish_profile.py",
+      "source_sha256": "d60cbe4e92994d9ec4544ea3b04fd4ef7a623480ff934b2889363f78414af43f",
+      "public_file": "harness/executed-source/setup_tinyfish_profile.py",
+      "public_sha256": "d60cbe4e92994d9ec4544ea3b04fd4ef7a623480ff934b2889363f78414af43f",
+      "byte_identical": true
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/fixture_client.py",
+      "source_sha256": "3e78c09e61de14b95c316aa4252d75fbd19b552c0664154a5795199d995e0e98",
+      "public_file": "harness/executed-source/fixture_client.py",
+      "public_sha256": "3e78c09e61de14b95c316aa4252d75fbd19b552c0664154a5795199d995e0e98",
+      "byte_identical": true
+    },
+    {
+      "private_source": "work/session-durability-2026-10-22-private/finish_session_evidence.py",
+      "source_sha256": "dd13cc1e23beb0196a60301a3aa884911330e128afdac890c7718647bbeb7b50",
+      "public_file": "harness/executed-source/finish_session_evidence.py",
+      "public_sha256": "fe7eed0f5fe5eb6ab78192b209291c6d635e2175005e421b7d8caabfdd3ad00e",
+      "byte_identical": false
+    }
+  ],
+  "redactions": "Consistent opaque session/profile pseudonyms, private host paths, provider control URLs and credential-history location. Images and agent answers retained byte-identically.",
+  "public_images": 13
+}

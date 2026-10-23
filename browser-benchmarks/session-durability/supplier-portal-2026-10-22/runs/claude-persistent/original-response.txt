@@ -1,0 +1,10 @@
+```json
+{
+  "authenticated": true,
+  "page_heading": "Supplier dashboard",
+  "signed_in_account_label": "Signed in as Benchmark Buyer (Authenticated)",
+  "supplier_record_id": "SUP-C001"
+}
+```
+
+The browser was already signed in, so I didn't sign in or enter any credentials. The table also lists SUP-T001. I didn't submit any forms or edit anything.

@@ -19,3 +19,7 @@ Original responses, configuration, screenshots, failed attempts and verification
 ## Authenticated supplier workflows — 22 October 2026
 
 A separate twelve-attempt experiment retains three pilots and three additional uncapped attempts per provider. [Results, setup, costs and evidence](../browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/README.md) · [Offline verifier](../browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/verify_complete_experiment.py). Earlier benchmark evidence is unchanged.
+
+## Session durability without Vault — 22–23 October 2026
+
+One new diagnostic per configuration: TinyFish saved Profile **restored** authentication, Claude original disposable container **lost** it, and Claude with a separate persistent Firefox volume **restored** it. All three agents/configurations correctly reported the observed page. New total API usage value **$0.165142**, with no cost watchdog or prior benchmark rerun. One unsubmitted infrastructure failure and its repair are retained. [Experiment, original outputs and independent server checks](../browser-benchmarks/session-durability/supplier-portal-2026-10-22/README.md). Vault and expired-session reauthentication remain NOT TESTED. [Final article benchmark update](../article/FINAL-BENCHMARK-UPDATE.md).

@@ -1,0 +1,67 @@
+{
+  "started_at": "2026-10-22T22:30:54.969615+00:00",
+  "finished_at": "2026-10-22T22:31:10.119265+00:00",
+  "setup_seconds": 15.149735958009842,
+  "setup_session_hash": "session-durability-claude-existing",
+  "actions": [
+    {
+      "action": "key",
+      "is_error": false,
+      "typed_value_omitted": false
+    },
+    {
+      "action": "type",
+      "is_error": false,
+      "typed_value_omitted": true
+    },
+    {
+      "action": "key",
+      "is_error": false,
+      "typed_value_omitted": false
+    },
+    {
+      "action": "key",
+      "is_error": false,
+      "typed_value_omitted": false
+    },
+    {
+      "action": "type",
+      "is_error": false,
+      "typed_value_omitted": true
+    },
+    {
+      "action": "key",
+      "is_error": false,
+      "typed_value_omitted": false
+    },
+    {
+      "action": "type",
+      "is_error": false,
+      "typed_value_omitted": true
+    },
+    {
+      "action": "key",
+      "is_error": false,
+      "typed_value_omitted": false
+    },
+    {
+      "action": "key",
+      "is_error": false,
+      "typed_value_omitted": false
+    },
+    {
+      "action": "key",
+      "is_error": false,
+      "typed_value_omitted": false
+    }
+  ],
+  "login_success": true,
+  "password_retained_in_evidence": false,
+  "identity": {
+    "container_id": "076a9e363c9b8254b8185e901e243763d8f03e5ef3b11942b6aabddb0df80284",
+    "image_id": "sha256:195fda83d17d253dbb5d122583fd7d58cdfb13971e16f6fd7c1f73840b07f55d",
+    "resolution": "1024x768",
+    "architecture": "arm64",
+    "browser_version": "Mozilla Firefox 153.5.0esr"
+  }
+}

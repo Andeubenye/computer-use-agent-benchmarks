@@ -1,0 +1,8 @@
+{
+  "unchanged": true,
+  "records": 20,
+  "baseline_captured_at": "2026-10-22T19:55:56.559Z",
+  "comparison_basis": "Latest recovered pre-experiment owner Sites database snapshot; all fields compared; task data not given to agents",
+  "before_sha256": "3203960a5c0d2f2a518dd3fd6f33f776c37bd1dd8d20d9a5064d4b6b74af109e",
+  "after_sha256": "3203960a5c0d2f2a518dd3fd6f33f776c37bd1dd8d20d9a5064d4b6b74af109e"
+}

@@ -1,0 +1,7 @@
+{
+  "sha256": "a6fedc62dfba68a73301dfb5e22448988f4e1af6c160a568d4c6ca5c6b08e411",
+  "identical_for_three_configurations": true,
+  "max_seconds": 600,
+  "new_runs_requested": 3,
+  "artificial_spending_threshold": false
+}

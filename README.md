@@ -55,3 +55,7 @@ OpenAI completed all five desktop checklists. Claude completed document editing,
 ## Authenticated supplier workflows — 22 October 2026
 
 New uncapped supplier workflows: TinyFish **3/3**, Claude **3/3**; both reused login. Earlier three pilots each remain separate, including two TinyFish budget-censored attempts. [Twelve attempts and verification](browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/README.md) · [Article-ready findings](browser-benchmarks/authenticated-workflows/supplier-portal-2026-10-22/ARTICLE-READY.md). This is a new authenticated browser cohort, not a replacement for earlier browser or desktop results.
+
+## Session durability without Vault — 22–23 October 2026
+
+One new diagnostic per configuration: TinyFish saved Profile **restored** authentication, Claude original disposable container **lost** it, and Claude with a separate persistent Firefox volume **restored** it. All three agents/configurations correctly reported the observed page. New total API usage value **$0.165142**, with no cost watchdog or prior benchmark rerun. One unsubmitted infrastructure failure and its repair are retained. [Experiment, original outputs and independent server checks](browser-benchmarks/session-durability/supplier-portal-2026-10-22/README.md). Vault and expired-session reauthentication remain NOT TESTED. [Final article benchmark update](article/FINAL-BENCHMARK-UPDATE.md).

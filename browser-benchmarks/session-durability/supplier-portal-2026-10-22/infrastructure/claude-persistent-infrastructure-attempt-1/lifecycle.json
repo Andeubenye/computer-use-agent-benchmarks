@@ -1,0 +1,11 @@
+{
+  "configuration": "claude-persistent",
+  "started_at": "2026-10-22T23:23:00.921969+00:00",
+  "image_rebuilt": false,
+  "original_implementation_modified": false,
+  "persistent_profile": true,
+  "custom_spending_limit": null,
+  "final_owned_container_removed": true,
+  "total_setup_agent_and_collection_seconds": 0.37837633399999504,
+  "finished_at": "2026-10-22T23:23:01.300353+00:00"
+}

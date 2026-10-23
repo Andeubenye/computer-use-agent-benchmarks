@@ -13,8 +13,8 @@
     },
     {
       "path": "COSTS.md",
-      "bytes": 6510,
-      "sha256": "1d7cf6266155a96bf5511d62fbae26a930e76c11972f2543f568b2872483af37"
+      "bytes": 7279,
+      "sha256": "ac52e19ef2be63ac9c01f200916da6fda6e03632079962f3cc79a5a1773f87f7"
     },
     {
       "path": "LICENSE",
@@ -33,8 +33,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 5182,
-      "sha256": "c07b1322b3e316a53a1503f5eea43f649a4181f656ca5167951d5967e5a899b3"
+      "bytes": 5951,
+      "sha256": "ad7fdbec34cbf30bf3f3819e9ca201ffad6796ca32e5fec53065a713831279c4"
     },
     {
       "path": "REPRODUCING.md",
@@ -43,13 +43,13 @@
     },
     {
       "path": "RESULTS.md",
-      "bytes": 5423,
-      "sha256": "321ddd137bb6fac0b57e916534f7c60bcd8da35d8e2ca66ea8fb6e6603046dc4"
+      "bytes": 6192,
+      "sha256": "fef1a4270598942ce7d163e214ed01959a5ab3e2afcc5ffb2438de03fb332d72"
     },
     {
       "path": "agents/claude.md",
-      "bytes": 1744,
-      "sha256": "e8b7b268bc98f96ef75d401ec75727a26e88d698072e8f085db3dbeb7f308e92"
+      "bytes": 2519,
+      "sha256": "4e7cce030dfe6ab3e339ea83c175106d210a4331267643557c89f808b7d85825"
     },
     {
       "path": "agents/openai.md",
@@ -63,13 +63,18 @@
     },
     {
       "path": "agents/tinyfish.md",
-      "bytes": 2587,
-      "sha256": "e4da2caf32ee42584b0bbd2b1b88defa5ae4cb5364ba1a25e12cf627d9719643"
+      "bytes": 3362,
+      "sha256": "d407fe42cdd2a5181109eea06a41d59234bd3591004e1664fd97d5e31ff01820"
     },
     {
       "path": "agents/ui-tars.md",
       "bytes": 919,
       "sha256": "3af5d5c746a34853ebea9288643a8311a338acb5d55b4e41bb2b55e969bc4ee8"
+    },
+    {
+      "path": "article/FINAL-BENCHMARK-UPDATE.md",
+      "bytes": 9938,
+      "sha256": "fcd2a2e51693472b3aa4a0497d0f58edca7d28a9f1ddc31f54d42fa79e8e39b3"
     },
     {
       "path": "browser-benchmarks/README.md",
@@ -11477,6 +11482,491 @@
       "sha256": "2923b956ecc7922ac9de00e4498cc37f9fd617b8ea91e6535546ae2851f290a0"
     },
     {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/ARTICLE-READY.md",
+      "bytes": 3011,
+      "sha256": "8b4482f7e764ea7c72a5ecf7e4c890f2182964c9599299133f9fe68ea1dc70b0"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/COSTS.md",
+      "bytes": 1858,
+      "sha256": "3d66932959925eec7e653341490104f69dd25a462982e9a2bb07723ef013ca8d"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/METHODOLOGY.md",
+      "bytes": 5846,
+      "sha256": "67d5d57212effb03646f41257de6034bd04aedde5f22573b7c44f9d68a118070"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/PLAN.md",
+      "bytes": 2222,
+      "sha256": "6570ef127866ea9a4f5e0198ea9d5f4d8d1b43460dcaa7bdb36a3fadc150af43"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/README.md",
+      "bytes": 1833,
+      "sha256": "5b781f963e460705116456cefa457f77a1c18977736a9a4f2da45eff7ccc8bc8"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/RESULTS.md",
+      "bytes": 4493,
+      "sha256": "1e2a6dabc803f3432ca06154091de377eef186d231ec9928c9c2f1e6259b9059"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/SETUP.md",
+      "bytes": 5197,
+      "sha256": "f188fb599ec586cf3d1fe41e90145cf5b8ecc8abb759c5e8c8f237f1b42d53da"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/evidence/baseline-server-audit.json",
+      "bytes": 36270,
+      "sha256": "a5fffdbf2300a739eb95ff8abeb0a8155c67ee0849a81f0db493e18eba01b709"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/evidence/baseline-server-sessions.json",
+      "bytes": 1088,
+      "sha256": "9ea4278533ecd0ca85c5aa966be79bec1edffa1357aef404e9d46e2a0e515923"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/evidence/experiment-session-cleanup.json",
+      "bytes": 527,
+      "sha256": "77b7ab96536d72af5d2f614b724e02dd22d625f889d446b538de9fe7f9b9cdc1"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/evidence/final-audit-before-cleanup.json",
+      "bytes": 38873,
+      "sha256": "6c741544d6cf04a4f4728702fd8c0e08d7770f93342e8257e01d6ae7c06f8627"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/evidence/final-native-suppliers.json",
+      "bytes": 8388,
+      "sha256": "52dab4859ea814fd4de228284a56a8f8b5d70054bfb4e8e809998f0521bda465"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/evidence/final-sessions-after-cleanup.json",
+      "bytes": 1965,
+      "sha256": "45c5bb6909bc40bfdf93cdf76fd242ac33b818bd331dfac6bdf908fe3fae8974"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/evidence/final-sessions-before-cleanup.json",
+      "bytes": 1965,
+      "sha256": "b9637be527368532e54fd89dd4b5f28cfa12153f503cceb968b01e06ef45941a"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/evidence/interruption-record.json",
+      "bytes": 554,
+      "sha256": "14e0b6efa403caef3f75e590e55a8b00018f4693db3671fd28d2521e47ba9ebc"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/evidence/persistent-volume-cleanup.json",
+      "bytes": 56,
+      "sha256": "5f77509cadd032a4da726ef801be3b682d39454b7ea16e70732e0c4b5f6e318e"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/evidence/portal-restoration.json",
+      "bytes": 463,
+      "sha256": "325bbc30167bb730d64836c72f730821c004eda7ee675a14e5107d032c4e9a00"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/evidence/publication-safety-check.json",
+      "bytes": 249,
+      "sha256": "ffc7de73d9b220f0aad825c162a07f00fae530ac90d0de176a9be49f6284eef0"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/evidence/runtime-cleanup.json",
+      "bytes": 407,
+      "sha256": "776d7478a0dd6eb0efc9a2fe71af6dd48bff841c1ab1c7c01b64efee72b7dc0d"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/evidence/source-before-claude-execution.json",
+      "bytes": 582,
+      "sha256": "57ee6aaebed2f6bf89653768812ae0f99078f44dd61b1cb002587abfa4a0ac17"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/evidence/supplier-records-comparison.json",
+      "bytes": 407,
+      "sha256": "9d4c843cc1ea3d8675f74e28ebcd6cc9012c470614d977ea306d02e47357fb80"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/evidence/targeted-repair-record-addendum.json",
+      "bytes": 712,
+      "sha256": "fe73961f134707d93e372c7ee3553ef6a8b4b58aad67d17f473a97a93644337f"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/evidence/targeted-repair-record.json",
+      "bytes": 654,
+      "sha256": "476b8b1c8109aa0c1a83ef6c9091664e10b28946defaa71eaea3608e34764301"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/evidence/wallet-reconciliation.json",
+      "bytes": 254,
+      "sha256": "37ebeb35f0cb5f9254e0297c0c8b33f568b7585662c10bac07988c46b734afd3"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/harness/executed-source/finish_session_evidence.py",
+      "bytes": 2283,
+      "sha256": "fe7eed0f5fe5eb6ab78192b209291c6d635e2175005e421b7d8caabfdd3ad00e"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/harness/executed-source/fixture_client.py",
+      "bytes": 1855,
+      "sha256": "3e78c09e61de14b95c316aa4252d75fbd19b552c0664154a5795199d995e0e98"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/harness/executed-source/persistent_runtime.py",
+      "bytes": 2202,
+      "sha256": "df893bb4f4c83995528a41a6fe49d1b3be9fc83530a30f05dfe26ebcf733e26d"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/harness/executed-source/run_claude_cases.py",
+      "bytes": 8482,
+      "sha256": "cddf31d37ccaf5aad3d165b4c5f747e42812325ac37e3816fedc4ba596077aa4"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/harness/executed-source/run_tinyfish.py",
+      "bytes": 4014,
+      "sha256": "9141baa25088c8d2e52f432a6d993805d51eec7056f292ba9ca79e54e201ffcd"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/harness/executed-source/setup_tinyfish_profile.py",
+      "bytes": 4228,
+      "sha256": "d60cbe4e92994d9ec4544ea3b04fd4ef7a623480ff934b2889363f78414af43f"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/infrastructure/claude-persistent-infrastructure-attempt-1/infrastructure-error.json",
+      "bytes": 132,
+      "sha256": "6246cd3367951978769ea9f9b09b9afed356fcf6015012f4aef910a5963479fa"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/infrastructure/claude-persistent-infrastructure-attempt-1/lifecycle.json",
+      "bytes": 390,
+      "sha256": "14d8b512b508c74049c053d3a07249190e35fbbcc8024fa3c2b74f7cb30e3f0d"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/readonly-prompt-hash.json",
+      "bytes": 220,
+      "sha256": "bd6c6f0fc167c4df0781ad87a5f22e2ee1374d60e799f3842a43c229e2012cfe"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/results.json",
+      "bytes": 3935,
+      "sha256": "e231ac0549a9f0be450f4c8136d7e9a0353911f8a3bef8f6404d02fa88da376a"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/runs/claude-existing/authenticated-before-shutdown.png",
+      "bytes": 77550,
+      "sha256": "8ffd02de5f268a35cc39cf3e3d3eabb434bb1be9b1c32b35a45e28bd57b71e51"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/runs/claude-existing/independent-final.png",
+      "bytes": 57659,
+      "sha256": "08dd23ecd5bd74a6727f2dfeeb5f92c944061485f13a30921b21118bbdbdc1f2"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/runs/claude-existing/lifecycle.json",
+      "bytes": 1403,
+      "sha256": "bf032430f30f3a5d5154f7d66e25a6627835cddc58848b2ea2c023a01062b9a7"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/runs/claude-existing/native-evidence/20261022T223143Z-9e60191d/configuration.json",
+      "bytes": 766,
+      "sha256": "11fa5ff50e6448661a8b5dfa6bad9f04a74138d521e01a32feaa57bd882939b8"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/runs/claude-existing/native-evidence/20261022T223143Z-9e60191d/events.jsonl",
+      "bytes": 4963,
+      "sha256": "76196b5032610d18c82aeefeadc069c9262e5766e52c7ea8c72e5d916962459a"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/runs/claude-existing/native-evidence/20261022T223143Z-9e60191d/responses/001.json",
+      "bytes": 783,
+      "sha256": "8c9709ee45a77a2f4579eee3420736f9444da1e979149afa96f06c6529949fc9"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/runs/claude-existing/native-evidence/20261022T223143Z-9e60191d/responses/002.json",
+      "bytes": 1626,
+      "sha256": "97a7ced72de77b03abcf62ce5bc6cb2d0b34685b2b62826fc880e8231479c334"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/runs/claude-existing/native-evidence/20261022T223143Z-9e60191d/responses/003.json",
+      "bytes": 1367,
+      "sha256": "18c8aa0cdbbe99053f19c422a15a8c3e0947bc0883d18b6cfda6f83dbba53a8b"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/runs/claude-existing/native-evidence/20261022T223143Z-9e60191d/responses/004.json",
+      "bytes": 997,
+      "sha256": "44300cb53b8e380c3f46668059faf88f7ed014bd920fe743aa9edc1493f126ce"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/runs/claude-existing/native-evidence/20261022T223143Z-9e60191d/screenshots/0001-screenshot.png",
+      "bytes": 15408,
+      "sha256": "2332b0fb3479bbc0e560a89155cc2d1bdd93201db9d175aedcebca1ca8b09031"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/runs/claude-existing/native-evidence/20261022T223143Z-9e60191d/screenshots/0005-screenshot.png",
+      "bytes": 30740,
+      "sha256": "7fbe4bf969076cda8e5c66ec6c5232193fdf3c2b466b5619c18cad9a72429213"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/runs/claude-existing/native-evidence/20261022T223143Z-9e60191d/screenshots/0008-screenshot.png",
+      "bytes": 57659,
+      "sha256": "08dd23ecd5bd74a6727f2dfeeb5f92c944061485f13a30921b21118bbdbdc1f2"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/runs/claude-existing/native-evidence/20261022T223143Z-9e60191d/summary.json",
+      "bytes": 2448,
+      "sha256": "5c9a06f659d82d6d7bb56eaf0ff249a26dc2a68cd8682c06b17729588ca3a018"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/runs/claude-existing/native-evidence/20261022T223143Z-9e60191d/task.json",
+      "bytes": 1050,
+      "sha256": "a32c3b67aae1503541c25c9fd63918bfe8966da563949027d54f2bbb162197d9"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/runs/claude-existing/native-evidence/results.csv",
+      "bytes": 2053,
+      "sha256": "c1594d8ee46a5329c65f06d8045905c17f16ca254ffa8f9f327b910815744eee"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/runs/claude-existing/original-response.txt",
+      "bytes": 355,
+      "sha256": "1ab74f67b4ee47121e3d684731310a6bf06314b77c3ca03093c4ffb78b8eb819"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/runs/claude-existing/run-record.json",
+      "bytes": 2448,
+      "sha256": "5c9a06f659d82d6d7bb56eaf0ff249a26dc2a68cd8682c06b17729588ca3a018"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/runs/claude-existing/server-verification.json",
+      "bytes": 987,
+      "sha256": "8682a9c0f2f9e25e6150a406347f1fe666a27a8bc1f0d1eecb4b3dd0a0d48506"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/runs/claude-existing/setup.json",
+      "bytes": 1566,
+      "sha256": "eb45f8932a6c5883114557fb523e3d54bfb0b47cda9dcc8b9ea6677321f74568"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/runs/claude-existing/submitted-once.json",
+      "bytes": 165,
+      "sha256": "bea579b24befd24671c83e4c0c4439377f562d151604233f5cfc17e29b1f45ee"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/runs/claude-existing/task-prompt.txt",
+      "bytes": 934,
+      "sha256": "a6fedc62dfba68a73301dfb5e22448988f4e1af6c160a568d4c6ca5c6b08e411"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/runs/claude-persistent/authenticated-before-shutdown.png",
+      "bytes": 77550,
+      "sha256": "8ffd02de5f268a35cc39cf3e3d3eabb434bb1be9b1c32b35a45e28bd57b71e51"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/runs/claude-persistent/independent-final.png",
+      "bytes": 77348,
+      "sha256": "00b28088018272827db78d2a0fd6b913fac9567705a42333357e51bad964cd39"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/runs/claude-persistent/lifecycle.json",
+      "bytes": 2042,
+      "sha256": "1d3853891278ea15013702c0fe63abce27308fc80f45342f87c05bcc5e6ccb3d"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/runs/claude-persistent/native-evidence/20261022T232530Z-ee7af7c0/configuration.json",
+      "bytes": 766,
+      "sha256": "11fa5ff50e6448661a8b5dfa6bad9f04a74138d521e01a32feaa57bd882939b8"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/runs/claude-persistent/native-evidence/20261022T232530Z-ee7af7c0/events.jsonl",
+      "bytes": 4935,
+      "sha256": "3952e01a001d00eafb09e2a5afb11bcf9a64300928ebfc10051877e612fb3a58"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/runs/claude-persistent/native-evidence/20261022T232530Z-ee7af7c0/responses/001.json",
+      "bytes": 783,
+      "sha256": "734f0174796d4269356139a667f257a3a09dfd9d088e79af6586b5115adb460a"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/runs/claude-persistent/native-evidence/20261022T232530Z-ee7af7c0/responses/002.json",
+      "bytes": 1626,
+      "sha256": "887a6f0f6ef886bc0f1a24d8fc5d5fa64c778d061c9ce36cf94edb2d86c5e752"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/runs/claude-persistent/native-evidence/20261022T232530Z-ee7af7c0/responses/003.json",
+      "bytes": 1348,
+      "sha256": "551dd391076bff25df45dcca2e3e0dbe0a4917c92fd38cda6b4f853c58e2d4be"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/runs/claude-persistent/native-evidence/20261022T232530Z-ee7af7c0/responses/004.json",
+      "bytes": 991,
+      "sha256": "56eed64b6a00935e20ea109e907f9d4b93c9f4558cf37604a37e3902301d629b"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/runs/claude-persistent/native-evidence/20261022T232530Z-ee7af7c0/screenshots/0001-screenshot.png",
+      "bytes": 28267,
+      "sha256": "01111e29699676c077468543d4f2fb63bf6557440c3ae36d6761f79b1eb5369b"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/runs/claude-persistent/native-evidence/20261022T232530Z-ee7af7c0/screenshots/0005-screenshot.png",
+      "bytes": 35634,
+      "sha256": "0c655d5f1b9b50ea1e5c58880e7eee4d28b222bed7c31a5e6f8a29f0a3fdf9a6"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/runs/claude-persistent/native-evidence/20261022T232530Z-ee7af7c0/screenshots/0008-screenshot.png",
+      "bytes": 77348,
+      "sha256": "00b28088018272827db78d2a0fd6b913fac9567705a42333357e51bad964cd39"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/runs/claude-persistent/native-evidence/20261022T232530Z-ee7af7c0/summary.json",
+      "bytes": 2436,
+      "sha256": "776e373fe2f04d0e468fb3595f27bc6b6567cc38ecfd4b712f86b506b911b016"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/runs/claude-persistent/native-evidence/20261022T232530Z-ee7af7c0/task.json",
+      "bytes": 1050,
+      "sha256": "a32c3b67aae1503541c25c9fd63918bfe8966da563949027d54f2bbb162197d9"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/runs/claude-persistent/native-evidence/results.csv",
+      "bytes": 2041,
+      "sha256": "5ff3708bffa3f834a9690357c0576f802eb8e041e0de73427b6f818392288550"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/runs/claude-persistent/original-response.txt",
+      "bytes": 349,
+      "sha256": "f0a4afe81f46c8b92b19d45f3a8b09ede2c9b6173e95c14930f3db6f7bbc66f6"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/runs/claude-persistent/run-record.json",
+      "bytes": 2436,
+      "sha256": "776e373fe2f04d0e468fb3595f27bc6b6567cc38ecfd4b712f86b506b911b016"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/runs/claude-persistent/server-verification.json",
+      "bytes": 1265,
+      "sha256": "17fb6a969d4df665ec657742162ad21fa7bbc81cba578f97d4fc4111dfbdbce6"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/runs/claude-persistent/setup.json",
+      "bytes": 1568,
+      "sha256": "761acf052ab3b04f32d7a98dc25f1de2623b8dd941287daf765ac231e3a23078"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/runs/claude-persistent/submitted-once.json",
+      "bytes": 165,
+      "sha256": "8f6b23ce5db0f285a25f04321ea773e410367aaf668b3afc769bf33bec8168bc"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/runs/claude-persistent/task-prompt.txt",
+      "bytes": 934,
+      "sha256": "a6fedc62dfba68a73301dfb5e22448988f4e1af6c160a568d4c6ca5c6b08e411"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/runs/tinyfish/actual-submission-payload.json",
+      "bytes": 1337,
+      "sha256": "583463223648593782911a094141f7ff15b64e6f2f46e5ff848d51977c9e36a4"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/runs/tinyfish/controller-identity.json",
+      "bytes": 338,
+      "sha256": "3f364916d7013d7b129942abb693023dfc166197ae054954368360c966a64b53"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/runs/tinyfish/original-response.txt",
+      "bytes": 151,
+      "sha256": "36427282758083d023611d7bdb2c0f128f92fe956497580f9231e1e3d5aea1ce"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/runs/tinyfish/polls.json",
+      "bytes": 1177,
+      "sha256": "10c8dc0b44c29bb11691b3a014c2426ac0d6b2b401f11f87547e9a52ce757c4e"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/runs/tinyfish/provider-run.json",
+      "bytes": 2955,
+      "sha256": "f6439cb036284d9f105ada3ede624e97ccc3a14c1fcc8658fe3b54a650671315"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/runs/tinyfish/run-record.json",
+      "bytes": 652,
+      "sha256": "1bd752e603e51d2d90769a2d98c51c85da480fe1a803e7968d1b3ab32ea0455d"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/runs/tinyfish/screenshots/screenshot-000.jpg",
+      "bytes": 52296,
+      "sha256": "bf5118a33517477453d5d7630567996764760bb03d8a2adff04ffe1d6bf64592"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/runs/tinyfish/screenshots/screenshot-001.jpg",
+      "bytes": 52296,
+      "sha256": "bf5118a33517477453d5d7630567996764760bb03d8a2adff04ffe1d6bf64592"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/runs/tinyfish/server-verification.json",
+      "bytes": 1029,
+      "sha256": "6a4731ed77fb9c2967db0c293caf9d5b9cf9bf6e52adb2c7a8dd85a1431205a4"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/runs/tinyfish/submission.json",
+      "bytes": 114,
+      "sha256": "87e32f756e2bc0fa561d4c1f3c97ffaa5590730d90dfa6fae2b365272b164b09"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/runs/tinyfish/submitted-once.json",
+      "bytes": 1216,
+      "sha256": "b9ee1780bf075aca90efe1badebc85d9684f56acd91ad564366b5f6e00f01704"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/runs/tinyfish/task-prompt.txt",
+      "bytes": 934,
+      "sha256": "a6fedc62dfba68a73301dfb5e22448988f4e1af6c160a568d4c6ca5c6b08e411"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/setup/preparation.json",
+      "bytes": 574,
+      "sha256": "6965e4d311030778c4c19f2f64bfd10d1c58ad58ca7341357968332adb221650"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/setup/tinyfish-profile-setup.json",
+      "bytes": 1239,
+      "sha256": "86fe036746bd746b495433d25bf2ac3c18405585bbe12a1ea4e949967bc0a2a0"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/setup/tinyfish-setup-authenticated.png",
+      "bytes": 58246,
+      "sha256": "88751106838d3c6d5046644b2179aa613ad9dd162a34a7830d1b10a7ad6f84ae"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/setup/tinyfish-setup-shutdown.json",
+      "bytes": 273,
+      "sha256": "228f712040dd9448396af58c83ff389b66b817b36b62b118e1093c83bbd198f4"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/source-provenance.json",
+      "bytes": 35039,
+      "sha256": "f9f26bfaaf4337f3a81b57ee46fbc023a9f35baab7c2818f341ae4681137072b"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/task-prompt.txt",
+      "bytes": 934,
+      "sha256": "a6fedc62dfba68a73301dfb5e22448988f4e1af6c160a568d4c6ca5c6b08e411"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/verification.json",
+      "bytes": 262,
+      "sha256": "06b62dc34cbc61226b9ef66dc60855ac3c8aa9adbdbb4acdfb316ba1c640fbcb"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/verify_durability.py",
+      "bytes": 5800,
+      "sha256": "d8242a4c73f5a879a4b3a044e7a1f9cd1741340bf46d863a03a49e530df40e39"
+    },
+    {
+      "path": "browser-benchmarks/session-durability/supplier-portal-2026-10-22/visual-review.json",
+      "bytes": 411,
+      "sha256": "53dda66cabd171ac350107c1f7cdf67a213e279ba614cb409dfc2ccfc1c0df04"
+    },
+    {
       "path": "browser-benchmarks/tasks/error-recovery.md",
       "bytes": 4056,
       "sha256": "efa095d5746696452035d9c544408c5d32142fb3c3b365369c7956e693c1090f"
@@ -15553,8 +16043,8 @@
     },
     {
       "path": "verification/prompt-integrity.json",
-      "bytes": 10525,
-      "sha256": "31878a467753c5e60e7285e39e6d2a9a11f943ead4391493a2f5e116bda8703a"
+      "bytes": 11327,
+      "sha256": "aa027fbf370d4868dd27f7c0bd1ab79d7849dad86ba19d70cfb5cc22c84bd417"
     },
     {
       "path": "verification/runtime-prompt-variants.json",
@@ -15563,8 +16053,8 @@
     },
     {
       "path": "verification/scripts/validate_package.py",
-      "bytes": 9810,
-      "sha256": "531a266e07a277cb53112ab459491402fa8befcbbc6d63703f53583430879879"
+      "bytes": 10518,
+      "sha256": "5abf7c26fc7c543695e06bd8707fdb7ef28da1cbac8f360f0bb68142a61a2cc3"
     },
     {
       "path": "verification/source-provenance.json",

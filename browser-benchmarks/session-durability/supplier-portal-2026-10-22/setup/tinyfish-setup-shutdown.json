@@ -1,0 +1,8 @@
+{
+  "utc": "2026-10-22T21:44:22.038600+00:00",
+  "setup_python_exited": true,
+  "credential_setup_broker_stopped": true,
+  "local_execution_vm_stopped": true,
+  "new_agent_controller_not_yet_started": true,
+  "no_portal_cookie_or_password_passed_to_new_controller": true
+}

@@ -1,0 +1,6 @@
+{
+  "page_heading": "Supplier dashboard",
+  "authenticated": true,
+  "supplier_record_id": "SUP-C001",
+  "signed_in_account_label": "Benchmark Buyer"
+}

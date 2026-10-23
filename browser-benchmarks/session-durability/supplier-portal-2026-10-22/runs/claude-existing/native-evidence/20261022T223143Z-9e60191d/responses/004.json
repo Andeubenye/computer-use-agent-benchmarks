@@ -1,0 +1,29 @@
+{
+  "id": "msg_011CgJ4yMdYcUGS8X2LF8BCS",
+  "content": [
+    {
+      "text": "The browser isn't authenticated. Opening the dashboard URL redirected to a sign-in page, so I stopped there. I didn't enter credentials or submit anything.\n\n```json\n{\n  \"authenticated\": false,\n  \"sign_in_heading\": \"Sign in to supplier review\",\n  \"redirected_url_path\": \"/login?expired=1\",\n  \"notice_shown\": \"Your session has expired. Sign in again.\"\n}\n```",
+      "type": "text"
+    }
+  ],
+  "model": "claude-sonnet-5-5",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "type": "message",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 8568,
+    "output_tokens": 140,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  }
+}

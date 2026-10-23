@@ -1,0 +1,13 @@
+{
+  "observed_at": "2026-10-22T23:24:41.362419+00:00",
+  "completed_paid_runs_not_repeated": [
+    "tinyfish",
+    "claude-existing"
+  ],
+  "persistent_paid_submission_before_interruption": false,
+  "controller_process_unavailable": true,
+  "colima_observed_stopped": true,
+  "root_cause": "UNKNOWN; process/RAM state unavailable after execution-environment interruption",
+  "repair": "Persistent setup failed before model submission; remove owned container and dedicated volume, verify bounded permission helper succeeds, start clean same image; probable stale container conflict, exact stderr unavailable",
+  "prior_empty_checkpoint_preserved": true
+}

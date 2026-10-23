@@ -1,0 +1,8 @@
+{
+  "observed_credit_delta_usd": 0.048,
+  "new_web_agent_step_estimate_usd": 0.048,
+  "setup_observed_delta_usd": 0,
+  "invoice_reconciled": false,
+  "account_balance_or_identifier_published": false,
+  "other_account_activity_cannot_be_excluded": true
+}

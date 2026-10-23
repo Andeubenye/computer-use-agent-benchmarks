@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "credentials_printed_or_saved": false,
+  "files_scanned": 3225,
+  "decompressed_members_scanned": 606,
+  "history_blobs_scanned": 2541,
+  "exact_secret_values_checked": 20,
+  "matched_files": [],
+  "new_provider_requests": 0
+}

@@ -1,0 +1,7 @@
+{
+  "utc": "2026-10-22T23:25:30.649644+00:00",
+  "model": "claude-sonnet-5-5",
+  "tool": "computer_toolset_20260801",
+  "max_seconds": 600,
+  "spending_cap": null
+}
