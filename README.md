@@ -1,5 +1,7 @@
 # Computer-use agent benchmarks
 
+**Current editorial submission:** [Final article and curated evidence package](final-editorial-package-2026-10-23/FINAL-ARTICLE.md) · [Editor notes](final-editorial-package-2026-10-23/EDITOR-NOTES.md) · [Download the single submission ZIP](final-editorial-package-2026-10-23.zip). This package supersedes earlier article submissions. Historical benchmark reports, original results and raw evidence below remain unchanged; no new experiment was run for the editorial revision.
+
 Supporting evidence for Vera Agiang’s Manicule article, **“Best Computer Use Agents in 2026: Tested and Compared by Use Case.”** This is a small hands-on case study, not a general agent ranking.
 
 I began with website tasks, then tested native desktop file and application workflows. The original experiment covered six agents. This public edition presents five in scope from that existing work; TinyFish was part of the original browser batch, not a separately conducted replacement test. **TinyFish is a browser agent.**

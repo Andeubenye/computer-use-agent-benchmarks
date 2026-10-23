@@ -33,8 +33,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 5951,
-      "sha256": "ad7fdbec34cbf30bf3f3819e9ca201ffad6796ca32e5fec53065a713831279c4"
+      "bytes": 6430,
+      "sha256": "3fe0cd22b1303130b52058a19d00fd8acb6686a642bb2298113ddbdf81cdc612"
     },
     {
       "path": "REPRODUCING.md",
@@ -15990,6 +15990,76 @@
       "path": "desktop-benchmarks/verification/visual-review.json",
       "bytes": 1637,
       "sha256": "3294a657c374a6340c3d3bee32667d579012254efee638a73cd3dfec58049146"
+    },
+    {
+      "path": "final-editorial-package-2026-10-23/EDITOR-NOTES.md",
+      "bytes": 3238,
+      "sha256": "0243c21e914f5f82fb4bdf8e0dee269f907570ff267457dbdf966f0c9b5a3e17"
+    },
+    {
+      "path": "final-editorial-package-2026-10-23/FINAL-ARTICLE.md",
+      "bytes": 23177,
+      "sha256": "7f1a54cb7a4f356e38087830577fa7ee258c72f69f82ef65750daa2e79a31ea9"
+    },
+    {
+      "path": "final-editorial-package-2026-10-23/RESULTS-AND-SOURCES.md",
+      "bytes": 24398,
+      "sha256": "84391caf58e2e954661b01f812d93d188226c760f2b92f5162acd59789dd8d08"
+    },
+    {
+      "path": "final-editorial-package-2026-10-23/SELECTED-VISUALS/01-openai-reopened-sales-report.png",
+      "bytes": 56184,
+      "sha256": "a098acd79c8f61e3e1d715f54dcc815aa8a8de35af604ac51426d0d35ca4b254"
+    },
+    {
+      "path": "final-editorial-package-2026-10-23/SELECTED-VISUALS/02-claude-verified-form.png",
+      "bytes": 66177,
+      "sha256": "9e4093abf9c5929492d99c970920ad8190b19f06386d75db4c5e67842da9af68"
+    },
+    {
+      "path": "final-editorial-package-2026-10-23/SELECTED-VISUALS/03-sai-interrupted-checklist.jpg",
+      "bytes": 138650,
+      "sha256": "1b1ff909cbbb575b7a9ef64376eb5a01be04e913c51b389e9d48fa5fc602fb03"
+    },
+    {
+      "path": "final-editorial-package-2026-10-23/SELECTED-VISUALS/04-ui-tars-historical-token-error.png",
+      "bytes": 382265,
+      "sha256": "3ad8ad0f973fefe6cb1c7e54d35e8c7642db39c162be41dc5d6d4befd2d2b14d"
+    },
+    {
+      "path": "final-editorial-package-2026-10-23/SELECTED-VISUALS/05-tinyfish-original-incomplete-form.jpg",
+      "bytes": 70870,
+      "sha256": "e69498f6752e11c4241384d048beb1cfdbe845cf594fc8f210256c93a979d488"
+    },
+    {
+      "path": "final-editorial-package-2026-10-23/SELECTED-VISUALS/06-authenticated-supplier-save.png",
+      "bytes": 88956,
+      "sha256": "50cfb1a3ce1e314e16c4c6b8d6da15aa9f85ee2f68b202accd970429063bd81d"
+    },
+    {
+      "path": "final-editorial-package-2026-10-23/SELECTED-VISUALS/07-audited-execution-architecture.png",
+      "bytes": 141515,
+      "sha256": "7de1ef850db1bfb8ba904cd6562b46e5433a160e744ff12f090b436a19a917b6"
+    },
+    {
+      "path": "final-editorial-package-2026-10-23/SELECTED-VISUALS/08-session-durability-comparison.png",
+      "bytes": 381693,
+      "sha256": "6aed9bc0d1f43e54343de7b044b5f44fde7fabbd8479c9a5354a0516c8e8b36d"
+    },
+    {
+      "path": "final-editorial-package-2026-10-23/SELECTED-VISUALS/CAPTIONS.md",
+      "bytes": 7953,
+      "sha256": "ec8ea93692fd02ad02308b04a3d9cd97f2fb979033f46ffb80e3c20caaec3c9a"
+    },
+    {
+      "path": "final-editorial-package-2026-10-23/TEST-EVIDENCE-GUIDE.md",
+      "bytes": 25122,
+      "sha256": "0229b842911af11003d76a1b5093d547fda886cd108e02da7d76d6110eac0ebc"
+    },
+    {
+      "path": "final-editorial-package-2026-10-23.zip",
+      "bytes": 1159868,
+      "sha256": "dc6d10b9f12759470770341fb7068810d345338ef75cde854db9d7b0f5f90a16"
     },
     {
       "path": "verification/README.md",
